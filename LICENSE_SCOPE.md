@@ -1,10 +1,15 @@
 # License scope
 
-Licenses are recorded per component. Preserve the LICENSE, LICENSES and NOTICE files accompanying the code or data you use.
+The [Zenodo record](https://doi.org/10.5281/zenodo.22084007), published on 7 November 2026, states the following licenses for its deposited materials:
 
-- The historical original code includes an MIT license and a CC BY 4.0 notice with the scope described in `historical/LICENSE_SCOPE.md`.
-- The confirmation and coupling components include the upstream process-simulator license and attribution in their vendor directories.
-- The Rust comparison retains the notices accompanying its upstream source and WebAssembly artifact.
-- Third-party datasets and source code keep their original terms.
+| Material | License |
+| --- | --- |
+| Study data, tables and documentation | CC BY 4.0 |
+| Code written for the study | MIT License |
+| Third-party software and data | Their original licenses and accompanying notices |
 
-The files in `paper/` are scientific manuscript materials. No repository-wide license is applied to those documents or to components that do not provide their own license.
+These terms apply to the corresponding archived materials reproduced in this repository. Preserve their copyright, license and attribution notices. The Python `tep` source and the TEP-Rust components retain their own terms.
+
+Data S1 is part of the deposited study data. Manuscript and figure files, and repository-only additions, retain any separately stated terms; this summary does not assign them an additional license.
+
+Some original component documents describe their distribution status before the Zenodo publication. Consult the published record and the notices accompanying each component for its applicable terms.

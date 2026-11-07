@@ -32,4 +32,4 @@ See [REPRODUCTION.md](REPRODUCTION.md) for the checked calculations and their co
 
 The main numerical checks cover 68 supplementary tables and 6,110 normalized table cells, the confirmation-panel event counts, the Fault 9 saved-endpoint comparisons, the saved-score coupling analyses, and the three supplementary source analyses. These checks use the distributed scientific files; complete process-trajectory regeneration requires the additional raw-data archives identified in the component instructions.
 
-This repository has an independent Git history. The research development repositories remain separate. The manuscript files retain their source bytes; their repository links refer to the version in which they were written.
+Study data and archived analysis materials are published on [Zenodo (DOI: 10.5281/zenodo.22084007)](https://doi.org/10.5281/zenodo.22084007). The code, saved results and reproduction instructions are available in [tep-fault-detection-study](https://github.com/YangHan89966/tep-fault-detection-study).
