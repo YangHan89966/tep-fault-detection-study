@@ -14,7 +14,7 @@
     {
       "path": "BUNDLES.json",
       "size_bytes": 639100,
-      "sha256": "c998d4b2255560bfdbf38754a5486dedd3d6c3d1119a2df33e85827466f1ee5b"
+      "sha256": "b60ae7b93520c62a0e1e1dfe1e0f17a69a395fddab28e0e7ffc6b6caf3607d00"
     },
     {
       "path": "DATA_AVAILABILITY.md",
@@ -15509,17 +15509,17 @@
     {
       "path": "bundles/assets_09.zip.part002",
       "size_bytes": 4194304,
-      "sha256": "a447a58bc9795f83605560981f95825ae5b95c3f3c87f6402e9b008687e4787d"
+      "sha256": "6f5ef94000ded40b4feabacf3c0b4bd1bff57ccab54d68f8fa58969bd8bb569c"
     },
     {
       "path": "bundles/assets_09.zip.part003",
       "size_bytes": 4194304,
-      "sha256": "35f2bb134a5b1ec9405b4500c97c5cd68747c7fb8d3505188c7b72de3ac7d005"
+      "sha256": "fb6f016f878e75a0e159e5edd584337711bf21ec845e37a82dde4fa3fc805841"
     },
     {
       "path": "bundles/assets_09.zip.part004",
-      "size_bytes": 1593244,
-      "sha256": "0dc910efad312a0553e17922448d7b07a4818c76ca5837824180a14fec12a625"
+      "size_bytes": 1612453,
+      "sha256": "9b19a14250e84704729ddf10d258a457592dc7b4b36e09a546f721c6ef17c5dc"
     },
     {
       "path": "bundles/assets_10.zip.part001",
@@ -26463,8 +26463,8 @@
     },
     {
       "path": "paper/Manuscript.docx",
-      "size_bytes": 3696204,
-      "sha256": "e2d235bef8125bc15e173105bbf54eef84aa89f03d76e555913a74e65a06fdbf"
+      "size_bytes": 4242306,
+      "sha256": "a876aaa3b395092d295bd6c545ad3deafdafe9e39282c3f138d84b53c14bf3de"
     },
     {
       "path": "paper/README.md",
@@ -26474,12 +26474,12 @@
     {
       "path": "paper/SOURCE_MANIFEST.json",
       "size_bytes": 31301,
-      "sha256": "7157b7b980cb553dd3a48f2b73566d2e53d67523da5ee51f400748b8466382b4"
+      "sha256": "dba8da00a0c08719998256f770b6b1a23c6ef1f4aabcb3dfa9065b7b9a156ef5"
     },
     {
       "path": "paper/Supplementary_Information.docx",
-      "size_bytes": 5949908,
-      "sha256": "12ded31bd7337d5e5e9d43a2390f1e0ebf9379c745bacda89165f6df9454589a"
+      "size_bytes": 7003503,
+      "sha256": "d9a76a5316e68a480f2fd6d57e7d8553b17b4f87c09863a4884d8ccdf03b0786"
     },
     {
       "path": "requirements.txt",
@@ -28619,7 +28619,7 @@
     {
       "path": "verify_paper.py",
       "size_bytes": 5612,
-      "sha256": "f2135043fce2975972d3294587c415e501f023abd97935b877d8715089f80758"
+      "sha256": "44c1803c5e8f6e39c808892b72846ffed9822a0e2cd2b75a40af1a1128718a14"
     },
     {
       "path": "verify_repository.py",
