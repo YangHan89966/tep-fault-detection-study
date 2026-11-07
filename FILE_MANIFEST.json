@@ -14,12 +14,12 @@
     {
       "path": "BUNDLES.json",
       "size_bytes": 639100,
-      "sha256": "f77470b07ed1bc99c172b7667acd7a06f7304c370566135aa871e4257ca56e2b"
+      "sha256": "c998d4b2255560bfdbf38754a5486dedd3d6c3d1119a2df33e85827466f1ee5b"
     },
     {
       "path": "DATA_AVAILABILITY.md",
-      "size_bytes": 1435,
-      "sha256": "2a584c3a67a99d04da442e8be770b6d3424d455c4824102244d045a18d5d45c9"
+      "size_bytes": 1441,
+      "sha256": "66fec3cbac83ff492047ac8a89e498312ae4a831ed554bf38e1bbfa5d1046b18"
     },
     {
       "path": "LICENSE_SCOPE.md",
@@ -28,16 +28,16 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 2667,
-      "sha256": "0f6b53504ea8b7c6a293db78ae4a1650e17757260fd7b36f3da3beebfac8faac"
+      "size_bytes": 4542,
+      "sha256": "895b90a284400ef6023beafc6b98e764a50522d47809fdbb178fbccfa9a6d13a"
     },
     {
       "path": "REPRODUCTION.md",
-      "size_bytes": 3677,
-      "sha256": "cf03fd37041c11960195ded6b1f5c081e85661c8ddf0f0d49054725852ecf553"
+      "size_bytes": 3673,
+      "sha256": "50a1ab161f53709f9d9a97b6463a8caae24788af592c989d4165486e22984da9"
     },
     {
-      "path": "analyses/detection_far/00_\u7ed3\u679c\u4e0e\u4f7f\u7528\u8bf4\u660e.txt",
+      "path": "analyses/detection_far/00_结果与使用说明.txt",
       "size_bytes": 6550,
       "sha256": "cda3dc810b93fcef8eda6c5474e2231681b9ba5435c4d47b4ac649e4d3d36206"
     },
@@ -347,7 +347,7 @@
       "sha256": "6348ae5d0ea46beea57326d7ad3d88dfade53b23392a0c1651aabee5d0b3c76b"
     },
     {
-      "path": "analyses/f15_xmeas17/00_\u7ed3\u679c\u8bf4\u660e.txt",
+      "path": "analyses/f15_xmeas17/00_结果说明.txt",
       "size_bytes": 5080,
       "sha256": "28f6e516cf6abccd91c9456c210475199eae776310196de77037102c98f7e964"
     },
@@ -9622,7 +9622,7 @@
       "sha256": "eb0e0c2c3c23e484c767fac2e27291fa21e111d9337ae91505d88b7ec756dfcf"
     },
     {
-      "path": "analyses/fault09_relearning/00_\u8fd0\u884c\u8bf4\u660e.txt",
+      "path": "analyses/fault09_relearning/00_运行说明.txt",
       "size_bytes": 3099,
       "sha256": "cd50cc84ee447e74012e026d9921fc542a5fa2754ff2a184c577bc621f485186"
     },
@@ -15509,17 +15509,17 @@
     {
       "path": "bundles/assets_09.zip.part002",
       "size_bytes": 4194304,
-      "sha256": "0bbf749a4b1bd487c922f5617c467ab8afa76270ca7d6be6e08da000fba922ee"
+      "sha256": "a447a58bc9795f83605560981f95825ae5b95c3f3c87f6402e9b008687e4787d"
     },
     {
       "path": "bundles/assets_09.zip.part003",
       "size_bytes": 4194304,
-      "sha256": "d3998423871b30c775327f45c13a0cc1edfd2e5a2a2c9ecac979736ae8f760dd"
+      "sha256": "35f2bb134a5b1ec9405b4500c97c5cd68747c7fb8d3505188c7b72de3ac7d005"
     },
     {
       "path": "bundles/assets_09.zip.part004",
       "size_bytes": 1593244,
-      "sha256": "9cec475a2648597ce94a2075c3952725b030c41ac3b1aeabb5a0d5ea08e26cb1"
+      "sha256": "0dc910efad312a0553e17922448d7b07a4818c76ca5837824180a14fec12a625"
     },
     {
       "path": "bundles/assets_10.zip.part001",
@@ -26463,23 +26463,23 @@
     },
     {
       "path": "paper/Manuscript.docx",
-      "size_bytes": 3696208,
-      "sha256": "bb985ff886e70cae81649e16a902b872a66511d0ccb202dd6bfa4ed66f8e0ab6"
+      "size_bytes": 3696204,
+      "sha256": "e2d235bef8125bc15e173105bbf54eef84aa89f03d76e555913a74e65a06fdbf"
     },
     {
       "path": "paper/README.md",
-      "size_bytes": 1174,
-      "sha256": "772aed3069e5e6a2cf3918295ec404b256e65d564f3b84fe32cf21d724c6f742"
+      "size_bytes": 1009,
+      "sha256": "6944c657a9ece69522f7436d159f0151f9547d68fd045c1b478c84ae41b2579b"
     },
     {
       "path": "paper/SOURCE_MANIFEST.json",
       "size_bytes": 31301,
-      "sha256": "abe053dc17793e381bb40013ef6c1172bde75f8d35c4f85604de16990c15f183"
+      "sha256": "7157b7b980cb553dd3a48f2b73566d2e53d67523da5ee51f400748b8466382b4"
     },
     {
       "path": "paper/Supplementary_Information.docx",
       "size_bytes": 5949908,
-      "sha256": "f1820d55787c08d6cfc572083a4a46b5fc0a10ccec9ba8c9b30a9b53352ffeb4"
+      "sha256": "12ded31bd7337d5e5e9d43a2390f1e0ebf9379c745bacda89165f6df9454589a"
     },
     {
       "path": "requirements.txt",
@@ -28618,8 +28618,8 @@
     },
     {
       "path": "verify_paper.py",
-      "size_bytes": 5616,
-      "sha256": "163c85a8e2aa5c50e28aa1bff66603835928f88e697f05e66576e9f6ab5e825c"
+      "size_bytes": 5612,
+      "sha256": "f2135043fce2975972d3294587c415e501f023abd97935b877d8715089f80758"
     },
     {
       "path": "verify_repository.py",
