@@ -18,18 +18,18 @@
     },
     {
       "path": "DATA_AVAILABILITY.md",
-      "size_bytes": 1434,
-      "sha256": "4f4df6fa68806d6b04efc36105b587b0ea3314137365c358bfc3a7370f65e9c1"
+      "size_bytes": 1435,
+      "sha256": "2a584c3a67a99d04da442e8be770b6d3424d455c4824102244d045a18d5d45c9"
     },
     {
       "path": "LICENSE_SCOPE.md",
-      "size_bytes": 754,
-      "sha256": "1c9b9977156945838849be05179cfd8aa9cc9a92908b06c408f1592078105171"
+      "size_bytes": 1013,
+      "sha256": "c9b1e03adfe8d3287eecf869bb2f66f941156e2f4ed374fdc5bfc94d2a0396c5"
     },
     {
       "path": "README.md",
-      "size_bytes": 2589,
-      "sha256": "8bbc53adc06f4fb5b188982afe8ea2f02231101ff66d7e3892a33f2a3fa36f88"
+      "size_bytes": 2667,
+      "sha256": "0f6b53504ea8b7c6a293db78ae4a1650e17757260fd7b36f3da3beebfac8faac"
     },
     {
       "path": "REPRODUCTION.md",
@@ -37,7 +37,7 @@
       "sha256": "cf03fd37041c11960195ded6b1f5c081e85661c8ddf0f0d49054725852ecf553"
     },
     {
-      "path": "analyses/detection_far/00_结果与使用说明.txt",
+      "path": "analyses/detection_far/00_\u7ed3\u679c\u4e0e\u4f7f\u7528\u8bf4\u660e.txt",
       "size_bytes": 6550,
       "sha256": "cda3dc810b93fcef8eda6c5474e2231681b9ba5435c4d47b4ac649e4d3d36206"
     },
@@ -347,7 +347,7 @@
       "sha256": "6348ae5d0ea46beea57326d7ad3d88dfade53b23392a0c1651aabee5d0b3c76b"
     },
     {
-      "path": "analyses/f15_xmeas17/00_结果说明.txt",
+      "path": "analyses/f15_xmeas17/00_\u7ed3\u679c\u8bf4\u660e.txt",
       "size_bytes": 5080,
       "sha256": "28f6e516cf6abccd91c9456c210475199eae776310196de77037102c98f7e964"
     },
@@ -9622,7 +9622,7 @@
       "sha256": "eb0e0c2c3c23e484c767fac2e27291fa21e111d9337ae91505d88b7ec756dfcf"
     },
     {
-      "path": "analyses/fault09_relearning/00_运行说明.txt",
+      "path": "analyses/fault09_relearning/00_\u8fd0\u884c\u8bf4\u660e.txt",
       "size_bytes": 3099,
       "sha256": "cd50cc84ee447e74012e026d9921fc542a5fa2754ff2a184c577bc621f485186"
     },
@@ -26468,8 +26468,8 @@
     },
     {
       "path": "paper/README.md",
-      "size_bytes": 788,
-      "sha256": "dab6bb69b34c19f4ffc549140f1c953deb59e13a99af3ba0ba6eaf73f4c0fd1c"
+      "size_bytes": 1174,
+      "sha256": "772aed3069e5e6a2cf3918295ec404b256e65d564f3b84fe32cf21d724c6f742"
     },
     {
       "path": "paper/SOURCE_MANIFEST.json",
