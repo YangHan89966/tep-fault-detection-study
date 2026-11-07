@@ -1,0 +1,17 @@
+section,key,comparison,estimate,ci_low,ci_high,unit,note
+primary_summary,alarm_delay_median,Proposed Top-5,48.0,15.0,93.0,minutes,endpoint rank 2
+primary_summary,normal_run_far,Proposed Top-5,4.376470588235295,3.5764705882352947,5.2,percent,endpoint rank 3
+primary_summary,point_detection_mean,Proposed Top-5,95.35488235294116,90.74389705882352,98.15536838235292,percent,endpoint rank 5
+primary_summary,point_detection_median,Proposed Top-5,98.024,95.77,99.422,percent,endpoint rank 2
+primary_summary,run_detection_mean,Proposed Top-5,100.0,100.0,100.0,percent,endpoint rank 1
+primary_summary,run_detection_median,Proposed Top-5,100.0,100.0,100.0,percent,endpoint rank 1
+finite_run,faults_250_of_250_detected,Proposed Top-5,17.0,,,faults,17/17 reserved faults
+finite_run,fault_specific_250_of_250_exact_lower_bound,Proposed Top-5,98.53528113643196,,,percent,two-sided Clopper-Pearson lower bound
+sensitivity,allrun_penalized_delay_median,Proposed Top-5,48.0,15.0,93.0,minutes,2400-min miss penalty
+sensitivity,crossed_macro_normal_far,Proposed Top-5,4.37647058823529,3.1058823529411703,5.76470588235294,percent,fault detectors and shared normal runs resampled independently
+holm_pairwise,normal_run_far,Proposed vs T²-CUSUM,3.529411764705883,2.7058823529411766,4.329411764705882,percentage points,Holm p=0.0020453484; baseline minus proposed; positive favors proposed
+holm_pairwise,normal_run_far,Proposed vs Joint CUSUM,2.4235294117647066,1.6000000000000008,3.2235294117647064,percentage points,Holm p=0.0034115764; baseline minus proposed; positive favors proposed
+holm_pairwise,point_detection,Proposed vs T²-CUSUM,5.141558823529411,-1.92597794117647,12.951472058823516,percentage points,Holm p=0.039520264; proposed minus baseline; positive favors proposed
+holm_pairwise,point_detection,Proposed vs Family Top-1,-0.6165000000000015,-0.9542676470588252,-0.3036132352941204,percentage points,Holm p=0.0080566406; proposed minus baseline; positive favors proposed
+holm_pairwise,alarm_delay,Proposed vs T²-CUSUM,152.55882352941177,41.02941176470589,304.5022058823528,minutes,Holm p=0.0012817383; baseline minus proposed; positive favors proposed
+holm_pairwise,alarm_delay,Proposed vs Family Top-1,-15.529411764705882,-23.11764705882353,-8.823529411764707,minutes,Holm p=0.0041515174; baseline minus proposed; positive favors proposed

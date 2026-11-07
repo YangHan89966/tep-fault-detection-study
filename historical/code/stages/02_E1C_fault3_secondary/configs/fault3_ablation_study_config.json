@@ -1,0 +1,68 @@
+{
+    "script": "scripts/06_ablation_study.py",
+    "purpose": "Ablation study to verify the necessity of local residual selection, direction unification, and CUSUM accumulation.",
+    "fault_id": 3,
+    "fault_start_sample": 161,
+    "sampling_interval_min": 3,
+    "pca_cumvar_target": 0.95,
+    "selected_n_pcs": 36,
+    "cumulative_explained_variance": 0.9581997268001302,
+    "selected_variables": [
+        "xmeas_21",
+        "xmeas_2",
+        "xmv_1",
+        "xmv_10",
+        "xmeas_9"
+    ],
+    "selected_residual_variables": [
+        "res_xmeas_21",
+        "res_xmeas_2",
+        "res_xmv_1",
+        "res_xmv_10",
+        "res_xmeas_9"
+    ],
+    "selected_signs": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1
+    ],
+    "cusum_k": 0.05,
+    "run_level_percentile": 95,
+    "methods": [
+        {
+            "method": "All residuals + CUSUM",
+            "purpose": "Test whether simply averaging all PCA residuals and applying CUSUM is sufficient.",
+            "n_residual_variables": 52,
+            "direction_unification": false,
+            "use_cusum": true
+        },
+        {
+            "method": "Selected residuals w/o sign + CUSUM",
+            "purpose": "Test whether selected variables alone are sufficient without direction unification.",
+            "n_residual_variables": 5,
+            "direction_unification": false,
+            "use_cusum": true
+        },
+        {
+            "method": "Selected signed residuals w/o CUSUM",
+            "purpose": "Test whether direction-unified local residuals are sufficient without sequential accumulation.",
+            "n_residual_variables": 5,
+            "direction_unification": true,
+            "use_cusum": false
+        },
+        {
+            "method": "Selected signed residuals + CUSUM",
+            "purpose": "Full proposed method.",
+            "n_residual_variables": 5,
+            "direction_unification": true,
+            "use_cusum": true
+        }
+    ],
+    "output_table": "results/tables/06_ablation_results.csv",
+    "output_figures": [
+        "results/figures/fig4a_ablation_far_detection.png",
+        "results/figures/fig4b_ablation_alarm_delay.png"
+    ]
+}

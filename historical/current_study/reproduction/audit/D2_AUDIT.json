@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETED_AUTHOR_DIAGNOSTIC",
+  "source_sha256": "292106c23c212d3931c15aa6c5e435cc1069781f48e519c0259211ea7072b6fc",
+  "configuration_rows": 7200,
+  "scalar_path_values_checked": 345600,
+  "original_integer_fields_checked": 13050,
+  "exact_sorted_value_rows_checked": 5820,
+  "original_thresholds_exactly_restored": 30,
+  "all_800_points_retained": true,
+  "original_source_overwritten": false,
+  "wall_seconds": 31.328301276999923
+}

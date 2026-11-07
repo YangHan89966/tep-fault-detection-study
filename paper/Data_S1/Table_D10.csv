@@ -1,0 +1,7 @@
+Rank r,Branch,2 h loss (min),8 h loss (min),40 h loss (min)
+234,Mean / Squared,120.000,479.640,2335.764
+234,Moment / Squared,119.856,463.836,1274.976
+247 *,Mean / Squared,120.000,480.000,2377.860
+247 *,Moment / Squared,120.000,471.336,1429.524
+259,Mean / Squared,120.000,480.000,2400.000
+259,Moment / Squared,120.000,479.400,1781.076

@@ -1,0 +1,30 @@
+{
+  "engineering_only": true,
+  "key_hex": "0x51414f4e4c595f5445505f524e475f33",
+  "duration_hours": 48,
+  "seconds": 123.63548491700203,
+  "exact_array_bytes": {
+    "native_values": true,
+    "native_xmv12": true,
+    "native_time_seconds": true,
+    "record_time_seconds": true,
+    "diagnostic_D_feed_temperature": true,
+    "diagnostic_IDV": true,
+    "diagnostic_rng_draw_count": true,
+    "controller_input_values": true,
+    "fast_control_input_measurements": true,
+    "phase": true,
+    "ctrl11_accumulated_integral": true
+  },
+  "exact_full_run_digests": {
+    "rng_draw_count": true,
+    "rng_consumption_trace_sha256": true,
+    "full_step_trace_sha256": true,
+    "physical_state_sha256": true
+  },
+  "pass": true,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "numpy": "2.3.5",
+  "draw_count": 45713405,
+  "full_step_trace_sha256": "95d3933075a64b286c7e72bc2e5ae4ba3a2a868ced12b16b19cad5fec0c51515"
+}

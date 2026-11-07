@@ -1,0 +1,30 @@
+{
+  "estimator": "batch",
+  "time_utc": "2026-10-30T06:09:40.909937+00:00",
+  "files": {
+    "native/B_ESTIMATOR_COMPARISON.npz": "25941b909b94483eef5399ad8f3084e7ae0b5108fe10e82a559767a7aaf943af",
+    "native/DESIGN.npz": "6bb3a7f7436522ef5afa05f285adf785ad4d421c38723ffad4679f07683d688b",
+    "native/FIT_INFO.json": "cb90366d7fa8e6cd9be301f1f9b7980474051eac5643fca81cf62f9bca37ddf7",
+    "native/FIT_MOMENTS.npz": "d28eac2b1f986c0150ce2470f1164f7414e284b1646fc52db377a393f917b052",
+    "native/FIT_WINDOWS.csv": "42182a4a3df3ae9856fc89a9ba700c17fe397cd818267c93b33bccdce1105e8b",
+    "native/INNER.npz": "571c2538b363cdf3446926ca09ae702010f086e7aff4de65a89283702056fbc3",
+    "native/MODEL.npz": "3d2541a3c18de2ba3e3841b522e07a04a386e70d7faad9d55cdd9c357a915025",
+    "native/NORMAL_SUPPORT.npz": "d66bd4eb39ee2080f55449de4d479e540d3facc0375a13575f4a0ac91ed0570c",
+    "native/SELECTION.json": "589835ab7c32bfd1e634def90bd4848a6e41bfc549d76e39eacf558f990a328e",
+    "native/SELECTION_SCORES.csv": "b87d247131ba49f1e22986571f5940c84674810e3c1643d390afda2a15f692b5",
+    "snapshot/B_ESTIMATOR_COMPARISON.npz": "43a0e1bf7dd8886957dde24c6bc6292f03a2e51c0a2136e1a93b6c1d6ca36f9e",
+    "snapshot/DESIGN.npz": "f6187c334ab28f54239d747533bd35c3759bfe57d9f53cbe4c7b6c9e0252ddcf",
+    "snapshot/FIT_INFO.json": "0c63c8b7cf2277d5fcb13e5b5fefc800c597c4ba3321c2b410eb916ba25124c5",
+    "snapshot/FIT_MOMENTS.npz": "7e552aefac9bc8f0564d073c4ffb822ed6e9769aa941e75fe07aea79f8e2b70c",
+    "snapshot/FIT_WINDOWS.csv": "42182a4a3df3ae9856fc89a9ba700c17fe397cd818267c93b33bccdce1105e8b",
+    "snapshot/INNER.npz": "3a1e5833b69d43c9782c8cbfac329f4dbecd176d2a70985c271b79baa4429b36",
+    "snapshot/MODEL.npz": "799617d9a1d2597e98c37273e8c10f5204703f169657f083bdd5c82011624db7",
+    "snapshot/NORMAL_SUPPORT.npz": "de805f3626a848ea7270ec40b27e52a086271b15044cce3c37b4d7cf6c34419e",
+    "snapshot/SELECTION.json": "ba43c83abf72ab436c1570ad05d6f07275b33ce14d01c8d2b7700e3eed52298e",
+    "snapshot/SELECTION_SCORES.csv": "a99491e002e2524a70364456a5e906309489aed3e4e9a7ea1262f8d4c5bb788d"
+  },
+  "pca_sha256": "851e753ef45fe397e246270fe6634e49c4a4c3980b81f89caf762b8e338eb015",
+  "protocol_sha256": "2a58efbdf5054d7b18e4613c4ac12101151cad1d6271af68e42eb49d2cca04e6",
+  "already_analyzed_panel": true,
+  "evaluation_used_for_fitting": false
+}

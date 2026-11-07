@@ -1,0 +1,30 @@
+{
+  "primary_comparison": {
+    "panel": "D439_supplement",
+    "contrast": "M1-M2_recording_moment",
+    "endpoint": "clean_2400",
+    "n": 120,
+    "estimate": 67.5,
+    "ci95_low": 59.166666666666664,
+    "ci95_high": 75.83333333333333,
+    "unit": "percentage_points",
+    "primary": true,
+    "scope": "conditional whole-run paired bootstrap; fixed learned state and realized calibration; secondary intervals marginal"
+  },
+  "predefined_difference_criterion_reached": true,
+  "criterion_wording": "达到预设的监督重学习记录差异判据",
+  "normal_risk_guard_passed": true,
+  "normal_guard_M1_n": 7,
+  "normal_guard_M2_n": 7,
+  "normal_guard_denominator": 120,
+  "normal_guard_wording": "通过预设样本误报守门线；不证明真实风险<=5%或等风险",
+  "M1_long_horizon_category": "达到预设的50%长期清洁检出门槛",
+  "not_claimed": [
+    "恢复历史性能",
+    "效应为零",
+    "所有方法的必要条件",
+    "C2过去已成功",
+    "fresh independent confirmation"
+  ],
+  "do_not_expand": true
+}

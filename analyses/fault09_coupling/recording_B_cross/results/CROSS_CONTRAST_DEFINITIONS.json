@@ -1,0 +1,251 @@
+{
+  "recording_labels": {
+    "native": "post-update",
+    "snapshot": "controller-input"
+  },
+  "arm_order": [
+    "original/native/mean",
+    "original/native/moment",
+    "original/snapshot/mean",
+    "original/snapshot/moment",
+    "batch/native/mean",
+    "batch/native/moment",
+    "batch/snapshot/mean",
+    "batch/snapshot/moment"
+  ],
+  "contrasts": [
+    {
+      "name": "recording_original_mean",
+      "kind": "recording",
+      "description": "controller-input minus post-update, at the stated estimator and pool",
+      "terms": [
+        {
+          "arm": "original/native/mean",
+          "weight": -1
+        },
+        {
+          "arm": "original/snapshot/mean",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "recording_original_moment",
+      "kind": "recording",
+      "description": "controller-input minus post-update, at the stated estimator and pool",
+      "terms": [
+        {
+          "arm": "original/native/moment",
+          "weight": -1
+        },
+        {
+          "arm": "original/snapshot/moment",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "recording_batch_mean",
+      "kind": "recording",
+      "description": "controller-input minus post-update, at the stated estimator and pool",
+      "terms": [
+        {
+          "arm": "batch/native/mean",
+          "weight": -1
+        },
+        {
+          "arm": "batch/snapshot/mean",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "recording_batch_moment",
+      "kind": "recording",
+      "description": "controller-input minus post-update, at the stated estimator and pool",
+      "terms": [
+        {
+          "arm": "batch/native/moment",
+          "weight": -1
+        },
+        {
+          "arm": "batch/snapshot/moment",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "estimator_native_mean",
+      "kind": "estimator",
+      "description": "batch means minus original B, at the stated recording and pool",
+      "terms": [
+        {
+          "arm": "original/native/mean",
+          "weight": -1
+        },
+        {
+          "arm": "batch/native/mean",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "estimator_native_moment",
+      "kind": "estimator",
+      "description": "batch means minus original B, at the stated recording and pool",
+      "terms": [
+        {
+          "arm": "original/native/moment",
+          "weight": -1
+        },
+        {
+          "arm": "batch/native/moment",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "estimator_snapshot_mean",
+      "kind": "estimator",
+      "description": "batch means minus original B, at the stated recording and pool",
+      "terms": [
+        {
+          "arm": "original/snapshot/mean",
+          "weight": -1
+        },
+        {
+          "arm": "batch/snapshot/mean",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "estimator_snapshot_moment",
+      "kind": "estimator",
+      "description": "batch means minus original B, at the stated recording and pool",
+      "terms": [
+        {
+          "arm": "original/snapshot/moment",
+          "weight": -1
+        },
+        {
+          "arm": "batch/snapshot/moment",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "C2_original_native",
+      "kind": "C2",
+      "description": "second-moment pool minus mean-shift pool, both signed",
+      "terms": [
+        {
+          "arm": "original/native/mean",
+          "weight": -1
+        },
+        {
+          "arm": "original/native/moment",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "C2_original_snapshot",
+      "kind": "C2",
+      "description": "second-moment pool minus mean-shift pool, both signed",
+      "terms": [
+        {
+          "arm": "original/snapshot/mean",
+          "weight": -1
+        },
+        {
+          "arm": "original/snapshot/moment",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "C2_batch_native",
+      "kind": "C2",
+      "description": "second-moment pool minus mean-shift pool, both signed",
+      "terms": [
+        {
+          "arm": "batch/native/mean",
+          "weight": -1
+        },
+        {
+          "arm": "batch/native/moment",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "C2_batch_snapshot",
+      "kind": "C2",
+      "description": "second-moment pool minus mean-shift pool, both signed",
+      "terms": [
+        {
+          "arm": "batch/snapshot/mean",
+          "weight": -1
+        },
+        {
+          "arm": "batch/snapshot/moment",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "interaction_recording_by_estimator_mean",
+      "kind": "interaction",
+      "description": "(controller-input minus post-update) under batch means minus the same difference under original B",
+      "terms": [
+        {
+          "arm": "original/native/mean",
+          "weight": 1
+        },
+        {
+          "arm": "original/snapshot/mean",
+          "weight": -1
+        },
+        {
+          "arm": "batch/native/mean",
+          "weight": -1
+        },
+        {
+          "arm": "batch/snapshot/mean",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "interaction_recording_by_estimator_moment",
+      "kind": "interaction",
+      "description": "(controller-input minus post-update) under batch means minus the same difference under original B",
+      "terms": [
+        {
+          "arm": "original/native/moment",
+          "weight": 1
+        },
+        {
+          "arm": "original/snapshot/moment",
+          "weight": -1
+        },
+        {
+          "arm": "batch/native/moment",
+          "weight": -1
+        },
+        {
+          "arm": "batch/snapshot/moment",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "interpretation": {
+    "loss_minutes": "Negative two-arm contrasts favor the positive-weight arm.",
+    "clean_detection": "Positive two-arm contrasts favor the positive-weight arm.",
+    "normal_alarm_and_pre_alarm": "Negative two-arm contrasts mean fewer alarms in the positive-weight arm.",
+    "interaction": "A difference of recording contrasts; its sign is endpoint-dependent. It is not a causal fraction.",
+    "binary_pair_counts": "Positive arm is the +1 arm; negative arm is the -1 arm. Empty for four-arm interactions."
+  }
+}

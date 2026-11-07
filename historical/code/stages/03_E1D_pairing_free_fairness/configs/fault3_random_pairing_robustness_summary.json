@@ -1,0 +1,62 @@
+{
+  "script": "scripts/10_random_pairing_robustness.py",
+  "diagnostic_question": "Does Step 04 pointwise direction consistency remain stable when normal and Fault 3 development runs are not matched by run ID?",
+  "pairing_design": {
+    "matched": "Fault 3 run i minus normal run i at the same sample",
+    "random": "Fault 3 run i minus a randomly deranged normal run at the same sample; zero same-ID pairs",
+    "repeats": 100,
+    "seed": 20260714
+  },
+  "fixed_across_comparisons": {
+    "pca_training": "normal_train.pkl",
+    "pca_cumulative_variance_target": 0.95,
+    "development_normal": "normal_validation_runs_1_250.pkl",
+    "development_fault": "fault3_development_runs_1_250.pkl",
+    "post_fault_samples": "161-960",
+    "direction_ratio_threshold": 0.95,
+    "top_k": 5,
+    "ranking": "direction_ratio >= 0.95, then descending abs_mean_delta, direction_ratio, abs_effect_size"
+  },
+  "summary": {
+    "pca_n_components": 36,
+    "pca_cumulative_explained_variance": 0.9581997268001302,
+    "fault_start_sample": 161,
+    "screening_window": "samples 161-960",
+    "direction_ratio_threshold": 0.95,
+    "top_k": 5,
+    "n_random_derangements": 100,
+    "random_seed": 20260714,
+    "matched_direction_stable_count": 47,
+    "matched_selected_variables": [
+      "xmeas_21",
+      "xmeas_2",
+      "xmv_1",
+      "xmv_10",
+      "xmeas_9"
+    ],
+    "matched_recomputation_agrees_with_existing_step04": true,
+    "random_stable_count_median": 0.0,
+    "random_stable_count_q025": 0.0,
+    "random_stable_count_q975": 0.0,
+    "random_stable_count_min": 0,
+    "random_stable_count_max": 0,
+    "random_probability_of_selecting_full_top_k": 0.0,
+    "random_original_top5_overlap_median": 0.0,
+    "random_original_top5_overlap_q025": 0.0,
+    "random_original_top5_overlap_q975": 0.0,
+    "random_exact_original_top5_recovery_frequency": 0.0,
+    "maximum_abs_mean_delta_change_across_permutations": 2.1649348980190553e-15,
+    "variables_passing_095_in_at_least_80_percent_random_pairings": []
+  },
+  "outputs": {
+    "matched_metrics": "results\\tables\\10_matched_pairing_recomputed_metrics.csv",
+    "repeat_summary": "results\\tables\\10_random_pairing_repeat_summary.csv",
+    "variable_stability": "results\\tables\\10_random_pairing_variable_stability.csv",
+    "figures": [
+      "results\\figures\\fig10a_pairing_direction_ratio_stability.png",
+      "results\\figures\\fig10a_pairing_direction_ratio_stability.pdf",
+      "results\\figures\\fig10b_pairing_variable_selection_frequency.png",
+      "results\\figures\\fig10b_pairing_variable_selection_frequency.pdf"
+    ]
+  }
+}

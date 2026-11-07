@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "checks": [
+    "All archived N: 68 method/fault endpoint definitions and little-endian bit order",
+    "All archived DV: 27 method/fault complete-episode endpoint definitions and big-endian bit order",
+    "Onset, inclusive time boundary, prealarm, miss penalties",
+    "Synthetic: all DV frozen choices at both k values exactly match original full 49-candidate computation",
+    "Synthetic: mixed per-branch auto-k vector exactly matches original scalar-k calculations, including upper-only Q",
+    "Synthetic: auto-k criterion, prealarm/miss penalties, deterministic ties and same-k distinct-policy reporting",
+    "All additional input index roles and run counts match development/inner-validation selection only",
+    "Synthetic: upper and two-sided recurrences vs scalar calculation",
+    "Synthetic raw-file readers: validated N and DV loading; corruption rejection",
+    "No-overwrite: preexisting text, binary, JSON, CSV, NPZ and log targets rejected with exact bytes preserved"
+  ],
+  "numpy": "2.3.5",
+  "process_k007_results_computed": false,
+  "scope": "Implementation QA only; actual 0.07 process results require local trajectories"
+}

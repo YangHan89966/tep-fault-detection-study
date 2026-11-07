@@ -1,0 +1,53 @@
+{
+  "study_id": "TEP_P1_F9_RECORDING_B_CROSS_20261030_v1",
+  "status": "PROTOCOL_FIXED_BEFORE_NEW_SELECTION_CALIBRATION_EVALUATION",
+  "date_local": "2026-10-30",
+  "timezone": "Asia/Singapore",
+  "scope": "Post-hoc sensitivity analysis on previously analyzed recording panel 2",
+  "recordings": [
+    "native",
+    "snapshot"
+  ],
+  "estimators": [
+    "original",
+    "batch"
+  ],
+  "pools": [
+    "mean",
+    "moment"
+  ],
+  "signed_only": true,
+  "k": 0.05,
+  "batch_length": 120,
+  "normal_design_runs": 40,
+  "blocks_per_run": 8,
+  "development_roles": {
+    "normal_design": 40,
+    "normal_anchor": 32,
+    "normal_inner": 59,
+    "fault9_fit": 100,
+    "fault9_selection": 75
+  },
+  "panel": "D439_supplement",
+  "outer_calibration_n": 199,
+  "outer_calibration_rank": 190,
+  "normal_evaluation_n": 120,
+  "fault_evaluation_n": 120,
+  "bootstrap_draws": 20000,
+  "bootstrap_seed": 20261030,
+  "bootstrap_unit": "paired whole trajectory",
+  "interval": "marginal percentile 95%, conditional on fitted models and realized calibration",
+  "failure_loss_minutes": 2400,
+  "new_simulations": 0,
+  "specification_sha256": "cdb91f3d2456689770b19afcb012c214e5f94a2c0d51959d4a49a9d3b063f0d7",
+  "asset_sha256": {
+    "INPUT_MANIFEST.json": "10f6ee7aa00fb118457c92727f95d18cf466f7a9600bd00d398a458e1fc45a91",
+    "EXPECTED_PARENT.json": "830f1f4add114a7bf9aebca4caeac358e7976714141e478c79f845f4dc2cc0be",
+    "PCA_BY_VIEW.npz": "851e753ef45fe397e246270fe6634e49c4a4c3980b81f89caf762b8e338eb015",
+    "NORMAL_DESIGN_GEOMETRY.npz": "49e0876f28654b130790e27ffd66ccecdec963157bf90f61218926859661a698"
+  },
+  "existing_baseline_results_visible_before_protocol": true,
+  "new_batch_selection_results_seen": false,
+  "new_batch_calibration_results_seen": false,
+  "new_batch_evaluation_results_seen": false
+}

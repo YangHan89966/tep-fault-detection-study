@@ -1,0 +1,13 @@
+{
+  "package_root": "external-input/8a8a30e27b16/source-document",
+  "input_sha256": {
+    "derived/PRIMARY_SEVEN_METHOD_EARLY_DETECTION_AND_DELAY_SUMMARY.csv": "e217ee168aa778ec3b4bcf156658b5ae0c09cbad1d73278d83ea675041b7c616",
+    "core_sources/E1H_statistics/results/tables/23_reserved_primary_summary_with_ci.csv": "15224a5e3710d9fbd05984c1408e5e81f9a5458b8f42b32401c13f70db15abf1"
+  },
+  "production_constraints": {
+    "new_experiment": false,
+    "retuning": false,
+    "detector_state_change": false,
+    "manuscript_overwrite": false
+  }
+}

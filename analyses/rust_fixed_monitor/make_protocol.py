@@ -1,0 +1,9 @@
+import hashlib,json,pathlib
+p=pathlib.Path(__file__).resolve().parent
+def seed(role,i):
+ h=hashlib.sha256(('P1-Rust-native-pair-v1:'+role+':'+str(i)).encode()).digest()
+ return int.from_bytes(h[:4],'big')|1
+sizes={'pilot':1,'cal':59,'normal':60,'fault':75}
+cases=[{'role':r,'id':i+1,'seed':seed(r,i+1)} for r,n in sizes.items() for i in range(n)]
+assert len(set(c['seed'] for c in cases))==sum(sizes.values())
+(p/'protocol.json').write_text(json.dumps(dict(scope='External-driver pilot on standard Rust/Wasm executable; post hoc, not externally registered. Set before its outcomes. Same original Braatz dynamics/controller family, different driver and language from tep. Separate calibration before scoring evaluation. One non-target pilot verifies executability and schema.',design='Match earlier recording-panel-1 group sizes, not old thresholds: 59 normal calibration, 60 normal evaluation, 75 fault IDV9 evaluation. 48h, closed-loop, Euler dt=1s, native outputs every second for passive capture; analyses every 180 driver steps. Only F9 starts at 8h. Forced IDV12 off; no refit, no fault tuning. Unique deterministic odd seeds; original scalar RNG, independence is not guaranteed.',timing='Controller at grid step 180*j uses previous step measurement; compare to same-step native measurement. Both score with grid step valves. Fast update offset 1s, not tep 3s. Two level–valve proportional checks and full horizon replay against declared native logger. Native time grid one second back from nominal due to upstream convention.',endpoints='Frozen H_D01_moment_A01_signed affine + two-sided CUSUM k=.05, h separately 57th/59 calibration run maxima. No resets; 40h and 8h clean, 2h included; normal 48h FAR; mean penalized loss. Compare paired run counts. All runs retained, no arbitrary restarts. Historical-monitor transfer is conditional. Use descriptive intervals only given original multiplicative float generator.',cases=cases),indent=2))

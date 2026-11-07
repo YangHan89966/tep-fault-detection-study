@@ -1,0 +1,68 @@
+{
+  "release_version": "1.1.0",
+  "study_id": "TEP_P1_F9_GRADED_NOISE_COUPLING_20261030_v1",
+  "original_code_lock_sha256": "cde66c86832bc7253c295cd28022837ec5ea26ed5f2d4ac56b7f889c6657b22b",
+  "historical_locks_preserved_byte_for_byte": true,
+  "frozen_file_derivations": {
+    "audit/test_coupling_synthetic.py": {
+      "original_sha256": "b2a4d9fbc160201427147d7819cacd06b5b988f59b2fa5f1a2713b52d35bb7f9",
+      "public_sha256": "818581e16bc2608f960d42dd4764fb41b429b27cf7b7e291f4f0b6ff1b01cc4f",
+      "change": "Replace one machine-specific ROOT path with Path(__file__).resolve().parents[1]; numerical checks unchanged."
+    }
+  },
+  "other_file_derivations": {
+    "audit/verify_coupling_results.py": {
+      "original_sha256": "2c41cda5fcaed9b7fb25decc09f4e609c05eb493c79b63167cb19b8b6306bf8c",
+      "public_sha256": "c151df95c464f953e425ecac84f9ee574c46ba6bcedf48fb997b776bbfa03357",
+      "change": "Route historical frozen-file verification through the explicit public hash mapping; all numerical audit calculations unchanged."
+    },
+    "audit/run_synthetic_portable.py": {
+      "original_sha256": "26eaedce064b9eef4c71867687193e6c2f9ed5b7b0a325a5ea40b98da29ff8ff",
+      "public_sha256": "c87c222288d5fe7cb342b6bd99ded3018161b1d607299a07636da2f79a2695d3",
+      "change": "Apply public hash mapping and label original/public test identities separately; avoid machine paths in the verification report."
+    },
+    "requirements.txt": {
+      "original_sha256": "547991bd60f60f34241799064836e5d935036e00da99d7d90b2765e7a7ce7ca0",
+      "public_sha256": "4c40934e438ae009a1eb0b5a9322cce029fba6ca1af6e314c088c1957cee0c04",
+      "change": "Remove the unused author-report python-docx dependency; numerical dependencies unchanged."
+    }
+  },
+  "new_public_files": [
+    "README.md",
+    "public_identity.py",
+    "public_replay.py",
+    "PUBLIC_DERIVATIONS.json",
+    "PUBLIC_RELEASE_MANIFEST.json",
+    "PUBLIC_RELEASE_VALIDATION.json"
+  ],
+  "relocated_historical_records": {
+    "RESULT_PACKAGE_MANIFEST.json": {
+      "public_path": "provenance/ORIGINAL_RESULT_PACKAGE_MANIFEST.json",
+      "sha256": "8b09b16a64b35af439e39a605485880e0641b95744585a3f4e84f9f66249a72f"
+    },
+    "FINAL_COMPLETION.json": {
+      "public_path": "provenance/ORIGINAL_FINAL_COMPLETION.json",
+      "sha256": "581b388f83938d8bf144d7ec2e536c5b6da92d2281f7a779d9704a02afb64f33"
+    }
+  },
+  "omitted_author_facing_files": {
+    "README_ZH.txt": {
+      "sha256": "ad69fab5f97ccc7ff299ba6d18013df13ead9a313f22a158c4ed9277b6fb28d0",
+      "reason": "Author-facing report or report-building material; all scientific results retained in original numerical files."
+    },
+    "REPORT_TEXT.json": {
+      "sha256": "e1f6ee04f9f4c89614ddfec6b2d5d5447b7d22066a896968080298029b9bb798",
+      "reason": "Author-facing report or report-building material; all scientific results retained in original numerical files."
+    },
+    "build_coupling_report.py": {
+      "sha256": "a9a3148d8a7c2896988b7ed3e56877d0aed95d4de6d657836868ca7decfa6a94",
+      "reason": "Author-facing report or report-building material; all scientific results retained in original numerical files."
+    },
+    "TEP_P1_F9_Graded_Coupling_Report_20261030.docx": {
+      "sha256": "c33d8666adf9aec3d6c67240f419f812cd784dd0c6c62146faf3a95ac6d52a51",
+      "reason": "Author-facing report or report-building material; all scientific results retained in original numerical files."
+    }
+  },
+  "scientific_outputs": "All CSV/NPZ scientific payloads and all per-run score JSON files are byte-identical to the completed source archive.",
+  "third_party_attribution": "Upstream source, license, and contributor/AI-assistance acknowledgements are retained unchanged."
+}

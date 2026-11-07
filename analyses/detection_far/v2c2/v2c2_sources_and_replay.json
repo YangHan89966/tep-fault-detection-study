@@ -1,0 +1,66 @@
+{
+  "sources": {
+    "TEP_Zenodo_04_A459_20261013_r1.zip": "88aed7c5b7345d92cb1f10141bb0f24f2ecad913439ae46b07bf1fe86b4d727f",
+    "TEP_P1_Historical_Code_Models_and_Results_20261026.zip": "8bba300ccaf71c8864ef6719f4cb49df693fd7a216258a88390f5b660e09c736"
+  },
+  "state_archives": [
+    {
+      "member": "results/R5/rep01_F09/SUFFICIENT_PATHS.npz",
+      "sha256": "7fa7a1ab58627f409f46b0b8c148991acfdba09ada382b8171a490725ac8a5bf",
+      "original_scored_sha256": "ae592386d410558957aa22320e4f8c27a542aacd311c000344b3913baefe36b0",
+      "original_outer_sha256": "85ea9c8f609097b43718aa91a4b690a12ccde7f1175870a135300db772865bcb"
+    },
+    {
+      "member": "results/R5/rep02_F09/SUFFICIENT_PATHS.npz",
+      "sha256": "65fcbff7aff4cfdc6b48baabffd187b0ca47a39068c03401e32c22a6a8c8b6d5",
+      "original_scored_sha256": "f61f7529779d515d38a098f5393210083f8e23a2aebe561544b8a4ccb9b55db2",
+      "original_outer_sha256": "7e48d46690ca0130339aa6cd9a1991ee00f712ddb814a910a862da645b931a4c"
+    },
+    {
+      "member": "results/R5/rep03_F09/SUFFICIENT_PATHS.npz",
+      "sha256": "0d244eb01822b2100ce291afaee9e0e45b75f1de15c7efde933c3d065afb9f7e",
+      "original_scored_sha256": "5608913adb2597b196bd444d634f6caa7c98ac8aa48b3d7f4151e5659e47463c",
+      "original_outer_sha256": "30a0c2f0be108721c6e64b1a857b158c5b448d772794eba65c2409c5d46adc6f"
+    },
+    {
+      "member": "results/R5/rep04_F09/SUFFICIENT_PATHS.npz",
+      "sha256": "d83f42071d35ecc128ae1d099a8d38f8dc3618362f1c105f37abaaf3df09547f",
+      "original_scored_sha256": "64f512f536e165f9ceeb1dd4362ec9dcc8b6eda581c7fa591ce9ae74dd5170d1",
+      "original_outer_sha256": "12b94be7e254cdca7bf810555eb2d9072a95b1e79eeb2ea799cef070900ac82a"
+    },
+    {
+      "member": "results/R5/rep05_F09/SUFFICIENT_PATHS.npz",
+      "sha256": "cc52af8a3510bb26bc94e5d1254ab4cce6904fc3e31f6d9eb898271a269f1f92",
+      "original_scored_sha256": "5239244c5c19685d79000227bd2357f70946c5a41e8cd0d8f04dbac641285def",
+      "original_outer_sha256": "60939e83f16a6a13a12b1c8c4fcecca9ebe513c2b0a59435521d7ad0845e8f08"
+    }
+  ],
+  "return_zip": {
+    "member": "TEP_A459_COMPLETED_20261009/inputs/A459_RETURN_20261009T121907Z_59251e.zip",
+    "sha256": "a03f61803f2f4aaa4b4817d35b6c5a90f19b40341a0cf301516bd88c1e1fbdfa"
+  },
+  "scope": "Validation 2 (R5), unchanged original cohorts; 250 shared normal and 250 Fault 9 test runs. Five frozen C2 pairs; original mean and second-moment pools with signed score, k=0.05. No A4 exclusions, new thresholds, simulation, model fitting or raw rescoring.",
+  "windows": "Pre=max(records 1:160), post8=max(161:321), post40=max(161:960); inclusive endpoints, strict statistic>h. Original rule matches 247th of 259 full-48-h calibration peaks, using historical arithmetic with the fixed common anchor.",
+  "checks": {
+    "test_model_run_rows": 5000,
+    "identical_pre_alarm_booleans": 5000,
+    "identical_post_running_crossing_booleans": 4000000,
+    "identical_penalized_delays": 5000,
+    "calibration_peaks_checked_against_original_outer": 2590,
+    "S22_points_percent": {
+      "moment_pool_signed": {
+        "FAR": 5.04,
+        "clean40": 8.72
+      },
+      "mean_pool_signed": {
+        "FAR": 6.88,
+        "clean40": 7.6
+      }
+    }
+  },
+  "outputs": {
+    "run_peaks.csv": "610db801538a6a9e334d33005a28da4fe058eaef45cdd72bb6465e0fdd1fe91c",
+    "calibration_peaks.csv": "d5971364af280d28fd993a7c75f5400a7b217ab5f927e2151e344079023f93e0",
+    "original_points.csv": "9864e877b412cf33368f88089d2f99f1e090fe479c41d3357fef74aa33f0fee7"
+  }
+}

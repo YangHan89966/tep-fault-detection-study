@@ -1,0 +1,6 @@
+Endpoint,Paired estimate,Marginal 95% bootstrap interval
+Primary: clean detection ≤120 min (pp),+1.33,"[+0.00, +4.00]"
+Clean detection ≤480 min (pp),+38.67,"[+28.00, +49.33]"
+Clean detection over 40 h (pp),+85.33,"[+77.33, +93.33]"
+All-run penalized mean delay (min),"−1,362.08","[−1,522.56, −1,198.84]"
+Normal full-run FAR (pp),+3.33,"[−3.33, +10.00]"

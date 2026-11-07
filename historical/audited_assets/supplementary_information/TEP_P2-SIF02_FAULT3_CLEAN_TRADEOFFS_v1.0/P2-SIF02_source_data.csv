@@ -1,0 +1,8 @@
+method_key,method_short,scope,complexity_class,complexity_label,normal_far_pct,run_detection_pct,detected_runs,threshold_occupancy_pct,median_detected_run_delay_min,mean_detected_run_delay_min,normal_far_ci_low_pct,normal_far_ci_high_pct,fault3_n_runs
+pca_q_cusum,Q-CUSUM,global PCA statistic,global_pca_statistic,Global PCA statistic,5.6000000000000005,13.200000000000001,33,2.852,1851.0,1717.2727272727273,3.095040461916148,9.217426632667737,250
+pca_t2_cusum,T2-CUSUM,global PCA statistic,global_pca_statistic,Global PCA statistic,7.199999999999999,7.6,19,2.5100000000000002,1542.0,1422.3157894736842,4.322745952168849,11.140562957901473,250
+pca_joint_cusum,Joint CUSUM,global PCA statistic,global_pca_statistic,Global PCA statistic,8.0,8.799999999999999,22,2.875,1591.5,1469.7272727272727,4.954974421831331,12.085038082992018,250
+all52_signed_cusum,All-52 signed,global residual vector,dense_52_residual,Dense 52-residual fusion,5.2,100.0,250,80.913,400.5,429.696,2.7974892458440546,8.728018493035453,250
+lda_residual_cusum,LDA residual,global supervised residual score,dense_52_residual,Dense 52-residual fusion,8.0,100.0,250,95.10849999999999,96.0,101.976,4.954974421831331,12.085038082992018,250
+top1_signed_cusum,Top-1 signed,local residual,single_residual,Single residual,5.6000000000000005,100.0,250,90.461,208.5,218.688,3.095040461916148,9.217426632667737,250
+proposed_top5_cusum,Proposed Top-5,local residual subset,sparse_top5,Sparse Top-5 residuals,3.2,100.0,250,89.1065,231.0,247.02,1.3914611548743825,6.20766973748704,250

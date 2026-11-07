@@ -1,0 +1,13 @@
+{"time_utc": "2026-10-30T06:07:57.082472+00:00", "event": "ROLE_READ", "role": "normal_design", "count": 40, "raw_hashes_verified": true}
+{"time_utc": "2026-10-30T06:08:09.713387+00:00", "event": "ROLE_READ", "role": "fault9_fit", "count": 100, "raw_hashes_verified": true}
+{"time_utc": "2026-10-30T06:08:13.629642+00:00", "event": "ROLE_READ", "role": "normal_anchor", "count": 32, "raw_hashes_verified": true}
+{"time_utc": "2026-10-30T06:08:20.909467+00:00", "event": "ROLE_READ", "role": "normal_inner", "count": 59, "raw_hashes_verified": true}
+{"time_utc": "2026-10-30T06:08:30.151768+00:00", "event": "ROLE_READ", "role": "fault9_selection", "count": 75, "raw_hashes_verified": true}
+{"time_utc": "2026-10-30T06:08:30.914690+00:00", "event": "MODELS_LOCKED", "estimator": "original", "lock_sha256": "9bf8c323e0f0b731e28ef6f15330687a7689b881fa587e98ced11552c49d49dd"}
+{"time_utc": "2026-10-30T06:09:02.179647+00:00", "event": "ROLE_READ", "role": "normal_calibration", "count": 199, "raw_hashes_verified": true}
+{"time_utc": "2026-10-30T06:09:22.684140+00:00", "event": "ROLE_READ", "role": "normal_evaluation", "count": 120, "raw_hashes_verified": true}
+{"time_utc": "2026-10-30T06:09:39.588693+00:00", "event": "ROLE_READ", "role": "fault9_evaluation", "count": 120, "raw_hashes_verified": true}
+{"time_utc": "2026-10-30T06:09:40.114014+00:00", "event": "BASELINE_REPRODUCTION_PASS", "evaluation_alarm_bits": 921600}
+{"time_utc": "2026-10-30T06:09:41.055992+00:00", "event": "MODELS_LOCKED", "estimator": "batch", "lock_sha256": "f297984607c212eb8c0ad9312ff869b4d0b9d5e83f6f780635dfc9df1eefe868"}
+{"time_utc": "2026-10-30T06:09:41.466756+00:00", "event": "BATCH_THRESHOLDS_LOCKED", "lock_sha256": "b09ed4d812766f0d1d9a8465440a91318edd14b4f34dd31a6d8ec3af453123ee"}
+{"time_utc": "2026-10-30T06:09:43.737528+00:00", "event": "EXPERIMENT_COMPLETE", "new_simulations": 0, "monitors": 8}

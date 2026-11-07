@@ -1,0 +1,17 @@
+Fault,Monitor,Recording,40 h,8 h,2 h,Normal alarms,Mean loss (min)
+3,"Full-pool monitor (mean-shift pool, Signed)",Post-update,120,61,0,5,500.1
+,,Controller-input,119,119,50,3,147.7
+,"Same direction, Squared (C1)",Post-update,36,0,0,11,2138.5
+,,Controller-input,72,4,0,3,1823.8
+,FDA-CUSUM,Post-update,120,3,0,5,963.7
+,,Controller-input,120,70,0,7,477.5
+,Q-CUSUM,Post-update,12,2,0,6,2294.3
+,,Controller-input,10,0,0,4,2310.2
+15,"Full-pool monitor (second-moment pool, Squared)",Post-update,103,3,0,9,1450.1
+,,Controller-input,120,41,0,6,631.5
+,"Mean-shift pool, Squared (C3)",Post-update,29,0,0,1,2172.9
+,,Controller-input,104,21,2,9,1220.9
+,Variance-ratio reference,Post-update,102,3,0,6,1520.6
+,,Controller-input,119,40,1,9,708.0
+,Q-CUSUM,Post-update,18,1,0,6,2280.0
+,,Controller-input,22,0,0,4,2271.4

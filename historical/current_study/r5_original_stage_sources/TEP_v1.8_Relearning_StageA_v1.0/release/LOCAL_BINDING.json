@@ -1,0 +1,15 @@
+{
+  "study_id": "TEP_V18_RELEARNING_R5_v1.0",
+  "runtime": "external-input/adfd34101980/python3.12",
+  "root": "external-input/549bf96f2214/TEP_V18_RELEARNING_R5_v1_0",
+  "prior_9500_index": "external-input/c2e4889eeb88/PAPER_PRIORITY_FORMAL_ADAPTER_LEDGER_v1.0.csv",
+  "prior_9500_bytes": 3424374,
+  "prior_9500_sha256": "dd9a7a0701509c980892e8921d8424cbd437189d6b2607793e0aa2faf0b11286",
+  "readiness_return_sha256": "eb9803f2f571222f210349a49d8778c0708590d6c47dbc7e1092573037bd8ec1",
+  "original_dv_seed_manifest_sha256": "381b84e994bf0fbb141b4c240b2e6228d1e3906b68457197c299c85d035766e1",
+  "locked_experiment_protocol_sha256": "80b621627cbfa4ba077909c7357a1527c3947f3d4aa8f54df0fec6a1e1813027",
+  "stage": "development_only",
+  "default_hours": 0.5,
+  "default_workers": 4,
+  "requires_free_disk_bytes": 10737418240
+}

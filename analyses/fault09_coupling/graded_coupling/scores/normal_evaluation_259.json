@@ -1,0 +1,37 @@
+{
+  "run_id": "normal_evaluation_259",
+  "role": "normal_evaluation",
+  "fault_id": 0,
+  "status": "COMPLETE",
+  "protocol_sha256": "385260242ae76d47d4410f3024b483fe03d74a3453b8d902aa4b05341c088a97",
+  "code_lock_sha256": "cde66c86832bc7253c295cd28022837ec5ea26ed5f2d4ac56b7f889c6657b22b",
+  "source_hashes": {
+    "RAW.npz": "d7001f65347cf9064ca0991c3a87d727bf9949e3a71624e3891c1a6700b8acfc",
+    "RUN_INFO.json": "626bc6d311e743d43120e1eaf8b12f7003e4b5b1ea6fc8872a7a945a62d2761a",
+    "CHARTS.npz": "bd47b5b2d89b87f079e06a8ed41210301cff4041dc19025e5c4149a44ff38b3c"
+  },
+  "threshold_lock_sha256_at_generation": "4e94e025233d0927599b3bde17391b56cf7a25fba0483bfcc3455ac8ae6519df",
+  "original_key_hex": "0x983f6de2d135521de3a0b50a000001ca",
+  "replacement_key_hex": "0xb44f099a2653f3b8096002e51269a6b7",
+  "score_sha256": "f093551990bf1b024b2161c2db4043ba408056ba0644522c658f1ae0e2439416",
+  "endpoint_chart_max_abs_error": 0.0,
+  "original_alarm_bits_checked": 1920,
+  "original_events_match": true,
+  "noise_recovery": {
+    "status": "PASS_EXACT_RNG_SCHEDULE_RECOVERY",
+    "method": "replay_random_schedule_without_physical_simulation",
+    "run_id": "normal_evaluation_259",
+    "key_hex": "0x983f6de2d135521de3a0b50a000001ca",
+    "record_count_checks": 960,
+    "temperature_max_abs_error": 0.0,
+    "sample_times_bitwise_equal": true,
+    "final_draw_count": 45713436,
+    "final_uniform_u32": 902636373,
+    "full_rng_trace_sha256": "156637f8bb833d3bb71cac58b9ea8c23063f41f97dc310a7d8d61b215d252166",
+    "uniform_event_count": 28781,
+    "noise_transform": "sum_12_original_uniforms_minus_6_times_xns",
+    "zero_noise_cells_before_first_composition_sample": 53,
+    "wall_seconds": 2.9354769739984476
+  },
+  "wall_seconds": 3.371464015002857
+}

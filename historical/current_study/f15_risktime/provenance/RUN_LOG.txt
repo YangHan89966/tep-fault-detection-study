@@ -1,0 +1,10 @@
+[     0.0s] 保持原 k=0.05；不生成种子、不运行模拟、不重新训练。
+[     0.0s] 只读已有数据：normal_anchor F00，32 条。
+[     2.0s] 只读已有数据：normal_outer_calibration F00，259 条。
+[    18.9s] 已在读取测试数据前保存全部 52 个阈值；原 rank247 阈值逐值相同。
+[    18.9s] 只读已有数据：normal_evaluation F00，250 条。
+[    35.5s] 只读已有数据：fault_evaluation F15，250 条。
+[    51.4s] F15 原 9 个分支的全部原始报警位和事件复现通过；开始阈值敏感性汇总。
+[    52.3s] 全部 26 个校准秩已保留；计算运行级配对区间，不选择“最佳点”。
+[    52.7s] 复核已读取输入未变化。
+[    98.4s] STATUS=PASS_F15_FROZEN_REPLAY_AND_RISK_TIME_SENSITIVITY

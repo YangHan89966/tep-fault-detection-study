@@ -1,0 +1,44 @@
+{
+  "study_id": "TEP_P1_F9_RECORDING_VARIANCE_DECOMPOSITION_20261103_v1",
+  "created_utc": "2026-11-03T12:54:33.829424+00:00",
+  "status": "Post hoc mechanistic analysis planned before 400-run calculation; one engineering run was inspected to verify reconstruction. No external preregistration.",
+  "panel": "All400 normal_evaluation runs from independent-stream confirmation; all960 observations per run; identical original frozen52-variable affine monitor.",
+  "source_archives": [
+    "TEP_P1_Normal_Evaluation_Data_v1_20261026.zip",
+    "TEP_P1_F9_Graded_Coupling_20261030.zip"
+  ],
+  "fixed_map_sha256": "7a20407a0fafa0028931de8d73c32b2ceae9585175e59dadd836777a97efcf66",
+  "recovery": "Replay saved Philox random-call schedule only; no ODE integration or new process trajectory. Recover CI and native noise using their own event IDs and initialization masks.",
+  "primary_estimand": "Pooled unbiased sample score variance over400x960 points; bootstrap units are400 independent physical runs.",
+  "variable_difference": "post-minus-CI measurement difference = noise difference + noiseless recorded signal difference; pooled variance includes twice covariance. Units normalized by original measurement noise SD squared. Report all41 channels; spotlight10 flows and2levels. Channel decomposition uses ddof0 to match current TableS1; both original squared units and noise-SD-normalized units are reported. Score variance retains ddof1.",
+  "substitutions": [
+    "post original",
+    "post continuous1:22 to CI",
+    "post analyzers23:41 to CI",
+    "post all41 toCI",
+    "post XMEAS17 toCI",
+    "post all10flow toCI",
+    "post continuous except17 toCI"
+  ],
+  "endpoint_decomposition": "Exact six-block contributions to beta-transformed covariance difference between actual post and same-time rho0, groups C1:22/A23:41/U42:52.",
+  "common_noise_bridge": "rho0 + beta times noiseless recorded signal difference, separatelycontinuous/analyzers/all and XMEAS17. Exact pooled variance telescoping with signed covariance allocation; descriptive counterfactual only.",
+  "bootstrap": {
+    "draws": 20000,
+    "seed": 2026110301,
+    "method": "paired whole-run percentile95%, pooled variance recomputed each replicate using run means and within-run centered crossproducts; marginal intervals conditional on fixed model and existing noise realization"
+  },
+  "not_performed": [
+    "new physical simulation",
+    "model fitting or selection",
+    "threshold calibration",
+    "Fault15 analysis",
+    "detection false-alarm curves"
+  ],
+  "constraints": [
+    "Never treat record points as independent inferential units",
+    "Group substitution toCI is not direct attribution of post-minus-rho0",
+    "All covariance terms retained; no renormalizing each arm",
+    "Code and existing data remain unchanged"
+  ],
+  "provenance_note": "ddof0 table convention was confirmed from current SI before aggregation; original data and monitor are unchanged."
+}

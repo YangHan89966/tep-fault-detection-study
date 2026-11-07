@@ -1,0 +1,24 @@
+{
+  "scientific_version": "TEP_V18_RELEARNING_R5_v1.0",
+  "unique_trajectories": 5575,
+  "development_calibration": 4575,
+  "shared_test": 1000,
+  "group_counts": {
+    "rep01": 915,
+    "rep02": 915,
+    "rep03": 915,
+    "rep04": 915,
+    "rep05": 915,
+    "shared_test": 1000
+  },
+  "format": "one original OUTPUT.npz per indexed leaf; values(960,52), xmv12(960), native_time_seconds(961), float64",
+  "indices_directory": "current_study/r5_raw_identity",
+  "raw_arrays_embedded_in_code_snapshot": false,
+  "author_local_export_executed_in_this_session": false,
+  "local_export_status": "PENDING_REAL_HOST_COMMAND",
+  "online_upload_status": "NOT_CHECKED_OR_PERFORMED",
+  "parts": "tep-r5-raw-rep01..rep05-partNNN-v1.0.zip and tep-r5-raw-shared_test-partNNN-v1.0.zip; actual size-based part count determined locally",
+  "shared_panel_not_multiplied_by_fits": true,
+  "status_as_of": "local companion preparation before author-host export",
+  "actual_later_status_source": "Use the locally generated R5_EXPORT_CATALOG.json and LOCAL_RESULT_*.json, then confirm actual upload/access separately."
+}

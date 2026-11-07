@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "scope": "Software verification, with synthetic fixtures and genuine archived baseline checks identified separately; no new batch evaluation result",
+  "batch_formula_independently_verified": true,
+  "later_blocks_used": true,
+  "original_geometry_exactly_unchanged": true,
+  "fit_select_score_completed": true,
+  "scalar_vector_recurrences_equal": true,
+  "raw_hash_mismatch_rejected": true,
+  "development_and_panel_nested_metadata_layouts_verified": true,
+  "genuine_archived_panel2_alarm_bits_equal": 921600,
+  "genuine_archived_panel2_counts_equal": true,
+  "genuine_40N_geometry_and_candidate_errors": {
+    "native": {
+      "centre": 0.0,
+      "whitener": 0.0,
+      "B": 0.0,
+      "q_mean": 2.220446049250313e-16,
+      "q_sd": 0.0,
+      "raw_C": 0.0,
+      "raw_D": 0.0,
+      "G": 0.0,
+      "eigenvalues": 0.0,
+      "tau": 0.0,
+      "mean_candidates": 0.0,
+      "moment_candidates": 0.0
+    },
+    "snapshot": {
+      "centre": 0.0,
+      "whitener": 0.0,
+      "B": 0.0,
+      "q_mean": 2.220446049250313e-16,
+      "q_sd": 0.0,
+      "raw_C": 0.0,
+      "raw_D": 0.0,
+      "G": 0.0,
+      "eigenvalues": 0.0,
+      "tau": 0.0,
+      "mean_candidates": 0.0,
+      "moment_candidates": 0.0
+    }
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "system": "Linux",
+    "machine": "x86_64",
+    "byteorder": "little"
+  }
+}

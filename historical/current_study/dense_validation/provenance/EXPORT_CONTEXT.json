@@ -1,0 +1,23 @@
+{
+  "status": "UNPUBLISHED_SOURCE_AND_SAVED_RESULT_EXPORT",
+  "manuscript_version": "1.7.1",
+  "source_result_zip": {
+    "filename": "TEP_DENSE3915_20260913T023328Z_45acf7f7_RETURN.zip",
+    "bytes": 1678402,
+    "sha256": "3121621e75aeca348100987dbb69c8fb0523ee45e4fcef07f3794d9f401ed7f7"
+  },
+  "original_protocol_sha256": "7878f7e00469a68a501087136c2f247abacf379ab92f4b10fed97d1a14f1418d",
+  "public_protocol_redacted_json_pointers": [
+    "/implementation/existing_runtime",
+    "/operations/root"
+  ],
+  "protocol_note": "The public copy changes only two host-specific locator strings. All scientific fields are identical. Original hash bindings identify the original protocol, not this privacy export.",
+  "frozen_model_and_result_files": "ALL_BYTE_IDENTICAL",
+  "original_release_scope": "Source index explicitly distinguishes original scientific modules/assets/simulator from redacted non-executable operational references. The original SOURCE_MANIFEST is provenance, not the manifest of this exported subset.",
+  "raw_trajectory_files_in_code_snapshot": false,
+  "source_root_session_metadata_included": false,
+  "original_9500_seed_rows_included": false,
+  "secrets_included": false,
+  "original_submission_documents_included": false,
+  "scientific_rerun_for_publication": false
+}

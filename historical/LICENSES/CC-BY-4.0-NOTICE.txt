@@ -1,0 +1,11 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+This licence applies to original documentation, figure/table assets, captions,
+and derived source tables in this repository except where a file explicitly
+states otherwise.
+
+Attribution: Yang Han, "Code and derived source data for Multiplicity-Controlled Selection of Fault-Specific PCA Residual Evidence for Supervised Sequential Process Monitoring", version 1.0.0.
+
+Licence summary and legal code:
+https://creativecommons.org/licenses/by/4.0/
+https://creativecommons.org/licenses/by/4.0/legalcode

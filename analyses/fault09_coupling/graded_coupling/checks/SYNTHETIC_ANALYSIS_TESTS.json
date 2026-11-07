@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "synthetic_only": true,
+  "real_scientific_scores_read": false,
+  "tests_run": 7,
+  "failures": 0,
+  "errors": 0,
+  "analysis_code_sha256": "5fd729057e3712860bb6c8e6e4a93a8f4675ea580f9057059f6387ab221a7615"
+}

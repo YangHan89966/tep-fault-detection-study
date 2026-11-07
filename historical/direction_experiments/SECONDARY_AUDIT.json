@@ -1,0 +1,12 @@
+{
+  "status": "PASS_AUTHOR_SECOND_IMPLEMENTATION_CHECKS_NOT_INDEPENDENT_SCIENCE",
+  "role_partitions_verified": 20,
+  "selected_systems": 8400,
+  "normal_ranks": 58080,
+  "saved_mask_bits_recounted": 1088640000,
+  "event_rows_classified": 630000,
+  "new_axis_unit_variances": 4800,
+  "independently_recomputed_fit_matrices": 600,
+  "fit_matrix_max_absolute_difference": 2.9103830456733704e-11,
+  "all20_actual_run": true
+}

@@ -1,0 +1,52 @@
+{
+  "status": "ACCEPT_SCIENTIFIC_CONSTRUCTION",
+  "no_scientific_score_outputs_read": true,
+  "review_scope": [
+    "PROTOCOL.json",
+    "code/run_coupling.py",
+    "code/recover_noise.py",
+    "code/score_core.py",
+    "independent_full48h_source_capture_reports_and_instrumentation"
+  ],
+  "scientific_decision": {
+    "panel": "All799 previously analyzed independent-stream runs; post-hoc mechanistic sensitivity; no new validation claim",
+    "monitor": "One frozen historical Fault9 affine map; same signed two-sided CUSUM at allrho",
+    "noise": "Share0/3/6/9/12 of12 original independent high32 uniform components; replace remaining with distinct-key Philox components",
+    "marginal_law": "Preserved under the pinned independent-uniform source model; no Gaussian approximation or direct averaging of measurements",
+    "held_channels": "Original noise-event IDs reuse the same replacement words for held analyzer measurements; initialization mask retained",
+    "physical_signal": "Original controller-input physical component and all11 manipulated variables held fixed",
+    "endpoints": "rho1 exact controller-input; actual post-update separate and not equated withrho0",
+    "calibration": "199same normal calibration runs separately calibrated at190/199; evaluation generated after verified threshold lock",
+    "uncertainty": "Descriptive95percent intervals with whole-run paired resampling and role separation; no monotonicity constraint or support gate"
+  },
+  "source_recovery_evidence": {
+    "normal_full48h": "PASS_FULL_48H_LITERAL_SOURCE_NOISE_CAPTURE",
+    "fault9_full48h": "PASS_FULL_48H_LITERAL_SOURCE_NOISE_CAPTURE",
+    "all41_channels_and_held_events": true,
+    "independent_capture_checks_all12_components": true,
+    "raw_arrays_control_and_physical_state_and_rng_trace_bit_exact": true,
+    "endpoint_copy_alone_not_used_as_recovery_proof": true
+  },
+  "synthetic_tests": "SYNTHETIC_NUMERICAL_REVIEW.json",
+  "gate_followups": [
+    {
+      "item": "Evaluation must parse and bind threshold lock, not check existence only",
+      "resolution": "Implemented call to analyze_coupling.verify_lock in main and stable threshold hash check per new job; verifier body undergoing separate finalization/review"
+    },
+    {
+      "item": "Cached evaluation scores must also match threshold_lock_sha256_at_generation",
+      "resolution": "Requested moving lock check before cached return and comparing savedgeneration hash; pending small root change"
+    }
+  ],
+  "reviewed_sha256": {
+    "PROTOCOL.json": "385260242ae76d47d4410f3024b483fe03d74a3453b8d902aa4b05341c088a97",
+    "code/run_coupling.py": "c5c14d45ebc617d09f77ce5cb9f458742f78ff41f003d3deda65264dac03c157",
+    "code/recover_noise.py": "71153f217714d2772aaeb7715cb21f93a8690579a231011416f62ee5b4e0f43f",
+    "code/score_core.py": "e0c206e481bde0bb1337b8f773ae2af0d68e1c8619e589e6db869c62625d23d2"
+  },
+  "limits": [
+    "This review does not inspect any real coupling score or endpoint result",
+    "Analysis and threshold-lock verifier final API are subject to separate review",
+    "The idealized synthetic noise family does not establish performance on industrial records"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+    "script": "scripts/07_parameter_sensitivity.py",
+    "purpose": "Parameter sensitivity analysis for direction_ratio_threshold and CUSUM k.",
+    "fault_id": 3,
+    "fault_start_sample": 161,
+    "sampling_interval_min": 3,
+    "pca_cumvar_target": 0.95,
+    "selected_n_pcs": 36,
+    "cumulative_explained_variance": 0.9581997268001302,
+    "n_selected_variables": 5,
+    "direction_ratio_list": [
+        0.9,
+        0.95,
+        0.98
+    ],
+    "cusum_k_list": [
+        0.01,
+        0.03,
+        0.05,
+        0.07,
+        0.1
+    ],
+    "default_cusum_k_for_direction_ratio_sensitivity": 0.05,
+    "run_level_percentile": 95,
+    "output_tables": [
+        "results/tables/07_direction_ratio_sensitivity.csv",
+        "results/tables/07_direction_ratio_selected_variables.csv",
+        "results/tables/07_cusum_k_sensitivity.csv"
+    ],
+    "output_figures": [
+        "results/figures/fig5a_direction_ratio_sensitivity.png",
+        "results/figures/fig5b_direction_ratio_delay.png",
+        "results/figures/fig5c_cusum_k_sensitivity.png",
+        "results/figures/fig5d_cusum_k_delay.png"
+    ]
+}

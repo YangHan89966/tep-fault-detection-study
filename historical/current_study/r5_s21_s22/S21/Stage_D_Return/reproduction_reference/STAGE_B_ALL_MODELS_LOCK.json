@@ -1,0 +1,75 @@
+{
+  "PCA_retrained": false,
+  "binding": {
+    "PCA_sha256": "e8d334f9201d41bb240a46d09925b358a0b38a9a74d5193a7fd9f9b1782d1d33",
+    "completed_index_sha256": "65107db9f1aac739ce797b10de34771179ba38df7c16c2b78e3517977a3441ac",
+    "environment": {
+      "executable": "external-input/adfd34101980/python3.12",
+      "numerical_threads": 1,
+      "numpy": "2.2.6",
+      "numpy_file": "external-input/805cdf55b9f6/__init__.py",
+      "platform": "linux",
+      "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]"
+    },
+    "experiment_protocol_sha256": "80b621627cbfa4ba077909c7357a1527c3947f3d4aa8f54df0fec6a1e1813027",
+    "residual_basis_sha256": "91967c40bbdaa784fcefcbc0246b7053446522764fe258a0d5a1c8fa187a1405",
+    "scientific_sources": {
+      "inherited.py": "5f31ee0222027e063bcf309538c680fe62efec02c5cd4634c9c5d2f5f5ae372f",
+      "science.py": "be7879233b9389cf7721bafc0aed35d5d9d531393b886f0234cd6aefafae81fb",
+      "storage.py": "9a5c7fd73a544e0dff81f0775285b2bd23a76c68cb3ef7d1f15e6fe9cb062700"
+    },
+    "seed_manifest_sha256": "6d0c75f8e8f21d77d83be495a8788886de37ea95615a2824a2946ce52cd15b41",
+    "stage_a_event_ledger_sha256": "cbae7a73d227a505175e2ee2bc3590009873aef82fbe2bac6e2597e7915dff28",
+    "stage_a_freeze_sha256": "fdcd692d39ef61bd939f8f34af1197de81de33135a3c89254c3d1ed5d3241529",
+    "stage_a_return_sha256": "b28e892201f3e609d996eb74ce7cd64fc9cc9e7e9015edcfa74da2f24c7b008d",
+    "study_root": "external-input/549bf96f2214/TEP_V18_RELEARNING_R5_v1_0",
+    "tool_id": "TEP_V18_STAGE_B_LEARN_LOCK_v1.0",
+    "tool_manifest_sha256": "945bf474100b651bde93863cbc5c391c775bffaa95496f37ce1bc35f33a2769d"
+  },
+  "configuration_count": 135,
+  "configuration_table_sha256": "03978f4af7bdf2f1cc9d1cb2fd8f9c1fd5397f085420592640197dc1fc59479e",
+  "locked_utc": "2026-09-14T16:05:31.833456+00:00",
+  "next_phase": "A distinct later tool may generate the fixed 1,000 shared tests after validating this lock. This tool does not generate or score tests.",
+  "performance_conclusions_available": false,
+  "replication_count": 5,
+  "replications": [
+    {
+      "configurations": 27,
+      "manifest_sha256": "219b04ffe13e85f04356c1e60e8afe4c472d90e340ba6b60337a17c8a927381f",
+      "path": "models/rep01",
+      "replication": 1,
+      "replication_lock_sha256": "dabb605f0a9db0411b383af7a987bde218664d89b1b79d62a4a0861c83f100a5"
+    },
+    {
+      "configurations": 27,
+      "manifest_sha256": "172602fd1fe97829bde41375f31689ebede299a6331843981ce0b53bf0a17980",
+      "path": "models/rep02",
+      "replication": 2,
+      "replication_lock_sha256": "3c276c399a64545a269f6a2b5679b3bf5a7bd66e8bd2df7399205078824f161a"
+    },
+    {
+      "configurations": 27,
+      "manifest_sha256": "dd05594da3b82d70f68606eebccdce762fd940d8ff31cbc2a266d76e63063e50",
+      "path": "models/rep03",
+      "replication": 3,
+      "replication_lock_sha256": "6d0740be2d8fc4793ca1b65190f35048027deac2ec71e35981a7c91e488d5895"
+    },
+    {
+      "configurations": 27,
+      "manifest_sha256": "22c9f6c0ef6e45225e0c1c7f3c36608ea9560dad79b81105964d5029d8cb4a34",
+      "path": "models/rep04",
+      "replication": 4,
+      "replication_lock_sha256": "7c3c81af88e1e87adbcdb0904f32ceffa90206dd78eae4a102db7f6837b7329e"
+    },
+    {
+      "configurations": 27,
+      "manifest_sha256": "144b0fb4c7b8618eef75c65658e866f18af5a614f7dca469a5449d67e5c57033",
+      "path": "models/rep05",
+      "replication": 5,
+      "replication_lock_sha256": "adc9ff2d4183e927d2eeaa9cc49919416467646fdd02f8195053f1e1a2f55af1"
+    }
+  ],
+  "schema": "TEP_V18_ALL_MODELS_PRETEST_LOCK_v1.0",
+  "test_trajectories_generated": 0,
+  "test_trajectories_scored": 0
+}

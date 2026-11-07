@@ -1,0 +1,5 @@
+panel,recording,original_h,replayed_calibration_rank190,n_cal,n_normal,n_fault,normal_alarm_n,pre_alarm_n,clean2_n,clean8_n,clean40_n,n_original_evaluation_runs_checked
+confirmation,post_update,99.45735173974647,99.45735173974647,199,400,200,22,0,0,3,40,600
+confirmation,controller_input,29.600279941609113,29.600279941609113,199,400,200,24,1,7,61,176,600
+recording_panel_2,post_update,97.89824003853383,97.89824003853383,199,120,120,6,0,0,0,23,240
+recording_panel_2,controller_input,29.651585221148878,29.651585221148878,199,120,120,9,1,2,39,113,240

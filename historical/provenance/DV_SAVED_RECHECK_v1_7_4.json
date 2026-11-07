@@ -1,0 +1,232 @@
+{
+  "status": "PASS_SAVED_RESULTS_ONLY",
+  "scope": "Saved-result reaggregation and file identities only; no raw-to-score replay, refitting, simulation or external scientific acceptance.",
+  "time_utc": "2026-09-13T13:37:40.887791+00:00",
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "manifests": {
+    "frozen_model_entries": 34,
+    "evaluation_entries": 8
+  },
+  "unchanged_original_source_files_checked": 29,
+  "ledger": {
+    "records": 3843,
+    "event_counts": {
+      "SETUP": 1,
+      "SESSION_START": 4,
+      "ATTEMPT_START": 1915,
+      "ATTEMPT_COMMIT": 1915,
+      "SESSION_END": 4,
+      "LEARN_START": 1,
+      "LEARN_LOCKED": 1,
+      "EVALUATE_START": 1,
+      "EVALUATE_COMPLETE": 1
+    },
+    "hash_chain": "PASS",
+    "unmatched_starts": 0,
+    "all1000_test_starts_after_model_lock": true,
+    "all1915_commits_before_evaluation": true,
+    "tip": "2f9a49a8c985c3881d2cc10692ff98299b4d03f037ff260b8645605808b283ef"
+  },
+  "seed_checks": {
+    "new_derivations_verified": 1915,
+    "new_distinct_effective_initializations": 1915,
+    "old9500_exclusion": "Local reported result retained; old rows not available here",
+    "exclusion_report": {
+      "definition": "int(float(nonzero_u32)) mod 2^32 before first TESUB7; integer product modulo 2^32",
+      "effective_states_digest": "3a9e8967596a9befedcdb978c63dfd1f3f9864c920ede1f6bfcfe53c0d50d7d6",
+      "new_count": 1915,
+      "new_cross_role_collision_count": 0,
+      "new_prior_effective_state_overlap": 0,
+      "new_unique_effective_states": 1915,
+      "prior_adapter_sha256": "dd9a7a0701509c980892e8921d8424cbd437189d6b2607793e0aa2faf0b11286",
+      "prior_distinct_effective_states": 9500,
+      "prior_row_count": 9500,
+      "raw_old_seed_rows_copied": false,
+      "rejected_hash_candidates": 0,
+      "rows_sha256": "381b84e994bf0fbb141b4c240b2e6228d1e3906b68457197c299c85d035766e1",
+      "scope": "Excludes identical initializations, not a proof of independent or non-overlapping PRNG substreams.",
+      "secrets_accessed": false
+    }
+  },
+  "completed_roles": [
+    {
+      "stage": "evaluation",
+      "role": "fault_evaluation",
+      "fault": 3,
+      "n": 250
+    },
+    {
+      "stage": "evaluation",
+      "role": "fault_evaluation",
+      "fault": 9,
+      "n": 250
+    },
+    {
+      "stage": "evaluation",
+      "role": "fault_evaluation",
+      "fault": 15,
+      "n": 250
+    },
+    {
+      "stage": "development",
+      "role": "fault_fit",
+      "fault": 3,
+      "n": 100
+    },
+    {
+      "stage": "development",
+      "role": "fault_fit",
+      "fault": 9,
+      "n": 100
+    },
+    {
+      "stage": "development",
+      "role": "fault_fit",
+      "fault": 15,
+      "n": 100
+    },
+    {
+      "stage": "development",
+      "role": "fault_selection",
+      "fault": 3,
+      "n": 75
+    },
+    {
+      "stage": "development",
+      "role": "fault_selection",
+      "fault": 9,
+      "n": 75
+    },
+    {
+      "stage": "development",
+      "role": "fault_selection",
+      "fault": 15,
+      "n": 75
+    },
+    {
+      "stage": "development",
+      "role": "normal_anchor",
+      "fault": 0,
+      "n": 32
+    },
+    {
+      "stage": "development",
+      "role": "normal_design",
+      "fault": 0,
+      "n": 40
+    },
+    {
+      "stage": "evaluation",
+      "role": "normal_evaluation",
+      "fault": 0,
+      "n": 250
+    },
+    {
+      "stage": "development",
+      "role": "normal_inner_calibration",
+      "fault": 0,
+      "n": 59
+    },
+    {
+      "stage": "development",
+      "role": "normal_outer_calibration",
+      "fault": 0,
+      "n": 259
+    }
+  ],
+  "shutdowns_from_returned_index": 0,
+  "model_lock": {
+    "sha256": "8b94cb856b72a8216089869c46365af850685b91c833810d5fa3de5141d1a66a",
+    "frozen_utc": "2026-09-12T10:47:47.804653+00:00",
+    "configurations": 27,
+    "matches_locked_manifest": true
+  },
+  "reaggregation": {
+    "alarm_mask_bits_checked": 12960000,
+    "event_array_fields_from_masks": 47250,
+    "event_CSV_integer_fields": 47250,
+    "endpoint_numeric_fields": 918,
+    "binomial_interval_max_abs_error_pp": 9.681144774731365e-14,
+    "fixed_bootstrap_draw_elements_equal": 120000,
+    "record_phase_numeric_cells": 27000,
+    "same_Q_normal_outcomes_all_three_faults": true,
+    "no_candidate_rescoring_or_refitting": true
+  },
+  "main_contrasts": [
+    {
+      "contrast": "C1_F3_EXPRESSION",
+      "fault": 3,
+      "a": "same_mean_signed_axis_squared",
+      "b": "mean_pool_signed",
+      "mean_loss_difference_minutes": 1783.116,
+      "marginal95_lower": 1738.1634,
+      "marginal95_upper": 1825.5131999999999,
+      "bonferroni98_333_lower": 1727.4116999999999,
+      "bonferroni98_333_upper": 1834.5047000000002,
+      "normal_FAR_difference_pp": 1.2,
+      "normal_FAR_difference95_lower_pp": -2.0,
+      "normal_FAR_difference95_upper_pp": 4.4,
+      "status": "SUPPORTS_PREDICTED_LOSS_DIRECTION",
+      "paired_lower_loss_runs": 1,
+      "paired_equal_loss_runs": 0,
+      "paired_higher_loss_runs": 249,
+      "normal_a_only": 10,
+      "normal_b_only": 7,
+      "normal_both": 0
+    },
+    {
+      "contrast": "C2_F9_DIRECTION",
+      "fault": 9,
+      "a": "moment_pool_signed",
+      "b": "mean_pool_signed",
+      "mean_loss_difference_minutes": 12.24,
+      "marginal95_lower": -18.5043,
+      "marginal95_upper": 42.936,
+      "bonferroni98_333_lower": -26.0207,
+      "bonferroni98_333_upper": 49.34050000000003,
+      "normal_FAR_difference_pp": -1.2,
+      "normal_FAR_difference95_lower_pp": -4.8,
+      "normal_FAR_difference95_upper_pp": 2.4,
+      "status": "INCONCLUSIVE_LOSS_CONTRAST",
+      "paired_lower_loss_runs": 9,
+      "paired_equal_loss_runs": 226,
+      "paired_higher_loss_runs": 15,
+      "normal_a_only": 9,
+      "normal_b_only": 12,
+      "normal_both": 1
+    },
+    {
+      "contrast": "C3_F15_DIRECTION",
+      "fault": 15,
+      "a": "moment_pool_squared",
+      "b": "mean_pool_squared",
+      "mean_loss_difference_minutes": -948.336,
+      "marginal95_lower": -1029.7683,
+      "marginal95_upper": -865.8837000000001,
+      "bonferroni98_333_lower": -1048.0961,
+      "bonferroni98_333_upper": -846.4191,
+      "normal_FAR_difference_pp": 4.8,
+      "normal_FAR_difference95_lower_pp": 0.8,
+      "normal_FAR_difference95_upper_pp": 8.8,
+      "status": "SUPPORTS_PREDICTED_LOSS_DIRECTION",
+      "paired_lower_loss_runs": 208,
+      "paired_equal_loss_runs": 39,
+      "paired_higher_loss_runs": 3,
+      "normal_a_only": 19,
+      "normal_b_only": 7,
+      "normal_both": 0
+    }
+  ],
+  "limitations": [
+    "Source masks are verified for internal consistency; raw 52-variable trajectories were not available here to recompute the monitor scores.",
+    "No independent check of original 9500 seed rows; local exclusion record preserved. Distinct initialization states do not establish non-overlapping or statistically independent PRNG substreams.",
+    "The 250 normal evaluation runs are shared across all monitors; no pooling as 750 or 6750 independent normal runs.",
+    "CIs condition on this frozen PCA and one learned state per method/fault, excluding full retraining uncertainty.",
+    "This is original computation verification, not an external independent scientific acceptance.",
+    "This command writes only its new output directory. It does not modify manuscripts or research states."
+  ]
+}

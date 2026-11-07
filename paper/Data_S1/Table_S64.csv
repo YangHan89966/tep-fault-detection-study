@@ -1,0 +1,3 @@
+Record,Limit h,Normal alarms (of 60),Normal score variance,Clean ≤40 h (of 75),Clean ≤8 h,Clean ≤2 h,Pre-fault alarms,Mean loss (min)
+Controller-input,29.34,2,0.995,70,22,0,0,980.4
+Standard (1 s later),77.75,2,2.387,21,0,0,0,"2,170.2"

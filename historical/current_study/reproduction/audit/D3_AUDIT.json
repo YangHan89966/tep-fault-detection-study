@@ -1,0 +1,7 @@
+{
+  "status": "COMPLETE_AUTHOR_REEXTRACTION",
+  "candidate_records": 720,
+  "record_field_checks": 2880,
+  "original_source_sha256": "10de28ab3484a34ec95df8146ab298748f09ab5d31a40234b2f3ead69b4ae293",
+  "new_fitting": false
+}

@@ -1,0 +1,25 @@
+{
+  "release_date": "2026-11-07",
+  "source_archive": "TEP_P1_F15_XMEAS17_Results_20261104.zip",
+  "source_archive_sha256": "aadb4321438c5053892cd4a5520b7bbda0feea3c2a45255a2e365d95c36a58ef",
+  "changes": [
+    {
+      "path": "TEP_P1_F15_XMEAS17_Results/00_结果说明.txt",
+      "action": "documentation_revised",
+      "original_sha256": "d9caf43f6362e1559455eb543ef74f948f17d432e33cd5cf08a35727c342ebec",
+      "public_sha256": "28f6e516cf6abccd91c9456c210475199eae776310196de77037102c98f7e964"
+    },
+    {
+      "path": "TEP_P1_F15_XMEAS17_Results/MANUSCRIPT_PATCH_EN.txt",
+      "action": "editorial_directions_removed_scientific_text_retained_as_analysis_notes",
+      "original_sha256": "4bee46878c0bff9eac7ccea44163c8e0ebd1fe44d003a2e190915947b6ef73d6",
+      "public_path": "TEP_P1_F15_XMEAS17_Results/ANALYSIS_NOTES_EN.txt",
+      "public_sha256": "0814d31f560dda249ac507ed2fb4d926324d337dd43f7b8f3959b2d48f2c50a0"
+    }
+  ],
+  "all_non_document_members_byte_identical": true,
+  "preserved_original_member_count": 11,
+  "original_member_count": 13,
+  "code_lock_verification": null,
+  "original_manifests": "Original manifests are preserved byte-for-byte as historical source records. They describe the original archive. Documentation-only differences and omissions are listed here; use PUBLIC_SHA256SUMS.txt for this public derivative."
+}

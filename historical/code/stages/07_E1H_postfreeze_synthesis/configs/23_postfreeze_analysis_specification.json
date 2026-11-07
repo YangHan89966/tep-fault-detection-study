@@ -1,0 +1,109 @@
+{
+  "registration_name": "Step 23 post-freeze statistical synthesis",
+  "registration_status": "post-freeze secondary analysis specification; Step-22 results already exist",
+  "script": "scripts/23_postfreeze_statistical_synthesis.py",
+  "script_sha256": "ff0dca92231cd1084b4f1482e226d44e4750b03611db55a7635cf7d3dead56cd",
+  "input_sha256": {
+    "step15_results": "6e8c073471cc3a4bc85b138adf00c90fa7c155ce67fcbd9a89c089c4a70e32ed",
+    "step20_comparison": "eab39c7ddd8deab250f3a71476d69970730d105765a1c89b6082f209cbaa4d1e",
+    "step21_all_features": "d0dbfa68f017c9bbb8029ac75fb61e1d2c2750226c0c5fb0554254ac21921466",
+    "step21_family_summary": "260842bf55ec19458354d1f751bd26f848e974b8140b83a7d89fc391920879af",
+    "step21_protocol": "764ab3ed6bd364a92ccfe562746e6bf3025bac965e3572c58ee1c2ac0891acc6",
+    "step22_results": "dba76d9fa2d52785f60307ed83ddd0161e92510ce97059c9932a6b5e0817715f",
+    "step22_run_results": "cb141426568b07e7ce8008f6595968dd340034e862ea7bc24b9b7ae6215008a9",
+    "step22_config": "02301f6292c471db81fb38d66b85f0ec54873fc5d05953876bdf815fbd56e914"
+  },
+  "process_data_loaded": false,
+  "detector_fitting_allowed": false,
+  "variable_selection_allowed": false,
+  "family_selection_allowed": false,
+  "cusum_k_tuning_allowed": false,
+  "control_limit_tuning_allowed": false,
+  "performance_rows_changed_or_recomputed": false,
+  "primary_validation_population": {
+    "role": "reserved-fault frozen validation",
+    "faults": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "source": "Step 22 final runs 251--500",
+    "unit_for_crossfault_inference": "TEP fault",
+    "n_faults": 17
+  },
+  "method_development_cases": {
+    "faults": [
+      3,
+      9,
+      15
+    ],
+    "pooled_with_primary_validation": false,
+    "fault3_source": "Step 15 frozen final comparison",
+    "faults9_15_source": "Step 20 frozen final comparison"
+  },
+  "macro_endpoints": [
+    "mean normal run-level FAR",
+    "mean and median run-level detection",
+    "mean and median post-fault point detection",
+    "median alarm delay"
+  ],
+  "uncertainty": {
+    "method": "nonparametric fault-cluster percentile bootstrap",
+    "replicates": 20000,
+    "seed": 20260715,
+    "confidence_level": 0.95
+  },
+  "paired_comparisons": {
+    "reference_method": "frozen_multievidence_top5_cusum",
+    "comparators": [
+      "pca_q_cusum",
+      "pca_t2_cusum",
+      "pca_joint_cusum",
+      "lda_residual_cusum",
+      "chosen_family_all52_cusum",
+      "chosen_family_top1_cusum"
+    ],
+    "unit": "fault",
+    "endpoints": [
+      "normal FAR (positive utility difference means lower proposed FAR)",
+      "run detection (positive means higher proposed detection)",
+      "point detection (positive means higher proposed detection)",
+      "alarm delay (positive means faster proposed detection)"
+    ],
+    "test": "two-sided paired Wilcoxon signed-rank with Pratt zeros",
+    "multiplicity": "Holm adjustment separately within each endpoint family",
+    "equivalence_claim_allowed": false
+  },
+  "selection_stability": {
+    "source": "Step-21 development-only bootstrap frequencies and frozen family scores",
+    "inferential_status": "descriptive secondary diagnostic",
+    "family_margin": "chosen-family median Top-5 |Hedges g| minus best eligible runner-up",
+    "top5_stability": "marginal bootstrap Top-5 selection frequencies",
+    "diagnostic_guides_only": {
+      "relative_family_margin": 0.05,
+      "minimum_top5_frequency": 0.8
+    }
+  },
+  "reporting_guardrails": [
+    "Do not pool Faults 3, 9, and 15 into the 17-fault primary macro estimates.",
+    "Do not claim universal superiority or statistical equivalence.",
+    "Report every Step-22 method and every reserved fault.",
+    "Describe the numerical repair and retain both Step-22 registrations.",
+    "Report Fault 18 as the principal sustained point-detection limitation."
+  ],
+  "registered_at_utc": "2026-08-19T11:13:46.373139+00:00"
+}

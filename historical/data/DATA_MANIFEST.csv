@@ -1,0 +1,11 @@
+data_class,basename,size_bytes,sha256,package_status,notes
+raw,TEP_FaultFree_Training.RData,"24,678,017",12d1055b852763fac09ef36bd7c9612a800c8bf7b6f75f344d12119206f9e940,not included,Obtain from the cited extended TEP data source; redistribution permission must be checked.
+raw,TEP_FaultFree_Testing.RData,"47,327,663",4f45afafa469793eeb7203fb9ed10ed0b1724c73c9c95537f15a0889ade0ebd4,not included,Obtain from the cited extended TEP data source; redistribution permission must be checked.
+raw,TEP_Faulty_Training.RData,"494,063,194",058df8bd90c5f575f44d2f6085bdd3bc3662e3e9cc25a50e34af42be3748952b,not included,Used for companion/horizon analyses and Faults 9/15 extraction.
+raw,TEP_Faulty_Testing.RData,"836,882,037",c2f1aabc77498efda4d5f9ad81ecc829e2fcd98752b84cf5b2a06558cabacc36,not included,Primary extended TEP faulty-testing container.
+processed,normal_train.pkl,"109,001,842",880d4ed850578c23d6f7db0fc65ff95477d70c0669e8f0e984a1be345c2e185d,not included,Regenerate from raw data; exact identity listed for verification.
+processed,normal_validation_runs_1_250.pkl,"105,601,801",112c344ec6394ca48ce70e35acd1e2b55efdce9c792f933a8c9b81541e0125c2,not included,Regenerate from raw data.
+processed,normal_evaluation_runs_251_500.pkl,"105,601,801",d33390993bb2028dfd4407e7db4a9bbe684feb51cf1e513e5f44fa060442ec40,not included,Regenerate from raw data.
+processed,fault3_development_runs_1_250.pkl,see script-generated output,ba11696da5ac3356b4e47ce81bf99b513ee85878084af21f9e40b8563d0ec887,not included,Regenerate from raw data.
+processed,fault3_final_test_runs_251_500.pkl,see script-generated output,6bc010275bfc12f6d909bca694f497f7f019b8b295a2d339cc0ebe2f35c1b248,not included,Regenerate from raw data.
+derived transport,faulty_testing_full_20faults.float64.npy,"4,224,000,128",486532e9a139461396405d2ab00dae75a653fc5f0de502f1d4c3dfb6ec99197e,not included,Temporary transport matrix; intentionally omitted because it is large and regenerable.

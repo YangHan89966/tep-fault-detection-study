@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "inputs": [
+    {
+      "role": "s30_paths",
+      "original_filename": "TEP_S30_F9_PATHS_20260906T114012_708942Z_jy1gynnr_RESULTS.zip",
+      "original_sha256": "292106c23c212d3931c15aa6c5e435cc1069781f48e519c0259211ea7072b6fc",
+      "original_size_bytes": 40783254,
+      "public_filename": "TEP_S30_F9_PATHS_20260906T114012_708942Z_jy1gynnr_PUBLIC_PATH_REDACTED_v1.zip",
+      "public_sha256": "3d6673a3e7870e6ce31eb7765e8b689d0b71a408e16c8c19a524f66f65a80c82",
+      "public_size_bytes": 40783061,
+      "modified_members": [
+        {
+          "member": "INPUT_ACCESS.json",
+          "before_sha256": "20c013b2687fd2280a74ae7ab6ef1dd33d599b8fbaa2cfe28cbb78873e014f94",
+          "after_sha256": "2786f9987053df0c4b246b4a747b27e8ab3a11962a54efe2e8028115ac80bae7",
+          "before_size_bytes": 712,
+          "after_size_bytes": 585,
+          "reason": "metadata_or_documentation_path_strings_only"
+        },
+        {
+          "member": "RUNTIME_PROBES.json",
+          "before_sha256": "fe6a7125874d9b901d81a5b100b5b6f7742de7cb32dd43ff111f6a07612c69f3",
+          "after_sha256": "25235a1cdab27ce8b51c4a216dea5fd6d3d607af0d7bb844f49668a75642d5ea",
+          "before_size_bytes": 151,
+          "after_size_bytes": 117,
+          "reason": "metadata_or_documentation_path_strings_only"
+        },
+        {
+          "member": "code/data_io.py",
+          "before_sha256": "872b80b24244375e3003e61d2392b3498736400d59b51176e7c203665648e48f",
+          "after_sha256": "5c6c910494f59ad29fefb49da9ceefed2d06e68c387ecd3d70abaf2adf33e636",
+          "before_size_bytes": 6387,
+          "after_size_bytes": 6343,
+          "reason": "source_default_path_literals_only"
+        },
+        {
+          "member": "scores/PARITY_CHECKS.json",
+          "before_sha256": "5e8eda4e3b1b4bb76f1020717066f57fd9ffe1028784ff1f58d6ab26142331a4",
+          "after_sha256": "a7cc352a13d1fd3ae13cc87f9f138af0a01d09faf85f0a7f1e5fccec1622fc25",
+          "before_size_bytes": 35214,
+          "after_size_bytes": 34104,
+          "reason": "metadata_or_documentation_path_strings_only"
+        },
+        {
+          "member": "PAYLOAD_MANIFEST.json",
+          "before_sha256": "8673194777357f9ccc4b72047f9d5e7f49a3e77db80f0462a92e6258409be14a",
+          "after_sha256": "2cbfdc0fcda64d980dbb1b2c544804deb2fa00761f8fc1d4297f9166ad1ff2eb",
+          "before_size_bytes": 7888,
+          "after_size_bytes": 7889,
+          "reason": "regenerated_manifest_for_distributed_member_bytes"
+        },
+        {
+          "member": "RESULTS_SHA256.txt",
+          "before_sha256": "755af31e8afd2e6ab3a6761fc48aaf2e19ceb37c334bba17c9409c8bf8f97447",
+          "after_sha256": "33afce2b1a93d1cb5df123aba70a9f29514437bf5820ae98f1dbf504345ac4be",
+          "before_size_bytes": 12762,
+          "after_size_bytes": 12762,
+          "reason": "regenerated_manifest_for_distributed_member_bytes"
+        }
+      ],
+      "scientific_unchanged_count": 92,
+      "scientific_unchanged_count_definition": "All NPZ and CSV members, each compared byte-for-byte with original; additional unchanged scientific JSON members are included in unchanged_member_count. Path-bearing parity metadata changes only path strings; numerical JSON values unchanged.",
+      "unchanged_member_count": 130,
+      "provenance_filename": "TEP_S30_F9_PATHS_20260906T114012_708942Z_jy1gynnr_PUBLIC_PATH_REDACTED_v1.zip.provenance.json"
+    },
+    {
+      "role": "s28_results",
+      "original_filename": "TEP_S28_20260906T100417_400998Z_qzvltd2p_RESULTS.zip",
+      "original_sha256": "10de28ab3484a34ec95df8146ab298748f09ab5d31a40234b2f3ead69b4ae293",
+      "original_size_bytes": 180630263,
+      "public_filename": "TEP_S28_20260906T100417_400998Z_qzvltd2p_PUBLIC_PATH_REDACTED_v1.zip",
+      "public_sha256": "18632bbc8764abc745d50ca3820d1d1f7d04baf189236ac0176c258c64a9d109",
+      "public_size_bytes": 180630073,
+      "modified_members": [
+        {
+          "member": "INPUT_ACCESS.json",
+          "before_sha256": "74e68362b09154f070664bfa52934a007e98d55e6151dd8aeaa2d8852cfcc7af",
+          "after_sha256": "008fbd16e7e4c1782aea8c435005f069a4b3b2b995f915936f5f133843887e28",
+          "before_size_bytes": 1028,
+          "after_size_bytes": 901,
+          "reason": "metadata_or_documentation_path_strings_only"
+        },
+        {
+          "member": "README_CN.md",
+          "before_sha256": "840547930b05410a482cb7d63d4202ebbb9f762a3923838a2fe46d05c59ad5c8",
+          "after_sha256": "123f38345cd288ba6a13de7a041053765eafedeca70fa156bfacb16ef6b7af1e",
+          "before_size_bytes": 2510,
+          "after_size_bytes": 2441,
+          "reason": "metadata_or_documentation_path_strings_only"
+        },
+        {
+          "member": "RUNTIME_PROBES.json",
+          "before_sha256": "aa152c3c283a3c5f85a0e1a59dcf1bdb21ea59aa4f6e0150cd6eb1d0b7d73156",
+          "after_sha256": "2dd32c9c38e3ebab194dde3f19a964b4df66082bda8cc9877ccdf1130a5219bf",
+          "before_size_bytes": 149,
+          "after_size_bytes": 115,
+          "reason": "metadata_or_documentation_path_strings_only"
+        },
+        {
+          "member": "code/data_io.py",
+          "before_sha256": "872b80b24244375e3003e61d2392b3498736400d59b51176e7c203665648e48f",
+          "after_sha256": "5c6c910494f59ad29fefb49da9ceefed2d06e68c387ecd3d70abaf2adf33e636",
+          "before_size_bytes": 6387,
+          "after_size_bytes": 6343,
+          "reason": "source_default_path_literals_only"
+        },
+        {
+          "member": "code/zipapp_main.py",
+          "before_sha256": "a8b61d0d9e266430373cf71aeb8f1f252359d7b640ee808f9dbbcd9e1cc58648",
+          "after_sha256": "e218a8f9d4df8f85c01367ee9422ccc5179d6516bec745db5fad07fba7fa53b1",
+          "before_size_bytes": 5187,
+          "after_size_bytes": 5109,
+          "reason": "source_default_path_literals_only"
+        },
+        {
+          "member": "PAYLOAD_SHA256.txt",
+          "before_sha256": "95f0f2b7abb6a4ec45c9d6a0c4846014893f7783857eb3b1733aa973e8f68b95",
+          "after_sha256": "1fca9c5b798c7e21e871d3f8fd6f67ba98860ef2cec73968785db3ba59b00d6d",
+          "before_size_bytes": 519002,
+          "after_size_bytes": 519002,
+          "reason": "regenerated_manifest_for_distributed_member_bytes"
+        },
+        {
+          "member": "RESULTS_SHA256.txt",
+          "before_sha256": "0bc06fe43ce31cd0db8e1e0a87aeb985046d1295f579800546a98d4a06935e7b",
+          "after_sha256": "3613254a05601c37abafe8bb799f85ee0549afdf952a492f01aa4889003b0f8e",
+          "before_size_bytes": 1934066,
+          "after_size_bytes": 1934066,
+          "reason": "regenerated_manifest_for_distributed_member_bytes"
+        }
+      ],
+      "scientific_unchanged_count": 12043,
+      "scientific_unchanged_count_definition": "All NPZ and CSV members, each compared byte-for-byte with original; additional unchanged scientific JSON members are included in unchanged_member_count. Path-bearing parity metadata changes only path strings; numerical JSON values unchanged.",
+      "unchanged_member_count": 16868,
+      "provenance_filename": "TEP_S28_20260906T100417_400998Z_qzvltd2p_PUBLIC_PATH_REDACTED_v1.zip.provenance.json"
+    }
+  ],
+  "source_binding_policy": "Historical SOURCE_BINDING/STUDY_DEFINITION/lock provenance continues to identify immutable originals. Public archive hashes belong only to explicit derivative adapters or distribution metadata.",
+  "authorized_change_scope": "Path strings and distributed manifests only; no scientific computation or result change.",
+  "preserved_code_sha256": {
+    "common.py": "4c3e6d3287822aeb9a794340e57a5f35f7633709808d0e6aed4330eec031e2d6",
+    "d2_order_threshold.py": "746bec8f3c22544055f58f488b23758914076874722210b8baddd2af2260628d",
+    "d3_existing_metrics.py": "761037619293961115ecd89fa465fb8be90a90f2c04f0c32962284c9c6a6d983"
+  },
+  "analysis_contract_sha256": "db6ffae15b72c4cd60a25668be9526f2df95f8c348c733ff469207aa92b52459"
+}

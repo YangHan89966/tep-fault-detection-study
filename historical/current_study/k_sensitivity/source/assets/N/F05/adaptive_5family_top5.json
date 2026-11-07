@@ -1,0 +1,68 @@
+{
+  "abstention_reason": null,
+  "alarm_rule": "strict_exceedance",
+  "control_limit": 32.60489594268223,
+  "coordinates": [
+    {
+      "candidate_index": 16,
+      "family": "signed_level",
+      "residual_center": 2.7026832150056633e-13,
+      "sign": 1,
+      "validation_feature_mean": -0.0005868277984287598,
+      "validation_feature_sd": 0.14645429469890053,
+      "variable": "xmeas_17",
+      "variable_index": 16
+    },
+    {
+      "candidate_index": 48,
+      "family": "signed_level",
+      "residual_center": 4.1303873210551956e-14,
+      "sign": -1,
+      "validation_feature_mean": 0.0003872495680204093,
+      "validation_feature_sd": 0.10219506438222481,
+      "variable": "xmv_8",
+      "variable_index": 48
+    },
+    {
+      "candidate_index": 51,
+      "family": "signed_level",
+      "residual_center": 1.6578430228619823e-13,
+      "sign": 1,
+      "validation_feature_mean": 1.6350743437725634e-05,
+      "validation_feature_sd": 0.10453408735174882,
+      "variable": "xmv_11",
+      "variable_index": 51
+    },
+    {
+      "candidate_index": 10,
+      "family": "signed_level",
+      "residual_center": 5.167257506766276e-12,
+      "sign": 1,
+      "validation_feature_mean": -4.652023544014091e-05,
+      "validation_feature_sd": 0.37079086118028964,
+      "variable": "xmeas_11",
+      "variable_index": 10
+    },
+    {
+      "candidate_index": 18,
+      "family": "signed_level",
+      "residual_center": -1.494090345000032e-12,
+      "sign": -1,
+      "validation_feature_mean": 0.001893261115731342,
+      "validation_feature_sd": 0.15905309038861423,
+      "variable": "xmeas_19",
+      "variable_index": 18
+    }
+  ],
+  "cusum_k": 0.05,
+  "cusum_reset": "run_start_only",
+  "fault_id": 5,
+  "final_data_used": false,
+  "full_horizon_samples": 960,
+  "method": "adaptive_5family_top5",
+  "pca_file": "../PCA_MODEL.npz",
+  "pca_sha256": "e8d334f9201d41bb240a46d09925b358a0b38a9a74d5193a7fd9f9b1782d1d33",
+  "selection_bootstrap_seed": 869435491,
+  "selection_permutation_seed": 1720488166,
+  "status": "ESTIMABLE"
+}

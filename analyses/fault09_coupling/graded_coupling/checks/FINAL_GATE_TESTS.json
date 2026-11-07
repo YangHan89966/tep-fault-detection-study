@@ -1,0 +1,27 @@
+{
+  "status": "PASS_FINAL_GATES_SYNTHETIC",
+  "no_scientific_scores_read": true,
+  "checks": {
+    "valid_full_binding_199_case_fixture_accepted": true,
+    "wrong_study_binding_rejected": true,
+    "changed_rank_binding_rejected": true,
+    "wrong_calibration_manifest_order_rejected": true,
+    "incomplete_calibration_panel_rejected": true,
+    "wrong_six_threshold_shape_rejected": true,
+    "changed_threshold_value_rejected": true,
+    "nonfinite_threshold_rejected": true,
+    "changed_calibration_input_hash_rejected": true,
+    "changed_calibration_artifact_hash_rejected": true,
+    "changed_archived_reference_hash_rejected": true,
+    "missing_lock_rejected": true,
+    "cached_evaluation_same_generation_lock_accepted": true,
+    "cached_evaluation_missing_lock_argument_rejected": true,
+    "cached_evaluation_wrong_current_lock_hash_rejected": true,
+    "cached_evaluation_wrong_generation_lock_rejected": true,
+    "cached_evaluation_missing_lock_file_rejected": true
+  },
+  "reviewed_code_sha256": {
+    "code/run_coupling.py": "c5c14d45ebc617d09f77ce5cb9f458742f78ff41f003d3deda65264dac03c157",
+    "code/analyze_coupling.py": "5fd729057e3712860bb6c8e6e4a93a8f4675ea580f9057059f6387ab221a7615"
+  }
+}

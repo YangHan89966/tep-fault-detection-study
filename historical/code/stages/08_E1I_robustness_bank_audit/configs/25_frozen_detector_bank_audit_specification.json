@@ -1,0 +1,123 @@
+{
+  "registration_name": "Step 25 frozen detector-bank system audit",
+  "registration_status": "post-freeze secondary system audit; Step-22 performance was known before registration",
+  "script": "scripts/25_frozen_detector_bank_audit.py",
+  "script_sha256": "6df04b8c501617020a71bada8cfd64478cc74cee53e7d63063fcf10e6ac10366",
+  "input_sha256": {
+    "step11_script": "261f64589d6dfc2bb0098e8913358a5b5c9785fea84b67556b972d51cd3b0b86",
+    "step15_script": "27e255613365cc025d497532aea0ef487831704b7baf6ab27c1d2d18cf642042",
+    "step18_script": "d0f7b9b3318c93bfd4f64016d994f2f0aa2806f083df7487af44e62a04e65053",
+    "step20_script": "499f1a51d11fbe563b833722da67d002c464fb4acf6e4056ca064b42b9f79825",
+    "step24_script": "afd2dfd6873291ecb8d4426d9bee8179fe51c91ed1678ebf966d5c357202cb82",
+    "step22_results": "dba76d9fa2d52785f60307ed83ddd0161e92510ce97059c9932a6b5e0817715f",
+    "step22_parameters": "b2b763f3d36df032eded4df978debe9fb8c6cdd8924b17bcd5022a5969afcf59",
+    "step22_scalers": "b046d4720acb8fff64f67bce897c776eda7e4b712914de39a3321df1fe37e694",
+    "step22_config": "02301f6292c471db81fb38d66b85f0ec54873fc5d05953876bdf815fbd56e914",
+    "variable_list": "7d64ddbab285831773cc6f49b1968e0b2bed3f5a856cea256d5e29ec52b58494",
+    "normal_train": "880d4ed850578c23d6f7db0fc65ff95477d70c0669e8f0e984a1be345c2e185d",
+    "normal_evaluation": "d33390993bb2028dfd4407e7db4a9bbe684feb51cf1e513e5f44fa060442ec40",
+    "faulty_testing_rdata": "c2f1aabc77498efda4d5f9ad81ecc829e2fcd98752b84cf5b2a06558cabacc36"
+  },
+  "registration_reads": "byte hashes only; no process dataframe is parsed",
+  "process_data_loaded_during_registration": false,
+  "frozen_population": {
+    "monitor_faults": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "actual_faults": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "normal_evaluation_runs": [
+      251,
+      500
+    ],
+    "final_fault_runs": [
+      251,
+      500
+    ],
+    "samples_per_run": 960,
+    "fault_start_sample": 161,
+    "sampling_interval_min": 3
+  },
+  "frozen_method": {
+    "method_key": "frozen_multievidence_top5_cusum",
+    "label": "Proposed Top-5",
+    "channels_per_monitor": 5,
+    "monitor_count": 17,
+    "family_selection_allowed": false,
+    "variable_selection_allowed": false,
+    "orientation_change_allowed": false,
+    "feature_scaler_refitting_allowed": false,
+    "cusum_k_tuning_allowed": false,
+    "control_limit_tuning_allowed": false,
+    "final_data_arbitration_tuning_allowed": false
+  },
+  "normal_bank_audit": {
+    "bank_rule": "logical OR of all 17 frozen monitor alarms",
+    "reported_endpoints": [
+      "bank run-level false-alarm rate",
+      "bank point-level false-alarm rate",
+      "number of distinct monitors alarming per run",
+      "maximum simultaneous alarm multiplicity per run",
+      "pairwise run-level co-alarm rate and Jaccard index"
+    ]
+  },
+  "crossfault_audit": {
+    "matrix_rows": "frozen monitor fault identity",
+    "matrix_columns": "actual reserved final fault",
+    "reported_endpoints": [
+      "post-fault run detection",
+      "post-fault point detection",
+      "median detected-run alarm delay",
+      "all-run penalized mean delay",
+      "median frozen-limit-normalized post-fault CUSUM peak"
+    ]
+  },
+  "target_monitor_diagnostics": {
+    "earliest_rank_definition": "1 plus the number of monitors with a strictly earlier post-fault first alarm; ties share the best rank",
+    "peak_rank_definition": "1 plus the number of monitors with a strictly larger maximum post-fault CUSUM divided by its frozen limit",
+    "diagnosis_rule_trained": false,
+    "confirmatory_inference": false
+  },
+  "reporting_guardrails": [
+    "The OR bank is a hypothetical deployment audit, not the Step-22 primary operating rule.",
+    "A cross-trigger is not a false alarm when a real fault is present.",
+    "The cross-fault matrix describes detector selectivity, not validated multiclass diagnosis.",
+    "Target rank and normalized peak are descriptive and cannot be used to retune an arbitration rule.",
+    "Do not use Step-25 results to alter any Step-22 frozen state or primary endpoint.",
+    "Retain unfavorable bank-level FAR or cross-trigger results without post hoc threshold changes."
+  ],
+  "registered_at_utc": "2026-08-20T03:13:30.649841+00:00"
+}

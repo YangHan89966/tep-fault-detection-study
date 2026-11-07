@@ -1,0 +1,12 @@
+{
+  "source_commit": "9a6c8e5fcef4a2850778704e7793c87b0a187005",
+  "checked_paths": [
+    "README.md",
+    "docs/**/*.md",
+    "src/tep/simulator.py and repository documentation/code"
+  ],
+  "search_hits": [],
+  "public_issue_search": "is:issue (without an open/closed filter)",
+  "github_result": "No results matched your search",
+  "limit": "Current publicly searchable material only. No evidence found that the within-step pairing was an intentional design for detection; absence is not proof of motive."
+}

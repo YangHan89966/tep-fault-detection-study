@@ -1,0 +1,10 @@
+﻿fault,policy,k,comparison,reference,comparison_k,reference_k,contrast_mean_loss_min,contrast_normal_far_pp,contrast_clean_120_pp,predicted_sign_of_loss_contrast
+3,k005,0.05,same_mean_signed_axis_squared,mean_pool_signed,0.05,0.05,1783.1159999999998,1.1999999999999997,-0.8,positive
+3,k007,0.07,same_mean_signed_axis_squared,mean_pool_signed,0.07,0.07,1785.6840000000002,1.2000000000000002,-0.8,positive
+3,auto_dev,auto_per_branch,same_mean_signed_axis_squared,mean_pool_signed,0.1,0.07,1779.4320000000002,4.3999999999999995,-0.8,positive
+9,k005,0.05,moment_pool_signed,mean_pool_signed,0.05,0.05,12.240000000000236,-1.2000000000000002,0.0,negative
+9,k007,0.07,moment_pool_signed,mean_pool_signed,0.07,0.07,6.911999999999807,-1.6000000000000005,0.0,negative
+9,auto_dev,auto_per_branch,moment_pool_signed,mean_pool_signed,0.05,0.1,11.016000000000076,-0.7999999999999998,0.0,negative
+15,k005,0.05,moment_pool_squared,mean_pool_squared,0.05,0.05,-948.3360000000002,4.799999999999999,0.0,negative
+15,k007,0.07,moment_pool_squared,mean_pool_squared,0.07,0.07,-1005.5640000000003,4.0,0.8,negative
+15,auto_dev,auto_per_branch,moment_pool_squared,mean_pool_squared,0.07,0.05,-1006.0680000000002,4.799999999999999,0.8,negative

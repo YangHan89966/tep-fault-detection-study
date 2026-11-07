@@ -1,0 +1,11 @@
+{
+  "status": "PASS_FIXED_SCORE_PATHS_ONLY_NOT_NEW_METHOD_RESULTS",
+  "split_count": 10,
+  "roles_per_split": 3,
+  "fault": 9,
+  "normalization_reestimated": false,
+  "calibration_reestimated": false,
+  "candidate_selection_changed": false,
+  "evidence_transform_parameters_frozen": true,
+  "scalar_roundtrip_exact": true
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "files_compared": 8,
+  "byte_identical_files": 8,
+  "npz_arrays_exactly_equal": 35,
+  "includes_799_reconstructed_score_files": false,
+  "reference": "public distribution archived numerical outputs",
+  "replay": "separate caller-selected directory"
+}

@@ -1,0 +1,33 @@
+{
+  "protocol_sha256": "264dfb33d9f77e7159a686997768fcca2b042cde6cbb22187a694f46ddf222af",
+  "seed_lock_sha256": "9b608b588a8718d106cb05f2c9dca465094b286353d436e20d5492ec6b48db49",
+  "PCA_sha256": "851e753ef45fe397e246270fe6634e49c4a4c3980b81f89caf762b8e338eb015",
+  "relative_path": "normal_support_attempt_8dbcbc2bfc6c",
+  "files": {
+    "NORMAL_SUPPORT_REPORT.json": "a4b6e0f721b20181135a8302a58f84228d28928a46ed7b529b733f50328a06f4",
+    "native_NORMAL_GEOMETRY.npz": "23427dc0415256c1f576f7c8d1ee3b7a5e01bced41a333621e772e3d7eec9f89",
+    "native_SUPPORT.npz": "d66bd4eb39ee2080f55449de4d479e540d3facc0375a13575f4a0ac91ed0570c",
+    "snapshot_NORMAL_GEOMETRY.npz": "1703e3d36c2ed9ea8a317ab1a1f349746cc51141f767a23cbe133d6fb99ff916",
+    "snapshot_SUPPORT.npz": "de805f3626a848ea7270ec40b27e52a086271b15044cce3c37b4d7cf6c34419e"
+  },
+  "checks": {
+    "native": {
+      "input_dimension": 16,
+      "normal_effective_dimension": 16,
+      "cutoff": 1.6261115707090723e-11,
+      "full_rank_identity_path": true,
+      "B_minimum_eigenvalue": 0.17028595704416352,
+      "B_SPD_cutoff": 2.0957504694696353e-12
+    },
+    "snapshot": {
+      "input_dimension": 17,
+      "normal_effective_dimension": 15,
+      "cutoff": 1.5309212974243322e-11,
+      "full_rank_identity_path": false,
+      "B_minimum_eigenvalue": 0.08514297057239863,
+      "B_SPD_cutoff": 3.2160851372371435e-12
+    }
+  },
+  "locked_utc": "2026-10-07T03:57:51.251402+00:00",
+  "fault_data_used": false
+}

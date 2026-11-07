@@ -1,0 +1,43 @@
+from pathlib import Path
+import csv, tempfile, shutil, numpy as np, matplotlib.pyplot as plt, fitz
+HERE=Path(__file__).resolve().parent
+with open(HERE/"P2-SIF01_source_data.csv",encoding="utf-8",newline="") as f:
+    R=sorted(list(csv.DictReader(f)),key=lambda r:float(r["cusum_k"]))
+k=np.array([float(r["cusum_k"]) for r in R])
+far=np.array([float(r["normal_run_far_pct"]) for r in R])
+occ=np.array([float(r["threshold_occupancy_pct"]) for r in R])
+med=np.array([float(r["median_alarm_delay_min"]) for r in R])
+mean_delay=np.array([float(r["mean_alarm_delay_min"]) for r in R])
+frozen=np.array([r["is_frozen_primary"]=="True" for r in R]); fi=int(np.where(frozen)[0][0])
+plt.rcParams.update({"font.size":8.1,"axes.titlesize":9.2,"axes.labelsize":8.1,
+                     "xtick.labelsize":7.1,"ytick.labelsize":7.1,"legend.fontsize":6.7})
+TMP=Path(tempfile.mkdtemp(prefix="p2sif01_panels_"))
+fig=plt.figure(figsize=(3.60,2.85)); ax=fig.add_axes([.15,.22,.72,.66]); ax2=ax.twinx()
+p1,=ax.plot(k,occ,marker="s",linestyle="--",linewidth=1.4,label="Threshold occupancy")
+p2,=ax2.plot(k,far,marker="o",linestyle="-",linewidth=1.4,label="Normal run FAR")
+ax.axvline(.05,linestyle=":",linewidth=1.2); ax.scatter([.05],[occ[fi]],marker="*",s=95,zorder=5); ax2.scatter([.05],[far[fi]],marker="*",s=95,zorder=5)
+ax.set_xlim(.005,.105); ax.set_xticks(k); ax.set_ylim(84.5,90.3); ax2.set_ylim(2.5,6.2)
+ax.set_xlabel("CUSUM reference value k"); ax.set_ylabel("Post-fault threshold occupancy (%)"); ax2.set_ylabel("Normal run-level FAR (%)")
+ax.set_title("A  FAR and sustained occupancy versus k",loc="left",fontweight="bold"); ax.grid(True,alpha=.22)
+ax.legend([p1,p2],[p1.get_label(),p2.get_label()],loc="lower right",frameon=False)
+ax.text(.03,.95,f"Frozen k=0.05: {occ[fi]:.2f}% occupancy / {far[fi]:.1f}% FAR",transform=ax.transAxes,ha="left",va="top",fontsize=6.5)
+fig.savefig(TMP/"A.pdf",bbox_inches="tight"); plt.close(fig)
+fig=plt.figure(figsize=(3.60,2.85)); ax=fig.add_axes([.15,.22,.80,.66])
+ax.plot(k,med,marker="o",linewidth=1.4,label="Median delay")
+ax.plot(k,mean_delay,marker="s",linestyle="--",linewidth=1.2,label="Mean delay")
+ax.axvline(.05,linestyle=":",linewidth=1.2); ax.scatter([.05],[med[fi]],marker="*",s=95,zorder=5)
+ax.set_xlim(.005,.105); ax.set_xticks(k); ax.set_ylim(215,335)
+ax.set_xlabel("CUSUM reference value k"); ax.set_ylabel("Alarm delay (min)")
+ax.set_title("B  Delay sensitivity versus k",loc="left",fontweight="bold"); ax.grid(True,alpha=.22); ax.legend(loc="upper right",frameon=False)
+ax.text(.03,.95,"Run detection = 250/250 for every k",transform=ax.transAxes,ha="left",va="top",fontsize=6.5)
+ax.text(.03,.84,"Frozen k=0.05: median 231 min\nObserved minimum median: k=0.07, 228 min",transform=ax.transAxes,ha="left",va="top",fontsize=6.35)
+fig.savefig(TMP/"B.pdf",bbox_inches="tight"); plt.close(fig)
+mm=72/25.4; pw,ph=178*mm,80*mm; mx,my,gx=7*mm,6*mm,5*mm; cw=(pw-2*mx-gx)/2
+doc=fitz.open(); page=doc.new_page(width=pw,height=ph)
+for rect,name in [(fitz.Rect(mx,my,mx+cw,ph-my),"A"),(fitz.Rect(mx+cw+gx,my,pw-mx,ph-my),"B")]:
+    s=fitz.open(TMP/f"{name}.pdf"); page.show_pdf_page(rect,s,0,keep_proportion=True); s.close()
+pdf=HERE/"P2-SIF01_fault3_cusum_k_sensitivity.pdf"; doc.save(pdf); doc.close()
+d=fitz.open(pdf)
+(HERE/"P2-SIF01_fault3_cusum_k_sensitivity.svg").write_text(d[0].get_svg_image(text_as_path=False),encoding="utf-8")
+d[0].get_pixmap(matrix=fitz.Matrix(600/72,600/72),alpha=False).save(HERE/"P2-SIF01_fault3_cusum_k_sensitivity.png")
+d.close(); shutil.rmtree(TMP,ignore_errors=True)

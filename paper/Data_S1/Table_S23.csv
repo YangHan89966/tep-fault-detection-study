@@ -1,0 +1,22 @@
+Replicate,Runs detected by both,A: mean delay (h),B: mean delay (h),A − B (h)
+Fault 3: full-pool monitor (A) against FDA-CUSUM (B),,,,
+1,247,9.64,16.85,−7.21
+2,249,9.84,16.64,−6.80
+3,244,9.55,18.62,−9.07
+4,250,10.30,16.39,−6.09
+5,229,9.93,21.89,−11.96
+Mean of replicates,"1,219 (sum)",9.85,18.08,−8.23
+Fault 9: full-pool monitor (A) against FDA-CUSUM (B),,,,
+1,1,2.05,30.50,−28.45
+2,0,–,–,–
+3,2,24.75,28.58,−3.83
+4,1,36.55,19.30,+17.25
+5,2,25.33,34.23,−8.90
+Mean of replicates,6 (sum),–,–,–
+Fault 15: full-pool monitor (A) against the variance-ratio reference (B),,,,
+1,156,19.19,21.91,−2.72
+2,128,19.33,24.22,−4.89
+3,138,20.76,22.36,−1.60
+4,148,19.91,24.32,−4.40
+5,126,20.67,22.86,−2.19
+Mean of replicates,696 (sum),19.97,23.13,−3.16

@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "exact_source_asset_files_checked": 119,
+  "extracted_scientific_module_checked": true,
+  "unchanged_S18_members_checked": 54,
+  "original_k005_alarm_bits_checked": {
+    "N": 16320000,
+    "DV": 12960000
+  },
+  "original_k005_threshold_values_checked": {
+    "N": 34,
+    "DV": 27
+  },
+  "scope": "Saved masks and frozen assets; no raw-to-score replay, simulation, fitting or threshold changes"
+}

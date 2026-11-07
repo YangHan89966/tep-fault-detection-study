@@ -1,0 +1,87 @@
+{
+  "script": "scripts/20_frozen_multievidence_validation.py",
+  "script_sha256_at_execution": "499f1a51d11fbe563b833722da67d002c464fb4acf6e4056ca064b42b9f79825",
+  "step19_script_sha256_expected": "0a19a1c0210669c201d7cbe42c5824aed2a38cb8a08405c68879cc415a30ee6b",
+  "step19_config_sha256": "91163d835c27515128aa2f9396049dcba958c25800f340f11af5a72167733e2d",
+  "step19_selected_table_sha256": "145afc67200ef98bfc09aac06474d9b0d08f086273755b5905519c5da5f534e6",
+  "step19_protocol_verified": true,
+  "step19_reconstruction_parity_all_passed": true,
+  "step19_reconstruction_tolerance": 1e-10,
+  "target_faults": [
+    9,
+    15
+  ],
+  "frozen_protocol": {
+    "9": {
+      "family_key": "lag1_product",
+      "family_label": "Lag-1 product",
+      "family_formula": "(r(t)-normal_center)*(r(t-1)-normal_center)",
+      "variables": [
+        "xmeas_2",
+        "xmv_1",
+        "xmeas_21",
+        "xmv_10",
+        "xmeas_3"
+      ],
+      "orientation_signs": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "15": {
+      "family_key": "squared_deviation",
+      "family_label": "Squared deviation",
+      "family_formula": "(r(t)-normal_center)^2",
+      "variables": [
+        "xmeas_17",
+        "xmeas_11",
+        "xmeas_22",
+        "xmv_7",
+        "xmeas_12"
+      ],
+      "orientation_signs": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "top_k": 5,
+  "cusum_k": 0.05,
+  "cusum_k_tuned_in_step20": false,
+  "variables_or_families_changed_in_step20": false,
+  "run_level_control_limit_percentile": 95,
+  "dynamic_feature_first_sample_handling": "zero standardized evidence at the first sample of each run; no cross-run lag is used",
+  "normal_feature_center_and_scaler_source": "normal validation only",
+  "target_final_or_companion_used_for_scaling_or_tuning": false,
+  "study_history": {
+    "step18_previously_accessed_target_final_and_companion": true,
+    "step18_evaluated_this_new_multievidence_branch": false,
+    "interpretation": "secondary frozen validation of a newly defined branch, not a pristine external validation",
+    "broad_generalization_claim_requires_future_reserved_faults": true
+  },
+  "pca_n_components": 36,
+  "pca_cumulative_explained_variance": 0.9581997268001302,
+  "output_tables": [
+    "results\\tables\\20_frozen_multievidence_method_definition.csv",
+    "results\\tables\\20_frozen_multievidence_scalers.csv",
+    "results\\tables\\20_step19_reconstruction_parity.csv",
+    "results\\tables\\20_frozen_multievidence_results.csv",
+    "results\\tables\\20_frozen_multievidence_comparison.csv",
+    "results\\tables\\20_frozen_multievidence_run_results.csv",
+    "results\\tables\\20_frozen_multievidence_normal_run_results.csv",
+    "results\\tables\\20_frozen_multievidence_validation_run_max.csv",
+    "results\\tables\\20_frozen_multievidence_data_audit.csv"
+  ],
+  "output_figures": [
+    "results\\figures\\fig20a_frozen_multievidence_validation.png",
+    "results\\figures\\fig20a_frozen_multievidence_validation.pdf",
+    "results\\figures\\fig20b_frozen_final_comparison.png",
+    "results\\figures\\fig20b_frozen_final_comparison.pdf"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "choices": {
+    "mean": 7,
+    "moment": 11
+  },
+  "mean_count": 8,
+  "moment_count": 8,
+  "candidate_labels": [
+    [
+      "unweighted_original_merge"
+    ],
+    [
+      "shrink50_original_merge"
+    ],
+    [
+      "shrink10_original_merge"
+    ],
+    [
+      "raw_original_merge"
+    ],
+    [
+      "unweighted_complementary_merge"
+    ],
+    [
+      "shrink50_complementary_merge"
+    ],
+    [
+      "shrink10_complementary_merge"
+    ],
+    [
+      "raw_complementary_merge"
+    ],
+    [
+      "unweighted_max"
+    ],
+    [
+      "shrink50_max"
+    ],
+    [
+      "shrink10_max"
+    ],
+    [
+      "raw_max"
+    ],
+    [
+      "unweighted_min"
+    ],
+    [
+      "shrink50_min"
+    ],
+    [
+      "shrink10_min"
+    ],
+    [
+      "raw_min"
+    ]
+  ],
+  "tie_rule": "minimum exact integer total, first inherited candidate index",
+  "outer_used": false,
+  "evaluation_used": false
+}

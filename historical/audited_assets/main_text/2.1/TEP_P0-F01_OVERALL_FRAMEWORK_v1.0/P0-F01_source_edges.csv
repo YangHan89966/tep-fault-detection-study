@@ -1,0 +1,13 @@
+source,target,line_style,meaning
+N1,N2,solid,normal-only PCA backbone
+N2,N4,solid,residual coordinates enter prespecified evidence dictionary
+N3,N4,solid,development data only
+N4,N5,solid,screen 260 candidates under multiplicity control
+N6,N7,solid,normal-validation calibration only
+N5,N8,solid,family + Top-5 + orientation
+N7,N8,solid,scaler + k + limit
+N8,N10,primary,frozen state crosses firewall
+N9,N10,primary,held-out data used only for evaluation
+N10,N11,dashed,post-freeze critical analyses
+N10,N12,dashed,secondary system audit
+N12,N13,dotted,exploratory arbitration

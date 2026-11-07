@@ -1,0 +1,18 @@
+{
+  "alarm_rule": "strict_exceedance",
+  "control_limit": 15.061618300794812,
+  "coordinates": [],
+  "cusum_k": 0.5,
+  "cusum_reset": "run_start_only",
+  "fault_id": 12,
+  "final_data_used": false,
+  "full_horizon_samples": 960,
+  "method": "q_cusum",
+  "pca_file": "../PCA_MODEL.npz",
+  "pca_sha256": "e8d334f9201d41bb240a46d09925b358a0b38a9a74d5193a7fd9f9b1782d1d33",
+  "q_log_mean": 1.2194665892891474,
+  "q_log_sd": 0.34244643772370176,
+  "selection_bootstrap_seed": null,
+  "selection_permutation_seed": null,
+  "status": "ESTIMABLE"
+}

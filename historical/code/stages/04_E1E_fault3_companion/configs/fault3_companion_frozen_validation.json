@@ -1,0 +1,100 @@
+{
+  "script": "scripts/17_fault3_companion_frozen_validation.py",
+  "purpose": "No-retuning validation on Fault 3 from TEP_Faulty_Training.RData",
+  "interpretation": "untouched companion-set fault validation; same TEP simulator, with pre-fault provenance explicitly audited",
+  "fault_id": 3,
+  "companion_fault_start_sample": 21,
+  "companion_samples_per_run": 500,
+  "matched_original_segment": {
+    "source_samples": [
+      141,
+      640
+    ],
+    "relabeled_samples": [
+      1,
+      500
+    ],
+    "fault_start_after_relabeling": 21,
+    "cusum_reset_at_segment_start": true
+  },
+  "frozen_from_step15": {
+    "method_definitions": true,
+    "selected_variables": [
+      "xmeas_2",
+      "xmeas_21",
+      "xmv_1",
+      "xmv_8",
+      "xmeas_15"
+    ],
+    "selected_signs": [
+      -1,
+      -1,
+      -1,
+      1,
+      1
+    ],
+    "top_k": 5,
+    "proposed_cusum_k": 0.05,
+    "competitor_k_values": {
+      "pca_q_raw": null,
+      "pca_t2_raw": null,
+      "pca_joint_raw": null,
+      "pca_q_cusum": 0.03,
+      "pca_t2_cusum": 0.05,
+      "pca_joint_cusum": 0.07,
+      "all52_signed_cusum": 0.03,
+      "lda_residual_cusum": 0.2,
+      "top1_signed_cusum": 0.07,
+      "proposed_top5_cusum": 0.05
+    },
+    "control_limit_source": "results\\tables\\15_fair_sequential_baseline_results.csv"
+  },
+  "faulty_training_used_for_any_tuning": false,
+  "pca_n_components": 36,
+  "pca_cumulative_explained_variance": 0.9581997268001302,
+  "data_audit": {
+    "file_name": "TEP_Faulty_Training.RData",
+    "file_size_bytes": 494063194,
+    "file_sha256": "058df8bd90c5f575f44d2f6085bdd3bc3662e3e9cc25a50e34af42be3748952b",
+    "r_object_names": "faulty_training",
+    "selected_r_object": "faulty_training",
+    "complete_object_rows": 5000000,
+    "complete_object_columns": 55,
+    "fault_id": 3,
+    "fault3_rows": 250000,
+    "fault3_runs": 500,
+    "sample_min": 1,
+    "sample_max": 500,
+    "rows_per_run_min": 500,
+    "rows_per_run_max": 500,
+    "duplicate_identifier_rows": 0,
+    "nonfinite_process_values": 0,
+    "prespecified_fault_start_sample": 21,
+    "pre_fault_samples_per_run": 20,
+    "post_fault_samples_per_run": 480,
+    "ingestion_bridge": "WSL_PYREADR_TO_EXACT_FLOAT64_NPY_THEN_WINDOWS_TEP_RUNTIME",
+    "ingestion_bridge_matrix_sha256": "0ccc63b36dfcdde132ed0d1730f5ef11136b9a76a1b342db1c1374fe48b7e11d",
+    "ingestion_bridge_extraction_audit_sha256": "13a808ee39be3c95443317da2bb9e7d01c40b145e08b332533beca2d072943ad",
+    "scientific_source_reference_sha256": "275f088af8ea56896108863b1fcad6fec81db6f7ad5b434343e8ea74d14dd841",
+    "faulty_training_used_for_any_tuning": false,
+    "prefault_rows_compared": 10000,
+    "prefault_variable_cells_compared": 520000,
+    "prefault_exact_cell_fraction": 1.0,
+    "prefault_exact_row_fraction": 1.0,
+    "prefault_max_absolute_difference": 0.0,
+    "prefault_identical_to_pca_training": true
+  },
+  "all_parity_checks_passed": true,
+  "output_tables": [
+    "results\\tables\\17_fault3_companion_data_audit.csv",
+    "results\\tables\\17_fault3_companion_frozen_results_long.csv",
+    "results\\tables\\17_fault3_companion_frozen_comparison.csv",
+    "results\\tables\\17_fault3_companion_frozen_run_results.csv",
+    "results\\tables\\17_fault3_companion_parity_checks.csv",
+    "results\\tables\\17_reconstructed_shrinkage_lda_weights.csv"
+  ],
+  "output_figures": [
+    "results\\figures\\fig17a_fault3_companion_frozen_validation.png",
+    "results\\figures\\fig17a_fault3_companion_frozen_validation.pdf"
+  ]
+}

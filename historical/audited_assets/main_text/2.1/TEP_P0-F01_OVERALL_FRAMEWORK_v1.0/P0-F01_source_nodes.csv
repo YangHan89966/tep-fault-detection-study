@@ -1,0 +1,19 @@
+node_id,x,y,width,height,evidence_class,title,subtitle
+N1,0.025,0.73,0.18,0.105,normal,Normal training,standardization + PCA
+N2,0.245,0.73,0.18,0.105,normal,52 residual coordinates,variable-wise PCA residuals
+N3,0.025,0.48,0.18,0.105,development,Fault development,run-level summaries only
+N4,0.245,0.48,0.18,0.105,development,Evidence dictionary,5 families x 52 = 260 candidates
+N5,0.465,0.48,0.17,0.105,development,Multiplicity screen,eligible family + Top-5
+N6,0.025,0.23,0.18,0.105,validation,Normal validation,centers + evidence scaling
+N7,0.245,0.23,0.18,0.105,validation,CUSUM calibration,fixed k + finite-run limit
+N8,0.465,0.23,0.17,0.105,freeze,Frozen local state,"family + Top-5 + orientation
++ scaler + k + limit"
+N9,0.735,0.75,0.235,0.1,primary,Held-out evaluation,"reserved final faults +
+disjoint normal evaluation"
+N10,0.735,0.585,0.235,0.1,primary,Primary local monitor,"one frozen target-specific monitor
+per known fault"
+N11,0.735,0.39,0.235,0.13,postfreeze,Post-freeze critical,"U1 simplification  |  U2 stability
+U3 matched robustness  |  U4 CVA"
+N12,0.735,0.235,0.235,0.095,secondary,Secondary system audit,hypothetical OR bank + cross-triggering
+N13,0.735,0.095,0.235,0.075,exploratory,Exploratory joint gate,"normal-validation calibrated
+not confirmatory"

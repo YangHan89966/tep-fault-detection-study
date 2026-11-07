@@ -1,0 +1,33 @@
+{
+  "status": "Post hoc descriptive check; pre-chart map only. No inference of causality or endpoint effects.",
+  "normal_runs": 120,
+  "records_per_run": 960,
+  "aggregation": "median across runs of the within-run RMS displacement over all 960 records",
+  "median_X17_RMS_raw": 0.49328532689635474,
+  "sides": {
+    "post": {
+      "mewmc": {
+        "norm_of_vector_displacement_per_raw_unit": 5.694140938239134,
+        "median_normal_run_RMS_prechart_displacement": 2.8088361741132073,
+        "max_abs_central_difference_error": 2.220446049250313e-15
+      },
+      "fullpool": {
+        "signed_presquare_projection_per_raw_unit": 0.15559455280643436,
+        "median_normal_run_RMS_prechart_displacement": 0.0767525098444141,
+        "max_abs_central_difference_error": 1.6653345369377348e-16
+      }
+    },
+    "ci": {
+      "mewmc": {
+        "norm_of_vector_displacement_per_raw_unit": 92.29788996945003,
+        "median_normal_run_RMS_prechart_displacement": 45.529194825423936,
+        "max_abs_central_difference_error": 2.842170943040401e-14
+      },
+      "fullpool": {
+        "signed_presquare_projection_per_raw_unit": 42.531676592385566,
+        "median_normal_run_RMS_prechart_displacement": 20.980251991324952,
+        "max_abs_central_difference_error": 1.4210854715202004e-14
+      }
+    }
+  }
+}

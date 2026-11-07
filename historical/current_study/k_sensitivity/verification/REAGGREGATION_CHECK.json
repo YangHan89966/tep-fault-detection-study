@@ -1,0 +1,13 @@
+{
+  "source_files_verified": 51,
+  "numeric_cells_checked": 2685,
+  "auto_selections_checked": 61,
+  "scope": "Saved-alarm reaggregation only. No raw-to-score replay, simulation, training or threshold change.",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "numpy": "2.3.5",
+  "N_bootstrap": {
+    "draws": 20000,
+    "contrasts_and_endpoints": 36,
+    "all_saved_estimates_and_interval_endpoints_match": true
+  }
+}

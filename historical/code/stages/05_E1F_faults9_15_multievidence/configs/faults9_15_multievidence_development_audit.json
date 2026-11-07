@@ -1,0 +1,96 @@
+{
+  "script": "scripts/19_multievidence_development_audit.py",
+  "script_sha256_at_execution": "0a19a1c0210669c201d7cbe42c5824aed2a38cb8a08405c68879cc415a30ee6b",
+  "candidate_protocol_frozen_in_source": true,
+  "study_status": "exploratory method extension after Step-18 abstention",
+  "development_only": true,
+  "final_performance_evaluated": false,
+  "companion_data_loaded": false,
+  "normal_evaluation_loaded": false,
+  "allowed_input_files": [
+    "data\\processed\\normal_train.pkl",
+    "data\\processed\\normal_validation_runs_1_250.pkl",
+    "data\\processed\\fault9_development_runs_1_250.pkl",
+    "data\\processed\\fault15_development_runs_1_250.pkl",
+    "results/tables/02_variable_list.csv",
+    "scripts/11_unpaired_runlevel_screening.py"
+  ],
+  "forbidden_evaluation_files_not_loaded": [
+    "data\\processed\\normal_evaluation_runs_251_500.pkl",
+    "data\\processed\\fault9_final_test_runs_251_500.pkl",
+    "data\\processed\\fault15_final_test_runs_251_500.pkl",
+    "data\\processed\\fault9_companion_training_runs_1_500.pkl",
+    "data\\processed\\fault15_companion_training_runs_1_500.pkl"
+  ],
+  "target_faults": [
+    9,
+    15
+  ],
+  "development_runs": [
+    1,
+    250
+  ],
+  "screening_samples": [
+    161,
+    320
+  ],
+  "screening_window_length": 160,
+  "candidate_families": [
+    {
+      "key": "signed_level",
+      "label": "Signed level",
+      "formula": "r(t)",
+      "priority": 1
+    },
+    {
+      "key": "absolute_deviation",
+      "label": "Absolute deviation",
+      "formula": "abs(r(t) - normal_center)",
+      "priority": 2
+    },
+    {
+      "key": "squared_deviation",
+      "label": "Squared deviation",
+      "formula": "(r(t) - normal_center)^2",
+      "priority": 3
+    },
+    {
+      "key": "absolute_increment",
+      "label": "Absolute increment",
+      "formula": "abs(r(t) - r(t-1))",
+      "priority": 4
+    },
+    {
+      "key": "lag1_product",
+      "label": "Lag-1 product",
+      "formula": "(r(t)-normal_center)*(r(t-1)-normal_center)",
+      "priority": 5
+    }
+  ],
+  "candidate_tests_per_fault": 260,
+  "bootstrap_replicates": 2000,
+  "permutation_replicates": 2000,
+  "primary_feature_gate": "two-sided 95% independent-run bootstrap CI excludes zero AND global BH q<=0.05 across all 260 candidates for the fault",
+  "strict_diagnostic": "studentized max-|t| permutation FWER p<=0.05",
+  "family_eligibility": "at least five primary-gate-stable residual features",
+  "family_choice_rule": "among eligible families, maximize median absolute Hedges g of the selected Top-5; break exact ties by the fixed family priority",
+  "top_k": 5,
+  "random_seed": 20260714,
+  "recommended_family_by_fault": {
+    "9": "lag1_product",
+    "15": "squared_deviation"
+  },
+  "pca_n_components": 36,
+  "pca_cumulative_explained_variance": 0.9581997268001302,
+  "output_tables": [
+    "results\\tables\\19_multievidence_all_features.csv",
+    "results\\tables\\19_multievidence_selected_features.csv",
+    "results\\tables\\19_multievidence_family_summary.csv",
+    "results\\tables\\19_multievidence_crossfault_summary.csv"
+  ],
+  "output_figures": [
+    "results\\figures\\fig19a_multievidence_development_audit.png",
+    "results\\figures\\fig19a_multievidence_development_audit.pdf"
+  ],
+  "next_step_constraint": "freeze the branch construction before any new method is applied to final or reserved validation data"
+}

@@ -1,0 +1,38 @@
+Result,Original,Test runs excluded,Test and calibration runs excluded
+"Main-text Fig. 3: Δ loss, min (98.33% interval)",,,
+"Validation 1, C1",+1783.1 (1727.4 to 1834.5),+1781.3 (1725.0 to 1833.0),+1774.2 (1719.3 to 1824.0)
+"Validation 1, C2",+12.2 (−26.0 to 49.3),+12.5 (−26.6 to 50.6),+11.8 (−27.6 to 49.2)
+"Validation 1, C3",−948.3 (−1048.1 to −846.4),−956.7 (−1056.2 to −854.3),−956.7 (−1058.0 to −855.3)
+"Validation 2, C1",+1624.0 (1566.9 to 1679.5),+1614.2 (1555.9 to 1670.0),+1620.4 (1562.8 to 1674.6)
+"Validation 2, C2",−19.6 (−46.3 to 6.6),−19.8 (−47.9 to 7.9),−21.7 (−49.1 to 5.1)
+"Validation 2, C3",−615.1 (−696.7 to −534.3),−613.3 (−697.2 to −531.3),−580.3 (−663.0 to −497.5)
+Main-text Table 2: full-pool monitor minus reference,,,
+"Fault 3, minus FDA-CUSUM: Δ loss, min (98.33% interval)",−519.7 (−582.4 to −459.2),−514.3 (−578.4 to −451.7),−516.4 (−580.1 to −454.0)
+"Fault 9, minus FDA-CUSUM: Δ loss, min (98.33% interval)",−57.0 (−81.8 to −32.7),−59.0 (−86.1 to −33.3),−60.3 (−86.8 to −34.3)
+"Fault 15, minus variance-ratio reference: Δ loss, min (98.33% interval)",−170.3 (−254.5 to −86.9),−166.8 (−249.0 to −83.9),−145.0 (−225.9 to −64.8)
+"Fault 15, minus variance-ratio reference: Δ 40 h detection, pp (95% interval)",+6.6 (1.4 to 11.7),+5.9 (0.7 to 11.1),+5.0 (−0.2 to 10.1)
+Main-text Table 3: Fault 9 runs detected within 40 h; normal runs alarmed,,,
+"Panel 1, fixed historical monitor, post-update",8/75; 2/60,7/70; 2/58,5/70; 2/58
+"Panel 1, fixed historical monitor, controller-input",72/75; 4/60,67/70; 4/58,67/70; 3/58
+"Panel 1, relearned second-moment pool, post-update (M2)",28/75; 2/60,25/70; 2/58,12/70; 2/58
+"Panel 1, relearned second-moment pool, controller-input (M1)",75/75; 3/60,70/70; 3/58,70/70; 3/58
+"Panel 1, relearned mean-shift pool, post-update (M4)",10/75; 1/60,10/70; 1/58,6/70; 1/58
+"Panel 1, relearned mean-shift pool, controller-input (M3)",71/75; 1/60,66/70; 1/58,66/70; 1/58
+"Panel 2, fixed historical monitor, post-update",23/120; 6/120,23/120; 6/117,23/120; 4/117
+"Panel 2, fixed historical monitor, controller-input",113/120; 9/120,113/120; 8/117,112/120; 8/117
+"Panel 2, relearned second-moment pool, post-update (M2)",38/120; 7/120,38/120; 7/117,38/120; 7/117
+"Panel 2, relearned second-moment pool, controller-input (M1)",119/120; 7/120,119/120; 7/117,119/120; 7/117
+"Panel 2, relearned mean-shift pool, post-update (M4)",16/120; 11/120,16/120; 11/117,14/120; 9/117
+"Panel 2, relearned mean-shift pool, controller-input (M3)",112/120; 10/120,112/120; 10/117,110/120; 8/117
+"Main-text Table 3, five standard monitors: range over monitors of Fault 9 runs detected within 40 h; normal runs alarmed",,,
+"Panel 1, post-update",1–15/75; 1–10/60,1–15/70; 1–10/58,0–10/70; 0–5/58
+"Panel 1, controller-input",1–9/75; 0–3/60,1–9/70; 0–3/58,1–7/70; 0–2/58
+"Panel 2, post-update",3–13/120; 4–7/120,3–13/120; 4–7/117,3–9/120; 4–5/117
+"Panel 2, controller-input",4–26/120; 2–15/120,4–26/120; 2–15/117,4–23/120; 1–14/117
+"Controller-input minus post-update 40 h detection, pp (95% interval)",,,
+"Panel 1, fixed historical monitor",+85.3 (77.3 to 93.3),+85.7 (77.1 to 92.9),+88.6 (81.4 to 95.7)
+"Panel 1, relearned second-moment pool (M1 − M2)",+62.7 (52.0 to 73.3),+64.3 (52.9 to 75.7),+82.9 (74.3 to 91.4)
+"Panel 1, relearned mean-shift pool (M3 − M4)",+81.3 (72.0 to 89.3),+80.0 (70.0 to 88.6),+85.7 (77.1 to 92.9)
+"Panel 2, fixed historical monitor",+75.0 (67.5 to 82.5),+75.0 (67.5 to 82.5),+74.2 (65.8 to 81.7)
+"Panel 2, relearned second-moment pool (M1 − M2)",+67.5 (59.2 to 75.8),+67.5 (59.2 to 75.8),+67.5 (59.2 to 75.8)
+"Panel 2, relearned mean-shift pool (M3 − M4)",+80.0 (72.5 to 87.5),+80.0 (72.5 to 87.5),+80.0 (72.5 to 87.5)

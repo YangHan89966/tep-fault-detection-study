@@ -1,0 +1,229 @@
+panel,analysis,source_file,branch_key,branch_label,fault_id,metric,submetric,value,unit
+A,U1,U1_FAMILY_ADAPTATION_ABLATION_KEY_METRICS_v1.0.csv,adaptive_5family,Adaptive five-family,,run_detection_percent,15 min,28.30588235294117,%
+A,U1,U1_FAMILY_ADAPTATION_ABLATION_KEY_METRICS_v1.0.csv,adaptive_5family,Adaptive five-family,,run_detection_percent,30 min,38.305882352941175,%
+A,U1,U1_FAMILY_ADAPTATION_ABLATION_KEY_METRICS_v1.0.csv,adaptive_5family,Adaptive five-family,,run_detection_percent,60 min,56.44705882352942,%
+A,U1,U1_FAMILY_ADAPTATION_ABLATION_KEY_METRICS_v1.0.csv,adaptive_5family,Adaptive five-family,,run_detection_percent,120 min,81.34117647058822,%
+A,U1,U1_FAMILY_ADAPTATION_ABLATION_KEY_METRICS_v1.0.csv,adaptive_5family,Adaptive five-family,,run_detection_percent,full horizon,100.0,%
+A,U1,U1_FAMILY_ADAPTATION_ABLATION_KEY_METRICS_v1.0.csv,fixed_absolute_deviation,Fixed absolute deviation,,run_detection_percent,15 min,24.0,%
+A,U1,U1_FAMILY_ADAPTATION_ABLATION_KEY_METRICS_v1.0.csv,fixed_absolute_deviation,Fixed absolute deviation,,run_detection_percent,30 min,36.61176470588235,%
+A,U1,U1_FAMILY_ADAPTATION_ABLATION_KEY_METRICS_v1.0.csv,fixed_absolute_deviation,Fixed absolute deviation,,run_detection_percent,60 min,56.51764705882351,%
+A,U1,U1_FAMILY_ADAPTATION_ABLATION_KEY_METRICS_v1.0.csv,fixed_absolute_deviation,Fixed absolute deviation,,run_detection_percent,120 min,82.09411764705882,%
+A,U1,U1_FAMILY_ADAPTATION_ABLATION_KEY_METRICS_v1.0.csv,fixed_absolute_deviation,Fixed absolute deviation,,run_detection_percent,full horizon,100.0,%
+A,U1,U1_FAMILY_ADAPTATION_ABLATION_KEY_METRICS_v1.0.csv,fixed_signed_level,Fixed signed level,,run_detection_percent,15 min,13.55294117647059,%
+A,U1,U1_FAMILY_ADAPTATION_ABLATION_KEY_METRICS_v1.0.csv,fixed_signed_level,Fixed signed level,,run_detection_percent,30 min,28.82352941176471,%
+A,U1,U1_FAMILY_ADAPTATION_ABLATION_KEY_METRICS_v1.0.csv,fixed_signed_level,Fixed signed level,,run_detection_percent,60 min,34.07058823529412,%
+A,U1,U1_FAMILY_ADAPTATION_ABLATION_KEY_METRICS_v1.0.csv,fixed_signed_level,Fixed signed level,,run_detection_percent,120 min,46.91764705882353,%
+A,U1,U1_FAMILY_ADAPTATION_ABLATION_KEY_METRICS_v1.0.csv,fixed_signed_level,Fixed signed level,,run_detection_percent,full horizon,81.38823529411765,%
+A,U1,U1_FAMILY_ADAPTATION_ABLATION_KEY_METRICS_v1.0.csv,restricted_ad_or_sl,Restricted AD-or-SL,,run_detection_percent,15 min,25.67058823529412,%
+A,U1,U1_FAMILY_ADAPTATION_ABLATION_KEY_METRICS_v1.0.csv,restricted_ad_or_sl,Restricted AD-or-SL,,run_detection_percent,30 min,38.305882352941175,%
+A,U1,U1_FAMILY_ADAPTATION_ABLATION_KEY_METRICS_v1.0.csv,restricted_ad_or_sl,Restricted AD-or-SL,,run_detection_percent,60 min,56.44705882352942,%
+A,U1,U1_FAMILY_ADAPTATION_ABLATION_KEY_METRICS_v1.0.csv,restricted_ad_or_sl,Restricted AD-or-SL,,run_detection_percent,120 min,81.34117647058822,%
+A,U1,U1_FAMILY_ADAPTATION_ABLATION_KEY_METRICS_v1.0.csv,restricted_ad_or_sl,Restricted AD-or-SL,,run_detection_percent,full horizon,100.0,%
+B,U1,U1_family_adaptation_results_by_fault.csv,adaptive_5family,Adaptive five-family,5,normal_run_level_far,Lag-1 product,5.2,%
+B,U1,U1_family_adaptation_results_by_fault.csv,adaptive_5family,Adaptive five-family,5,detection_within_15min,Lag-1 product,100.0,%
+B,U1,U1_family_adaptation_results_by_fault.csv,adaptive_5family,Adaptive five-family,5,detection_within_120min,Lag-1 product,100.0,%
+B,U1,U1_family_adaptation_results_by_fault.csv,adaptive_5family,Adaptive five-family,5,threshold_occupancy,Lag-1 product,99.6285,%
+B,U1,U1_family_adaptation_results_by_fault.csv,adaptive_5family,Adaptive five-family,5,penalized_median_delay,Lag-1 product,9.0,min
+B,U1,U1_family_adaptation_results_by_fault.csv,fixed_absolute_deviation,Fixed absolute deviation,5,normal_run_level_far,Absolute deviation,4.3999999999999995,%
+B,U1,U1_family_adaptation_results_by_fault.csv,fixed_absolute_deviation,Fixed absolute deviation,5,detection_within_15min,Absolute deviation,55.2,%
+B,U1,U1_family_adaptation_results_by_fault.csv,fixed_absolute_deviation,Fixed absolute deviation,5,detection_within_120min,Absolute deviation,100.0,%
+B,U1,U1_family_adaptation_results_by_fault.csv,fixed_absolute_deviation,Fixed absolute deviation,5,threshold_occupancy,Absolute deviation,99.332,%
+B,U1,U1_family_adaptation_results_by_fault.csv,fixed_absolute_deviation,Fixed absolute deviation,5,penalized_median_delay,Absolute deviation,15.0,min
+B,U1,U1_family_adaptation_results_by_fault.csv,adaptive_5family,Adaptive five-family,18,normal_run_level_far,Signed level,3.5999999999999996,%
+B,U1,U1_family_adaptation_results_by_fault.csv,adaptive_5family,Adaptive five-family,18,detection_within_15min,Signed level,0.0,%
+B,U1,U1_family_adaptation_results_by_fault.csv,adaptive_5family,Adaptive five-family,18,detection_within_120min,Signed level,24.4,%
+B,U1,U1_family_adaptation_results_by_fault.csv,adaptive_5family,Adaptive five-family,18,threshold_occupancy,Signed level,61.821000000000005,%
+B,U1,U1_family_adaptation_results_by_fault.csv,adaptive_5family,Adaptive five-family,18,penalized_median_delay,Signed level,165.0,min
+B,U1,U1_family_adaptation_results_by_fault.csv,fixed_absolute_deviation,Fixed absolute deviation,18,normal_run_level_far,Absolute deviation,3.5999999999999996,%
+B,U1,U1_family_adaptation_results_by_fault.csv,fixed_absolute_deviation,Fixed absolute deviation,18,detection_within_15min,Absolute deviation,0.0,%
+B,U1,U1_family_adaptation_results_by_fault.csv,fixed_absolute_deviation,Fixed absolute deviation,18,detection_within_120min,Absolute deviation,39.6,%
+B,U1,U1_family_adaptation_results_by_fault.csv,fixed_absolute_deviation,Fixed absolute deviation,18,threshold_occupancy,Absolute deviation,93.5065,%
+B,U1,U1_family_adaptation_results_by_fault.csv,fixed_absolute_deviation,Fixed absolute deviation,18,penalized_median_delay,Absolute deviation,144.0,min
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,1,family_recovery_rate,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,1,mean_top5_jaccard,,0.7,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,1,exact_top5_set_recovery_rate,,0.1,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,1,mean_orientation_agreement,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,2,family_recovery_rate,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,2,mean_top5_jaccard,,0.9666666666666666,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,2,exact_top5_set_recovery_rate,,0.9,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,2,mean_orientation_agreement,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,4,family_recovery_rate,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,4,mean_top5_jaccard,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,4,exact_top5_set_recovery_rate,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,4,mean_orientation_agreement,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,5,family_recovery_rate,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,5,mean_top5_jaccard,,0.8333333333333333,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,5,exact_top5_set_recovery_rate,,0.5,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,5,mean_orientation_agreement,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,6,family_recovery_rate,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,6,mean_top5_jaccard,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,6,exact_top5_set_recovery_rate,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,6,mean_orientation_agreement,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,7,family_recovery_rate,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,7,mean_top5_jaccard,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,7,exact_top5_set_recovery_rate,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,7,mean_orientation_agreement,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,8,family_recovery_rate,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,8,mean_top5_jaccard,,0.7095238095238096,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,8,exact_top5_set_recovery_rate,,0.2,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,8,mean_orientation_agreement,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,10,family_recovery_rate,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,10,mean_top5_jaccard,,0.8095238095238095,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,10,exact_top5_set_recovery_rate,,0.5,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,10,mean_orientation_agreement,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,11,family_recovery_rate,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,11,mean_top5_jaccard,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,11,exact_top5_set_recovery_rate,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,11,mean_orientation_agreement,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,12,family_recovery_rate,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,12,mean_top5_jaccard,,0.9333333333333332,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,12,exact_top5_set_recovery_rate,,0.8,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,12,mean_orientation_agreement,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,13,family_recovery_rate,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,13,mean_top5_jaccard,,0.7,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,13,exact_top5_set_recovery_rate,,0.1,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,13,mean_orientation_agreement,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,14,family_recovery_rate,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,14,mean_top5_jaccard,,0.8666666666666666,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,14,exact_top5_set_recovery_rate,,0.6,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,14,mean_orientation_agreement,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,16,family_recovery_rate,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,16,mean_top5_jaccard,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,16,exact_top5_set_recovery_rate,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,16,mean_orientation_agreement,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,17,family_recovery_rate,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,17,mean_top5_jaccard,,0.46428571428571425,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,17,exact_top5_set_recovery_rate,,0.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,17,mean_orientation_agreement,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,18,family_recovery_rate,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,18,mean_top5_jaccard,,0.719047619047619,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,18,exact_top5_set_recovery_rate,,0.3,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,18,mean_orientation_agreement,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,19,family_recovery_rate,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,19,mean_top5_jaccard,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,19,exact_top5_set_recovery_rate,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,19,mean_orientation_agreement,,1.0,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,20,family_recovery_rate,,0.4,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,20,mean_top5_jaccard,,0.8666666666666666,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,20,exact_top5_set_recovery_rate,,0.6,proportion
+C,U2,U2_fault_stability_summary.csv,adaptive_5family,Adaptive five-family,20,mean_orientation_agreement,,0.5950000000000001,proportion
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,detection_within_15min_rate,repeat_1,0.28729411764705887,proportion
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,threshold_occupancy,repeat_1,0.9446370588235292,proportion
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,normal_far,repeat_1,0.07129411764705884,proportion
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,penalized_mean_delay,repeat_1,68.91670588235293,min
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,detection_within_15min_rate,repeat_1,0.25694117647058823,proportion
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,threshold_occupancy,repeat_1,0.9717711764705882,proportion
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,normal_far,repeat_1,0.06611764705882353,proportion
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,penalized_mean_delay,repeat_1,67.72870588235294,min
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,detection_within_15min_rate,repeat_1,0.2701176470588236,proportion
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,threshold_occupancy,repeat_1,0.944475294117647,proportion
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,normal_far,repeat_1,0.06988235294117648,proportion
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,penalized_mean_delay,repeat_1,69.3049411764706,min
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,detection_within_15min_rate,repeat_2,0.28211764705882353,proportion
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,threshold_occupancy,repeat_2,0.9593876470588235,proportion
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,normal_far,repeat_2,0.054823529411764715,proportion
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,penalized_mean_delay,repeat_2,69.00211764705882,min
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,detection_within_15min_rate,repeat_2,0.25882352941176473,proportion
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,threshold_occupancy,repeat_2,0.971529411764706,proportion
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,normal_far,repeat_2,0.05176470588235295,proportion
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,penalized_mean_delay,repeat_2,68.31882352941176,min
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,detection_within_15min_rate,repeat_2,0.2590588235294118,proportion
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,threshold_occupancy,repeat_2,0.9592149999999999,proportion
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,normal_far,repeat_2,0.05341176470588236,proportion
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,penalized_mean_delay,repeat_2,69.41647058823528,min
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,detection_within_15min_rate,repeat_3,0.28705882352941176,proportion
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,threshold_occupancy,repeat_3,0.9541582352941177,proportion
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,normal_far,repeat_3,0.047764705882352945,proportion
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,penalized_mean_delay,repeat_3,67.15694117647058,min
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,detection_within_15min_rate,repeat_3,0.2331764705882353,proportion
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,threshold_occupancy,repeat_3,0.9720029411764708,proportion
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,normal_far,repeat_3,0.05788235294117647,proportion
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,penalized_mean_delay,repeat_3,67.1795294117647,min
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,detection_within_15min_rate,repeat_3,0.2348235294117647,proportion
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,threshold_occupancy,repeat_3,0.9539429411764706,proportion
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,normal_far,repeat_3,0.04964705882352942,proportion
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,penalized_mean_delay,repeat_3,67.67364705882353,min
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,detection_within_15min_rate,repeat_4,0.2858823529411764,proportion
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,threshold_occupancy,repeat_4,0.9533914705882353,proportion
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,normal_far,repeat_4,0.04894117647058823,proportion
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,penalized_mean_delay,repeat_4,67.02352941176471,min
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,detection_within_15min_rate,repeat_4,0.2665882352941176,proportion
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,threshold_occupancy,repeat_4,0.9718408823529413,proportion
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,normal_far,repeat_4,0.05317647058823529,proportion
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,penalized_mean_delay,repeat_4,67.56423529411765,min
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,detection_within_15min_rate,repeat_4,0.2670588235294118,proportion
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,threshold_occupancy,repeat_4,0.9532297058823529,proportion
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,normal_far,repeat_4,0.04894117647058823,proportion
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,penalized_mean_delay,repeat_4,67.41176470588236,min
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,detection_within_15min_rate,repeat_5,0.28729411764705887,proportion
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,threshold_occupancy,repeat_5,0.9581632352941177,proportion
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,normal_far,repeat_5,0.053411764705882346,proportion
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,penalized_mean_delay,repeat_5,67.37082352941175,min
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,detection_within_15min_rate,repeat_5,0.27694117647058825,proportion
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,threshold_occupancy,repeat_5,0.9727261764705882,proportion
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,normal_far,repeat_5,0.055764705882352945,proportion
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,penalized_mean_delay,repeat_5,65.44870588235294,min
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,detection_within_15min_rate,repeat_5,0.2771764705882353,proportion
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,threshold_occupancy,repeat_5,0.9580150000000001,proportion
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,normal_far,repeat_5,0.053882352941176465,proportion
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,penalized_mean_delay,repeat_5,67.72658823529412,min
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,detection_within_15min_rate,repeat_6,0.28941176470588237,proportion
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,threshold_occupancy,repeat_6,0.9574638235294115,proportion
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,normal_far,repeat_6,0.053411764705882346,proportion
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,penalized_mean_delay,repeat_6,67.76541176470587,min
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,detection_within_15min_rate,repeat_6,0.23364705882352937,proportion
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,threshold_occupancy,repeat_6,0.9721755882352942,proportion
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,normal_far,repeat_6,0.05294117647058823,proportion
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,penalized_mean_delay,repeat_6,66.75811764705882,min
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,detection_within_15min_rate,repeat_6,0.2527058823529411,proportion
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,threshold_occupancy,repeat_6,0.9572820588235292,proportion
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,normal_far,repeat_6,0.05317647058823529,proportion
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,penalized_mean_delay,repeat_6,68.20164705882353,min
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,detection_within_15min_rate,repeat_7,0.2858823529411764,proportion
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,threshold_occupancy,repeat_7,0.956544411764706,proportion
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,normal_far,repeat_7,0.04658823529411765,proportion
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,penalized_mean_delay,repeat_7,70.15764705882353,min
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,detection_within_15min_rate,repeat_7,0.2063529411764706,proportion
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,threshold_occupancy,repeat_7,0.97172,proportion
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,normal_far,repeat_7,0.04047058823529411,proportion
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,penalized_mean_delay,repeat_7,67.8529411764706,min
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,detection_within_15min_rate,repeat_7,0.23176470588235293,proportion
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,threshold_occupancy,repeat_7,0.9562932352941177,proportion
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,normal_far,repeat_7,0.044470588235294116,proportion
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,penalized_mean_delay,repeat_7,70.7604705882353,min
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,detection_within_15min_rate,repeat_8,0.2884705882352941,proportion
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,threshold_occupancy,repeat_8,0.9448782352941177,proportion
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,normal_far,repeat_8,0.05835294117647059,proportion
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,penalized_mean_delay,repeat_8,68.20376470588235,min
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,detection_within_15min_rate,repeat_8,0.2131764705882353,proportion
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,threshold_occupancy,repeat_8,0.9718379411764706,proportion
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,normal_far,repeat_8,0.060470588235294116,proportion
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,penalized_mean_delay,repeat_8,67.56211764705883,min
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,detection_within_15min_rate,repeat_8,0.23905882352941177,proportion
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,threshold_occupancy,repeat_8,0.9446614705882354,proportion
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,normal_far,repeat_8,0.05858823529411765,proportion
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,penalized_mean_delay,repeat_8,68.724,min
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,detection_within_15min_rate,repeat_9,0.28705882352941176,proportion
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,threshold_occupancy,repeat_9,0.9529920588235294,proportion
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,normal_far,repeat_9,0.05341176470588235,proportion
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,penalized_mean_delay,repeat_9,68.12752941176471,min
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,detection_within_15min_rate,repeat_9,0.24729411764705886,proportion
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,threshold_occupancy,repeat_9,0.9720926470588235,proportion
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,normal_far,repeat_9,0.058823529411764705,proportion
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,penalized_mean_delay,repeat_9,66.95576470588236,min
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,detection_within_15min_rate,repeat_9,0.248,proportion
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,threshold_occupancy,repeat_9,0.9527982352941176,proportion
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,normal_far,repeat_9,0.052705882352941186,proportion
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,penalized_mean_delay,repeat_9,68.59270588235294,min
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,detection_within_15min_rate,repeat_10,0.2837647058823529,proportion
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,threshold_occupancy,repeat_10,0.949604705882353,proportion
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,normal_far,repeat_10,0.05364705882352942,proportion
+D,U2,U2_repeat_macro_summary.csv,adaptive_5family,Adaptive five-family,,penalized_mean_delay,repeat_10,68.32658823529411,min
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,detection_within_15min_rate,repeat_10,0.23411764705882354,proportion
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,threshold_occupancy,repeat_10,0.9720008823529414,proportion
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,normal_far,repeat_10,0.06,proportion
+D,U2,U2_repeat_macro_summary.csv,fixed_absolute_deviation,Fixed absolute deviation,,penalized_mean_delay,repeat_10,67.164,min
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,detection_within_15min_rate,repeat_10,0.23458823529411765,proportion
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,threshold_occupancy,repeat_10,0.9493938235294117,proportion
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,normal_far,repeat_10,0.0543529411764706,proportion
+D,U2,U2_repeat_macro_summary.csv,restricted_ad_or_sl,Restricted AD-or-SL,,penalized_mean_delay,repeat_10,68.83270588235294,min

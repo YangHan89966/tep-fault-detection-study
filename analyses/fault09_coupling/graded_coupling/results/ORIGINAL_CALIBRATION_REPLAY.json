@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "arms": [
+    "rho_1",
+    "actual_post_update"
+  ],
+  "original_columns": [
+    21,
+    20
+  ],
+  "current_columns": [
+    4,
+    5
+  ],
+  "n_calibration": 199,
+  "ascending_rank_1based": 190,
+  "maximum_absolute_peak_difference": 0.0,
+  "maximum_absolute_threshold_difference": 0.0,
+  "exact_peak_equality": true,
+  "exact_threshold_equality": true,
+  "reference_lock_sha256": "85608c74c27e225b23c721d8f7551b1fd480f7bcf2e6269059acb39818ac480b",
+  "reference_maxima_sha256": "147b2a58e018b6a257286de6e997c66aadf4bd406d6517914b83f5664ffe2b7e"
+}

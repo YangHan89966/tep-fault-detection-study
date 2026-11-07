@@ -1,0 +1,22 @@
+{
+  "PCA_sha256": "e8d334f9201d41bb240a46d09925b358a0b38a9a74d5193a7fd9f9b1782d1d33",
+  "created_before_first_process_utc": "2026-09-13T15:16:36.117260+00:00",
+  "development_total": 4575,
+  "environment": {
+    "executable": "external-input/adfd34101980/python3.12",
+    "numpy": "2.2.6",
+    "numpy_file": "external-input/805cdf55b9f6/__init__.py",
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]"
+  },
+  "experiment_protocol_sha256": "80b621627cbfa4ba077909c7357a1527c3947f3d4aa8f54df0fec6a1e1813027",
+  "planned_total": 5575,
+  "process_runs_at_freeze": 0,
+  "release_manifest_sha256": "0befb68b1fbca396154cfdad53e8926d64b27784bb8890fa731740d8757273a5",
+  "replications": 5,
+  "residual_basis_sha256": "91967c40bbdaa784fcefcbc0246b7053446522764fe258a0d5a1c8fa187a1405",
+  "scope": "Stage A generates development only; all five learned-state locks required before later shared tests.",
+  "seed_exclusion_sha256": "bf231da8ab1a818f65a124afa26a58337c4091428ef4ce04ffd71db3f3c36abb",
+  "seed_manifest_sha256": "6d0c75f8e8f21d77d83be495a8788886de37ea95615a2824a2946ce52cd15b41",
+  "shared_evaluation_total": 1000,
+  "study_id": "TEP_V18_RELEARNING_R5_v1.0"
+}

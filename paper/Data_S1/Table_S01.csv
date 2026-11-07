@@ -1,0 +1,5 @@
+Panel,Variable,Variance of the difference,Noise part,Process part,2 × covariance,Noise share (%),Process share (%)
+A (4 runs),XMEAS12,1.984551,1.982290,0.000100,0.002160,99.89,0.005
+A (4 runs),XMEAS15,2.031620,2.028503,0.000377,0.002740,99.85,0.019
+B (8 runs),XMEAS12,2.010761,2.007974,0.000101,0.002686,99.86,0.005
+B (8 runs),XMEAS15,2.024525,2.021657,0.000361,0.002507,99.86,0.018

@@ -1,0 +1,166 @@
+{
+  "record_type": "AUTHOR_FINAL_RELEASE_SCIENTIFIC_SPEC_CANDIDATE",
+  "version": "1.0",
+  "created_utc": "2026-09-05T04:55:07.883302+00:00",
+  "status": "PENDING_INDEPENDENT_FINAL_RELEASE_REVIEW_NOT_EXECUTION_AUTHORIZATION",
+  "batch_id": "TEP_PAPER_PRIORITY_FINAL_BATCH_V1_0",
+  "inherited_protocol_sha256": "8353c2ac642ab2baea3dfad4150cc85723611b1cf2ebb8d1c662d28c17cecd46",
+  "accepted_method_registry_sha256": "ec49cebc2965b444cf45eea77099684575e79e56036a107ff43bbbeca800924e",
+  "accepted_method_core_sha256": "d53ce3d8921a3ae6548d299f38452979ef005ef08a3a981301fd1d93bc3c6e9d",
+  "final_scope": {
+    "roles": {
+      "normal_evaluation": 250,
+      "fault_final": 4250
+    },
+    "faults": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "runs_per_fault": 250,
+    "total_trajectories": 4500,
+    "methods": [
+      "adaptive_5family_top5",
+      "fixed_ad_top5",
+      "independent_top1",
+      "q_cusum"
+    ],
+    "fault_run_ids": "1..250 within fault_final namespace; not legacy 251..500 IDs",
+    "same_four_method_trajectories": true,
+    "shared_normal_identity_count": 250,
+    "variables": "xmeas_1..xmeas_41 then xmv_1..xmv_11",
+    "variables_used": 52,
+    "xmv12": "retained separately but excluded from analysis",
+    "simulated_hours": 48,
+    "native_dt_hours": 0.0002777777777777778,
+    "record_every_integration_steps": 180,
+    "raw_rows": 961,
+    "released_rows": 960,
+    "drop_only_raw_t0": true,
+    "native_time_max_abs_error_seconds": 1e-06,
+    "canonical_time_seconds": "sample_index_1_based * 180",
+    "fault_onset_hours": 8,
+    "first_scheduled_affected_released_sample": 161,
+    "postfault_samples": 800,
+    "seed_manifest_sha256": "74572a468be9c55937a978deeb9cd26cfccb02fd287aca9d00cbc134e0d71ad0",
+    "adapter_ledger_sha256": "dd9a7a0701509c980892e8921d8424cbd437189d6b2607793e0aa2faf0b11286",
+    "manifest_already_disclosed": true,
+    "final_seed_values_copied_into_this_candidate": false,
+    "new_seed_bank": false
+  },
+  "frozen_monitor": {
+    "method_states": 68,
+    "reselect_refit_retune_recalibrate": false,
+    "called_inherited_functions": [
+      "residual",
+      "scalar_input",
+      "cusum"
+    ],
+    "allowed_abstention": "explicit no-alarm policy with original miss penalty; never drop a method or fault",
+    "threshold": "statistic > exact saved control_limit",
+    "run_reset": "only at sample1; never at fault onset",
+    "latching": false,
+    "normal_far_horizon": "all 960 samples",
+    "prefault_window": "samples1..160",
+    "postfault_window": "samples161..960",
+    "delay_minutes": "3*(first_postfault_alarm_sample-161); first alarm at161 has delay0",
+    "miss_penalty_min": 2400,
+    "early_detection": "observed postfault detection AND delay <= H; H=15,30,60,120",
+    "occupancy": "number of strict exceedances in samples161..960 divided by800, without latching"
+  },
+  "primary_confirmation_set": [
+    "macro normal run-level FAR",
+    "macro detection within 60 min",
+    "macro all-run penalized mean delay"
+  ],
+  "secondary": [
+    "pre-fault alarm rate",
+    "15/30/120-min and full-horizon detection",
+    "threshold occupancy",
+    "macro median of fault-specific penalized medians",
+    "conditional no-pre-fault endpoints",
+    "Adaptive/Fixed-AD/Top-1 selected states and orientation"
+  ],
+  "macro_functionals": {
+    "normal_run_far": "mean of17 detector-specific FARs over the same250 normal identities",
+    "mean_or_rate": "equal arithmetic mean of17 fault-specific values",
+    "penalized_median_delay": "median of17 fault-specific all-run penalized medians; not pooled median and not mean of medians",
+    "conditional_no_prefault": "each method/fault excludes its own pre-fault-alarmed runs only from the explicitly conditional denominator",
+    "conditional_zero_denominator": "undefined (null); fixed-panel macro null if any of17 fault-specific quantities undefined",
+    "conditional_bootstrap_undefined": "retain all replicate identities; a CI is unavailable if any required draw undefined; disclose valid/total, never silently discard faults or draws"
+  },
+  "uncertainty": {
+    "replicates": 20000,
+    "percentiles": [
+      2.5,
+      97.5
+    ],
+    "interpolation": "linear",
+    "fault_panel_fixed": true,
+    "fault_seed": 1433805600,
+    "normal_seed": 1718120746,
+    "generator": "numpy.random.Generator(numpy.random.PCG64(seed))",
+    "numpy_version": "2.2.6",
+    "draw_schedule": "fault-major in ascending registered fault order, then replicate-major, 100-replicate batches, each draw250 int64 indices; one continuous fault RNG; normal RNG separate",
+    "method_pairing": "same within-fault indices for all methods and all endpoints, including conditional numerators/denominators",
+    "far_pairing": "one common normal index sequence for all methods and detector rows",
+    "fault_resampling": false,
+    "refit_in_bootstrap": false,
+    "intervals_simultaneous": false,
+    "paired_contrasts": "Adaptive-comparator for higher-is-better detection/occupancy; comparator-Adaptive for FAR/pre-fault alarms/delays",
+    "comparators": [
+      "fixed_ad_top5",
+      "independent_top1",
+      "q_cusum"
+    ]
+  },
+  "shutdown": {
+    "integration_policy": "CONTINUE_TO_REGISTERED_HORIZON_WITH_ZERO_STATE_DERIVATIVES_AND_ACTIVE_CONTROLLER_MEASUREMENT_UPDATES",
+    "primary": "all960 released rows retained; record every shutdown, no run/fault/seed replacement or removal",
+    "supplement_only": "per-run observed postfault sample count strictly before first released shutdown sample, alarm before shutdown/horizon, and observed pre-shutdown delay if detected",
+    "supplement_not_claimed": "hypothetical no-shutdown performance, new primary endpoint, rescue or winner criterion",
+    "normal_shutdown": "halt and preserve evidence, do not silently replace normal seed"
+  },
+  "pre_final_implementation_clarifications_requiring_this_review": [
+    "Explicit PCG64 draw schedule and 100-replicate memory batching; inherited analysis seeds and20000 count unchanged.",
+    "Undefined conditional denominators and macro/interval propagation; no partial-panel redefinition.",
+    "Normal FAR uses all960 samples; canonical delay0 atsample161 and inclusive horizon comparison match accepted core.",
+    "Supplementary shutdown exposure/alarm annotations are separated from unchanged registered primary endpoints."
+  ],
+  "inherited_role_deviation": "O1 accepted only for exact Development state scope, retained verbatim in independent reports; same250 normal reference/scaling/calibration runs not independent",
+  "stop_rules": [
+    "Exactly one new seed bank. Unfavorable results never authorize replacement seeds.",
+    "No new method, endpoint, fault exclusion, K, k grid, success criterion, or U5 branch after protocol acceptance.",
+    "Before final access, only targeted implementation repair that leaves scientific definitions unchanged and receives independent acceptance is permitted.",
+    "After final access, rerun only for exact deterministic recovery from infrastructure failure with identical bytes/hashes; every attempt remains logged.",
+    "Negative, abstaining, null, or inconsistent valid results cannot be removed."
+  ],
+  "predeclared_interpretation": {
+    "adaptive_vs_top1": "trade-off expected: Adaptive lower FAR; independent Top-1 faster early. Not a winner claim.",
+    "adaptive_vs_fixed_ad": "no superiority direction registered; report endpoint vector and paired intervals.",
+    "adaptive_vs_q": "no universal direction registered; report endpoint vector and paired intervals.",
+    "direction_categories": [
+      "direction confirmed only when preregistered direction and paired 95% interval exclude zero",
+      "directionally consistent but imprecise",
+      "not replicated/opposite"
+    ],
+    "all_valid_outcomes_retained": true
+  },
+  "no_full_protocol_no_deviation_attestation": true,
+  "historical_SQ2_acceptance_backfilled": false,
+  "candidate_contains_execution_authorization": false
+}

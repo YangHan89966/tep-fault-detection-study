@@ -1,0 +1,5 @@
+Fault / normal path,Limit from normal paths,Clean detection (%),Median split-mean loss (min),Normal FAR (%)
+Original,Original,98.67,720.48,5.00
+Original,Point-permuted,63.73,1650.38,0.00
+Point-permuted,Original,70.90,1495.39,36.71
+Point-permuted,Point-permuted,29.40,2117.19,4.67

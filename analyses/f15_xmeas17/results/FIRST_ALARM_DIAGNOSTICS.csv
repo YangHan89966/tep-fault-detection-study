@@ -1,0 +1,17 @@
+﻿method,arm,role,n,n_any_alarm,min_first_record_if_alarm,median_first_record_if_alarm,max_first_record_if_alarm,any_cross_after_record160,first_post_cross_exactly_record161,median_run_peak_over_limit
+MEWMC,ci,fault,120,93,108,457,960,92,0,1.225209367462023
+MEWMC,ci,normal,120,12,111,478.5,705,10,0,0.7351935745830438
+MEWMC,ci_with_post17,fault,120,120,1,1.0,4,120,120,1480.8912766079188
+MEWMC,ci_with_post17,normal,120,120,1,1.0,4,120,120,1472.7235330742287
+MEWMC,post,fault,120,12,130,409.0,858,11,0,0.8319167184143439
+MEWMC,post,normal,120,7,105,359,742,6,0,0.8159098217507643
+MEWMC,post_with_ci17,fault,120,120,20,41.0,69,120,120,4.944882170766755
+MEWMC,post_with_ci17,normal,120,120,19,40.0,78,120,120,4.890788923367488
+full_pool,ci,fault,120,120,214,366.5,632,120,0,3.7773079945122676
+full_pool,ci,normal,120,6,223,499.0,837,6,0,0.5504611324066082
+full_pool,ci_with_post17,fault,120,120,1,1.0,4,120,120,4127.419663450389
+full_pool,ci_with_post17,normal,120,120,1,1.0,4,120,120,4143.0211724926085
+full_pool,post,fault,120,103,222,573,916,103,0,1.4953704352517634
+full_pool,post,normal,120,9,322,737,911,9,0,0.5625272532895047
+full_pool,post_with_ci17,fault,120,105,222,563,916,105,0,1.5760214256513108
+full_pool,post_with_ci17,normal,120,9,317,733,911,9,0,0.5716393651690254

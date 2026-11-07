@@ -1,0 +1,210 @@
+{
+  "normal_CI": {
+    "any": 2,
+    "pre": 0,
+    "clean40": 2,
+    "clean8": 0,
+    "clean2": 0,
+    "n": 60,
+    "mean_loss": 2373.2,
+    "pooled_variance": 0.994624744130029,
+    "x12_mv7_r": [
+      0.9999999999999988,
+      1.0,
+      1.0
+    ],
+    "x15_mv8_r": [
+      0.9999999999999989,
+      1.0,
+      1.0
+    ],
+    "loop12_width": [
+      4.462945923933148e-07,
+      4.988386379523035e-07,
+      5.951259822722932e-07
+    ],
+    "loop15_width": [
+      3.700191086863924e-08,
+      4.337983483537755e-08,
+      4.9050839834308135e-08
+    ]
+  },
+  "normal_Rust_native": {
+    "any": 2,
+    "pre": 0,
+    "clean40": 2,
+    "clean8": 0,
+    "clean2": 0,
+    "n": 60,
+    "mean_loss": 2390.4,
+    "pooled_variance": 2.3869869116484224,
+    "x12_mv7_r": [
+      -0.09482408148668342,
+      0.024003528577162807,
+      0.08545757726248276
+    ],
+    "x15_mv8_r": [
+      -0.03833918977260731,
+      0.025230918844435242,
+      0.08577575326164254
+    ],
+    "loop12_width": [
+      22.47005710039275,
+      25.91571256963116,
+      30.845821264570915
+    ],
+    "loop15_width": [
+      17.927057550697214,
+      20.42747827756755,
+      23.913609392731317
+    ]
+  },
+  "normal_any": {
+    "CI_only": 2,
+    "native_only": 2,
+    "both": 0,
+    "neither": 56
+  },
+  "fault_CI": {
+    "any": 70,
+    "pre": 0,
+    "clean40": 70,
+    "clean8": 22,
+    "clean2": 0,
+    "n": 75,
+    "mean_loss": 980.36,
+    "pooled_variance": 1.1232862122899172,
+    "x12_mv7_r": [
+      0.9999999999999994,
+      1.0,
+      1.0
+    ],
+    "x15_mv8_r": [
+      0.999999999999999,
+      1.0,
+      1.0
+    ],
+    "loop12_width": [
+      4.420650725478481e-07,
+      5.168802061916722e-07,
+      6.439570938709949e-07
+    ],
+    "loop15_width": [
+      3.7218853776721517e-08,
+      4.272908427083166e-08,
+      4.9251738687416946e-08
+    ]
+  },
+  "fault_Rust_native": {
+    "any": 21,
+    "pre": 0,
+    "clean40": 21,
+    "clean8": 0,
+    "clean2": 0,
+    "n": 75,
+    "mean_loss": 2170.24,
+    "pooled_variance": 2.5391480203507877,
+    "x12_mv7_r": [
+      -0.056448773702984255,
+      0.016098793423207882,
+      0.11132281726222733
+    ],
+    "x15_mv8_r": [
+      -0.059601373760497796,
+      0.03271103188057745,
+      0.12223021452785683
+    ],
+    "loop12_width": [
+      23.07795126372926,
+      26.248447803161596,
+      31.61783163164303
+    ],
+    "loop15_width": [
+      17.73851902808898,
+      20.569295461930253,
+      25.26025285585804
+    ]
+  },
+  "fault_clean40": {
+    "CI_only": 49,
+    "native_only": 0,
+    "both": 21,
+    "neither": 5
+  },
+  "fault_clean8": {
+    "CI_only": 22,
+    "native_only": 0,
+    "both": 0,
+    "neither": 53
+  },
+  "fault_clean2": {
+    "CI_only": 0,
+    "native_only": 0,
+    "both": 0,
+    "neither": 75
+  },
+  "clock_sensitivity": {
+    "scope": "Post hoc sensitivity on the identical first alarms; primary event counts and original h are unchanged.",
+    "protocol_delay_origin": "record 161 (first affected recorded sample); delay = (first record - 161) x 180 s.",
+    "injection_origin": "scheduled IDV(9) at 8 h; instrumented step 28801, at 28800.000000004 s. Emission row j is timestamped at approximately 180*j-1 s.",
+    "actual_onset_sec": 28800.000000004162,
+    "record161_sec": 28979.00000000362,
+    "record320_sec": 57598.99999991658,
+    "record321_sec": 57778.99999991717,
+    "fault_first_alarm_on_record321_ids": {
+      "CI": [
+        53
+      ],
+      "Rust_native": []
+    },
+    "protocol_record_origin": {
+      "CI": {
+        "clean2": 0,
+        "clean8": 22,
+        "clean40": 70
+      },
+      "Rust_native": {
+        "clean2": 0,
+        "clean8": 0,
+        "clean40": 21
+      }
+    },
+    "strict_injection_clock": {
+      "CI": {
+        "clean2": 0,
+        "clean8": 21,
+        "clean40": 70
+      },
+      "Rust_native": {
+        "clean2": 0,
+        "clean8": 0,
+        "clean40": 21
+      }
+    }
+  },
+  "status_diagnostic": {
+    "study_runs": 194,
+    "status_completed": 194,
+    "trip0": "A trip freezes process evolution but output continues to horizon; the binary still reports tripped. In the archived runs the recorded outcome is completed.",
+    "independent_off_panel_positive_control": {
+      "0": {
+        "mode": "uncontrolled separate positive control; never enters study results",
+        "trip_ends_the_run": 0,
+        "reported": "tripped",
+        "emitted": 120,
+        "requested": 120,
+        "trip_hours": 3.060000000000384,
+        "trip_cause": "reactor pressure high"
+      },
+      "1": {
+        "mode": "uncontrolled separate positive control; never enters study results",
+        "trip_ends_the_run": 1,
+        "reported": "tripped",
+        "emitted": 61,
+        "requested": 120,
+        "trip_hours": 3.060000000000384,
+        "trip_cause": "reactor pressure high"
+      }
+    }
+  }
+}

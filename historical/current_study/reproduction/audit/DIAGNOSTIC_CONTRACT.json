@@ -1,0 +1,47 @@
+{
+  "id": "V15-D1_FIXED_BOUNDARY_RESET_DIAGNOSTIC",
+  "created_utc": "2026-09-06T15:12:45.794973+00:00",
+  "status": "DEFINED_BEFORE_COMPUTATION",
+  "scientific_role": "Post-outcome sensitivity; not confirmation or a deployable monitor",
+  "question": "Does the established Fault-9 signed advantage require the inherited pre-onset CUSUM state?",
+  "source": {
+    "file": "TEP_S30_F9_PATHS_20260906T114012_708942Z_jy1gynnr_RESULTS.zip",
+    "sha256": "292106c23c212d3931c15aa6c5e435cc1069781f48e519c0259211ea7072b6fc"
+  },
+  "splits": [
+    "D01",
+    "D02",
+    "D03",
+    "D04",
+    "D05",
+    "D06",
+    "D07",
+    "D08",
+    "D09",
+    "D10"
+  ],
+  "axis": "previously selected new_signed_axis; fixed",
+  "families": [
+    "signed",
+    "absolute",
+    "squared"
+  ],
+  "k": 0.05,
+  "conditions": [
+    "original recursion",
+    "reset both sides immediately before zero-based sample160"
+  ],
+  "routes": [
+    "original thresholds",
+    "matched reset normal calibration: same59, rank57, existing anchor"
+  ],
+  "unchanged": [
+    "all960 points; raw projection and transform parameters",
+    "first160 points monitored; prealarms retained",
+    "no reselection, no fitting, no new noise, no new process data",
+    "all75 fault and60 normal evaluation runs",
+    "2400minute loss for prealarm or miss"
+  ],
+  "report": "split medians/ranges; paired split differences descriptive only; no new significance test",
+  "limitations": "Reset needs known boundary. This is an offline counterfactual of the statistic, not a proposed operating rule or a physical intervention. Normal calibration sample size remains59."
+}

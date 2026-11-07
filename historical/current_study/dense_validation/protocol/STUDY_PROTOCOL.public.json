@@ -1,0 +1,332 @@
+{
+  "study_id": "TEP_DENSE3915_VALIDATION_v1.0",
+  "plan_version": "1.0",
+  "created_utc": "2026-09-12T05:59:06.861906+00:00",
+  "status": "EXECUTABLE_SCIENTIFIC_SPECIFICATION_FOR_NEW_LOCAL_BATCH; FREEZE_BEFORE_GENERATION",
+  "role": "original prospective supplementary validation; not independent peer review",
+  "prior_observations": "Manuscript historical and 4500-run new-seed results, E1/E2/E3A/E3B outcomes already known. No new DENSE3915 trajectory has been generated or viewed.",
+  "submission_policy": "Existing submission package, original four-method 4500-run assessment and all earlier outputs remain unchanged. Draft an addendum separately after results; report negative and inconclusive valid results as well as favorable ones.",
+  "target": "Replicate specified dense construction/expression findings in faults 3/9/15 using new downstream development and evaluation runs conditional on one inherited normal-trained PCA.",
+  "not_target": [
+    "E3B square-noise optimization",
+    "new method search",
+    "20-fault superiority",
+    "industrial validation",
+    "replication of four independent RNG streams",
+    "new PCA or full-training-pipeline uncertainty"
+  ],
+  "faults": [
+    3,
+    9,
+    15
+  ],
+  "methods": [
+    "mean_pool_signed",
+    "mean_pool_absolute",
+    "mean_pool_squared",
+    "moment_pool_signed",
+    "moment_pool_absolute",
+    "moment_pool_squared",
+    "same_mean_signed_axis_absolute",
+    "same_mean_signed_axis_squared",
+    "Q_CUSUM"
+  ],
+  "pca": {
+    "source": "assets/PCA_MODEL_NEWSEED_NORMAL_TRAINING.npz",
+    "sha256": "e8d334f9201d41bb240a46d09925b358a0b38a9a74d5193a7fd9f9b1782d1d33",
+    "source_runs": 500,
+    "source_role": "previous new-seed normal_training only",
+    "retained_components": 36,
+    "residual_dimension": 16,
+    "refit": false,
+    "not_historical_backbone": true,
+    "basis": "assets/RESIDUAL_BASIS_NEWSEED_PCA.npy; fixed before new observations",
+    "basis_sha256": "91967c40bbdaa784fcefcbc0246b7053446522764fe258a0d5a1c8fa187a1405"
+  },
+  "data_roles": [
+    {
+      "role": "normal_design",
+      "fault": 0,
+      "n": 40,
+      "stage": "development"
+    },
+    {
+      "role": "normal_anchor",
+      "fault": 0,
+      "n": 32,
+      "stage": "development"
+    },
+    {
+      "role": "normal_inner_calibration",
+      "fault": 0,
+      "n": 59,
+      "stage": "development"
+    },
+    {
+      "role": "normal_outer_calibration",
+      "fault": 0,
+      "n": 259,
+      "stage": "development"
+    },
+    {
+      "role": "normal_evaluation",
+      "fault": 0,
+      "n": 250,
+      "stage": "evaluation"
+    },
+    {
+      "role": "fault_fit",
+      "fault": 3,
+      "n": 100,
+      "stage": "development"
+    },
+    {
+      "role": "fault_selection",
+      "fault": 3,
+      "n": 75,
+      "stage": "development"
+    },
+    {
+      "role": "fault_evaluation",
+      "fault": 3,
+      "n": 250,
+      "stage": "evaluation"
+    },
+    {
+      "role": "fault_fit",
+      "fault": 9,
+      "n": 100,
+      "stage": "development"
+    },
+    {
+      "role": "fault_selection",
+      "fault": 9,
+      "n": 75,
+      "stage": "development"
+    },
+    {
+      "role": "fault_evaluation",
+      "fault": 9,
+      "n": 250,
+      "stage": "evaluation"
+    },
+    {
+      "role": "fault_fit",
+      "fault": 15,
+      "n": 100,
+      "stage": "development"
+    },
+    {
+      "role": "fault_selection",
+      "fault": 15,
+      "n": 75,
+      "stage": "development"
+    },
+    {
+      "role": "fault_evaluation",
+      "fault": 15,
+      "n": 250,
+      "stage": "evaluation"
+    }
+  ],
+  "new_development_runs": 915,
+  "new_evaluation_runs": 1000,
+  "new_total_runs": 1915,
+  "normal_sharing": "same normal role identities across all three fault-specific analyses; never treat them as 3 times as many independent normal trajectories",
+  "replications": "one preassigned fit/selection/calibration realization per fault, not ten overlapping re-splits; intervals conditional on this learned state and inherited PCA",
+  "generator": {
+    "expected_commit": "9a6c8e5fcef4a2850778704e7793c87b0a187005",
+    "expected_tep_version": "2.5.0",
+    "backend": "python",
+    "control": "closed_loop",
+    "native_dt_hours": 0.0002777777777777778,
+    "hours": 48,
+    "raw_rows": 961,
+    "drop_only_raw_t0": true,
+    "samples": 960,
+    "spacing_minutes": 3,
+    "fault_onset_hours": 8,
+    "first_scheduled_affected_sample": 161,
+    "inputs": "41 measurements then first 11 MVs",
+    "xmv12": "saved separately, excluded",
+    "initial_state": "same fixed initialization as pinned construction",
+    "shutdown": "preserve original derivative-zero/controller-measurement continuation, native annotations and all 960 records; no seed replacement for scientifically adverse outcomes"
+  },
+  "seeds": {
+    "status": "MAPPING_ALGORITHM_FIXED; LOCAL_9500_EXCLUSION_AND_1915_MANIFEST_REQUIRED_BEFORE_FIRST_RUN",
+    "namespace": "DENSE3915_VALIDATION_v1.0",
+    "one_rng_per_run": true,
+    "four_stream_claim": false,
+    "assignment": "Iterate data_roles as serialized then run1..n. ASCII DENSE3915_VALIDATION_v1.0|role={role}|fault={fault:02d}|run={run:04d}|counter={c}; c starts0. SHA256; seed=1+int.from_bytes(digest[:8],big)%(2^32-1). Reject effective state int(float(seed))%2^32 if in prior9500 or new assigned set; increment counter only on collision. No outcome-based replacement.",
+    "exclusions": "exclude all prior 9500 realized scalar RNG initializations and new cross-role collisions using verified local adapter identity; raw old seed rows never returned to chat and no DEV/FINAL secrets needed",
+    "not_sufficient": "different folder, run number or namespace alone does not establish distinct effective RNG initialization",
+    "generation_order": "Stage-specific round robin by run ordinal then serialized role/fault order. All915 development trajectories first; saved model+limits locked; explicit GenerateEvaluation only then; no automatic evaluation.",
+    "normalization": "Pinned _g=float(seed); TESUB7 int(_g)*9228907 mod 2^32. Allowed nonzero u32 exactly representable. Multiplier odd so first-state mapping bijective.",
+    "stream_limit": "Distinct initial states do not prove independent/non-overlapping pseudorandom subsequences or four physical noise streams."
+  },
+  "learning": {
+    "source": "manuscript SI S5 and saved S28 formulas; not E3B",
+    "normal_design": "40 full episodes; centre and symmetric whiten; eigenvalue floor max(1e-10*trace(C)/16,1e-14)",
+    "normal_B": "covariance across 40 within-run first-120 signed sums / sqrt(120)",
+    "metrics": [
+      "I",
+      "0.5B+0.5bI",
+      "0.9B+0.1bI",
+      "B"
+    ],
+    "b": "trace(B)/16",
+    "spatial_regularization": "end-of-chain original-coordinate ridge rho=1e-4*trace(W^-T T W^-1)/16; equivalent whitened T+rho W^T W",
+    "variance_normalization": "actual normal-design G, not regularized objective denominator",
+    "fit_windows": "first/last up to 160 post-fault observations before old common-constancy marker in first 22 measured columns; no marker uses full window. Native shutdown retained separately, not silently substituted. No padding or dropping short prefixes.",
+    "mean_pool": "same 100 fitting runs; per-run equally weighted early/late means; sign-aligned sum/complement under each of 4 metrics; at most 8 distinct directions",
+    "moment_pool": "same runs and endpoints; normal-centred second moment F-N; maximum and minimum generalized eigenvectors under same 4 metrics; at most 8 directions",
+    "canonical_order": "four primary recipes in I/shrink50/shrink10/B order, then four complements; largest absolute coefficient nonnegative; original mean-pool pre-variance dedup and moment-pool post-variance dedup retained",
+    "expressions": "signed, normal standardized absolute and squared projection; transformation scales from normal DESIGN only",
+    "degeneracy": "Inherited S28 invalid/empty-direction or normalization guards stop the batch and preserve evidence; no fallback candidate family or no-alarm branch is added. No seed replacement or silent family removal. Valid monitors with misses retain all runs and the original 2400-minute penalty."
+  },
+  "selection": {
+    "fault_role_n": 75,
+    "criterion": "all-run mean event loss (pre-alarm or miss=800 samples); otherwise first post-onset delay; original order resolves exact ties",
+    "internal_threshold": "59 normal inner maxima, order statistic 57 after fixed anchor scale",
+    "k": 0.05,
+    "search_k": false,
+    "pool_each_expression": "select one axis separately within each of mean and moment pools",
+    "same_axis_control": "freeze mean_pool_signed winner and apply its three expressions; each expression has its own normal scaler/limit; no new axis for same-axis branch",
+    "Q": "upper-only CUSUM on log1p(Q) normal standardized by DESIGN, k=0.05, as in saved S28 source"
+  },
+  "calibration": {
+    "anchor_n": 32,
+    "anchor": "linear-interpolated 0.90 quantile of normal run peaks",
+    "outer_n": 259,
+    "outer_rank_1_based": 247,
+    "decision": "strict >; no tolerance in alarm decisions",
+    "same_rule_not_equal_realized_far": true,
+    "normal_risk": "under iid continuous run maxima and fixed candidate independent of outer data, marginal new-run exceedance=(260-247)/260=0.05; not per-fitted-state guarantee",
+    "changed_from_historical": "outer calibration 59/rank57 to 259/rank247; applies identically to all arms; a new supplementary protocol, not exact byte replay of historical study"
+  },
+  "monitor": {
+    "dense_sides": 2,
+    "start": 1,
+    "reset_at_fault": false,
+    "reset_after_alarm": false,
+    "latch": false,
+    "time_input": "causal current/past observations only; fault identity/onset used for supervised development and scoring, not as a recursion signal"
+  },
+  "endpoints": {
+    "primary": "mean all-run penalized event loss in minutes",
+    "success": "no pre-fault alarm AND any post-fault alarm",
+    "delay": "3*(first post-fault alarm sample - 161)",
+    "failure_or_prefault_penalty_minutes": 2400,
+    "early_horizons_minutes": [
+      60,
+      120,
+      480
+    ],
+    "normal_FAR": "any strict exceedance in all 960 normal samples",
+    "all_runs_in_denominators": true,
+    "secondary": [
+      "full-horizon clean detection",
+      "early clean detection",
+      "pre-fault alarm",
+      "occupancy",
+      "native-shutdown stratification if any"
+    ],
+    "no_macro_substitution": "per-fault contrasts primary; do not combine with old 17-fault panel or mix E and N endpoint definitions"
+  },
+  "primary_contrasts": [
+    {
+      "id": "C1_F3_EXPRESSION",
+      "fault": 3,
+      "a": "same_mean_signed_axis_squared",
+      "b": "mean_pool_signed",
+      "difference": "a-b mean loss",
+      "expected_sign": "positive",
+      "interpretation": "fixed signed-selected axis only, not a globally fair ranking over all magnitude detectors"
+    },
+    {
+      "id": "C2_F9_DIRECTION",
+      "fault": 9,
+      "a": "moment_pool_signed",
+      "b": "mean_pool_signed",
+      "difference": "a-b mean loss",
+      "expected_sign": "negative"
+    },
+    {
+      "id": "C3_F15_DIRECTION",
+      "fault": 15,
+      "a": "moment_pool_squared",
+      "b": "mean_pool_squared",
+      "difference": "a-b mean loss",
+      "expected_sign": "negative"
+    }
+  ],
+  "uncertainty": {
+    "unit": "whole independent new evaluation run, paired across methods within fault",
+    "draws": 20000,
+    "primary_intervals": "95% marginal plus 98.3333333333% Bonferroni-adjusted percentile intervals over 3 primary loss contrasts; approximate bootstrap coverage, not finite-sample exact",
+    "normal_pairing": "one shared resampling schedule across monitors",
+    "rate_intervals": "per-fault/per-method Clopper-Pearson conditional intervals, no pooled faults and no degenerate all-success inference",
+    "training_refit_in_bootstrap": false,
+    "whole_pipeline_claim": false,
+    "degeneracy": "A zero-width empirical bootstrap interval at constant loss/rates is displayed descriptively and cannot establish equivalence or exclude unseen failures; conditional binomial intervals are also supplied for rates.",
+    "resampling_seed_derivation": "SHA256 ASCII DENSE3915_VALIDATION_v1.0|bootstrap|{fault:02d} for paired fault rows; label normal for one shared normal schedule; first8 bytes unsigned big endian, np.random.PCG64.",
+    "percentile_levels": {
+      "marginal": [
+        0.025,
+        0.975
+      ],
+      "three_contrasts_bonferroni": [
+        0.008333333333333333,
+        0.9916666666666667
+      ]
+    }
+  },
+  "interpretation": {
+    "support": "prespecified contrast direction and uncertainty; always show normal FAR and early/full outcomes, not a composite winner",
+    "no_significance": "interval spanning zero means inconclusive, not equivalent",
+    "adverse": "opposite or unfavorable valid findings retained and written up; do not rerun with different seeds",
+    "early_superiority": "only claim early superiority for a separately supported early endpoint; full-horizon replication does not imply timely detection"
+  },
+  "precision_budget": "250 evaluation runs per fault and 250 shared normal runs are a fixed practical replication budget, not a demonstrated power guarantee.",
+  "execution_pending": [
+    "actual local 9500-row collision exclusion",
+    "local pinned-runtime first session",
+    "915 new development trajectories",
+    "method fit/calibration lock",
+    "1000 test trajectories",
+    "independent-in-data fixed-state evaluation"
+  ],
+  "integration": "Produce a separate Supplementary Dense Validation Addendum and proposed manuscript change list. Original package remains untouched until author/teacher approves merging. Do not withhold valid negative outcomes while reporting positive ones.",
+  "implementation": {
+    "release": "1.0",
+    "runtime": "Python3.12.3 NumPy2.2.6",
+    "existing_runtime": "<AUTHOR_LOCAL_PATH_NOT_REQUIRED_FOR_PORTABLE_REPLAY>",
+    "source_execution": "Vendored exact16-file snapshot of pinned TEP commit, copied within new root; source hash checked before importing; no import of old runtime entrypoint or old authorization.",
+    "entrypoint": "code/runner.py; functions in code/inherited.py and horizon.py copied with body identity provenance",
+    "inputs": "Generate raw 52variables, xmv12 and native times; learn using frozen PCA and residual basis; do not refit PCA.",
+    "numerical_guards": "S28 SPD, normalization, moment, generalized eigenvalue and scale guards preserved; numerical/malformed input failures stop and preserve full attempt. No silent deletion of candidate families or data.",
+    "mean_axis": "Preserve original source regularized merge algorithm including prevariance dedup; only small original/complement pool used. Unit variance normalization after prevariance dedup.",
+    "same_axis": "Chosen mean_pool_signed index fixes both absolute/squared controls before independent outer calibration.",
+    "selection_ties": "First stored candidate with risk <= minimum+1e-12 samples as inherited S28. Risk multiples of1/75; tolerance cannot reorder distinct integer totals.",
+    "monitor_order": "S28 dense vector recurrence, (c+x)-k and (c-x)-k; Q retains original prefix-sum upper CUSUM; strict > thresholds, no added decision tolerance.",
+    "onset": "Preserve original continuous-time>=8h activation before step, including inherited floating-time behavior; scoring starts first scheduled sample161. No detector signal.",
+    "tests": "Synthetic controls, extracted pure RNG function tests, fake simulator integration, and historical F15 numerical replay only before release; no new TEP process trajectory generated in author container.",
+    "gate": "No full scientific generation until root freeze binds protocol, code, PCA, simulator source, all1915 seed assignments and prior9500 exclusion audit."
+  },
+  "operations": {
+    "default_workers": 2,
+    "max_workers": 4,
+    "first_session_hours": 0.5,
+    "root": "<AUTHOR_LOCAL_PATH_NOT_REQUIRED_FOR_PORTABLE_REPLAY>",
+    "completion": "Each run gets fresh isolated Python process and simulator object; append attempt journal, commit after shape/time/nonfinite checks plus digest receipt. Preserve unsuccessful scientific outcomes.",
+    "timeout": "Session budget stops issuing new runs; active runs finish. Thus actual wall time can slightly exceed requested session.",
+    "interrupt": "One Ctrl+C stops new tasks and waits for active runs. Close window/power interruption leaves same-label partial work; recover verified completed output or archive incomplete attempt and restart identical seed. Explicit numerical/simulation failure blocks until reviewed; never substitute seed.",
+    "phase_flow": [
+      "GenerateDevelopment",
+      "Learn (explicit)",
+      "GenerateEvaluation (explicit after method lock)",
+      "Evaluate (explicit, no refit)"
+    ],
+    "return": "At every session, compact source/hash/ledger/progress return ZIP, not raw old or new process arrays; after Learn includes states; after Evaluate includes full evaluation result tables."
+  }
+}

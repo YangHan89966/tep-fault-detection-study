@@ -1,0 +1,21 @@
+Historical data coverage for the first Tennessee Eastman monitoring paper
+Assessment date: 26 October 2026
+
+This document distinguishes historical material from the later 1,199-run independent-stream experiment. The newer experiment does not replace the original inputs of the earlier studies.
+
+Four historical source archives were inspected. Their current SHA-256 values match the earlier recorded identities, and all ZIP members, including nested ZIPs, passed CRC checks. They contain saved numerical models, monitoring scores, events, result tables, analysis code and run-identity records. They contain no files named RECORDING.npz. Source identities are listed in historical_component_inventory.csv. The numerical derivatives of these four sources are included in the historical numerical-evidence archive as described in its README. Original narrative files and analysis wrappers are not included. Other inventory entries do not imply their bytes are included in this component.
+
+The run-identity records identify 1,335 distinct expected original raw arrays:
+- 439 Fault 9 validation trajectories: 199 normal calibration, 120 normal evaluation and 120 Fault 9 evaluation.
+- 590 Fault 3/Fault 15 trajectories: each fault has 100 fitting, 75 selection and 120 evaluation trajectories.
+- 306 development trajectories: 40 normal-design, 32 anchor, 59 inner-reference, 100 Fault 9 fitting and 75 Fault 9 selection trajectories.
+
+historical_raw_identity_catalog.csv records their expected hashes and study roles. It is an identity catalog, not a raw-data file, not an availability guarantee, and not evidence that the arrays were re-hashed in this check. Other storage locations were not inspected. The absence from these archives does not establish permanent loss.
+
+Saved models, scores and events can support narrower downstream recalculation when the corresponding analysis inputs are available. They do not permit complete raw-to-score transformation or refitting of every historical state. This check does not claim independent reproduction of all manuscript values.
+
+Broader historical material requires a separate coverage decision. Prior repository documentation identifies partial code and result collections for dense validation, relearning, sensitivity and measurement recording. It does not establish complete historical TEP RData, 1,915 dense-validation raw trajectories, 5,575 relearning raw trajectories, complete recording-study process arrays, or all additional diagnostic raw inputs. These counts concern other historical collections and must not be added to the 1,335 catalog as though non-overlap had been established.
+
+Some original analysis wrappers validate whole-archive hashes. Removing unrelated narrative files changes container hashes even when numerical files remain unchanged. Clean derivatives need their own transparent checksums and compatible analysis entry points; they must not be represented as the original source archives. No historical analysis or simulation was executed in this inventory check.
+
+The machine-readable numerical supplement is supplied separately for manuscript and Supplementary Information version 5.6. This archive does not establish a self-contained rebuild of all manuscript figures or tables. Third-party notices retain their scope; no redistribution license for original material is granted by this archive.

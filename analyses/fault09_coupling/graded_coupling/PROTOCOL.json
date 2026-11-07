@@ -1,0 +1,152 @@
+{
+  "study_id": "TEP_P1_F9_GRADED_NOISE_COUPLING_20261030_v1",
+  "version": "1.0",
+  "created_utc": "2026-10-30T06:47:10.380369+00:00",
+  "evidence_stage": "Post-hoc mechanistic sensitivity analysis on previously analyzed independent-stream confirmation trajectories; no new process trajectories and no independent confirmation claim.",
+  "question": "For one frozen historical Fault9 monitor, how do normal score variance and detection change as recorded measurement noise shares progressively more components with the noise used by the controller?",
+  "panel": {
+    "normal_calibration": 199,
+    "normal_evaluation": 400,
+    "fault9_evaluation": 200,
+    "physical_total": 799,
+    "source_study": "TEP_P1_INDEPENDENT_STREAM_CONFIRMATION_20261023_V1",
+    "selection": "All available trajectories in these three roles, no outcome selection or adaptive expansion",
+    "manifest_sha256": "f6b95d7828e791d20c9cde4bb4c7e0509022de2202a7f50f07b97e7aea09ab6a"
+  },
+  "coupling": {
+    "rho": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1
+    ],
+    "shared_uniform_components": [
+      0,
+      3,
+      6,
+      9,
+      12
+    ],
+    "arms": [
+      "rho_0",
+      "rho_025",
+      "rho_05",
+      "rho_075",
+      "rho_1",
+      "actual_post_update"
+    ],
+    "original_noise": "sigma*(sequential sum of 12 high32 Philox uniform raw64 words / 2**32 - 6)",
+    "replacement_noise": "sigma*(sum first m original uniform components + sum last 12-m independent replacement components - 6), preserving original sequential summation order",
+    "independent_key": "first128bits SHA256(study_id + |replacement| + run_id), direct Philox key counter0; disjoint from all original panel keys",
+    "replacement_counter": "Use original noise-event starting raw64 word index for each of the 12 replacement components; retain same event across held measurements; reuse same replacement stream across all rho",
+    "channels": "All41 measurements at their actual controller-input cached time; held composition channels retain original sample-and-hold events; no-noise initialization observations remain unchanged.",
+    "physical_signal": "Hold original controller-input noiseless component and all11 manipulated variables fixed. Add replacement noise through original_measurement+(new_noise-original_noise).",
+    "rho_1": "Directly reuse original controller-input values for bit-exact endpoint and baseline replay",
+    "actual_post_update": "Separate actual recorded reference. Not asserted to equal rho0, which uses controller-input physical measurement timing.",
+    "not_changed": [
+      "process dynamics",
+      "controller",
+      "fault realization",
+      "measurement marginal noise law",
+      "measurement update/hold schedule",
+      "historical representation",
+      "CUSUM k"
+    ],
+    "interpretation": "rho is component-level noise correlation under the original independent-uniform model, not raw measurement-output correlation or a measured industrial parameter. Changes in closed-loop measurement-output joint structure are intended."
+  },
+  "noise_recovery": {
+    "method": "Replay original random-call schedule only, using original key; recover controller-input measurement noise events without solving process dynamics.",
+    "required_checks": [
+      "All799 source RAW/RUN_INFO/CHARTS identities match archived file hashes",
+      "All960 saved per-record cumulative RNG counts exact per run",
+      "Final draw count exact",
+      "Saved D-feed temperature curve agrees with replay within1e-12",
+      "Saved complete RNG consumption trace hash exact where available",
+      "Direct instrumented full48h normal and Fault9 engineering runs agree with replayed noise event components",
+      "Original rho1 and actual post-update CUSUM alarms reproduce archived thresholds and per-run events"
+    ],
+    "failure_policy": "Any mismatch stops processing for investigation; no trajectory dropped or replaced and no tolerance loosened based on scientific outcomes."
+  },
+  "monitor": {
+    "map_sha256": "7a20407a0fafa0028931de8d73c32b2ceae9585175e59dadd836777a97efcf66",
+    "channel": "H_D01_moment_A01_signed",
+    "refit": false,
+    "score": "same original affine beta/intercept for every arm",
+    "k": 0.05,
+    "recurrence": "cp=max(0,(cp+score)-k); cm=max(0,(cm-score)-k); C=max(cp,cm)",
+    "alarm": "C>h",
+    "reset": "run beginning only"
+  },
+  "calibration": {
+    "n": 199,
+    "rank_1based": 190,
+    "statistic": "maximum C over960 records and both sides",
+    "separate_threshold_per_arm": true,
+    "same_physical_calibration_runs": true,
+    "order": "write and hash thresholds before new intermediate-coupling evaluation results are calculated",
+    "nominal": "5% marginal finite-run target; report actual400N alarm rate"
+  },
+  "endpoints": {
+    "descriptive_main": [
+      "normal pooled score variance over400*960 records, ddof1",
+      "40h clean detection",
+      "8h clean detection"
+    ],
+    "secondary": [
+      "2h clean detection",
+      "48h normal anyalarm",
+      "normal clean postwindow crossing floor",
+      "prefault alarm",
+      "mean40h penalized loss"
+    ],
+    "clean": "No alarm in records1..160 and crossing in161..960",
+    "delay_min": "3*(first post crossing index0-160)",
+    "8h": "delay<=480",
+    "2h": "delay<=120",
+    "failure_penalty_min": 2400,
+    "denominator": "All200 fault or400 normal runs including prefault alarms and failures"
+  },
+  "inference": {
+    "bootstrap_draws": 20000,
+    "seed": 2026103009,
+    "order": "normal indices first shape20000x400 then fault indices shape20000x200, default_rng",
+    "unit": "whole physical run; common indices for all6 arms within role",
+    "paired_contrasts": [
+      "each rho except1 minus rho1",
+      "actual_post_update minus rho1",
+      "rho0 minus actual_post_update"
+    ],
+    "CI": "two-sided95% percentile, linear quantile; marginal descriptive, conditional on frozen model and realized calibration, excludes calibration/training uncertainty",
+    "single_arm_rates": "Wilson95% pointwise",
+    "support_gate": null,
+    "no_monotonicity_constraint": true
+  },
+  "figure": "One3panel figure: normal score variance,40h/8h clean detection, normal48h FAR versus rho; actual_post_update horizontal reference clearly separated.",
+  "source_archives": [
+    {
+      "name": "TEP_P1_Code_Results_and_Documentation_v1_20261026.zip",
+      "sha256": "7adfc1bc2de1694cdceaed22694321bf6312d1a16e89b3dbe13a9c92e20a7eaf"
+    },
+    {
+      "name": "TEP_P1_Fault09_Data_v1_20261026.zip",
+      "sha256": "51bffc53bd451e4c256b2ebdea10e43ec6cb860876d125874209b543b435a72d"
+    },
+    {
+      "name": "TEP_P1_Normal_Calibration_Data_v1_20261026.zip",
+      "sha256": "ffac50e769604a41a8d664caf86119472c258a1a161b66affea2fdc1f83934bb"
+    },
+    {
+      "name": "TEP_P1_Normal_Evaluation_Data_v1_20261026.zip",
+      "sha256": "5b61386a96e5709b1cd1de52aaac3c0f63d906543bbf80e21abae1e13947dbf9"
+    }
+  ],
+  "limits": [
+    "Previously analyzed physical panel, not new independent confirmation",
+    "One fixed historical monitor; not performance after retraining at eachrho",
+    "Same-time noise decoupling is not an exact reproduction of3second-later post-update",
+    "This idealized family does not establish monotonicity or industrial-data performance",
+    "One preregistered-within-session replacement realization perrun; no outcome-based rerandomization",
+    "No external preregistration or external timestamp"
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "status": "PASS",
+  "source_zip": "F9_PAIRED_RELEARNING_COMPLETE.zip",
+  "source_sha256": "7839254b073d226faeb7c7dcd7ac9e2f2b37ea19ed0e30b7981722fd5ff20e2b",
+  "audit_scope": "Historical return: manifest keys and raw-file SHA receipts, archive members, learning and calibration locks, and endpoint replay. The 2719 RAW.npz arrays, 960-row scientific chart paths, generation logs per case and the old 1199-key manifest are not included: this replay is not a raw-trajectory rerun or an independent observation of every generation time.",
+  "archive_members": 158,
+  "design_models_thresholds_completion_UTC": [
+    "2026-11-04T08:55:16.706116+00:00",
+    "2026-11-05T04:39:31.351925+00:00",
+    "2026-11-05T05:14:29.239223+00:00",
+    "2026-11-05T06:59:12.353029+00:00"
+  ],
+  "stage_counts": {
+    "development": 1920,
+    "calibration": 199,
+    "evaluation": 600
+  },
+  "physical_keys": 2719,
+  "evaluation_rows": 12000,
+  "paired_bootstrap_draws": 20000,
+  "pooled_over_replicates": "Equal weight over five fitted replicates evaluated on identical physical cases; resample trajectories separately by role.",
+  "all_14_contrasts": {
+    "moment/normal_48h_FAR": {
+      "controller_input": 3.65,
+      "post_update": 6.25,
+      "difference": -2.6,
+      "p025": -4.15,
+      "p975": -1.0
+    },
+    "mean/normal_48h_FAR": {
+      "controller_input": 4.45,
+      "post_update": 4.1000000000000005,
+      "difference": 0.35000000000000003,
+      "p025": -1.1,
+      "p975": 1.85
+    },
+    "moment/normal_clean_floor": {
+      "controller_input": 3.55,
+      "post_update": 6.2,
+      "difference": -2.65,
+      "p025": -4.2,
+      "p975": -1.1
+    },
+    "mean/normal_clean_floor": {
+      "controller_input": 3.55,
+      "post_update": 4.1000000000000005,
+      "difference": -0.5499999999999999,
+      "p025": -1.85,
+      "p975": 0.75
+    },
+    "moment/fault_clean40": {
+      "controller_input": 98.2,
+      "post_update": 14.6,
+      "difference": 83.6,
+      "p025": 80.6,
+      "p975": 86.5
+    },
+    "mean/fault_clean40": {
+      "controller_input": 67.0,
+      "post_update": 3.4000000000000004,
+      "difference": 63.6,
+      "p025": 58.8,
+      "p975": 68.3
+    },
+    "moment/fault_clean8": {
+      "controller_input": 43.2,
+      "post_update": 1.3,
+      "difference": 41.9,
+      "p025": 36.3,
+      "p975": 47.6
+    },
+    "mean/fault_clean8": {
+      "controller_input": 12.4,
+      "post_update": 0.1,
+      "difference": 12.3,
+      "p025": 9.1,
+      "p975": 15.8
+    },
+    "moment/fault_clean2": {
+      "controller_input": 1.7000000000000002,
+      "post_update": 0.0,
+      "difference": 1.7000000000000002,
+      "p025": 0.4,
+      "p975": 3.3
+    },
+    "mean/fault_clean2": {
+      "controller_input": 2.3,
+      "post_update": 0.0,
+      "difference": 2.3,
+      "p025": 1.2,
+      "p975": 3.7
+    },
+    "moment/fault_prefault_alarm": {
+      "controller_input": 0.6,
+      "post_update": 0.0,
+      "difference": 0.6,
+      "p025": 0.0,
+      "p975": 1.4
+    },
+    "mean/fault_prefault_alarm": {
+      "controller_input": 0.8999999999999999,
+      "post_update": 0.0,
+      "difference": 0.8999999999999999,
+      "p025": 0.2,
+      "p975": 1.9
+    },
+    "moment/fault_mean_penalized_loss": {
+      "controller_input": 692.784,
+      "post_update": 2257.95,
+      "difference": -1565.166,
+      "p025": -1624.61895,
+      "p975": -1504.2044250000001
+    },
+    "mean/fault_mean_penalized_loss": {
+      "controller_input": 1537.428,
+      "post_update": 2376.246,
+      "difference": -838.818,
+      "p025": -927.8885250000001,
+      "p975": -751.5708000000001
+    }
+  },
+  "moment_counts_CI_then_post": [
+    {
+      "replicate": 1,
+      "clean40_fault_n": [
+        197,
+        15
+      ],
+      "clean8_fault_n": [
+        75,
+        0
+      ],
+      "clean2_fault_n": [
+        3,
+        0
+      ],
+      "prefault_n": [
+        0,
+        0
+      ],
+      "normal_alarm_n": [
+        13,
+        20
+      ],
+      "leave_one_out_delta40_pp": 81.75
+    },
+    {
+      "replicate": 2,
+      "clean40_fault_n": [
+        198,
+        22
+      ],
+      "clean8_fault_n": [
+        106,
+        3
+      ],
+      "clean2_fault_n": [
+        4,
+        0
+      ],
+      "prefault_n": [
+        2,
+        0
+      ],
+      "normal_alarm_n": [
+        19,
+        19
+      ],
+      "leave_one_out_delta40_pp": 82.5
+    },
+    {
+      "replicate": 3,
+      "clean40_fault_n": [
+        193,
+        8
+      ],
+      "clean8_fault_n": [
+        58,
+        0
+      ],
+      "clean2_fault_n": [
+        2,
+        0
+      ],
+      "prefault_n": [
+        0,
+        0
+      ],
+      "normal_alarm_n": [
+        14,
+        30
+      ],
+      "leave_one_out_delta40_pp": 81.375
+    },
+    {
+      "replicate": 4,
+      "clean40_fault_n": [
+        197,
+        44
+      ],
+      "clean8_fault_n": [
+        97,
+        6
+      ],
+      "clean2_fault_n": [
+        2,
+        0
+      ],
+      "prefault_n": [
+        3,
+        0
+      ],
+      "normal_alarm_n": [
+        8,
+        26
+      ],
+      "leave_one_out_delta40_pp": 85.375
+    },
+    {
+      "replicate": 5,
+      "clean40_fault_n": [
+        197,
+        57
+      ],
+      "clean8_fault_n": [
+        96,
+        4
+      ],
+      "clean2_fault_n": [
+        6,
+        0
+      ],
+      "prefault_n": [
+        1,
+        0
+      ],
+      "normal_alarm_n": [
+        19,
+        30
+      ],
+      "leave_one_out_delta40_pp": 87.0
+    }
+  ],
+  "matched_5pct_clean40_by_M1_M2_M3_M4": [
+    98.3,
+    12.2,
+    67.30000000000001,
+    5.3
+  ],
+  "matched_normal_n_per_arm_and_rep": 20,
+  "decision": {
+    "lower95_delta40_above_zero": true,
+    "upper95_deltaFAR_at_most_5pp": true
+  }
+}

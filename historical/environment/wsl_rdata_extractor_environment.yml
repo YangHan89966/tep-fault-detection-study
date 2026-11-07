@@ -1,0 +1,15 @@
+name: tep-wsl-rdata-extractor
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.3
+  - numpy=2.2.6
+  - pandas=2.2.3
+  - pyreadr=0.5.4
+  - python-dateutil=2.9.0.post0
+  - pytz=2026.3.post1
+  - six=1.17.0
+  - tzdata=2026.3
+
+# The original successful runs used a transient exact-hash local wheel overlay under WSL.
+# Scientific computations were performed in the separate Windows environment above.

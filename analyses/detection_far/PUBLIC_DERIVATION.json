@@ -1,0 +1,38 @@
+{
+  "release_date": "2026-11-07",
+  "source_archive": "TEP_P1_Detection_FAR_Curves_20261104.zip",
+  "source_archive_sha256": "96235d88ac440b4ea8c993c3d9b6720f31ada09a054e37782c21dc51a8e5e81b",
+  "changes": [
+    {
+      "path": "TEP_P1_Detection_FAR_Curves_20261104/00_结果与使用说明.txt",
+      "action": "documentation_revised",
+      "original_sha256": "3691c3d2542dc7bfb365916e46204606e47caf3b58759ef17f8f2d1897596843",
+      "public_sha256": "cda3dc810b93fcef8eda6c5474e2231681b9ba5435c4d47b4ac649e4d3d36206"
+    },
+    {
+      "path": "TEP_P1_Detection_FAR_Curves_20261104/review/MANUSCRIPT_PATCH_EN.txt",
+      "action": "editorial_directions_removed_scientific_text_retained_as_analysis_notes",
+      "original_sha256": "e7bc01bd2da5ad6026b47bdb1059f87c56409543537d5a58c99d06a09b305095",
+      "public_path": "TEP_P1_Detection_FAR_Curves_20261104/analysis_notes/CURVES_METHODS_RESULTS_EN.txt",
+      "public_sha256": "ac7d70be06b67564580918a8fa7544909867b1d6786e2813f3a9ea3b8a48680c"
+    },
+    {
+      "path": "TEP_P1_Detection_FAR_Curves_20261104/writing/ITEM3_CURVES_PATCH_EN.txt",
+      "action": "duplicate_editorial_document_omitted",
+      "original_sha256": "e7bc01bd2da5ad6026b47bdb1059f87c56409543537d5a58c99d06a09b305095",
+      "public_path": "TEP_P1_Detection_FAR_Curves_20261104/analysis_notes/CURVES_METHODS_RESULTS_EN.txt"
+    },
+    {
+      "path": "TEP_P1_Detection_FAR_Curves_20261104/writing/ALL_THREE_ITEMS_EN.txt",
+      "action": "editorial_directions_removed_scientific_text_retained_as_analysis_notes",
+      "original_sha256": "ac96ad79305b40c381df5679b5d96f71b3781aabaa39456a2404b04956b3274b",
+      "public_path": "TEP_P1_Detection_FAR_Curves_20261104/analysis_notes/THREE_ANALYSES_EN.txt",
+      "public_sha256": "5c17ca51caae69557b56c90097883c7afbe661a1360887e5d20422813702a04b"
+    }
+  ],
+  "all_non_document_members_byte_identical": true,
+  "preserved_original_member_count": 53,
+  "original_member_count": 57,
+  "code_lock_verification": null,
+  "original_manifests": "Original manifests are preserved byte-for-byte as historical source records. They describe the original archive. Documentation-only differences and omissions are listed here; use PUBLIC_SHA256SUMS.txt for this public derivative."
+}

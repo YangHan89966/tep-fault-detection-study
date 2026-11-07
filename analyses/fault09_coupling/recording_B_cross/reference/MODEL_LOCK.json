@@ -1,0 +1,29 @@
+{
+  "protocol_sha256": "264dfb33d9f77e7159a686997768fcca2b042cde6cbb22187a694f46ddf222af",
+  "PCA_sha256": "851e753ef45fe397e246270fe6634e49c4a4c3980b81f89caf762b8e338eb015",
+  "seed_lock_sha256": "9b608b588a8718d106cb05f2c9dca465094b286353d436e20d5492ec6b48db49",
+  "support_lock_sha256": "cca343477f0d7d28ea6bb64404fb3a132bfa1a98ab90afc3e3574090b21a3006",
+  "relative_path": "model_attempt_ba0d521c73f3",
+  "files": {
+    "MODEL_SOURCE.json": "60da19ad39c51808f12e6988fe4df45ef1c072960bd2c66bfdffed5f6c805ff9",
+    "native/DESIGN.npz": "44fe3e72cb19339e4ac3cfe5abac7567921b96927b17bbbc356fc869ef32dda3",
+    "native/FIT_INFO.json": "8ff3fad0caca73344b9372c9b398ebbf2274c26a0b5f6e29c0c1930295318468",
+    "native/FIT_MOMENTS.npz": "c9e8b9e8b8db659f8e5d8756c0d0564792178d0e859262a3ce3dd8c4799819e7",
+    "native/FIT_WINDOWS.csv": "42182a4a3df3ae9856fc89a9ba700c17fe397cd818267c93b33bccdce1105e8b",
+    "native/INNER.npz": "24f2ae01b5aaf0ab16924428623d94b3ee4e764dd302bc7fdc30aee784e77ba4",
+    "native/MODEL.npz": "e71e609ef6b349cc9bcbe24f24cb362bfb27c22dde1ee01fba71957de04e883b",
+    "native/NORMAL_SUPPORT.npz": "d66bd4eb39ee2080f55449de4d479e540d3facc0375a13575f4a0ac91ed0570c",
+    "native/SELECTION.json": "22c8c5a9178a5350dfcbd0d5da611e6ea3d01a34584788d95743b050fc544b70",
+    "native/SELECTION_SCORES.csv": "c8bc8c03587865530bcbda300fd678e4bd872ae8d466d44f965485579c5e5236",
+    "snapshot/DESIGN.npz": "f60ef2d179b5ea6012addd5fa17bfa3c91f18d802252c61e87a0d7b1f399cb5f",
+    "snapshot/FIT_INFO.json": "7a5c954bda10fee8e1e1089edfb16a86fa2f0a22731a14f8d32a707a3be1b09e",
+    "snapshot/FIT_MOMENTS.npz": "75b0fd8c3ae097344b6d87880b141173f085a43412cdc96b53f95746de746795",
+    "snapshot/FIT_WINDOWS.csv": "42182a4a3df3ae9856fc89a9ba700c17fe397cd818267c93b33bccdce1105e8b",
+    "snapshot/INNER.npz": "19e970f7043784b5981ff78d67e5d2ffc668bce8f30a2186f0f9d85416c530e1",
+    "snapshot/MODEL.npz": "e45074522887c1808b7f07939be301c99a420649fa6d96a4c9f7394480f7d89c",
+    "snapshot/NORMAL_SUPPORT.npz": "de805f3626a848ea7270ec40b27e52a086271b15044cce3c37b4d7cf6c34419e",
+    "snapshot/SELECTION.json": "c0d8f0b93abd5991be9fbad462c82f1aab2818e3c0b4eea41fce5116bfb2bf8a",
+    "snapshot/SELECTION_SCORES.csv": "aec0ff9992ad5facffdc089eae88d564af57506641338c245bfc64fb80c1b91a"
+  },
+  "locked_utc": "2026-10-07T03:58:09.653732+00:00"
+}

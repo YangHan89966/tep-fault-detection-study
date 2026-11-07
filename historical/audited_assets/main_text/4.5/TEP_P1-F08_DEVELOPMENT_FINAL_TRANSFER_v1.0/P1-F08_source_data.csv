@@ -1,0 +1,18 @@
+fault_id,evidence_family,development_occupancy_pct,final_occupancy_pct,final_minus_development_occupancy_pp,abs_occupancy_change_pp,development_median_delay_min,final_median_delay_min,abs_median_delay_change_min,development_run_detection_pct,final_run_detection_pct,protocol_status
+1,signed_level,98.7935,98.7925,-0.000999999999990564,0.000999999999990564,30.0,30.0,0.0,100.0,100.0,frozen before final subset; no final retuning
+2,signed_level,96.4025,96.42349999999999,0.020999999999986585,0.020999999999986585,87.0,87.0,0.0,100.0,100.0,frozen before final subset; no final retuning
+4,absolute_deviation,99.4295,99.422,-0.00750000000000739,0.00750000000000739,15.0,15.0,0.0,100.0,100.0,frozen before final subset; no final retuning
+5,lag1_product,99.628,99.6285,0.0005000000000023874,0.0005000000000023874,9.0,9.0,0.0,100.0,100.0,frozen before final subset; no final retuning
+6,absolute_deviation,99.834,99.8355,0.0014999999999929514,0.0014999999999929514,3.0,3.0,0.0,100.0,100.0,frozen before final subset; no final retuning
+7,signed_level,99.49900000000001,99.48949999999999,-0.00950000000001694,0.00950000000001694,12.0,12.0,0.0,100.0,100.0,frozen before final subset; no final retuning
+8,absolute_deviation,96.5445,96.734,0.18949999999999534,0.18949999999999534,76.5,72.0,4.5,100.0,100.0,frozen before final subset; no final retuning
+10,absolute_deviation,94.722,94.548,-0.17399999999999238,0.17399999999999238,120.0,124.5,4.5,100.0,100.0,frozen before final subset; no final retuning
+11,absolute_deviation,98.5175,98.438,-0.07949999999999591,0.07949999999999591,33.0,33.0,0.0,100.0,100.0,frozen before final subset; no final retuning
+12,absolute_deviation,98.2385,98.1995,-0.03900000000000148,0.03900000000000148,39.0,42.0,3.0,100.0,100.0,frozen before final subset; no final retuning
+13,absolute_deviation,93.853,93.8805,0.02750000000000341,0.02750000000000341,138.0,144.0,6.0,100.0,100.0,frozen before final subset; no final retuning
+14,absolute_deviation,99.4865,99.46549999999999,-0.021000000000015007,0.021000000000015007,12.0,12.0,0.0,100.0,100.0,frozen before final subset; no final retuning
+16,absolute_deviation,96.3725,96.327,-0.04550000000000409,0.04550000000000409,81.0,82.5,1.5,100.0,100.0,frozen before final subset; no final retuning
+17,signed_level,95.7855,95.77,-0.015500000000002956,0.015500000000002956,93.0,93.0,0.0,100.0,100.0,frozen before final subset; no final retuning
+18,signed_level,61.912,61.821000000000005,-0.09099999999999397,0.09099999999999397,169.5,165.0,4.5,100.0,100.0,frozen before final subset; no final retuning
+19,absolute_deviation,98.107,98.024,-0.08299999999999841,0.08299999999999841,45.0,48.0,3.0,100.0,100.0,frozen before final subset; no final retuning
+20,absolute_deviation,94.50800000000001,94.234,-0.2740000000000151,0.2740000000000151,126.0,135.0,9.0,100.0,100.0,frozen before final subset; no final retuning

@@ -1,0 +1,17 @@
+Fault,Monitor,Original: 40 h (%),Test excluded: 40 h (%),Test and calibration excluded: 40 h (%),Original: normal FAR (%),Test excluded: normal FAR (%),Test and calibration excluded: normal FAR (%)
+3,"Full-pool monitor: mean-shift pool, Signed",100.0,100.0,100.0,6.3,6.2,6.0
+,"Same direction, Squared (C1 comparator)",20.5,21.2,20.2,4.2,4.3,4.1
+,"Identity-metric restriction, Signed",97.3,97.3,97.0,4.9,5.0,4.8
+,"FDA-CUSUM, Signed",97.5,97.5,97.4,5.0,5.0,5.0
+,Q-CUSUM,8.1,8.4,8.2,4.9,4.6,4.6
+9,"Full-pool monitor: second-moment pool, Signed",8.7,9.0,9.0,5.0,5.0,5.0
+,"Mean-shift pool, Signed (C2 comparator)",7.6,8.0,7.9,6.9,6.9,6.4
+,"Identity-metric restriction, Signed",5.8,6.2,6.2,6.2,6.1,6.2
+,"FDA-CUSUM, Signed",4.4,4.7,4.4,6.1,6.2,6.3
+,Q-CUSUM,12.4,13.2,12.7,4.9,4.6,4.6
+15,"Full-pool monitor: second-moment pool, Squared",72.9,72.7,71.6,4.2,4.4,3.6
+,"Mean-shift pool, Squared (C3 comparator)",21.4,21.3,21.6,6.4,6.5,6.7
+,"Identity-metric restriction, Squared",65.9,66.4,65.8,5.4,5.6,5.5
+,"Variance-ratio reference, Squared",66.3,66.9,66.6,5.6,5.8,5.7
+,"FDA-CUSUM, Signed",7.5,7.7,7.6,6.6,6.8,6.6
+,Q-CUSUM,17.6,18.0,17.6,4.9,4.6,4.6

@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "scientific_csv_npz_bytes_changed": false,
+  "historical_result_final_lock_sha256": "1a901e6e8d5bfb9e9e9a5d046e4b18018feb27cdc5d21c39a8fbba284a94cf9a",
+  "source_result_package_manifest_sha256": "071fa3161eaae1ca2eb813a9640811d9ca4123a7212a62b690579f8e1cb57ccb",
+  "changed_files": [
+    {
+      "public_path": "reference/FINAL_LOCK.json",
+      "original_sha256": "0926ba79779c12d737fdb192fab2c7c588b52aac8b1a4c5968bbbe80e98d681c",
+      "public_sha256": "d60f56908be9f5c92cfc85db4c438be932c5a50d0374bf8c4b09cc2c3f379ae4",
+      "change": "Omit two narrative-report index entries and label this document as a publication projection."
+    },
+    {
+      "public_path": "results/INPUT_PREFLIGHT.json",
+      "original_sha256": "072a55aa8a47a8c197870a3c096654049000e414f4528ac007b3e5c02c69e0b9",
+      "public_sha256": "bf70b44e45d9927f0eafe5d5cc68f3b6a984ece839e8501ba32d302281407e97",
+      "change": "Replace machine-specific source and unrelated profile paths with descriptive placeholders."
+    },
+    {
+      "public_path": "audit/verify_cross_results.py",
+      "original_sha256": "4533824f1edc3c3113f7bc0c8b82a64edcc54754ba0068f1a82dc5ff4dd31654",
+      "public_sha256": "dcac95a4debb6601c48f048ee96c60a4a9efe4c9a19d2fb8531c583f03f81895",
+      "change": "Portable public-package paths and explicit publication-metadata integrity verification; numerical audit calculations unchanged."
+    },
+    {
+      "public_path": "audit/verify_bootstrap.py",
+      "original_sha256": "51cd056193daac1c21c408fe00c8a9e299ed3c281011a34a56684a3b1c937118",
+      "public_sha256": "b3b3c3566721b8a96905f404aeb48389e241c070c05e3c50c17be510ffb0f33b",
+      "change": "Portable public-package paths and explicit publication-metadata integrity verification; numerical audit calculations unchanged."
+    }
+  ],
+  "omitted_files": [
+    {
+      "source_scope": "historical_reference",
+      "original_path_sha256": "53ee90f90f95d8ac37f521282bffab5d656b22a924f2f376e35a3788d4bcf984",
+      "original_sha256": "fefb802c8693e0d8cfa0eb1e535abba2ba85eb91331ecddc6af7e53038e4a5c3",
+      "description": "Non-numerical narrative report; numerical outputs and identities retained."
+    },
+    {
+      "source_scope": "historical_reference",
+      "original_path_sha256": "b3bcd8f43ac23a5cb2224d0591a97798d30b2270b166ba034713b59523fa03e6",
+      "original_sha256": "df60320a60009ed925def6bba50810a8483d8c56b0dd486d8383c8c460e1327e",
+      "description": "Non-numerical narrative report; numerical outputs and identities retained."
+    },
+    {
+      "source_scope": "result_package",
+      "original_path_sha256": "5386efaaec9c1819441eec944e15d5cd68204b03843e90ac7d063837654319a0",
+      "original_sha256": "522d1c83a9f3baf3dd1ade2360b922ab90676b2b2f51055d719b7fbe9f0cdbe3",
+      "description": "Author-facing narrative or document-generation file; replaced by the public English README."
+    },
+    {
+      "source_scope": "result_package",
+      "original_path_sha256": "1d2bab3441dfa65f23314cfe2ae62e5c770267656f79bc6eff5929aac9ada6b3",
+      "original_sha256": "137ce7e5681d39c1062baa724120998b8d1b93b856aeefe5ba9277ff2ce80d24",
+      "description": "Author-facing narrative or document-generation file; replaced by the public English README."
+    },
+    {
+      "source_scope": "result_package",
+      "original_path_sha256": "a7b8f2bc15305bc38070099b6492a950c5f21446f269c5201e6cf60c41ec2fb6",
+      "original_sha256": "7422861e0c4203aafd771e7d6e2d35048e6439771a8607959256f0be8cdcaa75",
+      "description": "Author-facing narrative or document-generation file; replaced by the public English README."
+    }
+  ],
+  "scope": "This is a public distribution derived from the original execution outputs. Original digests identify source evidence; public digests identify edited publication metadata. Historical locks are not silently resealed."
+}

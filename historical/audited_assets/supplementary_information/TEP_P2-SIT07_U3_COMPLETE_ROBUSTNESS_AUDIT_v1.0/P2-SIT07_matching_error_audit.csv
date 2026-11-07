@@ -1,0 +1,10 @@
+sigma,arm_key,arm_label,max_energy_match_abs_error,max_aggregate_match_abs_error
+0.5,top1_reference,Top-1 reference,0.0,0.0
+0.5,top5_exact_total_energy,Top-5 exact total-energy,3.552713678800501e-15,
+0.5,top5_common_mode_equal_index,Top-5 common-mode equal-index,,2.220446049250313e-16
+1.0,top1_reference,Top-1 reference,0.0,0.0
+1.0,top5_exact_total_energy,Top-5 exact total-energy,1.0658141036401503e-14,
+1.0,top5_common_mode_equal_index,Top-5 common-mode equal-index,,4.440892098500626e-16
+2.0,top1_reference,Top-1 reference,0.0,0.0
+2.0,top5_exact_total_energy,Top-5 exact total-energy,5.684341886080802e-14,
+2.0,top5_common_mode_equal_index,Top-5 common-mode equal-index,,8.881784197001252e-16

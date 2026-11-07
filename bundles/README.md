@@ -1,3 +1,5 @@
-# Included scientific inputs
+# Scientific file bundles
 
-These ordered parts contain the exact scientific files listed in the root BUNDLE_MANIFEST.json. Run `python unpack.py` from the repository root to verify and materialize them safely. They are not public raw-data deposits.
+Run `python unpack.py` from the repository root to restore the larger included files.
+`BUNDLES.json` lists each part and restored member with its byte count and SHA-256.
+The parts are kept together in this directory; they are not separate datasets.

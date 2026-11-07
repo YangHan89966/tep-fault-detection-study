@@ -1,0 +1,38 @@
+{
+  "status": "READY",
+  "time_utc": "2026-10-30T06:07:51.025264+00:00",
+  "required_development": 306,
+  "required_panel2": 439,
+  "total_required": 745,
+  "new_simulations": 0,
+  "sources": {
+    "relearning_workspace": {
+      "required": 306,
+      "found": 306,
+      "candidate": "<external-source>/relearning_workspace",
+      "missing": []
+    },
+    "D439_supplement": {
+      "required": 439,
+      "found": 439,
+      "candidate": "<external-source>/D439_supplement",
+      "missing": []
+    }
+  },
+  "discovery_version": "1.3",
+  "inspection_errors": [
+    {
+      "path": "<unrelated-inaccessible-location-1>",
+      "operation": "inspect_directory",
+      "error_type": "PermissionError",
+      "error": "Permission denied while scanning an unrelated optional location."
+    },
+    {
+      "path": "<unrelated-inaccessible-location-2>",
+      "operation": "inspect_directory",
+      "error_type": "PermissionError",
+      "error": "Permission denied while scanning an unrelated optional location."
+    }
+  ],
+  "publication_note": "Machine-specific locations have been replaced with descriptive placeholders; counts and scientific identities are unchanged."
+}

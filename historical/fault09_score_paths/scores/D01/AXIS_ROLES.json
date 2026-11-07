@@ -1,0 +1,34 @@
+{
+  "old_signed_axis": 3,
+  "new_signed_axis": 9,
+  "new_squared_axis": 9,
+  "axis_indices": [
+    3,
+    9
+  ],
+  "candidate_names": [
+    "mean_A03__signed",
+    "moment_A01__signed",
+    "mean_A03__absolute",
+    "moment_A01__absolute",
+    "mean_A03__squared",
+    "moment_A01__squared"
+  ],
+  "families": [
+    "signed",
+    "absolute",
+    "squared"
+  ],
+  "candidate_indices_family_major": [
+    3,
+    9,
+    19,
+    25,
+    35,
+    41
+  ],
+  "strict_threshold_comparison": ">",
+  "k": 0.05,
+  "fault_onset_zero_index": 160,
+  "operation": "original_binary64_cp+u-k"
+}

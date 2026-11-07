@@ -1,0 +1,26 @@
+{
+  "preserved_frozen_results": true,
+  "changed_old_tables": [
+    "MAIN6 caption only (renumbered7)",
+    "SI5 saturated macro proportions descriptive",
+    "SI6 saturated full-detection differences descriptive",
+    "SI8 all68 per-fault60min counts with supplementary CP intervals"
+  ],
+  "added_tables": [
+    "MAIN7 (=Table6)",
+    "SI30",
+    "SI31",
+    "SI32",
+    "SI33",
+    "SI34",
+    "SI35",
+    "SI36"
+  ],
+  "new_reference_numbers": [
+    23,
+    24,
+    25,
+    26
+  ],
+  "abstract_words": 219
+}

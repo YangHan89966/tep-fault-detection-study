@@ -1,0 +1,24 @@
+check_id,scope,statement,passed,severity,observed,expected,source_keys
+S22-01,primary frozen validation,The Proposed Top-5 final table contains exactly the 17 reserved faults.,True,error,1;2;4;5;6;7;8;10;11;12;13;14;16;17;18;19;20,1;2;4;5;6;7;8;10;11;12;13;14;16;17;18;19;20,step22_results
+S22-02,primary frozen validation,Every reserved fault has 100% run-level detection.,True,error,1,1,step22_results
+S23-01,post-freeze statistical synthesis,Step 23 macro FAR reproduces the Step 22 frozen final table.,True,error,0.0437647058824,0.0437647058824,step22_results;step23_primary
+S23-02,post-freeze statistical synthesis,Step 23 run detection reproduces the Step 22 frozen final table.,True,error,1,1,step22_results;step23_primary
+S23-03,post-freeze statistical synthesis,Step 23 point detection reproduces the Step 22 frozen final table.,True,error,0.953548823529,0.953548823529,step22_results;step23_primary
+S23-04,post-freeze statistical synthesis,Step 23 median delay reproduces the Step 22 frozen final table.,True,error,48,48,step22_results;step23_primary
+S23B-01,primary sensitivity analysis,All 17 proposed-method cells contain 250 final runs and 250 detections.,True,error,17,17,step23b_by_fault
+S23B-03,primary sensitivity analysis,Every frozen Step-22 run-result integrity check passed before Step 23B synthesis.,True,error,23,23,step23b_integrity
+S23B-02,primary sensitivity analysis,The crossed-bootstrap macro FAR estimate equals the Step 22 macro FAR.,True,error,0.0437647058824,0.0437647058824,step22_results;step23b_far
+S24-01,post-freeze robustness,All 34 clean Top-1/Top-5 reconstructions reproduce Step 22 exactly.,True,error,34,34,step24_parity
+S24-02,post-freeze robustness,Single-channel loss disables every Top-1 detector but no Top-5 detector.,True,error,0;17,0;17,step24_loss
+S24-03,post-freeze robustness,"At sigma=1, Top-5 retains all 17 fault detections under mean and worst channel aggregation.",True,error,17;17,17;17,step24_contamination
+S25-01,post-freeze detector-bank diagnostic,All 17 bank monitors reproduce their frozen normal and target-fault results.,True,error,17,17,step25_parity
+S25-02,post-freeze detector-bank diagnostic,The OR bank covers all 17 reserved faults but has 38% normal run FAR.,True,error,0.38;1,0.38;1,step25_summary;step25_bank_by_fault
+S26-01,exploratory post-freeze joint gate,The joint gate evaluates all 17 faults and detects all 250 runs for every fault.,True,error,17,17,step26_by_fault
+S26-02,exploratory post-freeze joint gate,The joint gate reduces normal run FAR relative to the hypothetical Step-25 OR bank.,True,error,0.38;0.032,0.38;joint gate lower,step25_summary;step26_summary
+S26-03,exploratory post-freeze joint gate,All Step-25 reconstruction parity checks remain exact in Step 26.,True,error,0;0;0,0;0;0,step26_summary
+S26-04,exploratory post-freeze joint gate,"Neither normal evaluation nor final fault data calibrated the gate, and the analysis is not confirmatory.",True,error,False;False;False,False;False;False,step26_summary;step26_guardrails
+S26-05,exploratory post-freeze joint gate,Step 26 preserves Step-25 bank run detection on all 17 faults.,True,error,0,0,step26_comparison
+G-S23,source reporting guardrails,Step 23 explicitly blocks universal-superiority and external-universality claims.,True,error,claim limits present,both claim limits present,step23_guardrails
+G-S24,source reporting guardrails,Step 24 explicitly blocks physical sensor-failure robustness claims.,True,error,True,True,step24_guardrails
+G-S25,source reporting guardrails,Step 25 retains the hypothetical-OR and no-validated-diagnosis limitations.,True,error,True,True,step25_guardrails
+G-S26,source reporting guardrails,Step 26 retains exploratory-status and descriptive-attribution limitations.,True,error,True,True,step26_guardrails

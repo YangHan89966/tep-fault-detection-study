@@ -1,0 +1,136 @@
+{
+  "registration_name": "Step 22 reserved multi-fault frozen validation",
+  "script": "scripts/22_reserved_multifault_frozen_validation.py",
+  "script_sha256": "d57a6278fa1d8a79e536d8673dd550b1f06fbf7c3750be1ea1ba974880a714f1",
+  "reserved_faults": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "development_runs": [
+    1,
+    250
+  ],
+  "frozen_final_runs": [
+    251,
+    500
+  ],
+  "fault_start_sample": 161,
+  "normal_evaluation_runs": [
+    251,
+    500
+  ],
+  "step21_protocol_frozen": true,
+  "step21_family_variable_orientation_retuning_allowed": false,
+  "proposed_top_k": 5,
+  "proposed_cusum_k": 0.05,
+  "proposed_cusum_k_retuning_allowed": false,
+  "control_limit_rule": "95th percentile of normal-validation run maxima for every method",
+  "comparator_k_grid": [
+    0.01,
+    0.03,
+    0.05,
+    0.07,
+    0.1,
+    0.2,
+    0.3,
+    0.5
+  ],
+  "comparator_k_selection_data": "target fault development runs 1--250 only",
+  "comparator_k_selection_rule": "maximize development run detection, then post-fault point detection, then minimize conditional median delay, then distance to 0.05, then k",
+  "methods": [
+    {
+      "method_key": "pca_q_cusum",
+      "method": "PCA Q/SPE-CUSUM",
+      "method_short": "Q-CUSUM",
+      "input_key": "pca_q",
+      "tune_k": true,
+      "n_variables": null,
+      "method_class": "global_pca"
+    },
+    {
+      "method_key": "pca_t2_cusum",
+      "method": "PCA Hotelling T2-CUSUM",
+      "method_short": "T2-CUSUM",
+      "input_key": "pca_t2",
+      "tune_k": true,
+      "n_variables": null,
+      "method_class": "global_pca"
+    },
+    {
+      "method_key": "pca_joint_cusum",
+      "method": "PCA joint max-score CUSUM",
+      "method_short": "Joint CUSUM",
+      "input_key": "pca_joint",
+      "tune_k": true,
+      "n_variables": null,
+      "method_class": "global_pca"
+    },
+    {
+      "method_key": "lda_residual_cusum",
+      "method": "Shrinkage-LDA residual CUSUM",
+      "method_short": "LDA residual",
+      "input_key": "lda_residual",
+      "tune_k": true,
+      "n_variables": 52,
+      "method_class": "dense_supervised"
+    },
+    {
+      "method_key": "chosen_family_all52_cusum",
+      "method": "Chosen-family All-52 residual CUSUM",
+      "method_short": "Family All-52",
+      "input_key": "family_all52",
+      "tune_k": true,
+      "n_variables": 52,
+      "method_class": "same_family_sparsity_control"
+    },
+    {
+      "method_key": "chosen_family_top1_cusum",
+      "method": "Chosen-family Top-1 residual CUSUM",
+      "method_short": "Family Top-1",
+      "input_key": "family_top1",
+      "tune_k": true,
+      "n_variables": 1,
+      "method_class": "same_family_sparsity_control"
+    },
+    {
+      "method_key": "frozen_multievidence_top5_cusum",
+      "method": "Frozen multi-evidence Top-5 residual CUSUM",
+      "method_short": "Proposed Top-5",
+      "input_key": "proposed_top5",
+      "tune_k": false,
+      "fixed_k": 0.05,
+      "n_variables": 5,
+      "method_class": "proposed"
+    }
+  ],
+  "primary_report": "report every fault and every method; macro mean/median plus per-fault run detection, post-fault point detection, delay, and normal FAR",
+  "normal_evaluation_used_for_tuning": false,
+  "final_used_for_tuning": false,
+  "companion_loaded": false,
+  "freeze_order": "verify Step 21 and freeze all 17 method states before any final row is subsetted",
+  "raw_container_caveat": "pyreadr materializes all testing runs in one RData object; final rows are not subsetted until every fault-specific state is frozen",
+  "dependency_hashes": {
+    "11_unpaired_runlevel_screening.py": "261f64589d6dfc2bb0098e8913358a5b5c9785fea84b67556b972d51cd3b0b86",
+    "15_fair_sequential_baselines.py": "27e255613365cc025d497532aea0ef487831704b7baf6ab27c1d2d18cf642042",
+    "18_faults9_15_prespecified_generalization.py": "d0f7b9b3318c93bfd4f64016d994f2f0aa2806f083df7487af44e62a04e65053",
+    "19_multievidence_development_audit.py": "0a19a1c0210669c201d7cbe42c5824aed2a38cb8a08405c68879cc415a30ee6b",
+    "20_frozen_multievidence_validation.py": "499f1a51d11fbe563b833722da67d002c464fb4acf6e4056ca064b42b9f79825",
+    "21_reserved_multifault_development_audit.py": "3e4bc3df679fe5e829b831b6108123dab7d5eb77edb1ea82b2824c30fa97428d"
+  },
+  "registered_at_utc": "2026-07-15T07:33:37.459793+00:00"
+}

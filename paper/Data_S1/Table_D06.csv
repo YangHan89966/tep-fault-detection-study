@@ -1,0 +1,46 @@
+Replicate,Configuration,40 h clean n,≤2 h clean n,≤8 h clean n,Normal alarm n,Mean loss (min),Pre-fault alarm n
+1,Mean / Signed,22,0,0,19,2321.040,0
+1,Mean / Absolute,78,0,3,14,2091.516,0
+1,Mean / Squared,101,0,8,24,1940.004,0
+1,Moment / Signed,19,0,0,19,2322.780,0
+1,Moment / Absolute,192,0,10,26,1540.368,0
+1,Moment / Squared,196,0,15,13,1475.040,1
+1,Same direction / Absolute,78,0,3,14,2091.516,0
+1,Same direction / Squared,101,0,8,24,1940.004,0
+1,Q-CUSUM,37,0,4,11,2248.632,0
+2,Mean / Signed,15,0,1,13,2350.296,0
+2,Mean / Absolute,27,0,0,11,2306.268,0
+2,Mean / Squared,44,0,0,10,2271.432,0
+2,Moment / Signed,11,0,0,9,2361.432,0
+2,Moment / Absolute,164,0,8,10,1695.192,0
+2,Moment / Squared,185,0,15,15,1522.068,0
+2,Same direction / Absolute,32,1,1,11,2285.592,0
+2,Same direction / Squared,41,2,4,12,2245.800,0
+2,Q-CUSUM,48,0,5,12,2209.320,0
+3,Mean / Signed,20,0,0,16,2340.900,0
+3,Mean / Absolute,48,0,2,11,2230.248,0
+3,Mean / Squared,57,0,4,14,2187.924,0
+3,Moment / Signed,17,0,0,13,2353.188,0
+3,Moment / Absolute,153,0,7,6,1770.096,0
+3,Moment / Squared,175,0,9,7,1649.244,0
+3,Same direction / Absolute,25,0,2,10,2301.756,0
+3,Same direction / Squared,34,0,5,13,2245.296,0
+3,Q-CUSUM,39,0,5,13,2233.956,0
+4,Mean / Signed,12,0,1,13,2362.104,0
+4,Mean / Absolute,32,0,1,17,2273.436,0
+4,Mean / Squared,34,0,1,16,2272.524,0
+4,Moment / Signed,11,0,0,11,2362.248,0
+4,Moment / Absolute,154,0,1,11,1874.064,0
+4,Moment / Squared,188,0,11,8,1571.316,0
+4,Same direction / Absolute,14,0,0,7,2343.180,0
+4,Same direction / Squared,26,0,2,16,2296.836,0
+4,Q-CUSUM,45,0,5,12,2235.804,0
+5,Mean / Signed,19,0,0,17,2355.720,0
+5,Mean / Absolute,22,0,1,11,2319.864,0
+5,Mean / Squared,31,0,2,16,2286.432,0
+5,Moment / Signed,24,0,1,31,2292.768,0
+5,Moment / Absolute,155,0,6,7,1783.512,0
+5,Moment / Squared,167,1,10,10,1664.988,0
+5,Same direction / Absolute,15,0,0,9,2344.236,0
+5,Same direction / Squared,12,0,0,11,2353.092,0
+5,Q-CUSUM,51,0,6,13,2182.512,0

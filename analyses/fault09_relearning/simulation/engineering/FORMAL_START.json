@@ -1,0 +1,106 @@
+{
+  "completed": [
+    {
+      "case_id": "R01_fault_fit_003",
+      "complete_sha256": "a3d9f52b25fd8b3da64b7f87b30b0b01d4e5fbc413eb28f630f66b69ffe6304e",
+      "key_hex": "0x8216edd231da968fbcdf9f80000000d4",
+      "raw_sha256": "b8f0b4e97044cff68130c8dcc5544b528f606e82d3aa9d958285b91b78ed068d",
+      "rng_draw_count": 45713361,
+      "run_info_sha256": "cfd2c85d44e2d345d263549c3481500d1124ce5c0479b6fed8f2f276ee3434d3",
+      "shutdown_occurred": false,
+      "wall_seconds": 150.47742663600002
+    },
+    {
+      "case_id": "R01_normal_design_001",
+      "complete_sha256": "42b92ad381f86350b9fef42f69d281698fb7995083164da25ec80d977480d1a5",
+      "key_hex": "0x8216edd231da968fbcdf9f800000004f",
+      "raw_sha256": "159a11330b9bb4b3fddb545267fd84672bb16525fe3cfa4fdffc709495da73ef",
+      "rng_draw_count": 45713451,
+      "run_info_sha256": "d6dab52c466a8d04c16a5e049a16f27be2c6d1e58e40a81f317fea82887f6a5b",
+      "shutdown_occurred": false,
+      "wall_seconds": 151.21848875300202
+    },
+    {
+      "case_id": "R01_pca_normal_001",
+      "complete_sha256": "34fd7adeb2abeef559efe52c18950e9557516fbd01988c7a3c67bd84d754a7a6",
+      "key_hex": "0x8216edd231da968fbcdf9f8000000001",
+      "raw_sha256": "9d7fbd7217dd654bb81df17040117417864596d2c9969d578531922631be8ab2",
+      "rng_draw_count": 45713430,
+      "run_info_sha256": "64198e94f675938ce4acf6faf9b7486fe1cb539b902cc8a70234f6d09e98449e",
+      "shutdown_occurred": false,
+      "wall_seconds": 152.3460743809992
+    },
+    {
+      "case_id": "R01_pca_normal_002",
+      "complete_sha256": "edd56fe79c43bfacb7be46c3c76508b855aade90846d31921c0fb00932eeff11",
+      "key_hex": "0x8216edd231da968fbcdf9f8000000002",
+      "raw_sha256": "dd0c39b106f7cfe413c792693d65712653f0017c1fd4b3c9fc5c8c7b75803547",
+      "rng_draw_count": 45713404,
+      "run_info_sha256": "6454881aa56e430fbb5f4f1972f8ead880f75393224726a91bef4ddc1a18bff3",
+      "shutdown_occurred": false,
+      "wall_seconds": 152.63508863499737
+    },
+    {
+      "case_id": "R01_normal_design_002",
+      "complete_sha256": "92dd1347cb618000b2c1645e0521b7a771d1c8799c4ac4384f0fb66ac09ffb97",
+      "key_hex": "0x8216edd231da968fbcdf9f8000000050",
+      "raw_sha256": "ea6fcf3626a654c3fa55f52b4989a712e3002c6db8db43108d1be989c85b9d87",
+      "rng_draw_count": 45713426,
+      "run_info_sha256": "f5767e626611616ef7c53ec980659a3ed01b48b1701417de0ab4ba595ad5dbd4",
+      "shutdown_occurred": false,
+      "wall_seconds": 153.22546724700078
+    },
+    {
+      "case_id": "R01_fault_select_001",
+      "complete_sha256": "2bee46b05fd317162aea1356f89679965e31cb2bcc3a7b0fa09fc81b33069bbe",
+      "key_hex": "0x8216edd231da968fbcdf9f8000000136",
+      "raw_sha256": "d3a161a2ad2caaaf094d85cfc0e71d9e50b1c79b42fcba6092c51ce4ceae9ec4",
+      "rng_draw_count": 45713408,
+      "run_info_sha256": "d7fff3390f37130106f9ad4bd4ae0617b8fd5dcc350d06c3672e1f944617d59b",
+      "shutdown_occurred": false,
+      "wall_seconds": 153.2301110510016
+    },
+    {
+      "case_id": "R01_fault_fit_002",
+      "complete_sha256": "71d6fd498ef3269e278743b7159ad99858b9bba40bec294dee996b69c56c0480",
+      "key_hex": "0x8216edd231da968fbcdf9f80000000d3",
+      "raw_sha256": "4e002668307bde21f6894cad781f00e20b33123d2c99adc0137293ef7dbde49a",
+      "rng_draw_count": 45713407,
+      "run_info_sha256": "ab42e480672a5c160ce33228f18302ec2834f6429b9d0211e9d9acd1c3935d88",
+      "shutdown_occurred": false,
+      "wall_seconds": 153.8945862770015
+    },
+    {
+      "case_id": "R01_fault_fit_001",
+      "complete_sha256": "f2fc0b68019c385484efc4f611f6c556b871d434d85a97336eb9c50446add22a",
+      "key_hex": "0x8216edd231da968fbcdf9f80000000d2",
+      "raw_sha256": "b617d1b5de2b45d9abb3e587384b9dcab71f8718bbd16c7b55d88f8227fd15c4",
+      "rng_draw_count": 45713391,
+      "run_info_sha256": "e792b4196b666c46bae2dd219299e900024f715d101a13907831337472416088",
+      "shutdown_occurred": false,
+      "wall_seconds": 153.96172592400035
+    }
+  ],
+  "design_lock_sha256": "be482fddc09941ed45b306da3f3d4a266812111c923cc564e0973b55ce3a7c99",
+  "elapsed_seconds": 154.09150555499946,
+  "engineering_gate_sha256": "5c8e65c5370e8269c933d1ee2f95e26dae4881d5535c6dbbe0f8776bc1d4b8fe",
+  "finished_utc": "2026-11-04T08:58:58.562683+00:00",
+  "manifest_sha256": "860c3ad6912549867c7e29978400897f65217efba3e3527f77200157aeb57abf",
+  "n_calibration": 0,
+  "n_completed": 8,
+  "n_evaluation": 0,
+  "planned_case_ids": [
+    "R01_pca_normal_001",
+    "R01_pca_normal_002",
+    "R01_normal_design_001",
+    "R01_normal_design_002",
+    "R01_fault_fit_001",
+    "R01_fault_fit_002",
+    "R01_fault_fit_003",
+    "R01_fault_select_001"
+  ],
+  "protocol_sha256": "a8966836eb00a3e21779c3f57ec935e17f1de6ec224a535f77faf578f1f2eb1c",
+  "stage": "locked development only; no model or evaluation endpoints",
+  "started_utc": "2026-11-04T08:56:24.471080+00:00",
+  "workers": 8
+}

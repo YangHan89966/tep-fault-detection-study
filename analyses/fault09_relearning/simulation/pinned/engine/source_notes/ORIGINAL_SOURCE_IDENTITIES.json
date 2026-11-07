@@ -1,0 +1,204 @@
+[
+  {
+    "destination": "vendor/LICENSE",
+    "bytes": 3367,
+    "sha256": "70a00a943dd2ef2a1749e694fca4340b588a9c71764e9860d4854e1362a8030d",
+    "git_blob_sha": "47c66118d38d94d2243870ca866d2695447d4030",
+    "upstream_commit": "9a6c8e5fcef4a2850778704e7793c87b0a187005",
+    "upstream_path": "LICENSE"
+  },
+  {
+    "destination": "vendor/README.md",
+    "bytes": 30296,
+    "sha256": "8d94edeb9e182f9e64f40a27fcfa1ead7f38c62d7dd09a76e0ebc0d29998f2c3",
+    "git_blob_sha": "a0ce536077ea2c2fccfc2a1fad0baba4f1720250",
+    "upstream_commit": "9a6c8e5fcef4a2850778704e7793c87b0a187005",
+    "upstream_path": "README.md"
+  },
+  {
+    "destination": "vendor/fortran/meson.build",
+    "bytes": 773,
+    "sha256": "190a97ee702ca4133ed137935bf1bf2f577addf81599e477448a3b80538599f3",
+    "git_blob_sha": "f213ba22c6a64034c5622e5f54cb5346f1b96c8b",
+    "upstream_commit": "9a6c8e5fcef4a2850778704e7793c87b0a187005",
+    "upstream_path": "fortran/meson.build"
+  },
+  {
+    "destination": "vendor/fortran/teprob.f",
+    "bytes": 39159,
+    "sha256": "bb9281ae52f91b9292214f54ad299c048b768bac152b524c38494dc65c8f485b",
+    "git_blob_sha": "aaff92081944dbdcab94118774276896895aec54",
+    "upstream_commit": "9a6c8e5fcef4a2850778704e7793c87b0a187005",
+    "upstream_path": "fortran/teprob.f"
+  },
+  {
+    "destination": "vendor/fortran/teprob.pyf",
+    "bytes": 1287,
+    "sha256": "e62e5de9e029c82fde596ef38676fb4071e833cab198a10b72549d23ddca3e38",
+    "git_blob_sha": "a5c79c5df2ffd07fa5be1fe35206f4c874a3572a",
+    "upstream_commit": "9a6c8e5fcef4a2850778704e7793c87b0a187005",
+    "upstream_path": "fortran/teprob.pyf"
+  },
+  {
+    "destination": "vendor/meson.build",
+    "bytes": 714,
+    "sha256": "f89688fbd925775b26b66d6b9e003ab184f0bae6ab38f9f6ef5c592b3da5e670",
+    "git_blob_sha": "c97e7ccdb00a646956da4793a8d13f283187b483",
+    "upstream_commit": "9a6c8e5fcef4a2850778704e7793c87b0a187005",
+    "upstream_path": "meson.build"
+  },
+  {
+    "destination": "vendor/meson.options",
+    "bytes": 207,
+    "sha256": "114cb63b5b3129d3bb1c352f7955cb660503d852a1657b6414f40f586379e30f",
+    "git_blob_sha": "32b0068d1966fb4c7209e362a576d4aa4fa5728e",
+    "upstream_commit": "9a6c8e5fcef4a2850778704e7793c87b0a187005",
+    "upstream_path": "meson.options"
+  },
+  {
+    "destination": "vendor/pyproject.toml",
+    "bytes": 1686,
+    "sha256": "0b09addcdc4f39ce109b968113ce51901da05b9a52058c5e7c8c73e43f18b8bb",
+    "git_blob_sha": "0e409eeb7faff52ea9b85a3173ed24b24faf28d1",
+    "upstream_commit": "9a6c8e5fcef4a2850778704e7793c87b0a187005",
+    "upstream_path": "pyproject.toml"
+  },
+  {
+    "destination": "vendor/src/tep/__init__.py",
+    "bytes": 4831,
+    "sha256": "5d428aa2c5ccd20ca36d1e47a99b4943f2ccf11019156c1101cfdfeb475cee6d",
+    "git_blob_sha": "8ea571695fded60fc6d2139139724de7c117d4be",
+    "upstream_commit": "9a6c8e5fcef4a2850778704e7793c87b0a187005",
+    "upstream_path": "src/tep/__init__.py"
+  },
+  {
+    "destination": "vendor/src/tep/_fortran/__init__.py",
+    "bytes": 246,
+    "sha256": "2fb5c41960316903596c17b1569b9251e4f3b988c901c6373fe0c02fcf1ae049",
+    "git_blob_sha": "b36fb8e1853a96322e57295d701cd276d2b07d08",
+    "upstream_commit": "9a6c8e5fcef4a2850778704e7793c87b0a187005",
+    "upstream_path": "src/tep/_fortran/__init__.py"
+  },
+  {
+    "destination": "vendor/src/tep/_fortran/meson.build",
+    "bytes": 1047,
+    "sha256": "91a279247def0442c51b65e48eed7f8d83f26d96c92e73adc8e000e622c21194",
+    "git_blob_sha": "5cf61ce22da085de3ef17e32954c8b34c7a9c3de",
+    "upstream_commit": "9a6c8e5fcef4a2850778704e7793c87b0a187005",
+    "upstream_path": "src/tep/_fortran/meson.build"
+  },
+  {
+    "destination": "vendor/src/tep/cli.py",
+    "bytes": 20482,
+    "sha256": "1b054bb06d1df56eb8ada779d721b8083bfc1d24a8a55088a476c74f1783f5c8",
+    "git_blob_sha": "78221e7148d5a1c7b8a193e5c4d308c1968c7d3c",
+    "upstream_commit": "9a6c8e5fcef4a2850778704e7793c87b0a187005",
+    "upstream_path": "src/tep/cli.py"
+  },
+  {
+    "destination": "vendor/src/tep/constants.py",
+    "bytes": 22976,
+    "sha256": "2ede4740c3016ed54d8bcfa96f0806f1b563b5bb409cac3e38219edbb2dc8773",
+    "git_blob_sha": "6809e4cfee11390c56f6c94ad55e2d4d3fdfc274",
+    "upstream_commit": "9a6c8e5fcef4a2850778704e7793c87b0a187005",
+    "upstream_path": "src/tep/constants.py"
+  },
+  {
+    "destination": "vendor/src/tep/controller_base.py",
+    "bytes": 12210,
+    "sha256": "4b64e21f837bedb5e584da6dde3809788620318ae226ebde39aa849dc0b0c047",
+    "git_blob_sha": "46e6bca831980bb1064cc4534a121c4628afca59",
+    "upstream_commit": "9a6c8e5fcef4a2850778704e7793c87b0a187005",
+    "upstream_path": "src/tep/controller_base.py"
+  },
+  {
+    "destination": "vendor/src/tep/controller_plugins.py",
+    "bytes": 33337,
+    "sha256": "65e217222552ea09dfc857f18c80594e6619d32bd7bd3c3d7fc0ee7161171e81",
+    "git_blob_sha": "406db062a1da5da9f5d6b172708290c229b780ea",
+    "upstream_commit": "9a6c8e5fcef4a2850778704e7793c87b0a187005",
+    "upstream_path": "src/tep/controller_plugins.py"
+  },
+  {
+    "destination": "vendor/src/tep/controllers.py",
+    "bytes": 22048,
+    "sha256": "6443e35e80a3f1e731f7ab75f3a165154c1211eaa037ff6df8e474e6ebcf2df6",
+    "git_blob_sha": "caa51c5f0b03e2da2847d4370f40028dfaa0fdb6",
+    "upstream_commit": "9a6c8e5fcef4a2850778704e7793c87b0a187005",
+    "upstream_path": "src/tep/controllers.py"
+  },
+  {
+    "destination": "vendor/src/tep/dashboard_dash.py",
+    "bytes": 50526,
+    "sha256": "4d1ccd2ae62e64e61b433c43c27f6f14d6e9bfacc267fff019e6e6f4bd6afec2",
+    "git_blob_sha": "486f788997bcccecc824e508827f63dc3cf61255",
+    "upstream_commit": "9a6c8e5fcef4a2850778704e7793c87b0a187005",
+    "upstream_path": "src/tep/dashboard_dash.py"
+  },
+  {
+    "destination": "vendor/src/tep/detector_base.py",
+    "bytes": 34192,
+    "sha256": "fd73d1d7373c2f582c57b2ca59c28f1843d7fcb159e4e12068e2bc10b8085fc5",
+    "git_blob_sha": "de148556cc1dbc972daa32f70abf75ddd01bf7f8",
+    "upstream_commit": "9a6c8e5fcef4a2850778704e7793c87b0a187005",
+    "upstream_path": "src/tep/detector_base.py"
+  },
+  {
+    "destination": "vendor/src/tep/detector_plugins.py",
+    "bytes": 31325,
+    "sha256": "be7d3c01b54b5c5d86fc079f79fc1b5a90e7116130a00841ef368a014fde787e",
+    "git_blob_sha": "349fa9175fad251f2749d62005af67ba03cb8efd",
+    "upstream_commit": "9a6c8e5fcef4a2850778704e7793c87b0a187005",
+    "upstream_path": "src/tep/detector_plugins.py"
+  },
+  {
+    "destination": "vendor/src/tep/fortran_backend.py",
+    "bytes": 8816,
+    "sha256": "a8e6fa320e624be0f381629befb15cdfdb0a6ba5a26e1bed29b03a1f9128141c",
+    "git_blob_sha": "ccdf431e32a18c681806ff10e4a8f9621c5630cc",
+    "upstream_commit": "9a6c8e5fcef4a2850778704e7793c87b0a187005",
+    "upstream_path": "src/tep/fortran_backend.py"
+  },
+  {
+    "destination": "vendor/src/tep/meson.build",
+    "bytes": 500,
+    "sha256": "df4de4a9d0831af4e143747d0031ce3bbcb1bf9b3ed892d2fb73ca2be14bbbad",
+    "git_blob_sha": "5f5f9cfb171883f32277cb4287aa1ea6e3699971",
+    "upstream_commit": "9a6c8e5fcef4a2850778704e7793c87b0a187005",
+    "upstream_path": "src/tep/meson.build"
+  },
+  {
+    "destination": "vendor/src/tep/python_backend.py",
+    "bytes": 51371,
+    "sha256": "9a85da44436861d4af57cebf4b1c6f27c6cbe2fc216e7343405f9102992dfd8f",
+    "git_blob_sha": "1911478b6dfd155d2e2a38caaef8c5b7fc12bef9",
+    "upstream_commit": "9a6c8e5fcef4a2850778704e7793c87b0a187005",
+    "upstream_path": "src/tep/python_backend.py"
+  },
+  {
+    "destination": "vendor/src/tep/simulator.py",
+    "bytes": 25086,
+    "sha256": "a9be40f48f99bf1e772f01c6d3aed34ee84cf0272d6d12b913a8776a2b5342be",
+    "git_blob_sha": "c6e3b4493d65b526d657d23cf5e2cdc25dc56ac7",
+    "upstream_commit": "9a6c8e5fcef4a2850778704e7793c87b0a187005",
+    "upstream_path": "src/tep/simulator.py"
+  },
+  {
+    "destination": "code/dual_core.py",
+    "bytes": 10701,
+    "sha256": "e10a7f88ede07e8b0c807623c8ec0ceda180164370be11e46a025ea25d36d77d",
+    "provenance": "exact SHA256 bound by original provenance handoff; recovered read-only from private author repository"
+  },
+  {
+    "destination": "code/fault_core.py",
+    "bytes": 5138,
+    "sha256": "b70f699121a86cf1b1bca8302ef8ae67427553cfc6270c4c6e935451507072bd",
+    "provenance": "exact SHA256 bound by original provenance handoff; recovered read-only from private author repository"
+  },
+  {
+    "destination": "code/horizon.py",
+    "bytes": 6527,
+    "sha256": "7b19f1f36ddfaee1ae50bb0cd4ef910f49216bb20a4a377dff4870c7ef29df0c",
+    "provenance": "exact SHA256 bound by original provenance handoff; recovered read-only from private author repository"
+  }
+]

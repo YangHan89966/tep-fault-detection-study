@@ -1,0 +1,17 @@
+﻿recording,fault,method,candidate_index,candidate_name,threshold,anchor,outer_rank,outer_n
+native,3,full_mean_signed,2,mean_A02__signed,43.080565065366315,37.86026524059011,190,199
+native,3,same_mean_signed_axis_squared,10,mean_A02__squared,48.62437162584647,45.4099942995823,190,199
+native,3,FDA_signed,16,FDA_signed,101.511267881895,91.43827525397838,190,199
+native,3,Q_CUSUM,17,Q_CUSUM,70.04731567505499,55.750401757346886,190,199
+native,15,full_moment_squared,9,moment_A01__squared,54.75421967291228,49.21893829202124,190,199
+native,15,mean_pool_squared,3,mean_A03__squared,59.00699432215779,47.85783920566914,190,199
+native,15,variance_ratio_squared,16,variance_ratio_squared,65.34821793523261,60.62554808308071,190,199
+native,15,Q_CUSUM,17,Q_CUSUM,70.04731567505499,55.750401757346886,190,199
+controller-input,3,full_mean_signed,3,mean_A03__signed,19.980322711335344,16.813191326193426,190,199
+controller-input,3,same_mean_signed_axis_squared,11,mean_A03__squared,62.818829357382675,70.54797360662766,190,199
+controller-input,3,FDA_signed,16,FDA_signed,73.68171767039432,70.4001420619979,190,199
+controller-input,3,Q_CUSUM,17,Q_CUSUM,82.66648649105579,69.58024827553707,190,199
+controller-input,15,full_moment_squared,9,moment_A01__squared,72.68518829180208,54.25325958655038,190,199
+controller-input,15,mean_pool_squared,5,mean_A05__squared,82.14603790169217,85.07853108727973,190,199
+controller-input,15,variance_ratio_squared,16,variance_ratio_squared,144.1082933809635,140.45931482231288,190,199
+controller-input,15,Q_CUSUM,17,Q_CUSUM,82.66648649105579,69.58024827553707,190,199

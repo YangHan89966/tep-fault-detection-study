@@ -1,0 +1,15 @@
+metric,value,unit,scope
+Local monitor macro mean normal run FAR,4.376470588235294,%,17 individually evaluated target-specific monitors
+Local monitor FAR range,0.8-8.4,%,17 individually evaluated target-specific monitors
+Hypothetical OR-bank normal run FAR,38.0,%,system-level OR bank
+OR-bank normal alarm runs,95/250,runs,system-level OR bank
+OR-bank normal point FAR,4.564583333333333,%,system-level OR bank
+Reserved-fault bank run detection,100.0,%,17 reserved faults
+Off-diagonal cross-trigger mean,89.6970588235294,%,272 non-target monitor/fault cells
+Off-diagonal cross-trigger median,100.0,%,272 non-target monitor/fault cells
+Off-diagonal cells with >=90% cross-trigger rate,231/272,cells,272 non-target monitor/fault cells
+Target among earliest,45.24705882352941,% of runs,macro mean across 17 faults
+Target uniquely earliest,25.905882352941177,% of runs,macro mean across 17 faults
+Target earliest rank,2.0,rank,macro median across faults; 1=best
+Target has largest normalized peak,23.6,% of runs,macro mean across 17 faults
+Target normalized-peak rank,2.0,rank,macro median across faults; 1=best

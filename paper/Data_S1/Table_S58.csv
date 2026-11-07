@@ -1,0 +1,4 @@
+Contrast (A minus B),Fault,Runs,Estimate (min),95% interval,Bonferroni 98.33% interval,Predicted sign
+"C1: Squared minus Signed, same direction (five replicates)",3,200,+1655.8,1608.1 to 1700.7,1596.8 to 1710.1,+ (held)
+"C3: Moment minus Mean, Squared (five replicates)",15,200,−626.5,−701.1 to −553.4,−718.1 to −537.3,− (held)
+"Fault 9: controller-input minus post-update, fixed historical monitor",9,200,−1149.6,−1256.3 to −1042.4,−1277.7 to −1016.4,− (held)

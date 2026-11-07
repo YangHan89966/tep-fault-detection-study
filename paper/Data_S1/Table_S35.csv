@@ -1,0 +1,5 @@
+Order retained,Signed clean detection (%),Signed loss (min),Signed normal FAR (%),Same-direction Squared clean detection (%)
+Original,98.67,720.48,5.00,49.33
+80-point blocks,93.23,958.61,6.79,52.27
+20-point blocks,82.47,1247.25,5.21,56.40
+Individual points,28.70,2115.53,4.88,59.77

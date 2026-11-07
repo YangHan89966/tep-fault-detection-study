@@ -1,0 +1,66 @@
+[
+  {
+    "scenario": 13,
+    "phi_normal": -0.8,
+    "phi_fault": 0.8,
+    "identical_amplitude_input_values": 7680000,
+    "identical_amplitude_cumulative_values": 7680000,
+    "claim": "Exact shared-innovation coupling; each marginal distribution N(0,1); no evidence of sign-reversal can exist in these identical even-transformed paths."
+  },
+  {
+    "scenario": 2,
+    "phi_normal": -0.6,
+    "phi_fault": 0.6,
+    "identical_amplitude_input_values": 7680000,
+    "identical_amplitude_cumulative_values": 7680000,
+    "claim": "Exact shared-innovation coupling; each marginal distribution N(0,1); no evidence of sign-reversal can exist in these identical even-transformed paths."
+  },
+  {
+    "scenario": 11,
+    "phi_normal": -0.4,
+    "phi_fault": 0.4,
+    "identical_amplitude_input_values": 7680000,
+    "identical_amplitude_cumulative_values": 7680000,
+    "claim": "Exact shared-innovation coupling; each marginal distribution N(0,1); no evidence of sign-reversal can exist in these identical even-transformed paths."
+  },
+  {
+    "scenario": 9,
+    "phi_normal": -0.2,
+    "phi_fault": 0.2,
+    "identical_amplitude_input_values": 7680000,
+    "identical_amplitude_cumulative_values": 7680000,
+    "claim": "Exact shared-innovation coupling; each marginal distribution N(0,1); no evidence of sign-reversal can exist in these identical even-transformed paths."
+  },
+  {
+    "scenario": 10,
+    "phi_normal": 0.2,
+    "phi_fault": -0.2,
+    "identical_amplitude_input_values": 7680000,
+    "identical_amplitude_cumulative_values": 7680000,
+    "claim": "Exact shared-innovation coupling; each marginal distribution N(0,1); no evidence of sign-reversal can exist in these identical even-transformed paths."
+  },
+  {
+    "scenario": 12,
+    "phi_normal": 0.4,
+    "phi_fault": -0.4,
+    "identical_amplitude_input_values": 7680000,
+    "identical_amplitude_cumulative_values": 7680000,
+    "claim": "Exact shared-innovation coupling; each marginal distribution N(0,1); no evidence of sign-reversal can exist in these identical even-transformed paths."
+  },
+  {
+    "scenario": 6,
+    "phi_normal": 0.6,
+    "phi_fault": -0.6,
+    "identical_amplitude_input_values": 7680000,
+    "identical_amplitude_cumulative_values": 7680000,
+    "claim": "Exact shared-innovation coupling; each marginal distribution N(0,1); no evidence of sign-reversal can exist in these identical even-transformed paths."
+  },
+  {
+    "scenario": 14,
+    "phi_normal": 0.8,
+    "phi_fault": -0.8,
+    "identical_amplitude_input_values": 7680000,
+    "identical_amplitude_cumulative_values": 7680000,
+    "claim": "Exact shared-innovation coupling; each marginal distribution N(0,1); no evidence of sign-reversal can exist in these identical even-transformed paths."
+  }
+]

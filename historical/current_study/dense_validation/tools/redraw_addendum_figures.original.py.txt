@@ -1,0 +1,81 @@
+# Rerun after fixing write access on the new figures output directory only.
+from pathlib import Path
+import csv
+import matplotlib.pyplot as plt
+
+root = Path(__file__).resolve().parents[1]
+figure_dir = root / "figures"
+figure_dir.mkdir(exist_ok=True)
+plt.rcParams["svg.fonttype"] = "none"
+
+with (root / "analysis" / "VERIFIED_PRIMARY_CONTRASTS.csv").open(
+    encoding="utf-8", newline=""
+) as handle:
+    contrasts = list(csv.DictReader(handle))
+
+labels = [
+    "Fault 3: same-axis Square − Signed\nPredicted difference > 0",
+    "Fault 9: moment − mean pool, Signed\nPredicted difference < 0",
+    "Fault 15: moment − mean pool, Square\nPredicted difference < 0",
+]
+fig, ax = plt.subplots(figsize=(9.2, 4.5))
+for position, row in enumerate(contrasts):
+    estimate = float(row["mean_loss_difference_minutes"])
+    lower = float(row["bonferroni98_333_lower"])
+    upper = float(row["bonferroni98_333_upper"])
+    ax.errorbar(
+        estimate, position,
+        xerr=[[estimate - lower], [upper - estimate]],
+        fmt="o", capsize=5, markersize=7
+    )
+ax.axvline(0, linestyle="--", linewidth=1)
+ax.set_yticks(range(3), labels)
+ax.invert_yaxis()
+ax.set_xlabel("Difference in all-run penalized mean loss (minutes)")
+ax.set_title("Three prespecified comparisons on new test trajectories")
+fig.text(
+    0.5, 0.015,
+    "Intervals: 98.3333% Bonferroni-adjusted paired bootstrap intervals.\n"
+    "250 faulty runs per contrast; conditional on the frozen model states.",
+    ha="center", fontsize=9
+)
+fig.tight_layout(rect=(0, 0.09, 1, 1))
+fig.savefig(figure_dir / "DV1_primary_contrasts.png", dpi=300)
+fig.savefig(figure_dir / "DV1_primary_contrasts.svg")
+plt.close(fig)
+
+with (root / "analysis" / "CLEAN_DETECTION_CURVES.csv").open(
+    encoding="utf-8", newline=""
+) as handle:
+    curves = list(csv.DictReader(handle))
+
+fig, ax = plt.subplots(figsize=(8.6, 4.8))
+for method, label in [
+    ("mean_pool_squared", "Mean pool + Square"),
+    ("moment_pool_squared", "Second-moment pool + Square"),
+]:
+    rows = [r for r in curves if r["fault"] == "15" and r["method"] == method]
+    ax.step(
+        [float(r["minutes"]) / 60 for r in rows],
+        [float(r["clean_pct"]) for r in rows],
+        where="post", linewidth=2, label=label
+    )
+for hour in (2, 8):
+    ax.axvline(hour, linestyle=":", linewidth=1)
+ax.set_xlim(0, 40)
+ax.set_ylim(0, 100)
+ax.set_xticks([0, 2, 8, 16, 24, 32, 40])
+ax.set_xlabel("Hours after scheduled fault onset")
+ax.set_ylabel("Detection without a pre-fault alarm (%)")
+ax.set_title("Fault 15: better long-horizon coverage, not early detection")
+ax.legend(frameon=False, loc="upper left")
+fig.text(
+    0.5, 0.015,
+    "250 new Fault-15 test runs. Normal false-alarm rates: 2.8% and 7.6%, respectively.\n"
+    "Empirical cumulative proportions; the plotted curves have no simultaneous confidence band.",
+    ha="center", fontsize=9
+)
+fig.tight_layout(rect=(0, 0.09, 1, 1))
+fig.savefig(figure_dir / "DV2_F15_detection_curve.png", dpi=300)
+fig.savefig(figure_dir / "DV2_F15_detection_curve.svg")
+plt.close(fig)

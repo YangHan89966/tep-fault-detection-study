@@ -1,0 +1,12 @@
+{
+  "S25_primary": {
+    "alarm_bits": 518400,
+    "max_statistic_abs_difference": 0.0,
+    "alarm_bits_equal": true
+  },
+  "D439_supplement": {
+    "alarm_bits": 921600,
+    "max_statistic_abs_difference": 0.0,
+    "alarm_bits_equal": true
+  }
+}

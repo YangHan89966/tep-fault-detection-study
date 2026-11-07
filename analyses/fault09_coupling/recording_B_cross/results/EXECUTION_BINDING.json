@@ -1,0 +1,20 @@
+{
+  "time_utc": "2026-10-30T06:07:36.483971+00:00",
+  "protocol_sha256": "2a58efbdf5054d7b18e4613c4ac12101151cad1d6271af68e42eb49d2cca04e6",
+  "runner_sha256": "74077e01a551d6bd95fef3ed10f765090ff03b17db22afee8003001a67a6db4a",
+  "vendor_files": {
+    "common.py": "63dba4e34c7028726317f128cc2e4541f81944485ba8fd434372988a59d1f911",
+    "existing_data.py": "a00c5c0247ec084e26174a6d3713a6b1e7ba1945a438cd16e412ae1188030324",
+    "inherited_dim.py": "12f87f95b45573e4a64cf1f006ce034bc8abec6b19208aabacfb242163e0dafd",
+    "normal_support.py": "546d1d484b073a14ec8666489c175b6d716191a980dc1f49a7e75ef6da5f59d8",
+    "relearning_core.py": "b4c326591e5e96b4047bb4533e65686a514f2d44c9460bb81c5cf945a7053686"
+  },
+  "environment": {
+    "python": "3.12.3",
+    "numpy": "1.26.4",
+    "executable": "/usr/bin/python3.12",
+    "system": "Linux",
+    "machine": "x86_64",
+    "byteorder": "little"
+  }
+}

@@ -1,0 +1,6 @@
+family_key,family,formula,interpretation,history,screening_start
+signed_level,Signed level,r_j(t),Directional residual level; preserves the sign of the residual coordinate.,Current sample only,No predecessor needed.
+absolute_deviation,Absolute deviation,|r_j(t) - c_j|,Unsigned displacement from the normal residual center.,Current sample only,No predecessor needed.
+squared_deviation,Squared deviation,[r_j(t) - c_j]^2,Unsigned displacement on a squared magnitude scale.,Current sample only,No predecessor needed.
+absolute_increment,Absolute increment,|r_j(t) - r_j(t-1)|,Local residual activity between adjacent samples.,One within-run predecessor,"At t = 161, sample 160 is read from the same run; never across runs."
+lag1_product,Lag-1 product,[r_j(t) - c_j][r_j(t-1) - c_j],Short-memory persistence in the centered residual coordinate.,One within-run predecessor,"At t = 161, sample 160 is read from the same run; never across runs."

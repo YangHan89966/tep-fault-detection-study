@@ -1,0 +1,13 @@
+{
+  "status": "PASS_SOFTWARE_ONLY",
+  "real_scientific_scores_read": false,
+  "recurrence_max_abs_difference": 2.4119629904451045e-12,
+  "percentile_max_abs_difference": 0.0,
+  "checks": [
+    "closed_form_vs_literal",
+    "all_alarm_bits",
+    "prealarm_and_time_boundaries",
+    "weighted_bootstrap_vs_enumeration",
+    "linear_percentile_formula"
+  ]
+}

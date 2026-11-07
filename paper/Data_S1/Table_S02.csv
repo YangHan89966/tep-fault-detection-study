@@ -1,0 +1,10 @@
+Source,Recording,Runs × records,XMEAS12–XMV7,XMEAS15–XMV8
+Python backend,Post-update,4 × 960,"0.042 [−0.006, 0.058]","0.019 [−0.029, 0.029]"
+,Controller-input,4 × 960,"1.000 [1.000, 1.000]","1.000 [1.000, 1.000]"
+Fortran backend,Post-update,4 × 960,"0.026 [−0.057, 0.037]","0.035 [−0.048, 0.057]"
+,Controller-input,4 × 960,"1.000 [1.000, 1.000]","1.000 [1.000, 1.000]"
+"Historical, normal training runs (Rieth et al., 2017)",As archived,500 × 500,"0.999999954 [0.999999942, 0.999999962]","0.999999952 [0.999999939, 0.999999961]"
+"Historical, normal testing runs (Rieth et al., 2017)",As archived,500 × 960,"0.999999954 [0.999999947, 0.999999961]","0.999999952 [0.999999945, 0.999999960]"
+"Braatz group, d00.dat (Braatz Group, n.d.)",As archived,1 × 500,0.999999956,0.999999950
+"Braatz group, d00_te.dat (Braatz Group, n.d.)",As archived,1 × 960,0.999999958,0.999999955
+"Reinartz et al. (2021), Mode 1, runs 1–10, before the fault",As archived,10 × 500,"0.103 [−0.032, 0.154]","0.053 [−0.019, 0.132]"

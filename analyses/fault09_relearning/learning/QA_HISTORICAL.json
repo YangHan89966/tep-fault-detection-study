@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "scope": "Historical evidence only, not the new scientific panel. 78 original paired normal raw arrays re-fit; the historical fitted-state, internal selection, final calibration and evaluation checked from archived moments/scores/masks, not re-simulated raw development or evaluation data.",
+  "archives_sha256": {
+    "tep-p1-normal-training78-v1.0.zip": "5c2ce839c1eab4e7dad56260aa82286c00059df6e7e131bada95fdd54922591c",
+    "F9_RELEARN_RANK_20261007T035904Z_ad63023a_RETURN.zip": "8dd2dc2790f0b356ed1cf2e9c9409311772727a7271cde6867511e8c74031a73",
+    "TEP_F9_Standard_Recording_Comparison_v1_20261006.zip": "43b85ced200558715772e1b0c0fa6a9c4a2e5c3d4e3129c2fca86a2abb0ac41f"
+  },
+  "pca_new_algorithm_vs_historical": {
+    "native": {
+      "retained": 36,
+      "errors": {
+        "center": 0.0,
+        "scale": 0.0,
+        "eigenvalues": 0.0,
+        "retained_projector": 0.0,
+        "residual_projector": 0.0
+      }
+    },
+    "snapshot": {
+      "retained": 35,
+      "errors": {
+        "center": 0.0,
+        "scale": 0.0,
+        "eigenvalues": 0.0,
+        "retained_projector": 0.0,
+        "residual_projector": 0.0
+      }
+    }
+  },
+  "chosen_indices": {
+    "native": {
+      "mean": 2,
+      "moment": 10
+    },
+    "snapshot": {
+      "mean": 7,
+      "moment": 10
+    }
+  },
+  "calibration_rows": 199,
+  "evaluation_bits_matched": 921600,
+  "original_M1_M2_M3_M4": {
+    "clean40": [
+      119,
+      38,
+      112,
+      16
+    ],
+    "clean8": [
+      85,
+      4,
+      44,
+      0
+    ],
+    "normal_any": [
+      7,
+      7,
+      10,
+      11
+    ],
+    "thresholds": [
+      19.260897709571637,
+      47.07995378031554,
+      27.444731246973515,
+      75.55990599787039
+    ]
+  }
+}

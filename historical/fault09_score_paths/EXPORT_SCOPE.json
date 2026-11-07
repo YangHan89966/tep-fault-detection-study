@@ -1,0 +1,25 @@
+{
+  "fault": 9,
+  "variant": "ridge_1e4",
+  "splits": [
+    "D01",
+    "D02",
+    "D03",
+    "D04",
+    "D05",
+    "D06",
+    "D07",
+    "D08",
+    "D09",
+    "D10"
+  ],
+  "axes": "mean_pool_signed, moment_pool_signed and moment_pool_squared frozen winners; deduplicate equal axis indices, no new choice",
+  "normal_roles": "outer59,audit60 per split",
+  "fault_roles": "audit75 per split,within OLD1..250; full960 points retained",
+  "no_refit": true,
+  "no_recalibration": true,
+  "no_new_simulation": true,
+  "no_newseed_access": true,
+  "not_new_performance_comparison": true,
+  "analysis": "READ_ONLY_FIXED_ONE_DIMENSIONAL_SCORE_EXPORT"
+}

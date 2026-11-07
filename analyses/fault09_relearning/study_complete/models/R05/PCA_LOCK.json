@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-11-05T04:39:18.755501+00:00",
+  "pca_sha256": "dbf3998210684a2891035f39ef658acbcfe015e80db47b43565eebd980ca6b0a",
+  "roles_read": [
+    "pca_normal"
+  ],
+  "n": 78,
+  "explained_cutoff": 0.95,
+  "wrapper_sha256": "ba880a7e5a7ab8ebe93325df21d5f014a8e6526e883940a5f8dd649549b1410d",
+  "source_binding_sha256": "c5b95ccdd8d61e943f5e054cb2b06816068e2eec1f0882c0132cd06faf287dff"
+}

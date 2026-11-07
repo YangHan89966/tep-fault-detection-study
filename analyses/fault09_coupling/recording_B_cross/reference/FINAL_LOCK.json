@@ -1,0 +1,24 @@
+{
+  "protocol_sha256": "264dfb33d9f77e7159a686997768fcca2b042cde6cbb22187a694f46ddf222af",
+  "model_lock_sha256": "253c20b3875a33a17611717f239433df601a6a75c897e1518b95b417472ade94",
+  "threshold_lock_sha256": "c5c0351e47e5795f4534be8bd98b64efea89127ebda81556be628aeb0a2f001d",
+  "relative_path": "evaluation_attempt_9017e465d14c",
+  "files": {
+    "D439_supplement_CASES.json": "9ddcb3f7123aea704bd4dad4052399071a9805e7603e9edace5284d4bdd21d0f",
+    "D439_supplement_EVALUATION.npz": "6c19606feb312c54f41026040cbf96d9e098951a13197085cb8a3084dd7cd55b",
+    "DECISION.json": "cdc2957d84d743d8cf9ce617241b9c84be021a79d7eb894bd47a9d54dfaf0a44",
+    "MAIN_RESULTS.csv": "f8371d194bd66f2edc123513e5bfd5d061d93390e889611014713639d37a567b",
+    "PAIRED_CONTRASTS.csv": "e88a30bf430c92a1116c3f43ad21513cc91f91f09501eb48e49689cc5f845bab",
+    "PER_RUN_EVENTS.csv": "852c5b51aa4c77d24877750d5d88c27bc1a3ff416027d6a429f75bec2b928820",
+    "RECURRENCE_RECHECK.json": "983350a77de56aea3881b0cccd4d7543ccabb5f8a8e53addeadddc732b468340",
+    "S25_primary_CASES.json": "51c02b5611d8a41f10f92f7d608c225cd1a61b30ad75761d2a5015e14dd9f5a9",
+    "S25_primary_EVALUATION.npz": "c004435f7f3948a5f9b32fc1f763e9e10a54796c113b546d5dc2b258f2a6ac3c",
+    "SELECTED_DIRECTIONS.csv": "c8be26ae109eeedec9dd708e64753f7960f88fe8bf547a25429d047212f2567c"
+  },
+  "completed_utc": "2026-10-07T03:58:51.571825+00:00",
+  "publication_projection": {
+    "source_document_sha256": "0926ba79779c12d737fdb192fab2c7c588b52aac8b1a4c5968bbbe80e98d681c",
+    "omitted_non_numerical_report_count": 2,
+    "description": "Public projection of the historical output index; listed scientific files retain their original digests."
+  }
+}

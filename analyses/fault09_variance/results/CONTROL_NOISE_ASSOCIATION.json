@@ -1,0 +1,13 @@
+{
+  "correlation": 0.8832633235114575,
+  "correlation_ci95": [
+    0.8825731409283618,
+    0.8839500462066707
+  ],
+  "slope_raw_signal17_per_one_SD_CI_noise15": 0.41053527282787333,
+  "slope_ci95": [
+    0.40983466820597153,
+    0.41121350278597746
+  ],
+  "interpretation": "Descriptive association conditional on original closed-loop trajectories; not an isolated controller intervention."
+}

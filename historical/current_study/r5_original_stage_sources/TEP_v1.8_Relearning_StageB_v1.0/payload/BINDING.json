@@ -1,0 +1,33 @@
+{
+  "study_id": "TEP_V18_RELEARNING_R5_v1.0",
+  "runtime": "external-input/adfd34101980/python3.12",
+  "root": "external-input/549bf96f2214/TEP_V18_RELEARNING_R5_v1_0",
+  "tool_id": "TEP_V18_STAGE_B_LEARN_LOCK_v1.0",
+  "work_subdirectory": "learning_stage_b_v1_0",
+  "stage_a_return_sha256": "b28e892201f3e609d996eb74ce7cd64fc9cc9e7e9015edcfa74da2f24c7b008d",
+  "reference_hashes": {
+    "COMPLETED_INDEX.csv": "65107db9f1aac739ce797b10de34771179ba38df7c16c2b78e3517977a3441ac",
+    "FREEZE.json": "fdcd692d39ef61bd939f8f34af1197de81de33135a3c89254c3d1ed5d3241529",
+    "SEED_MANIFEST.json": "6d0c75f8e8f21d77d83be495a8788886de37ea95615a2824a2946ce52cd15b41",
+    "SEED_EXCLUSION.json": "bf231da8ab1a818f65a124afa26a58337c4091428ef4ce04ffd71db3f3c36abb",
+    "EVENTS.jsonl": "cbae7a73d227a505175e2ee2bc3590009873aef82fbe2bac6e2597e7915dff28"
+  },
+  "stage_a_release_manifest_sha256": "0befb68b1fbca396154cfdad53e8926d64b27784bb8890fa731740d8757273a5",
+  "unchanged_scientific_source": {
+    "science.py": "be7879233b9389cf7721bafc0aed35d5d9d531393b886f0234cd6aefafae81fb",
+    "inherited.py": "5f31ee0222027e063bcf309538c680fe62efec02c5cd4634c9c5d2f5f5ae372f",
+    "storage.py": "9a5c7fd73a544e0dff81f0775285b2bd23a76c68cb3ef7d1f15e6fe9cb062700"
+  },
+  "development_total": 4575,
+  "replications": 5,
+  "configurations_per_replication": 27,
+  "faults": [
+    3,
+    9,
+    15
+  ],
+  "no_simulation": true,
+  "no_new_initializations": true,
+  "no_test_generation_or_scoring": true,
+  "minimum_free_disk_bytes": 1073741824
+}

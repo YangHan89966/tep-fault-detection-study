@@ -1,0 +1,15 @@
+Analysis notes retained from the original research documentation.
+Table and section labels in these notes are historical identifiers; the current submitted Data S1 determines final numbering.
+
+DETECTION AND FALSE ALARMS ACROSS THRESHOLDS — ANALYSIS NOTES
+
+
+When the thresholds were chosen post hoc to match a 5% false-alarm rate on the 400 normal confirmation runs, 40 h clean detection was 100.0% versus 26.0% for signed versus squared scores (Fault 3), 68.4% versus 15.4% for second-moment versus mean-shift directions (Fault 15), and 86.5% versus 19.0% for controller-input versus post-update recording with the fixed Fault 9 monitor (SI Table S65). The Fault 15 difference was much smaller within 8 h: 3.6% versus 1.3%, a gain of 2.3 percentage points (pointwise 95% interval 0.0 to 5.2).
+
+
+We varied each frozen monitor’s limit over the ordered 48 h maxima from its separate normal calibration runs (199 on the confirmation panel and recording panel 2; 259 in Validation 2). At each rank we plotted the fraction of fault runs detected cleanly by 8 or 40 h against the observed fraction of normal evaluation runs with any alarm (Figs. S15–S16). A pre-fault alarm disqualifies a run from clean detection, so lowering the limit need not increase this rate. Separately, we chose limits from the normal evaluation maxima to match the observed false-alarm rates (Fig. S17, Table S65); these descriptive comparisons leave the original limits in place. Rates for five-replicate contrasts were computed within replicate and averaged over the five models tested on the same runs.
+
+At matched false-alarm rates of 1%, 5% and 10% on the confirmation panel, the three 40 h detection contrasts retained the ordering reported in Table 4. The fixed Fault 9 monitor also favoured controller-input recording on recording panel 2 (90.8% versus 19.2% at 5%). The separate Validation-2 comparison of second-moment versus mean-shift directions for Fault 9 (C2, signed scores) gave 9.28% versus 6.16% clean detection at 4.8% false alarms (difference 3.12 percentage points; pointwise 95% interval −0.08 to 7.20). At 10.0% the difference was 4.88 points (1.12 to 9.44). These exploratory detection contrasts do not change the result of the prespecified C2 test, which concerned penalized loss at the original limits.
+
+
+Table S65. Clean detection by 8 and 40 h at matched empirical 48 h false-alarm rates near 1%, 5% and 10%. The table reports attained rates and both arms of each contrast. The number of permitted false alarms was rounded down to a whole run; runs tied at the limit were not counted as alarms. Pointwise 95% percentile intervals for differences use 5,000 bootstrap draws, resampling whole normal and fault runs separately, preserving the pairing across arms and training replicates and reselecting the matched limits in each draw. Intervals are conditional on the frozen monitors; for the earlier panels they are descriptive because some random-number streams overlapped.

@@ -1,0 +1,32 @@
+{
+  "version": "S20_v1.0",
+  "source_return": {
+    "filename": "TEP_F15_RISKTIME_20260913T105547Z_157b17a8c6_RETURN.zip",
+    "sha256": "c26e549990a79d5c96b48de3c02e9aaa7966c4e20b4e7dc143ed1958a2369d7c"
+  },
+  "issued_tool": {
+    "filename": "TEP_F15_RiskTime_v1.0.pyz",
+    "sha256": "1c84f15fcea1e061e61e31ceb176914225653f69fdb46d1a5e0f8cd88a5f41e1",
+    "protocol_sha256": "55006fc9f7bb82df9e8fd6b78ec5ad0a0692fa2642479084d277de0f5b70a4b8"
+  },
+  "unchanged_return_members": [
+    "RISK_TIME_ENDPOINTS.csv",
+    "PAIRED_RANK_CONTRASTS.csv",
+    "FAULT_PER_RUN.csv",
+    "NORMAL_PER_RUN.csv",
+    "CLEAN_DETECTION_CURVES.csv",
+    "SCORES_FIXED_F15.npz",
+    "THRESHOLDS_FIXED_BEFORE_TEST.csv",
+    "PROTOCOL_FIXED.json",
+    "BOOTSTRAP_SPEC.json",
+    "SOURCE_MAP.json",
+    "TOOL_IDENTITY.json"
+  ],
+  "frozen_assets": {
+    "reference/assets/INNER.npz": "01a83ee46c0c7a64145e2a60ef371fd85dde98d20eedf74b6527b9b5aa966996",
+    "reference/assets/BASELINE.npz": "492497899d56e34ec40e3823743e51cbc7cb3e46fd3bda6650e4d5f0877f97cf",
+    "reference/assets/SELECTION.json": "b5ba1815ae7a3e972597813ca04003662eb69d1aa38e01e88b0eb4339175a1fd",
+    "reference/assets/OUTER.npz": "f629ed44f0862696707fb158fac6d8d3f6fc751cf03960afa72ef87cb10674c4"
+  },
+  "basis": "Direct copies of source data and frozen assets; no original runner is executed by reaggregate_s20.py."
+}

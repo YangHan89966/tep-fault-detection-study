@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "outputs": [
+    {
+      "file": "ALL_EXTREMA_PER_SPLIT.csv",
+      "bytes": 82893,
+      "sha256": "be0e200d937123360cf33c7436d306864b874861757c18b3ae71f2942324212c",
+      "equal_to_original_results": true
+    },
+    {
+      "file": "FIXED_EXTREMA_SUMMARY.csv",
+      "bytes": 9838,
+      "sha256": "7701d8fcd410e8bb8119735cad42e505d5d89e4c97b5c7fdf92e5bc6918c38e3",
+      "equal_to_original_results": true
+    },
+    {
+      "file": "ORIGINAL_WINNER_METRICS.csv",
+      "bytes": 1450,
+      "sha256": "7de4743c07488faeb633c48d308b7f2f5fb326f3bf261b07707e01e5d14fa62a",
+      "equal_to_original_results": true
+    },
+    {
+      "file": "WITHIN_METRIC_CHOICES.csv",
+      "bytes": 74020,
+      "sha256": "dbb227113da5b63cb31b81b1a1f244e89316439e395b25319d6e2456aad377da",
+      "equal_to_original_results": true
+    },
+    {
+      "file": "WITHIN_METRIC_SUMMARY.csv",
+      "bytes": 5875,
+      "sha256": "bb6de35979c45d5685bf5903b53d73b23671646f56abd60ef0a571976c5307c2",
+      "equal_to_original_results": true
+    }
+  ],
+  "scope": "Saved-candidate extraction with the supplied path-redacted S28 archive; no direction fitting, simulation or new data."
+}

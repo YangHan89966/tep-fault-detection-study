@@ -1,0 +1,329 @@
+{
+  "script": "scripts/22r_reserved_multifault_frozen_validation.py",
+  "script_sha256_at_execution": "229baf6fe69f2ecb47e1d80aaca2f1ffa17754236310ae7351bd44f870d1fd5d",
+  "numerical_repair_only": true,
+  "scientific_protocol_changed": false,
+  "original_step22_script_sha256": "d57a6278fa1d8a79e536d8673dd550b1f06fbf7c3750be1ea1ba974880a714f1",
+  "original_step22_preregistration": "configs\\22_reserved_multifault_frozen_validation_preregistration.json",
+  "repair_description": "LedoitWolf store_precision=False avoids an unused pseudo-inverse; covariance estimation and LDA weights are otherwise unchanged",
+  "preregistration": "configs\\22_reserved_multifault_frozen_validation_repair_preregistration.json",
+  "preregistration_registered_at_utc": "2026-08-19T08:00:49.230078+00:00",
+  "preregistration_verified": true,
+  "step21_script_sha256_verified": "3e4bc3df679fe5e829b831b6108123dab7d5eb77edb1ea82b2824c30fa97428d",
+  "step21_preregistration_verified": true,
+  "step21_reconstruction_all_passed": true,
+  "maximum_absolute_reconstruction_difference": 8.881784197001252e-16,
+  "reserved_faults": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "development_runs": [
+    1,
+    250
+  ],
+  "final_runs": [
+    251,
+    500
+  ],
+  "normal_evaluation_runs": [
+    251,
+    500
+  ],
+  "all_states_frozen_before_any_final_subset": true,
+  "final_used_for_tuning": false,
+  "normal_evaluation_used_for_tuning": false,
+  "companion_loaded": false,
+  "raw_testing_container_materialized": true,
+  "raw_testing_container_caveat": "pyreadr materializes all testing runs in one RData object; final rows are not subsetted until every fault-specific state is frozen",
+  "raw_testing_file": "data\\raw\\TEP_Faulty_Testing.RData",
+  "raw_testing_size_bytes": 836882037,
+  "raw_testing_object": "faulty_testing",
+  "raw_testing_object_names": [
+    "faulty_testing"
+  ],
+  "raw_testing_complete_shape": [
+    9600000,
+    55
+  ],
+  "methods": [
+    {
+      "method_key": "pca_q_cusum",
+      "method": "PCA Q/SPE-CUSUM",
+      "method_short": "Q-CUSUM",
+      "input_key": "pca_q",
+      "tune_k": true,
+      "n_variables": null,
+      "method_class": "global_pca"
+    },
+    {
+      "method_key": "pca_t2_cusum",
+      "method": "PCA Hotelling T2-CUSUM",
+      "method_short": "T2-CUSUM",
+      "input_key": "pca_t2",
+      "tune_k": true,
+      "n_variables": null,
+      "method_class": "global_pca"
+    },
+    {
+      "method_key": "pca_joint_cusum",
+      "method": "PCA joint max-score CUSUM",
+      "method_short": "Joint CUSUM",
+      "input_key": "pca_joint",
+      "tune_k": true,
+      "n_variables": null,
+      "method_class": "global_pca"
+    },
+    {
+      "method_key": "lda_residual_cusum",
+      "method": "Shrinkage-LDA residual CUSUM",
+      "method_short": "LDA residual",
+      "input_key": "lda_residual",
+      "tune_k": true,
+      "n_variables": 52,
+      "method_class": "dense_supervised"
+    },
+    {
+      "method_key": "chosen_family_all52_cusum",
+      "method": "Chosen-family All-52 residual CUSUM",
+      "method_short": "Family All-52",
+      "input_key": "family_all52",
+      "tune_k": true,
+      "n_variables": 52,
+      "method_class": "same_family_sparsity_control"
+    },
+    {
+      "method_key": "chosen_family_top1_cusum",
+      "method": "Chosen-family Top-1 residual CUSUM",
+      "method_short": "Family Top-1",
+      "input_key": "family_top1",
+      "tune_k": true,
+      "n_variables": 1,
+      "method_class": "same_family_sparsity_control"
+    },
+    {
+      "method_key": "frozen_multievidence_top5_cusum",
+      "method": "Frozen multi-evidence Top-5 residual CUSUM",
+      "method_short": "Proposed Top-5",
+      "input_key": "proposed_top5",
+      "tune_k": false,
+      "fixed_k": 0.05,
+      "n_variables": 5,
+      "method_class": "proposed"
+    }
+  ],
+  "comparator_k_grid": [
+    0.01,
+    0.03,
+    0.05,
+    0.07,
+    0.1,
+    0.2,
+    0.3,
+    0.5
+  ],
+  "proposed_top_k": 5,
+  "proposed_cusum_k": 0.05,
+  "control_limit_percentile": 95,
+  "dependency_hashes": {
+    "11_unpaired_runlevel_screening.py": "261f64589d6dfc2bb0098e8913358a5b5c9785fea84b67556b972d51cd3b0b86",
+    "15_fair_sequential_baselines.py": "27e255613365cc025d497532aea0ef487831704b7baf6ab27c1d2d18cf642042",
+    "18_faults9_15_prespecified_generalization.py": "d0f7b9b3318c93bfd4f64016d994f2f0aa2806f083df7487af44e62a04e65053",
+    "19_multievidence_development_audit.py": "0a19a1c0210669c201d7cbe42c5824aed2a38cb8a08405c68879cc415a30ee6b",
+    "20_frozen_multievidence_validation.py": "499f1a51d11fbe563b833722da67d002c464fb4acf6e4056ca064b42b9f79825",
+    "21_reserved_multifault_development_audit.py": "3e4bc3df679fe5e829b831b6108123dab7d5eb77edb1ea82b2824c30fa97428d",
+    "22_reserved_multifault_frozen_validation.py": "d57a6278fa1d8a79e536d8673dd550b1f06fbf7c3750be1ea1ba974880a714f1"
+  },
+  "step21_configuration": {
+    "script": "scripts/21_reserved_multifault_development_audit.py",
+    "script_sha256_at_execution": "3e4bc3df679fe5e829b831b6108123dab7d5eb77edb1ea82b2824c30fa97428d",
+    "preregistration": "configs\\21_reserved_multifault_preregistration.json",
+    "preregistration_registered_at_utc": "2026-08-19T08:00:47.433426+00:00",
+    "preregistration_verified": true,
+    "development_only": true,
+    "performance_evaluated": false,
+    "normal_evaluation_loaded": false,
+    "faulty_training_companion_loaded": false,
+    "testing_final_rows_subset_or_analyzed": false,
+    "raw_testing_container_materialized": true,
+    "raw_testing_container_caveat": "pyreadr materializes the complete TEP_Faulty_Testing.RData object, but Step 21 only subsets and analyzes runs 1--250",
+    "raw_testing_file": "data\\raw\\TEP_Faulty_Testing.RData",
+    "raw_testing_size_bytes": 836882037,
+    "raw_testing_object": "faulty_testing",
+    "raw_testing_object_names": [
+      "faulty_testing"
+    ],
+    "raw_testing_complete_shape": [
+      9600000,
+      55
+    ],
+    "reserved_faults": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "excluded_development_faults": {
+      "3": "original signed-residual method-development target",
+      "9": "multi-evidence family-development target",
+      "15": "multi-evidence family-development target"
+    },
+    "development_runs": [
+      1,
+      250
+    ],
+    "reserved_final_runs": [
+      251,
+      500
+    ],
+    "screening_samples": [
+      161,
+      320
+    ],
+    "candidate_families": [
+      {
+        "key": "signed_level",
+        "label": "Signed level",
+        "formula": "r(t)",
+        "priority": 1
+      },
+      {
+        "key": "absolute_deviation",
+        "label": "Absolute deviation",
+        "formula": "abs(r(t) - normal_center)",
+        "priority": 2
+      },
+      {
+        "key": "squared_deviation",
+        "label": "Squared deviation",
+        "formula": "(r(t) - normal_center)^2",
+        "priority": 3
+      },
+      {
+        "key": "absolute_increment",
+        "label": "Absolute increment",
+        "formula": "abs(r(t) - r(t-1))",
+        "priority": 4
+      },
+      {
+        "key": "lag1_product",
+        "label": "Lag-1 product",
+        "formula": "(r(t)-normal_center)*(r(t-1)-normal_center)",
+        "priority": 5
+      }
+    ],
+    "candidate_tests_per_fault": 260,
+    "bootstrap_replicates": 2000,
+    "permutation_replicates": 2000,
+    "primary_feature_gate": "two-sided 95% independent-run bootstrap CI excludes zero AND global BH q<=0.05 across all 260 candidates for that fault",
+    "strict_diagnostic": "studentized max-|t| permutation FWER p<=0.05",
+    "family_eligibility": "at least five primary-gate-stable residuals",
+    "family_choice_rule": "among eligible families maximize the median absolute Hedges g of the selected Top-5; break exact ties by the frozen family priority",
+    "top_k": 5,
+    "random_seed": 20260714,
+    "recommended_family_by_fault": {
+      "1": "signed_level",
+      "2": "signed_level",
+      "4": "absolute_deviation",
+      "5": "lag1_product",
+      "6": "absolute_deviation",
+      "7": "signed_level",
+      "8": "absolute_deviation",
+      "10": "absolute_deviation",
+      "11": "absolute_deviation",
+      "12": "absolute_deviation",
+      "13": "absolute_deviation",
+      "14": "absolute_deviation",
+      "16": "absolute_deviation",
+      "17": "signed_level",
+      "18": "signed_level",
+      "19": "absolute_deviation",
+      "20": "absolute_deviation"
+    },
+    "estimable_faults": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "abstained_faults": [],
+    "pca_n_components": 36,
+    "pca_cumulative_explained_variance": 0.9581997268001302,
+    "dependency_hashes": {
+      "18_faults9_15_prespecified_generalization.py": "d0f7b9b3318c93bfd4f64016d994f2f0aa2806f083df7487af44e62a04e65053",
+      "19_multievidence_development_audit.py": "0a19a1c0210669c201d7cbe42c5824aed2a38cb8a08405c68879cc415a30ee6b"
+    },
+    "output_tables": [
+      "results\\tables\\21_reserved_multifault_all_features.csv",
+      "results\\tables\\21_reserved_multifault_selected_features.csv",
+      "results\\tables\\21_reserved_multifault_family_summary.csv",
+      "results\\tables\\21_reserved_multifault_frozen_protocol.csv",
+      "results\\tables\\21_reserved_multifault_data_audit.csv"
+    ],
+    "output_figures": [
+      "results\\figures\\fig21a_reserved_multifault_development_audit.png",
+      "results\\figures\\fig21a_reserved_multifault_development_audit.pdf"
+    ],
+    "next_step_constraint": "Step 22 must verify this script/config and evaluate each frozen estimable branch on runs 251--500 without changing family, Top-5, orientations, K, CUSUM k, or the normal-validation control-limit rule"
+  },
+  "pca_n_components": 36,
+  "pca_cumulative_explained_variance": 0.9581997268001302,
+  "output_tables": [
+    "results\\tables\\22_reserved_multifault_results.csv",
+    "results\\tables\\22_reserved_multifault_crossfault_summary.csv",
+    "results\\tables\\22_reserved_multifault_run_results.csv",
+    "results\\tables\\22_reserved_multifault_k_tuning.csv",
+    "results\\tables\\22_reserved_multifault_method_parameters.csv",
+    "results\\tables\\22_reserved_multifault_local_scalers.csv",
+    "results\\tables\\22_reserved_multifault_lda_weights.csv",
+    "results\\tables\\22_reserved_multifault_validation_run_max.csv",
+    "results\\tables\\22_step21_reconstruction_parity.csv",
+    "results\\tables\\22_reserved_multifault_data_audit.csv"
+  ],
+  "output_figures": [
+    "results\\figures\\fig22a_reserved_final_run_detection.png",
+    "results\\figures\\fig22b_reserved_final_point_detection.png",
+    "results\\figures\\fig22c_proposed_development_final_transfer.png"
+  ],
+  "next_step_constraint": "report every final result; any repeated-split or family-ambiguity analysis must be labelled secondary and may not replace these rows"
+}

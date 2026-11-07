@@ -1,0 +1,17 @@
+Fault,Monitor,Detection floor (%),Normal FAR (%),"Clean detection, 40 h (%)"
+3,"Full-pool monitor: mean-shift pool, Signed","6.32 [4.8, 8.0]",6.32,100.00
+3,"Same direction, Squared (C1 comparator)","4.16 [2.0, 6.4]",4.16,20.48
+3,"Identity-metric restriction, Signed","4.88 [3.6, 6.0]",4.88,97.28
+3,"FDA-CUSUM, Signed","4.96 [3.6, 6.0]",4.96,97.52
+3,Q-CUSUM,"4.48 [4.0, 4.8]",4.88,8.08
+9,"Full-pool monitor: second-moment pool, Signed","5.04 [3.2, 8.0]",5.04,8.72
+9,"Mean-shift pool, Signed (C2 comparator)","6.80 [4.4, 9.6]",6.88,7.60
+9,"Identity-metric restriction, Signed","6.16 [4.0, 8.8]",6.16,5.84
+9,"FDA-CUSUM, Signed","6.08 [5.2, 6.8]",6.08,4.40
+9,Q-CUSUM,"4.48 [4.0, 4.8]",4.88,12.40
+15,"Full-pool monitor: second-moment pool, Squared","4.24 [2.8, 6.0]",4.24,72.88
+15,"Mean-shift pool, Squared (C3 comparator)","6.32 [3.6, 9.6]",6.40,21.36
+15,"Identity-metric restriction, Squared","5.36 [3.6, 6.8]",5.44,65.92
+15,"Variance-ratio reference, Squared","5.52 [3.6, 8.0]",5.60,66.32
+15,"FDA-CUSUM, Signed","6.64 [4.8, 7.6]",6.64,7.52
+15,Q-CUSUM,"4.48 [4.0, 4.8]",4.88,17.60

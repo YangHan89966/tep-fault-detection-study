@@ -1,0 +1,302 @@
+{
+  "original_zip": "TEP_v1.8_Relearning_StageA_v1.0.zip",
+  "sha256": "7d0f0a522043590646455abe142969659a2f35016c8e1df82fb089bd5e676fcf",
+  "members": [
+    {
+      "original_member": "Launch_StageA.ps1",
+      "sha256": "bf3c18e8d186f9a1b1c58d2a1d52320f6120958081ba3ced7c00244e304eb72b",
+      "size_bytes": 2368,
+      "included": true
+    },
+    {
+      "original_member": "PACKAGE_FILES.json",
+      "sha256": "feee5f47d50960972b9969472fb2ffe929bff2eaaf6027a0b88672412ef65718",
+      "size_bytes": 8378,
+      "included": true
+    },
+    {
+      "original_member": "README_CN.txt",
+      "sha256": "1dc014edad4abd89a3051444f94c34f7785b4b8f16db7c0c504065e380080c98",
+      "size_bytes": 4122,
+      "included": true
+    },
+    {
+      "original_member": "Resume_1_Hour.cmd",
+      "sha256": "4754a68f12c8ee8cc54513084a30076ff9bbd70a40927e61ed0b73c0b117dc31",
+      "size_bytes": 436,
+      "included": true
+    },
+    {
+      "original_member": "Resume_4_Hours.cmd",
+      "sha256": "6a0d20332c619b411c9f23a245d0aace72019602d6121f60368e200520b55f85",
+      "size_bytes": 436,
+      "included": true
+    },
+    {
+      "original_member": "Run_30_Min.cmd",
+      "sha256": "2b1da2e7bd8fd15bfd58c7d9b011143f49fafd31b30dcf86369370eb81a7d39b",
+      "size_bytes": 438,
+      "included": true
+    },
+    {
+      "original_member": "Stop_After_Current.cmd",
+      "sha256": "f438d58454f25d16cfe9af3a5fb94bd69c073e3a086948f4ccb2856242dfbd7f",
+      "size_bytes": 335,
+      "included": true
+    },
+    {
+      "original_member": "bootstrap.py",
+      "sha256": "a22bdddb0e1843c6d79011368cbfdb43984aa70b4f4624215d67b386a62a8c72",
+      "size_bytes": 1519,
+      "included": true
+    },
+    {
+      "original_member": "release/LOCAL_BINDING.json",
+      "sha256": "bc2b863940d742f013de8b02dc4e7b3e8675ad1e84d434e7dde992dd053c15ef",
+      "size_bytes": 882,
+      "included": true
+    },
+    {
+      "original_member": "release/RELEASE_MANIFEST.json",
+      "sha256": "0befb68b1fbca396154cfdad53e8926d64b27784bb8890fa731740d8757273a5",
+      "size_bytes": 4921,
+      "included": true
+    },
+    {
+      "original_member": "release/assets/PCA_MODEL_NEWSEED_NORMAL_TRAINING.npz",
+      "sha256": "e8d334f9201d41bb240a46d09925b358a0b38a9a74d5193a7fd9f9b1782d1d33",
+      "size_bytes": 19882,
+      "included": true
+    },
+    {
+      "original_member": "release/assets/PCA_SUMMARY_NEWSEED_NORMAL_TRAINING.json",
+      "sha256": "a6b6c7316db053dd9f7d9f7c178cd6452a627be53ff4260482d510b3695b8b1b",
+      "size_bytes": 3081,
+      "included": true
+    },
+    {
+      "original_member": "release/assets/RESIDUAL_BASIS_NEWSEED_PCA.npy",
+      "sha256": "91967c40bbdaa784fcefcbc0246b7053446522764fe258a0d5a1c8fa187a1405",
+      "size_bytes": 6784,
+      "included": true
+    },
+    {
+      "original_member": "release/code/horizon.py",
+      "sha256": "7b19f1f36ddfaee1ae50bb0cd4ef910f49216bb20a4a377dff4870c7ef29df0c",
+      "size_bytes": 6527,
+      "included": true
+    },
+    {
+      "original_member": "release/code/inherited.py",
+      "sha256": "5f31ee0222027e063bcf309538c680fe62efec02c5cd4634c9c5d2f5f5ae372f",
+      "size_bytes": 15816,
+      "included": true
+    },
+    {
+      "original_member": "release/code/runner_stage_a.py",
+      "sha256": "50d3de2850d572e010d38b17d924a757efcb6928647ee91ece85e54b8678282e",
+      "size_bytes": 25580,
+      "included": true
+    },
+    {
+      "original_member": "release/code/science.py",
+      "sha256": "be7879233b9389cf7721bafc0aed35d5d9d531393b886f0234cd6aefafae81fb",
+      "size_bytes": 7892,
+      "included": true
+    },
+    {
+      "original_member": "release/code/seed_allocation.py",
+      "sha256": "daa6388c37844c85addec1c844c81b6988be686fae828fbefdd5371f3ab1e545",
+      "size_bytes": 7797,
+      "included": true
+    },
+    {
+      "original_member": "release/code/statistics_impl.py",
+      "sha256": "0fee2dc3fe6cb4a1cc6ba621ef51595941b4f66377801157fe875fbf1bec7aab",
+      "size_bytes": 3946,
+      "included": true
+    },
+    {
+      "original_member": "release/code/storage.py",
+      "sha256": "9a5c7fd73a544e0dff81f0775285b2bd23a76c68cb3ef7d1f15e6fe9cb062700",
+      "size_bytes": 5491,
+      "included": true
+    },
+    {
+      "original_member": "release/code/worker.py",
+      "sha256": "41d5a427d19b9ac240b946bfe3d09802d9ba4dd66e516136773680964d3c5172",
+      "size_bytes": 5714,
+      "included": true
+    },
+    {
+      "original_member": "release/protocol/EXPERIMENT_1_RELEARNING_PROTOCOL_v1.0.json",
+      "sha256": "80b621627cbfa4ba077909c7357a1527c3947f3d4aa8f54df0fec6a1e1813027",
+      "size_bytes": 4735,
+      "included": true
+    },
+    {
+      "original_member": "release/protocol/ORIGINAL_DV_PROTOCOL.public.json",
+      "sha256": "2f04d21dd451b10fd355cfd28230d733d46ba32e00f9f509893ebd2bf631244f",
+      "size_bytes": 17047,
+      "included": true
+    },
+    {
+      "original_member": "release/protocol/STAGE_A_OPERATIONS.json",
+      "sha256": "60971d512d1fd970a2c18e85c69d1b2e077e0c68b254baf5163d3b843a402f4e",
+      "size_bytes": 1884,
+      "included": true
+    },
+    {
+      "original_member": "release/provenance/ORIGINAL_DV_SEED_MANIFEST.json",
+      "sha256": "381b84e994bf0fbb141b4c240b2e6228d1e3906b68457197c299c85d035766e1",
+      "size_bytes": 704617,
+      "included": true
+    },
+    {
+      "original_member": "release/provenance/ORIGINAL_DV_SOURCE_MANIFEST.json",
+      "sha256": "06f15a88d770346b2711a4d769a767c4bd3c3ee81df8c3e42a3feabc49525691",
+      "size_bytes": 6794,
+      "included": true
+    },
+    {
+      "original_member": "release/provenance/READINESS.json",
+      "sha256": "7a979c8485159b7efe708c1d3cbd8ca4306a9e3d0ad6cc6e25305d5e31963874",
+      "size_bytes": 5181,
+      "included": true
+    },
+    {
+      "original_member": "release/provenance/UNCHANGED_SCIENTIFIC_SOURCE_CHECK.json",
+      "sha256": "9ec96e8f3961e34aa065c13755782a469fb59855dc47c16da61e3f4c0c75bb13",
+      "size_bytes": 4179,
+      "included": true
+    },
+    {
+      "original_member": "release/provenance/WORKER_CHANGE_FROM_DV.diff",
+      "sha256": "a368fb9b83f4228face64c8a906e90fc0aad26a095833217acf88be1e52ac03b",
+      "size_bytes": 2757,
+      "included": true
+    },
+    {
+      "original_member": "release/simulator_source/LICENSE",
+      "sha256": "70a00a943dd2ef2a1749e694fca4340b588a9c71764e9860d4854e1362a8030d",
+      "size_bytes": 3367,
+      "included": true
+    },
+    {
+      "original_member": "release/simulator_source/README.md",
+      "sha256": "8d94edeb9e182f9e64f40a27fcfa1ead7f38c62d7dd09a76e0ebc0d29998f2c3",
+      "size_bytes": 30296,
+      "included": true
+    },
+    {
+      "original_member": "release/simulator_source/pyproject.toml",
+      "sha256": "0b09addcdc4f39ce109b968113ce51901da05b9a52058c5e7c8c73e43f18b8bb",
+      "size_bytes": 1686,
+      "included": true
+    },
+    {
+      "original_member": "release/simulator_source/src/tep/__init__.py",
+      "sha256": "5d428aa2c5ccd20ca36d1e47a99b4943f2ccf11019156c1101cfdfeb475cee6d",
+      "size_bytes": 4831,
+      "included": true
+    },
+    {
+      "original_member": "release/simulator_source/src/tep/_fortran/__init__.py",
+      "sha256": "2fb5c41960316903596c17b1569b9251e4f3b988c901c6373fe0c02fcf1ae049",
+      "size_bytes": 246,
+      "included": true
+    },
+    {
+      "original_member": "release/simulator_source/src/tep/cli.py",
+      "sha256": "1b054bb06d1df56eb8ada779d721b8083bfc1d24a8a55088a476c74f1783f5c8",
+      "size_bytes": 20482,
+      "included": true
+    },
+    {
+      "original_member": "release/simulator_source/src/tep/constants.py",
+      "sha256": "2ede4740c3016ed54d8bcfa96f0806f1b563b5bb409cac3e38219edbb2dc8773",
+      "size_bytes": 22976,
+      "included": true
+    },
+    {
+      "original_member": "release/simulator_source/src/tep/controller_base.py",
+      "sha256": "4b64e21f837bedb5e584da6dde3809788620318ae226ebde39aa849dc0b0c047",
+      "size_bytes": 12210,
+      "included": true
+    },
+    {
+      "original_member": "release/simulator_source/src/tep/controller_plugins.py",
+      "sha256": "65e217222552ea09dfc857f18c80594e6619d32bd7bd3c3d7fc0ee7161171e81",
+      "size_bytes": 33337,
+      "included": true
+    },
+    {
+      "original_member": "release/simulator_source/src/tep/controllers.py",
+      "sha256": "6443e35e80a3f1e731f7ab75f3a165154c1211eaa037ff6df8e474e6ebcf2df6",
+      "size_bytes": 22048,
+      "included": true
+    },
+    {
+      "original_member": "release/simulator_source/src/tep/dashboard_dash.py",
+      "sha256": "4d1ccd2ae62e64e61b433c43c27f6f14d6e9bfacc267fff019e6e6f4bd6afec2",
+      "size_bytes": 50526,
+      "included": true
+    },
+    {
+      "original_member": "release/simulator_source/src/tep/detector_base.py",
+      "sha256": "fd73d1d7373c2f582c57b2ca59c28f1843d7fcb159e4e12068e2bc10b8085fc5",
+      "size_bytes": 34192,
+      "included": true
+    },
+    {
+      "original_member": "release/simulator_source/src/tep/detector_plugins.py",
+      "sha256": "be7d3c01b54b5c5d86fc079f79fc1b5a90e7116130a00841ef368a014fde787e",
+      "size_bytes": 31325,
+      "included": true
+    },
+    {
+      "original_member": "release/simulator_source/src/tep/fortran_backend.py",
+      "sha256": "a8e6fa320e624be0f381629befb15cdfdb0a6ba5a26e1bed29b03a1f9128141c",
+      "size_bytes": 8816,
+      "included": true
+    },
+    {
+      "original_member": "release/simulator_source/src/tep/python_backend.py",
+      "sha256": "9a85da44436861d4af57cebf4b1c6f27c6cbe2fc216e7343405f9102992dfd8f",
+      "size_bytes": 51371,
+      "included": true
+    },
+    {
+      "original_member": "release/simulator_source/src/tep/simulator.py",
+      "sha256": "a9be40f48f99bf1e772f01c6d3aed34ee84cf0272d6d12b913a8776a2b5342be",
+      "size_bytes": 25086,
+      "included": true
+    },
+    {
+      "original_member": "reports/BUILD_AND_INPUT_READBACK.json",
+      "sha256": "2b5c5424d39ecd2ec1af8341c20e74204a7e69d561e58860f96b68efbcc27463",
+      "size_bytes": 4166,
+      "included": true
+    },
+    {
+      "original_member": "reports/BUILD_NOTES_CN.txt",
+      "sha256": "e1afb205a3dea51f1d925a4bed8865d4ce77dc3b29ac6dbf032b11bf94804307",
+      "size_bytes": 1406,
+      "included": true
+    },
+    {
+      "original_member": "reports/SYNTHETIC_SOFTWARE_TEST_LOG.txt",
+      "sha256": "3f665456bbee5f80f0954e685c50c58bc7eca8e2a951a6a16dbd1bf50b71a0a0",
+      "size_bytes": 3935,
+      "included": true
+    },
+    {
+      "original_member": "tests/test_stage_a.py",
+      "sha256": "f0fe1e584fe8dfeb320d055c5a1ea671053ddebb4519c357d5b9b19237ba1bfa",
+      "size_bytes": 18760,
+      "included": true
+    }
+  ],
+  "executed_in_this_packaging_session": false,
+  "local_path_literals": "Original code/protocol/binding literals preserved; no credentials introduced. Do not invoke historical .cmd launchers as the current export command."
+}

@@ -1,0 +1,9 @@
+﻿monitor,base_recording,source_of_XMEAS17,n_fault,n_normal,clean40,clean8,clean2,fault_prefault,normal_any,mean_loss_min
+"Multivariate covariance chart (MEWMC, lambda=0.01)",Controller-input,Controller-input,120,120,91,23,2,2,12,1347.325
+"Multivariate covariance chart (MEWMC, lambda=0.01)",Controller-input,Post-update,120,120,0,0,0,120,120,2400
+"Multivariate covariance chart (MEWMC, lambda=0.01)",Post-update,Post-update,120,120,11,2,0,1,7,2276.45
+"Multivariate covariance chart (MEWMC, lambda=0.01)",Post-update,Controller-input,120,120,0,0,0,120,120,2400
+"Supervised full-pool monitor (second-moment directions, squared)",Controller-input,Controller-input,120,120,120,41,0,0,6,631.475
+"Supervised full-pool monitor (second-moment directions, squared)",Controller-input,Post-update,120,120,0,0,0,120,120,2400
+"Supervised full-pool monitor (second-moment directions, squared)",Post-update,Post-update,120,120,103,3,0,0,9,1450.075
+"Supervised full-pool monitor (second-moment directions, squared)",Post-update,Controller-input,120,120,105,3,0,0,9,1387.65

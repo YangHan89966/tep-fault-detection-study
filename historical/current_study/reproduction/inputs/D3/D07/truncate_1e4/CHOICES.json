@@ -1,0 +1,107 @@
+{
+  "fault": 9,
+  "split_id": "D07",
+  "variant": "truncate_1e4",
+  "mean_count": 8,
+  "moment_count": 8,
+  "new_labels": [
+    [
+      "unweighted_max"
+    ],
+    [
+      "shrink50_max"
+    ],
+    [
+      "shrink10_max"
+    ],
+    [
+      "raw_max"
+    ],
+    [
+      "unweighted_min"
+    ],
+    [
+      "shrink50_min"
+    ],
+    [
+      "shrink10_min"
+    ],
+    [
+      "raw_min"
+    ]
+  ],
+  "original_axis": 7,
+  "choices": {
+    "fixed_mean_signed": 7,
+    "fixed_mean_squared": 39,
+    "mean_pool_signed": 7,
+    "mean_pool_absolute": 23,
+    "mean_pool_squared": 39,
+    "moment_pool_signed": 10,
+    "moment_pool_absolute": 25,
+    "moment_pool_squared": 40,
+    "mean_pool_three": 7,
+    "moment_pool_three": 10,
+    "mean_pool_three_or_Q": 7,
+    "combined_three": 10,
+    "combined_three_or_Q": 10,
+    "Q_CUSUM": 48
+  },
+  "candidate_names": [
+    "mean_A00__signed",
+    "mean_A01__signed",
+    "mean_A02__signed",
+    "mean_A03__signed",
+    "mean_A04__signed",
+    "mean_A05__signed",
+    "mean_A06__signed",
+    "mean_A07__signed",
+    "moment_A00__signed",
+    "moment_A01__signed",
+    "moment_A02__signed",
+    "moment_A03__signed",
+    "moment_A04__signed",
+    "moment_A05__signed",
+    "moment_A06__signed",
+    "moment_A07__signed",
+    "mean_A00__absolute",
+    "mean_A01__absolute",
+    "mean_A02__absolute",
+    "mean_A03__absolute",
+    "mean_A04__absolute",
+    "mean_A05__absolute",
+    "mean_A06__absolute",
+    "mean_A07__absolute",
+    "moment_A00__absolute",
+    "moment_A01__absolute",
+    "moment_A02__absolute",
+    "moment_A03__absolute",
+    "moment_A04__absolute",
+    "moment_A05__absolute",
+    "moment_A06__absolute",
+    "moment_A07__absolute",
+    "mean_A00__squared",
+    "mean_A01__squared",
+    "mean_A02__squared",
+    "mean_A03__squared",
+    "mean_A04__squared",
+    "mean_A05__squared",
+    "mean_A06__squared",
+    "mean_A07__squared",
+    "moment_A00__squared",
+    "moment_A01__squared",
+    "moment_A02__squared",
+    "moment_A03__squared",
+    "moment_A04__squared",
+    "moment_A05__squared",
+    "moment_A06__squared",
+    "moment_A07__squared",
+    "Q_CUSUM"
+  ],
+  "source_model_sha256": "bd8ba8695a49e6d99cc8da84bf15d11da75b4c3d3028deedd68d839adacc8526",
+  "model_sha256": "02c6ab5424c2b2c95c286c155e200d3d98f35a56820cdea43abcada65a7deda7",
+  "transform_sha256": "8c932e924e1befc8efc4eb7fb5041e89c6db51cb8d2c76ebd6247e0f32d5ae1e",
+  "source_selection_integer_fields_verified": 20625,
+  "utc": "2026-09-06T10:06:05.406653+00:00",
+  "audit_used": false
+}

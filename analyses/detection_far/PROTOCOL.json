@@ -1,0 +1,12 @@
+{
+  "study": "TEP_P1_DETECTION_FAR_CURVES_20261104_v1",
+  "scope": "Post hoc threshold sensitivity from archived charts/scores, no simulation/fitting. Main independent-stream confirmation C1, C3 and separate F9 recording-mode effect. Secondary Validation2 C1/C2/C3 where real threshold-resolvable data are available; panel2 F9 paired recording as corroboration.",
+  "rule": "Strict threshold crossing; normal FAR=max across records1:960>h. Clean40 requires max(1:160)<=h and max(161:960)>h. Clean8 uses records161:321 inclusive. No alarm-state reset at onset.",
+  "calibration_curves": "Use every observed independent outer calibration order statistic from 199 normals (or259 in V2). At each rank, each frozen replicate/arm uses its own calibration threshold; then evaluate actual normal FAR and fault clean detection. Average corresponding rates across the frozen replicates.",
+  "matched_curves": "For integer k permissible false alarms out of N normal evaluation runs, each arm/replicate uses its own (N-k)th ascending evaluation-normal full-run maximum, 0<=k<N; k=N uses floating-point predecessor of minimum. Count strict crossings; report achieved FAR and all ties. No fault outcomes choose thresholds. This is descriptive matching, not independent deployment calibration. No envelope, forced monotonicity, classical ROC AUC or rank interpolation.",
+  "panels": "Keep V2, confirmation and recording panel2 separate. Within a panel average the frozen-replicate rates, not pseudo-independent runs. Per-horizon full grids available; plots focus on 0–15% FAR.",
+  "anchors": "Nominal labels 1%,5%,10%; k=floor(n*alpha), reporting the actual attainable percentage. Tables include both models and their paired differences; original frozen operating points displayed separately.",
+  "uncertainty": "5000 paired run bootstrap replicates for matched anchors. Resample evaluation-normal and fault trajectories separately with common indices across arms and detector replicates. Re-estimate all matched thresholds in every resample; average comparison of the same frozen replicates. Pointwise, conditional on fitted monitors; legacy shared random-stream intervals descriptive only. Tied bootstrap sample may produce achieved FAR below target.",
+  "created_utc": "2026-11-04T01:18:23.965426+00:00",
+  "stage": "Scope specified after seeing published original operating points; before computing new curves. Not externally preregistered."
+}

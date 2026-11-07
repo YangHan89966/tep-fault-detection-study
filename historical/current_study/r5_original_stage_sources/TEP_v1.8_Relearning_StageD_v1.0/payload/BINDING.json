@@ -1,0 +1,27 @@
+{
+  "all_models_lock_sha256": "c2d16bdb075c269a5ac268121208faa4e6f02707a5be20e8f382b4f596af966f",
+  "panel_completion_sha256": "6005cbd097130300b153b0fc07e2bc4f84c7d8ca275307f2aabc762d522914db",
+  "pca_sha256": "e8d334f9201d41bb240a46d09925b358a0b38a9a74d5193a7fd9f9b1782d1d33",
+  "residual_basis_sha256": "91967c40bbdaa784fcefcbc0246b7053446522764fe258a0d5a1c8fa187a1405",
+  "root": "external-input/549bf96f2214/TEP_V18_RELEARNING_R5_v1_0",
+  "runtime": "external-input/adfd34101980/python3.12",
+  "scientific_sources": {
+    "inherited.py": "5f31ee0222027e063bcf309538c680fe62efec02c5cd4634c9c5d2f5f5ae372f",
+    "science.py": "be7879233b9389cf7721bafc0aed35d5d9d531393b886f0234cd6aefafae81fb",
+    "storage.py": "9a5c7fd73a544e0dff81f0775285b2bd23a76c68cb3ef7d1f15e6fe9cb062700"
+  },
+  "stage_a_control_hashes": {
+    "EVENTS.jsonl": "cbae7a73d227a505175e2ee2bc3590009873aef82fbe2bac6e2597e7915dff28",
+    "FREEZE.json": "fdcd692d39ef61bd939f8f34af1197de81de33135a3c89254c3d1ed5d3241529",
+    "SEED_EXCLUSION.json": "bf231da8ab1a818f65a124afa26a58337c4091428ef4ce04ffd71db3f3c36abb",
+    "SEED_MANIFEST.json": "6d0c75f8e8f21d77d83be495a8788886de37ea95615a2824a2946ce52cd15b41"
+  },
+  "stage_a_release_manifest_sha256": "0befb68b1fbca396154cfdad53e8926d64b27784bb8890fa731740d8757273a5",
+  "stage_b_subdirectory": "learning_stage_b_v1_0",
+  "stage_c_return_sha256": "fff44ed1d5dc349914144acf0ba7740159d30ab645265214db47fcf055b3c3cf",
+  "stage_c_subdirectory": "test_stage_c_v1_0",
+  "study_id": "TEP_V18_RELEARNING_R5_v1.0",
+  "test_completed_index_sha256": "c3956c5a2186c2cd294c2336352db0608e665da6015bd992e8797eaaa881fa3e",
+  "tool_id": "TEP_V18_STAGE_D_FIXED_MODEL_EVALUATION_v1.0",
+  "work_subdirectory": "evaluation_stage_d_v1_0"
+}

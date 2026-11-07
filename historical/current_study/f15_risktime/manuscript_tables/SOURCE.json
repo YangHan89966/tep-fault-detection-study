@@ -1,0 +1,11 @@
+{
+  "source_filename": "TEP_SI_v1.7.3_CILS.docx",
+  "source_sha256": "a3853d2a239251fdb7eba0a1f8fe16b5af75501e04ab098003736a29d97eb678",
+  "version": "1.7.3",
+  "section": "S20",
+  "table_names": [
+    "S48",
+    "S49"
+  ],
+  "method": "Text of Word table cells exported in document order; full precision is in results CSVs."
+}

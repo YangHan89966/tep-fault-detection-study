@@ -1,0 +1,10 @@
+fault_id,case_role,method_key,method_short,method_role,normal_far_pct,run_detection_pct,detected_runs,n_runs,threshold_occupancy_pct,median_detected_run_delay_min,source_dataset,top5_family
+3,Original signed-level mechanism-development case,pca_q_cusum,Q-CUSUM,Global PCA-CUSUM,5.6000000000000005,13.200000000000001,33,250,2.852,1851.0,Fault 3 frozen final runs 251-500,
+3,Original signed-level mechanism-development case,lda_residual_cusum,LDA residual,Dense supervised residual,8.0,100.0,250,250,95.10849999999999,96.0,Fault 3 frozen final runs 251-500,
+3,Original signed-level mechanism-development case,top5,Frozen Top-5,Frozen sparse branch,3.2,100.0,250,250,89.1065,231.0,Fault 3 frozen final runs 251-500,signed level
+9,Five-family representation-development case,pca_q_cusum,Q-CUSUM,Global PCA-CUSUM,4.8,16.8,42,250,3.4764999999999997,1881.0,Frozen final runs 251-500,
+9,Five-family representation-development case,lda_residual_cusum,LDA residual,Dense supervised residual,6.800000000000001,100.0,250,250,15.9605,340.5,Frozen final runs 251-500,
+9,Five-family representation-development case,top5,Frozen Top-5,Frozen sparse branch,5.6000000000000005,78.4,196,250,28.904999999999998,1129.5,Frozen final runs 251-500,lag-1 product
+15,Five-family representation-development case,pca_q_cusum,Q-CUSUM,Global PCA-CUSUM,6.4,19.2,48,250,4.5969999999999995,1762.5,Frozen final runs 251-500,
+15,Five-family representation-development case,lda_residual_cusum,LDA residual,Dense supervised residual,5.2,6.0,15,250,1.0614999999999999,1761.0,Frozen final runs 251-500,
+15,Five-family representation-development case,top5,Frozen Top-5,Frozen sparse branch,3.5999999999999996,87.2,218,250,38.285000000000004,1092.0,Frozen final runs 251-500,squared deviation

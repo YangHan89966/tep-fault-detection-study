@@ -1,0 +1,98 @@
+{
+  "id": "TEP_F15_RISK_TIME_POSTFREEZE_v1.0",
+  "status": "DESIGN_FIXED_BEFORE_THIS_ANALYSIS_EXECUTION_NOT_PREREGISTERED",
+  "nature": "Post-outcome exploratory fixed-state threshold sensitivity; the original DV and k-sensitivity outcomes were already known.",
+  "fault": 15,
+  "methods": [
+    "mean_pool_squared",
+    "moment_pool_squared"
+  ],
+  "fixed_k": 0.05,
+  "frozen": [
+    "PCA",
+    "normal centering/whitening",
+    "directions",
+    "expression/scalers",
+    "candidate identities",
+    "anchors",
+    "normal outer-calibration sample"
+  ],
+  "threshold_rank_grid": [
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259
+  ],
+  "normal_outer_n": 259,
+  "baseline_rank": 247,
+  "rank_selection": "Every integer rank 234 through 259, inclusive; no point selected using evaluation outcomes.",
+  "threshold_formula": "anchor * sorted(original_outer_peak / anchor)[rank-1]; strict score > threshold",
+  "rank_reference_probability": "(260-rank)/260; an ideal continuous exchangeable marginal reference, not an equal realized or true FAR guarantee.",
+  "test_runs": {
+    "normal_shared": 250,
+    "fault15": 250
+  },
+  "read_runs": {
+    "normal_anchor": 32,
+    "normal_outer_calibration": 259,
+    "normal_evaluation": 250,
+    "fault_evaluation_F15": 250
+  },
+  "normal_FAR_horizon": "All 960 records (48 hours), exactly as original DV.",
+  "fault_onset_sample_1based": 161,
+  "fault_records": 800,
+  "postfault_horizons_minutes": [
+    60,
+    120,
+    480,
+    2400
+  ],
+  "clean_detection": "No alarm in first160 records AND a postfault alarm by the indicated horizon; all250 runs retained.",
+  "horizon_losses": "For H in {120,480,2400}, loss=first_postfault_delay if clean and delay<=H, else H. Original DV primary loss is H=2400.",
+  "normalization_warning": "H is a finite-window scoring convention, not a measured industrial economic cost.",
+  "intervals": {
+    "rates": "two-sided marginal95% Clopper-Pearson conditional on frozen state and independent Bernoulli runs",
+    "contrasts": "20000 paired whole-run percentile bootstrap; moment minus mean at each common calibration rank; common schedule across ranks; distinct schedules for normal and fault roles.",
+    "bootstrap_generator": "NumPy PCG64; seed=first8bytes(SHA256(protocol_id + | + role)), big endian",
+    "confidence_level": 0.95,
+    "simultaneous": false,
+    "refit": false,
+    "degenerate_warning": true
+  },
+  "no_interpolation_or_matching": "No empirical-FAR threshold selection, interpolation or equivalence claim. Same rank is not same true FAR.",
+  "report_all": "All26 ranks,52 method-rank rows, adverse outcomes, per-run events and full curves.",
+  "execution_order": [
+    "Verify assets and input identities",
+    "Replay anchors and outer peaks",
+    "Write all52 thresholds BEFORE reading either test role",
+    "Replay normal/fault test scores and require original rank247 bitmaps exact",
+    "Compute all risk-time results",
+    "Recheck input files and create return archive"
+  ],
+  "abort": "Any integrity, shape, baseline or numeric failure stops; never repair original files or retune to pass.",
+  "source_snapshot_sha256": "03fca7d899754eeb4845a4794915be5f9f4b1229fc88a29dbc6502a635a147d2",
+  "known_public_raw_zip_sha256": "59312d0c47b418670995661c27389a75bca18a081e5e8d527470ea8ad0709c09",
+  "outputs": "New unique output directory only. No simulation, training, installations, network, Git/Zenodo changes or original replacement."
+}

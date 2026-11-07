@@ -1,0 +1,29 @@
+{
+  "n_chart_arrays": 800,
+  "run_arm_rows_checked": 12000,
+  "calibration_estimates_per_arm": 199,
+  "source_archives": [
+    {
+      "file": "TEP_P1_Normal_Evaluation_Data_v1_20261026.zip",
+      "sha256": "5b61386a96e5709b1cd1de52aaac3c0f63d906543bbf80e21abae1e13947dbf9",
+      "charts_checked": 400
+    },
+    {
+      "file": "TEP_P1_Fault03_Data_v1_20261026.zip",
+      "sha256": "f76144ce492a084d5a440c442a8373af60af6aaff086ecd2f184c444c4469940",
+      "charts_checked": 200
+    },
+    {
+      "file": "TEP_P1_Fault15_Data_v1_20261026.zip",
+      "sha256": "cbcd59c3768f7a04e774fbcba0224df9a6095e887e68de6e48093cac9a0f6f7d",
+      "charts_checked": 200
+    }
+  ],
+  "chart_shape": [
+    960,
+    22
+  ],
+  "calibration_maxima_sha256": "147b2a58e018b6a257286de6e997c66aadf4bd406d6517914b83f5664ffe2b7e",
+  "original_alarms_replayed": true,
+  "rule": "Strict > h; all trajectories reset at beginning only; early post window records 161 through321 inclusive."
+}

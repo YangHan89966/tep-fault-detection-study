@@ -1,0 +1,24 @@
+{
+  "previous_stream_study": "TEP_P1_INDEPENDENT_STREAM_CONFIRMATION_20261023_V1",
+  "previous_manifest_sha256": "0388636ba6a83458d78b0c8c58f69d092591905641967d6147769ebc3f5f641a",
+  "simulation_archive": "TEP_P1_Independent_Stream_Complete_Results_20261024_recovered_v2.zip",
+  "simulation_archive_sha256": "923851b6196f0aa5b79cb977a67d56ded778ac472402aec691ea4b9e1bdadebd",
+  "rng_engine_sha256": "d1d218e847152d08e7cf6c9299b48e98c7738cd491c781ea3123df9315ef6450",
+  "original_learning_sources": {
+    "implementation": "Clean archived rank-continuation v1.1; original B and 78-normal-fitting algorithm, with new recording-specific PCA refits requested for the new protocol. Archived PCA is for historical QA only.",
+    "source_archive_sha256": "4e88f9affa1be553107b47aadb7117a140c048398b757c362acf69a9fa09bfdb",
+    "source_archive": "TEP_F9_Relearning_Rank_Continuation_v1_1_20261007.zip",
+    "files": {
+      "vendor/common.py": "63dba4e34c7028726317f128cc2e4541f81944485ba8fd434372988a59d1f911",
+      "vendor/relearning_core.py": "b4c326591e5e96b4047bb4533e65686a514f2d44c9460bb81c5cf945a7053686",
+      "vendor/normal_support.py": "546d1d484b073a14ec8666489c175b6d716191a980dc1f49a7e75ef6da5f59d8",
+      "vendor/inherited_dim.py": "12f87f95b45573e4a64cf1f006ce034bc8abec6b19208aabacfb242163e0dafd",
+      "vendor/existing_data.py": "a00c5c0247ec084e26174a6d3713a6b1e7ba1945a438cd16e412ae1188030324",
+      "assets/PCA_BY_VIEW.npz": "851e753ef45fe397e246270fe6634e49c4a4c3980b81f89caf762b8e338eb015",
+      "assets/HISTORICAL_PROTOCOL.json": "264dfb33d9f77e7159a686997768fcca2b042cde6cbb22187a694f46ddf222af",
+      "vendor/standard_core.py": "54988ed7dc133af78a2326fb2b40a9f66f2ea6fc11702460bae220cb9b73d69a"
+    },
+    "pca_fit_source_archive": "TEP_F9_Standard_Recording_Comparison_v1_20261006.zip",
+    "pca_fit_source_archive_sha256": "43b85ced200558715772e1b0c0fa6a9c4a2e5c3d4e3129c2fca86a2abb0ac41f"
+  }
+}

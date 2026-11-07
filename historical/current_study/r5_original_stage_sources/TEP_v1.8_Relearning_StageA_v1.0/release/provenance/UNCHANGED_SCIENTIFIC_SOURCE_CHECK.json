@@ -1,0 +1,126 @@
+{
+  "status": "ALL_RETAINED_MEMBERS_MATCH_ORIGINAL_DV_SOURCE_MANIFEST",
+  "count": 24,
+  "entries": [
+    {
+      "path": "assets/PCA_MODEL_NEWSEED_NORMAL_TRAINING.npz",
+      "sha256": "e8d334f9201d41bb240a46d09925b358a0b38a9a74d5193a7fd9f9b1782d1d33",
+      "bytes": 19882
+    },
+    {
+      "path": "assets/PCA_SUMMARY_NEWSEED_NORMAL_TRAINING.json",
+      "sha256": "a6b6c7316db053dd9f7d9f7c178cd6452a627be53ff4260482d510b3695b8b1b",
+      "bytes": 3081
+    },
+    {
+      "path": "assets/RESIDUAL_BASIS_NEWSEED_PCA.npy",
+      "sha256": "91967c40bbdaa784fcefcbc0246b7053446522764fe258a0d5a1c8fa187a1405",
+      "bytes": 6784
+    },
+    {
+      "path": "code/horizon.py",
+      "sha256": "7b19f1f36ddfaee1ae50bb0cd4ef910f49216bb20a4a377dff4870c7ef29df0c",
+      "bytes": 6527
+    },
+    {
+      "path": "code/inherited.py",
+      "sha256": "5f31ee0222027e063bcf309538c680fe62efec02c5cd4634c9c5d2f5f5ae372f",
+      "bytes": 15816
+    },
+    {
+      "path": "code/science.py",
+      "sha256": "be7879233b9389cf7721bafc0aed35d5d9d531393b886f0234cd6aefafae81fb",
+      "bytes": 7892
+    },
+    {
+      "path": "code/statistics_impl.py",
+      "sha256": "0fee2dc3fe6cb4a1cc6ba621ef51595941b4f66377801157fe875fbf1bec7aab",
+      "bytes": 3946
+    },
+    {
+      "path": "code/storage.py",
+      "sha256": "9a5c7fd73a544e0dff81f0775285b2bd23a76c68cb3ef7d1f15e6fe9cb062700",
+      "bytes": 5491
+    },
+    {
+      "path": "simulator_source/LICENSE",
+      "sha256": "70a00a943dd2ef2a1749e694fca4340b588a9c71764e9860d4854e1362a8030d",
+      "bytes": 3367
+    },
+    {
+      "path": "simulator_source/README.md",
+      "sha256": "8d94edeb9e182f9e64f40a27fcfa1ead7f38c62d7dd09a76e0ebc0d29998f2c3",
+      "bytes": 30296
+    },
+    {
+      "path": "simulator_source/pyproject.toml",
+      "sha256": "0b09addcdc4f39ce109b968113ce51901da05b9a52058c5e7c8c73e43f18b8bb",
+      "bytes": 1686
+    },
+    {
+      "path": "simulator_source/src/tep/__init__.py",
+      "sha256": "5d428aa2c5ccd20ca36d1e47a99b4943f2ccf11019156c1101cfdfeb475cee6d",
+      "bytes": 4831
+    },
+    {
+      "path": "simulator_source/src/tep/_fortran/__init__.py",
+      "sha256": "2fb5c41960316903596c17b1569b9251e4f3b988c901c6373fe0c02fcf1ae049",
+      "bytes": 246
+    },
+    {
+      "path": "simulator_source/src/tep/cli.py",
+      "sha256": "1b054bb06d1df56eb8ada779d721b8083bfc1d24a8a55088a476c74f1783f5c8",
+      "bytes": 20482
+    },
+    {
+      "path": "simulator_source/src/tep/constants.py",
+      "sha256": "2ede4740c3016ed54d8bcfa96f0806f1b563b5bb409cac3e38219edbb2dc8773",
+      "bytes": 22976
+    },
+    {
+      "path": "simulator_source/src/tep/controller_base.py",
+      "sha256": "4b64e21f837bedb5e584da6dde3809788620318ae226ebde39aa849dc0b0c047",
+      "bytes": 12210
+    },
+    {
+      "path": "simulator_source/src/tep/controller_plugins.py",
+      "sha256": "65e217222552ea09dfc857f18c80594e6619d32bd7bd3c3d7fc0ee7161171e81",
+      "bytes": 33337
+    },
+    {
+      "path": "simulator_source/src/tep/controllers.py",
+      "sha256": "6443e35e80a3f1e731f7ab75f3a165154c1211eaa037ff6df8e474e6ebcf2df6",
+      "bytes": 22048
+    },
+    {
+      "path": "simulator_source/src/tep/dashboard_dash.py",
+      "sha256": "4d1ccd2ae62e64e61b433c43c27f6f14d6e9bfacc267fff019e6e6f4bd6afec2",
+      "bytes": 50526
+    },
+    {
+      "path": "simulator_source/src/tep/detector_base.py",
+      "sha256": "fd73d1d7373c2f582c57b2ca59c28f1843d7fcb159e4e12068e2bc10b8085fc5",
+      "bytes": 34192
+    },
+    {
+      "path": "simulator_source/src/tep/detector_plugins.py",
+      "sha256": "be7d3c01b54b5c5d86fc079f79fc1b5a90e7116130a00841ef368a014fde787e",
+      "bytes": 31325
+    },
+    {
+      "path": "simulator_source/src/tep/fortran_backend.py",
+      "sha256": "a8e6fa320e624be0f381629befb15cdfdb0a6ba5a26e1bed29b03a1f9128141c",
+      "bytes": 8816
+    },
+    {
+      "path": "simulator_source/src/tep/python_backend.py",
+      "sha256": "9a85da44436861d4af57cebf4b1c6f27c6cbe2fc216e7343405f9102992dfd8f",
+      "bytes": 51371
+    },
+    {
+      "path": "simulator_source/src/tep/simulator.py",
+      "sha256": "a9be40f48f99bf1e772f01c6d3aed34ee84cf0272d6d12b913a8776a2b5342be",
+      "bytes": 25086
+    }
+  ]
+}

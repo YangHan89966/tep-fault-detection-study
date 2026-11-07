@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "scope": "Entirely synthetic data to test file reading, independent per-view PCA fitting, fixed support, axis selection, final-limit formula and complete chart. Not a TEP study or a scientific result.",
+  "source_shape": "384 simulated Gaussian fixture arrays each 960x52, two post-fit scoring fixtures",
+  "pca_components": {
+    "native": 21,
+    "snapshot": 21
+  },
+  "effective_rank": {
+    "native": 31,
+    "snapshot": 29
+  },
+  "n_input_receipts": 384,
+  "compared_chart_values": 7680,
+  "max_abs_vs_original_four_condition_scoring": 0.0,
+  "max_abs_vs_score_batch": 0.0,
+  "original_anchored_190of199_limit_reproduced": true
+}

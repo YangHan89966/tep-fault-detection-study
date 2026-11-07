@@ -1,0 +1,72 @@
+{
+  "study_id": "TEP_P1_F9_PAIRED_RELEARNING_INDEPENDENT_STREAMS_20261104_v1",
+  "status": "COMPLETE",
+  "protocol_sha256": "a8966836eb00a3e21779c3f57ec935e17f1de6ec224a535f77faf578f1f2eb1c",
+  "no_scientific_claim": false,
+  "arms": [
+    "M1",
+    "M2",
+    "M3",
+    "M4"
+  ],
+  "sample": {
+    "normal": 400,
+    "fault": 200,
+    "training_replicates": 5
+  },
+  "bootstrap": {
+    "draws": 20000,
+    "seed": 2026110406,
+    "unit": "physical_run",
+    "order": "normal then fault, separate roles, common draws across monitors and repeats",
+    "type": "pointwise percentile, linear quantiles, conditional on five trained replicates and common 199 calibration runs",
+    "other_endpoints": "supportive; no multiplicity adjustment"
+  },
+  "primary_detection": {
+    "pool": "moment",
+    "arms": "M1-M2",
+    "endpoint": "fault_clean40",
+    "role": "fault",
+    "n_physical": 200,
+    "ci_estimate": 98.2,
+    "post_estimate": 14.6,
+    "ci_minus_post": 83.6,
+    "contrast_unit": "pp",
+    "lower95": 80.6,
+    "upper95": 86.5,
+    "n_positive": 5,
+    "n_zero": 0,
+    "n_negative": 0
+  },
+  "normal_risk": {
+    "pool": "moment",
+    "arms": "M1-M2",
+    "endpoint": "normal_48h_FAR",
+    "role": "normal",
+    "n_physical": 400,
+    "ci_estimate": 3.65,
+    "post_estimate": 6.25,
+    "ci_minus_post": -2.6,
+    "contrast_unit": "pp",
+    "lower95": -4.15,
+    "upper95": -1.0,
+    "n_positive": 0,
+    "n_zero": 1,
+    "n_negative": 4
+  },
+  "decision": {
+    "detection_lower95_gt_0": true,
+    "normal_risk_upper95_le_5pp": true,
+    "supports_gain_without_material_excess_of_normal_alarms": true
+  },
+  "matched_FAR_note": "380th ascending of 400 normal evaluation maxima separately per replicate/monitor; actual counts/ties reported. Post-training descriptive comparison; not an independent limit or alternative primary decision.",
+  "case_order_note": "All arrays aligned to frozen manifest order before resampling; every physical case kept.",
+  "file_sha256": {
+    "PER_RUN.csv": "28a2499a676ec426235dbad3e339b78c3fd29ff37fa80eefdbc33287e8e9e0db",
+    "OPERATING_POINTS.csv": "0cf4fd2996266076ddd9f512db80aa254fd0e396753e5c6adc1b7e5c96906fd2",
+    "PAIRED_CONTRASTS.csv": "3847bb7edddde60c9a6c73f8a58e9db144dfc0e9e4a7e29ff3ba09b31a752f36",
+    "LEAVE_ONE_OUT.csv": "293914c47cae6a76adac3b2552d0d4f8ed7030a79531573846cf8a440fd7d11f",
+    "MATCHED_5PCT.csv": "be35b62efe6042f2441d095d3978f6a06013570854287f981c7c44ceb67ea304",
+    "MATCHED_5PCT_CONTRASTS.csv": "c03b3b3d23418f2af8c93bc748625366a2a49563af92e3006477b531912ef97a"
+  }
+}

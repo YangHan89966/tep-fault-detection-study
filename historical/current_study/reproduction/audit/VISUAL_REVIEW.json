@@ -1,0 +1,27 @@
+{
+  "scope": "AUTHOR_RENDER_AND_PAGE_REVIEW_NOT_EXTERNAL_ACCEPTANCE",
+  "completed_utc": "2026-09-06T18:27:19.995673+00:00",
+  "documents": [
+    {
+      "document": "TEP_Manuscript_Focused_v1.6_Author_Draft.docx",
+      "sha256": "daf6bad13af641036194567be6ff19d6e4d70e57d988996294c60b890a575e80",
+      "pages": 17,
+      "page_image_count": 17,
+      "rendered_pdf_sha256": "d280b8f0dd1d1fdb4dfaad22c483f95767dc15f9fe052402c44c610c1c2f29d8",
+      "text_outside_page": [],
+      "empty_pages": []
+    },
+    {
+      "document": "TEP_Supplementary_Information_Focused_v1.6.docx",
+      "sha256": "c97307d092c59a6853a325665342cf5932e203cc8a5300f29ebef15f9af15a34",
+      "pages": 30,
+      "page_image_count": 30,
+      "rendered_pdf_sha256": "bafcd32e853953e86986050e429d0c3013796584314c65ab5e10888cacbf939e",
+      "text_outside_page": [],
+      "empty_pages": []
+    }
+  ],
+  "pages_visually_reviewed": 47,
+  "review": "All final pages reviewed in the render/inspect iterations. Unchanged pages were matched to reviewed images; changed table continuations and final text pages were reopened. Figure placeholders remain intentional. Repeating headers and row integrity preserved.",
+  "status": "PASS"
+}

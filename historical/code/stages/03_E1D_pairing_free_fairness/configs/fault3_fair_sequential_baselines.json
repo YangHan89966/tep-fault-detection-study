@@ -1,0 +1,92 @@
+{
+  "script": "scripts/15_fair_sequential_baselines.py",
+  "purpose": "Fair global/sequential/supervised comparisons under common run-level calibration",
+  "primary_method_frozen": {
+    "top_k": 5,
+    "cusum_k": 0.05,
+    "selected_variables": [
+      "xmeas_2",
+      "xmeas_21",
+      "xmv_1",
+      "xmv_8",
+      "xmeas_15"
+    ],
+    "selected_signs": [
+      -1,
+      -1,
+      -1,
+      1,
+      1
+    ]
+  },
+  "competitor_k_grid": [
+    0.01,
+    0.03,
+    0.05,
+    0.07,
+    0.1,
+    0.2,
+    0.3,
+    0.5
+  ],
+  "competitor_k_selection_data": "Fault-3 development runs 1-250",
+  "competitor_k_selection_rule": "lexicographic: maximize development run detection, maximize development post-fault point detection, minimize median delay, then prefer k nearest 0.05",
+  "final_test_used_for_k_selection": false,
+  "run_level_control_limit_rule": "95th percentile of normal-validation run maxima for every method",
+  "pca_n_components": 36,
+  "pca_cumulative_explained_variance": 0.9581997268001302,
+  "global_input_transform": "fixed log1p followed by normal-validation standardization",
+  "lda": {
+    "ledoit_wolf_shrinkage": 0.007515373947040176,
+    "n_features": 52,
+    "n_normal_development_runs": 250,
+    "n_fault3_development_runs": 250
+  },
+  "parity_checks": [
+    {
+      "comparison": "Step 15 proposed versus Step 11 primary",
+      "exact_with_tolerance_1e-12": true,
+      "differences": {
+        "normal_run_level_far": 0.0,
+        "fault3_run_level_detection_rate": 0.0,
+        "fault3_post_fault_point_detection_rate": 0.0,
+        "median_alarm_delay_min": 0.0
+      }
+    },
+    {
+      "comparison": "Step 15 all-52 k=0.05 versus Step 12",
+      "exact_with_tolerance_1e-12": true,
+      "differences": {
+        "normal_run_level_far": 0.0,
+        "fault3_run_level_detection_rate": 0.0,
+        "fault3_post_fault_point_detection_rate": 0.0,
+        "median_alarm_delay_min": 0.0
+      }
+    },
+    {
+      "comparison": "Step 15 Top-1 k=0.05 versus Step 13 Top-1",
+      "exact_with_tolerance_1e-12": true,
+      "differences": {
+        "normal_run_level_far": 0.0,
+        "fault3_run_level_detection_rate": 0.0,
+        "fault3_post_fault_point_detection_rate": 0.0,
+        "median_alarm_delay_min": 0.0
+      }
+    }
+  ],
+  "output_tables": [
+    "results\\tables\\15_fair_sequential_baseline_results.csv",
+    "results\\tables\\15_fair_baseline_definitions.csv",
+    "results\\tables\\15_cusum_k_development_tuning.csv",
+    "results\\tables\\15_fair_baseline_normal_run_results.csv",
+    "results\\tables\\15_fair_baseline_fault3_run_results.csv",
+    "results\\tables\\15_shrinkage_lda_residual_weights.csv",
+    "results\\tables\\15_scalar_transform_parameters.csv"
+  ],
+  "output_figures": [
+    "results\\figures\\fig15a_fair_baseline_rates.png",
+    "results\\figures\\fig15a_fair_baseline_rates.pdf",
+    "results\\figures\\fig15b_fair_baseline_delays.png",
+    "results\\figures\\fig15b_fair_baseline_delays.pdf"
+  ]
+}

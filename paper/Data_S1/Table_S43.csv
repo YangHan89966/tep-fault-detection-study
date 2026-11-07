@@ -1,0 +1,8 @@
+Endpoint,Paired difference,Marginal 95% bootstrap interval,Higher / equal / lower
+Normal FAR (pp),+2.50,"[−2.50, +8.33]",7 / 109 / 4
+Pre-fault alarm (pp),+0.83,"[0.00, +2.50]",1 / 119 / 0
+Clean detection within 1 h (pp),+0.83,"[0.00, +2.50]",1 / 119 / 0
+Clean detection within 2 h (pp),+1.67,"[0.00, +4.17]",2 / 118 / 0
+Clean detection within 8 h (pp),+32.50,"[+24.17, +40.83]",39 / 81 / 0
+Clean detection within 40 h (pp),+75.00,"[+67.50, +82.50]",90 / 30 / 0
+Mean penalized loss (min),"−1,298.72","[−1,433.10, −1,161.25]",2 / 7 / 111

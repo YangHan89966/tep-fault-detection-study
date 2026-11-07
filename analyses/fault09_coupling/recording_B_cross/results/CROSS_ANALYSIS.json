@@ -1,0 +1,31 @@
+{
+  "status": "COMPLETE",
+  "created_utc": "2026-10-30T06:09:43.680831+00:00",
+  "input_file": "PER_RUN_EVENTS.csv",
+  "input_sha256": "09a4edee0f14329157fe8620c2aba748711e98a9ec83226334236db1db5c8c20",
+  "input_rows": 1920,
+  "arm_count": 8,
+  "role_counts": {
+    "normal_evaluation": 120,
+    "fault9_evaluation": 120
+  },
+  "bootstrap_draws": 20000,
+  "bootstrap_seed": 20261030,
+  "resampling": "Normal and fault case indices drawn separately; same within-role indices for every arm and endpoint",
+  "quantiles": "numpy.quantile([0.025,0.975], method='linear')",
+  "contrasts": 14,
+  "contrast_endpoint_rows": 84,
+  "multiplicity": "Marginal intervals; no familywise adjustment; no hypothesis acceptance rule",
+  "scope": "Post-hoc comparison on the previously analysed recording panel 2. Marginal 95% percentile intervals, conditional on this learned state and realized calibration; they do not include learning or calibration variability. Whole-trajectory paired resampling preserves within-trajectory dependence and arm pairing but does not resolve dependence between trajectories caused by shared random-stream segments. No independent-confirmation claim.",
+  "input_unchanged": true,
+  "versions": {
+    "python": "3.12.3",
+    "numpy": "1.26.4"
+  },
+  "output_sha256": {
+    "CROSS_SUMMARY.csv": "f22c279f616eb579612d332b0e75d3af9ef1c75d6879f26bcddb0de2992f4477",
+    "CROSS_CONTRASTS.csv": "22234988519be6ab4a802ec6401bd14b738a718fc1c5c93b505db772d966ccca",
+    "CROSS_CONTRAST_DEFINITIONS.json": "c82575ac7faf90611eb4b11db794dbaee3057a54b69b91c7335889cb121eb812",
+    "CROSS_BOOTSTRAP_INDICES.npz": "cb82786afc3830b29dc3c6549e3d63077f3073e986fa484d169f845e04e2b3b1"
+  }
+}

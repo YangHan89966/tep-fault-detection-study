@@ -1,0 +1,4 @@
+loss_count,worst_detection_fault,worst_detection_pct,worst_detection_combo,worst_occupancy_fault,worst_occupancy_pct,worst_delay_fault,worst_delay_min
+1,1,100.0,xmeas_18,18,55.900000000000006,10,186.0
+2,1,100.0,xmeas_21;xmeas_18,18,53.823,10,318.0
+3,16,95.6,xmv_9;xmeas_19;xmeas_18,16,37.8745,16,1398.0

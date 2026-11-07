@@ -1,0 +1,4 @@
+variant,improved,same,worsened
+baseline,98,92,10
+ridge_1e4,103,88,9
+truncate_1e4,102,88,10

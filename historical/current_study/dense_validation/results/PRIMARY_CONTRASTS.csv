@@ -1,0 +1,4 @@
+contrast,fault,a,b,mean_loss_difference_minutes,marginal95_lower,marginal95_upper,bonferroni98_333_lower,bonferroni98_333_upper,status,normal_FAR_difference_pp,normal_FAR_difference95_lower_pp,normal_FAR_difference95_upper_pp,normal_FAR_equivalence_claimed,training_refit,draws
+C1_F3_EXPRESSION,3,same_mean_signed_axis_squared,mean_pool_signed,1783.116,1738.1634,1825.5131999999999,1727.4116999999999,1834.5047000000002,SUPPORTS_PREDICTED_LOSS_DIRECTION,1.2,-2.0,4.4,False,False,20000
+C2_F9_DIRECTION,9,moment_pool_signed,mean_pool_signed,12.24,-18.5043,42.936,-26.0207,49.34050000000003,INCONCLUSIVE_LOSS_CONTRAST,-1.2,-4.8,2.4,False,False,20000
+C3_F15_DIRECTION,15,moment_pool_squared,mean_pool_squared,-948.336,-1029.7683,-865.8837000000001,-1048.0961,-846.4191,SUPPORTS_PREDICTED_LOSS_DIRECTION,4.8,0.8,8.8,False,False,20000

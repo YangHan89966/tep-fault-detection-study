@@ -1,0 +1,66 @@
+{
+  "scope": "Publication utilities: current saved-result reaggregation plus synthetic software checks, not new TEP simulation or external scientific review.",
+  "saved_result_reaggregation": {
+    "alarm_mask_bits_checked": 12960000,
+    "event_array_fields_from_masks": 47250,
+    "event_CSV_integer_fields": 47250,
+    "endpoint_numeric_fields": 918,
+    "binomial_interval_max_abs_error_pp": 9.681144774731365e-14,
+    "fixed_bootstrap_draw_elements_equal": 120000,
+    "record_phase_numeric_cells": 27000,
+    "same_Q_normal_outcomes_all_three_faults": true,
+    "no_candidate_rescoring_or_refitting": true
+  },
+  "saved_result_status": "PASS_SAVED_RESULTS_ONLY",
+  "unit_tests_passed": 16,
+  "raw_replay_full_synthetic_test": {
+    "alarm_bits_compared": 12960000,
+    "archive_entries": 5747,
+    "event_fields_compared": 47250,
+    "faults": [
+      {
+        "alarm_bits": "EXACT_MATCH",
+        "fault": 3,
+        "fault_runs": 250,
+        "methods": 9,
+        "normal_runs_shared": 250
+      },
+      {
+        "alarm_bits": "EXACT_MATCH",
+        "fault": 9,
+        "fault_runs": 250,
+        "methods": 9,
+        "normal_runs_shared": 250
+      },
+      {
+        "alarm_bits": "EXACT_MATCH",
+        "fault": 15,
+        "fault_runs": 250,
+        "methods": 9,
+        "normal_runs_shared": 250
+      }
+    ],
+    "not_new_TEP_results": true,
+    "numpy": "2.3.5",
+    "python": "3.13.5",
+    "raw_runs_validated": 1915,
+    "raw_to_score": true,
+    "recalibration": false,
+    "refit": false,
+    "scope": "Frozen raw test scoring only; not simulator validation or repeated whole-training study.",
+    "simulation": false,
+    "source_environment": "Python3.12.3 / NumPy2.2.6",
+    "status": "PASS_FROZEN_RAW_TO_SCORE",
+    "test_basis": "SYNTHETIC_INPUTS_ONLY_NO_SIMULATION",
+    "test_runs_scored": 1000
+  },
+  "actual_local_raw_export": "NOT_RUN_IN_BUILD_CONTAINER",
+  "actual_raw_to_score_replay": "NOT_RUN_RAW_FILES_NOT_AVAILABLE",
+  "no_simulation": true,
+  "original_model_and_result_bytes_preserved": true,
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  }
+}

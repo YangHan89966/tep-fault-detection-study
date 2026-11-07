@@ -1,0 +1,25 @@
+{
+  "release_date": "2026-11-07",
+  "source_archive": "RUST_EXTERNAL_DRIVER_EVIDENCE.zip",
+  "source_archive_sha256": "e0b099453c4ef835f06417514bb4476caf48dcbc30384a96d46610a638db4bcd",
+  "changes": [
+    {
+      "path": "MANUSCRIPT_PATCH_EN.txt",
+      "action": "editorial_directions_removed_scientific_text_retained_as_analysis_notes",
+      "original_sha256": "ee6586804bedcb8db7ed15daba5d19542f278143f4beb9d59a641bb96ee0b8e0",
+      "public_path": "ANALYSIS_NOTES_EN.txt",
+      "public_sha256": "8e8fc94224876b41e1b9501d722f7309090f20a6eac7d070355e83ba21d0a9e7"
+    },
+    {
+      "path": "README.txt",
+      "action": "documentation_revised",
+      "original_sha256": "7fdcdc6b0403dfb1fb9b9d1d2c6db983aaf33698a0eb98ee3c5b58fd0913bdca",
+      "public_sha256": "941649cc1fa94b585ca6a7f69ff6c42b611b628a6a664ddbfe185d7b2b72ee61"
+    }
+  ],
+  "all_non_document_members_byte_identical": true,
+  "preserved_original_member_count": 25,
+  "original_member_count": 27,
+  "code_lock_verification": null,
+  "original_manifests": "Original manifests are preserved byte-for-byte as historical source records. They describe the original archive. Documentation-only differences and omissions are listed here; use PUBLIC_SHA256SUMS.txt for this public derivative."
+}

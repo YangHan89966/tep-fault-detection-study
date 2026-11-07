@@ -1,0 +1,68 @@
+{
+  "script": "scripts/23_postfreeze_statistical_synthesis.py",
+  "script_sha256_at_execution": "ff0dca92231cd1084b4f1482e226d44e4750b03611db55a7635cf7d3dead56cd",
+  "specification": "configs\\23_postfreeze_analysis_specification.json",
+  "specification_registered_at_utc": "2026-08-19T11:13:46.373139+00:00",
+  "specification_verified": true,
+  "input_sha256_verified": {
+    "step15_results": "6e8c073471cc3a4bc85b138adf00c90fa7c155ce67fcbd9a89c089c4a70e32ed",
+    "step20_comparison": "eab39c7ddd8deab250f3a71476d69970730d105765a1c89b6082f209cbaa4d1e",
+    "step21_all_features": "d0dbfa68f017c9bbb8029ac75fb61e1d2c2750226c0c5fb0554254ac21921466",
+    "step21_family_summary": "260842bf55ec19458354d1f751bd26f848e974b8140b83a7d89fc391920879af",
+    "step21_protocol": "764ab3ed6bd364a92ccfe562746e6bf3025bac965e3572c58ee1c2ac0891acc6",
+    "step22_results": "dba76d9fa2d52785f60307ed83ddd0161e92510ce97059c9932a6b5e0817715f",
+    "step22_run_results": "cb141426568b07e7ce8008f6595968dd340034e862ea7bc24b9b7ae6215008a9",
+    "step22_config": "02301f6292c471db81fb38d66b85f0ec54873fc5d05953876bdf815fbd56e914"
+  },
+  "analysis_status": "post-freeze secondary synthesis",
+  "process_data_loaded": false,
+  "detector_fitting_performed": false,
+  "selection_or_tuning_performed": false,
+  "performance_rows_changed_or_recomputed": false,
+  "primary_reserved_faults": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "method_development_cases_not_pooled": [
+    3,
+    9,
+    15
+  ],
+  "bootstrap_replicates": 20000,
+  "random_seed": 20260715,
+  "multiplicity": "Holm within endpoint",
+  "output_tables": [
+    "results\\tables\\23_reserved_primary_summary_with_ci.csv",
+    "results\\tables\\23_reserved_pairwise_statistics.csv",
+    "results\\tables\\23_reserved_run_detection_discordance.csv",
+    "results\\tables\\23_selection_stability_diagnostic.csv",
+    "results\\tables\\23_method_development_case_studies.csv",
+    "results\\tables\\23_reporting_guardrails.csv"
+  ],
+  "output_figures": [
+    "results\\figures\\fig23a_reserved_performance_tradeoffs.png",
+    "results\\figures\\fig23a_reserved_performance_tradeoffs.pdf",
+    "results\\figures\\fig23b_reserved_proposed_by_fault.png",
+    "results\\figures\\fig23b_reserved_proposed_by_fault.pdf",
+    "results\\figures\\fig23c_selection_stability_diagnostic.png",
+    "results\\figures\\fig23c_selection_stability_diagnostic.pdf",
+    "results\\figures\\fig23d_development_final_transfer.png",
+    "results\\figures\\fig23d_development_final_transfer.pdf"
+  ],
+  "next_step_constraint": "Use these tables to rewrite the manuscript without changing frozen performance; any new repeated-split experiment must be labelled secondary and development-only."
+}

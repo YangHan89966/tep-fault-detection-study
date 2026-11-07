@@ -1,0 +1,26 @@
+{
+  "study_id": "TEP_P1_F9_GRADED_NOISE_COUPLING_20261030_v1",
+  "status": "COMPLETE",
+  "packaged_utc": "2026-10-30T07:25:04.956181+00:00",
+  "scientific_scope": "Post-hoc sensitivity analysis on 799 previously analyzed independent-stream trajectories; no new physical scientific sample.",
+  "calibration_cases": 199,
+  "normal_evaluation_cases": 400,
+  "fault9_evaluation_cases": 200,
+  "coupling_arms": 5,
+  "actual_post_update_reference_arms": 1,
+  "frozen_code_files_verified": 61,
+  "all_frozen_hashes_match": true,
+  "independent_numerical_audit": "audit/INDEPENDENT_RESULTS_AUDIT.json",
+  "full_source_capture_checks": [
+    "checks/FULL_48H_NORMAL_SOURCE_CAPTURE.json",
+    "checks/FULL_48H_F09_SOURCE_CAPTURE.json"
+  ],
+  "gate_review": "checks/FINAL_GATE_REVIEW.json",
+  "report_layout_review": {
+    "page_count": 3,
+    "all_pages_rendered_and_visually_checked": true,
+    "overlap_clipping_or_missing_glyphs": false
+  },
+  "raw_source_archives_included": false,
+  "source_archive_identities": "SOURCE_ARCHIVES.json"
+}

@@ -1,0 +1,6 @@
+rank,variable,residual_coordinate,process_description,orientation,sign_for_positive_evidence,hedges_g,bootstrap_ci_low,bootstrap_ci_high,direction_confidence,bootstrap_top5_frequency,window,window_start_sample,window_end_sample,window_n_samples
+1,xmeas_2,res_xmeas_2,D-feed flow,negative,-1,-5.880908002374551,-0.08581638514534412,-0.08083295120187028,1.0,1.0,early_160_primary,161,320,160
+2,xmeas_21,res_xmeas_21,Reactor cooling-water outlet temperature,negative,-1,-5.8611745849155525,-0.16182653525629118,-0.1525785748610363,1.0,1.0,early_160_primary,161,320,160
+3,xmv_1,res_xmv_1,D-feed flow valve,negative,-1,-5.518128902744379,-0.08439503575591302,-0.07921167150881475,1.0,1.0,early_160_primary,161,320,160
+4,xmv_8,res_xmv_8,Stripper liquid product-flow valve,positive,1,2.2037855598155427,0.0008922155856535885,0.0010409460834778536,1.0,1.0,early_160_primary,161,320,160
+5,xmeas_15,res_xmeas_15,Stripper level,positive,1,2.1925888088479066,0.0008866420770549748,0.001034567780057027,1.0,1.0,early_160_primary,161,320,160

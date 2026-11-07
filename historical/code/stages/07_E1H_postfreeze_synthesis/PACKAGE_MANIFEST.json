@@ -1,0 +1,257 @@
+[
+  {
+    "relative_path": "configs/22_reserved_multifault_frozen_validation.json",
+    "size_bytes": 11413,
+    "sha256": "02301f6292c471db81fb38d66b85f0ec54873fc5d05953876bdf815fbd56e914"
+  },
+  {
+    "relative_path": "configs/23_postfreeze_analysis_specification.json",
+    "size_bytes": 4152,
+    "sha256": "c6e626fae68d7d170c8b86bb98173dfcdce8bc6672a950c0906141bb2d6a02c9"
+  },
+  {
+    "relative_path": "configs/23_postfreeze_statistical_synthesis.json",
+    "size_bytes": 2868,
+    "sha256": "58baa82988bedfb993779f73d64db2b0cceffd06dd7e1f66a086defde38de925"
+  },
+  {
+    "relative_path": "configs/23b_postfreeze_sensitivity_analysis.json",
+    "size_bytes": 4617,
+    "sha256": "5cbab3399167f54856085791f8d4de1e1764b87cee5b36143730e0217b65854d"
+  },
+  {
+    "relative_path": "configs/23b_postfreeze_sensitivity_specification.json",
+    "size_bytes": 2667,
+    "sha256": "6fab84eb799b6f60aca05d3afb8a137cb4fe5135f28f660b2b5f6442cbe3aafc"
+  },
+  {
+    "relative_path": "control/E1H_WINDOWS_POSTFREEZE_SYNTHESIS_CONTROLLER_R1.py",
+    "size_bytes": 18619,
+    "sha256": "d49b535ebbbdc460e01b3b33b873ba5d04f2a0d0980025ca2afa85364d0eea9e"
+  },
+  {
+    "relative_path": "control/E1H_WINDOWS_UTF8_STDIO_BOOTSTRAP_R2.py",
+    "size_bytes": 1311,
+    "sha256": "560d8e33f4a951bb5aaafc58172c771eabf07879535f5dd2484635ae4c317706"
+  },
+  {
+    "relative_path": "control/TEP_E1H_POSTFREEZE_SYNTHESIS_RESUME_SUCCESSOR_NONQUAL_R2_20260819.py",
+    "size_bytes": 38679,
+    "sha256": "e2348bee69bfff50b978f044d8d5f4ea623d69b929bb78062609d6126fd43630"
+  },
+  {
+    "relative_path": "control/WINDOWS_DLL_CLOSURE_WRAPPER_R4.py",
+    "size_bytes": 40256,
+    "sha256": "86b29f485b18deeb1a8957c9431a8f67c88406e8434720590b32f09cdcb65221"
+  },
+  {
+    "relative_path": "control/mplconfig/fontlist-v390.json",
+    "size_bytes": 125537,
+    "sha256": "c2daac73bb98f58b53b2f056e671b348604a4bc050a06c371b4a0ff47e2d6b3d"
+  },
+  {
+    "relative_path": "logs/E1H_R2_WINDOWS_STDERR.txt",
+    "size_bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "relative_path": "logs/E1H_R2_WINDOWS_STDOUT.txt",
+    "size_bytes": 13216,
+    "sha256": "dda4293b30578dc4c24e6a9b93e9cb11f1647097ff1d2ae66d0271ccb5441a08"
+  },
+  {
+    "relative_path": "predecessor/E1H_R1_FAILURE.json",
+    "size_bytes": 1255,
+    "sha256": "0833f66f9f1bee134c6a296a49405a567b4dd56c44a44a3908af39cc9da014cd"
+  },
+  {
+    "relative_path": "predecessor/E1H_R1_FAILURE_PACKAGE_MANIFEST.json",
+    "size_bytes": 5535,
+    "sha256": "e16a17783e0fb4d1fb7ea861582fc09d128c8973c8de7d24c93ed318fcc93131"
+  },
+  {
+    "relative_path": "predecessor/E1H_R1_INPUT_LOCK.json",
+    "size_bytes": 8391,
+    "sha256": "f7381e1dc0371178f2eedc1ea313f7ad0599e322a2a5c05a4c5cb7f9dd7d396b"
+  },
+  {
+    "relative_path": "predecessor/E1H_R1_WINDOWS_FAILURE.json",
+    "size_bytes": 1928,
+    "sha256": "6e1d5e1c8342b5d11ca836f97f64ea4fd2f715a1c7868c00981ed383982f14e7"
+  },
+  {
+    "relative_path": "receipts/E1H_R2_INPUT_LOCK.json",
+    "size_bytes": 19217,
+    "sha256": "13471964dd907aaa1678f398b24f5ce1c8fd8a9cd0b0185b028dcabd1807c548"
+  },
+  {
+    "relative_path": "receipts/E1H_R2_RESUME_REPORT.json",
+    "size_bytes": 14292,
+    "sha256": "ef71500c014f7aad50a9f7692ed5a3ad0e8e1d6dc080283b13b243fd7cceae38"
+  },
+  {
+    "relative_path": "receipts/E1H_WINDOWS_POSTFREEZE_SYNTHESIS_RESULT.json",
+    "size_bytes": 287082,
+    "sha256": "83786c2b605026558ceb9defda2e3eda99ae7f45e8ce35c3fb6ee88e499986ce"
+  },
+  {
+    "relative_path": "results/figures/fig23a_reserved_performance_tradeoffs.pdf",
+    "size_bytes": 29826,
+    "sha256": "1a269306dfb3290fe3104b4819c0f7c240ff2625c27a0ce9e3841b5879015e5b"
+  },
+  {
+    "relative_path": "results/figures/fig23a_reserved_performance_tradeoffs.png",
+    "size_bytes": 309574,
+    "sha256": "0653bd0022f9c571dff073ae59faa4394b65336a58d2d568b8b9c2af84180c25"
+  },
+  {
+    "relative_path": "results/figures/fig23b_allrun_delay_sensitivity.pdf",
+    "size_bytes": 16686,
+    "sha256": "9c6a1aeaeb3ce846ac725b0d8bbbbac48ac1f7ea27fa470427522bafbe792684"
+  },
+  {
+    "relative_path": "results/figures/fig23b_allrun_delay_sensitivity.png",
+    "size_bytes": 209248,
+    "sha256": "b673a8b767bf9f76b15887bfb7a72e39cdc713ba7321cc0cfe32be7dd6e85519"
+  },
+  {
+    "relative_path": "results/figures/fig23b_crossed_far_uncertainty.pdf",
+    "size_bytes": 18537,
+    "sha256": "becfd1553d99a36160d69c57b8c0e6df383f30b6c979733b325dff65cbc70e60"
+  },
+  {
+    "relative_path": "results/figures/fig23b_crossed_far_uncertainty.png",
+    "size_bytes": 108703,
+    "sha256": "5bd1c297c92676ebfffdc314b9a183bba42139a1a1f233ff96ff404feac5b2da"
+  },
+  {
+    "relative_path": "results/figures/fig23b_reserved_proposed_by_fault.pdf",
+    "size_bytes": 28963,
+    "sha256": "efac6b044e8d49c900562d788898a75b46d015c75b0df8593038b01987962e28"
+  },
+  {
+    "relative_path": "results/figures/fig23b_reserved_proposed_by_fault.png",
+    "size_bytes": 263187,
+    "sha256": "17e61af4c89d6a9e1a976528a6e3d467c97f26bea3d7337445cb5839af52f20a"
+  },
+  {
+    "relative_path": "results/figures/fig23c_selection_stability_diagnostic.pdf",
+    "size_bytes": 20257,
+    "sha256": "e3f3f55f4729cee53c11904db90e7f18a67a07baeecb5c25bdef7e83a8952e8d"
+  },
+  {
+    "relative_path": "results/figures/fig23c_selection_stability_diagnostic.png",
+    "size_bytes": 234476,
+    "sha256": "5ee265af34c08d1190ae56295e8b8cb5bad1a5e400abb3115269f45bb5f38709"
+  },
+  {
+    "relative_path": "results/figures/fig23d_development_final_transfer.pdf",
+    "size_bytes": 19581,
+    "sha256": "e3949667de688550828e0f43c919a9529e68bc93a5cf9082dce509f91ce81e35"
+  },
+  {
+    "relative_path": "results/figures/fig23d_development_final_transfer.png",
+    "size_bytes": 228749,
+    "sha256": "97cef103a2185ebb7e2e3c2fc88b24b333da5a867a3f61e503ade2fcbe62868f"
+  },
+  {
+    "relative_path": "results/tables/15_fair_sequential_baseline_results.csv",
+    "size_bytes": 4124,
+    "sha256": "6e8c073471cc3a4bc85b138adf00c90fa7c155ce67fcbd9a89c089c4a70e32ed"
+  },
+  {
+    "relative_path": "results/tables/20_frozen_multievidence_comparison.csv",
+    "size_bytes": 4007,
+    "sha256": "eab39c7ddd8deab250f3a71476d69970730d105765a1c89b6082f209cbaa4d1e"
+  },
+  {
+    "relative_path": "results/tables/21_reserved_multifault_all_features.csv",
+    "size_bytes": 1740542,
+    "sha256": "d0dbfa68f017c9bbb8029ac75fb61e1d2c2750226c0c5fb0554254ac21921466"
+  },
+  {
+    "relative_path": "results/tables/21_reserved_multifault_family_summary.csv",
+    "size_bytes": 11622,
+    "sha256": "260842bf55ec19458354d1f751bd26f848e974b8140b83a7d89fc391920879af"
+  },
+  {
+    "relative_path": "results/tables/21_reserved_multifault_frozen_protocol.csv",
+    "size_bytes": 2545,
+    "sha256": "764ab3ed6bd364a92ccfe562746e6bf3025bac965e3572c58ee1c2ac0891acc6"
+  },
+  {
+    "relative_path": "results/tables/22_reserved_multifault_results.csv",
+    "size_bytes": 95721,
+    "sha256": "dba76d9fa2d52785f60307ed83ddd0161e92510ce97059c9932a6b5e0817715f"
+  },
+  {
+    "relative_path": "results/tables/22_reserved_multifault_run_results.csv",
+    "size_bytes": 10309952,
+    "sha256": "cb141426568b07e7ce8008f6595968dd340034e862ea7bc24b9b7ae6215008a9"
+  },
+  {
+    "relative_path": "results/tables/23_method_development_case_studies.csv",
+    "size_bytes": 2848,
+    "sha256": "44434c783fb772a89505802d1391bf2d04b1a18d7c62b8e1798b1e8fb09c950e"
+  },
+  {
+    "relative_path": "results/tables/23_reporting_guardrails.csv",
+    "size_bytes": 936,
+    "sha256": "339fe56925caab233860f5a0abd69295470566029a837e5a44a98bb4b41ecbb5"
+  },
+  {
+    "relative_path": "results/tables/23_reserved_pairwise_statistics.csv",
+    "size_bytes": 8293,
+    "sha256": "505393fd31e286764737bc40b784a584e1f291927ab0783b542f7334bc7c1cc3"
+  },
+  {
+    "relative_path": "results/tables/23_reserved_primary_summary_with_ci.csv",
+    "size_bytes": 8020,
+    "sha256": "15224a5e3710d9fbd05984c1408e5e81f9a5458b8f42b32401c13f70db15abf1"
+  },
+  {
+    "relative_path": "results/tables/23_reserved_run_detection_discordance.csv",
+    "size_bytes": 1127,
+    "sha256": "6f1c64f7ff17251e8b8612ef16f61169f5cefbf66017ae33807d5dee8141216e"
+  },
+  {
+    "relative_path": "results/tables/23_selection_stability_diagnostic.csv",
+    "size_bytes": 5490,
+    "sha256": "e59b21ff4bbfca3beb0348625691249d7dae72595546c3146ffdd3caf08c1b7c"
+  },
+  {
+    "relative_path": "results/tables/23b_allrun_delay_macro_summary.csv",
+    "size_bytes": 5057,
+    "sha256": "382ea692a9634d4207b239b43c65e21a3556d7ff30c2df251ae239a2e41d233b"
+  },
+  {
+    "relative_path": "results/tables/23b_crossed_normal_far_bootstrap.csv",
+    "size_bytes": 1875,
+    "sha256": "1143a53c69707182754d2dc8d3536e5c92b848fac91572594aeff5ffd8ab5812"
+  },
+  {
+    "relative_path": "results/tables/23b_crossed_normal_far_pairwise.csv",
+    "size_bytes": 1864,
+    "sha256": "0121c2c7e6dac365ac737dd2fec3a0019313c15faadf4974998110e94474812f"
+  },
+  {
+    "relative_path": "results/tables/23b_frozen_run_result_integrity_audit.csv",
+    "size_bytes": 2231,
+    "sha256": "17785aa2dc660702531b75e0de39432bd965827c3420855e4a0f9ff36d76635d"
+  },
+  {
+    "relative_path": "results/tables/23b_run_detection_and_allrun_delay_by_fault.csv",
+    "size_bytes": 20924,
+    "sha256": "e777ef5999c4a1c873dec52b4d2288a7817c288bc0f6129f24f4d8949dbb4e79"
+  },
+  {
+    "relative_path": "scripts/23_postfreeze_statistical_synthesis.py",
+    "size_bytes": 54998,
+    "sha256": "ff0dca92231cd1084b4f1482e226d44e4750b03611db55a7635cf7d3dead56cd"
+  },
+  {
+    "relative_path": "scripts/23b_postfreeze_sensitivity_analysis.py",
+    "size_bytes": 41488,
+    "sha256": "1355ff1aa7a3bc1fa3fa5cf1f0ca2d98c68f98c8d96973638b0113ae0fb69d71"
+  }
+]

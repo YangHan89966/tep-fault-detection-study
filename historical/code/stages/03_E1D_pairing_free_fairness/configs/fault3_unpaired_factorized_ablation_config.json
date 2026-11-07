@@ -1,0 +1,149 @@
+{
+  "script": "scripts/12_unpaired_factorized_ablation.py",
+  "primary_screening_window": "early_160_primary",
+  "selection_source": "results/tables/11_unpaired_selected_variables.csv",
+  "all_signs_and_stability_source": "results/tables/11_unpaired_screening_all_variables.csv",
+  "n_all_residuals": 52,
+  "n_bootstrap_stable_residuals": 40,
+  "n_selected_residuals": 5,
+  "selected_variables": [
+    "xmeas_2",
+    "xmeas_21",
+    "xmv_1",
+    "xmv_8",
+    "xmeas_15"
+  ],
+  "selected_signs": [
+    -1,
+    -1,
+    -1,
+    1,
+    1
+  ],
+  "pca_n_components": 36,
+  "pca_cumulative_explained_variance": 0.9581997268001302,
+  "cusum_k": 0.05,
+  "run_level_percentile": 95,
+  "methods": [
+    {
+      "method": "All residuals + CUSUM",
+      "method_short": "All / no sign / CUSUM",
+      "residual_set": "all_52",
+      "n_residual_variables": 52,
+      "direction_unification": false,
+      "sign_source": "none",
+      "use_cusum": true,
+      "purpose": "All-residual no-sign comparator."
+    },
+    {
+      "method": "All residuals with unpaired signs + CUSUM",
+      "method_short": "All / unpaired signs / CUSUM",
+      "residual_set": "all_52",
+      "n_residual_variables": 52,
+      "direction_unification": true,
+      "sign_source": "Step 11 primary unpaired run-mean shifts",
+      "use_cusum": true,
+      "purpose": "All 52 residuals with pairing-free development signs."
+    },
+    {
+      "method": "Bootstrap-stable signed residuals + CUSUM",
+      "method_short": "Stable set / signed / CUSUM",
+      "residual_set": "bootstrap_stable_95ci",
+      "n_residual_variables": 40,
+      "direction_unification": true,
+      "sign_source": "Step 11 primary unpaired run-bootstrap screen",
+      "use_cusum": true,
+      "purpose": "All residuals whose unpaired 95% bootstrap CI excludes zero."
+    },
+    {
+      "method": "Unpaired Top-5 residuals w/o sign + CUSUM",
+      "method_short": "Top-5 / no sign / CUSUM",
+      "residual_set": "unpaired_top5",
+      "n_residual_variables": 5,
+      "direction_unification": false,
+      "sign_source": "none",
+      "use_cusum": true,
+      "purpose": "Direction-unification ablation within the unpaired Top-5."
+    },
+    {
+      "method": "Unpaired signed Top-5 residuals w/o CUSUM",
+      "method_short": "Top-5 / signed / no CUSUM",
+      "residual_set": "unpaired_top5",
+      "n_residual_variables": 5,
+      "direction_unification": true,
+      "sign_source": "Step 11 primary unpaired run-mean shifts",
+      "use_cusum": false,
+      "purpose": "Sequential-accumulation ablation within the unpaired Top-5."
+    },
+    {
+      "method": "Unpaired signed Top-5 residuals + CUSUM",
+      "method_short": "Top-5 / signed / CUSUM",
+      "residual_set": "unpaired_top5",
+      "n_residual_variables": 5,
+      "direction_unification": true,
+      "sign_source": "Step 11 primary unpaired run-mean shifts",
+      "use_cusum": true,
+      "purpose": "Full pairing-free proposed method."
+    }
+  ],
+  "step11_full_method_reproduction_check": {
+    "available": true,
+    "unique_primary_row": true,
+    "exact_reproduction_with_tolerance_1e-12": true,
+    "differences": {
+      "normal_run_level_far": 0.0,
+      "fault3_run_level_detection_rate": 0.0,
+      "fault3_post_fault_point_detection_rate": 0.0,
+      "median_alarm_delay_min": 0.0
+    }
+  },
+  "method_outputs": {
+    "All residuals + CUSUM": {
+      "scaler": "results\\tables\\12_all_residuals_cusum_scaler.csv",
+      "validation_run_max": "results\\tables\\12_all_residuals_cusum_validation_run_max.csv",
+      "normal_run_results": "results\\tables\\12_all_residuals_cusum_normal_run_results.csv",
+      "fault3_run_results": "results\\tables\\12_all_residuals_cusum_fault3_run_results.csv"
+    },
+    "All residuals with unpaired signs + CUSUM": {
+      "scaler": "results\\tables\\12_all_residuals_with_unpaired_signs_cusum_scaler.csv",
+      "validation_run_max": "results\\tables\\12_all_residuals_with_unpaired_signs_cusum_validation_run_max.csv",
+      "normal_run_results": "results\\tables\\12_all_residuals_with_unpaired_signs_cusum_normal_run_results.csv",
+      "fault3_run_results": "results\\tables\\12_all_residuals_with_unpaired_signs_cusum_fault3_run_results.csv"
+    },
+    "Bootstrap-stable signed residuals + CUSUM": {
+      "scaler": "results\\tables\\12_bootstrap_stable_signed_residuals_cusum_scaler.csv",
+      "validation_run_max": "results\\tables\\12_bootstrap_stable_signed_residuals_cusum_validation_run_max.csv",
+      "normal_run_results": "results\\tables\\12_bootstrap_stable_signed_residuals_cusum_normal_run_results.csv",
+      "fault3_run_results": "results\\tables\\12_bootstrap_stable_signed_residuals_cusum_fault3_run_results.csv"
+    },
+    "Unpaired Top-5 residuals w/o sign + CUSUM": {
+      "scaler": "results\\tables\\12_unpaired_top_5_residuals_w_o_sign_cusum_scaler.csv",
+      "validation_run_max": "results\\tables\\12_unpaired_top_5_residuals_w_o_sign_cusum_validation_run_max.csv",
+      "normal_run_results": "results\\tables\\12_unpaired_top_5_residuals_w_o_sign_cusum_normal_run_results.csv",
+      "fault3_run_results": "results\\tables\\12_unpaired_top_5_residuals_w_o_sign_cusum_fault3_run_results.csv"
+    },
+    "Unpaired signed Top-5 residuals w/o CUSUM": {
+      "scaler": "results\\tables\\12_unpaired_signed_top_5_residuals_w_o_cusum_scaler.csv",
+      "validation_run_max": "results\\tables\\12_unpaired_signed_top_5_residuals_w_o_cusum_validation_run_max.csv",
+      "normal_run_results": "results\\tables\\12_unpaired_signed_top_5_residuals_w_o_cusum_normal_run_results.csv",
+      "fault3_run_results": "results\\tables\\12_unpaired_signed_top_5_residuals_w_o_cusum_fault3_run_results.csv"
+    },
+    "Unpaired signed Top-5 residuals + CUSUM": {
+      "scaler": "results\\tables\\12_unpaired_signed_top_5_residuals_cusum_scaler.csv",
+      "validation_run_max": "results\\tables\\12_unpaired_signed_top_5_residuals_cusum_validation_run_max.csv",
+      "normal_run_results": "results\\tables\\12_unpaired_signed_top_5_residuals_cusum_normal_run_results.csv",
+      "fault3_run_results": "results\\tables\\12_unpaired_signed_top_5_residuals_cusum_fault3_run_results.csv"
+    }
+  },
+  "summary_outputs": {
+    "metrics": "results\\tables\\12_unpaired_factorized_ablation_results.csv",
+    "definitions": "results\\tables\\12_unpaired_ablation_definitions.csv",
+    "contrasts": "results\\tables\\12_unpaired_ablation_contrasts.csv",
+    "figures": [
+      "results\\figures\\fig12a_unpaired_ablation_far_detection.png",
+      "results\\figures\\fig12a_unpaired_ablation_far_detection.pdf",
+      "results\\figures\\fig12b_unpaired_ablation_alarm_delay.png",
+      "results\\figures\\fig12b_unpaired_ablation_alarm_delay.pdf"
+    ]
+  }
+}

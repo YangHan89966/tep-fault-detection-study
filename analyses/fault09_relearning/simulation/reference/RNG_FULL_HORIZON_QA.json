@@ -1,0 +1,370 @@
+{
+  "engineering_only": true,
+  "formal_keys_used": false,
+  "written_utc": "2026-10-23T00:47:36.526561+00:00",
+  "rng_engine_sha256": "d1d218e847152d08e7cf6c9299b48e98c7738cd491c781ea3123df9315ef6450",
+  "qa_script_sha256": "fdd7c1db5a63a43197e942f2b0979b530f3afb3d06f374e75497cfd0437c210e",
+  "source_manifest_sha256": "160ee9840612a9aca6cfcda018a57029238ba9a81385be4daf5e6358c9cab606",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "numpy": "2.3.5",
+  "normal_key_hex": "0x51414f4e4c595f5445505f524e475f33",
+  "fault9_branch_key_hex": "0x51414f4e4c595f5445505f524e475f34",
+  "normal48_plain_dual_checks": {
+    "array_native_time_seconds": true,
+    "array_native_values": true,
+    "array_native_xmv12": true,
+    "array_record_time_seconds": true,
+    "physical_state_sha256": true,
+    "final_step_count": true,
+    "shutdown_occurred": true,
+    "shutdown_step": true,
+    "activation_events": true,
+    "rng_draw_count": true,
+    "rng_logical_state": true,
+    "rng_storage_state": true
+  },
+  "normal48_metadata": {
+    "plain": {
+      "shutdown_occurred": false,
+      "shutdown_time_hours": null,
+      "shutdown_time_seconds": null,
+      "shutdown_step": null,
+      "shutdown_reasons": [],
+      "shutdown_observed_values": {},
+      "shutdown_first_released_sample": null,
+      "adapter_version": "1.0.1-recovered",
+      "adapter_sha256": "d1d218e847152d08e7cf6c9299b48e98c7738cd491c781ea3123df9315ef6450",
+      "upstream_commit": "9a6c8e5fcef4a2850778704e7793c87b0a187005",
+      "source_manifest_sha256": "160ee9840612a9aca6cfcda018a57029238ba9a81385be4daf5e6358c9cab606",
+      "source_directory": "/workspace/scratch/fe0f7efa3fcc/p1_resume_20261023/confirmation_v1/engine",
+      "tep_version": "2.5.0",
+      "backend": "python",
+      "rng_kind": "philox",
+      "rng_key_hex": "0x51414f4e4c595f5445505f524e475f33",
+      "legacy_seed": null,
+      "rng_state": {
+        "logical": {
+          "algorithm": "numpy.Philox4x64_high32_over_2pow32_v1",
+          "key_hex": "0x51414f4e4c595f5445505f524e475f33",
+          "next_raw64_word_index": 45713405
+        },
+        "logical_state_sha256": "5b808a2e0cc5c9b8dd7b0839cfbe9673092f497d23f1b28aba4fabf844685330",
+        "storage": {
+          "bit_generator_state": {
+            "bit_generator": "Philox",
+            "state": {
+              "counter": [
+                11436032,
+                0,
+                0,
+                0
+              ],
+              "key": [
+                4994596793859137331,
+                5855048188265324372
+              ]
+            },
+            "buffer": [
+              2344282988441191925,
+              10820038380330830999,
+              7389152277943564065,
+              940785133545034255
+            ],
+            "buffer_pos": 4,
+            "has_uint32": 0,
+            "uinteger": 0
+          },
+          "generated_raw64_words": 45744128,
+          "buffer_size": 65536,
+          "buffer_length": 65536,
+          "buffer_position": 34813,
+          "buffer_f64le_sha256": "73fa6dff124bcdf80598d676a7c3332be754f237e45ba84a038c0f8f3c2b9032",
+          "last_consumed_u32": 3528621103
+        },
+        "storage_state_sha256": "ba32a30a8846c17354500d6cd58bab5883ed673f45d669156273ae9c342b8979"
+      },
+      "rng_draw_count": 45713405,
+      "initialization_rng_draw_count": 0,
+      "physical_state_sha256": "ccbe12e48502ead286e1e6da18f726aa8b2b184d623decd77a799979a31674d2",
+      "archived_state_sha256": "a1616fbf5b6a394d50f0f49ef2623475aa103275793505d7f5b0d9b1a9891fd6",
+      "fault_id": 0,
+      "fault_onset_hours": null,
+      "activation_events": [],
+      "duration_hours": 48.0,
+      "mode": "plain",
+      "rows": 960,
+      "wall_seconds": 161.68442247600024,
+      "total_wall_seconds": 161.68838668199987,
+      "final_step_count": 172800,
+      "integration_step_seconds": 1,
+      "record_interval_seconds": 180,
+      "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+      "numpy": "2.3.5"
+    },
+    "dual": {
+      "shutdown_occurred": false,
+      "shutdown_time_hours": null,
+      "shutdown_time_seconds": null,
+      "shutdown_step": null,
+      "shutdown_reasons": [],
+      "shutdown_observed_values": {},
+      "shutdown_first_released_sample": null,
+      "adapter_version": "1.0.1-recovered",
+      "adapter_sha256": "d1d218e847152d08e7cf6c9299b48e98c7738cd491c781ea3123df9315ef6450",
+      "upstream_commit": "9a6c8e5fcef4a2850778704e7793c87b0a187005",
+      "source_manifest_sha256": "160ee9840612a9aca6cfcda018a57029238ba9a81385be4daf5e6358c9cab606",
+      "source_directory": "/workspace/scratch/fe0f7efa3fcc/p1_resume_20261023/confirmation_v1/engine",
+      "tep_version": "2.5.0",
+      "backend": "python",
+      "rng_kind": "philox",
+      "rng_key_hex": "0x51414f4e4c595f5445505f524e475f33",
+      "legacy_seed": null,
+      "rng_state": {
+        "logical": {
+          "algorithm": "numpy.Philox4x64_high32_over_2pow32_v1",
+          "key_hex": "0x51414f4e4c595f5445505f524e475f33",
+          "next_raw64_word_index": 45713405
+        },
+        "logical_state_sha256": "5b808a2e0cc5c9b8dd7b0839cfbe9673092f497d23f1b28aba4fabf844685330",
+        "storage": {
+          "bit_generator_state": {
+            "bit_generator": "Philox",
+            "state": {
+              "counter": [
+                11436032,
+                0,
+                0,
+                0
+              ],
+              "key": [
+                4994596793859137331,
+                5855048188265324372
+              ]
+            },
+            "buffer": [
+              2344282988441191925,
+              10820038380330830999,
+              7389152277943564065,
+              940785133545034255
+            ],
+            "buffer_pos": 4,
+            "has_uint32": 0,
+            "uinteger": 0
+          },
+          "generated_raw64_words": 45744128,
+          "buffer_size": 65536,
+          "buffer_length": 65536,
+          "buffer_position": 34813,
+          "buffer_f64le_sha256": "73fa6dff124bcdf80598d676a7c3332be754f237e45ba84a038c0f8f3c2b9032",
+          "last_consumed_u32": 3528621103
+        },
+        "storage_state_sha256": "ba32a30a8846c17354500d6cd58bab5883ed673f45d669156273ae9c342b8979"
+      },
+      "rng_draw_count": 45713405,
+      "initialization_rng_draw_count": 0,
+      "physical_state_sha256": "ccbe12e48502ead286e1e6da18f726aa8b2b184d623decd77a799979a31674d2",
+      "archived_state_sha256": "a1616fbf5b6a394d50f0f49ef2623475aa103275793505d7f5b0d9b1a9891fd6",
+      "fault_id": 0,
+      "fault_onset_hours": null,
+      "activation_events": [],
+      "duration_hours": 48.0,
+      "mode": "dual",
+      "rows": 960,
+      "wall_seconds": 158.11186068100005,
+      "total_wall_seconds": 158.11818107299996,
+      "final_step_count": 172800,
+      "integration_step_seconds": 1,
+      "record_interval_seconds": 180,
+      "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+      "numpy": "2.3.5",
+      "control_calls": 172800,
+      "evaluate_calls": 172800,
+      "full_step_trace_sha256": "95d3933075a64b286c7e72bc2e5ae4ba3a2a868ced12b16b19cad5fec0c51515",
+      "fast_updates": 57600,
+      "saturation_counts": [
+        0,
+        0,
+        0
+      ],
+      "max_PI_recurrence_abs_error": [
+        0.0,
+        0.0,
+        3.552713678800501e-15
+      ],
+      "integral_adjusted_invariant_ranges": [
+        1.4210854715202004e-12,
+        6.252776074688882e-13,
+        2.2737367544323206e-13
+      ],
+      "setpoint_min": [
+        50.0,
+        50.0,
+        22.949
+      ],
+      "setpoint_max": [
+        50.0,
+        50.0,
+        22.949
+      ],
+      "rng_consumption_trace_sha256": "9f319320f09051f6881c8ee3ad79cb43f7567059f4b61d3eb719a6858f6b6a9e"
+    }
+  },
+  "saved_normal_engineering_trajectory": {
+    "path": "qa/QA_NORMAL48_DUAL.npz",
+    "sha256": "f8834970a1cf83f9923276342df513d114399f51969b80a4ad3b04fcd99dbf3a",
+    "formal_panel_excluded": true,
+    "monitoring_scores_computed": false
+  },
+  "fault9_activated_branch_checks": {
+    "array_native_time_seconds": true,
+    "array_native_values": true,
+    "array_native_xmv12": true,
+    "array_record_time_seconds": true,
+    "physical_state_sha256": true,
+    "final_step_count": true,
+    "shutdown_occurred": true,
+    "shutdown_step": true,
+    "activation_events": true,
+    "rng_draw_count": true,
+    "rng_logical_state": true,
+    "rng_storage_state": true
+  },
+  "fault9_branch_metadata": {
+    "shutdown_occurred": false,
+    "shutdown_time_hours": null,
+    "shutdown_time_seconds": null,
+    "shutdown_step": null,
+    "shutdown_reasons": [],
+    "shutdown_observed_values": {},
+    "shutdown_first_released_sample": null,
+    "adapter_version": "1.0.1-recovered",
+    "adapter_sha256": "d1d218e847152d08e7cf6c9299b48e98c7738cd491c781ea3123df9315ef6450",
+    "upstream_commit": "9a6c8e5fcef4a2850778704e7793c87b0a187005",
+    "source_manifest_sha256": "160ee9840612a9aca6cfcda018a57029238ba9a81385be4daf5e6358c9cab606",
+    "source_directory": "/workspace/scratch/fe0f7efa3fcc/p1_resume_20261023/confirmation_v1/engine",
+    "tep_version": "2.5.0",
+    "backend": "python",
+    "rng_kind": "philox",
+    "rng_key_hex": "0x51414f4e4c595f5445505f524e475f34",
+    "legacy_seed": null,
+    "rng_state": {
+      "logical": {
+        "algorithm": "numpy.Philox4x64_high32_over_2pow32_v1",
+        "key_hex": "0x51414f4e4c595f5445505f524e475f34",
+        "next_raw64_word_index": 475713
+      },
+      "logical_state_sha256": "d8a70fdac1a908801c469b88b1a5a4d2354bc8e743e8c389fb1a3db799e03a62",
+      "storage": {
+        "bit_generator_state": {
+          "bit_generator": "Philox",
+          "state": {
+            "counter": [
+              131072,
+              0,
+              0,
+              0
+            ],
+            "key": [
+              4994596793859137332,
+              5855048188265324372
+            ]
+          },
+          "buffer": [
+            11896788384879043015,
+            10338528502582288360,
+            6734426748614289479,
+            8787418698163787856
+          ],
+          "buffer_pos": 4,
+          "has_uint32": 0,
+          "uinteger": 0
+        },
+        "generated_raw64_words": 524288,
+        "buffer_size": 65536,
+        "buffer_length": 65536,
+        "buffer_position": 16961,
+        "buffer_f64le_sha256": "eb62665dd730c5cfc4f816948a2178cd4495a2543755f06e46b969f3938af0f2",
+        "last_consumed_u32": 1941349802
+      },
+      "storage_state_sha256": "1444e097724f8f363f7fc5102b617249bdca96b772d551ca97ccadf5986ca4cc"
+    },
+    "rng_draw_count": 475713,
+    "initialization_rng_draw_count": 0,
+    "physical_state_sha256": "e8c52ac1180e92686be7fd7fa6b2111ad179572635cc35b6eee42a339d75b2eb",
+    "archived_state_sha256": "343d7e42933cc5ed11aebd7aef69724a63c98761047685ede39d74af67e76166",
+    "fault_id": 9,
+    "fault_onset_hours": 0.1,
+    "activation_events": [
+      {
+        "index_1based": 9,
+        "value": 1,
+        "time_hours": 0.10000000000000035,
+        "step_count": 360,
+        "flags_after": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "duration_hours": 0.5,
+    "mode": "dual",
+    "rows": 10,
+    "wall_seconds": 1.5164791839997633,
+    "total_wall_seconds": 1.5207228180001948,
+    "final_step_count": 1800,
+    "integration_step_seconds": 1,
+    "record_interval_seconds": 180,
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "numpy": "2.3.5",
+    "control_calls": 1800,
+    "evaluate_calls": 1800,
+    "full_step_trace_sha256": "fca30fe2e9f39cf6170825c16e55b6e7536194cd00c1c451baac5f2833fa4ca8",
+    "fast_updates": 600,
+    "saturation_counts": [
+      0,
+      0,
+      0
+    ],
+    "max_PI_recurrence_abs_error": [
+      0.0,
+      0.0,
+      3.552713678800501e-15
+    ],
+    "integral_adjusted_invariant_ranges": [
+      8.526512829121202e-14,
+      5.684341886080802e-14,
+      4.263256414560601e-14
+    ],
+    "setpoint_min": [
+      50.0,
+      50.0,
+      22.949
+    ],
+    "setpoint_max": [
+      50.0,
+      50.0,
+      22.949
+    ],
+    "rng_consumption_trace_sha256": "56b136d2b6d24a85142fda8b1a114f4a8a97e05c93a9d3f9b2adb5394cdfb10b"
+  },
+  "all_passed": true,
+  "qa_total_wall_seconds": 164.90479439099977
+}

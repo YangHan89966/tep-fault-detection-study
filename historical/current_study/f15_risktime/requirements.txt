@@ -1,0 +1,2 @@
+# Original F15 risk/time execution; publication recheck environment is recorded in validation/.
+numpy==2.2.6

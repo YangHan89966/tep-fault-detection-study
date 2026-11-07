@@ -1,0 +1,36 @@
+{
+  "draw_count": 45713405,
+  "duration_hours": 48,
+  "engine_sha": "7298717b1a3c86387fad99c4e4e53ed9b3743100dd8f2b335810d7f5cafa0982",
+  "engineering_only": true,
+  "exact_array_bytes": {
+    "controller_input_values": true,
+    "ctrl11_accumulated_integral": true,
+    "diagnostic_D_feed_temperature": true,
+    "diagnostic_IDV": true,
+    "diagnostic_rng_draw_count": true,
+    "fast_control_input_measurements": true,
+    "native_time_seconds": true,
+    "native_values": true,
+    "native_xmv12": true,
+    "phase": true,
+    "record_time_seconds": true
+  },
+  "exact_full_run_digests": {
+    "full_step_trace_sha256": true,
+    "physical_state_sha256": true,
+    "rng_consumption_trace_sha256": true,
+    "rng_draw_count": true
+  },
+  "full_step_trace_sha256": "95d3933075a64b286c7e72bc2e5ae4ba3a2a868ced12b16b19cad5fec0c51515",
+  "key_hex": "0x51414f4e4c595f5445505f524e475f33",
+  "numpy": "2.3.5",
+  "pass": true,
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "runtime": [
+    "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "2.3.5",
+    "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39"
+  ],
+  "seconds": 66.683536924
+}

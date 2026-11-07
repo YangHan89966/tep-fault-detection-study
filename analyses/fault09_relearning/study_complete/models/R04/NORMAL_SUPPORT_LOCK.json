@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-11-05T03:32:43.250305+00:00",
+  "files": {
+    "native.npz": "a3e62a8a29ed7dc72dfa1efe9241935588ec5840a3f1186f434a6106a574d937",
+    "native_design.npz": "672af9ecf312dbc16b4c300fc25f93148d8be3e840efa3fd582d766855ffe861",
+    "snapshot.npz": "99c6233bb9547f980bc1fe9fdc327ae5c48c44e569db9c866484c3e5d7518d8d",
+    "snapshot_design.npz": "01dac1ec97e886be9ddc158b539b4d47fbd9d8e8ab46cbc571ef7d5dfe2f1bce"
+  },
+  "pca_lock_sha256": "ae1214ebdb5830467d53f5ecb06c2946803523808fa3e0990d650e6cc0bb203d",
+  "roles_read": [
+    "pca_normal",
+    "normal_design"
+  ],
+  "faults_read": false
+}

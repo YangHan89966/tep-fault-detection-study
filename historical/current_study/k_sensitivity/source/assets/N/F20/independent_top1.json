@@ -1,0 +1,28 @@
+{
+  "abstention_reason": null,
+  "alarm_rule": "strict_exceedance",
+  "control_limit": 23.96324192464018,
+  "coordinates": [
+    {
+      "candidate_index": 45,
+      "family": "signed_level",
+      "residual_center": -2.5837986306065377e-12,
+      "sign": -1,
+      "validation_feature_mean": 0.0021667779118249753,
+      "validation_feature_sd": 0.33249106607937307,
+      "variable": "xmv_5",
+      "variable_index": 45
+    }
+  ],
+  "cusum_k": 0.5,
+  "cusum_reset": "run_start_only",
+  "fault_id": 20,
+  "final_data_used": false,
+  "full_horizon_samples": 960,
+  "method": "independent_top1",
+  "pca_file": "../PCA_MODEL.npz",
+  "pca_sha256": "e8d334f9201d41bb240a46d09925b358a0b38a9a74d5193a7fd9f9b1782d1d33",
+  "selection_bootstrap_seed": 448667360,
+  "selection_permutation_seed": 1983847954,
+  "status": "ESTIMABLE"
+}

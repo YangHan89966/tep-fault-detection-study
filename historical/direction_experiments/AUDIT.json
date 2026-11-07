@@ -1,0 +1,12 @@
+{
+  "status": "PASS_AUTHOR_NUMERICAL_CHECKS_NOT_INDEPENDENT_REVIEW",
+  "branches": 600,
+  "source_selection_integer_fields_verified": 12078000,
+  "source_audit_integer_fields_verified": 15591600,
+  "prefix_decisions": 2047680000,
+  "exactly_certified_disagreements": 1,
+  "all_original_mean_axes_unchanged": true,
+  "all20_complete": true,
+  "old_final_process_rows_decoded": 0,
+  "new_seed_access": false
+}

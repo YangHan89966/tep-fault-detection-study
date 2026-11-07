@@ -1,0 +1,68 @@
+[build-system]
+requires = [
+    "meson-python>=0.15.0",
+    "meson>=1.0.0",
+    "numpy>=1.22.0",
+]
+build-backend = "mesonpy"
+
+[project]
+name = "tep"
+version = "2.5.0"
+description = "Tennessee Eastman Process simulator with optional Fortran acceleration"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "BSD-3-Clause"}
+authors = [
+    {name = "John Kitchin"}
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Fortran",
+    "Topic :: Scientific/Engineering :: Chemistry",
+]
+dependencies = [
+    "numpy>=1.20.0",
+]
+
+[project.optional-dependencies]
+web = [
+    "dash>=2.0.0",
+    "plotly>=5.0.0",
+]
+plot = [
+    "matplotlib>=3.5.0",
+]
+dev = [
+    "pytest>=7.0.0",
+    "scipy>=1.7.0",
+    "matplotlib>=3.5.0",
+    "dash>=2.0.0",
+    "plotly>=5.0.0",
+]
+
+[project.scripts]
+tep-web = "tep.dashboard_dash:main"
+tep-sim = "tep.cli:main"
+
+# Default: Python-only (no Fortran compilation required)
+# To enable Fortran backend, install with:
+#   pip install . --config-settings=setup-args=-Dfortran=enabled
+# Or set environment variable before install:
+#   export TEP_FORTRAN=1 && pip install .
+[tool.meson-python.args]
+setup = ['-Dfortran=disabled']
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]

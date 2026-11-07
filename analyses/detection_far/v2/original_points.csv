@@ -1,0 +1,21 @@
+panel,contrast,fault,replicate,arm,source_method,original_h,outer_n,outer_rank,clean40_n,clean8_n,prefault_n,mean_penalized_loss_min,normal48_alarm_n
+Validation 2,C1,3,1,favoured,mean_pool_signed,40.679886367108004,259,247,250,90,0,580.152,17
+Validation 2,C1,3,1,comparator,same_mean_signed_axis_squared,47.88196248986637,259,247,62,2,0,2175.804,16
+Validation 2,C3,15,1,comparator,mean_pool_squared,43.71187734066762,259,247,101,8,0,1940.004,24
+Validation 2,C3,15,1,favoured,moment_pool_squared,48.93985114241797,259,247,196,15,1,1475.04,13
+Validation 2,C1,3,2,favoured,mean_pool_signed,51.998958790670095,259,247,250,85,0,592.32,17
+Validation 2,C1,3,2,comparator,same_mean_signed_axis_squared,53.77714643437331,259,247,63,2,0,2166.936,12
+Validation 2,C3,15,2,comparator,mean_pool_squared,104.11622496903544,259,247,44,0,0,2271.432,10
+Validation 2,C3,15,2,favoured,moment_pool_squared,47.93146788989948,259,247,185,15,0,1522.068,15
+Validation 2,C1,3,3,favoured,mean_pool_signed,44.389165052181035,259,247,250,85,0,576.948,13
+Validation 2,C1,3,3,comparator,same_mean_signed_axis_squared,53.12374356734902,259,247,44,1,0,2254.404,5
+Validation 2,C3,15,3,comparator,mean_pool_squared,49.2596504861283,259,247,57,4,0,2187.924,14
+Validation 2,C3,15,3,favoured,moment_pool_squared,55.11995507244722,259,247,175,9,0,1649.244,7
+Validation 2,C1,3,4,favoured,mean_pool_signed,47.64528016990352,259,247,250,68,0,618.072,20
+Validation 2,C1,3,4,comparator,same_mean_signed_axis_squared,54.959649947405346,259,247,54,0,0,2210.976,10
+Validation 2,C3,15,4,comparator,mean_pool_squared,48.169832409721906,259,247,34,1,0,2272.524,16
+Validation 2,C3,15,4,favoured,moment_pool_squared,57.222539285442686,259,247,188,11,0,1571.316,8
+Validation 2,C1,3,5,favoured,mean_pool_signed,42.14978501732496,259,247,250,80,0,601.764,12
+Validation 2,C1,3,5,comparator,same_mean_signed_axis_squared,53.286634143861086,259,247,33,0,0,2281.152,9
+Validation 2,C3,15,5,comparator,mean_pool_squared,47.424209492779234,259,247,31,2,0,2286.432,16
+Validation 2,C3,15,5,favoured,moment_pool_squared,48.42487797968502,259,247,167,10,0,1664.988,10

@@ -1,0 +1,68 @@
+{
+  "status": "PASS_EXACT_SOURCE_RECOVERY",
+  "source_runs": 799,
+  "record_count_anchors_verified": 767040,
+  "full_step_rng_trace_hashes_verified": 799,
+  "total_rng_trace_steps": 138067200,
+  "max_temperature_error": 0.0,
+  "original_endpoint_alarm_bits_verified": 1534080,
+  "max_original_endpoint_chart_error": 0.0,
+  "noise_summary": [
+    {
+      "channel": "all_channels_standardized",
+      "rho": 0.0,
+      "n_unique_measurement_events": 22996019,
+      "original_noise_mean_standardized": -7.020335559255553e-05,
+      "replacement_noise_mean_standardized": -0.0002490056045287537,
+      "original_noise_variance_standardized": 0.9998305901664846,
+      "replacement_noise_variance_standardized": 1.000160610109227,
+      "variance_ratio": 1.000330075860839,
+      "empirical_noise_correlation": 0.0004883952333370304
+    },
+    {
+      "channel": "all_channels_standardized",
+      "rho": 0.25,
+      "n_unique_measurement_events": 22996019,
+      "original_noise_mean_standardized": -7.020335559255553e-05,
+      "replacement_noise_mean_standardized": -0.00022153810611716342,
+      "original_noise_variance_standardized": 0.9998305901664846,
+      "replacement_noise_variance_standardized": 1.0006126160264524,
+      "variance_ratio": 1.0007821583652863,
+      "empirical_noise_correlation": 0.2503196287579572
+    },
+    {
+      "channel": "all_channels_standardized",
+      "rho": 0.5,
+      "n_unique_measurement_events": 22996019,
+      "original_noise_mean_standardized": -7.020335559255553e-05,
+      "replacement_noise_mean_standardized": 1.2849570314408716e-05,
+      "original_noise_variance_standardized": 0.9998305901664846,
+      "replacement_noise_variance_standardized": 1.0005142214497638,
+      "variance_ratio": 1.0006837471167644,
+      "empirical_noise_correlation": 0.5002142945106604
+    },
+    {
+      "channel": "all_channels_standardized",
+      "rho": 0.75,
+      "n_unique_measurement_events": 22996019,
+      "original_noise_mean_standardized": -7.020335559255553e-05,
+      "replacement_noise_mean_standardized": 1.2589194315456218e-05,
+      "original_noise_variance_standardized": 0.9998305901664846,
+      "replacement_noise_variance_standardized": 1.0002652108364614,
+      "variance_ratio": 1.0004346943114677,
+      "empirical_noise_correlation": 0.7500499070157645
+    },
+    {
+      "channel": "all_channels_standardized",
+      "rho": 1.0,
+      "n_unique_measurement_events": 22996019,
+      "original_noise_mean_standardized": -7.020335559255553e-05,
+      "replacement_noise_mean_standardized": -7.020335559255553e-05,
+      "original_noise_variance_standardized": 0.9998305901664846,
+      "replacement_noise_variance_standardized": 0.9998305901664846,
+      "variance_ratio": 1.0,
+      "empirical_noise_correlation": 1.0
+    }
+  ],
+  "interpretation": "Noise law and variance are preserved by the12-uniform construction. Empirical moments are descriptive checks, with held measurement events counted once perchannel perrun. No fitted correction or outcome-dependent reseeding."
+}

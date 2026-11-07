@@ -1,0 +1,33 @@
+Panel,Monitor,Recording,Normal runs with any alarm,With a pre-fault alarm,Detection floor (runs)
+Panel 1,Fixed historical monitor,Post-update,2 of 60,0,2 of 60
+Panel 1,Fixed historical monitor,Controller-input,4 of 60,0,4 of 60
+Panel 1,"Relearned (second-moment pool, Signed)",Post-update,2 of 60,0,2 of 60
+Panel 1,"Relearned (second-moment pool, Signed)",Controller-input,3 of 60,0,3 of 60
+Panel 1,PCA T²,Post-update,9 of 60,4,5 of 60
+Panel 1,PCA T²,Controller-input,3 of 60,0,3 of 60
+Panel 1,PCA SPE,Post-update,3 of 60,0,3 of 60
+Panel 1,PCA SPE,Controller-input,3 of 60,0,3 of 60
+Panel 1,Q-CUSUM,Post-update,10 of 60,0,10 of 60
+Panel 1,Q-CUSUM,Controller-input,0 of 60,0,0 of 60
+Panel 1,DPCA T²,Post-update,2 of 60,1,1 of 60
+Panel 1,DPCA T²,Controller-input,3 of 60,1,2 of 60
+Panel 1,DPCA SPE,Post-update,1 of 60,0,1 of 60
+Panel 1,DPCA SPE,Controller-input,0 of 60,0,0 of 60
+Panel 2,Fixed historical monitor,Post-update,6 of 120,0,6 of 120
+Panel 2,Fixed historical monitor,Controller-input,9 of 120,0,9 of 120
+Panel 2,"Relearned (second-moment pool, Signed)",Post-update,7 of 120,0,7 of 120
+Panel 2,"Relearned (second-moment pool, Signed)",Controller-input,7 of 120,0,7 of 120
+Panel 2,PCA T²,Post-update,6 of 120,3,3 of 120
+Panel 2,PCA T²,Controller-input,9 of 120,2,7 of 120
+Panel 2,PCA SPE,Post-update,5 of 120,0,5 of 120
+Panel 2,PCA SPE,Controller-input,9 of 120,1,8 of 120
+Panel 2,Q-CUSUM,Post-update,7 of 120,0,7 of 120
+Panel 2,Q-CUSUM,Controller-input,6 of 120,0,6 of 120
+Panel 2,DPCA T²,Post-update,4 of 120,2,2 of 120
+Panel 2,DPCA T²,Controller-input,15 of 120,5,10 of 120
+Panel 2,DPCA SPE,Post-update,4 of 120,2,2 of 120
+Panel 2,DPCA SPE,Controller-input,2 of 120,0,2 of 120
+Panel 1,"Relearned (mean-shift pool, Signed; M3)",Controller-input,1 of 60,0,1 of 60
+Panel 1,"Relearned (mean-shift pool, Signed; M4)",Post-update,1 of 60,0,1 of 60
+Panel 2,"Relearned (mean-shift pool, Signed; M3)",Controller-input,10 of 120,1,9 of 120
+Panel 2,"Relearned (mean-shift pool, Signed; M4)",Post-update,11 of 120,0,11 of 120

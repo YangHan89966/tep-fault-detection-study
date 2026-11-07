@@ -1,0 +1,25 @@
+{
+  "windows_science_runtime": {
+    "platform": "Windows 10 / WSL interop host (recorded build string: Windows-10-10.0.26200-SP0)",
+    "python": "3.11.15",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scipy": "1.17.1",
+    "scikit_learn": "1.8.0",
+    "matplotlib": "3.10.9",
+    "joblib": "1.5.3",
+    "pillow": "11.1.0"
+  },
+  "wsl_rdata_extractor": {
+    "platform": "WSL2 Ubuntu / CPython",
+    "python": "3.12.3",
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "pyreadr": "0.5.4",
+    "python_dateutil": "2.9.0.post0",
+    "pytz": "2026.3.post1",
+    "six": "1.17.0",
+    "tzdata": "2026.3"
+  },
+  "scope": "NON_QUALIFICATION_EXPLORATORY; not formal P71/P72 qualification evidence"
+}

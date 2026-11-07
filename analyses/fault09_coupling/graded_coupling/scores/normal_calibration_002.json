@@ -1,0 +1,37 @@
+{
+  "run_id": "normal_calibration_002",
+  "role": "normal_calibration",
+  "fault_id": 0,
+  "status": "COMPLETE",
+  "protocol_sha256": "385260242ae76d47d4410f3024b483fe03d74a3453b8d902aa4b05341c088a97",
+  "code_lock_sha256": "cde66c86832bc7253c295cd28022837ec5ea26ed5f2d4ac56b7f889c6657b22b",
+  "source_hashes": {
+    "RAW.npz": "8c8755630af0064ada5e1ae9f72bd5ce682d3f53391786f902238849dbed0d33",
+    "RUN_INFO.json": "3674b30346dda7949bd1187fa867a092061f548e962120bbf6a519ec3bce997a",
+    "CHARTS.npz": "4cd61f6ce30c3ecfcd62bbc688bce1de7e3fd4ceccfb3076f32dbd0e6714f38e"
+  },
+  "threshold_lock_sha256_at_generation": null,
+  "original_key_hex": "0x983f6de2d135521de3a0b50a00000002",
+  "replacement_key_hex": "0xf598d74ceaff24ba35828138b78df9c3",
+  "score_sha256": "f5fc73fa97142dba68b543e65ae6e3e12dee1a0b80171702eca1bf472fa903ab",
+  "endpoint_chart_max_abs_error": 0.0,
+  "original_alarm_bits_checked": 1920,
+  "original_events_match": false,
+  "noise_recovery": {
+    "status": "PASS_EXACT_RNG_SCHEDULE_RECOVERY",
+    "method": "replay_random_schedule_without_physical_simulation",
+    "run_id": "normal_calibration_002",
+    "key_hex": "0x983f6de2d135521de3a0b50a00000002",
+    "record_count_checks": 960,
+    "temperature_max_abs_error": 0.0,
+    "sample_times_bitwise_equal": true,
+    "final_draw_count": 45713363,
+    "final_uniform_u32": 2497076441,
+    "full_rng_trace_sha256": "51b828ebef7c4b6ee98836ae6765086ff1f9211736054ed432a8fe454f9402c7",
+    "uniform_event_count": 28781,
+    "noise_transform": "sum_12_original_uniforms_minus_6_times_xns",
+    "zero_noise_cells_before_first_composition_sample": 53,
+    "wall_seconds": 3.154120003000571
+  },
+  "wall_seconds": 3.599027181000565
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS_PORTABLE_SYNTHETIC_WRAPPER",
+  "root": ".",
+  "output": "separate caller-selected directory",
+  "public_test_sha256": "818581e16bc2608f960d42dd4764fb41b429b27cf7b7e291f4f0b6ff1b01cc4f",
+  "original_frozen_test_sha256": "b2a4d9fbc160201427147d7819cacd06b5b988f59b2fa5f1a2713b52d35bb7f9",
+  "in_memory_path_assignments_only": [
+    "ROOT",
+    "OUT"
+  ],
+  "public_test_file_unchanged": true,
+  "scientific_score_outputs_read": false,
+  "numerical_report": "SYNTHETIC_NUMERICAL_REVIEW.json"
+}

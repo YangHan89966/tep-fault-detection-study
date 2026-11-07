@@ -1,0 +1,161 @@
+{
+  "schema": "TEP_PUBLIC_DIAGNOSTIC_DERIVATIVE_v1",
+  "role": "s30",
+  "original_archive": {
+    "filename": "TEP_S30_F9_PATHS_20260906T114012_708942Z_jy1gynnr_RESULTS.zip",
+    "size_bytes": 40783254,
+    "sha256": "292106c23c212d3931c15aa6c5e435cc1069781f48e519c0259211ea7072b6fc"
+  },
+  "distributed_archive": {
+    "filename": "TEP_S30_F9_PATHS_20260906T114012_708942Z_jy1gynnr_PUBLIC_PATH_REDACTED_v1.zip",
+    "size_bytes": 40783061,
+    "sha256": "3d6673a3e7870e6ce31eb7765e8b689d0b71a408e16c8c19a524f66f65a80c82"
+  },
+  "scope": "Static path redaction only. No archived code executed or numerical results recomputed. Original ZIP untouched.",
+  "redaction_reason": "Nonplaceholder account-directory paths occur in input/runtime metadata and archived code defaults. Generic run-output roots were also replaced to avoid machine-dependent paths. No original path or account values are included in this provenance map.",
+  "redaction_records": [
+    {
+      "member": "INPUT_ACCESS.json",
+      "path_literals_replaced": 1,
+      "replacement_placeholders": [
+        "<NORMAL_INPUT_FILE>"
+      ],
+      "kind": "metadata_or_documentation_path_strings_only"
+    },
+    {
+      "member": "RUNTIME_PROBES.json",
+      "path_literals_replaced": 1,
+      "replacement_placeholders": [
+        "<PYTHON_EXECUTABLE>"
+      ],
+      "kind": "metadata_or_documentation_path_strings_only"
+    },
+    {
+      "member": "code/data_io.py",
+      "path_literals_replaced": 1,
+      "replacement_placeholders": [
+        "<TEP_DATA_ROOT>"
+      ],
+      "kind": "source_default_path_literals_only"
+    },
+    {
+      "member": "scores/PARITY_CHECKS.json",
+      "path_literals_replaced": 30,
+      "replacement_placeholders": [
+        "<RUN_OUTPUT_ROOT>/scores/D01/fault_audit.npz",
+        "<RUN_OUTPUT_ROOT>/scores/D01/normal_audit.npz",
+        "<RUN_OUTPUT_ROOT>/scores/D01/normal_outer_calibration.npz",
+        "<RUN_OUTPUT_ROOT>/scores/D02/fault_audit.npz",
+        "<RUN_OUTPUT_ROOT>/scores/D02/normal_audit.npz",
+        "<RUN_OUTPUT_ROOT>/scores/D02/normal_outer_calibration.npz",
+        "<RUN_OUTPUT_ROOT>/scores/D03/fault_audit.npz",
+        "<RUN_OUTPUT_ROOT>/scores/D03/normal_audit.npz",
+        "<RUN_OUTPUT_ROOT>/scores/D03/normal_outer_calibration.npz",
+        "<RUN_OUTPUT_ROOT>/scores/D04/fault_audit.npz",
+        "<RUN_OUTPUT_ROOT>/scores/D04/normal_audit.npz",
+        "<RUN_OUTPUT_ROOT>/scores/D04/normal_outer_calibration.npz",
+        "<RUN_OUTPUT_ROOT>/scores/D05/fault_audit.npz",
+        "<RUN_OUTPUT_ROOT>/scores/D05/normal_audit.npz",
+        "<RUN_OUTPUT_ROOT>/scores/D05/normal_outer_calibration.npz",
+        "<RUN_OUTPUT_ROOT>/scores/D06/fault_audit.npz",
+        "<RUN_OUTPUT_ROOT>/scores/D06/normal_audit.npz",
+        "<RUN_OUTPUT_ROOT>/scores/D06/normal_outer_calibration.npz",
+        "<RUN_OUTPUT_ROOT>/scores/D07/fault_audit.npz",
+        "<RUN_OUTPUT_ROOT>/scores/D07/normal_audit.npz",
+        "<RUN_OUTPUT_ROOT>/scores/D07/normal_outer_calibration.npz",
+        "<RUN_OUTPUT_ROOT>/scores/D08/fault_audit.npz",
+        "<RUN_OUTPUT_ROOT>/scores/D08/normal_audit.npz",
+        "<RUN_OUTPUT_ROOT>/scores/D08/normal_outer_calibration.npz",
+        "<RUN_OUTPUT_ROOT>/scores/D09/fault_audit.npz",
+        "<RUN_OUTPUT_ROOT>/scores/D09/normal_audit.npz",
+        "<RUN_OUTPUT_ROOT>/scores/D09/normal_outer_calibration.npz",
+        "<RUN_OUTPUT_ROOT>/scores/D10/fault_audit.npz",
+        "<RUN_OUTPUT_ROOT>/scores/D10/normal_audit.npz",
+        "<RUN_OUTPUT_ROOT>/scores/D10/normal_outer_calibration.npz"
+      ],
+      "kind": "metadata_or_documentation_path_strings_only"
+    }
+  ],
+  "changed_members": [
+    {
+      "member": "INPUT_ACCESS.json",
+      "reason": "metadata_or_documentation_path_strings_only",
+      "original_size_bytes": 712,
+      "distributed_size_bytes": 585,
+      "original_sha256": "20c013b2687fd2280a74ae7ab6ef1dd33d599b8fbaa2cfe28cbb78873e014f94",
+      "distributed_sha256": "2786f9987053df0c4b246b4a747b27e8ab3a11962a54efe2e8028115ac80bae7"
+    },
+    {
+      "member": "RUNTIME_PROBES.json",
+      "reason": "metadata_or_documentation_path_strings_only",
+      "original_size_bytes": 151,
+      "distributed_size_bytes": 117,
+      "original_sha256": "fe6a7125874d9b901d81a5b100b5b6f7742de7cb32dd43ff111f6a07612c69f3",
+      "distributed_sha256": "25235a1cdab27ce8b51c4a216dea5fd6d3d607af0d7bb844f49668a75642d5ea"
+    },
+    {
+      "member": "code/data_io.py",
+      "reason": "source_default_path_literals_only",
+      "original_size_bytes": 6387,
+      "distributed_size_bytes": 6343,
+      "original_sha256": "872b80b24244375e3003e61d2392b3498736400d59b51176e7c203665648e48f",
+      "distributed_sha256": "5c6c910494f59ad29fefb49da9ceefed2d06e68c387ecd3d70abaf2adf33e636"
+    },
+    {
+      "member": "scores/PARITY_CHECKS.json",
+      "reason": "metadata_or_documentation_path_strings_only",
+      "original_size_bytes": 35214,
+      "distributed_size_bytes": 34104,
+      "original_sha256": "5e8eda4e3b1b4bb76f1020717066f57fd9ffe1028784ff1f58d6ab26142331a4",
+      "distributed_sha256": "a7cc352a13d1fd3ae13cc87f9f138af0a01d09faf85f0a7f1e5fccec1622fc25"
+    },
+    {
+      "member": "PAYLOAD_MANIFEST.json",
+      "reason": "regenerated_manifest_for_distributed_member_bytes",
+      "original_size_bytes": 7888,
+      "distributed_size_bytes": 7889,
+      "original_sha256": "8673194777357f9ccc4b72047f9d5e7f49a3e77db80f0462a92e6258409be14a",
+      "distributed_sha256": "2cbfdc0fcda64d980dbb1b2c544804deb2fa00761f8fc1d4297f9166ad1ff2eb"
+    },
+    {
+      "member": "RESULTS_SHA256.txt",
+      "reason": "regenerated_manifest_for_distributed_member_bytes",
+      "original_size_bytes": 12762,
+      "distributed_size_bytes": 12762,
+      "original_sha256": "755af31e8afd2e6ab3a6761fc48aaf2e19ceb37c334bba17c9409c8bf8f97447",
+      "distributed_sha256": "33afce2b1a93d1cb5df123aba70a9f29514437bf5820ae98f1dbf504345ac4be"
+    }
+  ],
+  "preservation": {
+    "original_member_count": 136,
+    "distributed_member_count": 136,
+    "member_names_and_order_identical": true,
+    "unchanged_members_byte_identical": 130,
+    "all_npz_and_csv_members_byte_identical": true,
+    "npz_members_preserved": 92,
+    "csv_members_preserved": 0,
+    "changed_json_numerical_values_preserved": true,
+    "modified_python_ast_changes_only_path_string_literals": true,
+    "immutable_original_source_binding_members_byte_identical": [
+      "SOURCE_BINDING.json"
+    ],
+    "source_binding_policy": "These members retain historical original source hashes. They are not rewritten to assert that sanitized derivatives are original inputs."
+  },
+  "validation": {
+    "all_distributed_manifests_match": {
+      "PAYLOAD_MANIFEST.json": {
+        "entries": 79,
+        "all_match": true
+      },
+      "RESULTS_SHA256.txt": {
+        "entries": 135,
+        "all_match": true
+      }
+    },
+    "all_zip_members_read_crc_valid": true,
+    "absolute_machine_path_scan_matches_in_distributed_text": 0,
+    "original_numeric_and_string_npz_payloads_unchanged": true,
+    "modified_python_syntax_validated_without_execution": true
+  },
+  "use_note": "These ZIPs have new archive identities and must not be passed as original hash-bound inputs without an explicit adapter supporting the distributed hashes. The current-study D2/D3 scripts remain unchanged. For reuse of archived raw-data routines, supply explicit --matrix and --normal paths; for launcher reuse supply --python. The redacted DEFAULT_BASE and interpreter candidate literals are placeholders, not working default paths."
+}

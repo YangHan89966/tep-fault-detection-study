@@ -1,0 +1,54 @@
+{
+    "script": "scripts/04_local_residual_screening.py",
+    "fault_id": 3,
+    "fault_start_sample": 161,
+    "pca_cumvar_target": 0.95,
+    "selected_n_pcs": 36,
+    "cumulative_explained_variance": 0.9581997268001302,
+    "direction_ratio_threshold": 0.95,
+    "n_direction_stable_variables": 47,
+    "n_selected_variables_target": 5,
+    "n_selected_variables_final": 5,
+    "selection_rule": "First keep residual variables with direction_ratio >= 0.95; then rank these variables by abs_mean_delta and select the top 5 variables.",
+    "screening_data": {
+        "normal": "normal_validation_runs_1_250.pkl",
+        "fault3": "fault3_development_runs_1_250.pkl",
+        "pairing": "simulationRun + sample",
+        "screening_samples": ">= 161"
+    },
+    "selected_variables": [
+        "xmeas_21",
+        "xmeas_2",
+        "xmv_1",
+        "xmv_10",
+        "xmeas_9"
+    ],
+    "selected_residual_variables": [
+        "res_xmeas_21",
+        "res_xmeas_2",
+        "res_xmv_1",
+        "res_xmv_10",
+        "res_xmeas_9"
+    ],
+    "selected_directions": [
+        "negative",
+        "negative",
+        "negative",
+        "positive",
+        "negative"
+    ],
+    "selected_signs": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1
+    ],
+    "figure": "${TEP_EXPLORATORY_ROOT}\\FAULT3_CORE_CHAIN_E1B_R1.__RUNNING__\\results\\figures\\fig2_fault3_local_signed_residual_shifts.png",
+    "output_tables": {
+        "all_metrics": "results/tables/04_fault3_residual_direction_metrics.csv",
+        "direction_stable": "results/tables/04_fault3_direction_stable_residuals.csv",
+        "selected": "results/tables/04_fault3_auto_selected_signed_residuals.csv",
+        "sample_mean_shift": "results/tables/04_selected_signed_residual_shift_by_sample.csv"
+    }
+}

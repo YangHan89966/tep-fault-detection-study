@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "runs": 199,
+  "records_checked": 191040,
+  "alarm_bits_checked": 382080,
+  "max_endpoint_chart_error": 0.0,
+  "protocol_sha256": "385260242ae76d47d4410f3024b483fe03d74a3453b8d902aa4b05341c088a97",
+  "wall_seconds": 184.2486134030005
+}

@@ -1,0 +1,425 @@
+{
+  "scope": "Historical frozen input identities before reader-facing release transformations; these hashes are not a current inventory. See FILE_MANIFEST.csv for current distributed files.",
+  "files": [
+    {
+      "path": "assets/pca500.npz",
+      "bytes": 19882,
+      "sha256": "e8d334f9201d41bb240a46d09925b358a0b38a9a74d5193a7fd9f9b1782d1d33"
+    },
+    {
+      "path": "assets/basis500.npy",
+      "bytes": 6784,
+      "sha256": "91967c40bbdaa784fcefcbc0246b7053446522764fe258a0d5a1c8fa187a1405"
+    },
+    {
+      "path": "assets/R5/rep01/F03/MODEL.npz",
+      "bytes": 2473,
+      "sha256": "de78818d371e24601eb46072ca6f63abf0e618898da480422ad7dcf36bc92879"
+    },
+    {
+      "path": "assets/R5/rep01/F03/PARAMETERS.npz",
+      "bytes": 2042,
+      "sha256": "b4cfa03e9574117f24fed290fc1900991dd01a0c99e3edca80bedf98cc287e27"
+    },
+    {
+      "path": "assets/R5/rep01/F03/OUTER.npz",
+      "bytes": 96942,
+      "sha256": "00490fd2895f488a11db151867ec9b7450839255ccf1f5f5b10240830d11a677"
+    },
+    {
+      "path": "assets/R5/rep01/F03/DESIGN.npz",
+      "bytes": 9056,
+      "sha256": "e76ce7dfe644a1ba996414a39c099ff2a7b6803d4bf86b58d3f03450f7b3e455"
+    },
+    {
+      "path": "assets/R5/rep01/F03/SELECTION.json",
+      "bytes": 1420,
+      "sha256": "54dc3613f15856cae56725e67b2e6c0650b06e52cbacae15980fd6a653a0b43f"
+    },
+    {
+      "path": "assets/R5/rep01/F15/MODEL.npz",
+      "bytes": 2473,
+      "sha256": "66a4a4c18b9681006bb481e0e87de537b6a2ba614cd7e22b13dfccbeb4eda47e"
+    },
+    {
+      "path": "assets/R5/rep01/F15/PARAMETERS.npz",
+      "bytes": 2048,
+      "sha256": "355cf0f674a1126ae3d41ebb554f2628a7ee275748ae57c1dbad2fdd96ac1226"
+    },
+    {
+      "path": "assets/R5/rep01/F15/OUTER.npz",
+      "bytes": 96916,
+      "sha256": "90fa736a434f6fc05428ec0bf447deeea42e1eac184b288aeb97e5def232cba9"
+    },
+    {
+      "path": "assets/R5/rep01/F15/DESIGN.npz",
+      "bytes": 9056,
+      "sha256": "e76ce7dfe644a1ba996414a39c099ff2a7b6803d4bf86b58d3f03450f7b3e455"
+    },
+    {
+      "path": "assets/R5/rep01/F15/SELECTION.json",
+      "bytes": 1422,
+      "sha256": "f3d50fc6030728ce57f61224fd29421f7fa6d96ab024e0286a095fa17c07d38a"
+    },
+    {
+      "path": "assets/R5/rep02/F03/MODEL.npz",
+      "bytes": 2470,
+      "sha256": "ad795d1a30bce580d2fefd58ad6303e25cc1ccda5fa0bb8056854607c7f5ef41"
+    },
+    {
+      "path": "assets/R5/rep02/F03/PARAMETERS.npz",
+      "bytes": 2037,
+      "sha256": "638059c647e1873e731c32bc0857bdf775b24f3d0eba7fe9044d5ce36d9eaaa4"
+    },
+    {
+      "path": "assets/R5/rep02/F03/OUTER.npz",
+      "bytes": 97052,
+      "sha256": "12915f64525d9d37008a831ca3ccce3e1a17a587d90b6487a9ed779a68ef5786"
+    },
+    {
+      "path": "assets/R5/rep02/F03/DESIGN.npz",
+      "bytes": 9066,
+      "sha256": "8ee9656dd3fb72541cc43176bb877295ba4bfba98346e1ce237f4d46af2e1512"
+    },
+    {
+      "path": "assets/R5/rep02/F03/SELECTION.json",
+      "bytes": 1421,
+      "sha256": "31a621aaa158cc6caa2ec739e9f6b5f8605dafbebfed60d7ed2eb0416086c974"
+    },
+    {
+      "path": "assets/R5/rep02/F15/MODEL.npz",
+      "bytes": 2462,
+      "sha256": "311f0a427aa7a583371e07c1ddd57b7688515e706435340430c52b0d66eaf21a"
+    },
+    {
+      "path": "assets/R5/rep02/F15/PARAMETERS.npz",
+      "bytes": 2044,
+      "sha256": "937fc0295197d242473210857107a5f8044ae1418a7e7e5da900e76b890289c5"
+    },
+    {
+      "path": "assets/R5/rep02/F15/OUTER.npz",
+      "bytes": 97025,
+      "sha256": "88245811e64609ed0fee763b522359fb4b8074c8097655f218ab35ad2e69efb0"
+    },
+    {
+      "path": "assets/R5/rep02/F15/DESIGN.npz",
+      "bytes": 9066,
+      "sha256": "8ee9656dd3fb72541cc43176bb877295ba4bfba98346e1ce237f4d46af2e1512"
+    },
+    {
+      "path": "assets/R5/rep02/F15/SELECTION.json",
+      "bytes": 1422,
+      "sha256": "637785c5b535d9aa11032b38fb6529ebf5dd4300dde6ae1993962914cd03aa68"
+    },
+    {
+      "path": "assets/R5/rep03/F03/MODEL.npz",
+      "bytes": 2469,
+      "sha256": "dac088d06aac0eefaf723ea9a107b3525b336ead031e1b2b8e499d70df98a278"
+    },
+    {
+      "path": "assets/R5/rep03/F03/PARAMETERS.npz",
+      "bytes": 2045,
+      "sha256": "20535b4018ccac28edcf330091fa34dd6e58630911304378aee923fe49307a67"
+    },
+    {
+      "path": "assets/R5/rep03/F03/OUTER.npz",
+      "bytes": 96988,
+      "sha256": "3f70683dbe84ce364d52615b33e7f17517faecfe93cdc4256ea8ddc383fb3b7d"
+    },
+    {
+      "path": "assets/R5/rep03/F03/DESIGN.npz",
+      "bytes": 9062,
+      "sha256": "7f1582a26fc7d52979b8e37fb840994b924619b8e893ef2755b44cafc3a714a9"
+    },
+    {
+      "path": "assets/R5/rep03/F03/SELECTION.json",
+      "bytes": 1420,
+      "sha256": "4f82be081c0641323dc444792a2ebcb0e6f57a5a247e5d387409bc16539a2bf5"
+    },
+    {
+      "path": "assets/R5/rep03/F15/MODEL.npz",
+      "bytes": 2466,
+      "sha256": "65463607b6948fc8aa3172f738b09fe50d295483a5a31689ce6170b2d4ceff73"
+    },
+    {
+      "path": "assets/R5/rep03/F15/PARAMETERS.npz",
+      "bytes": 2030,
+      "sha256": "c7ec7d7286d8f2f24e53bdfcf1082edf4f0d2b9ba4ad6100c30e5a2b143e0b8d"
+    },
+    {
+      "path": "assets/R5/rep03/F15/OUTER.npz",
+      "bytes": 97005,
+      "sha256": "086dae40e37fe39f516facd8c02385bbe1cb7198c6fe19bf3c76818df336f7ec"
+    },
+    {
+      "path": "assets/R5/rep03/F15/DESIGN.npz",
+      "bytes": 9062,
+      "sha256": "7f1582a26fc7d52979b8e37fb840994b924619b8e893ef2755b44cafc3a714a9"
+    },
+    {
+      "path": "assets/R5/rep03/F15/SELECTION.json",
+      "bytes": 1421,
+      "sha256": "fd70a54345254ff126bfb587ad1b734e9c77c5c93913ac39e0de615953347ba5"
+    },
+    {
+      "path": "assets/R5/rep04/F03/MODEL.npz",
+      "bytes": 2470,
+      "sha256": "7966b618a7030d70094d99f0bd0b2e5a49098f39afbb22a155ae745d357df739"
+    },
+    {
+      "path": "assets/R5/rep04/F03/PARAMETERS.npz",
+      "bytes": 2039,
+      "sha256": "bfbfcead481be2e2d13e77fb473fc786193ee94697643c38219f45045e0d2787"
+    },
+    {
+      "path": "assets/R5/rep04/F03/OUTER.npz",
+      "bytes": 96905,
+      "sha256": "49d3fa16eccfd4489d22f139bcc98fd3e37868658da4558ef13aac27f2292197"
+    },
+    {
+      "path": "assets/R5/rep04/F03/DESIGN.npz",
+      "bytes": 9056,
+      "sha256": "99f38ad65c413d5c88ab75717ba7e0d905fab6a8643ff538fce0a2fc734cc4ca"
+    },
+    {
+      "path": "assets/R5/rep04/F03/SELECTION.json",
+      "bytes": 1420,
+      "sha256": "04142b219139d6a8b79fe5b5e30e40a2cfc8effbc46a590d3716c3fc4b22fa63"
+    },
+    {
+      "path": "assets/R5/rep04/F15/MODEL.npz",
+      "bytes": 2469,
+      "sha256": "4f34f38b4627a3267e078f4be429ebbc7e8d56f265535dc0521e37da21622a92"
+    },
+    {
+      "path": "assets/R5/rep04/F15/PARAMETERS.npz",
+      "bytes": 2046,
+      "sha256": "d2576ac7bec83f8c01390474dc3d025ce211db676c68116f166fc0d8dec952e5"
+    },
+    {
+      "path": "assets/R5/rep04/F15/OUTER.npz",
+      "bytes": 96942,
+      "sha256": "8dffd76911ed6e15452cde199d380104cc4bf88651683069e5ecc07c7b457553"
+    },
+    {
+      "path": "assets/R5/rep04/F15/DESIGN.npz",
+      "bytes": 9056,
+      "sha256": "99f38ad65c413d5c88ab75717ba7e0d905fab6a8643ff538fce0a2fc734cc4ca"
+    },
+    {
+      "path": "assets/R5/rep04/F15/SELECTION.json",
+      "bytes": 1422,
+      "sha256": "b94bd3aad8d4cc31f2d7880b66c24f733813fd269672069dbef035a4e9e048e9"
+    },
+    {
+      "path": "assets/R5/rep05/F03/MODEL.npz",
+      "bytes": 2465,
+      "sha256": "5e3fb90fd4d8ef58102629047ceb51f1fab2c34426ed6b6604af6df39ff5622a"
+    },
+    {
+      "path": "assets/R5/rep05/F03/PARAMETERS.npz",
+      "bytes": 2040,
+      "sha256": "9d8d5ed8668285c1572d329e8106b7eb9e50958407b150537df60d92f3e9612c"
+    },
+    {
+      "path": "assets/R5/rep05/F03/OUTER.npz",
+      "bytes": 96967,
+      "sha256": "c402640368d18408f70dc0f3d58c4eefa7839390caf58f78c01943bb0add65d2"
+    },
+    {
+      "path": "assets/R5/rep05/F03/DESIGN.npz",
+      "bytes": 9055,
+      "sha256": "950efe9d72601810c58b300937ab84d1903b8f228b31a87e5e74d845b975eb19"
+    },
+    {
+      "path": "assets/R5/rep05/F03/SELECTION.json",
+      "bytes": 1421,
+      "sha256": "ef6be3bd76029ea4e0fd099311913d3ede25b47ae95940e4aad8c0df53b25ddf"
+    },
+    {
+      "path": "assets/R5/rep05/F15/MODEL.npz",
+      "bytes": 2472,
+      "sha256": "59861afadf9ebbaf7745e40570f9e09a80aee66bb4292c549cf14e1df40e6ef0"
+    },
+    {
+      "path": "assets/R5/rep05/F15/PARAMETERS.npz",
+      "bytes": 2039,
+      "sha256": "59dd462916ca79b35c923f7465c1d842951aa2616acb2be2b423d88294ffce7f"
+    },
+    {
+      "path": "assets/R5/rep05/F15/OUTER.npz",
+      "bytes": 96976,
+      "sha256": "8ed0ed6323c0047167587982f38b303e219d6a3e4ce4584921a42333b388a3bb"
+    },
+    {
+      "path": "assets/R5/rep05/F15/DESIGN.npz",
+      "bytes": 9055,
+      "sha256": "950efe9d72601810c58b300937ab84d1903b8f228b31a87e5e74d845b975eb19"
+    },
+    {
+      "path": "assets/R5/rep05/F15/SELECTION.json",
+      "bytes": 1422,
+      "sha256": "1992bb23603b39d2105145a90f95ae747469c07709b03bcae4b528f1ff10a7fa"
+    },
+    {
+      "path": "assets/FIXED_AFFINE_MAPS.npz",
+      "bytes": 1935,
+      "sha256": "7a20407a0fafa0028931de8d73c32b2ceae9585175e59dadd836777a97efcf66"
+    },
+    {
+      "path": "engine/code/horizon.py",
+      "bytes": 6527,
+      "sha256": "7b19f1f36ddfaee1ae50bb0cd4ef910f49216bb20a4a377dff4870c7ef29df0c"
+    },
+    {
+      "path": "engine/code/fault_extension.py",
+      "bytes": 5152,
+      "sha256": "22191446c346785d614394fff9af652f7b7975d0aff247bce3ec7ba8adab863f"
+    },
+    {
+      "path": "engine/code/dual_core.py",
+      "bytes": 10701,
+      "sha256": "e10a7f88ede07e8b0c807623c8ec0ceda180164370be11e46a025ea25d36d77d"
+    },
+    {
+      "path": "engine/code/fault_core.py",
+      "bytes": 5138,
+      "sha256": "b70f699121a86cf1b1bca8302ef8ae67427553cfc6270c4c6e935451507072bd"
+    },
+    {
+      "path": "engine/source_notes/ORIGINAL_SOURCE_IDENTITIES.json",
+      "bytes": 8529,
+      "sha256": "160ee9840612a9aca6cfcda018a57029238ba9a81385be4daf5e6358c9cab606"
+    },
+    {
+      "path": "engine/vendor/meson.options",
+      "bytes": 207,
+      "sha256": "114cb63b5b3129d3bb1c352f7955cb660503d852a1657b6414f40f586379e30f"
+    },
+    {
+      "path": "engine/vendor/meson.build",
+      "bytes": 714,
+      "sha256": "f89688fbd925775b26b66d6b9e003ab184f0bae6ab38f9f6ef5c592b3da5e670"
+    },
+    {
+      "path": "engine/vendor/LICENSE",
+      "bytes": 3367,
+      "sha256": "70a00a943dd2ef2a1749e694fca4340b588a9c71764e9860d4854e1362a8030d"
+    },
+    {
+      "path": "engine/vendor/README.md",
+      "bytes": 30296,
+      "sha256": "8d94edeb9e182f9e64f40a27fcfa1ead7f38c62d7dd09a76e0ebc0d29998f2c3"
+    },
+    {
+      "path": "engine/vendor/pyproject.toml",
+      "bytes": 1686,
+      "sha256": "0b09addcdc4f39ce109b968113ce51901da05b9a52058c5e7c8c73e43f18b8bb"
+    },
+    {
+      "path": "engine/vendor/fortran/teprob.pyf",
+      "bytes": 1287,
+      "sha256": "e62e5de9e029c82fde596ef38676fb4071e833cab198a10b72549d23ddca3e38"
+    },
+    {
+      "path": "engine/vendor/fortran/meson.build",
+      "bytes": 773,
+      "sha256": "190a97ee702ca4133ed137935bf1bf2f577addf81599e477448a3b80538599f3"
+    },
+    {
+      "path": "engine/vendor/fortran/teprob.f",
+      "bytes": 39159,
+      "sha256": "bb9281ae52f91b9292214f54ad299c048b768bac152b524c38494dc65c8f485b"
+    },
+    {
+      "path": "engine/vendor/fortran/temain_mod.f",
+      "bytes": 35607,
+      "sha256": "0d185049f4ac61761c36b5563634487187754c823d6cf4bc2b150142bf8a1d51"
+    },
+    {
+      "path": "engine/vendor/src/tep/constants.py",
+      "bytes": 22976,
+      "sha256": "2ede4740c3016ed54d8bcfa96f0806f1b563b5bb409cac3e38219edbb2dc8773"
+    },
+    {
+      "path": "engine/vendor/src/tep/controller_base.py",
+      "bytes": 12210,
+      "sha256": "4b64e21f837bedb5e584da6dde3809788620318ae226ebde39aa849dc0b0c047"
+    },
+    {
+      "path": "engine/vendor/src/tep/simulator.py",
+      "bytes": 25086,
+      "sha256": "a9be40f48f99bf1e772f01c6d3aed34ee84cf0272d6d12b913a8776a2b5342be"
+    },
+    {
+      "path": "engine/vendor/src/tep/__init__.py",
+      "bytes": 4831,
+      "sha256": "5d428aa2c5ccd20ca36d1e47a99b4943f2ccf11019156c1101cfdfeb475cee6d"
+    },
+    {
+      "path": "engine/vendor/src/tep/fortran_backend.py",
+      "bytes": 8816,
+      "sha256": "a8e6fa320e624be0f381629befb15cdfdb0a6ba5a26e1bed29b03a1f9128141c"
+    },
+    {
+      "path": "engine/vendor/src/tep/detector_plugins.py",
+      "bytes": 31325,
+      "sha256": "be7d3c01b54b5c5d86fc079f79fc1b5a90e7116130a00841ef368a014fde787e"
+    },
+    {
+      "path": "engine/vendor/src/tep/meson.build",
+      "bytes": 500,
+      "sha256": "df4de4a9d0831af4e143747d0031ce3bbcb1bf9b3ed892d2fb73ca2be14bbbad"
+    },
+    {
+      "path": "engine/vendor/src/tep/cli.py",
+      "bytes": 20482,
+      "sha256": "1b054bb06d1df56eb8ada779d721b8083bfc1d24a8a55088a476c74f1783f5c8"
+    },
+    {
+      "path": "engine/vendor/src/tep/controllers.py",
+      "bytes": 22048,
+      "sha256": "6443e35e80a3f1e731f7ab75f3a165154c1211eaa037ff6df8e474e6ebcf2df6"
+    },
+    {
+      "path": "engine/vendor/src/tep/dashboard_dash.py",
+      "bytes": 50526,
+      "sha256": "4d1ccd2ae62e64e61b433c43c27f6f14d6e9bfacc267fff019e6e6f4bd6afec2"
+    },
+    {
+      "path": "engine/vendor/src/tep/detector_base.py",
+      "bytes": 34192,
+      "sha256": "fd73d1d7373c2f582c57b2ca59c28f1843d7fcb159e4e12068e2bc10b8085fc5"
+    },
+    {
+      "path": "engine/vendor/src/tep/controller_plugins.py",
+      "bytes": 33337,
+      "sha256": "65e217222552ea09dfc857f18c80594e6619d32bd7bd3c3d7fc0ee7161171e81"
+    },
+    {
+      "path": "engine/vendor/src/tep/python_backend.py",
+      "bytes": 51371,
+      "sha256": "9a85da44436861d4af57cebf4b1c6f27c6cbe2fc216e7343405f9102992dfd8f"
+    },
+    {
+      "path": "engine/vendor/src/tep/_fortran/__init__.py",
+      "bytes": 246,
+      "sha256": "2fb5c41960316903596c17b1569b9251e4f3b988c901c6373fe0c02fcf1ae049"
+    },
+    {
+      "path": "engine/vendor/src/tep/_fortran/meson.build",
+      "bytes": 1047,
+      "sha256": "91a279247def0442c51b65e48eed7f8d83f26d96c92e73adc8e000e622c21194"
+    },
+    {
+      "path": "reference/inherited_dim.py",
+      "bytes": 15994,
+      "sha256": "12f87f95b45573e4a64cf1f006ce034bc8abec6b19208aabacfb242163e0dafd"
+    },
+    {
+      "path": "reference/alarm_math.py",
+      "bytes": 4533,
+      "sha256": "5a49d0995c15beec8d861118bda9f5750a4df625f6affed7336ca2d483be6488"
+    }
+  ]
+}

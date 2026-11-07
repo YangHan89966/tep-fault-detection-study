@@ -1,0 +1,13 @@
+Variable,Description,Variance of the difference,Noise part,Process part,2 × covariance,Noise share (%),Process share (%)
+XMEAS1,A feed,2.7441,1.9965,0.1383,0.6093,72.76,5.04
+XMEAS2,D feed,2.5464,2.0013,0.0772,0.4679,78.60,3.03
+XMEAS3,E feed,2.5458,2.0000,0.0772,0.4686,78.56,3.03
+XMEAS4,A and C feed,3.1800,1.9979,0.7618,0.4204,62.83,23.95
+XMEAS5,Recycle flow,2.4288,2.0040,0.0476,0.3772,82.51,1.96
+XMEAS6,Reactor feed rate,2.0090,2.0080,0.0010,0.0000,99.95,0.0474
+XMEAS10,Purge rate,2.9443,1.9930,0.2141,0.7372,67.69,7.27
+XMEAS12,Separator liquid level,2.0020,1.9993,0.0001,0.0025,99.87,0.0051
+XMEAS14,Separator underflow,42.0070,1.9976,40.0259,−0.0165,4.76,95.28
+XMEAS15,Stripper liquid level,1.9996,1.9964,0.0004,0.0029,99.84,0.0184
+XMEAS17,Stripper underflow,18.2648,1.9985,16.2928,−0.0265,10.94,89.20
+XMEAS19,Stripper steam flow,2.0236,2.0090,0.0002,0.0144,99.28,0.0091

@@ -1,0 +1,76 @@
+{
+  "validation_stage": "Validated scientific payload and code before final documentation/checksum assembly. The manifest hash embedded in source test records identifies that test-stage file set, not the final self-containing release manifest. Final release hashes include this report.",
+  "scientific_payload_unchanged_after_tests": true,
+  "csv_replay": {
+    "all_six_csv_byte_identical": true,
+    "csv": [
+      {
+        "file": "arm_summary.csv",
+        "original_sha256": "d71c00b6c2ef6679d0df88da1819591faafc64dbc2fb96c066fcae10da331cd3",
+        "replay_sha256": "d71c00b6c2ef6679d0df88da1819591faafc64dbc2fb96c066fcae10da331cd3",
+        "identical": true
+      },
+      {
+        "file": "five_state_averages.csv",
+        "original_sha256": "598c558ad7ec115ae73ef7a2ffd745bb55548df3cdf7fd995c816be5667b3518",
+        "replay_sha256": "598c558ad7ec115ae73ef7a2ffd745bb55548df3cdf7fd995c816be5667b3518",
+        "identical": true
+      },
+      {
+        "file": "per_run_events.csv",
+        "original_sha256": "a91b2a2e89f03edb47002b95246b93130739d8a2d9af590b4853e99db9649382",
+        "replay_sha256": "a91b2a2e89f03edb47002b95246b93130739d8a2d9af590b4853e99db9649382",
+        "identical": true
+      },
+      {
+        "file": "primary_contrasts.csv",
+        "original_sha256": "0e8fbe421ae18291d098b5209651d79b24ea429eb4c08a7bf87b52b843507a69",
+        "replay_sha256": "0e8fbe421ae18291d098b5209651d79b24ea429eb4c08a7bf87b52b843507a69",
+        "identical": true
+      },
+      {
+        "file": "secondary_contrasts.csv",
+        "original_sha256": "5ed9aecc8dbd3592d341b35f8a5fffdf874957c4ea1f620773577ee216e5f9ce",
+        "replay_sha256": "5ed9aecc8dbd3592d341b35f8a5fffdf874957c4ea1f620773577ee216e5f9ce",
+        "identical": true
+      },
+      {
+        "file": "shutdown_runs.csv",
+        "original_sha256": "70b596d62ee82b93882d7e8a154f74ec0eacf93adf8626a6ac76afa05284f556",
+        "replay_sha256": "70b596d62ee82b93882d7e8a154f74ec0eacf93adf8626a6ac76afa05284f556",
+        "identical": true
+      }
+    ],
+    "scope": "Actual publication package: saved charts to complete result tables; no simulation or retraining; publication file-manifest verification",
+    "environment": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0"
+    },
+    "checked_public_file_manifest_sha256": "e641f01ecb6c1d1b36434bac63029709011ff23c7065351840b90a8ebd12c102"
+  },
+  "raw_to_charts": {
+    "scope": "Stored RAW arrays through unchanged fixed scoring to stored CHARTS; no new simulations or fitting",
+    "checked_trajectories": 1199,
+    "exact_equal_trajectories": 1199,
+    "all_exact_equal": true,
+    "maximum_absolute_difference": 0.0,
+    "mismatches": [],
+    "environment": {
+      "python": "3.12.14",
+      "numpy": "2.3.5",
+      "platform": "Linux-6.18.55-x86_64-with-glibc2.41"
+    },
+    "written_utc": "2026-10-26T01:02:07.645866+00:00",
+    "publication_file_manifest_sha256": "e641f01ecb6c1d1b36434bac63029709011ff23c7065351840b90a8ebd12c102",
+    "scoring_code_sha256": "e0c206e481bde0bb1337b8f773ae2af0d68e1c8619e589e6db869c62625d23d2",
+    "verification_code_sha256": "9601f2d64c3e384b490d9c9315a90de9e9637ba095d9ed3625d4d199e0905477",
+    "interpretation": "Exact equality is environment-dependent; a mismatch must be investigated, not counted as success."
+  },
+  "negative_tests": {
+    "missing_raw_file_rejected": true,
+    "unlisted_extra_file_rejected": true,
+    "incorrect_sha256_rejected": true
+  },
+  "scientific_file_manifest_sha256": "3bcf5af71f2e3d0a4c8ec4042723cc906ea0a7d341bacd37a99ae547fcbf4e19",
+  "analysis_code_sha256": "0be42ee612339290c16a877db8c73d44a0408b0c98ea81ac290a1299cf92aac3"
+}

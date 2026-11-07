@@ -1,0 +1,43 @@
+Fault,Monitor,Recording,Variant,40 h,8 h,Normal alarms,Mean loss (min),Full − U*: Δ loss (min)
+3,"Full-pool monitor (mean-shift pool, Signed)",Post-update,–,120,61,5,500.1,
+,,Controller-input,–,119,119,3,147.7,
+,FDA-CUSUM,Post-update,–,120,3,5,963.7,
+,,Controller-input,–,120,70,7,477.5,
+,Q-CUSUM,Post-update,–,12,2,6,2294.3,
+,,Controller-input,–,10,0,4,2310.2,
+,U*,Post-update,"MEWMA-L, λ = 0.005",120,10,8,949.8,−449.7 (−511.1 to −390.7)
+,,Controller-input,"MEWMA-L, λ = 0.02",117,117,5,222.7,−75.0 (−151.7 to −1.4)
+,Selected MEWMA,Post-update,"MEWMA-L, λ = 0.005",120,10,8,949.8,
+,,Controller-input,"MEWMA-L, λ = 0.02",117,117,5,222.7,
+,Selected MCUSUM,Post-update,"MCUSUM-L, k = 0.25",120,2,3,989.3,
+,,Controller-input,"MCUSUM-L, k = 0.5",120,120,3,193.4,
+,Selected MEWMC,Post-update,"MEWMC, λ = 0.01",10,2,7,2290.2,
+,,Controller-input,"MEWMC, λ = 0.1",5,1,7,2353.4,
+9,"Relearned on each recording (second-moment pool, Signed)",Post-update,–,38,4,7,2056.3,
+,,Controller-input,–,119,85,7,401.1,
+,"Fixed historical monitor (second-moment pool, Signed)",Post-update,–,23,0,6,2228.5,
+,,Controller-input,–,113,39,9,929.8,
+,Q-CUSUM retrained on each recording,Post-update,–,13,0,7,2303.5,
+,,Controller-input,–,26,1,6,2226.8,
+,U*,Post-update,"MEWMA-L, λ = 0.05",10,2,6,2296.8,−240.5 (−365.9 to −116.6)
+,,Controller-input,"MEWMA-L, λ = 0.02",99,33,5,1203.8,−802.7 (−940.9 to −668.8)
+,Selected MEWMA,Post-update,"MEWMA-L, λ = 0.05",10,2,6,2296.8,
+,,Controller-input,"MEWMA-L, λ = 0.02",99,33,5,1203.8,
+,Selected MCUSUM,Post-update,"MCUSUM-L, k = 0.5",7,1,3,2326.3,
+,,Controller-input,"MCUSUM-L, k = 0.5",85,23,3,1452.8,
+,Selected MEWMC,Post-update,"MEWMC, λ = 0.05",13,0,12,2277.4,
+,,Controller-input,"MEWMC, λ = 0.1",6,2,7,2335.7,
+15,"Full-pool monitor (second-moment pool, Squared)",Post-update,–,103,3,9,1450.1,
+,,Controller-input,–,120,41,6,631.5,
+,Variance-ratio reference,Post-update,–,102,3,6,1520.6,
+,,Controller-input,–,119,40,9,708.0,
+,Q-CUSUM,Post-update,–,18,1,6,2280.0,
+,,Controller-input,–,22,0,4,2271.4,
+,U*,Post-update,"MEWMC, λ = 0.01",11,2,7,2276.5,−826.4 (−950.6 to −698.1)
+,,Controller-input,"MEWMC, λ = 0.01",91,23,12,1347.3,−715.9 (−852.1 to −580.6)
+,Selected MEWMA,Post-update,"MEWMA-I, λ = 0.02",4,0,8,2362.4,
+,,Controller-input,"MEWMA-I, λ = 0.1",58,14,7,1723.5,
+,Selected MCUSUM,Post-update,"MCUSUM-I, k = 0.1",4,0,3,2362.1,
+,,Controller-input,"MCUSUM-I, k = 0.5",43,7,1,1957.8,
+,Selected MEWMC,Post-update,"MEWMC, λ = 0.01",11,2,7,2276.5,
+,,Controller-input,"MEWMC, λ = 0.01",91,23,12,1347.3,

@@ -1,0 +1,124 @@
+{
+  "status": "PASS",
+  "scope": "Independent statistical and implementation review of existing400 normal-run checkpoints; no noise recovery repeated, no simulation, fitting, recalibration, or additional data generation.",
+  "method": "Sequential Chan covariance merging of per-run centered statistics, followed by direct named covariance arithmetic; independent of the production Q-matrix and global-mean aggregation implementations.",
+  "n_runs": 400,
+  "n_observations": 384000,
+  "feature_count": 27,
+  "score_ddof": 1,
+  "measurement_ddof": 0,
+  "source_summary_sha256": "4c64e9bbf826b24e3a5b77d2b75c319b2d4d6879fe216ecb72d75b7ddcb46967",
+  "summarize_script_sha256": "ee5de44a65cb0b5406548d798582240b98b15f02985ed269a3588e04bc6a8946",
+  "checkpoint_schema_and_run_id_checks": 400,
+  "all_point_estimates_checked": 41,
+  "max_point_estimate_abs_error": 4.440892098500626e-15,
+  "independent_endpoint_and_substitution_variances": {
+    "variance_rho0": 2.2000291801902443,
+    "variance_controller_input": 1.0003449678721514,
+    "variance_post_update": 3.3630261611087726,
+    "variance_post_continuous_to_CI": 1.0003449678721514,
+    "variance_post_analyzers_to_CI": 3.3630261611087726,
+    "variance_post_all41_to_CI": 1.0003449678721514,
+    "variance_post_XMEAS17_to_CI": 2.1730025962985673,
+    "variance_post_all10flows_to_CI": 1.7721641986894663,
+    "variance_post_continuous_except17_to_CI": 2.5639728713443395,
+    "variance_bridge_continuous": 3.34470276736162,
+    "variance_bridge_analyzers": 2.2000291801902443,
+    "variance_bridge_all": 3.34470276736162,
+    "variance_bridge_XMEAS17": 3.207165283603604
+  },
+  "independent_exact_five_terms": {
+    "variance_T": 1.4416655886555816,
+    "twice_cov_s0_T": -0.29699200148420446,
+    "variance_E": 1.3507700317822944,
+    "twice_cov_s0_E": -1.3369321907709595,
+    "twice_cov_T_E": 0.004485552735813587
+  },
+  "independent_exact_endpoint_blocks": {
+    "within_C": -0.0020990328559049587,
+    "within_A": -0.0002183920110730153,
+    "within_U": 0.0,
+    "cross_C_A": 0.004591169601933842,
+    "cross_C_U": 1.1568565214802593,
+    "cross_A_U": 0.0038667147033165095
+  },
+  "independent_gap": 1.1629969809185283,
+  "closure_errors": {
+    "five_terms_minus_endpoint_gap": -2.6645352591003757e-15,
+    "block_terms_minus_endpoint_gap": 3.3306690738754696e-15,
+    "bridge_telescoping": 0.0,
+    "signal_allocations_minus_bridge": 1.7763568394002505e-15,
+    "continuous_substitution_minus_CI": 0.0,
+    "analyzer_substitution_minus_post": 0.0
+  },
+  "bootstrap_review": {
+    "weights_sum_to400_all_draws": true,
+    "saved_run_order_matches": true,
+    "first3_seeded_weight_vectors_reproduce_exactly": true,
+    "direct_merge_draws_checked": [
+      {
+        "draw_index_zero_based": 0,
+        "max_metric_abs_error": 9.452508220597622e-15,
+        "pooled_n": 384000
+      },
+      {
+        "draw_index_zero_based": 1,
+        "max_metric_abs_error": 9.204442763532938e-15,
+        "pooled_n": 384000
+      },
+      {
+        "draw_index_zero_based": 2,
+        "max_metric_abs_error": 3.774758283725532e-15,
+        "pooled_n": 384000
+      },
+      {
+        "draw_index_zero_based": 7,
+        "max_metric_abs_error": 6.760217385881617e-15,
+        "pooled_n": 384000
+      },
+      {
+        "draw_index_zero_based": 99,
+        "max_metric_abs_error": 6.225055193542772e-15,
+        "pooled_n": 384000
+      },
+      {
+        "draw_index_zero_based": 999,
+        "max_metric_abs_error": 6.0889878208958415e-15,
+        "pooled_n": 384000
+      },
+      {
+        "draw_index_zero_based": 10000,
+        "max_metric_abs_error": 7.525230438787389e-15,
+        "pooled_n": 384000
+      },
+      {
+        "draw_index_zero_based": 19999,
+        "max_metric_abs_error": 8.449838051483027e-15,
+        "pooled_n": 384000
+      }
+    ],
+    "all_percentile_interval_endpoints_checked": 82,
+    "max_percentile_interval_abs_error": 0.0,
+    "draws_total": 20000,
+    "seed": 2026110301
+  },
+  "variable_level_review": {
+    "variables_checked": 41,
+    "max_component_covariance_abs_error": 2.842170943040401e-14,
+    "max_decomposition_identity_error": 3.138114768042044e-14
+  },
+  "association_recomputed": {
+    "correlation": 0.8832633235114576,
+    "slope_per_nominal_noise_SD": 0.4105352728278734
+  },
+  "interpretation_notes": [
+    "post-to-CI substitution and post-to-rho0 decomposition are different contrasts and must be labeled separately.",
+    "The cross_C_U covariance-difference term accounts for approximately99.47% of the endpoint variance gap; the C marginal-variance-difference term is near zero.",
+    "The common-noise signal bridge and endpoint covariance blocks are alternative decompositions of related contrasts and must not be added together.",
+    "Current-noise subtraction retains effects of original controller-input noise propagated into plant or actuator signals.",
+    "Common-noise allocation is descriptive and conditional on the archived trajectories, frozen map, and one replacement-noise realization.",
+    "XMEAS17-to-CI alone reduces the post score variance by more than the post-minus-rho0 gap; this is not a contradiction because the contrasts and restored noise coupling differ.",
+    "No blocking numerical or scientific implementation errors found."
+  ],
+  "required_changes": []
+}

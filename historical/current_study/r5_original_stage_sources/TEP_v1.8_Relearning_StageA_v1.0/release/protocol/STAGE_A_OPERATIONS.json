@@ -1,0 +1,30 @@
+{
+  "study_id": "TEP_V18_RELEARNING_R5_v1.0",
+  "release_id": "StageA_v1.0",
+  "created_utc": "2026-09-13",
+  "phase": "development_generation_only",
+  "development_total": 4575,
+  "allocated_total": 5575,
+  "no_learning_command": true,
+  "no_evaluation_generation_command": true,
+  "no_evaluation_command": true,
+  "default_session_hours": 0.5,
+  "default_workers": 4,
+  "workers_allowed": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "maximum_session_launch_hours": 12,
+  "worker_lifetime": "one fresh isolated Python process per complete trajectory",
+  "resume": "All committed output hashes rechecked. Partial resource-interrupted tasks archived, same manifest seed rerun. Numerical or identity failure stops; no outcome-based replacement.",
+  "root_lock": "flock in parent; descriptor inherited by each worker, so an orphan worker retains the operation lease",
+  "fixed_numerical_sources": "24 retained files match original DV source manifest; horizon and simulator unchanged; worker metadata/phase guards/durability only changed",
+  "new_seed_derivation": "Same SHA256-first8byte/modulo mapping recipe as DV, new study+rep labels. All 9500+1915 exclusions checked on host before allocation.",
+  "budget_at_start": "Time limit covers launch loop, not initialization/hashing nor the completion of already active full trajectories.",
+  "on_limit_or_stop": "Stop new launches, wait active trajectories, save progress and compact return ZIP.",
+  "outputs": "New Linux study root only; Windows package results folder for reports. No public upload or network use.",
+  "future_stage": "A separately supplied tool will learn all five states on committed development data before enabling the shared new tests.",
+  "source_chronology": "Original v1.8 scientific protocol bytes unchanged; this operational realization follows the received readiness inventory and precedes new process generation."
+}

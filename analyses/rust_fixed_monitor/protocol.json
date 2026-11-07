@@ -1,0 +1,983 @@
+{
+  "scope": "External-driver pilot on standard Rust/Wasm executable; post hoc, not externally registered. Set before its outcomes. Same original Braatz dynamics/controller family, different driver and language from tep. Separate calibration before scoring evaluation. One non-target pilot verifies executability and schema.",
+  "design": "Match earlier recording-panel-1 group sizes, not old thresholds: 59 normal calibration, 60 normal evaluation, 75 fault IDV9 evaluation. 48h, closed-loop, Euler dt=1s, native outputs every second for passive capture; analyses every 180 driver steps. Only F9 starts at 8h. Forced IDV12 off; no refit, no fault tuning. Unique deterministic odd seeds; original scalar RNG, independence is not guaranteed.",
+  "timing": "Controller at grid step 180*j uses previous step measurement; compare to same-step native measurement. Both score with grid step valves. Fast update offset 1s, not tep 3s. Two level\u2013valve proportional checks and full horizon replay against declared native logger. Native time grid one second back from nominal due to upstream convention.",
+  "endpoints": "Frozen H_D01_moment_A01_signed affine + two-sided CUSUM k=.05, h separately 57th/59 calibration run maxima. No resets; 40h and 8h clean, 2h included; normal 48h FAR; mean penalized loss. Compare paired run counts. All runs retained, no arbitrary restarts. Historical-monitor transfer is conditional. Use descriptive intervals only given original multiplicative float generator.",
+  "cases": [
+    {
+      "role": "pilot",
+      "id": 1,
+      "seed": 3691912123
+    },
+    {
+      "role": "cal",
+      "id": 1,
+      "seed": 3516094799
+    },
+    {
+      "role": "cal",
+      "id": 2,
+      "seed": 3207096905
+    },
+    {
+      "role": "cal",
+      "id": 3,
+      "seed": 2534830621
+    },
+    {
+      "role": "cal",
+      "id": 4,
+      "seed": 4261302801
+    },
+    {
+      "role": "cal",
+      "id": 5,
+      "seed": 851504303
+    },
+    {
+      "role": "cal",
+      "id": 6,
+      "seed": 2697238659
+    },
+    {
+      "role": "cal",
+      "id": 7,
+      "seed": 3003506007
+    },
+    {
+      "role": "cal",
+      "id": 8,
+      "seed": 1129941251
+    },
+    {
+      "role": "cal",
+      "id": 9,
+      "seed": 2495287999
+    },
+    {
+      "role": "cal",
+      "id": 10,
+      "seed": 788901129
+    },
+    {
+      "role": "cal",
+      "id": 11,
+      "seed": 2782296835
+    },
+    {
+      "role": "cal",
+      "id": 12,
+      "seed": 3512995457
+    },
+    {
+      "role": "cal",
+      "id": 13,
+      "seed": 3072194463
+    },
+    {
+      "role": "cal",
+      "id": 14,
+      "seed": 3048743059
+    },
+    {
+      "role": "cal",
+      "id": 15,
+      "seed": 3792616147
+    },
+    {
+      "role": "cal",
+      "id": 16,
+      "seed": 3918850459
+    },
+    {
+      "role": "cal",
+      "id": 17,
+      "seed": 1795118345
+    },
+    {
+      "role": "cal",
+      "id": 18,
+      "seed": 2214618413
+    },
+    {
+      "role": "cal",
+      "id": 19,
+      "seed": 309472043
+    },
+    {
+      "role": "cal",
+      "id": 20,
+      "seed": 2094867755
+    },
+    {
+      "role": "cal",
+      "id": 21,
+      "seed": 3169259079
+    },
+    {
+      "role": "cal",
+      "id": 22,
+      "seed": 774354279
+    },
+    {
+      "role": "cal",
+      "id": 23,
+      "seed": 3433959001
+    },
+    {
+      "role": "cal",
+      "id": 24,
+      "seed": 2660005189
+    },
+    {
+      "role": "cal",
+      "id": 25,
+      "seed": 1085349699
+    },
+    {
+      "role": "cal",
+      "id": 26,
+      "seed": 1579295663
+    },
+    {
+      "role": "cal",
+      "id": 27,
+      "seed": 872185809
+    },
+    {
+      "role": "cal",
+      "id": 28,
+      "seed": 1453674321
+    },
+    {
+      "role": "cal",
+      "id": 29,
+      "seed": 3395089909
+    },
+    {
+      "role": "cal",
+      "id": 30,
+      "seed": 3746106877
+    },
+    {
+      "role": "cal",
+      "id": 31,
+      "seed": 1322877705
+    },
+    {
+      "role": "cal",
+      "id": 32,
+      "seed": 2752589263
+    },
+    {
+      "role": "cal",
+      "id": 33,
+      "seed": 3198318971
+    },
+    {
+      "role": "cal",
+      "id": 34,
+      "seed": 67998323
+    },
+    {
+      "role": "cal",
+      "id": 35,
+      "seed": 4089513673
+    },
+    {
+      "role": "cal",
+      "id": 36,
+      "seed": 2501888671
+    },
+    {
+      "role": "cal",
+      "id": 37,
+      "seed": 1846548723
+    },
+    {
+      "role": "cal",
+      "id": 38,
+      "seed": 2827164055
+    },
+    {
+      "role": "cal",
+      "id": 39,
+      "seed": 1075722059
+    },
+    {
+      "role": "cal",
+      "id": 40,
+      "seed": 3262788405
+    },
+    {
+      "role": "cal",
+      "id": 41,
+      "seed": 4245700921
+    },
+    {
+      "role": "cal",
+      "id": 42,
+      "seed": 83121509
+    },
+    {
+      "role": "cal",
+      "id": 43,
+      "seed": 1210300435
+    },
+    {
+      "role": "cal",
+      "id": 44,
+      "seed": 1136022557
+    },
+    {
+      "role": "cal",
+      "id": 45,
+      "seed": 295186095
+    },
+    {
+      "role": "cal",
+      "id": 46,
+      "seed": 2145815913
+    },
+    {
+      "role": "cal",
+      "id": 47,
+      "seed": 1476577667
+    },
+    {
+      "role": "cal",
+      "id": 48,
+      "seed": 2402432161
+    },
+    {
+      "role": "cal",
+      "id": 49,
+      "seed": 3472267015
+    },
+    {
+      "role": "cal",
+      "id": 50,
+      "seed": 1683768633
+    },
+    {
+      "role": "cal",
+      "id": 51,
+      "seed": 3991139159
+    },
+    {
+      "role": "cal",
+      "id": 52,
+      "seed": 108916751
+    },
+    {
+      "role": "cal",
+      "id": 53,
+      "seed": 3161950031
+    },
+    {
+      "role": "cal",
+      "id": 54,
+      "seed": 311697123
+    },
+    {
+      "role": "cal",
+      "id": 55,
+      "seed": 300549453
+    },
+    {
+      "role": "cal",
+      "id": 56,
+      "seed": 321498249
+    },
+    {
+      "role": "cal",
+      "id": 57,
+      "seed": 1459884337
+    },
+    {
+      "role": "cal",
+      "id": 58,
+      "seed": 2212590929
+    },
+    {
+      "role": "cal",
+      "id": 59,
+      "seed": 3396659235
+    },
+    {
+      "role": "normal",
+      "id": 1,
+      "seed": 2703168947
+    },
+    {
+      "role": "normal",
+      "id": 2,
+      "seed": 309995179
+    },
+    {
+      "role": "normal",
+      "id": 3,
+      "seed": 2725807267
+    },
+    {
+      "role": "normal",
+      "id": 4,
+      "seed": 1694874063
+    },
+    {
+      "role": "normal",
+      "id": 5,
+      "seed": 296076823
+    },
+    {
+      "role": "normal",
+      "id": 6,
+      "seed": 3199321951
+    },
+    {
+      "role": "normal",
+      "id": 7,
+      "seed": 1113808711
+    },
+    {
+      "role": "normal",
+      "id": 8,
+      "seed": 1283876877
+    },
+    {
+      "role": "normal",
+      "id": 9,
+      "seed": 3385069271
+    },
+    {
+      "role": "normal",
+      "id": 10,
+      "seed": 1510235961
+    },
+    {
+      "role": "normal",
+      "id": 11,
+      "seed": 1139278795
+    },
+    {
+      "role": "normal",
+      "id": 12,
+      "seed": 492968995
+    },
+    {
+      "role": "normal",
+      "id": 13,
+      "seed": 2669504265
+    },
+    {
+      "role": "normal",
+      "id": 14,
+      "seed": 1031202113
+    },
+    {
+      "role": "normal",
+      "id": 15,
+      "seed": 3206673681
+    },
+    {
+      "role": "normal",
+      "id": 16,
+      "seed": 1016790341
+    },
+    {
+      "role": "normal",
+      "id": 17,
+      "seed": 1358327095
+    },
+    {
+      "role": "normal",
+      "id": 18,
+      "seed": 840299545
+    },
+    {
+      "role": "normal",
+      "id": 19,
+      "seed": 1601710727
+    },
+    {
+      "role": "normal",
+      "id": 20,
+      "seed": 3254335801
+    },
+    {
+      "role": "normal",
+      "id": 21,
+      "seed": 3978275373
+    },
+    {
+      "role": "normal",
+      "id": 22,
+      "seed": 4262220689
+    },
+    {
+      "role": "normal",
+      "id": 23,
+      "seed": 3353527843
+    },
+    {
+      "role": "normal",
+      "id": 24,
+      "seed": 1792141749
+    },
+    {
+      "role": "normal",
+      "id": 25,
+      "seed": 1948205759
+    },
+    {
+      "role": "normal",
+      "id": 26,
+      "seed": 2719882943
+    },
+    {
+      "role": "normal",
+      "id": 27,
+      "seed": 1534621103
+    },
+    {
+      "role": "normal",
+      "id": 28,
+      "seed": 1451547381
+    },
+    {
+      "role": "normal",
+      "id": 29,
+      "seed": 3487056251
+    },
+    {
+      "role": "normal",
+      "id": 30,
+      "seed": 1494640529
+    },
+    {
+      "role": "normal",
+      "id": 31,
+      "seed": 1916212253
+    },
+    {
+      "role": "normal",
+      "id": 32,
+      "seed": 389159729
+    },
+    {
+      "role": "normal",
+      "id": 33,
+      "seed": 1396609161
+    },
+    {
+      "role": "normal",
+      "id": 34,
+      "seed": 1668148879
+    },
+    {
+      "role": "normal",
+      "id": 35,
+      "seed": 634040765
+    },
+    {
+      "role": "normal",
+      "id": 36,
+      "seed": 1626867775
+    },
+    {
+      "role": "normal",
+      "id": 37,
+      "seed": 136155
+    },
+    {
+      "role": "normal",
+      "id": 38,
+      "seed": 432494415
+    },
+    {
+      "role": "normal",
+      "id": 39,
+      "seed": 673074107
+    },
+    {
+      "role": "normal",
+      "id": 40,
+      "seed": 2180376611
+    },
+    {
+      "role": "normal",
+      "id": 41,
+      "seed": 2596116153
+    },
+    {
+      "role": "normal",
+      "id": 42,
+      "seed": 2053053851
+    },
+    {
+      "role": "normal",
+      "id": 43,
+      "seed": 3862091193
+    },
+    {
+      "role": "normal",
+      "id": 44,
+      "seed": 3858936097
+    },
+    {
+      "role": "normal",
+      "id": 45,
+      "seed": 602905699
+    },
+    {
+      "role": "normal",
+      "id": 46,
+      "seed": 2772528855
+    },
+    {
+      "role": "normal",
+      "id": 47,
+      "seed": 7078017
+    },
+    {
+      "role": "normal",
+      "id": 48,
+      "seed": 3482703165
+    },
+    {
+      "role": "normal",
+      "id": 49,
+      "seed": 3519061693
+    },
+    {
+      "role": "normal",
+      "id": 50,
+      "seed": 213385975
+    },
+    {
+      "role": "normal",
+      "id": 51,
+      "seed": 1663793339
+    },
+    {
+      "role": "normal",
+      "id": 52,
+      "seed": 1986022057
+    },
+    {
+      "role": "normal",
+      "id": 53,
+      "seed": 2211083703
+    },
+    {
+      "role": "normal",
+      "id": 54,
+      "seed": 4001628779
+    },
+    {
+      "role": "normal",
+      "id": 55,
+      "seed": 2705256267
+    },
+    {
+      "role": "normal",
+      "id": 56,
+      "seed": 4203593991
+    },
+    {
+      "role": "normal",
+      "id": 57,
+      "seed": 3396590685
+    },
+    {
+      "role": "normal",
+      "id": 58,
+      "seed": 3678584469
+    },
+    {
+      "role": "normal",
+      "id": 59,
+      "seed": 533999243
+    },
+    {
+      "role": "normal",
+      "id": 60,
+      "seed": 1385764871
+    },
+    {
+      "role": "fault",
+      "id": 1,
+      "seed": 3025859029
+    },
+    {
+      "role": "fault",
+      "id": 2,
+      "seed": 2866241623
+    },
+    {
+      "role": "fault",
+      "id": 3,
+      "seed": 138728041
+    },
+    {
+      "role": "fault",
+      "id": 4,
+      "seed": 3660024445
+    },
+    {
+      "role": "fault",
+      "id": 5,
+      "seed": 2083851303
+    },
+    {
+      "role": "fault",
+      "id": 6,
+      "seed": 500570267
+    },
+    {
+      "role": "fault",
+      "id": 7,
+      "seed": 2843068051
+    },
+    {
+      "role": "fault",
+      "id": 8,
+      "seed": 4203954579
+    },
+    {
+      "role": "fault",
+      "id": 9,
+      "seed": 564660195
+    },
+    {
+      "role": "fault",
+      "id": 10,
+      "seed": 410124785
+    },
+    {
+      "role": "fault",
+      "id": 11,
+      "seed": 3820569475
+    },
+    {
+      "role": "fault",
+      "id": 12,
+      "seed": 3999527327
+    },
+    {
+      "role": "fault",
+      "id": 13,
+      "seed": 1833941903
+    },
+    {
+      "role": "fault",
+      "id": 14,
+      "seed": 2919822999
+    },
+    {
+      "role": "fault",
+      "id": 15,
+      "seed": 2499013925
+    },
+    {
+      "role": "fault",
+      "id": 16,
+      "seed": 3727947247
+    },
+    {
+      "role": "fault",
+      "id": 17,
+      "seed": 358855589
+    },
+    {
+      "role": "fault",
+      "id": 18,
+      "seed": 167492019
+    },
+    {
+      "role": "fault",
+      "id": 19,
+      "seed": 2542378031
+    },
+    {
+      "role": "fault",
+      "id": 20,
+      "seed": 3400321023
+    },
+    {
+      "role": "fault",
+      "id": 21,
+      "seed": 2141424979
+    },
+    {
+      "role": "fault",
+      "id": 22,
+      "seed": 2356063613
+    },
+    {
+      "role": "fault",
+      "id": 23,
+      "seed": 1249958739
+    },
+    {
+      "role": "fault",
+      "id": 24,
+      "seed": 2769670339
+    },
+    {
+      "role": "fault",
+      "id": 25,
+      "seed": 2327167277
+    },
+    {
+      "role": "fault",
+      "id": 26,
+      "seed": 4044540933
+    },
+    {
+      "role": "fault",
+      "id": 27,
+      "seed": 559174829
+    },
+    {
+      "role": "fault",
+      "id": 28,
+      "seed": 844783431
+    },
+    {
+      "role": "fault",
+      "id": 29,
+      "seed": 4079143755
+    },
+    {
+      "role": "fault",
+      "id": 30,
+      "seed": 3716271861
+    },
+    {
+      "role": "fault",
+      "id": 31,
+      "seed": 765123119
+    },
+    {
+      "role": "fault",
+      "id": 32,
+      "seed": 430273709
+    },
+    {
+      "role": "fault",
+      "id": 33,
+      "seed": 3405541971
+    },
+    {
+      "role": "fault",
+      "id": 34,
+      "seed": 1477167679
+    },
+    {
+      "role": "fault",
+      "id": 35,
+      "seed": 1726191189
+    },
+    {
+      "role": "fault",
+      "id": 36,
+      "seed": 650030057
+    },
+    {
+      "role": "fault",
+      "id": 37,
+      "seed": 46764281
+    },
+    {
+      "role": "fault",
+      "id": 38,
+      "seed": 2094023357
+    },
+    {
+      "role": "fault",
+      "id": 39,
+      "seed": 3393082941
+    },
+    {
+      "role": "fault",
+      "id": 40,
+      "seed": 1202174865
+    },
+    {
+      "role": "fault",
+      "id": 41,
+      "seed": 786232601
+    },
+    {
+      "role": "fault",
+      "id": 42,
+      "seed": 173006135
+    },
+    {
+      "role": "fault",
+      "id": 43,
+      "seed": 450140499
+    },
+    {
+      "role": "fault",
+      "id": 44,
+      "seed": 778029611
+    },
+    {
+      "role": "fault",
+      "id": 45,
+      "seed": 2271685139
+    },
+    {
+      "role": "fault",
+      "id": 46,
+      "seed": 531628993
+    },
+    {
+      "role": "fault",
+      "id": 47,
+      "seed": 2017330677
+    },
+    {
+      "role": "fault",
+      "id": 48,
+      "seed": 884826943
+    },
+    {
+      "role": "fault",
+      "id": 49,
+      "seed": 3213046197
+    },
+    {
+      "role": "fault",
+      "id": 50,
+      "seed": 1456782783
+    },
+    {
+      "role": "fault",
+      "id": 51,
+      "seed": 1284918021
+    },
+    {
+      "role": "fault",
+      "id": 52,
+      "seed": 3194602539
+    },
+    {
+      "role": "fault",
+      "id": 53,
+      "seed": 885193803
+    },
+    {
+      "role": "fault",
+      "id": 54,
+      "seed": 1553071889
+    },
+    {
+      "role": "fault",
+      "id": 55,
+      "seed": 3641301599
+    },
+    {
+      "role": "fault",
+      "id": 56,
+      "seed": 674310279
+    },
+    {
+      "role": "fault",
+      "id": 57,
+      "seed": 3795280449
+    },
+    {
+      "role": "fault",
+      "id": 58,
+      "seed": 2797209795
+    },
+    {
+      "role": "fault",
+      "id": 59,
+      "seed": 3726311219
+    },
+    {
+      "role": "fault",
+      "id": 60,
+      "seed": 549052047
+    },
+    {
+      "role": "fault",
+      "id": 61,
+      "seed": 686842447
+    },
+    {
+      "role": "fault",
+      "id": 62,
+      "seed": 1153335415
+    },
+    {
+      "role": "fault",
+      "id": 63,
+      "seed": 3246338629
+    },
+    {
+      "role": "fault",
+      "id": 64,
+      "seed": 4286443715
+    },
+    {
+      "role": "fault",
+      "id": 65,
+      "seed": 1353738835
+    },
+    {
+      "role": "fault",
+      "id": 66,
+      "seed": 2512115597
+    },
+    {
+      "role": "fault",
+      "id": 67,
+      "seed": 1907251069
+    },
+    {
+      "role": "fault",
+      "id": 68,
+      "seed": 2263175
+    },
+    {
+      "role": "fault",
+      "id": 69,
+      "seed": 3742353987
+    },
+    {
+      "role": "fault",
+      "id": 70,
+      "seed": 89364949
+    },
+    {
+      "role": "fault",
+      "id": 71,
+      "seed": 826623017
+    },
+    {
+      "role": "fault",
+      "id": 72,
+      "seed": 3576576067
+    },
+    {
+      "role": "fault",
+      "id": 73,
+      "seed": 2324024023
+    },
+    {
+      "role": "fault",
+      "id": 74,
+      "seed": 2434114929
+    },
+    {
+      "role": "fault",
+      "id": 75,
+      "seed": 1034698853
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "rust_source": {
+    "filename": "rustupstream/source.zip",
+    "source": "https://codeload.github.com/jkitchin/tep-rust/zip/refs/heads/main",
+    "sha256": "acfeb7776cbad5691019c9f7ec5efc5f3a98696e0ea4e7b8178dd143596fc5a6",
+    "source_commit_in_archive_comment": "0735ad3b5bb7fdd367a8a31da1db8a209dac2a15"
+  },
+  "wasm": {
+    "filename": "rustupstream/tepsim_wasm_bg.wasm",
+    "source": "https://kitchingroup.cheme.cmu.edu/tep-rust/studio/js/tepsim_wasm_bg.wasm",
+    "sha256": "5bb83e1a3e38f65d806e62a19dad4420ac24b875e4d81b83e1c3eb750ee3a776"
+  },
+  "js": {
+    "filename": "rustupstream/tepsim_wasm.js",
+    "source": "https://kitchingroup.cheme.cmu.edu/tep-rust/studio/js/tepsim_wasm.js",
+    "sha256": "4f56d632004f3f207954b883c8751f19d5a3c305a8a1e29aba08418f3d6bc58c"
+  },
+  "ui": {
+    "filename": "rustupstream/app.js",
+    "source": "https://kitchingroup.cheme.cmu.edu/tep-rust/studio/js/app.js",
+    "sha256": "42495dfd23289db8a2fcbcb26ea01b61c9860d5e67962053f82e50234711e4c3"
+  },
+  "tep_source": {
+    "filename": "tep-repo.zip",
+    "source": "https://codeload.github.com/jkitchin/tennessee-eastman-profbraatz/zip/9a6c8e5fcef4a2850778704e7793c87b0a187005",
+    "sha256": "b2fc776d735ad6bcb8b569f6116bd5e407934f552140c5e8ba32a2e3feb53d99",
+    "source_commit_in_archive_comment": "9a6c8e5fcef4a2850778704e7793c87b0a187005"
+  },
+  "issues": {
+    "filename": "issues_webpage.html",
+    "source": "https://github.com/jkitchin/tennessee-eastman-profbraatz/issues?q=is%3Aissue",
+    "sha256": "40d0843342dbebd634daeff7c971d10ead94c77ec038566d171938671430ab63"
+  },
+  "external_study_generator": {
+    "filename": "benchmark_generator.ipynb",
+    "source": "https://raw.githubusercontent.com/KitchinHUB/tep-manuscript/main/notebooks/03-generate-new-tep-dataset.ipynb",
+    "sha256": "d47cfa5b48a23180740ea510419fa3ba169c5c517acbe833a42402571bd38670"
+  },
+  "linkage": "The retrieved Rust source tree and live app.js are byte-identical for apps/studio/js/app.js. The shipped module passes the official default native digest. We do not assert a cryptographically attested mapping of this WebAssembly binary to a particular source commit.",
+  "host": {
+    "node": "v24.22.1",
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "webassembly_version": "0.0.0"
+  }
+}

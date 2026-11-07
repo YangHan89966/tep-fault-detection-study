@@ -1,0 +1,8 @@
+Endpoint,Post-update recording,Controller-input recording
+Normal alarms over 48 h,2/60 (3.33%),4/60 (6.67%)
+Faulty runs with a pre-fault alarm,0/75 (0.00%),0/75 (0.00%)
+Clean detection ≤60 min,0/75 (0.00%),0/75 (0.00%)
+Primary: clean detection ≤120 min,0/75 (0.00%),1/75 (1.33%)
+Clean detection ≤480 min,0/75 (0.00%),29/75 (38.67%)
+Clean detection over 40 h,8/75 (10.67%),72/75 (96.00%)
+All-run penalized mean delay (min),"2,314.20",952.12

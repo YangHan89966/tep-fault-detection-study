@@ -1,0 +1,9 @@
+﻿recording,fault,contrast,n_paired_physical_runs,loss_difference_minutes,loss_CI95_low,loss_CI95_high,clean40_difference_pp,clean40_CI95_low_pp,clean40_CI95_high_pp,bootstrap_draws,bootstrap_seed,inference
+native,3,C1_same_axis_squared_minus_signed,120,1638.325,1547.6,1724.7012499999998,-70.0,-78.33333333333333,-61.666666666666664,20000,2026100911,pointwise conditional; shared physical run resampling across recordings
+native,3,full_minus_FDA,120,-463.55,-521.725625,-407.875,0.0,0.0,0.0,20000,2026100911,pointwise conditional; shared physical run resampling across recordings
+controller-input,3,C1_same_axis_squared_minus_signed,120,1676.125,1548.7212499999998,1795.5512499999998,-39.166666666666664,-48.333333333333336,-30.0,20000,2026100911,pointwise conditional; shared physical run resampling across recordings
+controller-input,3,full_minus_FDA,120,-329.8,-367.47562500000004,-280.024375,-0.8333333333333334,-2.5,0.0,20000,2026100911,pointwise conditional; shared physical run resampling across recordings
+native,15,C3_moment_minus_mean_squared,120,-722.8,-822.55,-624.6231250000002,61.666666666666664,52.5,70.0,20000,2026100912,pointwise conditional; shared physical run resampling across recordings
+native,15,full_minus_variance_ratio,120,-70.525,-131.75,-10.125,0.8333333333333334,-3.3333333333333335,5.0,20000,2026100912,pointwise conditional; shared physical run resampling across recordings
+controller-input,15,C3_moment_minus_mean_squared,120,-589.375,-715.475625,-465.52312500000016,13.333333333333334,7.5,20.0,20000,2026100912,pointwise conditional; shared physical run resampling across recordings
+controller-input,15,full_minus_variance_ratio,120,-76.5,-146.450625,-10.198125000000163,0.8333333333333334,0.0,2.5,20000,2026100912,pointwise conditional; shared physical run resampling across recordings

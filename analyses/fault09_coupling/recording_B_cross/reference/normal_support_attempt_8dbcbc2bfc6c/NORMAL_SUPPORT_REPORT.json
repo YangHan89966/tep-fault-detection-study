@@ -1,0 +1,24 @@
+{
+  "rule": "normal-only fixed original eigenfloor",
+  "checks": {
+    "native": {
+      "input_dimension": 16,
+      "normal_effective_dimension": 16,
+      "cutoff": 1.6261115707090723e-11,
+      "full_rank_identity_path": true,
+      "B_minimum_eigenvalue": 0.17028595704416352,
+      "B_SPD_cutoff": 2.0957504694696353e-12
+    },
+    "snapshot": {
+      "input_dimension": 17,
+      "normal_effective_dimension": 15,
+      "cutoff": 1.5309212974243322e-11,
+      "full_rank_identity_path": false,
+      "B_minimum_eigenvalue": 0.08514297057239863,
+      "B_SPD_cutoff": 3.2160851372371435e-12
+    }
+  },
+  "fault_data_used": false,
+  "calibration_data_used": false,
+  "evaluation_data_used": false
+}

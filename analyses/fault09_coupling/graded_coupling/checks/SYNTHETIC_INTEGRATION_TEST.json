@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "synthetic_only": true,
+  "real_scientific_scores_read": false,
+  "inputs": 799,
+  "arms": 6,
+  "paired_contrast_rows": 36,
+  "bootstrap_draws": 20000,
+  "figure_formats": [
+    "PNG",
+    "PDF",
+    "SVG"
+  ],
+  "figure_visual_qa": "PASS: three panels readable, no clipping",
+  "analysis_code_sha256": "002b495890ceeb8c3ca7f889fac17e9e548200b3b42d5ae3eed08177c4193b14"
+}

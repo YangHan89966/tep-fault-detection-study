@@ -1,0 +1,18 @@
+[
+  {
+    "name": "TEP_P1_Code_Results_and_Documentation_v1_20261026.zip",
+    "sha256": "7adfc1bc2de1694cdceaed22694321bf6312d1a16e89b3dbe13a9c92e20a7eaf"
+  },
+  {
+    "name": "TEP_P1_Fault09_Data_v1_20261026.zip",
+    "sha256": "51bffc53bd451e4c256b2ebdea10e43ec6cb860876d125874209b543b435a72d"
+  },
+  {
+    "name": "TEP_P1_Normal_Calibration_Data_v1_20261026.zip",
+    "sha256": "ffac50e769604a41a8d664caf86119472c258a1a161b66affea2fdc1f83934bb"
+  },
+  {
+    "name": "TEP_P1_Normal_Evaluation_Data_v1_20261026.zip",
+    "sha256": "5b61386a96e5709b1cd1de52aaac3c0f63d906543bbf80e21abae1e13947dbf9"
+  }
+]

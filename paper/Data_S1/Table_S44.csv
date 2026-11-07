@@ -1,0 +1,9 @@
+Chart,Normal alarms,Pre-fault alarms,Clean ≤2 h,Clean ≤8 h,"Clean 40 h [Wilson 95%, %]",Mean loss (min)
+Post-update recording,,,,,,
+Signed CUSUM,6/120,0,0,0,"23/120 [13.1, 27.1]","2,228.5"
+AR(0) likelihood-ratio chart,6/120,0,0,1,"24/120 [13.8, 28.0]","2,244.6"
+AR(2) likelihood-ratio chart,3/120,0,0,5,"63/120 [43.6, 61.2]","1,851.6"
+Controller-input recording,,,,,,
+Signed CUSUM,9/120,1,2,39,"113/120 [88.4, 97.1]",929.8
+AR(0) likelihood-ratio chart,7/120,0,0,7,"79/120 [57.0, 73.7]","1,659.9"
+AR(2) likelihood-ratio chart,7/120,4,8,73,"116/120 [91.7, 98.7]",531.2

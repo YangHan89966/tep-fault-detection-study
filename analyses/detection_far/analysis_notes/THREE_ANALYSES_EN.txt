@@ -1,0 +1,79 @@
+Analysis notes retained from the original research documentation.
+Table and section labels in these notes are historical identifiers; the current submitted Data S1 determines final numbering.
+
+THREE COMPLETED POST HOC ANALYSES — ANALYSIS NOTES
+
+
+
+1. Fault 9 recording variance
+
+Recording variance decomposition: analysis notes
+
+
+
+A closed-loop simulation alternates between control updates, model evaluations and data recording, and implementations differ in the order of these steps. The reference Fortran driver (temain_mod.f; Braatz Group, n.d.) calls the controllers, writes the record and then integrates the model, so each record pairs the valve outputs with the measurements that the controllers have just used (Fig. 2a); this convention is referred to here as controller-input recording. The tep package (Kitchin, 2025) records after subsequent model evaluations. Its 22 continuously evaluated measurements receive fresh noise at each evaluation, whereas its 19 composition measurements follow their sampling and holding schedules. This convention, referred to as post-update recording, is the package default for both process backends (SI Section S1). In the paired records analysed here, the continuously evaluated measurements were evaluated 3 s apart, while the recorded valve outputs were identical.
+
+
+For the two level measurements XMEAS12 and XMEAS15, the physical-change term in Eq. (2) is negligible: in the paired normal simulations, the difference between the two noise draws accounted for 99.85–99.89% of the variance of m′k − mk (SI Table S1). Controller-input recording therefore preserves the exact proportional relation in Eq. (1), allowing a residual model to account for the measurement noise carried by the valve output. For flow measurements, the physical change over the recording offset can be substantial (SI Table S62). In particular, XMEAS17 measures the stripper underflow, which responds to XMV8; that valve is adjusted using the noisy stripper-level measurement XMEAS15 and has a 5-s time constant in this implementation. The proportional–integral loop that uses XMEAS17 to set XMV11 also depends on past measurements. Recording differences can therefore involve both refreshed measurement noise and a physical response during the recording offset. Both conventions describe the same simulated trajectory.
+
+
+Feedback control transfers variability from controlled to manipulated variables (MacGregor and Kourti, 1995), and controller outputs depend on the noise of the measurements on which they act (Forssell and Ljung, 1999). The recording convention changes both this noise pairing and the alignment of measurements with valve outputs. In an offline analysis of the 400 normal confirmation runs, replacing the 22 continuously evaluated measurements by their controller-input values reduced the fixed historical Fault 9 score variance from 3.363 to 1.000. The 19 composition measurements and their noise-event identities were identical under the two recordings, so replacing them made no difference. The separate noise-sharing experiment of Fig. 7 held the controller-input measurement times fixed: its variance range, 2.200 to 1.000, isolates that construction and does not span the actual post-update value. Keeping the independent noise of its ρ = 0 records fixed while substituting the post-update noiseless measurements increased the variance from 2.200 to 3.345 (SI Table S63). This result locates most of the remaining variance difference in the changed noiseless measurements and their covariance with the other score components, with a large contribution from XMEAS17. For this monitor, both noise pairing and the flow response during the recording offset matter.
+
+
+The decomposition was extended post hoc to all 400 normal evaluation runs of the independent-stream confirmation panel, using the saved paired records without new process simulations. Original noise values at both recording times were recovered from the verified random-draw schedules. For each measurement, m′ − m = Δy + Δe, where Δy is the difference between the noiseless recorded values and Δe is the noise difference. Here noiseless means that the additive measurement noise has been removed; the retained record still includes measurement-noise effects transmitted through the original closed loop. The pooled variance was decomposed as Var(Δy) + Var(Δe) + 2Cov(Δy, Δe), using all 960 records per run and ddof = 0. The process-variance ratios were 0.0051% and 0.0184% for XMEAS12 and XMEAS15, but 95.28% and 89.20% for the separator and stripper underflows, XMEAS14 and XMEAS17 (Table S62). These ratios describe measurement differences; they do not rank the variables' importance to the monitor. The noiseless change in XMEAS17 correlated with the controller-input noise of XMEAS15 (r = 0.883), consistent with the documented level-controller and valve-response path. This association does not isolate a controller intervention.
+
+
+A further offline decomposition examined the 1.163 difference between the normal score variances of actual post-update and ρ = 0 records. The historical affine map remained fixed. Starting from each ρ = 0 record, a bridge record retained its independent noise and all valve outputs while replacing its noiseless measurements by their post-update values. This increased the pooled score variance by 1.145 (95% paired bootstrap interval 1.132–1.157), from 2.200 to 3.345. Replacing the retained independent noise by the actual post-update noise then added 0.018 (0.006–0.031), yielding 3.363. The first change represents 98.4% of the endpoint gap along this specified replacement order; it is a conditional variance-accounting result, not a general causal percentage.
+
+For the fixed score s0, let Tj be the score change from replacing the noiseless value of variable j and T = Σj Tj. Allocating the variance change symmetrically as 2Cov(s0, Tj) + Cov(Tj, T) assigned 1.007 of the 1.145 change to XMEAS17. Separately, an exact decomposition of the endpoint covariance matrices assigned 1.157 of the 1.163 gap to cross-covariance between the continuously evaluated measurements and valve outputs. Table S63 reports the group substitutions and both decompositions. Intervals use 20,000 paired whole-run bootstrap resamples, include between-run mean differences, and are descriptive and conditional on the frozen monitor and noise realization. No monitor was refitted, and these normal-run calculations establish no new detection-performance claim.
+
+TABLE CAPTIONS
+
+Table S62. Post-update minus controller-input measurement differences in 400 normal confirmation runs, decomposed into noiseless change, measurement-noise difference and twice their covariance. The ten flow measurements and two level controls are shown; all 41 measurements are supplied in the accompanying data. Variances pool all 960 records per run (ddof = 0). Component ratios are variance-accounting ratios.
+
+Table S63. Fixed historical Fault 9 score variance under measurement substitutions and a common-noise bridge between ρ = 0 and actual post-update records. Results use the same 400 normal confirmation runs, fixed affine score and unchanged valve outputs. Pooled score variances use ddof = 1; intervals are paired whole-run bootstrap intervals. Replacement order and covariance allocations are specified in Section S15.
+
+
+The shared-noise construction explores one departure from exact controller-input pairing at fixed measurement times. Plant records may also differ in timing, filtering and compression, so the construction does not establish where their detectability lies relative to the two recording conventions.
+
+
+
+2. Fault 15 single-channel substitution
+
+FAULT 15: XMEAS17 SUBSTITUTION ON THE PAIRED FOLLOW-UP RECORDS
+
+
+In Fault 15, XMEAS17 is the feedback measurement for the loop that commands the sticking condenser cooling-water valve (XMV11). We tested whether the selected multivariate covariance chart depended on how XMEAS17 was recorded. With either recording-specific chart held fixed, replacing XMEAS17 alone by its value from the other recording triggered alarms in all 120 normal runs and before fault onset in all 120 Fault 15 runs (Table S64). The chart therefore depends on how XMEAS17 is recorded alongside the other inputs. The exchange cannot establish that the chart distinguishes sticking from valve movements driven by measurement noise or quantify how much of the original gain from 11 to 91 clean detections is attributable to XMEAS17.
+
+
+We exchanged only XMEAS17 between the paired records at each of the 960 sampling times, leaving the other 51 variables, including XMV11, unchanged. Each monitor retained its original transformation and limit. On the controller-input covariance chart (MEWMC, λ = 0.01), replacing XMEAS17 by its post-update value increased normal runs with any alarm from 12 to 120 and fault runs with a pre-fault alarm from 2 to 120. Every run first alarmed within four records. The reverse exchange on the post-update chart likewise produced 120 normal alarms and 120 pre-fault alarms, compared with 7 and 1 originally. In both hybrids every fault run also crossed the limit after onset; none qualified as a clean detection because it had already alarmed. The supervised full-pool monitor showed the same early alarms on the controller-input side. On the post-update side, however, substituting controller-input XMEAS17 added two clean detections (103 to 105), while the same nine normal runs alarmed. These comparisons describe the response of the frozen monitors to mixed records at their original limits.
+
+
+Table S64. Effect of exchanging XMEAS17 between recordings on two frozen Fault 15 monitors. Counts refer to 120 paired follow-up fault runs and 120 paired normal evaluation runs from recording panel 2. The base recording determines the other 51 inputs, the transformation and the original limit (190th of 199 normal calibration-run maxima). A clean detection requires no alarm in records 1–160 and a first alarm within the stated time after onset at record 161. Normal alarms count runs with any crossing in 48 h. The analysis is post hoc; neither monitor was fitted or recalibrated on a hybrid.
+
+Monitor       Base recording     XMEAS17 source     Clean ≤40 h   Clean ≤8 h   Fault pre-alarms   Normal alarms
+MEWMC         Controller-input   Controller-input       91            23              2                 12
+MEWMC         Controller-input   Post-update             0             0            120                120
+MEWMC         Post-update        Post-update            11             2              1                  7
+MEWMC         Post-update        Controller-input        0             0            120                120
+Full-pool     Controller-input   Controller-input      120            41              0                  6
+Full-pool     Controller-input   Post-update             0             0            120                120
+Full-pool     Post-update        Post-update           103             3              0                  9
+Full-pool     Post-update        Controller-input      105             3              0                  9
+
+
+
+3. Detection and false-alarm curves
+
+DETECTION AND FALSE ALARMS ACROSS THRESHOLDS — ANALYSIS NOTES
+
+
+When the thresholds were chosen post hoc to match a 5% false-alarm rate on the 400 normal confirmation runs, 40 h clean detection was 100.0% versus 26.0% for signed versus squared scores (Fault 3), 68.4% versus 15.4% for second-moment versus mean-shift directions (Fault 15), and 86.5% versus 19.0% for controller-input versus post-update recording with the fixed Fault 9 monitor (SI Table S65). The Fault 15 difference was much smaller within 8 h: 3.6% versus 1.3%, a gain of 2.3 percentage points (pointwise 95% interval 0.0 to 5.2).
+
+
+We varied each frozen monitor’s limit over the ordered 48 h maxima from its separate normal calibration runs (199 on the confirmation panel and recording panel 2; 259 in Validation 2). At each rank we plotted the fraction of fault runs detected cleanly by 8 or 40 h against the observed fraction of normal evaluation runs with any alarm (Figs. S15–S16). A pre-fault alarm disqualifies a run from clean detection, so lowering the limit need not increase this rate. Separately, we chose limits from the normal evaluation maxima to match the observed false-alarm rates (Fig. S17, Table S65); these descriptive comparisons leave the original limits in place. Rates for five-replicate contrasts were computed within replicate and averaged over the five models tested on the same runs.
+
+At matched false-alarm rates of 1%, 5% and 10% on the confirmation panel, the three 40 h detection contrasts retained the ordering reported in Table 4. The fixed Fault 9 monitor also favoured controller-input recording on recording panel 2 (90.8% versus 19.2% at 5%). The separate Validation-2 comparison of second-moment versus mean-shift directions for Fault 9 (C2, signed scores) gave 9.28% versus 6.16% clean detection at 4.8% false alarms (difference 3.12 percentage points; pointwise 95% interval −0.08 to 7.20). At 10.0% the difference was 4.88 points (1.12 to 9.44). These exploratory detection contrasts do not change the result of the prespecified C2 test, which concerned penalized loss at the original limits.
+
+
+Table S65. Clean detection by 8 and 40 h at matched empirical 48 h false-alarm rates near 1%, 5% and 10%. The table reports attained rates and both arms of each contrast. The number of permitted false alarms was rounded down to a whole run; runs tied at the limit were not counted as alarms. Pointwise 95% percentile intervals for differences use 5,000 bootstrap draws, resampling whole normal and fault runs separately, preserving the pairing across arms and training replicates and reselecting the matched limits in each draw. Intervals are conditional on the frozen monitors; for the earlier panels they are descriptive because some random-number streams overlapped.

@@ -1,0 +1,17 @@
+reference_branch,comparator_branch,endpoint,endpoint_label,adaptive_better_direction,n_repeats,mean_adaptive_advantage,median_adaptive_advantage,adaptive_wins,ties,comparator_wins,wilcoxon_statistic,p_value_raw,p_value_holm_within_endpoint
+adaptive_5family,fixed_absolute_deviation,conditional_macro_mean_normal_far,normal FAR,lower,10,0.0015764705882352903,0.0022352941176470645,6,0,4,19.0,0.431640625,0.86328125
+adaptive_5family,fixed_absolute_deviation,all_panel_detection_within_15min_rate,15-min detection,higher,10,0.043717647058823514,0.04470588235294114,10,0,0,0.0,0.001953125,0.00390625
+adaptive_5family,fixed_absolute_deviation,all_panel_detection_within_60min_rate,60-min detection,higher,10,-0.0029176470588234914,-0.0023529411764704466,3,0,7,10.0,0.083984375,0.16796875
+adaptive_5family,fixed_absolute_deviation,all_panel_detection_within_120min_rate,120-min detection,higher,10,-0.009552941176470587,-0.009647058823529342,0,0,10,0.0,0.001953125,0.00390625
+adaptive_5family,fixed_absolute_deviation,all_panel_post_fault_threshold_occupancy,post-fault threshold occupancy,higher,10,-0.018847676470588305,-0.01814705882352957,0,0,10,0.0,0.001953125,0.00390625
+adaptive_5family,fixed_absolute_deviation,all_panel_penalized_delay_mean_min,all-run penalized mean delay,lower,10,-0.9518117647058773,-1.0849411764705792,2,0,8,3.0,0.009765625,0.009765625
+adaptive_5family,fixed_absolute_deviation,mean_top5_jaccard,mean Top-5 Jaccard,higher,10,-0.009103641456582646,-0.007703081232492914,4,0,6,20.0,0.474609375,0.94921875
+adaptive_5family,fixed_absolute_deviation,exact_top5_set_recovery_rate,exact Top-5 recovery,higher,10,-0.02941176470588236,0.0,3,3,4,16.0,0.453125,0.90625
+adaptive_5family,restricted_ad_or_sl,conditional_macro_mean_normal_far,normal FAR,lower,10,-0.0002588235294117648,-0.00011764705882352788,4,1,5,22.0,0.66015625,0.86328125
+adaptive_5family,restricted_ad_or_sl,all_panel_detection_within_15min_rate,15-min detection,higher,10,0.03498823529411764,0.037882352941176506,10,0,0,0.0,0.001953125,0.00390625
+adaptive_5family,restricted_ad_or_sl,all_panel_detection_within_60min_rate,60-min detection,higher,10,0.0,0.0,0,10,0,0.0,1.0,1.0
+adaptive_5family,restricted_ad_or_sl,all_panel_detection_within_120min_rate,120-min detection,higher,10,0.0,0.0,0,10,0,0.0,1.0,1.0
+adaptive_5family,restricted_ad_or_sl,all_panel_post_fault_threshold_occupancy,post-fault threshold occupancy,higher,10,0.0001914117647059066,0.00018779411764707765,10,0,0,0.0,0.001953125,0.00390625
+adaptive_5family,restricted_ad_or_sl,all_panel_penalized_delay_mean_min,all-run penalized mean delay,lower,10,0.4593882352941236,0.45070588235294196,10,0,0,0.0,0.001953125,0.00390625
+adaptive_5family,restricted_ad_or_sl,mean_top5_jaccard,mean Top-5 Jaccard,higher,10,-0.0019607843137254945,0.0,1,7,2,9.0,1.0,1.0
+adaptive_5family,restricted_ad_or_sl,exact_top5_set_recovery_rate,exact Top-5 recovery,higher,10,-0.005882352941176472,0.0,1,7,2,9.0,1.0,1.0

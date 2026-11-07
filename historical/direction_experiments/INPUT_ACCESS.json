@@ -1,0 +1,39 @@
+{
+  "normal": {
+    "path": "normal_validation_runs_1_250.pkl",
+    "bytes": 105601801,
+    "sha256": "112c344ec6394ca48ce70e35acd1e2b55efdce9c792f933a8c9b81541e0125c2",
+    "runs": 250,
+    "normal_evaluation_opened": false
+  },
+  "normal_projection_error": 9.547918011776346e-15,
+  "matrix": {
+    "metadata_rows_scanned": 9600000,
+    "indexed_development_rows": 4800000,
+    "process_rows_decoded": {
+      "3": 240000,
+      "18": 240000,
+      "1": 240000,
+      "2": 240000,
+      "4": 240000,
+      "5": 240000,
+      "6": 240000,
+      "7": 240000,
+      "8": 240000,
+      "9": 240000,
+      "10": 240000,
+      "11": 240000,
+      "12": 240000,
+      "13": 240000,
+      "14": 240000,
+      "15": 240000,
+      "16": 240000,
+      "17": 240000,
+      "19": 240000,
+      "20": 240000
+    },
+    "old_final_process_rows_decoded": 0
+  },
+  "old_final_process_rows_decoded": 0,
+  "new_seed_access": false
+}

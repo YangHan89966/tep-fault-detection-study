@@ -1,0 +1,28 @@
+{
+  "release_date": "2026-11-07",
+  "source_archive": "TEP_P1_F9_Independent_Relearning_20261104.zip",
+  "source_archive_sha256": "5f91fcefc0c38d0939319e5f1479a8a7b80467c7dcb5f958b0e4476bbb06521a",
+  "changes": [
+    {
+      "path": "F9_Relearn/00_运行说明.txt",
+      "action": "documentation_revised",
+      "original_sha256": "2792c410c10a0ad5d104a5b3a671462b04b67ef6202c1f153b2fb73b7932ca15",
+      "public_sha256": "1b6de210aede5bc947045c0fca2d7fc382b5998c211ed5e638514a3a65ca1486"
+    },
+    {
+      "path": "F9_Relearn/EXPERIMENT_CN.txt",
+      "action": "documentation_revised",
+      "original_sha256": "f4af8ba593e5e386d4b99949948dbe27373dabd47ddda9b68ac0bb8f0bdb8469",
+      "public_sha256": "dba68a2c0bc777f2ba49cb37b68e33d38e70b60eb3242ee4f7029e5e5bdf3302"
+    }
+  ],
+  "all_non_document_members_byte_identical": true,
+  "preserved_original_member_count": 107,
+  "original_member_count": 109,
+  "code_lock_verification": {
+    "code_lock_matched": 53,
+    "code_lock_total": 53,
+    "design_lock_identical": true
+  },
+  "original_manifests": "Original manifests are preserved byte-for-byte as historical source records. They describe the original archive. Documentation-only differences and omissions are listed here; use PUBLIC_SHA256SUMS.txt for this public derivative."
+}

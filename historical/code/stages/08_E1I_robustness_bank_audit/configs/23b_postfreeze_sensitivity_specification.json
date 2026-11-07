@@ -1,0 +1,74 @@
+{
+  "registration_name": "Step 23B post-freeze sensitivity analysis",
+  "registration_status": "post-freeze secondary analysis; Step-22 performance already exists",
+  "script": "scripts/23b_postfreeze_sensitivity_analysis.py",
+  "script_sha256": "1355ff1aa7a3bc1fa3fa5cf1f0ca2d98c68f98c8d96973638b0113ae0fb69d71",
+  "input_sha256": {
+    "step22_results": "dba76d9fa2d52785f60307ed83ddd0161e92510ce97059c9932a6b5e0817715f",
+    "step22_run_results": "cb141426568b07e7ce8008f6595968dd340034e862ea7bc24b9b7ae6215008a9",
+    "step22_config": "02301f6292c471db81fb38d66b85f0ec54873fc5d05953876bdf815fbd56e914"
+  },
+  "process_data_loaded": false,
+  "detector_performance_recomputed": false,
+  "detector_fitting_allowed": false,
+  "variable_selection_allowed": false,
+  "evidence_family_selection_allowed": false,
+  "top_k_tuning_allowed": false,
+  "cusum_k_tuning_allowed": false,
+  "control_limit_tuning_allowed": false,
+  "primary_population": {
+    "faults": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "n_faults": 17,
+    "final_runs_per_fault": 250,
+    "normal_runs": 250
+  },
+  "finite_run_detection_intervals": {
+    "method": "two-sided Clopper-Pearson exact binomial interval",
+    "confidence_level": 0.95,
+    "unit": "run within fault and method"
+  },
+  "all_run_delay_sensitivity": {
+    "detected_run_delay": "(first post-fault alarm sample - 161) * 3 minutes",
+    "miss_penalty_minutes": 2400,
+    "miss_penalty_definition": "one full 800-sample post-fault monitoring horizon",
+    "latest_observable_delay_minutes": 2397,
+    "primary_cross_fault_unit": "fault",
+    "uncertainty": "fault-cluster percentile bootstrap"
+  },
+  "normal_far_uncertainty": {
+    "method": "crossed nonparametric bootstrap resampling the 17 fault-specific detectors and the 250 shared normal runs independently",
+    "replicates": 20000,
+    "seed": 20260716,
+    "confidence_level": 0.95,
+    "additional_decompositions": [
+      "fault-only",
+      "normal-run-only"
+    ]
+  },
+  "reporting_guardrails": [
+    "Detected-run delay remains reported but is explicitly conditional on detection.",
+    "All-run penalized delay is a sensitivity endpoint, not a newly tuned objective.",
+    "The 2400-minute miss penalty was fixed before reading Step-22 run rows.",
+    "Do not describe post-freeze registration as prospective preregistration.",
+    "Do not claim equivalence from a non-significant comparison."
+  ],
+  "registered_at_utc": "2026-08-19T11:13:46.429894+00:00"
+}

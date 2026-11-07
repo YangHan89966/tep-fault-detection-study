@@ -1,0 +1,104 @@
+{
+  "study_id": "TEP_P1_INDEPENDENT_STREAM_CONFIRMATION_20261023_V1",
+  "data_version": "20261024_recovered_v2",
+  "files": [
+    {
+      "path": "results/arm_summary.csv",
+      "source_archive": "TEP_P1_Independent_Stream_Complete_Results_20261024_recovered_v2.zip",
+      "source_member": "confirmation_v1/results/arm_summary.csv",
+      "size_bytes": 7838,
+      "sha256": "d71c00b6c2ef6679d0df88da1819591faafc64dbc2fb96c066fcae10da331cd3",
+      "transformation": "none"
+    },
+    {
+      "path": "results/five_state_averages.csv",
+      "source_archive": "TEP_P1_Independent_Stream_Complete_Results_20261024_recovered_v2.zip",
+      "source_member": "confirmation_v1/results/five_state_averages.csv",
+      "size_bytes": 1660,
+      "sha256": "598c558ad7ec115ae73ef7a2ffd745bb55548df3cdf7fd995c816be5667b3518",
+      "transformation": "none"
+    },
+    {
+      "path": "results/per_run_events.csv",
+      "source_archive": "TEP_P1_Independent_Stream_Complete_Results_20261024_recovered_v2.zip",
+      "source_member": "confirmation_v1/results/per_run_events.csv",
+      "size_bytes": 1405312,
+      "sha256": "a91b2a2e89f03edb47002b95246b93130739d8a2d9af590b4853e99db9649382",
+      "transformation": "none"
+    },
+    {
+      "path": "results/primary_contrasts.csv",
+      "source_archive": "TEP_P1_Independent_Stream_Complete_Results_20261024_recovered_v2.zip",
+      "source_member": "confirmation_v1/results/primary_contrasts.csv",
+      "size_bytes": 649,
+      "sha256": "0e8fbe421ae18291d098b5209651d79b24ea429eb4c08a7bf87b52b843507a69",
+      "transformation": "none"
+    },
+    {
+      "path": "results/secondary_contrasts.csv",
+      "source_archive": "TEP_P1_Independent_Stream_Complete_Results_20261024_recovered_v2.zip",
+      "source_member": "confirmation_v1/results/secondary_contrasts.csv",
+      "size_bytes": 1759,
+      "sha256": "5ed9aecc8dbd3592d341b35f8a5fffdf874957c4ea1f620773577ee216e5f9ce",
+      "transformation": "none"
+    },
+    {
+      "path": "results/shutdown_runs.csv",
+      "source_archive": "TEP_P1_Independent_Stream_Complete_Results_20261024_recovered_v2.zip",
+      "source_member": "confirmation_v1/results/shutdown_runs.csv",
+      "size_bytes": 54,
+      "sha256": "70b596d62ee82b93882d7e8a154f74ec0eacf93adf8626a6ac76afa05284f556",
+      "transformation": "none"
+    },
+    {
+      "path": "results/RESULTS.json",
+      "source_archive": "TEP_P1_Independent_Stream_Complete_Results_20261024_recovered_v2.zip",
+      "source_member": "confirmation_v1/results/RESULTS.json",
+      "size_bytes": 124294,
+      "sha256": "a4261b7d1581b127f3c540862662ceb14d2ef2c444be798f03e6829ff9c7cd55",
+      "transformation": "none"
+    },
+    {
+      "path": "MANIFEST.csv",
+      "source_archive": "TEP_P1_Independent_Stream_Complete_Results_20261024_recovered_v2.zip",
+      "source_member": "confirmation_v1/MANIFEST.csv",
+      "size_bytes": 104508,
+      "sha256": "0388636ba6a83458d78b0c8c58f69d092591905641967d6147769ebc3f5f641a",
+      "transformation": "none"
+    },
+    {
+      "path": "ARM_METADATA.json",
+      "source_archive": "TEP_P1_Independent_Stream_Complete_Results_20261024_recovered_v2.zip",
+      "source_member": "confirmation_v1/ARM_METADATA.json",
+      "size_bytes": 18261,
+      "sha256": "9f2e7f200ae8dcf1e367bdf80552e892cdfcb3d111d730749443781dccbd287f",
+      "transformation": "none"
+    },
+    {
+      "path": "THRESHOLDS_LOCK.json",
+      "source_archive": "TEP_P1_Independent_Stream_Complete_Results_20261024_recovered_v2.zip",
+      "source_member": "confirmation_v1/calibration/THRESHOLDS_LOCK.json",
+      "size_bytes": 46339,
+      "sha256": "3ce41ad2dae91aad4085aca9eb50b8cf7248d8b76569c75d9058090671be9be1",
+      "transformation": "none"
+    }
+  ],
+  "additional_external_sources": [
+    {
+      "source_member": "confirmation_v1/PROTOCOL.json",
+      "size_bytes": 7911,
+      "sha256": "ba89eaa7262486f1419452760bb6357643dbeb61235cad542854cb83474a5cf5"
+    },
+    {
+      "source_member": "confirmation_v1/PROTOCOL_LOCK.json",
+      "size_bytes": 11672,
+      "sha256": "21a1ec76c68f97b08fe108e61d07e22cc735f4ec5af0b01b439768378e515217"
+    },
+    {
+      "source_member": "confirmation_v1/code/analyze_confirmation.py",
+      "size_bytes": 17792,
+      "sha256": "111857ac4abb876020adb28299d354916cba9604de03b4adb532ab4a374077c9"
+    }
+  ],
+  "csv_anchor_scope": "All six CSV hashes equal the retained 2026-10-23 anchors; not a whole-archive identity claim."
+}

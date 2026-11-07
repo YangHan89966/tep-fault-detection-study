@@ -1,0 +1,13 @@
+{
+  "study_id": "TEP_P1_F9_RECORDING_B_CROSS_20261030_v1",
+  "status": "COMPLETE_AND_INDEPENDENT_OUTPUT_CHECKS_PASS",
+  "source_return_filename": "TEP_P1_F9_Recording_B_Cross_RETURN_20261030T060736Z_09450ec1.zip",
+  "source_return_sha256": "91ed8acc07ec477fab28f3bc03a826bd87c41d8fa0bf0bdc08a2b17ae495cb96",
+  "launcher_exit_code": 0,
+  "returned_final_lock_sha256": "1a901e6e8d5bfb9e9e9a5d046e4b18018feb27cdc5d21c39a8fbba284a94cf9a",
+  "new_simulations": 0,
+  "raw_trajectories_included": false,
+  "raw_trajectory_location": "External original source workspaces; see README.md for the required identities and layout.",
+  "independent_output_audit": "validation/INDEPENDENT_OUTPUT_AUDIT.json",
+  "independent_bootstrap_audit": "validation/BOOTSTRAP_INDEPENDENT_VERIFICATION.json"
+}

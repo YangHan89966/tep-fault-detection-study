@@ -1,0 +1,90 @@
+{
+  "script": "scripts/18_faults9_15_prespecified_generalization.py",
+  "target_faults": [
+    9,
+    15
+  ],
+  "protocol_fixed_before_results": true,
+  "development_source": "TEP_Faulty_Testing.RData, target-fault runs 1-250",
+  "final_source": "TEP_Faulty_Testing.RData, target-fault runs 251-500",
+  "companion_source": "TEP_Faulty_Training.RData, all 500 target-fault runs; post-freeze",
+  "faulty_training_used_for_tuning": false,
+  "screening": {
+    "development_window": [
+      161,
+      320
+    ],
+    "companion_diagnostic_window": [
+      21,
+      180
+    ],
+    "bootstrap_replicates": 2000,
+    "bootstrap_unit": "independent simulation run",
+    "confidence": 0.95,
+    "ranking": "absolute Hedges' g among CI-stable residuals",
+    "top_k": 5
+  },
+  "proposed_cusum_k": 0.05,
+  "competitor_k_grid": [
+    0.01,
+    0.03,
+    0.05,
+    0.07,
+    0.1,
+    0.2,
+    0.3,
+    0.5
+  ],
+  "run_level_control_limit_percentile": 95,
+  "pca_n_components": 36,
+  "pca_cumulative_explained_variance": 0.9581997268001302,
+  "screening_summaries": [
+    {
+      "fault_id": 9,
+      "development_stable_variable_count": 0,
+      "development_selected_count": 0,
+      "development_selected_variables": "",
+      "development_selected_signs": "",
+      "protocol_full_top5_available": false,
+      "companion_stable_variable_count": 7,
+      "companion_postfreeze_top5": "xmv_2;xmeas_3;xmeas_36;xmeas_6;xmeas_25",
+      "development_companion_top5_overlap": 0,
+      "development_selected_sign_agreement_count": 0,
+      "development_selected_companion_stable_count": 0
+    },
+    {
+      "fault_id": 15,
+      "development_stable_variable_count": 0,
+      "development_selected_count": 0,
+      "development_selected_variables": "",
+      "development_selected_signs": "",
+      "protocol_full_top5_available": false,
+      "companion_stable_variable_count": 6,
+      "companion_postfreeze_top5": "xmv_2;xmeas_6;xmeas_3;xmeas_36;xmeas_25",
+      "development_companion_top5_overlap": 0,
+      "development_selected_sign_agreement_count": 0,
+      "development_selected_companion_stable_count": 0
+    }
+  ],
+  "output_tables": [
+    "results\\tables\\18_faults9_15_data_audit.csv",
+    "results\\tables\\18_faults9_15_screening_all_variables.csv",
+    "results\\tables\\18_faults9_15_selected_variables.csv",
+    "results\\tables\\18_faults9_15_companion_direction_transfer.csv",
+    "results\\tables\\18_faults9_15_screening_transfer_summary.csv",
+    "results\\tables\\18_faults9_15_all_method_results.csv",
+    "results\\tables\\18_faults9_15_competitor_k_tuning.csv",
+    "results\\tables\\18_faults9_15_run_results.csv",
+    "results\\tables\\18_faults9_15_lda_weights.csv",
+    "results\\tables\\18_faults9_15_global_transform_parameters.csv"
+  ],
+  "output_figures": [],
+  "large_cache_files_not_for_result_archive": [
+    "data\\processed\\fault9_development_runs_1_250.pkl",
+    "data\\processed\\fault9_final_test_runs_251_500.pkl",
+    "data\\processed\\fault9_companion_training_runs_1_500.pkl",
+    "data\\processed\\fault15_development_runs_1_250.pkl",
+    "data\\processed\\fault15_final_test_runs_251_500.pkl",
+    "data\\processed\\fault15_companion_training_runs_1_500.pkl"
+  ]
+}

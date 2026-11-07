@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "full48h_software_replays": 2,
+  "new_scientific_trajectories": 0,
+  "original_uniforms_bitwise_verified": 943368,
+  "noise_event_cells_verified": 78720,
+  "reports": [
+    {
+      "filename": "FULL_48H_NORMAL_SOURCE_CAPTURE.json",
+      "sha256": "15d845d0bf8a74bd3a70d628c51f93dc543e4d2cecdcd11aef9d2166cb865e92"
+    },
+    {
+      "filename": "FULL_48H_F09_SOURCE_CAPTURE.json",
+      "sha256": "289b27efe0e574a1231a3733e4e03efee98c187d664a99bc6508e57da826b176"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "function": "check",
+    "source_path": "source_original/code/inherited.py",
+    "source_sha256": "5f31ee0222027e063bcf309538c680fe62efec02c5cd4634c9c5d2f5f5ae372f",
+    "source_lines": [
+      8,
+      9
+    ]
+  },
+  {
+    "function": "features",
+    "source_path": "source_original/code/inherited.py",
+    "source_sha256": "5f31ee0222027e063bcf309538c680fe62efec02c5cd4634c9c5d2f5f5ae372f",
+    "source_lines": [
+      20,
+      21
+    ]
+  },
+  {
+    "function": "recurrence",
+    "source_path": "source_original/code/inherited.py",
+    "source_sha256": "5f31ee0222027e063bcf309538c680fe62efec02c5cd4634c9c5d2f5f5ae372f",
+    "source_lines": [
+      42,
+      49
+    ]
+  },
+  {
+    "function": "upper_cusum",
+    "source_path": "source_original/code/inherited.py",
+    "source_sha256": "5f31ee0222027e063bcf309538c680fe62efec02c5cd4634c9c5d2f5f5ae372f",
+    "source_lines": [
+      52,
+      54
+    ]
+  },
+  {
+    "function": "project_axes",
+    "source_path": "source_original/code/inherited.py",
+    "source_sha256": "5f31ee0222027e063bcf309538c680fe62efec02c5cd4634c9c5d2f5f5ae372f",
+    "source_lines": [
+      174,
+      175
+    ]
+  },
+  {
+    "function": "transform_inputs",
+    "source_path": "source_original/code/inherited.py",
+    "source_sha256": "5f31ee0222027e063bcf309538c680fe62efec02c5cd4634c9c5d2f5f5ae372f",
+    "source_lines": [
+      189,
+      193
+    ]
+  },
+  {
+    "function": "inputs_and_scores",
+    "source_path": "source_original/code/inherited.py",
+    "source_sha256": "5f31ee0222027e063bcf309538c680fe62efec02c5cd4634c9c5d2f5f5ae372f",
+    "source_lines": [
+      292,
+      303
+    ]
+  },
+  {
+    "function": "project",
+    "source_path": "source_original/code/science.py",
+    "source_sha256": "be7879233b9389cf7721bafc0aed35d5d9d531393b886f0234cd6aefafae81fb",
+    "source_lines": [
+      25,
+      39
+    ]
+  },
+  {
+    "function": "events",
+    "source_path": "source_original/code/science.py",
+    "source_sha256": "be7879233b9389cf7721bafc0aed35d5d9d531393b886f0234cd6aefafae81fb",
+    "source_lines": [
+      74,
+      86
+    ]
+  },
+  {
+    "function": "thresholds",
+    "source_path": "source_original/code/science.py",
+    "source_sha256": "be7879233b9389cf7721bafc0aed35d5d9d531393b886f0234cd6aefafae81fb",
+    "source_lines": [
+      89,
+      97
+    ]
+  },
+  {
+    "function": "binomial_sum",
+    "source_path": "source_original/code/statistics_impl.py",
+    "source_sha256": "0fee2dc3fe6cb4a1cc6ba621ef51595941b4f66377801157fe875fbf1bec7aab",
+    "source_lines": [
+      7,
+      11
+    ]
+  },
+  {
+    "function": "clopper_pearson",
+    "source_path": "source_original/code/statistics_impl.py",
+    "source_sha256": "0fee2dc3fe6cb4a1cc6ba621ef51595941b4f66377801157fe875fbf1bec7aab",
+    "source_lines": [
+      14,
+      24
+    ]
+  }
+]

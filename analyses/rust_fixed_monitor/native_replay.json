@@ -1,0 +1,25 @@
+{
+  "selfCheckDigest": "c8a26889992f1719",
+  "replays": [
+    {
+      "role": "normal",
+      "run_id": 1,
+      "records": 960,
+      "channels": 52,
+      "elements": 49920,
+      "different": 0,
+      "max_abs_error": 0,
+      "clock_max_abs_error_sec": 4.337634891271591e-7
+    },
+    {
+      "role": "fault",
+      "run_id": 1,
+      "records": 960,
+      "channels": 52,
+      "elements": 49920,
+      "different": 0,
+      "max_abs_error": 0,
+      "clock_max_abs_error_sec": 4.337634891271591e-7
+    }
+  ]
+}

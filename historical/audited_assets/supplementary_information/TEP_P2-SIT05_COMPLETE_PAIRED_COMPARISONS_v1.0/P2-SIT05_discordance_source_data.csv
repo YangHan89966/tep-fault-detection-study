@@ -1,0 +1,7 @@
+baseline_key,baseline_short,both_detected,proposed_only_detected,baseline_only_detected,neither_detected,paired_runs,proposed_only_pct,miss_cluster_concentration,status
+pca_q_cusum,Q-CUSUM,4250,0,0,0,4250,0.0,None,descriptive run-level discordance; fault-level analysis is primary
+pca_t2_cusum,T²-CUSUM,4236,14,0,0,4250,0.32941176470588235,Fault 16: 14,descriptive run-level discordance; fault-level analysis is primary
+pca_joint_cusum,Joint CUSUM,4250,0,0,0,4250,0.0,None,descriptive run-level discordance; fault-level analysis is primary
+lda_residual_cusum,LDA residual,4198,52,0,0,4250,1.223529411764706,Fault 10: 3; Fault 14: 7; Fault 19: 42,descriptive run-level discordance; fault-level analysis is primary
+chosen_family_all52_cusum,Family All-52,4250,0,0,0,4250,0.0,None,descriptive run-level discordance; fault-level analysis is primary
+chosen_family_top1_cusum,Family Top-1,4250,0,0,0,4250,0.0,None,descriptive run-level discordance; fault-level analysis is primary

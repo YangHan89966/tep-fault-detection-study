@@ -1,0 +1,10 @@
+Configuration,40 h clean n (%),≤60 min n,≤120 min n,≤480 min n,Normal alarm n (%),Mean loss (min),Occupancy (%),Pre-fault alarm n
+Mean / Signed,250 (100.0),0,2,111,7 (2.8),532.20,76.06,0
+Mean / Absolute,49 (19.6),0,0,4,14 (5.6),2224.88,4.03,0
+Mean / Squared,51 (20.4),0,0,4,18 (7.2),2221.61,3.91,0
+Moment / Signed,250 (100.0),1,2,54,10 (4.0),699.76,67.37,0
+Moment / Absolute,49 (19.6),0,0,1,5 (2.0),2235.55,3.13,0
+Moment / Squared,20 (8.0),0,0,0,6 (2.4),2335.56,1.49,1
+Same direction / Absolute,27 (10.8),0,0,0,10 (4.0),2331.55,1.15,0
+Same direction / Squared,27 (10.8),0,0,0,10 (4.0),2315.32,1.34,0
+Q-CUSUM,14 (5.6),0,1,3,12 (4.8),2346.66,1.02,0

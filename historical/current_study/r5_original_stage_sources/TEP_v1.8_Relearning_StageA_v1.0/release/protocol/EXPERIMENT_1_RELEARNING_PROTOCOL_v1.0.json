@@ -1,0 +1,70 @@
+{
+  "created_utc": "2026-09-13T14:23:14.430375+00:00",
+  "status": "LOCKED_BEFORE_NEW_ANALYSIS_OUTPUTS",
+  "chronology": "The manuscript v1.7.4 and its outcomes had already been inspected when these studies were chosen. This is an author revision study, not external preregistration and not a replacement of N or original DV.",
+  "baseline_manifest_sha256": "ea783e4c26867df8504c5c4d42b9733480af44c2cc648b5aa2693d0917741aaf",
+  "source_code_snapshot_sha256": "dcf623fd9f182bc700442436d3063fece4f418bc5b15a89c5ca176281b36c3cb",
+  "outcome_dependent_extension_or_tuning": false,
+  "failure_policy": "Retain all outcomes. Stop on integrity or numerical failure, preserve evidence, never substitute favorable seeds. Resource interruptions resume the same predefined task.",
+  "study_id": "TEP_V18_RELEARNING_R5_v1.0",
+  "purpose": "Targeted finite repeated-downstream-learning study for the original three DV contrasts, conditional on the existing N PCA and generator; not full-pipeline PCA-training stability.",
+  "replications": 5,
+  "budget_rationale": "Fixed limited extension rather than a power-derived number or a journal rule. Five distinct learning/calibration samples allow transparent observed dispersion; they cannot precisely estimate the probability that a future fit succeeds. No claim of global training stability is permitted.",
+  "normal_training_PCA": "reuse exact original N PCA and residual basis; do not refit",
+  "per_replication_development_roles": {
+    "normal_design": 40,
+    "normal_anchor": 32,
+    "normal_inner_calibration": 59,
+    "normal_outer_calibration": 259,
+    "fault_fit_each_of_3_9_15": 100,
+    "fault_selection_each_of_3_9_15": 75
+  },
+  "development_per_replication": 915,
+  "new_development_total": 4575,
+  "evaluation": {
+    "shared_new_panel": true,
+    "normal": 250,
+    "fault3": 250,
+    "fault9": 250,
+    "fault15": 250,
+    "total": 1000,
+    "generate_after": "ALL five sets of27 configurations have been locked",
+    "fit_use_of_this_panel": false
+  },
+  "new_total_trajectories": 5575,
+  "same_recipe": "original DV immutable numerical modules, B120 metrics,16 residual dimensions,end-of-chain ridge1e-4,actual-variance normalization,endpoint windows,k0.05,anchor32,inner59/rank57,outer259/rank247,tie rules,27 configurations per repetition",
+  "primary_contrasts": [
+    {
+      "id": "C1",
+      "fault": 3,
+      "A": "same_mean_signed_axis_squared",
+      "B": "mean_pool_signed",
+      "predicted_sign": "positive"
+    },
+    {
+      "id": "C2",
+      "fault": 9,
+      "A": "moment_pool_signed",
+      "B": "mean_pool_signed",
+      "predicted_sign": "negative"
+    },
+    {
+      "id": "C3",
+      "fault": 15,
+      "A": "moment_pool_squared",
+      "B": "mean_pool_squared",
+      "predicted_sign": "negative"
+    }
+  ],
+  "full_reporting": "all135 model configurations, all15 repeated primary contrasts, thresholds, choices, normal FAR, pre-alarms,clean success60/120/480/2400,penalized loss,failed runs,source identities",
+  "inference": {
+    "training_repetitions": "descriptive per-fit differences and five-fit mean/median/range/sign counts; never present range as confidence interval or5/5 as population guarantee",
+    "test_intervals": "20000 paired whole-run draws shared across repeats and branches within each fault; one common normal resampling schedule across all normal monitors; tests remain250 per fault and250 normal, not1250",
+    "three_family_summary": "mean the five paired per-run contrast vectors BEFORE resampling the250 shared tests. Report marginal95% and Bonferroni98.3333% for3 finite-five-fit summary contrasts, conditional on these5 fits/PCA, excluding population training uncertainty",
+    "per_fit_intervals": "marginal95% conditional descriptive intervals; no counting significance as independent replications; no family-wide claim over15 tests",
+    "no_training_population_CI": "Five fits provide insufficient precision for an asserted future-training success guarantee; no nominal bootstrap interval presented as resolving that limitation"
+  },
+  "seed_policy": "Generate new deterministic role/repetition-labeled nonzero32-bit initializations; check all new entries against prior9500 and originalDV1915 effective states locally; all roles andreplications disjoint; distinct starting states are not a proof of disjoint PRNG substreams. Old seed rows not exported.",
+  "runtime_policy": "No automatic pip/install/backend change. Use pinned original pure-Python simulator source and original native horizon with Python3.12.3/NumPy2.2.6 where available; readiness-only probe first; actual host paths and resources must be established, not guessed.",
+  "local_preflight_status": "PENDING; NO NEW PROCESS GENERATION OR LEARNING HAS RUN"
+}

@@ -1,0 +1,82 @@
+{
+  "status": "COMPLETE_FROZEN_PANEL_ANALYZED",
+  "written_utc": "2026-10-24T01:58:36.020783+00:00",
+  "physical_trajectories": 1199,
+  "calibration_n": 199,
+  "normal_evaluation_n": 400,
+  "per_fault_evaluation_n": 200,
+  "paired_recording_views_count_as_one_trajectory": true,
+  "five_fixed_states_do_not_multiply_n": true,
+  "primary_family_size": 3,
+  "primary_confidence_level": 0.9833333333333333,
+  "bootstrap_replicates": 20000,
+  "bootstrap_seed": 2026102207,
+  "primary": [
+    {
+      "contrast": "C1_same_axis_squared_minus_signed",
+      "fault_id": 3,
+      "endpoint": "mean_penalized_loss_40h",
+      "unit": "minutes",
+      "favorable_sign": 1,
+      "physical_n": 200,
+      "estimate": 1655.8080000000002,
+      "ci95_low": 1608.0958499999997,
+      "ci95_high": 1700.6729999999998,
+      "ci98_333_low": 1596.845475,
+      "ci98_333_high": 1710.116275,
+      "bootstrap_replicates": 20000,
+      "bootstrap_degenerate": 0,
+      "supported_by_family_interval": 1
+    },
+    {
+      "contrast": "C3_moment_minus_mean_squared",
+      "fault_id": 15,
+      "endpoint": "mean_penalized_loss_40h",
+      "unit": "minutes",
+      "favorable_sign": -1,
+      "physical_n": 200,
+      "estimate": -626.481,
+      "ci95_low": -701.10045,
+      "ci95_high": -553.4067,
+      "ci98_333_low": -718.0656749999999,
+      "ci98_333_high": -537.2602499999999,
+      "bootstrap_replicates": 20000,
+      "bootstrap_degenerate": 0,
+      "supported_by_family_interval": 1
+    },
+    {
+      "contrast": "F9_controller_input_minus_native",
+      "fault_id": 9,
+      "endpoint": "mean_penalized_loss_40h",
+      "unit": "minutes",
+      "favorable_sign": -1,
+      "physical_n": 200,
+      "estimate": -1149.615,
+      "ci95_low": -1256.31,
+      "ci95_high": -1042.393875,
+      "ci98_333_low": -1277.7355,
+      "ci98_333_high": -1016.3728749999999,
+      "bootstrap_replicates": 20000,
+      "bootstrap_degenerate": 0,
+      "supported_by_family_interval": 1
+    }
+  ],
+  "shutdown_run_count": 0,
+  "interval_scope": "Conditional on frozen models and current independent calibration thresholds; no training/calibration-population uncertainty. Approximate percentile bootstrap.",
+  "limitations": [
+    "Original failed F9 2h prediction remains failed",
+    "Does not retroactively repair original intervals",
+    "Does not confirm independent relearning or universal recording effects",
+    "Interpret loss contrasts alongside each arm's realized normal FAR"
+  ],
+  "csv_sha256": {
+    "arm_summary.csv": "d71c00b6c2ef6679d0df88da1819591faafc64dbc2fb96c066fcae10da331cd3",
+    "five_state_averages.csv": "598c558ad7ec115ae73ef7a2ffd745bb55548df3cdf7fd995c816be5667b3518",
+    "per_run_events.csv": "a91b2a2e89f03edb47002b95246b93130739d8a2d9af590b4853e99db9649382",
+    "primary_contrasts.csv": "0e8fbe421ae18291d098b5209651d79b24ea429eb4c08a7bf87b52b843507a69",
+    "secondary_contrasts.csv": "5ed9aecc8dbd3592d341b35f8a5fffdf874957c4ea1f620773577ee216e5f9ce",
+    "shutdown_runs.csv": "70b596d62ee82b93882d7e8a154f74ec0eacf93adf8626a6ac76afa05284f556"
+  },
+  "analysis_code_sha256_original": "111857ac4abb876020adb28299d354916cba9604de03b4adb532ab4a374077c9",
+  "release_note": "Archived scientific results. File identity for this reader-facing release is in FILE_MANIFEST.csv; original scientific computation was not changed."
+}

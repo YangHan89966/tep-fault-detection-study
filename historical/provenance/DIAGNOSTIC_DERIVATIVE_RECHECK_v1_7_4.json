@@ -1,0 +1,39 @@
+{
+  "status": "PASS_BYTE_COMPARISON",
+  "archives": [
+    {
+      "archive": "TEP_S28_20260906T100417_400998Z_qzvltd2p_PUBLIC_PATH_REDACTED_v1.zip",
+      "bytes": 180630073,
+      "sha256": "18632bbc8764abc745d50ca3820d1d1f7d04baf189236ac0176c258c64a9d109",
+      "numerical_members_byte_equal": 12043,
+      "modified_nonnumerical_members": [
+        "INPUT_ACCESS.json",
+        "PAYLOAD_SHA256.txt",
+        "README_CN.md",
+        "RESULTS_SHA256.txt",
+        "RUNTIME_PROBES.json",
+        "code/data_io.py",
+        "code/zipapp_main.py"
+      ],
+      "original_zip_sha256": "10de28ab3484a34ec95df8146ab298748f09ab5d31a40234b2f3ead69b4ae293",
+      "new_execution": false
+    },
+    {
+      "archive": "TEP_S30_F9_PATHS_20260906T114012_708942Z_jy1gynnr_PUBLIC_PATH_REDACTED_v1.zip",
+      "bytes": 40783061,
+      "sha256": "3d6673a3e7870e6ce31eb7765e8b689d0b71a408e16c8c19a524f66f65a80c82",
+      "numerical_members_byte_equal": 92,
+      "modified_nonnumerical_members": [
+        "INPUT_ACCESS.json",
+        "PAYLOAD_MANIFEST.json",
+        "RESULTS_SHA256.txt",
+        "RUNTIME_PROBES.json",
+        "code/data_io.py",
+        "scores/PARITY_CHECKS.json"
+      ],
+      "original_zip_sha256": "292106c23c212d3931c15aa6c5e435cc1069781f48e519c0259211ea7072b6fc",
+      "new_execution": false
+    }
+  ],
+  "rights": "Existing notices retained; this comparison does not grant distribution permission."
+}

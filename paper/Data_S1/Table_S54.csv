@@ -1,0 +1,19 @@
+Contrast,Clean ≤2 h,Clean ≤8 h,Clean 40 h,Pre-fault alarms,Normal runs with any alarm,Mean loss (min)
+Controller-input minus post-update recording,,,,,,
+"Second-moment, original B",+8.3 (3.3 to 13.3),+67.5 (59.2 to 75.8),+67.5 (59.2 to 75.8),+0.8 (0.0 to 2.5),0.0 (−5.8 to 5.8),"−1,655.2 (−1,772.9 to −1,531.0)"
+"Second-moment, batch means",+4.2 (0.0 to 8.3),+65.0 (56.7 to 73.3),+60.0 (50.8 to 68.3),0.0 (0.0 to 0.0),−0.8 (−4.2 to 1.7),"−1,587.2 (−1,704.5 to −1,466.8)"
+"Mean-shift, original B",+1.7 (0.0 to 4.2),+36.7 (28.3 to 45.0),+80.0 (72.5 to 87.5),+1.7 (0.0 to 4.2),−0.8 (−7.5 to 5.8),"−1,407.2 (−1,530.7 to −1,278.5)"
+"Mean-shift, batch means",0.0 (0.0 to 0.0),+24.2 (16.7 to 31.7),+65.8 (55.8 to 75.0),+1.7 (0.0 to 4.2),−0.8 (−5.8 to 4.2),"−1,026.7 (−1,170.8 to −878.8)"
+Batch means minus original B,,,,,,
+"Second-moment, post-update",+0.8 (0.0 to 2.5),−0.8 (−2.5 to 0.0),+6.7 (−0.8 to 14.2),0.0 (0.0 to 0.0),−3.3 (−6.7 to −0.8),−32.9 (−108.3 to 45.4)
+"Second-moment, controller-input",−3.3 (−6.7 to −0.8),−3.3 (−7.5 to 0.0),−0.8 (−4.2 to 1.7),−0.8 (−2.5 to 0.0),−4.2 (−8.3 to −0.8),+35.2 (−17.3 to 81.7)
+"Mean-shift, post-update",0.0 (0.0 to 0.0),0.0 (0.0 to 0.0),0.0 (−5.0 to 5.0),0.0 (0.0 to 0.0),−3.3 (−8.3 to 1.7),0.0 (−41.8 to 37.8)
+"Mean-shift, controller-input",−1.7 (−4.2 to 0.0),−12.5 (−19.2 to −6.7),−14.2 (−20.8 to −7.5),0.0 (0.0 to 0.0),−3.3 (−7.5 to 0.0),+380.5 (269.4 to 499.2)
+C2: second-moment minus mean-shift pool,,,,,,
+"Post-update, original B",0.0 (0.0 to 0.0),+3.3 (0.8 to 6.7),+18.3 (8.3 to 28.3),0.0 (0.0 to 0.0),−3.3 (−10.0 to 3.3),−238.9 (−358.2 to −125.0)
+"Post-update, batch means",+0.8 (0.0 to 2.5),+2.5 (0.0 to 5.8),+25.0 (14.2 to 35.8),0.0 (0.0 to 0.0),−3.3 (−8.3 to 1.7),−271.8 (−385.2 to −159.0)
+"Controller-input, original B",+6.7 (1.7 to 12.5),+34.2 (25.8 to 43.3),+5.8 (2.5 to 10.0),−0.8 (−2.5 to 0.0),−2.5 (−8.3 to 2.5),−486.9 (−592.4 to −389.3)
+"Controller-input, batch means",+5.0 (1.7 to 9.2),+43.3 (34.2 to 52.5),+19.2 (12.5 to 26.7),−1.7 (−4.2 to 0.0),−3.3 (−8.3 to 0.8),−832.3 (−969.2 to −700.5)
+Interaction: recording contrast with batch means minus that with original B,,,,,,
+Second-moment,−4.2 (−9.2 to −0.8),−2.5 (−6.7 to 1.7),−7.5 (−15.0 to 0.0),−0.8 (−2.5 to 0.0),−0.8 (−5.8 to 4.2),+68.0 (−25.4 to 155.6)
+Mean-shift,−1.7 (−4.2 to 0.0),−12.5 (−19.2 to −6.7),−14.2 (−22.5 to −5.8),0.0 (0.0 to 0.0),0.0 (−6.7 to 6.7),+380.5 (260.5 to 509.6)

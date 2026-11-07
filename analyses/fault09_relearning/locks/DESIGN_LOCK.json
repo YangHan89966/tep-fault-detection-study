@@ -1,0 +1,13 @@
+{
+  "study_id": "TEP_P1_F9_PAIRED_RELEARNING_INDEPENDENT_STREAMS_20261104_v1",
+  "locked_utc": "2026-11-04T08:55:16.706116+00:00",
+  "files": {
+    "PROTOCOL.json": "a8966836eb00a3e21779c3f57ec935e17f1de6ec224a535f77faf578f1f2eb1c",
+    "CASE_MANIFEST.csv": "860c3ad6912549867c7e29978400897f65217efba3e3527f77200157aeb57abf",
+    "PREDECESSOR_IDENTITIES.json": "86e3302d515469609cf1ce614e2584847d648e0e64b015d8673f9d5795ccd63e"
+  },
+  "number_of_scientific_trajectories_at_freeze": 0,
+  "keys_verified": 2719,
+  "overlap_with_prior_1199": 0,
+  "key_prefix": "8216edd231da968fbcdf9f80"
+}

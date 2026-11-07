@@ -1,0 +1,9 @@
+﻿estimator,recording,pool,monitor_id,threshold,normal_n,fault_n,normal_alarm_n,prefault_alarm_n,clean_2h_n,clean_8h_n,clean_40h_n,mean_loss_minutes
+original,snapshot,moment,original_M1,19.260897709571598,120,120,7,1,10,85,119,401.05
+original,native,moment,original_M2,47.07995378031494,120,120,7,0,0,4,38,2056.275
+original,snapshot,mean,original_M3,27.444731246973323,120,120,10,2,2,44,112,887.975
+original,native,mean,original_M4,75.5599059978709,120,120,11,0,0,0,16,2295.125
+batch,snapshot,moment,batch_M1,20.350554486178666,120,120,2,0,6,81,118,436.2
+batch,native,moment,batch_M2,46.19021138388782,120,120,3,0,1,3,46,2023.4
+batch,snapshot,mean,batch_M3,30.930112822645384,120,120,6,2,0,29,95,1268.475
+batch,native,mean,batch_M4,75.04085190297721,120,120,7,0,0,0,16,2295.15

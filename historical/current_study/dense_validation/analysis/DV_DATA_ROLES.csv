@@ -1,0 +1,6 @@
+role,normal,fault3,fault9,fault15
+Normal design / fault direction fitting,40,100,100,100
+Normal anchor,32,—,—,—
+Inner calibration / candidate selection,59,75,75,75
+Independent outer calibration,259,—,—,—
+Test,250,250,250,250

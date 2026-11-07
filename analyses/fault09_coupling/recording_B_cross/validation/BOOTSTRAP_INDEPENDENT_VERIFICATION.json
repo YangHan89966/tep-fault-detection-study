@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "contrast_endpoint_rows_verified": 84,
+  "paired_draws": 20000,
+  "seed": 20261030,
+  "saved_indices_equal_regenerated_indices": true,
+  "max_absolute_estimate_or_ci_error": 3.410605131648481e-13,
+  "method": "Form within-case weighted differences first, resample those differences using the saved common indices; no imports from analysis or runner code.",
+  "scope": "Conditional marginal intervals only; no claim of independent random streams or learning/calibration uncertainty coverage.",
+  "public_manifest_files_verified": 127
+}

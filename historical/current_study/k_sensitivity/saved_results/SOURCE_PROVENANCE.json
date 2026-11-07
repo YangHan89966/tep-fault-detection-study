@@ -1,0 +1,295 @@
+{
+  "combined_report_sha256": "267036546435683fd9bce86d42e3f72e109b6e780eb71791cb071e3af56249f4",
+  "combined_manifest_entries_verified": 18,
+  "valid_returns": {
+    "N": {
+      "filename": "TEP_K007_V11_20260913T082145Z_550986f52c9c_RETURN.zip",
+      "sha256": "0edc0897784e899fae6d71e6fabfe8a9e33084fa26a58ce2a118a49c3b0f0258",
+      "members_hashed": 30,
+      "accepted_scope": "N",
+      "note": "Only the second return supplies N results."
+    },
+    "DV": {
+      "filename": "TEP_K007_V11_20260913T081123Z_a770b9b9ce3f_RETURN.zip",
+      "sha256": "030b82fd0723e77c057a1c7ac39afe6f3c18725047e76f6494fbd1b138a0f41d",
+      "members_hashed": 17,
+      "accepted_scope": "DV",
+      "note": "Only DV from the first return is used; its failed N attempt contributes no scientific results."
+    }
+  },
+  "source_files": [
+    {
+      "destination": "N_MACRO.csv",
+      "source": "combined_report/N_MACRO.csv",
+      "sha256": "ac0d77892377c2d597b4b6f0a28693ce38d8ecbd7a68edc97d1053159156cdcb"
+    },
+    {
+      "destination": "N_PER_FAULT.csv",
+      "source": "combined_report/N_PER_FAULT.csv",
+      "sha256": "d370a4583c81bf90ce4681cbcdb8a18fe73d0ec3ca85dc175ecb2322a1cd3d95"
+    },
+    {
+      "destination": "N_PAIRED_MACRO.csv",
+      "source": "combined_report/N_PAIRED_MACRO.csv",
+      "sha256": "8fcd927e8c4a2bb34065afcce35e11c1d5d53529190b39d9c0bf1845cda85fd8"
+    },
+    {
+      "destination": "N_AUTO_SELECTION.csv",
+      "source": "combined_report/N_AUTO_SELECTION.csv",
+      "sha256": "70b7784d87c2427d1dcae60ecce877c671960e752cd804078a0c0923cc6d0c95"
+    },
+    {
+      "destination": "N_AUTO_SELECTION_FIXED.json",
+      "source": "combined_report/N_AUTO_SELECTION_FIXED.json",
+      "sha256": "9b0598b36ddc2dddfa8c6c1ad18fbc94e8700ac9fffeedb7c5b66c72bdce334f"
+    },
+    {
+      "destination": "DV_PER_FAULT.csv",
+      "source": "combined_report/DV_PER_FAULT.csv",
+      "sha256": "195cf923f7ce8230b42ed32835c53b9ba689a154408a1874d7431a4105435ab7"
+    },
+    {
+      "destination": "DV_PRIMARY_CONTRASTS.csv",
+      "source": "combined_report/DV_PRIMARY_CONTRASTS.csv",
+      "sha256": "ea499107073398f73b2ff944ae9edaf5c378e13af0e6488a216e99192f62ceac"
+    },
+    {
+      "destination": "DV_PAIRED_SENSITIVITY.json",
+      "source": "combined_report/DV_PAIRED_SENSITIVITY.json",
+      "sha256": "4c9b339497ce3cd8111909523b2844646dfb41fcc1a37fa1da1ee2baf115a282"
+    },
+    {
+      "destination": "DV_AUTO_SELECTION.csv",
+      "source": "combined_report/DV_AUTO_SELECTION.csv",
+      "sha256": "8a0dd894bf3bce01b27521ee53f3f152f61bf82df60871d270c2d086a63039fa"
+    },
+    {
+      "destination": "DV_AUTO_SELECTION_FIXED.json",
+      "source": "combined_report/DV_AUTO_SELECTION_FIXED.json",
+      "sha256": "62141ac191b5bd3246e4585e3a6bb0a29d7fb8e14c7add8b9594d6028e361968"
+    },
+    {
+      "destination": "masks/N_F01_PAIRED.npz",
+      "source": "TEP_K007_V11_20260913T082145Z_550986f52c9c_RETURN.zip!/N_F01_PAIRED.npz",
+      "sha256": "1cd02f89bdfbdcd91d7dd133bc3a720818f69fc7d0e55c085b0aec5a737083ce"
+    },
+    {
+      "destination": "masks/N_F02_PAIRED.npz",
+      "source": "TEP_K007_V11_20260913T082145Z_550986f52c9c_RETURN.zip!/N_F02_PAIRED.npz",
+      "sha256": "167a641a9e2c224392891a8b78d60170b5d3d38f903b54ce3284e742c2a040a0"
+    },
+    {
+      "destination": "masks/N_F04_PAIRED.npz",
+      "source": "TEP_K007_V11_20260913T082145Z_550986f52c9c_RETURN.zip!/N_F04_PAIRED.npz",
+      "sha256": "fb74fdccd7672ea33d4f2d2c23684b249d26f6954aad7874a8256eb0bb68a96b"
+    },
+    {
+      "destination": "masks/N_F05_PAIRED.npz",
+      "source": "TEP_K007_V11_20260913T082145Z_550986f52c9c_RETURN.zip!/N_F05_PAIRED.npz",
+      "sha256": "420ebc8e06ffd1742cd11fe2072bbfcf86ef78826cd3692f41fdb6056966dcc1"
+    },
+    {
+      "destination": "masks/N_F06_PAIRED.npz",
+      "source": "TEP_K007_V11_20260913T082145Z_550986f52c9c_RETURN.zip!/N_F06_PAIRED.npz",
+      "sha256": "b936ba59ae921d73c7daacd933bb2e6ac8db9a434452398cb15885791844b436"
+    },
+    {
+      "destination": "masks/N_F07_PAIRED.npz",
+      "source": "TEP_K007_V11_20260913T082145Z_550986f52c9c_RETURN.zip!/N_F07_PAIRED.npz",
+      "sha256": "8457c898ad1c9f1ed855c0fba328d91c75fa6909c25c7de9daeaef4af8bb0454"
+    },
+    {
+      "destination": "masks/N_F08_PAIRED.npz",
+      "source": "TEP_K007_V11_20260913T082145Z_550986f52c9c_RETURN.zip!/N_F08_PAIRED.npz",
+      "sha256": "02ff3871f380caa8b73ca1ad76da754d8074e2f0265c4418bc5dbbe3feaacfa0"
+    },
+    {
+      "destination": "masks/N_F10_PAIRED.npz",
+      "source": "TEP_K007_V11_20260913T082145Z_550986f52c9c_RETURN.zip!/N_F10_PAIRED.npz",
+      "sha256": "b32366b667827bd1f0436f8c1d1e216e5d9f44e90ad49a69667a1496444071b3"
+    },
+    {
+      "destination": "masks/N_F11_PAIRED.npz",
+      "source": "TEP_K007_V11_20260913T082145Z_550986f52c9c_RETURN.zip!/N_F11_PAIRED.npz",
+      "sha256": "0f13c8ca0807fbbfd5e47f7c106f99eb9332657746e998da90c155b2c511dfda"
+    },
+    {
+      "destination": "masks/N_F12_PAIRED.npz",
+      "source": "TEP_K007_V11_20260913T082145Z_550986f52c9c_RETURN.zip!/N_F12_PAIRED.npz",
+      "sha256": "2c0a1c05940a1212a552585f35f0a0b6dfb092667ca7e4c696778b2936adfca4"
+    },
+    {
+      "destination": "masks/N_F13_PAIRED.npz",
+      "source": "TEP_K007_V11_20260913T082145Z_550986f52c9c_RETURN.zip!/N_F13_PAIRED.npz",
+      "sha256": "f52180059589e88f381776828368db5a5bd81e0e3393dd155824db5b7d6b16ed"
+    },
+    {
+      "destination": "masks/N_F14_PAIRED.npz",
+      "source": "TEP_K007_V11_20260913T082145Z_550986f52c9c_RETURN.zip!/N_F14_PAIRED.npz",
+      "sha256": "973e506a0fab8163db4dfe1d037ac71e01a168390d099b481d14472e0dd2fb5c"
+    },
+    {
+      "destination": "masks/N_F16_PAIRED.npz",
+      "source": "TEP_K007_V11_20260913T082145Z_550986f52c9c_RETURN.zip!/N_F16_PAIRED.npz",
+      "sha256": "be1390faaf7e89f75494f06e73eb3e7b2414b6450a3f477326460af1ede69a8a"
+    },
+    {
+      "destination": "masks/N_F17_PAIRED.npz",
+      "source": "TEP_K007_V11_20260913T082145Z_550986f52c9c_RETURN.zip!/N_F17_PAIRED.npz",
+      "sha256": "c3dbbe3b300da836e1a98d5001fd1e42e6d5ce6c69341cf719e6d4ca8f461a3c"
+    },
+    {
+      "destination": "masks/N_F18_PAIRED.npz",
+      "source": "TEP_K007_V11_20260913T082145Z_550986f52c9c_RETURN.zip!/N_F18_PAIRED.npz",
+      "sha256": "a6b66c41ed5957a964ad0b91eb5a2f6cdf8d74e0283178e3853ef5f19991d84d"
+    },
+    {
+      "destination": "masks/N_F19_PAIRED.npz",
+      "source": "TEP_K007_V11_20260913T082145Z_550986f52c9c_RETURN.zip!/N_F19_PAIRED.npz",
+      "sha256": "32d485e1c6ff7f94aae5e843465b738fb65c3cf6b497eb46310753320a7f8692"
+    },
+    {
+      "destination": "masks/N_F20_PAIRED.npz",
+      "source": "TEP_K007_V11_20260913T082145Z_550986f52c9c_RETURN.zip!/N_F20_PAIRED.npz",
+      "sha256": "bf5bf10349680f5816abd88b2a36a0263ecdcb7acd3c7dffdb39d4a6d17551c5"
+    },
+    {
+      "destination": "masks/DV_F03_PAIRED.npz",
+      "source": "TEP_K007_V11_20260913T081123Z_a770b9b9ce3f_RETURN.zip!/DV_F03_PAIRED.npz",
+      "sha256": "b9df78d888f6eb0923ab4df9efccf2c25a47e4989a682faf4f1a57d6f8cb054a"
+    },
+    {
+      "destination": "masks/DV_F09_PAIRED.npz",
+      "source": "TEP_K007_V11_20260913T081123Z_a770b9b9ce3f_RETURN.zip!/DV_F09_PAIRED.npz",
+      "sha256": "969cc3e23486eebbaf62aefa2f62811dddc5dccc5c6690133eb2ba6dbcbee021"
+    },
+    {
+      "destination": "masks/DV_F15_PAIRED.npz",
+      "source": "TEP_K007_V11_20260913T081123Z_a770b9b9ce3f_RETURN.zip!/DV_F15_PAIRED.npz",
+      "sha256": "411ae8bcf2aa59776ff5e977b81560e1073b315cb435d4623fed6b1306c36e1e"
+    },
+    {
+      "destination": "frozen_N_reference/F01_BASELINE.npz",
+      "source": "TEP_K007_QuickCheck_v1.1.pyz!/assets/N/F01/BASELINE.npz",
+      "sha256": "e22809fad35aa9e939c93fb19d115c4a22c6cb4f671bb6103b1d4c255538fcc9"
+    },
+    {
+      "destination": "frozen_N_reference/F02_BASELINE.npz",
+      "source": "TEP_K007_QuickCheck_v1.1.pyz!/assets/N/F02/BASELINE.npz",
+      "sha256": "b5862ddde1e03412e14dd37c38a8f2d1012b655077caaae2b93e0739b01a5490"
+    },
+    {
+      "destination": "frozen_N_reference/F04_BASELINE.npz",
+      "source": "TEP_K007_QuickCheck_v1.1.pyz!/assets/N/F04/BASELINE.npz",
+      "sha256": "ac8f40a42e4081cf6a8497f37423522127302ee7cf3a6b4257f3cb450f96c0e2"
+    },
+    {
+      "destination": "frozen_N_reference/F05_BASELINE.npz",
+      "source": "TEP_K007_QuickCheck_v1.1.pyz!/assets/N/F05/BASELINE.npz",
+      "sha256": "3bb4ca5e069a73486090a3fd9d3e4412a1df69f2ad388cd0169f5eaa5918c38e"
+    },
+    {
+      "destination": "frozen_N_reference/F06_BASELINE.npz",
+      "source": "TEP_K007_QuickCheck_v1.1.pyz!/assets/N/F06/BASELINE.npz",
+      "sha256": "a8fc013820e7cec34625124b78b15a2a28bb72800adc37a860438d2688e62637"
+    },
+    {
+      "destination": "frozen_N_reference/F07_BASELINE.npz",
+      "source": "TEP_K007_QuickCheck_v1.1.pyz!/assets/N/F07/BASELINE.npz",
+      "sha256": "bd8f0e136af0874007b0928650d530f69723dc7599f32816ce381c1e96de1c96"
+    },
+    {
+      "destination": "frozen_N_reference/F08_BASELINE.npz",
+      "source": "TEP_K007_QuickCheck_v1.1.pyz!/assets/N/F08/BASELINE.npz",
+      "sha256": "50d025083f16ef36ad31490cc3e526b23182b22e92e7a736a48fc31e85066539"
+    },
+    {
+      "destination": "frozen_N_reference/F10_BASELINE.npz",
+      "source": "TEP_K007_QuickCheck_v1.1.pyz!/assets/N/F10/BASELINE.npz",
+      "sha256": "a7c9d0eb26685aa5dd6e58a6893acdde42d50269a818a824a473b03cac4b97b8"
+    },
+    {
+      "destination": "frozen_N_reference/F11_BASELINE.npz",
+      "source": "TEP_K007_QuickCheck_v1.1.pyz!/assets/N/F11/BASELINE.npz",
+      "sha256": "22dba6006ce9652a6e0175f523d3c0a0c0e6c5c12b61c5d2ea6e9e8aeea07f09"
+    },
+    {
+      "destination": "frozen_N_reference/F12_BASELINE.npz",
+      "source": "TEP_K007_QuickCheck_v1.1.pyz!/assets/N/F12/BASELINE.npz",
+      "sha256": "351c1fa168b757de0d438dc1f558c9871263835c7899c9cb49229da839314ca1"
+    },
+    {
+      "destination": "frozen_N_reference/F13_BASELINE.npz",
+      "source": "TEP_K007_QuickCheck_v1.1.pyz!/assets/N/F13/BASELINE.npz",
+      "sha256": "7038caf017bdad6483ac23e65ffa42a31af15d843955624d9751071cdb3a567a"
+    },
+    {
+      "destination": "frozen_N_reference/F14_BASELINE.npz",
+      "source": "TEP_K007_QuickCheck_v1.1.pyz!/assets/N/F14/BASELINE.npz",
+      "sha256": "d7a1ca9150fdb53586c00dacb42f1909c4e79c8116a2706ca4206924660a0030"
+    },
+    {
+      "destination": "frozen_N_reference/F16_BASELINE.npz",
+      "source": "TEP_K007_QuickCheck_v1.1.pyz!/assets/N/F16/BASELINE.npz",
+      "sha256": "b4bada1b8726304a1d14767c95648ddaabf8f50f8f9854d1fb861aee34e01497"
+    },
+    {
+      "destination": "frozen_N_reference/F17_BASELINE.npz",
+      "source": "TEP_K007_QuickCheck_v1.1.pyz!/assets/N/F17/BASELINE.npz",
+      "sha256": "741080c62fb56eb8a7f3b098a521775d5813176a23d77939ac002a8607ffd00e"
+    },
+    {
+      "destination": "frozen_N_reference/F18_BASELINE.npz",
+      "source": "TEP_K007_QuickCheck_v1.1.pyz!/assets/N/F18/BASELINE.npz",
+      "sha256": "0754cf52c681e3dbcb0d990c000dfb28bc29e4c924c632138be87538114c0d2c"
+    },
+    {
+      "destination": "frozen_N_reference/F19_BASELINE.npz",
+      "source": "TEP_K007_QuickCheck_v1.1.pyz!/assets/N/F19/BASELINE.npz",
+      "sha256": "154437d3d3115745296eb82be5643721db128d3a3d26b6164442b5cc9f86c6ca"
+    },
+    {
+      "destination": "frozen_N_reference/F20_BASELINE.npz",
+      "source": "TEP_K007_QuickCheck_v1.1.pyz!/assets/N/F20/BASELINE.npz",
+      "sha256": "907dd37ef8c505cf5c935fbafac8e1740d4b18211572ce1f5669bafed0778123"
+    },
+    {
+      "destination": "implementation/reference_n.py",
+      "source": "TEP_K007_QuickCheck_v1.1.pyz!/reference_n.py",
+      "sha256": "0c20f46d9ea643eadc345cf64db4d99a431c6f9697ccb76624330a2ddf6873e9"
+    },
+    {
+      "destination": "implementation/reference_dv.py",
+      "source": "TEP_K007_QuickCheck_v1.1.pyz!/reference_dv.py",
+      "sha256": "9b436d6a45278826a44d86b9abe42ad548b8d6de6e17a4b3eba4e1d4b013be25"
+    },
+    {
+      "destination": "N_PAIRED_MACRO.json",
+      "source": "combined_report/N_PAIRED_MACRO.json",
+      "sha256": "6fbee2e8f504b2bce00d9e09cce4e183927250aae07b7c9fe7be220500b31b98"
+    },
+    {
+      "destination": "N_PAIRED_MACRO.json",
+      "source": "combined_report/N_PAIRED_MACRO.json",
+      "sha256": "6fbee2e8f504b2bce00d9e09cce4e183927250aae07b7c9fe7be220500b31b98"
+    }
+  ],
+  "runner_sha256": "56cf095a225a098b67b76dfa97b6b559231a54dfcce7f1c740dea0015a1db822",
+  "original_scientific_archives": {
+    "UPLOAD_THIS_METHOD_FREEZE_v1.0.zip": "56a7c81eafa60f797b1de1b6eb8396a530d7e47a1cf8d0db967f39675cf01c2d",
+    "UPLOAD_THIS_FINAL_RESULTS_v1.0.zip": "5d181820e9c98170ed45d7ebec294d565771935e6ad879d2e162464ede5fba54",
+    "TEP_DENSE3915_20260913T023328Z_45acf7f7_RETURN.zip": "3121621e75aeca348100987dbb69c8fb0523ee45e4fcef07f3794d9f401ed7f7",
+    "TEP_Dense3915_Workers8_v1.0.1.pyz": "82041eb105c163f52f8065820feb2ecb8c428775ca63751e4ef48a83e1f7bdf7"
+  },
+  "nature": "Post-outcome sensitivity using existing N and DV trajectories; not independent new-data confirmation.",
+  "frozen_reference_method_order": [
+    "adaptive_5family_top5",
+    "fixed_ad_top5",
+    "independent_top1",
+    "q_cusum"
+  ],
+  "local_source_environment": {
+    "python": "3.12.3",
+    "numpy": "2.2.6"
+  }
+}

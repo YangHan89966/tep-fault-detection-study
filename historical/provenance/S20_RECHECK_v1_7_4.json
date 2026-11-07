@@ -1,0 +1,81 @@
+{
+  "status": "PASS_SAVED_SCORES_ALL_52_ROWS_26_RANKS_AND_SI_S48_S49",
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "simulation": false,
+  "refit": false,
+  "threshold_selection": false,
+  "raw_trajectory_replay": false,
+  "numeric_tolerances": {
+    "rtol": 1e-12,
+    "atol": 1e-10
+  },
+  "package_files_hashed": 35,
+  "returned_numerical_files_byte_identical": 9,
+  "frozen_calibration": {
+    "saved_anchor_values_exact": 49,
+    "original_thresholds_exact": 49,
+    "risk_time_thresholds_exact": 52
+  },
+  "original_baseline": {
+    "methods_rechecked": 2,
+    "alarm_bits_exact": 960000,
+    "fault_event_fields_exact": 7,
+    "scope": "Two released score branches only; original upstream nine-branch checks retained separately"
+  },
+  "reaggregated_csvs": {
+    "RISK_TIME_ENDPOINTS.csv": {
+      "rows": 52,
+      "fields": 35,
+      "max_abs_numeric_error": 0.0,
+      "passed": true
+    },
+    "FAULT_PER_RUN.csv": {
+      "rows": 13000,
+      "fields": 13,
+      "max_abs_numeric_error": 0.0,
+      "passed": true
+    },
+    "NORMAL_PER_RUN.csv": {
+      "rows": 13000,
+      "fields": 5,
+      "max_abs_numeric_error": 0.0,
+      "passed": true
+    },
+    "CLEAN_DETECTION_CURVES.csv": {
+      "rows": 41652,
+      "fields": 6,
+      "max_abs_numeric_error": 0.0,
+      "passed": true
+    },
+    "PAIRED_RANK_CONTRASTS.csv": {
+      "rows": 260,
+      "fields": 10,
+      "max_abs_numeric_error": 0.0,
+      "passed": true
+    }
+  },
+  "si_export_check": {
+    "S48_rows": 26,
+    "S48_displayed_numeric_values_checked": 286,
+    "S49_rows": 6,
+    "S49_loss_values_checked": 18,
+    "comparison": "Exact displayed counts and three-decimal losses/intervals",
+    "passed": true
+  },
+  "si_docx_check": {
+    "S48_rows": 26,
+    "S48_displayed_numeric_values_checked": 286,
+    "S49_rows": 6,
+    "S49_loss_values_checked": 18,
+    "comparison": "Exact displayed counts and three-decimal losses/intervals",
+    "passed": true
+  },
+  "si_docx_sha256": "c6393081eb107718da31e2c743a4e784494eba60e1aa8d0b575843538f5cc171",
+  "negative_early_results": {
+    "all_52_rows_zero_prefault_alarms": true,
+    "all_52_rows_zero_60min_clean_detections": true,
+    "mean_max_120min_clean_count": 0,
+    "moment_max_120min_clean_count": 2
+  }
+}

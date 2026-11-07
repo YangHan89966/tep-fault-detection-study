@@ -1,0 +1,7 @@
+Licensing and dependency notice
+
+This module does not introduce an independent license grant or change the licensing of existing components. Use is governed by the license selected for the associated Zenodo record and any applicable existing component notices. No additional rights are implied by this packaging.
+
+The Python interpreter and NumPy are runtime dependencies and are not redistributed in this module. Their respective project licenses apply to installations obtained from those projects.
+
+The files in vendor/ are retained numerical routines from the archived research implementation. Existing attribution and license notices, where present, are preserved. This module does not include the process simulator or relicense its implementation or the original historical benchmark dataset.

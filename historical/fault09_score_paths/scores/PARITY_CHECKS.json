@@ -1,0 +1,1646 @@
+[
+  {
+    "split": "D01",
+    "source": "normal",
+    "role": "outer_calibration",
+    "path": "scores/D01/normal_outer_calibration.npz",
+    "n_runs": 59,
+    "axes": 2,
+    "checks": [
+      {
+        "family": "signed",
+        "axis_index": 3,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "signed",
+        "axis_index": 9,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "absolute",
+        "axis_index": 3,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "absolute",
+        "axis_index": 9,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "squared",
+        "axis_index": 3,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "squared",
+        "axis_index": 9,
+        "outer_peak_error": 0.0,
+        "n": 59
+      }
+    ]
+  },
+  {
+    "split": "D01",
+    "source": "normal",
+    "role": "audit",
+    "path": "scores/D01/normal_audit.npz",
+    "n_runs": 60,
+    "axes": 2,
+    "checks": [
+      {
+        "family": "signed",
+        "axis_index": 3,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "signed",
+        "axis_index": 9,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "absolute",
+        "axis_index": 3,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "absolute",
+        "axis_index": 9,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "squared",
+        "axis_index": 3,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "squared",
+        "axis_index": 9,
+        "normal_integer_fields": 240
+      }
+    ]
+  },
+  {
+    "split": "D01",
+    "source": "fault",
+    "role": "audit",
+    "path": "scores/D01/fault_audit.npz",
+    "n_runs": 75,
+    "axes": 2,
+    "checks": [
+      {
+        "family": "signed",
+        "axis_index": 3,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "signed",
+        "axis_index": 9,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "absolute",
+        "axis_index": 3,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "absolute",
+        "axis_index": 9,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "squared",
+        "axis_index": 3,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "squared",
+        "axis_index": 9,
+        "fault_integer_fields": 900
+      }
+    ]
+  },
+  {
+    "split": "D02",
+    "source": "normal",
+    "role": "outer_calibration",
+    "path": "scores/D02/normal_outer_calibration.npz",
+    "n_runs": 59,
+    "axes": 3,
+    "checks": [
+      {
+        "family": "signed",
+        "axis_index": 7,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "signed",
+        "axis_index": 10,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "signed",
+        "axis_index": 8,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "absolute",
+        "axis_index": 7,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "absolute",
+        "axis_index": 10,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "absolute",
+        "axis_index": 8,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "squared",
+        "axis_index": 7,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "squared",
+        "axis_index": 10,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "squared",
+        "axis_index": 8,
+        "outer_peak_error": 0.0,
+        "n": 59
+      }
+    ]
+  },
+  {
+    "split": "D02",
+    "source": "normal",
+    "role": "audit",
+    "path": "scores/D02/normal_audit.npz",
+    "n_runs": 60,
+    "axes": 3,
+    "checks": [
+      {
+        "family": "signed",
+        "axis_index": 7,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "signed",
+        "axis_index": 10,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "signed",
+        "axis_index": 8,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "absolute",
+        "axis_index": 7,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "absolute",
+        "axis_index": 10,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "absolute",
+        "axis_index": 8,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "squared",
+        "axis_index": 7,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "squared",
+        "axis_index": 10,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "squared",
+        "axis_index": 8,
+        "normal_integer_fields": 240
+      }
+    ]
+  },
+  {
+    "split": "D02",
+    "source": "fault",
+    "role": "audit",
+    "path": "scores/D02/fault_audit.npz",
+    "n_runs": 75,
+    "axes": 3,
+    "checks": [
+      {
+        "family": "signed",
+        "axis_index": 7,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "signed",
+        "axis_index": 10,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "signed",
+        "axis_index": 8,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "absolute",
+        "axis_index": 7,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "absolute",
+        "axis_index": 10,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "absolute",
+        "axis_index": 8,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "squared",
+        "axis_index": 7,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "squared",
+        "axis_index": 10,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "squared",
+        "axis_index": 8,
+        "fault_integer_fields": 900
+      }
+    ]
+  },
+  {
+    "split": "D03",
+    "source": "normal",
+    "role": "outer_calibration",
+    "path": "scores/D03/normal_outer_calibration.npz",
+    "n_runs": 59,
+    "axes": 3,
+    "checks": [
+      {
+        "family": "signed",
+        "axis_index": 7,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "signed",
+        "axis_index": 11,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "signed",
+        "axis_index": 8,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "absolute",
+        "axis_index": 7,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "absolute",
+        "axis_index": 11,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "absolute",
+        "axis_index": 8,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "squared",
+        "axis_index": 7,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "squared",
+        "axis_index": 11,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "squared",
+        "axis_index": 8,
+        "outer_peak_error": 0.0,
+        "n": 59
+      }
+    ]
+  },
+  {
+    "split": "D03",
+    "source": "normal",
+    "role": "audit",
+    "path": "scores/D03/normal_audit.npz",
+    "n_runs": 60,
+    "axes": 3,
+    "checks": [
+      {
+        "family": "signed",
+        "axis_index": 7,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "signed",
+        "axis_index": 11,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "signed",
+        "axis_index": 8,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "absolute",
+        "axis_index": 7,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "absolute",
+        "axis_index": 11,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "absolute",
+        "axis_index": 8,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "squared",
+        "axis_index": 7,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "squared",
+        "axis_index": 11,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "squared",
+        "axis_index": 8,
+        "normal_integer_fields": 240
+      }
+    ]
+  },
+  {
+    "split": "D03",
+    "source": "fault",
+    "role": "audit",
+    "path": "scores/D03/fault_audit.npz",
+    "n_runs": 75,
+    "axes": 3,
+    "checks": [
+      {
+        "family": "signed",
+        "axis_index": 7,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "signed",
+        "axis_index": 11,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "signed",
+        "axis_index": 8,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "absolute",
+        "axis_index": 7,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "absolute",
+        "axis_index": 11,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "absolute",
+        "axis_index": 8,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "squared",
+        "axis_index": 7,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "squared",
+        "axis_index": 11,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "squared",
+        "axis_index": 8,
+        "fault_integer_fields": 900
+      }
+    ]
+  },
+  {
+    "split": "D04",
+    "source": "normal",
+    "role": "outer_calibration",
+    "path": "scores/D04/normal_outer_calibration.npz",
+    "n_runs": 59,
+    "axes": 3,
+    "checks": [
+      {
+        "family": "signed",
+        "axis_index": 7,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "signed",
+        "axis_index": 9,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "signed",
+        "axis_index": 10,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "absolute",
+        "axis_index": 7,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "absolute",
+        "axis_index": 9,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "absolute",
+        "axis_index": 10,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "squared",
+        "axis_index": 7,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "squared",
+        "axis_index": 9,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "squared",
+        "axis_index": 10,
+        "outer_peak_error": 0.0,
+        "n": 59
+      }
+    ]
+  },
+  {
+    "split": "D04",
+    "source": "normal",
+    "role": "audit",
+    "path": "scores/D04/normal_audit.npz",
+    "n_runs": 60,
+    "axes": 3,
+    "checks": [
+      {
+        "family": "signed",
+        "axis_index": 7,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "signed",
+        "axis_index": 9,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "signed",
+        "axis_index": 10,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "absolute",
+        "axis_index": 7,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "absolute",
+        "axis_index": 9,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "absolute",
+        "axis_index": 10,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "squared",
+        "axis_index": 7,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "squared",
+        "axis_index": 9,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "squared",
+        "axis_index": 10,
+        "normal_integer_fields": 240
+      }
+    ]
+  },
+  {
+    "split": "D04",
+    "source": "fault",
+    "role": "audit",
+    "path": "scores/D04/fault_audit.npz",
+    "n_runs": 75,
+    "axes": 3,
+    "checks": [
+      {
+        "family": "signed",
+        "axis_index": 7,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "signed",
+        "axis_index": 9,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "signed",
+        "axis_index": 10,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "absolute",
+        "axis_index": 7,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "absolute",
+        "axis_index": 9,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "absolute",
+        "axis_index": 10,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "squared",
+        "axis_index": 7,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "squared",
+        "axis_index": 9,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "squared",
+        "axis_index": 10,
+        "fault_integer_fields": 900
+      }
+    ]
+  },
+  {
+    "split": "D05",
+    "source": "normal",
+    "role": "outer_calibration",
+    "path": "scores/D05/normal_outer_calibration.npz",
+    "n_runs": 59,
+    "axes": 3,
+    "checks": [
+      {
+        "family": "signed",
+        "axis_index": 7,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "signed",
+        "axis_index": 9,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "signed",
+        "axis_index": 8,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "absolute",
+        "axis_index": 7,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "absolute",
+        "axis_index": 9,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "absolute",
+        "axis_index": 8,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "squared",
+        "axis_index": 7,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "squared",
+        "axis_index": 9,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "squared",
+        "axis_index": 8,
+        "outer_peak_error": 0.0,
+        "n": 59
+      }
+    ]
+  },
+  {
+    "split": "D05",
+    "source": "normal",
+    "role": "audit",
+    "path": "scores/D05/normal_audit.npz",
+    "n_runs": 60,
+    "axes": 3,
+    "checks": [
+      {
+        "family": "signed",
+        "axis_index": 7,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "signed",
+        "axis_index": 9,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "signed",
+        "axis_index": 8,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "absolute",
+        "axis_index": 7,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "absolute",
+        "axis_index": 9,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "absolute",
+        "axis_index": 8,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "squared",
+        "axis_index": 7,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "squared",
+        "axis_index": 9,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "squared",
+        "axis_index": 8,
+        "normal_integer_fields": 240
+      }
+    ]
+  },
+  {
+    "split": "D05",
+    "source": "fault",
+    "role": "audit",
+    "path": "scores/D05/fault_audit.npz",
+    "n_runs": 75,
+    "axes": 3,
+    "checks": [
+      {
+        "family": "signed",
+        "axis_index": 7,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "signed",
+        "axis_index": 9,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "signed",
+        "axis_index": 8,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "absolute",
+        "axis_index": 7,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "absolute",
+        "axis_index": 9,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "absolute",
+        "axis_index": 8,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "squared",
+        "axis_index": 7,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "squared",
+        "axis_index": 9,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "squared",
+        "axis_index": 8,
+        "fault_integer_fields": 900
+      }
+    ]
+  },
+  {
+    "split": "D06",
+    "source": "normal",
+    "role": "outer_calibration",
+    "path": "scores/D06/normal_outer_calibration.npz",
+    "n_runs": 59,
+    "axes": 2,
+    "checks": [
+      {
+        "family": "signed",
+        "axis_index": 3,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "signed",
+        "axis_index": 10,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "absolute",
+        "axis_index": 3,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "absolute",
+        "axis_index": 10,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "squared",
+        "axis_index": 3,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "squared",
+        "axis_index": 10,
+        "outer_peak_error": 0.0,
+        "n": 59
+      }
+    ]
+  },
+  {
+    "split": "D06",
+    "source": "normal",
+    "role": "audit",
+    "path": "scores/D06/normal_audit.npz",
+    "n_runs": 60,
+    "axes": 2,
+    "checks": [
+      {
+        "family": "signed",
+        "axis_index": 3,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "signed",
+        "axis_index": 10,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "absolute",
+        "axis_index": 3,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "absolute",
+        "axis_index": 10,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "squared",
+        "axis_index": 3,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "squared",
+        "axis_index": 10,
+        "normal_integer_fields": 240
+      }
+    ]
+  },
+  {
+    "split": "D06",
+    "source": "fault",
+    "role": "audit",
+    "path": "scores/D06/fault_audit.npz",
+    "n_runs": 75,
+    "axes": 2,
+    "checks": [
+      {
+        "family": "signed",
+        "axis_index": 3,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "signed",
+        "axis_index": 10,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "absolute",
+        "axis_index": 3,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "absolute",
+        "axis_index": 10,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "squared",
+        "axis_index": 3,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "squared",
+        "axis_index": 10,
+        "fault_integer_fields": 900
+      }
+    ]
+  },
+  {
+    "split": "D07",
+    "source": "normal",
+    "role": "outer_calibration",
+    "path": "scores/D07/normal_outer_calibration.npz",
+    "n_runs": 59,
+    "axes": 3,
+    "checks": [
+      {
+        "family": "signed",
+        "axis_index": 7,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "signed",
+        "axis_index": 10,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "signed",
+        "axis_index": 8,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "absolute",
+        "axis_index": 7,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "absolute",
+        "axis_index": 10,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "absolute",
+        "axis_index": 8,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "squared",
+        "axis_index": 7,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "squared",
+        "axis_index": 10,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "squared",
+        "axis_index": 8,
+        "outer_peak_error": 0.0,
+        "n": 59
+      }
+    ]
+  },
+  {
+    "split": "D07",
+    "source": "normal",
+    "role": "audit",
+    "path": "scores/D07/normal_audit.npz",
+    "n_runs": 60,
+    "axes": 3,
+    "checks": [
+      {
+        "family": "signed",
+        "axis_index": 7,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "signed",
+        "axis_index": 10,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "signed",
+        "axis_index": 8,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "absolute",
+        "axis_index": 7,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "absolute",
+        "axis_index": 10,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "absolute",
+        "axis_index": 8,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "squared",
+        "axis_index": 7,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "squared",
+        "axis_index": 10,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "squared",
+        "axis_index": 8,
+        "normal_integer_fields": 240
+      }
+    ]
+  },
+  {
+    "split": "D07",
+    "source": "fault",
+    "role": "audit",
+    "path": "scores/D07/fault_audit.npz",
+    "n_runs": 75,
+    "axes": 3,
+    "checks": [
+      {
+        "family": "signed",
+        "axis_index": 7,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "signed",
+        "axis_index": 10,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "signed",
+        "axis_index": 8,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "absolute",
+        "axis_index": 7,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "absolute",
+        "axis_index": 10,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "absolute",
+        "axis_index": 8,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "squared",
+        "axis_index": 7,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "squared",
+        "axis_index": 10,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "squared",
+        "axis_index": 8,
+        "fault_integer_fields": 900
+      }
+    ]
+  },
+  {
+    "split": "D08",
+    "source": "normal",
+    "role": "outer_calibration",
+    "path": "scores/D08/normal_outer_calibration.npz",
+    "n_runs": 59,
+    "axes": 3,
+    "checks": [
+      {
+        "family": "signed",
+        "axis_index": 3,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "signed",
+        "axis_index": 9,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "signed",
+        "axis_index": 10,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "absolute",
+        "axis_index": 3,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "absolute",
+        "axis_index": 9,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "absolute",
+        "axis_index": 10,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "squared",
+        "axis_index": 3,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "squared",
+        "axis_index": 9,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "squared",
+        "axis_index": 10,
+        "outer_peak_error": 0.0,
+        "n": 59
+      }
+    ]
+  },
+  {
+    "split": "D08",
+    "source": "normal",
+    "role": "audit",
+    "path": "scores/D08/normal_audit.npz",
+    "n_runs": 60,
+    "axes": 3,
+    "checks": [
+      {
+        "family": "signed",
+        "axis_index": 3,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "signed",
+        "axis_index": 9,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "signed",
+        "axis_index": 10,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "absolute",
+        "axis_index": 3,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "absolute",
+        "axis_index": 9,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "absolute",
+        "axis_index": 10,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "squared",
+        "axis_index": 3,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "squared",
+        "axis_index": 9,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "squared",
+        "axis_index": 10,
+        "normal_integer_fields": 240
+      }
+    ]
+  },
+  {
+    "split": "D08",
+    "source": "fault",
+    "role": "audit",
+    "path": "scores/D08/fault_audit.npz",
+    "n_runs": 75,
+    "axes": 3,
+    "checks": [
+      {
+        "family": "signed",
+        "axis_index": 3,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "signed",
+        "axis_index": 9,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "signed",
+        "axis_index": 10,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "absolute",
+        "axis_index": 3,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "absolute",
+        "axis_index": 9,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "absolute",
+        "axis_index": 10,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "squared",
+        "axis_index": 3,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "squared",
+        "axis_index": 9,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "squared",
+        "axis_index": 10,
+        "fault_integer_fields": 900
+      }
+    ]
+  },
+  {
+    "split": "D09",
+    "source": "normal",
+    "role": "outer_calibration",
+    "path": "scores/D09/normal_outer_calibration.npz",
+    "n_runs": 59,
+    "axes": 3,
+    "checks": [
+      {
+        "family": "signed",
+        "axis_index": 7,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "signed",
+        "axis_index": 10,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "signed",
+        "axis_index": 8,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "absolute",
+        "axis_index": 7,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "absolute",
+        "axis_index": 10,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "absolute",
+        "axis_index": 8,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "squared",
+        "axis_index": 7,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "squared",
+        "axis_index": 10,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "squared",
+        "axis_index": 8,
+        "outer_peak_error": 0.0,
+        "n": 59
+      }
+    ]
+  },
+  {
+    "split": "D09",
+    "source": "normal",
+    "role": "audit",
+    "path": "scores/D09/normal_audit.npz",
+    "n_runs": 60,
+    "axes": 3,
+    "checks": [
+      {
+        "family": "signed",
+        "axis_index": 7,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "signed",
+        "axis_index": 10,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "signed",
+        "axis_index": 8,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "absolute",
+        "axis_index": 7,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "absolute",
+        "axis_index": 10,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "absolute",
+        "axis_index": 8,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "squared",
+        "axis_index": 7,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "squared",
+        "axis_index": 10,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "squared",
+        "axis_index": 8,
+        "normal_integer_fields": 240
+      }
+    ]
+  },
+  {
+    "split": "D09",
+    "source": "fault",
+    "role": "audit",
+    "path": "scores/D09/fault_audit.npz",
+    "n_runs": 75,
+    "axes": 3,
+    "checks": [
+      {
+        "family": "signed",
+        "axis_index": 7,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "signed",
+        "axis_index": 10,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "signed",
+        "axis_index": 8,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "absolute",
+        "axis_index": 7,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "absolute",
+        "axis_index": 10,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "absolute",
+        "axis_index": 8,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "squared",
+        "axis_index": 7,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "squared",
+        "axis_index": 10,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "squared",
+        "axis_index": 8,
+        "fault_integer_fields": 900
+      }
+    ]
+  },
+  {
+    "split": "D10",
+    "source": "normal",
+    "role": "outer_calibration",
+    "path": "scores/D10/normal_outer_calibration.npz",
+    "n_runs": 59,
+    "axes": 3,
+    "checks": [
+      {
+        "family": "signed",
+        "axis_index": 7,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "signed",
+        "axis_index": 10,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "signed",
+        "axis_index": 8,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "absolute",
+        "axis_index": 7,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "absolute",
+        "axis_index": 10,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "absolute",
+        "axis_index": 8,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "squared",
+        "axis_index": 7,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "squared",
+        "axis_index": 10,
+        "outer_peak_error": 0.0,
+        "n": 59
+      },
+      {
+        "family": "squared",
+        "axis_index": 8,
+        "outer_peak_error": 0.0,
+        "n": 59
+      }
+    ]
+  },
+  {
+    "split": "D10",
+    "source": "normal",
+    "role": "audit",
+    "path": "scores/D10/normal_audit.npz",
+    "n_runs": 60,
+    "axes": 3,
+    "checks": [
+      {
+        "family": "signed",
+        "axis_index": 7,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "signed",
+        "axis_index": 10,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "signed",
+        "axis_index": 8,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "absolute",
+        "axis_index": 7,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "absolute",
+        "axis_index": 10,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "absolute",
+        "axis_index": 8,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "squared",
+        "axis_index": 7,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "squared",
+        "axis_index": 10,
+        "normal_integer_fields": 240
+      },
+      {
+        "family": "squared",
+        "axis_index": 8,
+        "normal_integer_fields": 240
+      }
+    ]
+  },
+  {
+    "split": "D10",
+    "source": "fault",
+    "role": "audit",
+    "path": "scores/D10/fault_audit.npz",
+    "n_runs": 75,
+    "axes": 3,
+    "checks": [
+      {
+        "family": "signed",
+        "axis_index": 7,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "signed",
+        "axis_index": 10,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "signed",
+        "axis_index": 8,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "absolute",
+        "axis_index": 7,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "absolute",
+        "axis_index": 10,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "absolute",
+        "axis_index": 8,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "squared",
+        "axis_index": 7,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "squared",
+        "axis_index": 10,
+        "fault_integer_fields": 900
+      },
+      {
+        "family": "squared",
+        "axis_index": 8,
+        "fault_integer_fields": 900
+      }
+    ]
+  }
+]

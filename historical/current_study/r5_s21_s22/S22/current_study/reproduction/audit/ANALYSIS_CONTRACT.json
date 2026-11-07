@@ -1,0 +1,217 @@
+{
+  "record_type": "EXPLORATORY_ANALYSIS_SCOPE_NOT_EXTERNAL_PREREGISTRATION",
+  "version": "1.0",
+  "created_utc": "2026-09-06T17:38:42.431713+00:00",
+  "sources": {
+    "v15_package": {
+      "path": "external-input/ccd496e21d43/TEP_Focused_Revision_v1.5.zip",
+      "bytes": 504889,
+      "sha256": "c9a4fef7adc0bfd4a6e52e7227b37844d88223dad662479ad7137c2b6b4e0e88"
+    },
+    "s30_paths": {
+      "path": "external-input/89a4d7d55619/TEP_S30_F9_PATHS_20260906T114012_708942Z_jy1gynnr_RESULTS.zip",
+      "bytes": 40783254,
+      "sha256": "292106c23c212d3931c15aa6c5e435cc1069781f48e519c0259211ea7072b6fc"
+    },
+    "s28_results": {
+      "path": "external-input/9ea667d29544/TEP_S28_20260906T100417_400998Z_qzvltd2p_RESULTS.zip",
+      "bytes": 180630263,
+      "sha256": "10de28ab3484a34ec95df8146ab298748f09ab5d31a40234b2f3ead69b4ae293"
+    }
+  },
+  "D2": {
+    "purpose": "Cross fault order and source of normal-calibrated limit; descriptive interaction, not unique causal percentages",
+    "axis": "existing new_signed_axis, ridge_1e4, all D01-D10",
+    "families": [
+      "signed",
+      "absolute",
+      "squared"
+    ],
+    "treatments": [
+      "point_permutation",
+      "block20_permutation",
+      "block80_permutation"
+    ],
+    "permutations": 20,
+    "permutation_label": "TEP_V16_D2_FULL_FACTORIAL_ORDER_v1.0",
+    "note": "New deterministic permutation stream. S31 seed-to-permutation serialization was not available. All four cells recomputed; no mixing a new cell with previous S31 medians.",
+    "cells": [
+      "original_path_original_limit",
+      "permuted_path_original_limit",
+      "original_path_permuted_limit",
+      "permuted_path_permuted_limit"
+    ],
+    "onset_zero_based": 160,
+    "length": 960,
+    "first160_unchanged": true,
+    "all800_retained": true,
+    "calibration": "existing59 normal roles; rank57 with original anchor arithmetic",
+    "scope": "No PCA/direction/scaler/k selection; no original limit overwrite; same source/run/repetition permutation across splits and expressions."
+  },
+  "D3": {
+    "purpose": "Existing T=I extrema and time-metric candidates, not new fitting",
+    "fault": 9,
+    "splits": "D01-D10",
+    "variants": [
+      "baseline",
+      "ridge_1e4",
+      "truncate_1e4"
+    ],
+    "families": [
+      "signed",
+      "absolute",
+      "squared"
+    ],
+    "include": "all two extrema per four normal metrics; within-metric choice using saved original selection losses; fixed max/min separately retained",
+    "limit": "T=I removes explicit B from denominator but is not the same eight-candidate search budget. In ridge, spatial regularization remains."
+  },
+  "D4": {
+    "purpose": "Fresh controlled scalar sequences test a mechanism prediction and failure cases, not external TEP or learned-direction validation",
+    "normal_model": "stationary Gaussian AR1, mean0 variance1",
+    "n_calibration": 1999,
+    "n_evaluation_per_scenario": 4000,
+    "length": 960,
+    "onset_zero_based": 160,
+    "k": 0.05,
+    "calibration_order_1based": 1900,
+    "families": [
+      "signed",
+      "absolute",
+      "squared"
+    ],
+    "normal_scaling": "known N(0,1) moments, not fitted on evaluation",
+    "seed_sequence_label": [
+      20260907,
+      1604
+    ],
+    "scenarios": [
+      {
+        "phi_normal": -0.6,
+        "phi_fault": -0.6,
+        "post_mean": 0.0,
+        "post_scale": 1.0,
+        "kind": "dependence"
+      },
+      {
+        "phi_normal": -0.6,
+        "phi_fault": 0.0,
+        "post_mean": 0.0,
+        "post_scale": 1.0,
+        "kind": "dependence"
+      },
+      {
+        "phi_normal": -0.6,
+        "phi_fault": 0.6,
+        "post_mean": 0.0,
+        "post_scale": 1.0,
+        "kind": "dependence"
+      },
+      {
+        "phi_normal": 0.0,
+        "phi_fault": -0.6,
+        "post_mean": 0.0,
+        "post_scale": 1.0,
+        "kind": "dependence"
+      },
+      {
+        "phi_normal": 0.0,
+        "phi_fault": 0.0,
+        "post_mean": 0.0,
+        "post_scale": 1.0,
+        "kind": "dependence"
+      },
+      {
+        "phi_normal": 0.0,
+        "phi_fault": 0.6,
+        "post_mean": 0.0,
+        "post_scale": 1.0,
+        "kind": "dependence"
+      },
+      {
+        "phi_normal": 0.6,
+        "phi_fault": -0.6,
+        "post_mean": 0.0,
+        "post_scale": 1.0,
+        "kind": "dependence"
+      },
+      {
+        "phi_normal": 0.6,
+        "phi_fault": 0.0,
+        "post_mean": 0.0,
+        "post_scale": 1.0,
+        "kind": "dependence"
+      },
+      {
+        "phi_normal": 0.6,
+        "phi_fault": 0.6,
+        "post_mean": 0.0,
+        "post_scale": 1.0,
+        "kind": "dependence"
+      },
+      {
+        "phi_normal": -0.2,
+        "phi_fault": 0.2,
+        "post_mean": 0.0,
+        "post_scale": 1.0,
+        "kind": "sign_reversal_strength"
+      },
+      {
+        "phi_normal": 0.2,
+        "phi_fault": -0.2,
+        "post_mean": 0.0,
+        "post_scale": 1.0,
+        "kind": "sign_reversal_strength"
+      },
+      {
+        "phi_normal": -0.4,
+        "phi_fault": 0.4,
+        "post_mean": 0.0,
+        "post_scale": 1.0,
+        "kind": "sign_reversal_strength"
+      },
+      {
+        "phi_normal": 0.4,
+        "phi_fault": -0.4,
+        "post_mean": 0.0,
+        "post_scale": 1.0,
+        "kind": "sign_reversal_strength"
+      },
+      {
+        "phi_normal": -0.8,
+        "phi_fault": 0.8,
+        "post_mean": 0.0,
+        "post_scale": 1.0,
+        "kind": "sign_reversal_strength"
+      },
+      {
+        "phi_normal": 0.8,
+        "phi_fault": -0.8,
+        "post_mean": 0.0,
+        "post_scale": 1.0,
+        "kind": "sign_reversal_strength"
+      },
+      {
+        "phi_normal": 0.0,
+        "phi_fault": 0.0,
+        "post_mean": 0.3,
+        "post_scale": 1.0,
+        "kind": "mean_shift"
+      },
+      {
+        "phi_normal": 0.0,
+        "phi_fault": 0.0,
+        "post_mean": 0.0,
+        "post_scale": 1.5,
+        "kind": "scale_increase"
+      }
+    ],
+    "pairing": "Disjoint calibration/evaluation innovations. Scenarios for a normal phi share evaluation innovations. Sign-reversal cases alternate post-onset signs exactly, preserving |u| and u^2 pointwise.",
+    "report": "all cases; successes, pre-alarms, finite-run FAR, penalized delay in samples, conditional-on-fixed-threshold binomial intervals"
+  },
+  "intervals": {
+    "original_frozen_tables": "Byte-preserved in archive; no bootstrap rerun",
+    "display": "per-fault 60min counts with separate 95% two-sided Clopper-Pearson for every row, not only endpoints; macro saturation reported descriptively without pseudo CI. Overlapping-split min-max is not a CI and is retained.",
+    "boundaries": "No pooling 17 heterogenous faults as common Bernoulli; no posthoc noninferiority or new primary test."
+  },
+  "overall_scope": "Historical diagnostic analyses. No new TEP simulator campaign, no production seeds, no refit/recalibration of frozen Final. New diagnostics may falsify old interpretations."
+}

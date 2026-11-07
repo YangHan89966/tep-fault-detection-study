@@ -1,0 +1,99 @@
+{
+  "script": "scripts/11_unpaired_runlevel_screening.py",
+  "method": "Independent run-level bootstrap screening; no normal-fault run pairing and no sample-level bootstrap",
+  "fault_id": 3,
+  "fault_start_sample": 161,
+  "pca_cumulative_variance_target": 0.95,
+  "selected_n_pcs": 36,
+  "cumulative_explained_variance": 0.9581997268001302,
+  "screening_windows": {
+    "early_80": [
+      161,
+      240
+    ],
+    "early_160_primary": [
+      161,
+      320
+    ],
+    "full_postfault": [
+      161,
+      960
+    ]
+  },
+  "primary_window": "early_160_primary",
+  "bootstrap_replicates": 2000,
+  "bootstrap_unit": "independent simulation run",
+  "bootstrap_confidence": 0.95,
+  "bootstrap_seed": 20260714,
+  "direction_stability_rule": "two-sided 95% percentile bootstrap CI for the unpaired difference in run means excludes zero",
+  "ranking_rule": "descending absolute Hedges' g among stable residuals",
+  "top_k": 5,
+  "cusum_k": 0.05,
+  "run_level_threshold_percentile": 95,
+  "stable_counts": {
+    "early_80": 36,
+    "early_160_primary": 40,
+    "full_postfault": 47
+  },
+  "selected_variables": {
+    "early_80": [
+      "xmeas_21",
+      "xmeas_2",
+      "xmv_1",
+      "xmv_8",
+      "xmeas_15"
+    ],
+    "early_160_primary": [
+      "xmeas_2",
+      "xmeas_21",
+      "xmv_1",
+      "xmv_8",
+      "xmeas_15"
+    ],
+    "full_postfault": [
+      "xmeas_2",
+      "xmeas_21",
+      "xmv_1",
+      "xmv_8",
+      "xmeas_15"
+    ]
+  },
+  "method_outputs": {
+    "matched_original": {
+      "scaler": "results\\tables\\11_matched_original_scaler.csv",
+      "validation_run_max": "results\\tables\\11_matched_original_validation_run_max.csv",
+      "normal_run_results": "results\\tables\\11_matched_original_normal_run_results.csv",
+      "fault3_run_results": "results\\tables\\11_matched_original_fault3_run_results.csv"
+    },
+    "early_80": {
+      "scaler": "results\\tables\\11_unpaired_early_80_scaler.csv",
+      "validation_run_max": "results\\tables\\11_unpaired_early_80_validation_run_max.csv",
+      "normal_run_results": "results\\tables\\11_unpaired_early_80_normal_run_results.csv",
+      "fault3_run_results": "results\\tables\\11_unpaired_early_80_fault3_run_results.csv"
+    },
+    "early_160_primary": {
+      "scaler": "results\\tables\\11_unpaired_early_160_primary_scaler.csv",
+      "validation_run_max": "results\\tables\\11_unpaired_early_160_primary_validation_run_max.csv",
+      "normal_run_results": "results\\tables\\11_unpaired_early_160_primary_normal_run_results.csv",
+      "fault3_run_results": "results\\tables\\11_unpaired_early_160_primary_fault3_run_results.csv"
+    },
+    "full_postfault": {
+      "scaler": "results\\tables\\11_unpaired_full_postfault_scaler.csv",
+      "validation_run_max": "results\\tables\\11_unpaired_full_postfault_validation_run_max.csv",
+      "normal_run_results": "results\\tables\\11_unpaired_full_postfault_normal_run_results.csv",
+      "fault3_run_results": "results\\tables\\11_unpaired_full_postfault_fault3_run_results.csv"
+    }
+  },
+  "summary_outputs": {
+    "all_screening_metrics": "results\\tables\\11_unpaired_screening_all_variables.csv",
+    "selected_variables": "results\\tables\\11_unpaired_selected_variables.csv",
+    "selection_overlap": "results\\tables\\11_unpaired_selection_overlap.csv",
+    "final_performance": "results\\tables\\11_unpaired_cusum_performance.csv",
+    "figures": [
+      "results\\figures\\fig11a_unpaired_selection_stability.png",
+      "results\\figures\\fig11a_unpaired_selection_stability.pdf",
+      "results\\figures\\fig11b_unpaired_screening_performance.png",
+      "results\\figures\\fig11b_unpaired_screening_performance.pdf"
+    ]
+  }
+}

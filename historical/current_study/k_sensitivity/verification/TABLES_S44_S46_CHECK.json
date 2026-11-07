@@ -1,0 +1,472 @@
+{
+  "scope": "Read-only DOCX display/CSV/JSON/NPZ saved-evidence consistency. No raw replay, fitting, simulator, fresh learning or bootstrap rerun.",
+  "docx": "TEP_SI_v1.7.3_CILS.docx",
+  "docx_sha256": "a3853d2a239251fdb7eba0a1f8fe16b5af75501e04ab098003736a29d97eb678",
+  "table_results": {
+    "S44": {
+      "data_rows": 8,
+      "numeric_display_cells": 40,
+      "numeric_components": 40
+    },
+    "S45": {
+      "data_rows": 6,
+      "numeric_display_cells": 12,
+      "numeric_components": 36
+    },
+    "S46": {
+      "data_rows": 18,
+      "numeric_display_cells": 90,
+      "numeric_components": 126
+    }
+  },
+  "numeric_display_cells": 142,
+  "numeric_components": 202,
+  "checks_run": 1191,
+  "mismatch_count": 0,
+  "mismatches": [],
+  "selection": {
+    "N": {
+      "configurations": 34,
+      "candidate_rows": 170,
+      "selected_distribution": {
+        "0.03": 1,
+        "0.05": 1,
+        "0.07": 11,
+        "0.1": 21
+      },
+      "ties": []
+    },
+    "DV": {
+      "configurations": 27,
+      "candidate_rows": 135,
+      "selected_distribution": {
+        "0.01": 3,
+        "0.03": 4,
+        "0.05": 5,
+        "0.07": 5,
+        "0.1": 10
+      },
+      "ties": []
+    }
+  },
+  "N_delay_direction_counts": {
+    "adaptive_5family_top5/k007": {
+      "decreased": 17,
+      "tied": 0,
+      "increased": 0
+    },
+    "adaptive_5family_top5/auto_dev": {
+      "decreased": 17,
+      "tied": 0,
+      "increased": 0
+    },
+    "fixed_ad_top5/k007": {
+      "decreased": 16,
+      "tied": 1,
+      "increased": 0
+    },
+    "fixed_ad_top5/auto_dev": {
+      "decreased": 15,
+      "tied": 2,
+      "increased": 0
+    }
+  },
+  "DV_loss_direction_counts": {
+    "k007": {
+      "decreased": 20,
+      "tied": 0,
+      "increased": 7
+    },
+    "auto_dev": {
+      "decreased": 13,
+      "tied": 5,
+      "increased": 9
+    }
+  },
+  "DV_original_contrast_signs": {
+    "3": {
+      "k005": "positive",
+      "k007": "positive",
+      "auto_dev": "positive"
+    },
+    "9": {
+      "k005": "positive",
+      "k007": "positive",
+      "auto_dev": "positive"
+    },
+    "15": {
+      "k005": "negative",
+      "k007": "negative",
+      "auto_dev": "negative"
+    }
+  },
+  "DV_nonprimary_rows_with_prealarms": [
+    {
+      "fault": 3,
+      "method": "moment_pool_signed",
+      "policy": "auto_dev",
+      "prealarm_n": 1
+    },
+    {
+      "fault": 3,
+      "method": "moment_pool_squared",
+      "policy": "k005",
+      "prealarm_n": 1
+    },
+    {
+      "fault": 3,
+      "method": "moment_pool_squared",
+      "policy": "k007",
+      "prealarm_n": 1
+    },
+    {
+      "fault": 3,
+      "method": "moment_pool_squared",
+      "policy": "auto_dev",
+      "prealarm_n": 1
+    },
+    {
+      "fault": 9,
+      "method": "Q_CUSUM",
+      "policy": "k007",
+      "prealarm_n": 1
+    },
+    {
+      "fault": 9,
+      "method": "same_mean_signed_axis_squared",
+      "policy": "auto_dev",
+      "prealarm_n": 1
+    },
+    {
+      "fault": 15,
+      "method": "same_mean_signed_axis_absolute",
+      "policy": "k005",
+      "prealarm_n": 1
+    },
+    {
+      "fault": 15,
+      "method": "same_mean_signed_axis_absolute",
+      "policy": "k007",
+      "prealarm_n": 1
+    },
+    {
+      "fault": 15,
+      "method": "same_mean_signed_axis_absolute",
+      "policy": "auto_dev",
+      "prealarm_n": 2
+    }
+  ],
+  "frozen_N_pre_alarm_counts": {
+    "independent_top1": 35,
+    "q_cusum": 35
+  },
+  "NPZ_metadata_checks": [
+    {
+      "filename": "DV_F03_PAIRED.npz",
+      "fault_shape": [
+        3,
+        9,
+        250,
+        120
+      ],
+      "normal_shape": [
+        3,
+        9,
+        250,
+        120
+      ]
+    },
+    {
+      "filename": "DV_F09_PAIRED.npz",
+      "fault_shape": [
+        3,
+        9,
+        250,
+        120
+      ],
+      "normal_shape": [
+        3,
+        9,
+        250,
+        120
+      ]
+    },
+    {
+      "filename": "DV_F15_PAIRED.npz",
+      "fault_shape": [
+        3,
+        9,
+        250,
+        120
+      ],
+      "normal_shape": [
+        3,
+        9,
+        250,
+        120
+      ]
+    },
+    {
+      "filename": "N_F01_PAIRED.npz",
+      "fault_shape": [
+        3,
+        2,
+        250,
+        120
+      ],
+      "normal_shape": [
+        3,
+        2,
+        250,
+        120
+      ]
+    },
+    {
+      "filename": "N_F02_PAIRED.npz",
+      "fault_shape": [
+        3,
+        2,
+        250,
+        120
+      ],
+      "normal_shape": [
+        3,
+        2,
+        250,
+        120
+      ]
+    },
+    {
+      "filename": "N_F04_PAIRED.npz",
+      "fault_shape": [
+        3,
+        2,
+        250,
+        120
+      ],
+      "normal_shape": [
+        3,
+        2,
+        250,
+        120
+      ]
+    },
+    {
+      "filename": "N_F05_PAIRED.npz",
+      "fault_shape": [
+        3,
+        2,
+        250,
+        120
+      ],
+      "normal_shape": [
+        3,
+        2,
+        250,
+        120
+      ]
+    },
+    {
+      "filename": "N_F06_PAIRED.npz",
+      "fault_shape": [
+        3,
+        2,
+        250,
+        120
+      ],
+      "normal_shape": [
+        3,
+        2,
+        250,
+        120
+      ]
+    },
+    {
+      "filename": "N_F07_PAIRED.npz",
+      "fault_shape": [
+        3,
+        2,
+        250,
+        120
+      ],
+      "normal_shape": [
+        3,
+        2,
+        250,
+        120
+      ]
+    },
+    {
+      "filename": "N_F08_PAIRED.npz",
+      "fault_shape": [
+        3,
+        2,
+        250,
+        120
+      ],
+      "normal_shape": [
+        3,
+        2,
+        250,
+        120
+      ]
+    },
+    {
+      "filename": "N_F10_PAIRED.npz",
+      "fault_shape": [
+        3,
+        2,
+        250,
+        120
+      ],
+      "normal_shape": [
+        3,
+        2,
+        250,
+        120
+      ]
+    },
+    {
+      "filename": "N_F11_PAIRED.npz",
+      "fault_shape": [
+        3,
+        2,
+        250,
+        120
+      ],
+      "normal_shape": [
+        3,
+        2,
+        250,
+        120
+      ]
+    },
+    {
+      "filename": "N_F12_PAIRED.npz",
+      "fault_shape": [
+        3,
+        2,
+        250,
+        120
+      ],
+      "normal_shape": [
+        3,
+        2,
+        250,
+        120
+      ]
+    },
+    {
+      "filename": "N_F13_PAIRED.npz",
+      "fault_shape": [
+        3,
+        2,
+        250,
+        120
+      ],
+      "normal_shape": [
+        3,
+        2,
+        250,
+        120
+      ]
+    },
+    {
+      "filename": "N_F14_PAIRED.npz",
+      "fault_shape": [
+        3,
+        2,
+        250,
+        120
+      ],
+      "normal_shape": [
+        3,
+        2,
+        250,
+        120
+      ]
+    },
+    {
+      "filename": "N_F16_PAIRED.npz",
+      "fault_shape": [
+        3,
+        2,
+        250,
+        120
+      ],
+      "normal_shape": [
+        3,
+        2,
+        250,
+        120
+      ]
+    },
+    {
+      "filename": "N_F17_PAIRED.npz",
+      "fault_shape": [
+        3,
+        2,
+        250,
+        120
+      ],
+      "normal_shape": [
+        3,
+        2,
+        250,
+        120
+      ]
+    },
+    {
+      "filename": "N_F18_PAIRED.npz",
+      "fault_shape": [
+        3,
+        2,
+        250,
+        120
+      ],
+      "normal_shape": [
+        3,
+        2,
+        250,
+        120
+      ]
+    },
+    {
+      "filename": "N_F19_PAIRED.npz",
+      "fault_shape": [
+        3,
+        2,
+        250,
+        120
+      ],
+      "normal_shape": [
+        3,
+        2,
+        250,
+        120
+      ]
+    },
+    {
+      "filename": "N_F20_PAIRED.npz",
+      "fault_shape": [
+        3,
+        2,
+        250,
+        120
+      ],
+      "normal_shape": [
+        3,
+        2,
+        250,
+        120
+      ]
+    }
+  ],
+  "not_independently_established": [
+    "SI claim of 86 local baseline checks is not reconstructible from the S18 CSV/JSON/NPZ files alone; provenance refers to source return records.",
+    "Chronology of selecting k before rereading evaluation data is recorded source metadata, not inferable independently from saved tables.",
+    "Training/selection/calibration trajectory-role counts and raw-to-score correctness require source records; evaluated NPZ denominators are verified here.",
+    "Saved N paired CSV/JSON bounds and displayed rounding checked; no bootstrap draws rerun in this table check."
+  ],
+  "packaging_note": "Report source identifier reduced to filename; scientific checks and source hash unchanged."
+}

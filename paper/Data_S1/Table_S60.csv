@@ -1,0 +1,23 @@
+Fault,Replicate,Monitor,Limit h,Normal alarms (of 400),Pre-fault alarms (of 200),Clean ≤2 h,Clean ≤8 h,Clean 40 h,Mean loss (min)
+3,1,"Mean, Signed (full-pool monitor)",45.03,16,0,0,52,200,633.4
+3,1,Squared on the same direction,55.63,9,0,0,1,26,2290.7
+3,2,"Mean, Signed (full-pool monitor)",56.50,17,0,0,49,200,654.4
+3,2,Squared on the same direction,60.61,16,0,0,1,44,2221.6
+3,3,"Mean, Signed (full-pool monitor)",41.67,31,0,1,94,200,510.6
+3,3,Squared on the same direction,55.17,8,0,0,0,38,2226.9
+3,4,"Mean, Signed (full-pool monitor)",44.98,30,0,0,78,200,550.5
+3,4,Squared on the same direction,57.35,9,0,0,1,40,2201.2
+3,5,"Mean, Signed (full-pool monitor)",41.52,34,0,1,72,200,577.4
+3,5,Squared on the same direction,54.01,10,0,0,0,28,2264.9
+15,1,"Mean, Squared",47.09,20,0,2,6,53,2153.9
+15,1,"Moment, Squared (full-pool monitor)",53.73,19,0,0,9,139,1656.2
+15,2,"Mean, Squared",105.20,21,0,0,0,20,2314.5
+15,2,"Moment, Squared (full-pool monitor)",49.16,25,0,0,9,148,1582.8
+15,3,"Mean, Squared",47.04,40,0,0,3,42,2208.5
+15,3,"Moment, Squared (full-pool monitor)",51.17,30,0,0,10,148,1572.4
+15,4,"Mean, Squared",44.92,23,1,0,4,29,2235.8
+15,4,"Moment, Squared (full-pool monitor)",57.62,26,0,0,12,150,1577.2
+15,5,"Mean, Squared",46.96,25,0,2,2,28,2258.1
+15,5,"Moment, Squared (full-pool monitor)",47.05,33,0,0,10,138,1649.9
+9,–,"Fixed historical, controller-input",29.60,24,1,7,61,176,1063.4
+9,–,"Fixed historical, post-update",99.46,22,0,0,3,40,2213.0

@@ -1,0 +1,122 @@
+[
+  {
+    "file": "S24_NEWSEED_MACRO_ENDPOINTS_AND_INTERVALS.csv",
+    "source": "external-input/3fee2203032f/MACRO_ENDPOINTS_AND_INTERVALS.csv",
+    "sha256": "8f3afa03833e981b428f556ea9caabae5717810d3473a0d3c80aaf2d2e1036e3",
+    "bytes": 8012
+  },
+  {
+    "file": "S25_NEWSEED_PAIRED_CONTRASTS.csv",
+    "source": "external-input/8b8dc6efdeab/PAIRED_CONTRASTS.csv",
+    "sha256": "cb58e417278caeff446498d4ff1ba564dcfe6ac49dacfe2db6b5c24d8dc39ebf",
+    "bytes": 9133
+  },
+  {
+    "file": "S26_NEWSEED_PER_FAULT_ENDPOINTS_AND_INTERVALS.csv",
+    "source": "external-input/067f3d72f42b/PER_FAULT_ENDPOINTS_AND_INTERVALS.csv",
+    "sha256": "bdf9e99043693f34d9d7cd34970f8de7250b11e936287cc43fd2f265a4c4c6ef",
+    "bytes": 109499
+  },
+  {
+    "file": "S27_POSTHOC_SHUTDOWN_PHASE_OVERLAY.csv",
+    "source": "external-input/f958311e9bcf/B-SH_POSTHOC_SHUTDOWN_PHASE_OVERLAY.csv",
+    "sha256": "7b40f82333d6b20a1d0dc06450f88a07bdf15f1363286bff0be6a5c44f0f1b73",
+    "bytes": 4315
+  },
+  {
+    "file": "FINAL_SCIENTIFIC_SPEC.json",
+    "source": "external-input/56ff35968c39/FINAL_SCIENTIFIC_SPEC.json",
+    "sha256": "c8784cd8a590b1c561d9a51db834a61ba7f8c571d23fc48afc63eda638fd28d8",
+    "bytes": 8075
+  },
+  {
+    "file": "DISCLOSURES.md",
+    "source": "external-input/7fe4ebb84bf1/DISCLOSURES.md",
+    "sha256": "5197a521e2137788e9fab5f1c121d827d8bb23a01408c9b71f394f0d97b26176",
+    "bytes": 4243
+  },
+  {
+    "file": "S27_READING_PRIMARY_ALL20.csv",
+    "source": "external-input/a54d5190484b/READING_PRIMARY_ALL20.csv",
+    "sha256": "74ca1db68ff84e5d35b63ace9bed13e058562601e0fc8f476d37f0331b3cd3f6",
+    "bytes": 44395
+  },
+  {
+    "file": "S27_SUMMARY_ALL20_ALL_VARIANTS.csv",
+    "source": "external-input/d167dd25c0ec/SUMMARY_ALL20_ALL_VARIANTS.csv",
+    "sha256": "7259535352963e890dc2cd5072272f711574cfff75cca62193410a52d088912d",
+    "bytes": 131744
+  },
+  {
+    "file": "S27_ALL_ADVERSE_SELECTIONS.csv",
+    "source": "external-input/d115a4c0c345/POSTHOC_ALL_ADVERSE_SELECTIONS.csv",
+    "sha256": "5ae9498a05a854c0abc73bcf8b362d9f945d3b20ce54880cbc61c6c6a210ca16",
+    "bytes": 22635
+  },
+  {
+    "file": "S29_READING_PRIMARY_SQUARED_ALL20.csv",
+    "source": "external-input/4d40ee0b4249/READING_PRIMARY_SQUARED_ALL20.csv",
+    "sha256": "2db12f8b0d38ea707d6357ad2384ad1bc9730a6158d74d2abcf7bd8e81394578",
+    "bytes": 13394
+  },
+  {
+    "file": "S29_PAIRED_SUMMARY_ALL_CONTRASTS.csv",
+    "source": "external-input/2dc7533b6512/PAIRED_SUMMARY_ALL_CONTRASTS.csv",
+    "sha256": "6ab80a4b893f769509c954e875de111d0287d581b8658143135a7776f5efb900",
+    "bytes": 148040
+  },
+  {
+    "file": "S29_READING_FOCUS_FAULTS.csv",
+    "source": "external-input/fdb2a2ad47be/READING_FOCUS_FAULTS.csv",
+    "sha256": "f32c67f2d1a7b38ef7ee2e0afef72340dd1d61a5ec4f937b6022709547b58e2e",
+    "bytes": 26823
+  },
+  {
+    "file": "S29_READING_FOCUS_CHOICES.csv",
+    "source": "external-input/0c2e0bdb9e03/READING_FOCUS_CHOICES.csv",
+    "sha256": "ebf6f845cf2563d07f1ddcf8016bfeddf9f32bcbf0e2aae0a278208e88b8f695",
+    "bytes": 36859
+  },
+  {
+    "file": "S29_READING_DIFFICULT_DETECTION_HORIZONS.csv",
+    "source": "external-input/7a033f3f42ae/READING_DIFFICULT_DETECTION_HORIZONS.csv",
+    "sha256": "afb3c85795492b39c4c22f5b8a4e5c62e02eb9ba73548763a706dc53d338875a",
+    "bytes": 9707
+  },
+  {
+    "file": "S29_COMBINED_ALL_UNSUCCESSFUL_MAIN_RUNS.csv",
+    "source": "external-input/a580ac8ac2da/COMBINED_ALL_UNSUCCESSFUL_MAIN_RUNS.csv",
+    "sha256": "76ca24d07b042c7693f93a999812f4b4e23f20b6aebb4a88d817c65f44554558",
+    "bytes": 3607
+  },
+  {
+    "file": "S29_COMBINED_SEARCH_GAIN_LOSS_COUNTS.csv",
+    "source": "external-input/57502ea1d667/COMBINED_SEARCH_GAIN_LOSS_COUNTS.csv",
+    "sha256": "9e0c438b296a03a4c4d476f4e37b917a578254dee0910b5275b90258cd16a190",
+    "bytes": 91
+  },
+  {
+    "file": "S31_ALL_AXES_FAMILIES_SUMMARY.csv",
+    "source": "external-input/31d240a10caa/ALL_AXES_FAMILIES_SUMMARY.csv",
+    "sha256": "389ae23224940b192fa367ef232bb9add1e42528c9f9e6c93286d755445a94a1",
+    "bytes": 30677
+  },
+  {
+    "file": "S31_COVARIANCE_RATIOS_SUMMARY.csv",
+    "source": "external-input/c43301dfe4f2/COVARIANCE_RATIOS_SUMMARY.csv",
+    "sha256": "a230271f63fcd2e0f7a86038818d84eda416343a817fe949c0f9c070391bfa1f",
+    "bytes": 72385
+  },
+  {
+    "file": "S31_PRIMARY_NEW_SIGNED_AXIS_ALL_TRANSFORMS.csv",
+    "source": "external-input/d7d34fc16521/PRIMARY_NEW_SIGNED_AXIS_ALL_TRANSFORMS.csv",
+    "sha256": "02e3e2f3feef5caddfc12c7c096d8ee75ee62aebba54997556e4da5af411d0ce",
+    "bytes": 10547
+  },
+  {
+    "file": "S31_PAIRED_TREATMENT_SUMMARY.csv",
+    "source": "external-input/d7963c688f54/PAIRED_TREATMENT_SUMMARY.csv",
+    "sha256": "8b17971814509e19c01ddcbdd2eb2e2e6dc345b943b1fedf14eb8c42892c88d4",
+    "bytes": 27522
+  }
+]

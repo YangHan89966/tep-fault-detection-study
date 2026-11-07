@@ -1,0 +1,14 @@
+{
+  "time_utc": "2026-10-30T06:09:41.449508+00:00",
+  "thresholds": [
+    20.350554486178666,
+    46.19021138388782,
+    30.930112822645384,
+    75.04085190297721
+  ],
+  "rank": 190,
+  "normal_n": 199,
+  "model_lock_sha256": "f297984607c212eb8c0ad9312ff869b4d0b9d5e83f6f780635dfc9df1eefe868",
+  "frozen_before_batch_evaluation": true,
+  "panel_previously_analyzed": true
+}

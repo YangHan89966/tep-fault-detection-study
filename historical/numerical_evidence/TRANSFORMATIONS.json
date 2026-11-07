@@ -1,0 +1,147 @@
+{
+  "path_redactions": [
+    {
+      "path": "fault3_fault15_sensitivity/input_provenance/INPUT_PREFLIGHT.csv",
+      "redacted_path_cells": 450,
+      "redacted_columns": [
+        "resolved_path"
+      ],
+      "other_cells_identical": true
+    },
+    {
+      "path": "fault3_fault15_sensitivity/fitted_models/INPUT_READ_RECEIPTS.csv",
+      "redacted_path_cells": 680,
+      "redacted_columns": [
+        "raw_path"
+      ],
+      "other_cells_identical": true
+    },
+    {
+      "path": "fault3_fault15_sensitivity/evaluation/EVALUATION_READ_RECEIPTS.csv",
+      "redacted_path_cells": 360,
+      "redacted_columns": [
+        "raw_path"
+      ],
+      "other_cells_identical": true
+    },
+    {
+      "path": "fault3_fault15_sensitivity/pca_sensitivity/INPUT_PREFLIGHT.csv",
+      "redacted_path_cells": 745,
+      "redacted_columns": [
+        "resolved_path"
+      ],
+      "other_cells_identical": true
+    },
+    {
+      "path": "fault3_fault15_sensitivity/pca_sensitivity/results/INPUT_HASHES.csv",
+      "redacted_path_cells": 749,
+      "redacted_columns": [
+        "path"
+      ],
+      "other_cells_identical": true
+    }
+  ],
+  "duplicate_numeric_copies_omitted": [
+    {
+      "component": "fault3_fault15_sensitivity",
+      "path": "fault3_fault15_sensitivity/input_provenance/INPUT_PREFLIGHT.csv",
+      "sha256": "861475b682fdaf531f9312b51052016c149ac27d19d83d12412a22c188f2b3d6"
+    },
+    {
+      "component": "fault3_fault15_sensitivity",
+      "path": "fault3_fault15_sensitivity/pca_sensitivity/INPUT_PREFLIGHT.csv",
+      "sha256": "4e6fefe8e91c07d180dca2e68b5562f58dc9dd6b231963de5744f1966398a2a9"
+    },
+    {
+      "component": "fault3_fault15_sensitivity",
+      "path": "fault3_fault15_sensitivity/pca_sensitivity/results/A8_B_EIGENVALUES.csv",
+      "sha256": "a87d22d1f80469f499586b324b6f62a4b777e410271620b74c7d6a9b5952b075"
+    },
+    {
+      "component": "fault3_fault15_sensitivity",
+      "path": "fault3_fault15_sensitivity/pca_sensitivity/results/A8_ENDPOINTS.csv",
+      "sha256": "9987dc584a644a76cffeabba48746c7c7d7b54ff0f2fd18ccfdb15b3f89f4b22"
+    },
+    {
+      "component": "fault3_fault15_sensitivity",
+      "path": "fault3_fault15_sensitivity/pca_sensitivity/results/A8_ORIGINAL_PCA78_REPRODUCTION/DESIGN.npz",
+      "sha256": "23427dc0415256c1f576f7c8d1ee3b7a5e01bced41a333621e772e3d7eec9f89"
+    },
+    {
+      "component": "fault3_fault15_sensitivity",
+      "path": "fault3_fault15_sensitivity/pca_sensitivity/results/A8_ORIGINAL_PCA78_REPRODUCTION/INNER.npz",
+      "sha256": "87344b079023ef2fb952103ff66cf396901ab467de60e164d420cb3ad4e8cf9f"
+    },
+    {
+      "component": "fault3_fault15_sensitivity",
+      "path": "fault3_fault15_sensitivity/pca_sensitivity/results/A8_ORIGINAL_PCA78_REPRODUCTION/MODEL.npz",
+      "sha256": "e71e609ef6b349cc9bcbe24f24cb362bfb27c22dde1ee01fba71957de04e883b"
+    },
+    {
+      "component": "fault3_fault15_sensitivity",
+      "path": "fault3_fault15_sensitivity/pca_sensitivity/results/A8_ORIGINAL_PCA78_REPRODUCTION/OUTER.npz",
+      "sha256": "ac518edf3380ecda9cfc7397aab15d8ab08a9173704c52571747e8bae6b98039"
+    },
+    {
+      "component": "fault3_fault15_sensitivity",
+      "path": "fault3_fault15_sensitivity/pca_sensitivity/results/A8_ORIGINAL_PCA78_REPRODUCTION/PARAMETERS.npz",
+      "sha256": "d83a853c724428be87f96570981d5c51a4ce9cb23647977e99ba15f82024df8e"
+    },
+    {
+      "component": "fault3_fault15_sensitivity",
+      "path": "fault3_fault15_sensitivity/pca_sensitivity/results/A8_ORIGINAL_PCA78_REPRODUCTION/SELECTION_SCORES.csv",
+      "sha256": "d151bea93d2bdb5a440237e747e2b35875c994ded6f81e937e67c5df48ed1f7d"
+    },
+    {
+      "component": "fault3_fault15_sensitivity",
+      "path": "fault3_fault15_sensitivity/pca_sensitivity/results/A8_PAIRED_CONTRASTS.csv",
+      "sha256": "610537d87279aa36b397e222fdcc1c6bf62870f6fb080a39efa88ca07886b846"
+    },
+    {
+      "component": "fault3_fault15_sensitivity",
+      "path": "fault3_fault15_sensitivity/pca_sensitivity/results/A8_PCA_RESIDUAL_PRINCIPAL_ANGLES.csv",
+      "sha256": "5151d9a19a4b34cd23f9d117a5dfbb25cf2cc18c49af3c1575a8da6f7c9de04e"
+    },
+    {
+      "component": "fault3_fault15_sensitivity",
+      "path": "fault3_fault15_sensitivity/pca_sensitivity/results/INPUT_HASHES.csv",
+      "sha256": "87b30801c9d9d8930db397454974c0bf114973996076b6e8162db76874cf6505"
+    },
+    {
+      "component": "fault3_fault15_sensitivity",
+      "path": "fault3_fault15_sensitivity/pca_sensitivity/results/state1_PCA500_swap/DESIGN.npz",
+      "sha256": "c7bae326364d2e783b3565c9576c2b79a23c315c054d3c6382a64f08053ad8ad"
+    },
+    {
+      "component": "fault3_fault15_sensitivity",
+      "path": "fault3_fault15_sensitivity/pca_sensitivity/results/state1_PCA500_swap/EVALUATION_EVENTS.npz",
+      "sha256": "376d991ba3766a86de3d5ec42153c445965c27164ab2936adaeb1ce3891414db"
+    },
+    {
+      "component": "fault3_fault15_sensitivity",
+      "path": "fault3_fault15_sensitivity/pca_sensitivity/results/state1_PCA500_swap/INNER.npz",
+      "sha256": "4b0a1543acf679261b984a7e635f533ec0e5dec274efd744770fcecb7ce270f2"
+    },
+    {
+      "component": "fault3_fault15_sensitivity",
+      "path": "fault3_fault15_sensitivity/pca_sensitivity/results/state1_PCA500_swap/MODEL.npz",
+      "sha256": "b76c2820014621c8c46eb84b93de53d834a708ce842778f307d7a975dc3b37f5"
+    },
+    {
+      "component": "fault3_fault15_sensitivity",
+      "path": "fault3_fault15_sensitivity/pca_sensitivity/results/state1_PCA500_swap/OUTER.npz",
+      "sha256": "5ac3af6e8410f44319670e6d4e8eff2604de64308ea9937c6378b74b334512fb"
+    },
+    {
+      "component": "fault3_fault15_sensitivity",
+      "path": "fault3_fault15_sensitivity/pca_sensitivity/results/state1_PCA500_swap/PARAMETERS.npz",
+      "sha256": "f87f30f02c21e777d2c399cc424704340484e602c63c66733bd8ce3f06c72e18"
+    },
+    {
+      "component": "fault3_fault15_sensitivity",
+      "path": "fault3_fault15_sensitivity/pca_sensitivity/results/state1_PCA500_swap/SELECTION_SCORES.csv",
+      "sha256": "d94fc40c02c140d74e75dd7f98bebd2423bc7c1ea3a49ddcda19e4d24bd6ae2f"
+    }
+  ],
+  "numeric_payload_policy": "Every NPZ is byte-identical. CSV modifications affect only absolute source-file paths; all other parsed cells are unchanged."
+}

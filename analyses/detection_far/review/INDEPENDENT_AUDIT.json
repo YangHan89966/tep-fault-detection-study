@@ -1,0 +1,194 @@
+{
+  "status": "PASS",
+  "inputs_and_table_hashes": {
+    "calibration_peaks.csv": "40f9db56e7246f3a44aa0e9670063c767e14fab0610c3f2e16ae901b31e96489",
+    "curves_by_model.csv": "e9b1f4a83ffe746f48b33a7f4e1f902c5cf4acc970696ddecd2313078ab9c581",
+    "curves_mean.csv": "1ab79abea823073930e5a39653a27c7142d3495c4d21e1ed9819c141a83afd25",
+    "evaluation_peaks.csv": "ab38841a643cc1a10586cc58e99a078f8b964c0982dfa261eb71985c4d60fa65",
+    "matched_anchors.csv": "749217717455d475b956155f2bcbf527186919c2240c529467bd7c67373397a9",
+    "original_points.csv": "df472b3bda79abc72456bfb1b4d867cafde1ca3b6174be27db730d3ffb3faf9f",
+    "paired_contrasts.csv": "75009cc5c6b1c9c747bc1db71c6bc3f769d7c6a44a82dfdc802299b11e5e9a90"
+  },
+  "scope": "Independent count sweep for all seven paired panel/contrast sets. No import of production assembly, threshold, endpoint, aggregation, or bootstrap code. Source maxima were previously verified by extraction.",
+  "eval_rows_matched_to_source_exports": 28680,
+  "outer_calibration_rows_matched_to_exports": 12546,
+  "model_arm_count": 54,
+  "per_model_operating_rows_all_four_counts_exact": 29194,
+  "mean_operating_rows_recomputed": 7314,
+  "original_mean_rows_checked": 14,
+  "threshold_largest_abs_error": 0.0,
+  "full_grid_normal_order_statistics": {
+    "normal_evaluation_extra_equal_values_within_arm": 0,
+    "calibration_extra_equal_values_within_arm": 0,
+    "rows_missing_target_normal_crossing_count": 0
+  },
+  "anchor_rows_reproduced": 42,
+  "bootstrap": {
+    "draws_per_panel_contrast": 5000,
+    "bootstrap_interval_rows_reproduced": 42,
+    "max_percentile_endpoint_abs_diff_pp": 0.0,
+    "independent_method": "Run frequencies in separately resampled normal and fault cohorts, common across detector arms and repeats. Weighted normal empirical CDF cutoffs; integer paired sums over physical runs, division only at end. Resampling produces ties even if original maxima are distinct."
+  },
+  "five_percent_nominal_anchor_results": [
+    {
+      "panel": "confirmation",
+      "contrast": "C1",
+      "horizon": "40h",
+      "attained_far": 5.0,
+      "favoured_minus_comparator_pp": 74.0,
+      "paired_run_percentiles_pp": [
+        68.3,
+        80.90249999999997
+      ]
+    },
+    {
+      "panel": "confirmation",
+      "contrast": "C1",
+      "horizon": "8h",
+      "attained_far": 5.0,
+      "favoured_minus_comparator_pp": 30.099999999999998,
+      "paired_run_percentiles_pp": [
+        23.900000000000002,
+        37.800000000000004
+      ]
+    },
+    {
+      "panel": "confirmation",
+      "contrast": "C3",
+      "horizon": "40h",
+      "attained_far": 5.0,
+      "favoured_minus_comparator_pp": 53.00000000000001,
+      "paired_run_percentiles_pp": [
+        46.0,
+        60.0
+      ]
+    },
+    {
+      "panel": "confirmation",
+      "contrast": "C3",
+      "horizon": "8h",
+      "attained_far": 5.0,
+      "favoured_minus_comparator_pp": 2.3,
+      "paired_run_percentiles_pp": [
+        0.0,
+        5.2
+      ]
+    },
+    {
+      "panel": "confirmation",
+      "contrast": "F9_recording",
+      "horizon": "40h",
+      "attained_far": 5.0,
+      "favoured_minus_comparator_pp": 67.5,
+      "paired_run_percentiles_pp": [
+        60.0,
+        76.0
+      ]
+    },
+    {
+      "panel": "confirmation",
+      "contrast": "F9_recording",
+      "horizon": "8h",
+      "attained_far": 5.0,
+      "favoured_minus_comparator_pp": 28.0,
+      "paired_run_percentiles_pp": [
+        20.0,
+        35.5
+      ]
+    },
+    {
+      "panel": "validation2",
+      "contrast": "C1",
+      "horizon": "40h",
+      "attained_far": 4.8,
+      "favoured_minus_comparator_pp": 75.68,
+      "paired_run_percentiles_pp": [
+        68.56,
+        83.44
+      ]
+    },
+    {
+      "panel": "validation2",
+      "contrast": "C1",
+      "horizon": "8h",
+      "attained_far": 4.8,
+      "favoured_minus_comparator_pp": 27.28,
+      "paired_run_percentiles_pp": [
+        18.64,
+        36.08
+      ]
+    },
+    {
+      "panel": "validation2",
+      "contrast": "C2",
+      "horizon": "40h",
+      "attained_far": 4.8,
+      "favoured_minus_comparator_pp": 3.120000000000002,
+      "paired_run_percentiles_pp": [
+        -0.08,
+        7.2
+      ]
+    },
+    {
+      "panel": "validation2",
+      "contrast": "C2",
+      "horizon": "8h",
+      "attained_far": 4.8,
+      "favoured_minus_comparator_pp": 0.3999999999999999,
+      "paired_run_percentiles_pp": [
+        -0.24,
+        0.96
+      ]
+    },
+    {
+      "panel": "validation2",
+      "contrast": "C3",
+      "horizon": "40h",
+      "attained_far": 4.8,
+      "favoured_minus_comparator_pp": 55.83999999999999,
+      "paired_run_percentiles_pp": [
+        49.52,
+        62.08
+      ]
+    },
+    {
+      "panel": "validation2",
+      "contrast": "C3",
+      "horizon": "8h",
+      "attained_far": 4.8,
+      "favoured_minus_comparator_pp": 4.800000000000001,
+      "paired_run_percentiles_pp": [
+        2.16,
+        8.16
+      ]
+    },
+    {
+      "panel": "recording_panel_2",
+      "contrast": "F9_recording",
+      "horizon": "40h",
+      "attained_far": 5.0,
+      "favoured_minus_comparator_pp": 71.66666666666666,
+      "paired_run_percentiles_pp": [
+        43.333333333333336,
+        80.83333333333334
+      ]
+    },
+    {
+      "panel": "recording_panel_2",
+      "contrast": "F9_recording",
+      "horizon": "8h",
+      "attained_far": 5.0,
+      "favoured_minus_comparator_pp": 24.166666666666668,
+      "paired_run_percentiles_pp": [
+        7.5,
+        43.333333333333336
+      ]
+    }
+  ],
+  "interpretation": [
+    "Descriptive thresholds chosen only from same evaluation normals, lower endpoint of each attainable empirical-FAR bin (except uppermost bin boundary), not thresholds set independently in advance; original operating points and independent calibration-rank curves remain distinct. A separate threshold is used in every detector replicate and arm.",
+    "Confirmation: C1, C3 and the F9 recording contrast retain large positive 40h clean-detection differences at common 1%,5%,10% FAR. At 5% FAR the C3 8h difference is 2.3 pp with lower endpoint exactly zero; the 1% 8h interval crosses zero.",
+    "Validation 2 C2: post hoc 40h clean-detection differences of 1.28, 3.12 and 4.88 pp at actually attainable 0.8%, 4.8%, 10% FAR, with 95% pointwise percentile intervals crossing zero at the first two. This diagnostic is not the prespecified penalized-loss endpoint and cannot turn failure of original C2 into confirmation.",
+    "Historic shared RNG limits uncertainty interpretation. All intervals pointwise, conditional on trained models; cannot infer ROC dominance or infer a uniform 8h C3 advantage at very low FAR."
+  ]
+}

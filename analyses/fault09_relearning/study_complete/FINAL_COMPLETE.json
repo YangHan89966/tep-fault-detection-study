@@ -1,0 +1,18 @@
+{
+  "all_outputs": {
+    "LEAVE_ONE_OUT.csv": "293914c47cae6a76adac3b2552d0d4f8ed7030a79531573846cf8a440fd7d11f",
+    "MATCHED_5PCT.csv": "be35b62efe6042f2441d095d3978f6a06013570854287f981c7c44ceb67ea304",
+    "MATCHED_5PCT_CONTRASTS.csv": "c03b3b3d23418f2af8c93bc748625366a2a49563af92e3006477b531912ef97a",
+    "OPERATING_POINTS.csv": "0cf4fd2996266076ddd9f512db80aa254fd0e396753e5c6adc1b7e5c96906fd2",
+    "PAIRED_CONTRASTS.csv": "3847bb7edddde60c9a6c73f8a58e9db144dfc0e9e4a7e29ff3ba09b31a752f36",
+    "PER_RUN.csv": "28a2499a676ec426235dbad3e339b78c3fd29ff37fa80eefdbc33287e8e9e0db",
+    "SUMMARY.json": "b352ec7b2f508814ad060eb8e4aa9c743e4ddf4ab26c1697f1bd8c1e93871eb9"
+  },
+  "code": "5ec318f6cc736ec535a834043385907d12bae1d44aa5b599ca3c8a68ed21e8aa",
+  "design": "be482fddc09941ed45b306da3f3d4a266812111c923cc564e0973b55ce3a7c99",
+  "models_lock_sha": "19f7064be2003eac4e92afbd825e8c9758f3164f1915035f49b5d447bff13bd1",
+  "n_physical": 2719,
+  "receipts_sha": "82e3f9cfd99cc5d0eaaa29dcdf6c8d0760388afa8be071c13e7b550bce22d062",
+  "thresholds_lock_sha": "a217e85221b9460f06f25807486c3969306765f91975712b691f2f1e44329fb2",
+  "utc": "2026-11-05T06:59:12.353029+00:00"
+}

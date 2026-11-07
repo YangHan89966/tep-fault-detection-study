@@ -1,0 +1,4 @@
+Fault,Contrast,Upper adjusted loss limit < 0,Lower loss in ≥ 4 of 5 replicates,gain within 40 h ≥ 10 pp,Mean FAR difference (pp),Rule
+Fault 3,full-pool monitor − FDA-CUSUM,Yes (−459.2),Yes,+2.48: No,+1.36,Not met
+Fault 15,full-pool monitor − variance-ratio reference,Yes (−86.9),Yes,+6.56: No,−1.36,Not met
+Fault 9,full-pool monitor − FDA-CUSUM,Yes (−32.7),Yes,+4.32: No,−1.04,Not met

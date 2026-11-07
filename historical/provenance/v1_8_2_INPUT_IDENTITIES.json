@@ -1,0 +1,154 @@
+{
+  "inputs": [
+    {
+      "filename": "01_Submission_Documents(2).zip",
+      "size_bytes": 8168540,
+      "sha256": "da8608b14471b1c81ddede27ce59ab269956f9d4845d2c65da692e35fe98ff78",
+      "included_as_whole_archive": false,
+      "role": "original author input; not a public-access assertion"
+    },
+    {
+      "filename": "TEP_FigS2_Style_Matched_v1_1.zip",
+      "size_bytes": 1128765,
+      "sha256": "27841843998245b7343cce90fba3a290699265b0f7f672e67befa9a6f18857ac",
+      "included_as_whole_archive": false,
+      "role": "original author input; not a public-access assertion"
+    },
+    {
+      "filename": "TEP_Manuscript_v1.8.2_CILS.docx",
+      "size_bytes": 6361255,
+      "sha256": "d4100e00f9ef631cf2192f57b13dfeb817e7f6d82f2ac47b26039df63c3dc522",
+      "included_as_whole_archive": false,
+      "role": "original author input; not a public-access assertion"
+    },
+    {
+      "filename": "TEP_R5_Fig5_Fault9_Zoom_v1_0.zip",
+      "size_bytes": 8844360,
+      "sha256": "19c46720a8e0e73d63029cffae758acb5e17a0e5f85b7185b7d4daf34130355f",
+      "included_as_whole_archive": false,
+      "role": "original author input; not a public-access assertion"
+    },
+    {
+      "filename": "TEP_R5_FigS3_Time_FAR_v1_0.zip",
+      "size_bytes": 13554538,
+      "sha256": "cfe25c902cc6752eb02dd252487c8ae14682b18725bf49aca3440581d53ad1bd",
+      "included_as_whole_archive": false,
+      "role": "original author input; not a public-access assertion"
+    },
+    {
+      "filename": "TEP_SI_v1.8.2_CILS.docx",
+      "size_bytes": 4358882,
+      "sha256": "16c3ca020d1fd1883f654f4a8409c719486798406affec5ca32414d3b9d7a384",
+      "included_as_whole_archive": false,
+      "role": "original author input; not a public-access assertion"
+    },
+    {
+      "filename": "TEP_Submission_Package_v1.8.0_Synced_20260915.zip",
+      "size_bytes": 79057389,
+      "sha256": "fad380c962713afe93a44bf4a33b644875eb341f10aaadff29dd31c62acdbf4b",
+      "included_as_whole_archive": false,
+      "role": "original author input; not a public-access assertion"
+    },
+    {
+      "filename": "TEP_Submission_Package_v1.8.2_CILS_20260915.zip",
+      "size_bytes": 78562104,
+      "sha256": "3083c3cad29cb93070100bf9c7584db33768b9dc4ce547501f3bc8007752e482",
+      "included_as_whole_archive": false,
+      "role": "original author input; not a public-access assertion"
+    },
+    {
+      "filename": "TEP_V18_A_20260914T142536Z_1937f858_RETURN.zip",
+      "size_bytes": 2326769,
+      "sha256": "b28e892201f3e609d996eb74ce7cd64fc9cc9e7e9015edcfa74da2f24c7b008d",
+      "included_as_whole_archive": false,
+      "role": "original author input; not a public-access assertion"
+    },
+    {
+      "filename": "TEP_V18_B_20260914T160426Z_68215695_RETURN.zip",
+      "size_bytes": 4165594,
+      "sha256": "30c3748e9281404055c2c8d2a1ba6820eb906a090bcfe84fe6e3bd57a03af7fa",
+      "included_as_whole_archive": false,
+      "role": "original author input; not a public-access assertion"
+    },
+    {
+      "filename": "TEP_V18_C_20260915T043903Z_478550fa_RETURN.zip",
+      "size_bytes": 806027,
+      "sha256": "fff44ed1d5dc349914144acf0ba7740159d30ab645265214db47fcf055b3c3cf",
+      "included_as_whole_archive": false,
+      "role": "original author input; not a public-access assertion"
+    },
+    {
+      "filename": "TEP_V18_D_20260915T055415Z_a425d49e_RETURN.zip",
+      "size_bytes": 8346800,
+      "sha256": "cd9c44c73b44839eea8372e7c3cc05c215401207e8aa31c889a82e9bbac78571",
+      "included_as_whole_archive": false,
+      "role": "original author input; not a public-access assertion"
+    },
+    {
+      "filename": "TEP_v1.8.0_Supplementary_Data_S21_S22.zip",
+      "size_bytes": 58946100,
+      "sha256": "6c0d7886c93783352fac151bae413ed887114bb4bbc4d77cf0bc3bda5035265c",
+      "included_as_whole_archive": false,
+      "role": "original author input; not a public-access assertion"
+    },
+    {
+      "filename": "TEP_v1.8.2_逻辑与阅读流畅性核对说明.md",
+      "size_bytes": 5379,
+      "sha256": "627c5d6828dcc48b582fecaeb62d53833e396b24321cf1bc6dc411e33de5a560",
+      "included_as_whole_archive": false,
+      "role": "original author input; not a public-access assertion"
+    },
+    {
+      "filename": "TEP_v1.8_Relearning_StageA_v1.0.zip",
+      "size_bytes": 307653,
+      "sha256": "7d0f0a522043590646455abe142969659a2f35016c8e1df82fb089bd5e676fcf",
+      "included_as_whole_archive": false,
+      "role": "original author input; not a public-access assertion"
+    },
+    {
+      "filename": "TEP_v1.8_Relearning_StageB_v1.0.zip",
+      "size_bytes": 2386664,
+      "sha256": "d80a81a5f576058f330a284366bfe125b46dd8c2546b686a043492410dc38b02",
+      "included_as_whole_archive": false,
+      "role": "original author input; not a public-access assertion"
+    },
+    {
+      "filename": "TEP_v1.8_Relearning_StageC_v1.0.zip",
+      "size_bytes": 514752,
+      "sha256": "f61e1668962f3106523dd21b4f46f7c3e56967580f2a6386f48f88031ccc4f8a",
+      "included_as_whole_archive": false,
+      "role": "original author input; not a public-access assertion"
+    },
+    {
+      "filename": "TEP_v1.8_Relearning_StageD_v1.0.zip",
+      "size_bytes": 873949,
+      "sha256": "309937c1a6e7cb60fbf04d5784de38b797eb55e32ffdd623c108b02856beb71a",
+      "included_as_whole_archive": false,
+      "role": "original author input; not a public-access assertion"
+    },
+    {
+      "filename": "tep-pca-residual-monitoring-ms-v1.7.4-draft-20260913.zip",
+      "size_bytes": 62447090,
+      "sha256": "dcf623fd9f182bc700442436d3063fece4f418bc5b15a89c5ca176281b36c3cb",
+      "included_as_whole_archive": false,
+      "role": "original author input; not a public-access assertion"
+    },
+    {
+      "filename": "tep-pca-residual-monitoring-ms-v1.7.4-draft-20260913.zip.sha256",
+      "size_bytes": 123,
+      "sha256": "8ca7c35f7780913b9bc298346eee31603ab2fd8f6e3eb49e879f7d193543e0ed",
+      "included_as_whole_archive": false,
+      "role": "original author input; not a public-access assertion"
+    }
+  ],
+  "scientific_submission_archive": {
+    "filename": "TEP_Supplementary_Data_S21_S22_v1.8.0.zip",
+    "size_bytes": 52102079,
+    "sha256": "da549904b29959c082e4037bc72a411f2502d3407f3dfbb835645f89e7fbbfd1"
+  },
+  "author_full_archive": {
+    "filename": "TEP_v1.8.0_Supplementary_Data_S21_S22.zip",
+    "sha256": "6c0d7886c93783352fac151bae413ed887114bb4bbc4d77cf0bc3bda5035265c"
+  },
+  "subset_relation": "Common scientific data, protocols and source code are byte-identical; author archive and submission subset are distinct artifacts. Names remain scientifically versioned v1.8.0."
+}

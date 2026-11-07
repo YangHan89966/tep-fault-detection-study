@@ -1,0 +1,4 @@
+# Saved-result verification environment only; Python 3.12.14.
+# Original research/simulator and figure environments are recorded separately.
+numpy==2.3.5
+scipy==1.17.0

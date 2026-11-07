@@ -1,0 +1,23 @@
+Analysis notes retained from the original research documentation.
+Table and section labels in these notes are historical identifiers; the current submitted Data S1 determines final numbering.
+
+FAULT 15: XMEAS17 SUBSTITUTION ON THE PAIRED FOLLOW-UP RECORDS
+
+
+In Fault 15, XMEAS17 is the feedback measurement for the loop that commands the sticking condenser cooling-water valve (XMV11). We tested whether the selected multivariate covariance chart depended on how XMEAS17 was recorded. With either recording-specific chart held fixed, replacing XMEAS17 alone by its value from the other recording triggered alarms in all 120 normal runs and before fault onset in all 120 Fault 15 runs (Table S64). The chart therefore depends on how XMEAS17 is recorded alongside the other inputs. The exchange cannot establish that the chart distinguishes sticking from valve movements driven by measurement noise or quantify how much of the original gain from 11 to 91 clean detections is attributable to XMEAS17.
+
+
+We exchanged only XMEAS17 between the paired records at each of the 960 sampling times, leaving the other 51 variables, including XMV11, unchanged. Each monitor retained its original transformation and limit. On the controller-input covariance chart (MEWMC, λ = 0.01), replacing XMEAS17 by its post-update value increased normal runs with any alarm from 12 to 120 and fault runs with a pre-fault alarm from 2 to 120. Every run first alarmed within four records. The reverse exchange on the post-update chart likewise produced 120 normal alarms and 120 pre-fault alarms, compared with 7 and 1 originally. In both hybrids every fault run also crossed the limit after onset; none qualified as a clean detection because it had already alarmed. The supervised full-pool monitor showed the same early alarms on the controller-input side. On the post-update side, however, substituting controller-input XMEAS17 added two clean detections (103 to 105), while the same nine normal runs alarmed. These comparisons describe the response of the frozen monitors to mixed records at their original limits.
+
+
+Table S64. Effect of exchanging XMEAS17 between recordings on two frozen Fault 15 monitors. Counts refer to 120 paired follow-up fault runs and 120 paired normal evaluation runs from recording panel 2. The base recording determines the other 51 inputs, the transformation and the original limit (190th of 199 normal calibration-run maxima). A clean detection requires no alarm in records 1–160 and a first alarm within the stated time after onset at record 161. Normal alarms count runs with any crossing in 48 h. The analysis is post hoc; neither monitor was fitted or recalibrated on a hybrid.
+
+Monitor       Base recording     XMEAS17 source     Clean ≤40 h   Clean ≤8 h   Fault pre-alarms   Normal alarms
+MEWMC         Controller-input   Controller-input       91            23              2                 12
+MEWMC         Controller-input   Post-update             0             0            120                120
+MEWMC         Post-update        Post-update            11             2              1                  7
+MEWMC         Post-update        Controller-input        0             0            120                120
+Full-pool     Controller-input   Controller-input      120            41              0                  6
+Full-pool     Controller-input   Post-update             0             0            120                120
+Full-pool     Post-update        Post-update           103             3              0                  9
+Full-pool     Post-update        Controller-input      105             3              0                  9

@@ -1,0 +1,81 @@
+[
+  {
+    "check": "method_order",
+    "type": "exact",
+    "passed": true
+  },
+  {
+    "check": "all49_anchor_peaks",
+    "type": "numeric",
+    "passed": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "max_abs_error": 0.0
+  },
+  {
+    "check": "all49_anchors",
+    "type": "numeric",
+    "passed": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "max_abs_error": 0.0
+  },
+  {
+    "check": "all49_outer_peaks",
+    "type": "numeric",
+    "passed": true,
+    "rtol": 1e-09,
+    "atol": 1e-08,
+    "max_abs_error": 0.0
+  },
+  {
+    "check": "all49_original_thresholds",
+    "type": "exact",
+    "passed": true
+  },
+  {
+    "check": "F15_original_all9_normal_alarm_bits",
+    "type": "exact",
+    "passed": true
+  },
+  {
+    "check": "F15_original_all9_fault_alarm_bits",
+    "type": "exact",
+    "passed": true
+  },
+  {
+    "check": "F15_original_events/prefault_alarm",
+    "type": "exact",
+    "passed": true
+  },
+  {
+    "check": "F15_original_events/detected",
+    "type": "exact",
+    "passed": true
+  },
+  {
+    "check": "F15_original_events/clean_detection",
+    "type": "exact",
+    "passed": true
+  },
+  {
+    "check": "F15_original_events/first_delay_samples_penalized",
+    "type": "exact",
+    "passed": true
+  },
+  {
+    "check": "F15_original_events/event_loss_samples",
+    "type": "exact",
+    "passed": true
+  },
+  {
+    "check": "F15_original_events/occupancy_points",
+    "type": "exact",
+    "passed": true
+  },
+  {
+    "check": "F15_original_events/postalarm_below_points",
+    "type": "exact",
+    "passed": true
+  }
+]

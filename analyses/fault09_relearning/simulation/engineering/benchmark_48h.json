@@ -1,0 +1,48 @@
+{
+  "engineering_only": true,
+  "key_hex": "0x51414f4e4c595f5445505f524e475f33",
+  "sim_hours": 48.0,
+  "wall_seconds": 116.76923954499944,
+  "native_shape": [
+    960,
+    52
+  ],
+  "source_comparison": {
+    "native_values": true,
+    "native_xmv12": true,
+    "native_time_seconds": true,
+    "record_time_seconds": true,
+    "diagnostic_D_feed_temperature": true,
+    "diagnostic_IDV": true,
+    "diagnostic_rng_draw_count": true,
+    "controller_input_values": true,
+    "fast_control_input_measurements": true,
+    "phase": true,
+    "ctrl11_accumulated_integral": true
+  },
+  "max_abs_diff": {
+    "native_values": 0.0,
+    "native_xmv12": 0.0,
+    "native_time_seconds": 0.0,
+    "record_time_seconds": 0.0,
+    "diagnostic_D_feed_temperature": 0.0,
+    "diagnostic_IDV": 0.0,
+    "diagnostic_rng_draw_count": 0.0,
+    "controller_input_values": 0.0,
+    "fast_control_input_measurements": 0.0,
+    "phase": 0.0,
+    "ctrl11_accumulated_integral": 0.0
+  },
+  "source_historical_seconds": 158.11186068100005,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "numpy": "2.3.5",
+  "rng_draws": 45713405,
+  "rng_trace": "9f319320f09051f6881c8ee3ad79cb43f7567059f4b61d3eb719a6858f6b6a9e",
+  "physical_digest": "ccbe12e48502ead286e1e6da18f726aa8b2b184d623decd77a799979a31674d2",
+  "full_digest_matches": {
+    "rng_draw_count": true,
+    "rng_consumption_trace_sha256": true,
+    "full_step_trace_sha256": true,
+    "physical_state_sha256": true
+  }
+}

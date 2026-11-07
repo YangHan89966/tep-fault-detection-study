@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "purpose": "Exact numerical reading copies and provenance mapping; these ten CSVs are not complete replay inputs or raw data.",
+  "sources": [
+    {
+      "id": "far",
+      "v4_tables": "S63",
+      "source_archive": {
+        "file_name": "TEP_P1_Detection_FAR_Curves_20261104.zip",
+        "size_bytes": 5207935,
+        "sha256": "96235d88ac440b4ea8c993c3d9b6720f31ada09a054e37782c21dc51a8e5e81b",
+        "included_in_v4_import": false
+      },
+      "exact_source_extracts": [
+        {
+          "path": "source_tables/far/Table_S65_proposed.csv",
+          "source_member": "TEP_P1_Detection_FAR_Curves_20261104/writing/Table_S65_proposed.csv",
+          "size_bytes": 5499,
+          "sha256": "1e9ca98974b8650d77738b04480a00c9552eba9d50aed4dbf282ca474012238f"
+        }
+      ]
+    },
+    {
+      "id": "f9_mechanism",
+      "v4_tables": "S66-S67",
+      "source_archive": {
+        "file_name": "TEP_P1_F9_Recording_Variance_20261103.zip",
+        "size_bytes": 12541017,
+        "sha256": "2c7cc5cc2b793fcc10458739426f9e1936d707bfa6f9f71cb098268ce5695240",
+        "included_in_v4_import": false
+      },
+      "exact_source_extracts": [
+        {
+          "path": "source_tables/f9_mechanism/ALL41_MEASUREMENT_DIFFERENCE_DECOMPOSITION.csv",
+          "source_member": "TEP_P1_F9_Recording_Variance_20261103/results/ALL41_MEASUREMENT_DIFFERENCE_DECOMPOSITION.csv",
+          "size_bytes": 10952,
+          "sha256": "89fd1849835112ad2f74b3cdc04bb5f9ca608ad31f2c01ed535cf4a63907e741"
+        },
+        {
+          "path": "source_tables/f9_mechanism/EXACT_ENDPOINT_BLOCKS.csv",
+          "source_member": "TEP_P1_F9_Recording_Variance_20261103/results/EXACT_ENDPOINT_BLOCKS.csv",
+          "size_bytes": 1276,
+          "sha256": "ab1f20e741c4c557bd8a97702ba75bb4b0b9fb3f50d3387a9ac1f86a5e9c3738"
+        },
+        {
+          "path": "source_tables/f9_mechanism/FLOWS_AND_LEVELS_DIFFERENCE_DECOMPOSITION.csv",
+          "source_member": "TEP_P1_F9_Recording_Variance_20261103/results/FLOWS_AND_LEVELS_DIFFERENCE_DECOMPOSITION.csv",
+          "size_bytes": 5285,
+          "sha256": "453f38ff568d85ccab0adae255edb75d554f5234328b68be0978b1b068eecee7"
+        },
+        {
+          "path": "source_tables/f9_mechanism/GROUP_SUBSTITUTION_AND_BRIDGE.csv",
+          "source_member": "TEP_P1_F9_Recording_Variance_20261103/results/GROUP_SUBSTITUTION_AND_BRIDGE.csv",
+          "size_bytes": 2732,
+          "sha256": "2176eb175f339cf1c0c9e659d41f9f9e61a5b1f6a3e1a760f4dcd5ee89c39916"
+        },
+        {
+          "path": "source_tables/f9_mechanism/SCORE_VARIANCES_AND_DECOMPOSITIONS.csv",
+          "source_member": "TEP_P1_F9_Recording_Variance_20261103/results/SCORE_VARIANCES_AND_DECOMPOSITIONS.csv",
+          "size_bytes": 8351,
+          "sha256": "032f9cbd9ed957b2e8f2ea1f5f04c539f8e25242c852e485c428ecd0581a8aad"
+        },
+        {
+          "path": "source_tables/f9_mechanism/SIGNAL_CHANGE_ALLOCATION.csv",
+          "source_member": "TEP_P1_F9_Recording_Variance_20261103/results/SIGNAL_CHANGE_ALLOCATION.csv",
+          "size_bytes": 709,
+          "sha256": "ffabe88de58806080022d2f7d3f8cbb5f134b975ed6ab4cc87af8a66c28e9ab0"
+        }
+      ]
+    },
+    {
+      "id": "sample_level",
+      "v4_tables": "S65",
+      "source_archive": {
+        "file_name": "TEP_追加证据与A2_A6_A7续算_20261009.zip",
+        "size_bytes": 31791193,
+        "sha256": "f342763cff7ef571c4971eb59aa0424454c14f4dbf6dbfb37c21437e5acadf01",
+        "included_in_v4_import": false
+      },
+      "exact_source_extracts": [
+        {
+          "path": "source_tables/sample_level/R5_SAMPLE_METRICS_COMPACT.csv",
+          "source_member": "TEP_More_Evidence_20261009/a5_extension/results/R5_SAMPLE_METRICS_COMPACT.csv",
+          "size_bytes": 5879,
+          "sha256": "ad1049710a8505a52881ec8cb7aed1749df977aafc62557d3f8b2c4dbd1d0afa"
+        }
+      ]
+    },
+    {
+      "id": "f15_exchange",
+      "v4_tables": "S68",
+      "source_archive": {
+        "file_name": "TEP_P1_F15_XMEAS17_Results_20261104.zip",
+        "size_bytes": 77765,
+        "sha256": "aadb4321438c5053892cd4a5520b7bbda0feea3c2a45255a2e365d95c36a58ef",
+        "included_in_v4_import": false
+      },
+      "exact_source_extracts": [
+        {
+          "path": "source_tables/f15_exchange/Table_S64_proposed_F15_XMEAS17.csv",
+          "source_member": "TEP_P1_F15_XMEAS17_Results/results/Table_S64_proposed_F15_XMEAS17.csv",
+          "size_bytes": 1068,
+          "sha256": "6348ae5d0ea46beea57326d7ad3d88dfade53b23392a0c1651aabee5d0b3c76b"
+        }
+      ]
+    },
+    {
+      "id": "a459",
+      "v4_tables": "D15",
+      "source_archive": {
+        "file_name": "TEP_Zenodo_04_A459_20261013_r1.zip",
+        "size_bytes": 73959718,
+        "sha256": "88aed7c5b7345d92cb1f10141bb0f24f2ecad913439ae46b07bf1fe86b4d727f",
+        "included_in_v4_import": false,
+        "historical_distribution": "Original identity already recorded in repository provenance; current curated archive has separately recorded container identities."
+      },
+      "exact_source_extracts": [
+        {
+          "path": "source_tables/a459/A5_FULL_FAULT_NORMAL_COMPARISON.csv",
+          "source_member": "TEP_A459_COMPLETED_20261009/summary/A5_FULL_FAULT_NORMAL_COMPARISON.csv",
+          "size_bytes": 7988,
+          "sha256": "b6b6dd31e8356135118df109e0a41a6be2e26bac1c2c63014e8054b925512200"
+        }
+      ]
+    }
+  ],
+  "manuscript_table_check": {
+    "S63_quantitative_values_matched": 210,
+    "S65_quantitative_cells_matched": 96,
+    "S66_quantitative_values_matched": 72,
+    "S67_quantitative_values_matched": 51,
+    "S68_counts_matched": 32,
+    "precision": "Printed-table precision where applicable; no new simulation.",
+    "D15_quantitative_values_matched": 96
+  },
+  "D15_status": "Original A459 saved-statistic source verified: all 96 quantitative values match at display precision. Current whole-archive replay was not rerun."
+}

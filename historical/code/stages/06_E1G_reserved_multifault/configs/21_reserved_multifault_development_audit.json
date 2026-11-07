@@ -1,0 +1,158 @@
+{
+  "script": "scripts/21_reserved_multifault_development_audit.py",
+  "script_sha256_at_execution": "3e4bc3df679fe5e829b831b6108123dab7d5eb77edb1ea82b2824c30fa97428d",
+  "preregistration": "configs\\21_reserved_multifault_preregistration.json",
+  "preregistration_registered_at_utc": "2026-08-19T08:00:47.433426+00:00",
+  "preregistration_verified": true,
+  "development_only": true,
+  "performance_evaluated": false,
+  "normal_evaluation_loaded": false,
+  "faulty_training_companion_loaded": false,
+  "testing_final_rows_subset_or_analyzed": false,
+  "raw_testing_container_materialized": true,
+  "raw_testing_container_caveat": "pyreadr materializes the complete TEP_Faulty_Testing.RData object, but Step 21 only subsets and analyzes runs 1--250",
+  "raw_testing_file": "data\\raw\\TEP_Faulty_Testing.RData",
+  "raw_testing_size_bytes": 836882037,
+  "raw_testing_object": "faulty_testing",
+  "raw_testing_object_names": [
+    "faulty_testing"
+  ],
+  "raw_testing_complete_shape": [
+    9600000,
+    55
+  ],
+  "reserved_faults": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "excluded_development_faults": {
+    "3": "original signed-residual method-development target",
+    "9": "multi-evidence family-development target",
+    "15": "multi-evidence family-development target"
+  },
+  "development_runs": [
+    1,
+    250
+  ],
+  "reserved_final_runs": [
+    251,
+    500
+  ],
+  "screening_samples": [
+    161,
+    320
+  ],
+  "candidate_families": [
+    {
+      "key": "signed_level",
+      "label": "Signed level",
+      "formula": "r(t)",
+      "priority": 1
+    },
+    {
+      "key": "absolute_deviation",
+      "label": "Absolute deviation",
+      "formula": "abs(r(t) - normal_center)",
+      "priority": 2
+    },
+    {
+      "key": "squared_deviation",
+      "label": "Squared deviation",
+      "formula": "(r(t) - normal_center)^2",
+      "priority": 3
+    },
+    {
+      "key": "absolute_increment",
+      "label": "Absolute increment",
+      "formula": "abs(r(t) - r(t-1))",
+      "priority": 4
+    },
+    {
+      "key": "lag1_product",
+      "label": "Lag-1 product",
+      "formula": "(r(t)-normal_center)*(r(t-1)-normal_center)",
+      "priority": 5
+    }
+  ],
+  "candidate_tests_per_fault": 260,
+  "bootstrap_replicates": 2000,
+  "permutation_replicates": 2000,
+  "primary_feature_gate": "two-sided 95% independent-run bootstrap CI excludes zero AND global BH q<=0.05 across all 260 candidates for that fault",
+  "strict_diagnostic": "studentized max-|t| permutation FWER p<=0.05",
+  "family_eligibility": "at least five primary-gate-stable residuals",
+  "family_choice_rule": "among eligible families maximize the median absolute Hedges g of the selected Top-5; break exact ties by the frozen family priority",
+  "top_k": 5,
+  "random_seed": 20260714,
+  "recommended_family_by_fault": {
+    "1": "signed_level",
+    "2": "signed_level",
+    "4": "absolute_deviation",
+    "5": "lag1_product",
+    "6": "absolute_deviation",
+    "7": "signed_level",
+    "8": "absolute_deviation",
+    "10": "absolute_deviation",
+    "11": "absolute_deviation",
+    "12": "absolute_deviation",
+    "13": "absolute_deviation",
+    "14": "absolute_deviation",
+    "16": "absolute_deviation",
+    "17": "signed_level",
+    "18": "signed_level",
+    "19": "absolute_deviation",
+    "20": "absolute_deviation"
+  },
+  "estimable_faults": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "abstained_faults": [],
+  "pca_n_components": 36,
+  "pca_cumulative_explained_variance": 0.9581997268001302,
+  "dependency_hashes": {
+    "18_faults9_15_prespecified_generalization.py": "d0f7b9b3318c93bfd4f64016d994f2f0aa2806f083df7487af44e62a04e65053",
+    "19_multievidence_development_audit.py": "0a19a1c0210669c201d7cbe42c5824aed2a38cb8a08405c68879cc415a30ee6b"
+  },
+  "output_tables": [
+    "results\\tables\\21_reserved_multifault_all_features.csv",
+    "results\\tables\\21_reserved_multifault_selected_features.csv",
+    "results\\tables\\21_reserved_multifault_family_summary.csv",
+    "results\\tables\\21_reserved_multifault_frozen_protocol.csv",
+    "results\\tables\\21_reserved_multifault_data_audit.csv"
+  ],
+  "output_figures": [
+    "results\\figures\\fig21a_reserved_multifault_development_audit.png",
+    "results\\figures\\fig21a_reserved_multifault_development_audit.pdf"
+  ],
+  "next_step_constraint": "Step 22 must verify this script/config and evaluate each frozen estimable branch on runs 251--500 without changing family, Top-5, orientations, K, CUSUM k, or the normal-validation control-limit rule"
+}

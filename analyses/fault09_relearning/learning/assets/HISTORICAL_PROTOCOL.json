@@ -1,0 +1,190 @@
+{
+  "study_id": "TEP_F9_SUPERVISED_RELEARNING_RANK_CONTINUATION_V1_1_20261007",
+  "written_utc": "2026-10-07T03:26:23.125037+00:00",
+  "authorization": "2026-10-07 user explicitly approved the proposed normal-only effective-subspace amendment: 按你的建议来.",
+  "new_roles": {},
+  "new_trajectory_count": 0,
+  "duration_hours": 48.0,
+  "records_per_run": 960,
+  "fault_onset_hours": 8.0,
+  "first_affected_record_1based": 161,
+  "record_interval_seconds": 180,
+  "views": [
+    "native",
+    "snapshot"
+  ],
+  "pca": {
+    "source": "assets/FROZEN_STANDARD_MODELS.npz",
+    "source_sha256": "37eb5b7de81f2ba6d822f434492929faaf0d3d7db13d39be1a1d4d31f88e90b7",
+    "training_n": 78,
+    "refit": false,
+    "native_retained": 36,
+    "snapshot_retained": 35,
+    "residual_dimensions": {
+      "native": 16,
+      "snapshot": 17
+    },
+    "coordinate_file": "assets/PCA_BY_VIEW.npz",
+    "coordinate_file_sha256": "851e753ef45fe397e246270fe6634e49c4a4c3980b81f89caf762b8e338eb015",
+    "basis": "Frozen complete orthogonal complement; only new coordinates of existing residual subspace, not PCA refitting."
+  },
+  "learning": {
+    "normal_design_rows": 40,
+    "whitening": "normal support by fixed original eigenfloor; original symmetric whitening on support; full-rank identity path unchanged",
+    "eigenfloor": "max(1e-10*trace(C)/r,1e-14)",
+    "B": "covariance(ddof1) across first120 normal sums /sqrt120",
+    "metrics": [
+      "I",
+      "0.5B+0.5bI",
+      "0.9B+0.1bI",
+      "B"
+    ],
+    "b": "trace(B)/r",
+    "ridge": "1e-4 trace(metric in retained orthonormal original residual coordinates)/retained_dim; denominator only, pullback rho W.T W",
+    "mean_pool": "R5 pre_marker_160 early/late mean merges, inherited order/canonicalization/dedup, at most8",
+    "moment_pool": "normal-centred F-N generalized largest/smallest extrema in inherited order, at most8",
+    "same_fault_fitting_ids_across_pools": true,
+    "expression": "Signed only, original normal-design variance normalized; no Absolute/Squared monitors",
+    "k": 0.05,
+    "chart": "two-sided recurrence max(0,Cplus+u-k), max(0,Cminus-u-k)",
+    "anchor": "32 run maxima, 90% quantile method linear",
+    "internal_threshold": "anchor * sort(inner_peaks/anchor)[56] on59",
+    "selection": "75 fault runs, minimum exact integer total loss in samples, prealarm or miss800; first inherited candidate index on ties"
+  },
+  "monitors": [
+    {
+      "id": "M1",
+      "view": "snapshot",
+      "pool": "moment"
+    },
+    {
+      "id": "M2",
+      "view": "native",
+      "pool": "moment"
+    },
+    {
+      "id": "M3",
+      "view": "snapshot",
+      "pool": "mean"
+    },
+    {
+      "id": "M4",
+      "view": "native",
+      "pool": "mean"
+    }
+  ],
+  "panels": {
+    "D439_supplement": {
+      "new_name": "D439_primary",
+      "role": "primary in this supplementary experiment only",
+      "normal_calibration": 199,
+      "rank_1based": 190,
+      "normal_evaluation": 120,
+      "fault9_evaluation": 120
+    },
+    "S25_primary": {
+      "new_name": "S25_secondary",
+      "role": "secondary in this supplementary experiment only",
+      "normal_calibration": 59,
+      "rank_1based": 57,
+      "normal_evaluation": 60,
+      "fault9_evaluation": 75
+    }
+  },
+  "identity_note": "Parent input manifest panel labels are preserved mechanically; 439 is PRIMARY for this new experiment. Original earlier S25/439 endpoint roles not retroactively changed.",
+  "locking": {
+    "PCA_and_protocol_before_development": true,
+    "all_new_effective_seeds_before_generation": true,
+    "selection_before_any_outer_calibration": true,
+    "all_four_models_and_both_panels_thresholds_before_any_evaluation_numeric_read": true,
+    "evaluation_file_paths_and_hashes_may_be_checked_preflight": true,
+    "existing_evaluation_previously_inspected": true,
+    "normal_support_before_fault_numeric_reads_in_continuation": true,
+    "original_v1_generated_data_kept_unchanged": true
+  },
+  "seed_policy": {
+    "new_seeds": false,
+    "reuse_exact_seed_lock_sha256": "9b608b588a8718d106cb05f2c9dca465094b286353d436e20d5492ec6b48db49",
+    "N9500": "original completed v1 seed-lock evidence reused; no need to reopen source N ledger or secrets; original seed values unchanged"
+  },
+  "primary": {
+    "panel": "D439_supplement",
+    "contrast": "M1-M2",
+    "endpoint": "clean_2400",
+    "difference_pp_at_least": 20.0,
+    "ci95_lower_strictly_positive": true,
+    "pass_wording": "达到预设的监督重学习记录差异判据",
+    "fail_wording": "未达到本次预设判据",
+    "risk_guard": "M1 and M2 normal alarms each <=12 of120; failure means descriptive detection contrast only, no acceptable-gain claim",
+    "M1_coverage_bins": [
+      60,
+      30
+    ],
+    "coverage_wording": [
+      "达到预设的50%长期清洁检出门槛",
+      "长期清洁检出介于25%与50%之间",
+      "长期清洁检出低于25%"
+    ]
+  },
+  "analysis": {
+    "bootstrap_draws": 20000,
+    "bootstrap_seed": 2026100631,
+    "unit": "whole paired run; normal and fault sampled separately; same indices across four monitors",
+    "CI": "pointwise percentile95 linear quantile, conditional on fitted state/realized calibration",
+    "rate_intervals": "Wilson95",
+    "early_horizons_minutes": [
+      120,
+      480
+    ],
+    "full_horizon_minutes": 2400,
+    "penalty_minutes": 2400,
+    "strict_greater": true,
+    "reset_at_fault": false,
+    "latched_alarm": false,
+    "OR_bank": false,
+    "comparisons": [
+      "M1-M2 recording/moment",
+      "M3-M4 recording/mean",
+      "M1-M3 C2 snapshot",
+      "M2-M4 C2 native",
+      "main M1-fixed historical snapshot (old per-run events reused)"
+    ]
+  },
+  "stopping": "No new simulations, no new cases, no noise injection, no new method or threshold search. Reuse all306. Preserve v1 and new failures. Stop at any unmet check.",
+  "limits": "One pair of learned downstream states, record-specific pre-fitted PCA, previously examined evaluation panels. Not full C2 reproduction, not historical-generator restoration, not necessary conditions for all successful monitors.",
+  "output": "8 main rows, selected directions/source labels and internal selection results, paired contrasts, empirical guard and coverage flags, Chinese report, locks and reaggregation; no manuscript/SI/figure/remote writes.",
+  "runtime": {
+    "simulation_enabled": false,
+    "workers": 0,
+    "BLAS_threads": 1,
+    "default": "all post-generation stages; stop requests honored between whole stages, same new directory resumes",
+    "source_roots": "old306/S25/439 readonly, all new output inside continuation directory"
+  },
+  "parent_protocol_sha256": "0ecc0b2ef2520435661f1d6c0aacd766982ee761188b0a52453205113c6d7d79",
+  "reused_development_trajectory_count": 306,
+  "reused_development_roles": {
+    "normal_design": 40,
+    "normal_anchor": 32,
+    "normal_inner": 59,
+    "fault9_fit": 100,
+    "fault9_selection": 75
+  },
+  "normal_support_amendment": {
+    "scope": "additional normal-design-only applicability step; original v1 failure preserved, not silent bug-fix or exact v1 replication",
+    "data": "same 40 original normal_design trajectories separately per view; no fault/anchor/inner/outer/evaluation use for rank",
+    "covariance": "np.cov(z.reshape(-1,r),rowvar=False,ddof=1), all960 records; original residual coordinates",
+    "threshold": "max(1e-10*trace(C)/r,1e-14)",
+    "keep": "eigenvalues >= threshold; np.linalg.eigh ascending; retained vectors sign-canonical by first largest absolute component",
+    "full_rank": "identity support, NO rotation, NO additional matmul, exact native v1 numerical path retained",
+    "reduced_rank": "orthonormal retained original residual-coordinate basis Ukeep; project z @ Ukeep, then use original symmetric-whitening/ridge functions with retained dimension",
+    "raw_coordinate_ridge": "same relative1e-4 trace normalization in retained orthonormal raw-residual coordinates; rho W.T W pullback; denominator only",
+    "guard": "rank>=2 and all original SPD/normal-variance/eigensolver checks retained; failures stop without fallback or parameter search",
+    "freeze_order": "both normal supports and C/G/B diagnostics locked before numeric read of fault9_fit/fault9_selection in continuation",
+    "no_claim": "zero-normal-variance directions may contain fault evidence; discarding them is explicit applicability revision, not certified harmless",
+    "observed_normal_ranks_in_previous_readonly_diagnostic": {
+      "native": 16,
+      "snapshot": 15
+    },
+    "rule_not_target_rank": "expected ranks are regression evidence, not chosen via performance or a hard-coded number to keep"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "unique_grid_rows_compared": 7314,
+  "max_abs_diff_percentage_points": {
+    "far_pct": 2.842170943040401e-14,
+    "clean8_pct": 2.842170943040401e-14,
+    "clean40_pct": 2.842170943040401e-14
+  },
+  "denominators_and_replicate_counts": "exact"
+}

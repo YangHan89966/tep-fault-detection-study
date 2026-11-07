@@ -1,0 +1,367 @@
+[
+  {
+    "relative_path": "NON_QUALIFICATION_EXPLORATORY_SCOPE.txt",
+    "size_bytes": 122,
+    "sha256": "644654ddc24086f51543afe3ec15c0b8fb220ac338da7e9bf7a3206b32cc5bfb"
+  },
+  {
+    "relative_path": "configs/faults9_15_frozen_multievidence_validation.json",
+    "size_bytes": 3239,
+    "sha256": "fd7b353010844d96617b2f79cf970553b09b5310477ccd0adf5366db2a48e185"
+  },
+  {
+    "relative_path": "configs/faults9_15_multievidence_development_audit.json",
+    "size_bytes": 3467,
+    "sha256": "91163d835c27515128aa2f9396049dcba958c25800f340f11af5a72167733e2d"
+  },
+  {
+    "relative_path": "configs/faults9_15_prespecified_generalization.json",
+    "size_bytes": 3290,
+    "sha256": "24e765c310de63eb799b2ae36997d70f89bcaf18de0e9050b4f2679af4228741"
+  },
+  {
+    "relative_path": "control/E1F_STEP19_ISOLATED_PROJECT_AUDIT.json",
+    "size_bytes": 9157,
+    "sha256": "a793ab6f5471f9a3899fb843668c0e5c6f4be38d3e928a48a7a140202009c537"
+  },
+  {
+    "relative_path": "control/E1F_WINDOWS_RESUME_WRAPPER_R4.py",
+    "size_bytes": 30333,
+    "sha256": "353aadb8dfc04428d1d4b7b33606773ec649d60fb1930d404b823ad5b42f4769"
+  },
+  {
+    "relative_path": "control/TEP_E1F_FAULTS9_15_MULTIEVIDENCE_RESUME_SUCCESSOR_NONQUAL_R4_20260818.py",
+    "size_bytes": 88659,
+    "sha256": "1e0fec3e0dc3a01bd1cb41e6a2ca6e93f83a9b5f0517e11e3ffbff13e72ec2d2"
+  },
+  {
+    "relative_path": "control/WINDOWS_DLL_CLOSURE_WRAPPER_R4.py",
+    "size_bytes": 40256,
+    "sha256": "86b29f485b18deeb1a8957c9431a8f67c88406e8434720590b32f09cdcb65221"
+  },
+  {
+    "relative_path": "control/mplconfig/fontlist-v390.json",
+    "size_bytes": 125537,
+    "sha256": "c2daac73bb98f58b53b2f056e671b348604a4bc050a06c371b4a0ff47e2d6b3d"
+  },
+  {
+    "relative_path": "control/predecessor/E1F_INPUT_LOCK.json",
+    "size_bytes": 4090,
+    "sha256": "2af80edf57aa6a41983fa14f6e79295db0f3cb1b404928bd38edee30a4ccf9a7"
+  },
+  {
+    "relative_path": "control/predecessor/E1F_R2_PREDECESSOR_BINDING.json",
+    "size_bytes": 1924,
+    "sha256": "96b8adf3a405b642e379a4bf00931206bba32020ae364bf7c458711469fe0eae"
+  },
+  {
+    "relative_path": "control/predecessor/E1F_R3_FAILURE.json",
+    "size_bytes": 1368,
+    "sha256": "56d7f1665d556dd17571a5336b8c0d25d0f703f16518b1cb8ad23a1e41ce94de"
+  },
+  {
+    "relative_path": "control/predecessor/E1F_WINDOWS_CACHE_MATERIALIZATION_AUDIT.json",
+    "size_bytes": 3497,
+    "sha256": "d2c61c95ad63905222f7b2d60f04cedbb041eecb4e8653c5ff83490a0372efba"
+  },
+  {
+    "relative_path": "control/predecessor/E1F_WINDOWS_FAULTS9_15_MULTIEVIDENCE_RESULT.json",
+    "size_bytes": 1120,
+    "sha256": "b3c1639736afe2f9cb4675043852aa9d396dd21c7a46b453850825cd409408ce"
+  },
+  {
+    "relative_path": "control/predecessor/E1F_WINDOWS_FAULTS9_15_STDERR.txt",
+    "size_bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "relative_path": "control/predecessor/E1F_WINDOWS_FAULTS9_15_STDOUT.txt",
+    "size_bytes": 4669,
+    "sha256": "ced67c5ea69fbb61c4d33f790cb508352bdabdda2c97beec70e8d450103739ea"
+  },
+  {
+    "relative_path": "control/predecessor/E1F_WSL_TESTING_EXTRACTION_STDERR.txt",
+    "size_bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "relative_path": "control/predecessor/E1F_WSL_TESTING_EXTRACTION_STDOUT.txt",
+    "size_bytes": 138,
+    "sha256": "3f810f331631bac58da1ccbf5d97084d3bdeadb841b00ef5e87492444c4bb759"
+  },
+  {
+    "relative_path": "control/predecessor/E1F_WSL_TRAINING_EXTRACTION_STDERR.txt",
+    "size_bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "relative_path": "control/predecessor/E1F_WSL_TRAINING_EXTRACTION_STDOUT.txt",
+    "size_bytes": 140,
+    "sha256": "35d7325b15b6dbeb1298ed2ad62e2097122ee0f60708cf28881893d4852441bd"
+  },
+  {
+    "relative_path": "control/predecessor/TEP_E1F_FAULTS9_15_MULTIEVIDENCE_EXACT_RUNNER_NONQUAL_R3_20260818.py",
+    "size_bytes": 381581,
+    "sha256": "6b250b3007f875b10379f17fbe9bab4d5ee499cdb84c72a71d2a425732824d6b"
+  },
+  {
+    "relative_path": "control/predecessor/testing_faults9_15_extraction_audit.json",
+    "size_bytes": 3301,
+    "sha256": "51b17d96c2e116d876e62066253160958482e9b30fb9c36c6f04d261fccb75f5"
+  },
+  {
+    "relative_path": "control/predecessor/training_faults9_15_extraction_audit.json",
+    "size_bytes": 2831,
+    "sha256": "1bcdeb56b69e69ea8c41e67a5a89e31d1bf55035539b31dbe2383646db7ceb53"
+  },
+  {
+    "relative_path": "control/stubs/pyreadr.py",
+    "size_bytes": 439,
+    "sha256": "9ae29d188287a90bcf426579b6b3de213febb2cd2c989752f3d7fc9d01bbb91f"
+  },
+  {
+    "relative_path": "control/upstream/E1E_FAULT3_COMPANION_FROZEN_VALIDATION_REPORT.json",
+    "size_bytes": 301984,
+    "sha256": "05e64af409827bc3091878c94954596d33c80c3362d4d3b18e997d74e436e7ed"
+  },
+  {
+    "relative_path": "data/INPUT_DATA_POINTERS.json",
+    "size_bytes": 3676,
+    "sha256": "2466b3a77c0286766cab56d7e3a8ddda07565a8f0c2bd03c59a2c9d2f474a00e"
+  },
+  {
+    "relative_path": "docs/E1F_R4_CONTROLLED_INTERPRETATION_BOUNDARY.md",
+    "size_bytes": 706,
+    "sha256": "c309de84c97541bbe52eaa953a824a88b3ce33b5bc32ddeb156858fd6a19e755"
+  },
+  {
+    "relative_path": "logs/E1F_R4_WINDOWS_RESUME_STDERR.txt",
+    "size_bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "relative_path": "logs/E1F_R4_WINDOWS_RESUME_STDOUT.txt",
+    "size_bytes": 12756,
+    "sha256": "00714416ac6d2a4bbf11759fd4b11ffbd6318951619a3906ffd7381a10bc689e"
+  },
+  {
+    "relative_path": "receipts/E1F_R3_PREDECESSOR_BINDING.json",
+    "size_bytes": 11326,
+    "sha256": "b0c9c220ef3263f1431eca62a7ba3eb76b54cb84cae0e7997c904fa8ae7bb4c9"
+  },
+  {
+    "relative_path": "receipts/E1F_R4_CONTROLLED_SUMMARY.json",
+    "size_bytes": 2055,
+    "sha256": "c9b0202627d609ab9abeac50a2252fcbf11ebe1fae31754d1977999a1398a1db"
+  },
+  {
+    "relative_path": "receipts/E1F_R4_INPUT_LOCK.json",
+    "size_bytes": 15850,
+    "sha256": "1cbf7efd11ff8a06994cacf9ca5e6e4dc864ecbaf4fd22b414699656fb570d30"
+  },
+  {
+    "relative_path": "receipts/E1F_R4_RESUME_REPORT.json",
+    "size_bytes": 503669,
+    "sha256": "849bc3d5cb26c01a2c743889204c0baf24d76f447ea5fcbb4fa659db7fe147dc"
+  },
+  {
+    "relative_path": "receipts/E1F_R4_RESUME_REPORT.json.sha256",
+    "size_bytes": 92,
+    "sha256": "e460b505b3e07ac946c5f1c8654bd40d638cd993fe078841ea5e459de1574603"
+  },
+  {
+    "relative_path": "receipts/E1F_R4_WINDOWS_RESUME_RESULT.json",
+    "size_bytes": 294931,
+    "sha256": "f0c4e3f7c22d8ed167a81247cac0a446f6531c0066b15e25ead078def5332c7f"
+  },
+  {
+    "relative_path": "results/figures/fig18a_faults9_15_applicability_diagnostic.pdf",
+    "size_bytes": 22707,
+    "sha256": "bb8e8469b05e98b521952d4968e9e0a81fe9dee10d7668976675bdb9f7786451"
+  },
+  {
+    "relative_path": "results/figures/fig18a_faults9_15_applicability_diagnostic.png",
+    "size_bytes": 302213,
+    "sha256": "d64bdb395661280c985ea29d3ce19a75ccc0638000ea62f498bf141560957251"
+  },
+  {
+    "relative_path": "results/figures/fig19a_multievidence_development_audit.pdf",
+    "size_bytes": 21731,
+    "sha256": "12f5845584db2e34a3d70d60a0ac6ece5639a16ad1f05c29c9af486844c15b9b"
+  },
+  {
+    "relative_path": "results/figures/fig19a_multievidence_development_audit.png",
+    "size_bytes": 272494,
+    "sha256": "e88777adc1142769493fa67b1b8015c6b2201717623c168195305a6e4fe65960"
+  },
+  {
+    "relative_path": "results/figures/fig20a_frozen_multievidence_validation.pdf",
+    "size_bytes": 17597,
+    "sha256": "360d9f3916993d0dd528d8ca7b3d773fb0421cd1240feef517d77a461bbc8ebf"
+  },
+  {
+    "relative_path": "results/figures/fig20a_frozen_multievidence_validation.png",
+    "size_bytes": 157603,
+    "sha256": "fde6a20d46619449f3a2eb6e9877ca99312f40c6ae851eb41779b322c51e525c"
+  },
+  {
+    "relative_path": "results/figures/fig20b_frozen_final_comparison.pdf",
+    "size_bytes": 19206,
+    "sha256": "9a4e6ed953b0537273413c41eb1f69547d2d1ca9a4019a2ea86627dcb9d8c72a"
+  },
+  {
+    "relative_path": "results/figures/fig20b_frozen_final_comparison.png",
+    "size_bytes": 182419,
+    "sha256": "d966460ceb7e7e6f645dec8d28514960d626aa9620465d45d28ecc2a21670a27"
+  },
+  {
+    "relative_path": "results/tables/02_variable_list.csv",
+    "size_bytes": 932,
+    "sha256": "7d64ddbab285831773cc6f49b1968e0b2bed3f5a856cea256d5e29ec52b58494"
+  },
+  {
+    "relative_path": "results/tables/18_faults9_15_all_method_results.csv",
+    "size_bytes": 20163,
+    "sha256": "5fa57072e6ebd11c413e0425d49c3597f7197775e7882a44075c689064994144"
+  },
+  {
+    "relative_path": "results/tables/18_faults9_15_companion_direction_transfer.csv",
+    "size_bytes": 5,
+    "sha256": "f01a374e9c81e3db89b3a42940c4d6a5447684986a1296e42bf13f196eed6295"
+  },
+  {
+    "relative_path": "results/tables/18_faults9_15_competitor_k_tuning.csv",
+    "size_bytes": 17791,
+    "sha256": "9398daf0378e441dfdab6d3da31c901824355ae0d9b0348beded39b3482c8b47"
+  },
+  {
+    "relative_path": "results/tables/18_faults9_15_data_audit.csv",
+    "size_bytes": 1032,
+    "sha256": "3326783315634a3d266cbe6a199b2966366db7672d68f3ba952ae56f4f83edfb"
+  },
+  {
+    "relative_path": "results/tables/18_faults9_15_global_transform_parameters.csv",
+    "size_bytes": 538,
+    "sha256": "0717ee9d27bed76036d1c93a577c903f812c4c364b3726e577296a3b82ad7e27"
+  },
+  {
+    "relative_path": "results/tables/18_faults9_15_lda_weights.csv",
+    "size_bytes": 14299,
+    "sha256": "424107e1a3f9f7db646cb3fc7ed4ef69be6c2434a4875fb8f02355e2c89a70c8"
+  },
+  {
+    "relative_path": "results/tables/18_faults9_15_run_results.csv",
+    "size_bytes": 1929707,
+    "sha256": "87e5d35be25bbb32414533bd5d01b1df3f202fc447e7fe8bc346f80f1d3963c4"
+  },
+  {
+    "relative_path": "results/tables/18_faults9_15_screening_all_variables.csv",
+    "size_bytes": 70494,
+    "sha256": "b0f7f92d9daab85a9573a9e2e030e24f7208253502d0ef1ef41f31605b708b64"
+  },
+  {
+    "relative_path": "results/tables/18_faults9_15_screening_transfer_summary.csv",
+    "size_bytes": 467,
+    "sha256": "97981d59575b98db9ed53c72a862f0b79b266b8982616080d314ca28f93c1642"
+  },
+  {
+    "relative_path": "results/tables/18_faults9_15_selected_variables.csv",
+    "size_bytes": 3831,
+    "sha256": "7a7bf62ae52eb0e45e17d9521f431270a465f8bb0e12be00da70f52a6fab5a0b"
+  },
+  {
+    "relative_path": "results/tables/19_multievidence_all_features.csv",
+    "size_bytes": 205827,
+    "sha256": "171a1a05b1c920598dfec87987b689d5b7df98100edbb2716d0cb9959877673c"
+  },
+  {
+    "relative_path": "results/tables/19_multievidence_crossfault_summary.csv",
+    "size_bytes": 455,
+    "sha256": "115a44fefa1aa749d803658c23e19415ad46eec30f34cc7cba9f2ed79e6f16a5"
+  },
+  {
+    "relative_path": "results/tables/19_multievidence_family_summary.csv",
+    "size_bytes": 1451,
+    "sha256": "b9c834044c061af648da505bb389d699459d71f1b2dd51be42bfe78ae328d7fa"
+  },
+  {
+    "relative_path": "results/tables/19_multievidence_selected_features.csv",
+    "size_bytes": 15365,
+    "sha256": "145afc67200ef98bfc09aac06474d9b0d08f086273755b5905519c5da5f534e6"
+  },
+  {
+    "relative_path": "results/tables/20_frozen_multievidence_comparison.csv",
+    "size_bytes": 4007,
+    "sha256": "eab39c7ddd8deab250f3a71476d69970730d105765a1c89b6082f209cbaa4d1e"
+  },
+  {
+    "relative_path": "results/tables/20_frozen_multievidence_data_audit.csv",
+    "size_bytes": 814,
+    "sha256": "c87fade7daa6d66314da6d26ec872cb56e79d431315bb376fa993fba9a782df4"
+  },
+  {
+    "relative_path": "results/tables/20_frozen_multievidence_method_definition.csv",
+    "size_bytes": 4891,
+    "sha256": "858dd3ade8056877a599f4d913f2c8a89fbffa4a3eecda3a64849d2023b0cd7d"
+  },
+  {
+    "relative_path": "results/tables/20_frozen_multievidence_normal_run_results.csv",
+    "size_bytes": 63290,
+    "sha256": "759140a3019b91c900d1e2e44b1916ad36e711ff1e5a2dbd036c8df6aafb6a7e"
+  },
+  {
+    "relative_path": "results/tables/20_frozen_multievidence_results.csv",
+    "size_bytes": 5025,
+    "sha256": "77e040000f579f184968bf0dd20cf444fa7d3438d085866ee23c172c0720e2bd"
+  },
+  {
+    "relative_path": "results/tables/20_frozen_multievidence_run_results.csv",
+    "size_bytes": 403989,
+    "sha256": "f4d8ddbc19eb1365945ff7be777d0ed5a13d7aecb43c96ce343719027b5f5e86"
+  },
+  {
+    "relative_path": "results/tables/20_frozen_multievidence_scalers.csv",
+    "size_bytes": 2949,
+    "sha256": "fc87dd9840b74065d6bdf0a72dd851b8d68846182e8ea62a88827de54652803d"
+  },
+  {
+    "relative_path": "results/tables/20_frozen_multievidence_validation_run_max.csv",
+    "size_bytes": 32640,
+    "sha256": "d3f14cfb0ac504c9e1765047aec63c23354da376317b8e0e77738ebb8a21f319"
+  },
+  {
+    "relative_path": "results/tables/20_step19_reconstruction_parity.csv",
+    "size_bytes": 1826,
+    "sha256": "efaec34a92d814bc01a27fe991e817fef026b30b8eac5f1d8c9f8eaadac254e6"
+  },
+  {
+    "relative_path": "scripts/11_unpaired_runlevel_screening.py",
+    "size_bytes": 31472,
+    "sha256": "261f64589d6dfc2bb0098e8913358a5b5c9785fea84b67556b972d51cd3b0b86"
+  },
+  {
+    "relative_path": "scripts/15_fair_sequential_baselines.py",
+    "size_bytes": 37052,
+    "sha256": "27e255613365cc025d497532aea0ef487831704b7baf6ab27c1d2d18cf642042"
+  },
+  {
+    "relative_path": "scripts/18_faults9_15_prespecified_generalization.py",
+    "size_bytes": 50494,
+    "sha256": "d0f7b9b3318c93bfd4f64016d994f2f0aa2806f083df7487af44e62a04e65053"
+  },
+  {
+    "relative_path": "scripts/18b_plot_faults9_15_applicability_diagnostic.py",
+    "size_bytes": 8361,
+    "sha256": "2eef053876f888411902e99140fc96b14528c63a40f0ad65a88b6d83679ab1fe"
+  },
+  {
+    "relative_path": "scripts/19_multievidence_development_audit.py",
+    "size_bytes": 36265,
+    "sha256": "0a19a1c0210669c201d7cbe42c5824aed2a38cb8a08405c68879cc415a30ee6b"
+  },
+  {
+    "relative_path": "scripts/20_frozen_multievidence_validation.py",
+    "size_bytes": 41674,
+    "sha256": "499f1a51d11fbe563b833722da67d002c464fb4acf6e4056ca064b42b9f79825"
+  }
+]

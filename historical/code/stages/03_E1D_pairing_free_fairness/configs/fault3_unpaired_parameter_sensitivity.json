@@ -1,0 +1,97 @@
+{
+  "script": "scripts/13_unpaired_parameter_sensitivity.py",
+  "analysis_role": "Robustness analysis only; no final-test-driven retuning",
+  "primary_screening_window": "early_160_primary",
+  "selection_source": "results/tables/11_unpaired_screening_all_variables.csv",
+  "ranking_rule": "95% run-bootstrap CI excludes zero, then descending absolute Hedges' g with the unchanged Step 11 tie-breaks",
+  "primary_top_k_frozen": 5,
+  "primary_cusum_k_frozen": 0.05,
+  "top_k_grid_prespecified": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    10,
+    15,
+    20,
+    30,
+    40
+  ],
+  "cusum_k_grid_prespecified": [
+    0.01,
+    0.03,
+    0.05,
+    0.07,
+    0.1
+  ],
+  "control_limit_rule": "95th percentile of normal-validation run maxima, recalibrated for every setting",
+  "n_bootstrap_stable_candidates": 40,
+  "frozen_selected_variables": [
+    "xmeas_2",
+    "xmeas_21",
+    "xmv_1",
+    "xmv_8",
+    "xmeas_15"
+  ],
+  "frozen_selected_signs": [
+    -1,
+    -1,
+    -1,
+    1,
+    1
+  ],
+  "pca_n_components": 36,
+  "pca_cumulative_explained_variance": 0.9581997268001302,
+  "parity_checks": [
+    {
+      "comparison": "Top-K primary row versus CUSUM-k primary row",
+      "exact_with_tolerance_1e-12": true,
+      "differences": {
+        "normal_run_level_far": 0.0,
+        "fault3_run_level_detection_rate": 0.0,
+        "fault3_post_fault_point_detection_rate": 0.0,
+        "median_alarm_delay_min": 0.0
+      }
+    },
+    {
+      "comparison": "Step 13 primary versus Step 11 primary",
+      "exact_with_tolerance_1e-12": true,
+      "differences": {
+        "normal_run_level_far": 0.0,
+        "fault3_run_level_detection_rate": 0.0,
+        "fault3_post_fault_point_detection_rate": 0.0,
+        "median_alarm_delay_min": 0.0
+      }
+    },
+    {
+      "comparison": "Step 13 primary versus Step 12 full method",
+      "exact_with_tolerance_1e-12": true,
+      "differences": {
+        "normal_run_level_far": 0.0,
+        "fault3_run_level_detection_rate": 0.0,
+        "fault3_post_fault_point_detection_rate": 0.0,
+        "median_alarm_delay_min": 0.0
+      }
+    }
+  ],
+  "output_tables": [
+    "results\\tables\\13_unpaired_topk_sensitivity.csv",
+    "results\\tables\\13_unpaired_topk_selected_variables.csv",
+    "results\\tables\\13_unpaired_cusum_k_sensitivity.csv",
+    "results\\tables\\13_unpaired_sensitivity_normal_run_results.csv",
+    "results\\tables\\13_unpaired_sensitivity_fault3_run_results.csv"
+  ],
+  "output_figures": [
+    "results\\figures\\fig13a_unpaired_topk_sensitivity.png",
+    "results\\figures\\fig13a_unpaired_topk_sensitivity.pdf",
+    "results\\figures\\fig13b_unpaired_topk_delay.png",
+    "results\\figures\\fig13b_unpaired_topk_delay.pdf",
+    "results\\figures\\fig13c_unpaired_cusum_k_sensitivity.png",
+    "results\\figures\\fig13c_unpaired_cusum_k_sensitivity.pdf",
+    "results\\figures\\fig13d_unpaired_cusum_k_delay.png",
+    "results\\figures\\fig13d_unpaired_cusum_k_delay.pdf"
+  ]
+}

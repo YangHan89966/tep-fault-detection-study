@@ -1,0 +1,9 @@
+Variables,Recording,Model,Retained components,Explained training variance (%)
+All 52,Post-update,PCA,36,95.03
+All 52,Post-update,DPCA,88,95.07
+All 52,Controller-input,PCA,35,95.04
+All 52,Controller-input,DPCA,82,95.05
+Without six loop variables,Post-update,PCA,32,95.09
+Without six loop variables,Post-update,DPCA,76,95.12
+Without six loop variables,Controller-input,PCA,33,95.46
+Without six loop variables,Controller-input,DPCA,76,95.25

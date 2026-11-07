@@ -1,0 +1,9 @@
+Monitor,Base recording,XMEAS17 from,Clean ≤40 h,Clean ≤8 h,Pre-fault alarms,Normal alarms
+"Covariance chart (MEWMC, λ = 0.01)",Controller-input,Controller-input,91,23,2,12
+,Controller-input,Post-update,0,0,120,120
+,Post-update,Post-update,11,2,1,7
+,Post-update,Controller-input,0,0,120,120
+"Full-pool monitor (second-moment directions, squared score)",Controller-input,Controller-input,120,41,0,6
+,Controller-input,Post-update,0,0,120,120
+,Post-update,Post-update,103,3,0,9
+,Post-update,Controller-input,105,3,0,9

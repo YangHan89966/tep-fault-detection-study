@@ -1,0 +1,26 @@
+Replicate,Monitor,40 h clean n,≤8 h clean n,≤2 h clean n,Normal alarm n,Mean loss (min),Pre-fault alarm n
+1,FDA-CUSUM (Signed),247,16,0,13,"1,027.64",0
+2,FDA-CUSUM (Signed),249,18,0,15,"1,004.22",0
+3,FDA-CUSUM (Signed),244,12,0,12,"1,147.94",0
+4,FDA-CUSUM (Signed),250,12,0,9,983.35,0
+5,FDA-CUSUM (Signed),229,2,0,13,"1,404.71",0
+1,Identity-metric restriction,246,15,0,13,"1,031.59",0
+2,Identity-metric restriction,247,18,0,15,"1,016.84",0
+3,Identity-metric restriction,244,12,0,11,"1,139.58",0
+4,Identity-metric restriction,250,12,0,9,992.83,0
+5,Identity-metric restriction,229,2,0,13,"1,403.80",0
+1,0.5B + 0.5λ̄BI restriction,250,94,0,17,566.36,0
+2,0.5B + 0.5λ̄BI restriction,250,85,0,17,592.32,0
+3,0.5B + 0.5λ̄BI restriction,250,85,0,13,576.95,0
+4,0.5B + 0.5λ̄BI restriction,250,68,0,20,618.07,0
+5,0.5B + 0.5λ̄BI restriction,250,61,0,9,650.05,0
+1,0.9B + 0.1λ̄BI restriction,250,90,1,17,580.15,0
+2,0.9B + 0.1λ̄BI restriction,250,68,0,13,625.16,0
+3,0.9B + 0.1λ̄BI restriction,250,43,0,7,723.94,0
+4,0.9B + 0.1λ̄BI restriction,250,47,0,11,719.27,0
+5,0.9B + 0.1λ̄BI restriction,250,80,0,12,601.76,0
+1,B restriction,249,31,1,22,892.25,0
+2,B restriction,250,37,0,12,778.27,0
+3,B restriction,249,20,0,13,886.39,0
+4,B restriction,250,20,0,6,889.10,0
+5,B restriction,250,64,0,14,656.99,0

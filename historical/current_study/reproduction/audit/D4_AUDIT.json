@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETED_CONTROLLED_MODEL_NOT_TEP_CONFIRMATION",
+  "scenarios": 17,
+  "method_rows": 51,
+  "normal_models": 9,
+  "n_calibration": 1999,
+  "n_evaluation": 4000,
+  "scalar_cumulative_values_verified": 100800,
+  "exact_sign_reversal_pairs": 8,
+  "all_prespecified_scenarios_reported": true,
+  "original_TEP_model_fitting": false,
+  "noise_realizations_shared_across_scenarios_with_same_normal_phi": true,
+  "known_normal_scales": true,
+  "reported_CP_intervals": "conditional on one realized calibration threshold and model; not full calibration/learning uncertainty",
+  "wall_seconds": 16.820185165999987
+}

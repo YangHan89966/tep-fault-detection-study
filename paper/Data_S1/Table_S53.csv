@@ -1,0 +1,9 @@
+Recording,Estimate of B,Pool (Signed),Normal alarms (of 120),Pre-fault alarms (of 120),Clean ≤2 h,Clean ≤8 h,Clean 40 h,Mean loss (min)
+Post-update,Original,Second-moment,7,0,0,4,38,"2,056.3"
+Post-update,Original,Mean-shift,11,0,0,0,16,"2,295.1"
+Post-update,Batch means,Second-moment,3,0,1,3,46,"2,023.4"
+Post-update,Batch means,Mean-shift,7,0,0,0,16,"2,295.2"
+Controller-input,Original,Second-moment,7,1,10,85,119,401.1
+Controller-input,Original,Mean-shift,10,2,2,44,112,888.0
+Controller-input,Batch means,Second-moment,2,0,6,81,118,436.2
+Controller-input,Batch means,Mean-shift,6,2,0,29,95,"1,268.5"

@@ -1,0 +1,29 @@
+{
+  "filename": "tep-dv-raw-1915-v1.0.zip",
+  "sha256_from_author_supplied_sidecar": "59312d0c47b418670995661c27389a75bca18a081e5e8d527470ea8ad0709c09",
+  "reported_size_bytes": 595208581,
+  "size_source": "Completed local export UPDATE_RETURN.json supplied by author; not measured from raw ZIP in this build",
+  "reported_run_count": 1915,
+  "reported_development_calibration_runs": 915,
+  "reported_test_runs": 1000,
+  "local_existence_evidence": "Completed local export report plus author-confirmed existing archive and matching supplied SHA-256 sidecar",
+  "sidecar_read_and_matched_to_prior_screenshot": true,
+  "sidecar_file_sha256": "27e4f239c9b12226bfa7e7b34abf4762bc6c8a2aeae2917faa8db7fc8aca7a4c",
+  "raw_zip_bytes_received_in_this_session": false,
+  "raw_zip_sha256_recomputed_here": false,
+  "raw_zip_content_checked_here": false,
+  "included_in_code_or_upload_kit": false,
+  "distribution": "Add the existing local ZIP as an independent Zenodo file alongside the prepared code snapshot; checksum supplied in the upload kit",
+  "repeat_export_required": false,
+  "new_simulation_required": false,
+  "online_deposit_or_reviewer_access_verified": false,
+  "note": "The matching sidecar was read again for v1.7.4. The original raw ZIP stays on the author computer and must be uploaded as a separate file; the code snapshot is not the full raw dataset.",
+  "export_record_return_zip_sha256": "1a47b1d2bdc80ef830625edd446ede0d2caa15a04a04fd9411094b561bdbbd2f",
+  "v182_status_update": {
+    "source": "user report for this source archive",
+    "existing_draft_file_saved": true,
+    "size_bytes": 595208581,
+    "action": "KEEP_EXISTING_FILE_NO_REEXPORT_NO_REUPLOAD",
+    "bytes_or_online_state_verified_here": false
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "estimator": "original",
+  "time_utc": "2026-10-30T06:08:30.792027+00:00",
+  "files": {
+    "native/DESIGN.npz": "2dbcde171fb854219ebaa298ca1c7ae3c40c3ddd5f9c292c05d453cded18c6e9",
+    "native/FIT_INFO.json": "99a615134dfdf3fba4bc62b7f031860440562be20f7e13633063ee92768d4634",
+    "native/FIT_MOMENTS.npz": "d28eac2b1f986c0150ce2470f1164f7414e284b1646fc52db377a393f917b052",
+    "native/FIT_WINDOWS.csv": "42182a4a3df3ae9856fc89a9ba700c17fe397cd818267c93b33bccdce1105e8b",
+    "native/INNER.npz": "a64bf0211c584d552e54727933a72aab9f0b0bf5ff3746303d5c2cd0420f5224",
+    "native/MODEL.npz": "5445b0268963cd667c00592b1706752d709c18b1a96c74a85582e5b3050d00c7",
+    "native/NORMAL_SUPPORT.npz": "d66bd4eb39ee2080f55449de4d479e540d3facc0375a13575f4a0ac91ed0570c",
+    "native/SELECTION.json": "22c8c5a9178a5350dfcbd0d5da611e6ea3d01a34584788d95743b050fc544b70",
+    "native/SELECTION_SCORES.csv": "c8bc8c03587865530bcbda300fd678e4bd872ae8d466d44f965485579c5e5236",
+    "snapshot/DESIGN.npz": "f95a1f778e8fe1767ab8638ecf1faa70d44c52751c10423dd6dd6ec4ac6e8c84",
+    "snapshot/FIT_INFO.json": "1bbdbeb83cf130dddfd920b5deb9fe6e3128dd6c5230614d9aac9244fba92e2e",
+    "snapshot/FIT_MOMENTS.npz": "7e552aefac9bc8f0564d073c4ffb822ed6e9769aa941e75fe07aea79f8e2b70c",
+    "snapshot/FIT_WINDOWS.csv": "42182a4a3df3ae9856fc89a9ba700c17fe397cd818267c93b33bccdce1105e8b",
+    "snapshot/INNER.npz": "41e398f664448b940d289a0b8c98aae56cd9c708ef6114d1f4ac9c754c8a0e81",
+    "snapshot/MODEL.npz": "21b36b9dce89d71d214d7f4d9f0011c122aabc0ad14eb9d06bbfa0c417d15beb",
+    "snapshot/NORMAL_SUPPORT.npz": "de805f3626a848ea7270ec40b27e52a086271b15044cce3c37b4d7cf6c34419e",
+    "snapshot/SELECTION.json": "c0d8f0b93abd5991be9fbad462c82f1aab2818e3c0b4eea41fce5116bfb2bf8a",
+    "snapshot/SELECTION_SCORES.csv": "aec0ff9992ad5facffdc089eae88d564af57506641338c245bfc64fb80c1b91a"
+  },
+  "pca_sha256": "851e753ef45fe397e246270fe6634e49c4a4c3980b81f89caf762b8e338eb015",
+  "protocol_sha256": "2a58efbdf5054d7b18e4613c4ac12101151cad1d6271af68e42eb49d2cca04e6",
+  "already_analyzed_panel": true,
+  "evaluation_used_for_fitting": false
+}

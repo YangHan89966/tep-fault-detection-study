@@ -1,0 +1,4 @@
+Contrast (A − B),Expected sign,Δloss (min),95% marginal interval,98.3333% adjusted interval
+C1 / F3: same-direction Squared − Signed,Positive,+1783.12,"[1738.16, 1825.51]","[1727.41, 1834.50]"
+"C2 / F9: moment − mean, Signed",Negative,+12.24,"[−18.50, 42.94]","[−26.02, 49.34]"
+"C3 / F15: moment − mean, Squared",Negative,−948.34,"[−1029.77, −865.88]","[−1048.10, −846.42]"

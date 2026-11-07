@@ -1,0 +1,13 @@
+{
+  "source": "A3 vs independent A459 R5 sufficient paths, taking old_thresholds and all original evaluation runs; no A4/A5 exclusions. Matched by replicate, fault and method; original 250 ascending run order.",
+  "A459_inner_zip_sha256": "a03f61803f2f4aaa4b4817d35b6c5a90f19b40341a0cf301516bd88c1e1fbdfa",
+  "recomputed_scalars_compared": 8015200,
+  "max_absolute_A3_minus_A459": {
+    "fault_cusum_pre_max": 0.0,
+    "normal_cusum_pre_max": 0.0,
+    "fault_cusum_post_running_max": 0.0,
+    "normal_cusum_post_running_max": 0.0,
+    "outer_cusum_max": 0.0,
+    "original_thresholds": 0.0
+  }
+}

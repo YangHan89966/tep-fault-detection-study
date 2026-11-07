@@ -1,0 +1,20 @@
+{
+  "all_models_lock_sha256": "c2d16bdb075c269a5ac268121208faa4e6f02707a5be20e8f382b4f596af966f",
+  "created_utc": "2026-09-15T02:41:24.372926+00:00",
+  "environment": {
+    "executable": "external-input/adfd34101980/python3.12",
+    "numerical_threads": 1,
+    "numpy": "2.2.6",
+    "numpy_file": "external-input/805cdf55b9f6/__init__.py",
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]"
+  },
+  "payload_manifest_sha256": "b1e4480f264a3e4a60ce5b26d8df9bc87a47aa7d6b9148658a9d566bb948cd38",
+  "root": "external-input/549bf96f2214/TEP_V18_RELEARNING_R5_v1_0",
+  "scope": "Fixed shared test generation after all-five model lock; no score evaluation or training",
+  "seed_manifest_sha256": "6d0c75f8e8f21d77d83be495a8788886de37ea95615a2824a2946ce52cd15b41",
+  "shared_test_total": 1000,
+  "stage_b_return_sha256": "30c3748e9281404055c2c8d2a1ba6820eb906a090bcfe84fe6e3bd57a03af7fa",
+  "study_id": "TEP_V18_RELEARNING_R5_v1.0",
+  "test_data_relative": "data/shared_test",
+  "tool_id": "TEP_V18_STAGE_C_SHARED_TEST_GENERATION_v1.0"
+}

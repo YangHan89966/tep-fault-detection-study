@@ -1,0 +1,11 @@
+panel,contrast,fault,replicate,arm,source_method,original_h,outer_n,outer_rank,clean40_n,clean8_n,prefault_n,mean_penalized_loss_min,normal48_alarm_n
+Validation 2,C2,9,1,favoured,moment_pool_signed,39.94180011640546,259,247,25,4,0,2287.056,10
+Validation 2,C2,9,1,comparator,mean_pool_signed,45.55169558356973,259,247,27,2,0,2305.8,24
+Validation 2,C2,9,2,favoured,moment_pool_signed,64.33956590195605,259,247,6,0,0,2372.676,9
+Validation 2,C2,9,2,comparator,mean_pool_signed,64.95858417665166,259,247,11,0,0,2349.312,11
+Validation 2,C2,9,3,favoured,moment_pool_signed,67.24016250663085,259,247,11,0,0,2357.328,20
+Validation 2,C2,9,3,comparator,mean_pool_signed,60.83677017024282,259,247,22,0,0,2336.664,12
+Validation 2,C2,9,4,favoured,moment_pool_signed,66.67935190761052,259,247,26,0,0,2307.564,8
+Validation 2,C2,9,4,comparator,mean_pool_signed,140.36639849992991,259,247,15,1,0,2360.64,24
+Validation 2,C2,9,5,favoured,moment_pool_signed,56.262824940642474,259,247,41,3,0,2255.712,16
+Validation 2,C2,9,5,comparator,mean_pool_signed,56.14693262433205,259,247,20,2,0,2325.78,15

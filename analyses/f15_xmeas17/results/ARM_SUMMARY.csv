@@ -1,0 +1,9 @@
+﻿method,arm,n_fault,n_normal,clean40,clean8,clean2,fault_prefault,normal_any,normal_clean_floor,mean_loss_min
+MEWMC,post,120,120,11,2,0,1,7,6,2276.45
+MEWMC,ci,120,120,91,23,2,2,12,10,1347.325
+MEWMC,ci_with_post17,120,120,0,0,0,120,120,0,2400.0
+MEWMC,post_with_ci17,120,120,0,0,0,120,120,0,2400.0
+full_pool,post,120,120,103,3,0,0,9,9,1450.075
+full_pool,ci,120,120,120,41,0,0,6,6,631.475
+full_pool,ci_with_post17,120,120,0,0,0,120,120,0,2400.0
+full_pool,post_with_ci17,120,120,105,3,0,0,9,9,1387.65

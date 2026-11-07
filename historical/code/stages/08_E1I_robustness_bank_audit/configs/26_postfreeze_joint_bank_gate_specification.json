@@ -1,0 +1,130 @@
+{
+  "registration_name": "Step 26 post-freeze joint detector-bank gate",
+  "registration_status": "post-freeze exploratory deployment study; Step-22 and Step-25 results were known before registration",
+  "script": "scripts/26_postfreeze_joint_bank_gate.py",
+  "script_sha256": "94e64ce23a08f458359c9071de69b5d381ab9654ea1bcc7aaac1c2bcb74610fd",
+  "input_sha256": {
+    "step11_script": "261f64589d6dfc2bb0098e8913358a5b5c9785fea84b67556b972d51cd3b0b86",
+    "step18_script": "d0f7b9b3318c93bfd4f64016d994f2f0aa2806f083df7487af44e62a04e65053",
+    "step20_script": "499f1a51d11fbe563b833722da67d002c464fb4acf6e4056ca064b42b9f79825",
+    "step24_script": "afd2dfd6873291ecb8d4426d9bee8179fe51c91ed1678ebf966d5c357202cb82",
+    "step25_script": "6df04b8c501617020a71bada8cfd64478cc74cee53e7d63063fcf10e6ac10366",
+    "step22_results": "dba76d9fa2d52785f60307ed83ddd0161e92510ce97059c9932a6b5e0817715f",
+    "step22_parameters": "b2b763f3d36df032eded4df978debe9fb8c6cdd8924b17bcd5022a5969afcf59",
+    "step22_scalers": "b046d4720acb8fff64f67bce897c776eda7e4b712914de39a3321df1fe37e694",
+    "step22_config": "02301f6292c471db81fb38d66b85f0ec54873fc5d05953876bdf815fbd56e914",
+    "step25_parity": "ec03d5cd5bf096eeb0452cb1ba84ce8ff803354be27c1e42468abcb32cf25a88",
+    "step25_normal_monitor": "e762735ca27c08ee243a884561b53870dc815746e49ce6c3f6fb93d4fba43a87",
+    "step25_crossfault": "283eec214a0bb4bf2c802a39191f0b8f8cd4469856d529d05e2de1bca405b286",
+    "step25_bank_fault": "10eabd83787d5ce6ca861ad6179b263b580ba97ea60c99b860f199d6db31aef9",
+    "step25_summary": "099beab69699a5e291de5977f4b34035f70dead6f6c0d2c50beaae54f732b9f8",
+    "step25_config": "af96fe0d4c6366ecccd6fe88d3c6f5ee153e3019458ba851eeb6ce8ca5607806",
+    "variable_list": "7d64ddbab285831773cc6f49b1968e0b2bed3f5a856cea256d5e29ec52b58494",
+    "normal_train": "880d4ed850578c23d6f7db0fc65ff95477d70c0669e8f0e984a1be345c2e185d",
+    "normal_validation": "112c344ec6394ca48ce70e35acd1e2b55efdce9c792f933a8c9b81541e0125c2",
+    "normal_evaluation": "d33390993bb2028dfd4407e7db4a9bbe684feb51cf1e513e5f44fa060442ec40",
+    "faulty_testing_rdata": "c2f1aabc77498efda4d5f9ad81ecc829e2fcd98752b84cf5b2a06558cabacc36"
+  },
+  "registration_reads": "byte hashes only; no process dataframe is parsed",
+  "process_data_loaded_during_registration": false,
+  "frozen_population": {
+    "monitor_faults": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "actual_faults": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "normal_validation_runs": [
+      1,
+      250
+    ],
+    "normal_evaluation_runs": [
+      251,
+      500
+    ],
+    "final_fault_runs": [
+      251,
+      500
+    ],
+    "samples_per_run": 960,
+    "fault_start_sample": 161,
+    "sampling_interval_min": 3
+  },
+  "unchanged_local_monitors": {
+    "method_key": "frozen_multievidence_top5_cusum",
+    "monitor_count": 17,
+    "evidence_family_change_allowed": false,
+    "variable_change_allowed": false,
+    "orientation_change_allowed": false,
+    "scaler_refitting_allowed": false,
+    "cusum_k_change_allowed": false,
+    "local_control_limit_change_allowed": false
+  },
+  "single_registered_system_gate": {
+    "sample_score": "max_j frozen_CUSUM_j / frozen_local_limit_j",
+    "run_calibration_score": "maximum sample score within each run",
+    "calibration_data": "normal-validation runs 1--250 only",
+    "quantile": 0.95,
+    "quantile_method": "higher",
+    "alarm_inequality": "strictly greater than the calibrated threshold",
+    "normal_evaluation_used_for_calibration": false,
+    "fault_development_used_for_calibration": false,
+    "fault_final_used_for_calibration": false,
+    "alternative_gate_selection_after_final_allowed": false
+  },
+  "registered_endpoints": {
+    "primary": [
+      "normal-evaluation joint-gate run-level false-alarm rate",
+      "final joint-gate run-level detection by fault",
+      "all-run penalized mean alarm delay by fault"
+    ],
+    "secondary": [
+      "normal-evaluation point-level false-alarm rate",
+      "post-fault point detection",
+      "target monitor top-1 and top-3 rank at first joint-gate alarm"
+    ],
+    "miss_penalty_min": 2400
+  },
+  "reporting_guardrails": [
+    "Call Step 26 an exploratory post-freeze deployment layer, not a prospective confirmation.",
+    "Do not describe the joint gate as an unchanged Step-22 primary method.",
+    "Do not alter the registered gate after viewing normal-evaluation or final-fault results.",
+    "Report the normal-evaluation FAR even if the 5% validation target does not transfer.",
+    "Report every reserved fault, including misses and long delays.",
+    "Monitor rank at gate time is descriptive attribution, not validated multiclass diagnosis.",
+    "Retain Step-25 OR-bank results as the uncalibrated deployment comparator."
+  ],
+  "registered_at_utc": "2026-08-20T03:14:02.221179+00:00"
+}

@@ -1,0 +1,147 @@
+{
+  "study_id": "TEP_P1_INDEPENDENT_STREAM_CONFIRMATION_20261023_V1",
+  "version": "1.0",
+  "created_utc": "2026-10-23T00:50:08.490722+00:00",
+  "predecessor": "This fixed panel supersedes an unexecuted 2026-10-22 implementation draft. No observations from that draft exist or are pooled.",
+  "evidence_stage": "Prospective targeted follow-up conditional on existing fixed representations. Not externally preregistered. Original C2/2h failure remains.",
+  "scope": "Targeted confirmation of existing fixed representations for Faults 3, 9 and 15. No model retraining or direction reselection.",
+  "panel": {
+    "normal_calibration": 199,
+    "normal_evaluation": 400,
+    "fault3_evaluation": 200,
+    "fault9_evaluation": 200,
+    "fault15_evaluation": 200,
+    "physical_total": 1199,
+    "paired_views_count_as_one": true,
+    "planning": "Target large core contrasts, not the6.6pp F15 variance-ratio advantage. Counts fixed before generation; no result-driven extension."
+  },
+  "runtime": {
+    "python": "CPython3.12",
+    "numpy": "2.3.5",
+    "scipy_analysis": "1.17.0",
+    "blas_threads": 1,
+    "workers_default": 8,
+    "host": "Recorded per trajectory; exact cross-platform floating equality is not presumed"
+  },
+  "source": {
+    "tep": "2.5.0",
+    "upstream_commit": "9a6c8e5fcef4a2850778704e7793c87b0a187005",
+    "backend": "python",
+    "source_manifest_sha256": "160ee9840612a9aca6cfcda018a57029238ba9a81385be4daf5e6358c9cab606",
+    "physical_code": "Original vendor, controllers, initial state, fault logic and registered horizon byte-identical"
+  },
+  "rng": {
+    "algorithm": "NumPy Philox4x64",
+    "namespace96_hex": "0x983f6de2d135521de3a0b50a",
+    "key": "(namespace96<<32)|unique manifest ordinal, direct128bit key, initialcounter0",
+    "uniform": "high32(random_raw_uint64)/2**32; negative TESUB7 request returns2U-1",
+    "buffer": 65536,
+    "max_logical_draws_exclusive": 18446744073709551616,
+    "transform": "Retain original twelve-uniform sequential sum minus6 noise and all TESUB5 disturbance transformations/call order. No normal() substitution.",
+    "scope": "One uniform sequence per physical run shared across original consumers; observer does not draw; keys distinct across all roles. Modern independent keyed pseudorandom streams, not a claim of mathematical true randomness.",
+    "retry": "Same run and same key only",
+    "qa": "Keys outside formal namespace",
+    "references": [
+      "https://numpy.org/doc/stable/reference/random/bit_generators/philox.html",
+      "https://numpy.org/doc/stable/reference/random/parallel.html"
+    ]
+  },
+  "simulation": {
+    "duration_hours": 48,
+    "step_seconds": 1,
+    "record_seconds": 180,
+    "records": 960,
+    "drop_t0": true,
+    "fault_onset_hours": 8,
+    "first_fault_index0": 160,
+    "variables": "41XMEAS+11XMV,12thXMV separately",
+    "controller": "Original default CLOSED_LOOP",
+    "recordings": [
+      "native",
+      "controller_input"
+    ],
+    "pairing": "Same physical trajectory and XMV commands; native post-evaluate XMEAS versus actual fast-controller-input cache age3steps; no extra process/RNG calls."
+  },
+  "models": {
+    "F3_C1": "All5 frozen R5 states, native; mean_pool_signed versus same_mean_signed_axis_squared; same learned axis.",
+    "F15_C3": "All5 frozen R5 states, native; moment_pool_squared versus original independently selected mean_pool_squared.",
+    "F9": "Fixed historical H_D01_moment_A01_signed affine map sha7a20407a0fafa0028931de8d73c32b2ceae9585175e59dadd836777a97efcf66; identical beta/intercept for native and controller-input.",
+    "representation": "PCA500, residualbasis, centres/whiteners, axes, selectedindices, reference moments/scales fixed. No reselection/refit.",
+    "arms": 22,
+    "F9_relearning": "Not included; does not independently confirm119/120 relearning result."
+  },
+  "detector": {
+    "sides": "two for all22 arms includingSquared, as original",
+    "k": 0.05,
+    "recurrence": "cp=max(0,(cp+u)-k);cm=max(0,(cm-u)-k);C=max(cp,cm)",
+    "reset": "episode beginning only; not at onset/alarm",
+    "alarm": "strict C>h"
+  },
+  "calibration": {
+    "n": 199,
+    "ascending_rank_1based": 190,
+    "interpolation": false,
+    "statistic": "max over all960 samples and bothsides separately perarm; same199physicalruns shared",
+    "only_fitted_quantity": "alarm threshold h",
+    "historical_difference": "This newly declared common190/199 design differs from originalR5 247/259 and earlyS25 57/59; original representation and score transforms remain fixed.",
+    "nominal": "5% marginal order-statistic target under exchangeability/continuity, not exact5% conditional FAR",
+    "gate": "Complete and hash all199calibration trajectories, then lock thresholds and input hashes BEFORE any evaluation trajectory is generated"
+  },
+  "endpoints": {
+    "primary": "mean penalized detection loss across40h postonset",
+    "clean": "Noalarm records1..160 and at least one crossing records161..960",
+    "delay_min": "3*(first post crossing index0-160); firstaffectedrecorddelay0 inherited recorded-sample convention",
+    "failure_penalty_min": 2400,
+    "secondary": [
+      "clean delay<=120min",
+      "clean delay<=480min",
+      "full40hclean detection",
+      "prefaultalarm",
+      "full48hnormalalarm",
+      "normal postwindowclean crossing floor",
+      "delay among each own clean subset(descriptive)"
+    ],
+    "all_horizons_use_same_threshold": true,
+    "no_rescue": "Original failed2hF9/C2 remains failed; new40h confirmatory followup is separate"
+  },
+  "primary_contrasts": [
+    {
+      "id": "C1",
+      "fault_id": 3,
+      "difference": "perrun mean5(loss_same_axis_squared-loss_signed)",
+      "favorable": "positive"
+    },
+    {
+      "id": "C3",
+      "fault_id": 15,
+      "difference": "perrun mean5(loss_moment_squared-loss_mean_squared)",
+      "favorable": "negative"
+    },
+    {
+      "id": "F9_RECORDING",
+      "fault_id": 9,
+      "difference": "loss_controller_input-loss_native",
+      "favorable": "negative"
+    }
+  ],
+  "inference": {
+    "bootstrap_draws": 20000,
+    "bootstrap_seed": 2026102207,
+    "bootstrap_unit": "Physical run, preserving all fixedstate/arm/view outcomes; average5states withinrun before resampling; never5N",
+    "quantile_method": "linear",
+    "primary_CI": "Two-sided98.3333333333333% percentile Bonferroni3; ordinary95% descriptive also reported; approximate coverage only",
+    "support": "Adjusted interval entirely in predefined favorable direction",
+    "secondary": "Descriptive95% paired effect intervals; cannot substitute for main endpoint",
+    "single_arm_rates": "95%ClopperPearson physicalrun n; no binomial interval on fractional5state average",
+    "FAR": "Report everyfixedarm/state actual400normalrate; nominalmatch does not imply realizedsameFAR. Interpret losses with observedFAR.",
+    "scope": "Conditional on frozen representation and realizedcalibration; excludes training/calibration-population variation",
+    "interim": "No effect analysis until all1199complete; progress only engineeringcounts and shutdownflags"
+  },
+  "failure_policy": {
+    "physical_shutdown": "Retain original registered horizon continuation and flags; noseedreplacement/exclusion/syntheticpadding",
+    "engineering_interruption": "Save partialattempt and retry samekey fromstart; completedruns neveroverwritten",
+    "invalid_output": "Nonfinite/wrongshape/phase/faultflag/hasherror pauses; no favorable subset",
+    "checkpoint": "Completed records are retained atomically; interrupted attempts use the same run identity and random key."
+  },
+  "limits": "Does not retroactively repair old bootstrapintervals, prove independentrelearning, restoreoriginal2hprediction or establish universalTEP/DCS behavior."
+}

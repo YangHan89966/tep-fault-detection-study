@@ -1,0 +1,4 @@
+fault_id,development_role,selected_family,top5,normal_far_pct,development_detection_pct,development_detection_status,frozen_final_detection_pct,frozen_final_occupancy_pct,frozen_final_median_delay_min,onset_matched_detection_pct,companion_detection_pct,pooled_with_reserved_primary
+3,Positive mechanism case,Signed level,xmeas_2; xmeas_21; xmv_1; xmv_8; xmeas_15,3.2,,NR: no separate development-fit detection row in source archive,100.0,89.1065,231.0,100.0,100.0,False
+9,Signed-level applicability boundary,Lag-1 product,xmeas_2; xmv_1; xmeas_21; xmv_10; xmeas_3,5.6000000000000005,78.8,stored development-fit result,78.4,28.904999999999998,1129.5,49.2,48.4,False
+15,Signed-level applicability boundary,Squared deviation,xmeas_17; xmeas_11; xmeas_22; xmv_7; xmeas_12,3.5999999999999996,87.6,stored development-fit result,87.2,38.285000000000004,1092.0,56.39999999999999,59.4,False

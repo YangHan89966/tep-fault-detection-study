@@ -1,0 +1,205 @@
+{
+  "entries": [
+    {
+      "bytes": 2224,
+      "path": "Launch_StageD.ps1",
+      "sha256": "7aa06c9f224a206bcd64ac2aadcf229361af7a3f39029baa4d77e5d94fbb8a1f"
+    },
+    {
+      "bytes": 3548,
+      "path": "README_CN.txt",
+      "sha256": "1504fa70847a4dc142646d1cde8eaf6cad1a628faaebfa865ab79bca24e4345d"
+    },
+    {
+      "bytes": 722,
+      "path": "Run_StageD_Evaluate.cmd",
+      "sha256": "70d9bbe6b0cca20c06190fa10402ff4a18dc30d67a65f7cc729ad48bc9b76a60"
+    },
+    {
+      "bytes": 714,
+      "path": "Stop_StageD_After_Current_Rep.cmd",
+      "sha256": "b3a1118df6f0cf64fdfeb4987148a1d714c23fed408249520b28fbece6564a2a"
+    },
+    {
+      "bytes": 1476,
+      "path": "bootstrap_stage_d.py",
+      "sha256": "15e8f632a89ff0af9df7a1024e777e1159b775f7836ac924488c5ffc60e585fe"
+    },
+    {
+      "bytes": 1631,
+      "path": "payload/BINDING.json",
+      "sha256": "00bac2799bbb98ba8a4cee449c050e5583ccc1d86de2e1413cffa9cfbe98d0bf"
+    },
+    {
+      "bytes": 2260,
+      "path": "payload/EVALUATION_SPEC.json",
+      "sha256": "d343e172c66216a9bf6440a370ff8ae439c06f4a83bf5aaf08d8378e4cb54c16"
+    },
+    {
+      "bytes": 3030,
+      "path": "payload/MANIFEST.json",
+      "sha256": "72ad094017bd09fe7f911cf85effd10ee2cc9030f8e6e7d54b07be8d4a1a930e"
+    },
+    {
+      "bytes": 19882,
+      "path": "payload/assets/PCA_MODEL_NEWSEED_NORMAL_TRAINING.npz",
+      "sha256": "e8d334f9201d41bb240a46d09925b358a0b38a9a74d5193a7fd9f9b1782d1d33"
+    },
+    {
+      "bytes": 6784,
+      "path": "payload/assets/RESIDUAL_BASIS_NEWSEED_PCA.npy",
+      "sha256": "91967c40bbdaa784fcefcbc0246b7053446522764fe258a0d5a1c8fa187a1405"
+    },
+    {
+      "bytes": 14409,
+      "path": "payload/code/analysis_d.py",
+      "sha256": "229db503cdc0c92cea6d63a614d726fb85bdb3756bac1591157383bbbe754ad2"
+    },
+    {
+      "bytes": 8877,
+      "path": "payload/code/common_c.py",
+      "sha256": "5171c698accbeb5c619258e78b7f350f3633d57169616786ca69f616ee44c133"
+    },
+    {
+      "bytes": 15816,
+      "path": "payload/code/inherited.py",
+      "sha256": "5f31ee0222027e063bcf309538c680fe62efec02c5cd4634c9c5d2f5f5ae372f"
+    },
+    {
+      "bytes": 8218,
+      "path": "payload/code/inputs_d.py",
+      "sha256": "5df923ab60620bac7288ebb09cfdb81dc89b2b981048d59ca179981f55a0668b"
+    },
+    {
+      "bytes": 1166,
+      "path": "payload/code/reaggregate_d.py",
+      "sha256": "1e257744adec615b716a8e1c951fc246297e99ad5a7046d32dd97f55c700687b"
+    },
+    {
+      "bytes": 17441,
+      "path": "payload/code/runner_stage_d.py",
+      "sha256": "bc9c2db1db54b1c38eabb632cb1af93a84fcb24129ce3724f310c2f13f546255"
+    },
+    {
+      "bytes": 7892,
+      "path": "payload/code/science.py",
+      "sha256": "be7879233b9389cf7721bafc0aed35d5d9d531393b886f0234cd6aefafae81fb"
+    },
+    {
+      "bytes": 3946,
+      "path": "payload/code/statistics_impl.py",
+      "sha256": "0fee2dc3fe6cb4a1cc6ba621ef51595941b4f66377801157fe875fbf1bec7aab"
+    },
+    {
+      "bytes": 5491,
+      "path": "payload/code/storage.py",
+      "sha256": "9a5c7fd73a544e0dff81f0775285b2bd23a76c68cb3ef7d1f15e6fe9cb062700"
+    },
+    {
+      "bytes": 4735,
+      "path": "payload/reference/EXPERIMENT_1_RELEARNING_PROTOCOL_v1.0.json",
+      "sha256": "80b621627cbfa4ba077909c7357a1527c3947f3d4aa8f54df0fec6a1e1813027"
+    },
+    {
+      "bytes": 2223847,
+      "path": "payload/reference/SEED_MANIFEST.json",
+      "sha256": "6d0c75f8e8f21d77d83be495a8788886de37ea95615a2824a2946ce52cd15b41"
+    },
+    {
+      "bytes": 12943,
+      "path": "payload/reference/STAGE_B_ALL_CONFIGURATIONS.csv",
+      "sha256": "03978f4af7bdf2f1cc9d1cb2fd8f9c1fd5397f085420592640197dc1fc59479e"
+    },
+    {
+      "bytes": 3232,
+      "path": "payload/reference/STAGE_B_ALL_MODELS_LOCK.json",
+      "sha256": "c2d16bdb075c269a5ac268121208faa4e6f02707a5be20e8f382b4f596af966f"
+    },
+    {
+      "bytes": 26705,
+      "path": "payload/reference/STAGE_B_EXPECTED_FILES.json",
+      "sha256": "3e84f3a2683cf4e801d4429e595a938b39a2631591486cfd303deacc97c2f0c8"
+    },
+    {
+      "bytes": 959988,
+      "path": "payload/reference/STAGE_C_EVENTS.jsonl",
+      "sha256": "bd0b8b4128672a58ee91f16385cb2c98675eef28a31465a3ae2a4871323726d7"
+    },
+    {
+      "bytes": 843,
+      "path": "payload/reference/STAGE_C_EXPECTED_FILES.json",
+      "sha256": "72807ec1bb79efb7715e55bc3a61acdc71ebabd030e0d210fce651d906a0d23f"
+    },
+    {
+      "bytes": 1019,
+      "path": "payload/reference/STAGE_C_FREEZE_C.json",
+      "sha256": "dc1346a4290358894d560bdac2f44981abcbb015bd343e6f1375a1a0795d4fbe"
+    },
+    {
+      "bytes": 581,
+      "path": "payload/reference/STAGE_C_PANEL_COMPLETION.json",
+      "sha256": "6005cbd097130300b153b0fc07e2bc4f84c7d8ca275307f2aabc762d522914db"
+    },
+    {
+      "bytes": 645197,
+      "path": "payload/reference/STAGE_C_TEST_COMPLETED_INDEX.csv",
+      "sha256": "c3956c5a2186c2cd294c2336352db0608e665da6015bd992e8797eaaa881fa3e"
+    },
+    {
+      "bytes": 331,
+      "path": "reports/BOOTSTRAP_HELP_CHECK.txt",
+      "sha256": "75ee48cfe2592f4b765f682708c08c20dfd3ea143e9e4bf8d5449ccd79dd5788"
+    },
+    {
+      "bytes": 1126,
+      "path": "reports/BUILD_REPORT.json",
+      "sha256": "53bc396da144c7bffd46b9e25f0c9f6114f34cba699fd45d4b6194dc5216f54d"
+    },
+    {
+      "bytes": 242,
+      "path": "reports/INTEGRATION_TEST_LOG.txt",
+      "sha256": "5c7b3c89827d910d8bec951b696884ba13bf13cf719e8d2115b0135b1f9c3a80"
+    },
+    {
+      "bytes": 1795,
+      "path": "reports/STAGE_C_READBACK.json",
+      "sha256": "702aebcb706986502b00ddcf24088fee5179abc7cba01f12e9f06fde2c2cbb7c"
+    },
+    {
+      "bytes": 434,
+      "path": "reports/SYNTHETIC_INTEGRATION_RESULT.json",
+      "sha256": "eb85de216966d67828c332061452f726b5e8e9e989ed34c541553168545af22e"
+    },
+    {
+      "bytes": 2034,
+      "path": "reports/SYNTHETIC_INTEGRATION_TRACE.txt",
+      "sha256": "67c0f08e3ce26ab7ed2f840b7c3d99697bc3a45598dcc6aa101f1a3bcc2d8811"
+    },
+    {
+      "bytes": 2496,
+      "path": "reports/TEP_V18_C_Completion_Readback_CN.md",
+      "sha256": "9a3a4900157ef6701abc6191795a94a8159abc3c67d51bf6e723b7394e31bf9a"
+    },
+    {
+      "bytes": 3649,
+      "path": "reports/UNIT_TEST_LOG.txt",
+      "sha256": "90312dfb2f572e93037eb25511da351835bb8ee1f916906a7085096da2ad2b69"
+    },
+    {
+      "bytes": 5374,
+      "path": "reports/verify_stage_c_return.py",
+      "sha256": "e39d795431b060181c4293f23d2a52edc9010598195cdddf59d4c434c2063786"
+    },
+    {
+      "bytes": 5465,
+      "path": "tests/test_integration_d.py",
+      "sha256": "0765e2f348688b113667b5c582c1b6e61ad5a535d92fa2c1a46282c56294377c"
+    },
+    {
+      "bytes": 11922,
+      "path": "tests/test_stage_d.py",
+      "sha256": "182a7fc6920265d8da823e45e1b5b418b0da909aa16a7ac7b3b9285236e24723"
+    }
+  ],
+  "self_excluded": "PACKAGE_FILES.json"
+}

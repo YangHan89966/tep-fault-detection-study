@@ -1,0 +1,4 @@
+contrast,fault_id,endpoint,unit,favorable_sign,physical_n,estimate,ci95_low,ci95_high,ci98_333_low,ci98_333_high,bootstrap_replicates,bootstrap_degenerate,supported_by_family_interval
+C1_same_axis_squared_minus_signed,3,mean_penalized_loss_40h,minutes,1,200,1655.8080000000002,1608.0958499999997,1700.6729999999998,1596.845475,1710.116275,20000,0,1
+C3_moment_minus_mean_squared,15,mean_penalized_loss_40h,minutes,-1,200,-626.481,-701.10045,-553.4067,-718.0656749999999,-537.2602499999999,20000,0,1
+F9_controller_input_minus_native,9,mean_penalized_loss_40h,minutes,-1,200,-1149.615,-1256.31,-1042.393875,-1277.7355,-1016.3728749999999,20000,0,1

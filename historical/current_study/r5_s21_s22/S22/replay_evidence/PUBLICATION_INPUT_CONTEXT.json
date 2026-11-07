@@ -1,0 +1,16 @@
+{
+  "diagnostic": "D2",
+  "input_kind": "public_path_redacted_derivative",
+  "supplied_archive_sha256": "3d6673a3e7870e6ce31eb7765e8b689d0b71a408e16c8c19a524f66f65a80c82",
+  "original_archive_sha256": "292106c23c212d3931c15aa6c5e435cc1069781f48e519c0259211ea7072b6fc",
+  "scientific_code_modified": false,
+  "simulation": false,
+  "new_fitting": false,
+  "status": "COMPLETED",
+  "contract_changes": [
+    "sources.s30_paths.path",
+    "sources.s30_paths.sha256"
+  ],
+  "note": "Only transport location/hash changed in the working copy. Original diagnostic audit fields referring to the supplied source hash describe this checked input; original ZIP identity is recorded separately here.",
+  "exit_code": 0
+}

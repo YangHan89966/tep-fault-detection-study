@@ -1,0 +1,17 @@
+{
+  "purpose": "throughput probe only; 8 repeated short replays of the single historical QA key; one other CPU occupied",
+  "hours_per_probe": 0.8,
+  "workers": 8,
+  "duration_incl_dispatch_seconds": 3.3942488739994587,
+  "worker_seconds": [
+    3.3364465170016047,
+    3.163248286000453,
+    3.3318806679999398,
+    3.17974641100227,
+    3.380320459000359,
+    3.1826799489972473,
+    3.337683202997141,
+    3.323403229998803
+  ],
+  "all_bytes_match": true
+}

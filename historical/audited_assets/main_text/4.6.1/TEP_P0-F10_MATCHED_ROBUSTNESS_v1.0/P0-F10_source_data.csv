@@ -1,0 +1,25 @@
+panel,stress_geometry,condition,series,x_value,x_unit,value,unit,source_file
+A,simultaneous coordinate loss,1 selected coordinates lost,macro worst-combination run detection,1,lost coordinates,100.0,%,U3_multichannel_loss_crossfault_summary.csv
+A,simultaneous coordinate loss,1 selected coordinates lost,macro worst-combination threshold occupancy,1,lost coordinates,94.40414705882351,%,U3_multichannel_loss_crossfault_summary.csv
+A,simultaneous coordinate loss,1 selected coordinates lost,macro worst-combination penalized median delay,1,lost coordinates,80.11764705882354,min,U3_multichannel_loss_crossfault_summary.csv
+A,simultaneous coordinate loss,2 selected coordinates lost,macro worst-combination run detection,2,lost coordinates,100.0,%,U3_multichannel_loss_crossfault_summary.csv
+A,simultaneous coordinate loss,2 selected coordinates lost,macro worst-combination threshold occupancy,2,lost coordinates,92.79835294117646,%,U3_multichannel_loss_crossfault_summary.csv
+A,simultaneous coordinate loss,2 selected coordinates lost,macro worst-combination penalized median delay,2,lost coordinates,115.23529411764706,min,U3_multichannel_loss_crossfault_summary.csv
+A,simultaneous coordinate loss,3 selected coordinates lost,macro worst-combination run detection,3,lost coordinates,99.74117647058823,%,U3_multichannel_loss_crossfault_summary.csv
+A,simultaneous coordinate loss,3 selected coordinates lost,macro worst-combination threshold occupancy,3,lost coordinates,86.78688235294119,%,U3_multichannel_loss_crossfault_summary.csv
+A,simultaneous coordinate loss,3 selected coordinates lost,macro worst-combination penalized median delay,3,lost coordinates,237.0,min,U3_multichannel_loss_crossfault_summary.csv
+A,simultaneous coordinate loss,"Fault 16, worst three-coordinate combination",Fault 16 worst run detection,3,lost coordinates,95.6,%,U3_multichannel_loss_by_fault.csv
+A,simultaneous coordinate loss,"Fault 16, worst three-coordinate combination",Fault 16 worst threshold occupancy,3,lost coordinates,37.8745,%,U3_multichannel_loss_by_fault.csv
+A,simultaneous coordinate loss,"Fault 16, worst three-coordinate combination",Fault 16 worst penalized median delay,3,lost coordinates,1398.0,min,U3_multichannel_loss_by_fault.csv
+B,exact total channel-space energy,Top-1 reference,macro normal run-level FAR,0.5,sigma,12.316470588235296,%,U3_matched_contamination_crossfault_summary.csv
+B,exact total channel-space energy,Top-5 exact total-energy,macro normal run-level FAR,0.5,sigma,4.649411764705882,%,U3_matched_contamination_crossfault_summary.csv
+C,common-mode equal aggregate index,Top-1 reference,macro normal run-level FAR,0.5,sigma,12.316470588235296,%,U3_matched_contamination_crossfault_summary.csv
+C,common-mode equal aggregate index,Top-5 common mode,macro normal run-level FAR,0.5,sigma,11.928235294117648,%,U3_matched_contamination_crossfault_summary.csv
+B,exact total channel-space energy,Top-1 reference,macro normal run-level FAR,1.0,sigma,39.31764705882353,%,U3_matched_contamination_crossfault_summary.csv
+B,exact total channel-space energy,Top-5 exact total-energy,macro normal run-level FAR,1.0,sigma,5.3647058823529425,%,U3_matched_contamination_crossfault_summary.csv
+C,common-mode equal aggregate index,Top-1 reference,macro normal run-level FAR,1.0,sigma,39.31764705882353,%,U3_matched_contamination_crossfault_summary.csv
+C,common-mode equal aggregate index,Top-5 common mode,macro normal run-level FAR,1.0,sigma,34.75176470588236,%,U3_matched_contamination_crossfault_summary.csv
+B,exact total channel-space energy,Top-1 reference,macro normal run-level FAR,2.0,sigma,80.20235294117649,%,U3_matched_contamination_crossfault_summary.csv
+B,exact total channel-space energy,Top-5 exact total-energy,macro normal run-level FAR,2.0,sigma,8.87529411764706,%,U3_matched_contamination_crossfault_summary.csv
+C,common-mode equal aggregate index,Top-1 reference,macro normal run-level FAR,2.0,sigma,80.20235294117649,%,U3_matched_contamination_crossfault_summary.csv
+C,common-mode equal aggregate index,Top-5 common mode,macro normal run-level FAR,2.0,sigma,74.39764705882352,%,U3_matched_contamination_crossfault_summary.csv

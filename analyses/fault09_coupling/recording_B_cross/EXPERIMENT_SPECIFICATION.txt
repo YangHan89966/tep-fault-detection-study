@@ -1,0 +1,70 @@
+TEP_P1_F9_RECORDING_B_CROSS_20261030_v1
+Date: 2026-10-30 (Asia/Singapore)
+
+Question
+How much does the recording contrast change when B is estimated from eight
+120-record blocks per normal design run instead of its first 120 records?
+
+Scope
+Post-update (native) and controller-input (snapshot), each crossed with the
+original and batch-means B. Both second-moment and mean-shift pools use the
+Signed two-sided CUSUM, k=0.05. Eight monitor outputs are required.
+No new simulations, trajectories, recording types, block lengths or estimators.
+This is a follow-up sensitivity analysis on an already analysed panel.
+
+Data
+Use the original paired 306 development runs: 40 normal design, 32 normal
+anchor, 59 normal inner-calibration, 100 Fault-9 fit, 75 Fault-9 selection.
+Use recording panel 2: 199 normal outer-calibration, 120 normal evaluation,
+120 Fault-9 evaluation. Preserve case IDs, order and raw-file hashes.
+
+Fixed processing
+Use each recording's archived PCA and normal support (native 16 dimensions;
+snapshot 15 of its original 17). Keep mean, scale, basis, support and whitening
+fixed within recording. The cross-recording comparison includes these separately
+learned pipelines. It is not a common-PCA intervention.
+
+B construction
+Let y have shape (40,960,d), after the original support and whitening.
+Original: sample covariance (ddof=1) of the 40 first-block sums / sqrt(120).
+Batch: reshape y to (40,8,120,d), sum within each block, divide by sqrt(120),
+then sample covariance (ddof=1) across the resulting 320 block sums.
+Blocks remain nested in 40 trajectories; 320 is not an independent run count.
+Use the archived S51 implementation. Better conditioning alone is not evidence
+of lower estimation error.
+
+Learning and calibration
+Rebuild both pools and all inherited metrics with only B changed. Retain the
+original fit windows, normalization, ridge rules, selection tie-break, inner
+calibration rank 57/59 and outer calibration rank 190/199. Use independent
+calibration roles; do not tune on normal or fault evaluation data.
+Record fitted-state and threshold hashes before scoring evaluation data.
+First reproduce the original four monitors against their saved thresholds,
+selection decisions and per-run alarm outcomes. Stop on a material mismatch.
+
+Endpoints and comparisons
+Report 40h and 8h clean detections, normal trajectory alarms, pre-fault alarms,
+and mean penalized loss. Retain 2h as a secondary endpoint. Pre-fault alarms
+and non-detections have 2400-minute loss; all runs stay in denominators.
+Report absolute outputs and these differences:
+1. controller-input minus post-update, within estimator and pool;
+2. batch minus original, within recording and pool;
+3. C2 = second-moment minus mean-shift, within recording and estimator;
+4. interaction = recording contrast under batch minus that under original.
+Compute 20,000 paired trajectory bootstrap draws with a fixed analysis seed;
+reuse fault indices across every arm and use a separate shared normal index.
+Report marginal percentile 95% intervals. These condition on the fitted
+monitors and realized calibration, exclude learning variability, and do not
+establish independence of the original simulator random streams.
+
+Interpretation
+An improvement under post-update alone does not establish a smaller recording
+effect. Compare recording contrasts under both estimators and inspect 8h and
+loss for 40h ceiling effects. A non-significant difference is not equivalence.
+Report all eight outputs regardless of direction or magnitude.
+
+Stored diagnostics
+In a batch DESIGN.npz, raw_D remains the archived first-block covariance
+diagnostic; B is the explicitly replaced batch estimate. raw_D is not the raw
+covariance counterpart of the replaced B and is not used to reconstruct new
+directions. B_ESTIMATOR_COMPARISON.npz identifies both B matrices explicitly.

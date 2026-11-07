@@ -1,0 +1,88 @@
+{
+  "scope": "post-outcome fixed-state k sensitivity; N and DV remain separate",
+  "k_values": [
+    0.05,
+    0.07
+  ],
+  "N_faults": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "N_methods_to_change": [
+    "adaptive_5family_top5",
+    "fixed_ad_top5"
+  ],
+  "N_comparators": [
+    "independent_top1",
+    "q_cusum"
+  ],
+  "DV_faults": [
+    3,
+    9,
+    15
+  ],
+  "raw_records_to_read": 6041,
+  "source_archives": {
+    "UPLOAD_THIS_METHOD_FREEZE_v1.0.zip": "56a7c81eafa60f797b1de1b6eb8396a530d7e47a1cf8d0db967f39675cf01c2d",
+    "UPLOAD_THIS_FINAL_RESULTS_v1.0.zip": "5d181820e9c98170ed45d7ebec294d565771935e6ad879d2e162464ede5fba54",
+    "TEP_DENSE3915_20260913T023328Z_45acf7f7_RETURN.zip": "3121621e75aeca348100987dbb69c8fb0523ee45e4fcef07f3794d9f401ed7f7",
+    "TEP_Dense3915_Workers8_v1.0.1.pyz": "82041eb105c163f52f8065820feb2ecb8c428775ca63751e4ef48a83e1f7bdf7"
+  },
+  "manuscripts": {
+    "TEP_Manuscript_v1.7.1_CILS_Polished.docx": "c85ad19d6748382317256240e87cc4af186cf4e3317d143fbe99c3c853ec5c35",
+    "TEP_SI_v1.7.1_CILS_Polished.docx": "7ac75c54f993b6c335beca735c2099e102f8dae42d6b0a7668ccc202b4f7143f"
+  },
+  "N_source_function_copy": "finite,residual,feature,scalar_input,cusum from accepted method_core; no fit or simulator functions",
+  "DV_source_function_copy": "only pure projection/transform/recurrence functions; no simulator or fitting functions",
+  "method_core_accepted_sha256": "d53ce3d8921a3ae6548d299f38452979ef005ef08a3a981301fd1d93bc3c6e9d",
+  "registry_accepted_sha256": "ec49cebc2965b444cf45eea77099684575e79e56036a107ff43bbbeca800924e",
+  "additional_assets": [
+    "DV/F03/PHASES.npz",
+    "DV/F09/PHASES.npz",
+    "DV/F15/PHASES.npz"
+  ],
+  "phase_source": "DV evaluation_results/RECORD_PHASES.csv, fixed per-run shutdown and constancy annotations",
+  "implementation_qa": "IMPLEMENTATION_QA.json; synthetic and archived checks only, not process k=0.07 results",
+  "tool_version": "1.1",
+  "prior_v1_0_bundle_sha256": "8692324b50c16bd892c61487ed5cf1d57e15b78a48c81d006075531fce724377",
+  "auto_k_grid": [
+    0.01,
+    0.03,
+    0.05,
+    0.07,
+    0.1
+  ],
+  "auto_k_default": false,
+  "raw_records_with_auto_k": 10575,
+  "auto_k_selection_roles": {
+    "N": [
+      "normal_validation",
+      "fault_development"
+    ],
+    "DV": [
+      "normal_anchor",
+      "normal_inner_calibration",
+      "fault_selection"
+    ]
+  },
+  "auto_k_criterion": "Minimum total complete-episode event loss; exact ties closest to .05 then smaller k",
+  "auto_k_is_online_adaptation": false,
+  "all_output_creation_exclusive": true,
+  "all_outputs_in_new_directory": true,
+  "baseline_artifacts_replaced": false
+}

@@ -1,0 +1,19 @@
+Distribution 1.1.0 — 30 October 2026
+
+Added the Fault 9 recording-mode by B-estimator sensitivity analysis, including
+eight-arm results, model and threshold identities, per-trajectory scores and events,
+paired contrasts and independent numerical verification.
+
+Added graded measurement-noise coupling at five shared-component fractions, with
+actual post-update recording as a separate reference. The module includes 799 run
+score files, noise construction and recovery code, calibration and evaluation outputs,
+paired-bootstrap indices, numerical verification and PNG/PDF/SVG figures.
+
+Retained the existing confirmation-panel data, historical computational archives,
+raw-data companions and Data S1 release as separately identified collection components.
+New numerical tables are distributed inside the supplementary-analysis archive;
+historical Data S1 numbering remains attached to its original manuscript version.
+
+Prepared portable public documentation, source-to-release derivation records and
+release checksums. These packaging changes preserve the scientific numerical outputs
+and distinguish distribution identities from original scientific execution hashes.

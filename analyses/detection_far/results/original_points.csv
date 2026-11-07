@@ -1,0 +1,15 @@
+panel,contrast,n_normal,n_fault,n_rep,arm,kind,index,far_pct,clean40_pct,clean8_pct,prefault_pct
+confirmation,C1,400,200,5,favoured,original,0,6.4,100.0,34.5,0.0
+confirmation,C1,400,200,5,comparator,original,0,2.6,17.6,0.3,0.0
+confirmation,C3,400,200,5,favoured,original,0,6.65,72.3,5.0,0.0
+confirmation,C3,400,200,5,comparator,original,0,6.45,17.2,1.5,0.1
+confirmation,F9_recording,400,200,1,favoured,original,0,6.0,88.0,30.5,0.5
+confirmation,F9_recording,400,200,1,comparator,original,0,5.5,20.0,1.5,0.0
+validation2,C1,250,250,5,favoured,original,0,6.32,100.0,32.64,0.0
+validation2,C1,250,250,5,comparator,original,0,4.16,20.479999999999997,0.4,0.0
+validation2,C2,250,250,5,favoured,original,0,5.040000000000001,8.72,0.5599999999999999,0.0
+validation2,C2,250,250,5,comparator,original,0,6.88,7.6,0.4,0.0
+validation2,C3,250,250,5,favoured,original,0,4.24,72.88000000000001,4.8,0.08
+validation2,C3,250,250,5,comparator,original,0,6.4,21.36,1.2000000000000002,0.0
+recording_panel_2,F9_recording,120,120,1,favoured,original,0,7.5,94.16666666666667,32.5,0.8333333333333334
+recording_panel_2,F9_recording,120,120,1,comparator,original,0,5.0,19.166666666666668,0.0,0.0

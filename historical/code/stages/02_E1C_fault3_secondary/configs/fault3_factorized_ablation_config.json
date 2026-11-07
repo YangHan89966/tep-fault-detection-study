@@ -1,0 +1,138 @@
+{
+  "script": "scripts/06b_factorized_ablation_study.py",
+  "purpose": "Controlled factorized ablation of residual-set size, direction unification, and CUSUM accumulation.",
+  "fault_id": 3,
+  "fault_start_sample": 161,
+  "sampling_interval_min": 3,
+  "pca_cumvar_target": 0.95,
+  "selected_n_pcs": 36,
+  "cumulative_explained_variance": 0.9581997268001302,
+  "cusum_k": 0.05,
+  "run_level_percentile": 95,
+  "confidence_interval": "95% exact Clopper-Pearson for run-level binomial rates",
+  "normal_threshold_data": "normal_validation_runs_1_250.pkl",
+  "normal_final_evaluation_data": "normal_evaluation_runs_251_500.pkl",
+  "fault_final_test_data": "fault3_final_test_runs_251_500.pkl",
+  "all_direction_sign_source": "04_fault3_residual_direction_metrics.csv generated from Fault 3 development runs 1-250 and matched normal validation runs 1-250",
+  "n_all_residuals": 52,
+  "n_direction_stable_residuals": 47,
+  "n_selected_residuals": 5,
+  "selected_residuals": [
+    "res_xmeas_21",
+    "res_xmeas_2",
+    "res_xmv_1",
+    "res_xmv_10",
+    "res_xmeas_9"
+  ],
+  "methods": [
+    {
+      "method": "All residuals + CUSUM",
+      "method_short": "All / no sign / CUSUM",
+      "residual_set": "all_52",
+      "n_residual_variables": 52,
+      "direction_unification": false,
+      "sign_source": "none",
+      "use_cusum": true,
+      "purpose": "Original all-residual, no-sign Step 06 comparator."
+    },
+    {
+      "method": "All signed residuals + CUSUM",
+      "method_short": "All / signed / CUSUM",
+      "residual_set": "all_52",
+      "n_residual_variables": 52,
+      "direction_unification": true,
+      "sign_source": "Step 04 development mean paired shift",
+      "use_cusum": true,
+      "purpose": "Missing controlled comparator: all 52 residuals use the same development-derived direction unification and CUSUM as the proposal."
+    },
+    {
+      "method": "Direction-stable signed residuals + CUSUM",
+      "method_short": "Stable set / signed / CUSUM",
+      "residual_set": "direction_stable",
+      "n_residual_variables": 47,
+      "direction_unification": true,
+      "sign_source": "Step 04 development mean paired shift",
+      "use_cusum": true,
+      "purpose": "Intermediate comparator after direction-ratio filtering but before Top-K magnitude ranking."
+    },
+    {
+      "method": "Selected residuals w/o sign + CUSUM",
+      "method_short": "Top-5 / no sign / CUSUM",
+      "residual_set": "selected_top_k",
+      "n_residual_variables": 5,
+      "direction_unification": false,
+      "sign_source": "none",
+      "use_cusum": true,
+      "purpose": "Original sign-unification ablation."
+    },
+    {
+      "method": "Selected signed residuals w/o CUSUM",
+      "method_short": "Top-5 / signed / no CUSUM",
+      "residual_set": "selected_top_k",
+      "n_residual_variables": 5,
+      "direction_unification": true,
+      "sign_source": "Step 04 development mean paired shift",
+      "use_cusum": false,
+      "purpose": "Original sequential-accumulation ablation."
+    },
+    {
+      "method": "Selected signed residuals + CUSUM",
+      "method_short": "Top-5 / signed / CUSUM",
+      "residual_set": "selected_top_k",
+      "n_residual_variables": 5,
+      "direction_unification": true,
+      "sign_source": "Step 04 development mean paired shift",
+      "use_cusum": true,
+      "purpose": "Full proposed method."
+    }
+  ],
+  "method_outputs": {
+    "All residuals + CUSUM": {
+      "scaler": "results\\tables\\06b_all_residuals_cusum_scaler.csv",
+      "validation_run_max": "results\\tables\\06b_all_residuals_cusum_validation_run_max.csv",
+      "normal_run_results": "results\\tables\\06b_all_residuals_cusum_normal_run_results.csv",
+      "fault3_run_results": "results\\tables\\06b_all_residuals_cusum_fault3_run_results.csv"
+    },
+    "All signed residuals + CUSUM": {
+      "scaler": "results\\tables\\06b_all_signed_residuals_cusum_scaler.csv",
+      "validation_run_max": "results\\tables\\06b_all_signed_residuals_cusum_validation_run_max.csv",
+      "normal_run_results": "results\\tables\\06b_all_signed_residuals_cusum_normal_run_results.csv",
+      "fault3_run_results": "results\\tables\\06b_all_signed_residuals_cusum_fault3_run_results.csv"
+    },
+    "Direction-stable signed residuals + CUSUM": {
+      "scaler": "results\\tables\\06b_direction_stable_signed_residuals_cusum_scaler.csv",
+      "validation_run_max": "results\\tables\\06b_direction_stable_signed_residuals_cusum_validation_run_max.csv",
+      "normal_run_results": "results\\tables\\06b_direction_stable_signed_residuals_cusum_normal_run_results.csv",
+      "fault3_run_results": "results\\tables\\06b_direction_stable_signed_residuals_cusum_fault3_run_results.csv"
+    },
+    "Selected residuals w/o sign + CUSUM": {
+      "scaler": "results\\tables\\06b_selected_residuals_w_o_sign_cusum_scaler.csv",
+      "validation_run_max": "results\\tables\\06b_selected_residuals_w_o_sign_cusum_validation_run_max.csv",
+      "normal_run_results": "results\\tables\\06b_selected_residuals_w_o_sign_cusum_normal_run_results.csv",
+      "fault3_run_results": "results\\tables\\06b_selected_residuals_w_o_sign_cusum_fault3_run_results.csv"
+    },
+    "Selected signed residuals w/o CUSUM": {
+      "scaler": "results\\tables\\06b_selected_signed_residuals_w_o_cusum_scaler.csv",
+      "validation_run_max": "results\\tables\\06b_selected_signed_residuals_w_o_cusum_validation_run_max.csv",
+      "normal_run_results": "results\\tables\\06b_selected_signed_residuals_w_o_cusum_normal_run_results.csv",
+      "fault3_run_results": "results\\tables\\06b_selected_signed_residuals_w_o_cusum_fault3_run_results.csv"
+    },
+    "Selected signed residuals + CUSUM": {
+      "scaler": "results\\tables\\06b_selected_signed_residuals_cusum_scaler.csv",
+      "validation_run_max": "results\\tables\\06b_selected_signed_residuals_cusum_validation_run_max.csv",
+      "normal_run_results": "results\\tables\\06b_selected_signed_residuals_cusum_normal_run_results.csv",
+      "fault3_run_results": "results\\tables\\06b_selected_signed_residuals_cusum_fault3_run_results.csv"
+    }
+  },
+  "summary_outputs": {
+    "metrics": "results\\tables\\06b_factorized_ablation_results.csv",
+    "definitions": "results\\tables\\06b_factorized_ablation_definitions.csv",
+    "contrasts": "results\\tables\\06b_factorized_ablation_contrasts.csv",
+    "figures": [
+      "results\\figures\\fig4a_factorized_ablation_far_detection.png",
+      "results\\figures\\fig4a_factorized_ablation_far_detection.pdf",
+      "results\\figures\\fig4b_factorized_ablation_alarm_delay.png",
+      "results\\figures\\fig4b_factorized_ablation_alarm_delay.pdf"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "study_id": "TEP_P1_F9_PAIRED_RELEARNING_INDEPENDENT_STREAMS_20261104_v1",
+  "version": "1.0.0",
+  "frozen_utc": "2026-11-04T08:55:16.706116+00:00",
+  "status": "Prospectively locked locally before new scientific data; prior observations informed the design. Not externally preregistered. Engineering QA is excluded.",
+  "question": "With the same development budget, does the recording-specific, original-B, second-moment/Signed Fault 9 pipeline have higher 40h clean detection on controller-input than post-update recording?",
+  "generator": "Pinned tep2.5.0 commit9a6c8e5fcef4a2850778704e7793c87b0a187005: original Python physics, decentralized controller, original 48h independent-stream Philox wrapper, 1s Euler/180s record, 960 rows. F9 onset at 8h; first affected recorded row161. Same full physical trajectory and all11 manipulated variables in both views; all41 measurement values from each real logger. SHA identities in PREDECESSOR_IDENTITIES.json.",
+  "randomness": "One distinct 128-bit Philox key per physical trajectory, fixed study-specific 96-bit prefix plus32-bit ordinal; high32 uniforms as in the pinned predecessor. The 2719 new keys are pairwise distinct and disjoint from the previous1199 keys. No substitutions or outcome-dependent rerandomization.",
+  "panel": {
+    "replicates": 5,
+    "per_replicate": {
+      "pca_normal": 78,
+      "normal_design": 40,
+      "normal_anchor": 32,
+      "normal_inner": 59,
+      "fault_fit": 100,
+      "fault_select": 75
+    },
+    "all_1920_development_runs": "Distinct across roles/replicates; each paired recording uses the same cases, time windows and budgets. Refit both the PCA and the downstream learner for each view/replicate.",
+    "new_external_normal_calibration": 199,
+    "new_normal_evaluation": 400,
+    "new_fault9_evaluation": 200,
+    "total_physical": 2719,
+    "pooling": "The 199 calibration cases and disjoint 400N+200F evaluation cases are shared by all frozen monitors; separate threshold per monitor. No previous evaluation trajectory reused."
+  },
+  "learning": {
+    "template": "Use the historical rank-continuation v1.1 code paths and original standard_core.fit_pca (identities provided). Historical fitted coordinates are allowed for QA only.",
+    "PCA": "Fit per view/rep on all 78x960 observations: original variable centering and ddof1 SD, retain smallest number reaching95% cumulative variance, original QR residual complement and sign convention. Do not lock old PC counts.",
+    "normal_support": "Original normal-only eigenfloor max(1e-10*trace(C)/r,1e-14); use original identity/full-rank path or projected support; no outcome-based rank adjustment.",
+    "B": "Original B: across 40 normal design runs, covariance (ddof1) of first120 whitened observations summed and divided by sqrt120. No B selection.",
+    "directions": "Use inherited metrics/ridge, early/late windows, pool construction, deduplication, eigenvector/sign/order, and same100 F9 fitting cases in both views. Keep moment and mean pools separate; at most8 candidates per pool. Signed only; two-sided CUSUM k=.05.",
+    "selection": "32 normal anchor trajectories (linear 90th percentile of chart maxima),59 normal inner calibration (57th ordered anchored maximum),75 separate F9 selection runs: minimum exact integer penalized loss, first inherited candidate at ties. Fix selected directions and affine transformations before external calibration.",
+    "arms": [
+      "M1 CI moment Signed",
+      "M2 post moment Signed",
+      "M3 CI mean Signed",
+      "M4 post mean Signed"
+    ],
+    "outer": "Each of the 20 monitors independently uses original anchored rank190 of199 new full-run maxima. No evaluation-based recalibration for the primary test."
+  },
+  "endpoints": {
+    "primary": "Delta40 pp = 100 times mean over200 physical F9 runs of CI moment clean40 minus post moment clean40, averaged equally over5 frozen training repeats.",
+    "events": "No alarm in1:160; strict chart > original limit in161:960. Delay=3*(first post alarm record-161) minutes. Prior alarm or miss penalized at2400min. Early <=120/480min inclusive. No onset reset. All runs in each denominator.",
+    "normal": "Any alarm over960 records on400 normals; difference CI−post. Also report clean normal post-crossing floor.",
+    "secondary": [
+      "clean2h/8h",
+      "fault pre-alarm",
+      "penalized mean40h loss",
+      "M3/M4 mean-pool comparison",
+      "all five individual operating points, signs, leave-one-replicate-out means"
+    ],
+    "sensitivity": "Prespecified descriptive equal empirical FAR5%: separately take 380th ascending normal-evaluation maximum among400 for each arm/rep and count strict crossings, report actual ties/FAR. Not independent calibration and not a substitute for the primary."
+  },
+  "inference": {
+    "bootstrap": "20000 paired whole-physical-run percentile bootstrap draws, seed2026110406, numpy.default_rng.integers(dtype=int32): sample normal indices first then fault indices, independently by role. Common indices for arms and repeats. 2.5/97.5% linear quantiles. Conditional on the five realized training replicates and the common199 calibration runs; no unconditional training-population coverage claim.",
+    "decision": "The preassigned detection direction is supported if lower95% bound for Delta40 >0. Separately require upper95% bound for CI−post 48h normal-alarm-rate difference <=5 percentage points before claiming a gain without a material excess of normal alarms. Five points is a prespecified practical margin, not a universal standard. Otherwise qualify the claim. Report per-replicate directions and effect sizes regardless."
+  },
+  "gates": [
+    "Lock design, cases, primary estimand and source algorithms before scientific generation. Original engineering full-horizon nonstudy check must pass before formal use.",
+    "Only development can start before model lock. Bind final numerical and analysis code before first fit. All 10 recording/replicate models and selection records hashed before generation/access of the external calibration data.",
+    "All20 final thresholds and maxima hashed before generating or scoring external evaluation trajectories. No outcomes on incomplete evaluation panels.",
+    "Input, time, identity, shutdown or numerical integrity failure stops the run. No dropping or replacing failed cases. An interrupted case can restart at the identical key; retain a record of repair, without retuning."
+  ],
+  "scope": "Paper1 only. External driver tests have separate arms, protocol and population. Do not pool results or use them to tune this study."
+}

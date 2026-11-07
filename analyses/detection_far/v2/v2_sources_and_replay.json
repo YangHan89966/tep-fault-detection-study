@@ -1,0 +1,80 @@
+{
+  "source_archives": {
+    "A3_RETURN_20261008T163148Z_9ae335.zip": "949df6ddcc9bf537fd22b314172a251a23cc7d0c77190ffe8704313b82fdcf97",
+    "TEP_P1_Historical_Code_Models_and_Results_20261026.zip": "8bba300ccaf71c8864ef6719f4cb49df693fd7a216258a88390f5b660e09c736"
+  },
+  "A3_state_archive_members": [
+    {
+      "member": "results/A3_K005_A4_SUMMARIES/state01_F03.npz",
+      "sha256": "c35dc7c88cb2afc0f358051cb6389ca9d6ee7a9dfb5cf605443587752e6d2b9c",
+      "original_stageD_scored_sha256": "3d6e0f864250b575240f4e8f3d04652874182bde2606e5a90efdce0086f7cc0f",
+      "original_stageD_outer_sha256": "00490fd2895f488a11db151867ec9b7450839255ccf1f5f5b10240830d11a677"
+    },
+    {
+      "member": "results/A3_K005_A4_SUMMARIES/state01_F15.npz",
+      "sha256": "bd7011f387b2a2deca5b79d8b189168c169b11f5eca980de6a31759a023e8e53",
+      "original_stageD_scored_sha256": "0c8dbc430a0c1e8e0e93ba98b5524ca9f40522414edfe06ded1cc9ad263f940b",
+      "original_stageD_outer_sha256": "90fa736a434f6fc05428ec0bf447deeea42e1eac184b288aeb97e5def232cba9"
+    },
+    {
+      "member": "results/A3_K005_A4_SUMMARIES/state02_F03.npz",
+      "sha256": "bd777e254ea4945d8cb3ce1a9fa95352f985da10d8201daac3610af79def0e36",
+      "original_stageD_scored_sha256": "8198350da8e7ff165db061617cfbb683f70b90ccd91255064dd0d32fbb38a0d0",
+      "original_stageD_outer_sha256": "12915f64525d9d37008a831ca3ccce3e1a17a587d90b6487a9ed779a68ef5786"
+    },
+    {
+      "member": "results/A3_K005_A4_SUMMARIES/state02_F15.npz",
+      "sha256": "48c0007961c4a0c171c21b6f5568fb0bed67c6c10417734462ab543538ce3c69",
+      "original_stageD_scored_sha256": "df4df9cdcc1fb4d3d615b72b58e5a437da7ac97c7786757190ee3176336765e8",
+      "original_stageD_outer_sha256": "88245811e64609ed0fee763b522359fb4b8074c8097655f218ab35ad2e69efb0"
+    },
+    {
+      "member": "results/A3_K005_A4_SUMMARIES/state03_F03.npz",
+      "sha256": "165d038e5a408caaca055e023be40cea3effa321cacfb757d7f7830101b8d73f",
+      "original_stageD_scored_sha256": "584475b244f9371a1d8451574e3b48dc354264f793960a663b785baa3d65a86d",
+      "original_stageD_outer_sha256": "3f70683dbe84ce364d52615b33e7f17517faecfe93cdc4256ea8ddc383fb3b7d"
+    },
+    {
+      "member": "results/A3_K005_A4_SUMMARIES/state03_F15.npz",
+      "sha256": "70754f3e392880e04f708fc3005cc280a15bc08cfee7344fb405c9d16547dc4b",
+      "original_stageD_scored_sha256": "93b8b63c5e91630981b1b5a9977eec0892e419610d5dd350bb57a5af3f2f199f",
+      "original_stageD_outer_sha256": "086dae40e37fe39f516facd8c02385bbe1cb7198c6fe19bf3c76818df336f7ec"
+    },
+    {
+      "member": "results/A3_K005_A4_SUMMARIES/state04_F03.npz",
+      "sha256": "322758b069a0442306a6833c21dc4f5fdcb657881b4b0710406e93a584b35f2d",
+      "original_stageD_scored_sha256": "d47f74a4f8bcdeef62dff17d7619c6a09be3362726279eadb50a76e1d19d7a8b",
+      "original_stageD_outer_sha256": "49d3fa16eccfd4489d22f139bcc98fd3e37868658da4558ef13aac27f2292197"
+    },
+    {
+      "member": "results/A3_K005_A4_SUMMARIES/state04_F15.npz",
+      "sha256": "8590a7a46e708d45e8289cf84806c4d8eb08bdcdc12c8968bdd18c241db3108a",
+      "original_stageD_scored_sha256": "4cbd26d22721454ac0660519b24d7825176e5d242679066274c8c875a4069ca2",
+      "original_stageD_outer_sha256": "8dffd76911ed6e15452cde199d380104cc4bf88651683069e5ecc07c7b457553"
+    },
+    {
+      "member": "results/A3_K005_A4_SUMMARIES/state05_F03.npz",
+      "sha256": "ff3464d76b5438a35a8c5a8e106d5f1579e9b7b426347d10031f323e2adf119d",
+      "original_stageD_scored_sha256": "83e19cadec2de5c32b062c7c0a5e05f07739e333efd568368731cb19d6b1bab3",
+      "original_stageD_outer_sha256": "c402640368d18408f70dc0f3d58c4eefa7839390caf58f78c01943bb0add65d2"
+    },
+    {
+      "member": "results/A3_K005_A4_SUMMARIES/state05_F15.npz",
+      "sha256": "d343ffcda61d0442d234d368effbac33e47fca198e00c5205bde19ffaccdfbf6",
+      "original_stageD_scored_sha256": "928d2346b6caed194df372b988e63a74974bf61714428a64853c131490271ca3",
+      "original_stageD_outer_sha256": "8ed0ed6323c0047167587982f38b303e219d6a3e4ce4584921a42333b388a3bb"
+    }
+  ],
+  "scope": "Original Validation 2 test panel, C1 and C3, five training replicates, each including 250 fault + 250 shared normal evaluation runs, with 259 outer calibration runs per frozen monitor. Fixed k=0.05. C2 is not in A3.",
+  "extraction": "Continuous prestep/160-record maximum and running post maxima of actual CUSUM statistic. 8h includes post offsets 0 through 160; 40h offsets 0 through 799. Detection=(pre_max<=h)&(post_max>h); FAR=normal48_max>h. No new simulation, refit, recalibration or score approximations.",
+  "replay": "For every role/run/model, exact equality of pre-crossing indicator and all 800 post running-crossing indicators to Stage D original alarm bits at h; exact penalized delays, original limits, outer peaks within 2e-11 relative/1e-10 absolute.",
+  "model_arms": 20,
+  "evaluation_rows": 10000,
+  "outer_calibration_rows": 5180,
+  "original_post_running_alarm_indicators_checked": 8000000,
+  "products_sha256": {
+    "run_peaks.csv": "7e24236d2868d0d8ba93b7c9be274e3c75dd94bf2e8c81b648b6e1019c97f92e",
+    "calibration_peaks.csv": "2706c07e91abd6ac7f3f23316aae1f4dd5b1bed3120d667c2136e9819bb3f421",
+    "original_points.csv": "cfb3e7090f17070a1145501bfe340b9f78185ff93e0547faa1c7ce62d8ac6c07"
+  }
+}

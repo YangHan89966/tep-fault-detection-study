@@ -1,0 +1,8 @@
+{
+  "rows": 136,
+  "source_sha256": "bdf9e99043693f34d9d7cd34970f8de7250b11e936287cc43fd2f265a4c4c6ef",
+  "original_source_modified": false,
+  "checks": "beta-quantile implementation agrees with independent binomtest inversion to 1e-10",
+  "all_success250_lower_percent": 98.53528113643196,
+  "macro_pooled_binomial_interval_created": false
+}

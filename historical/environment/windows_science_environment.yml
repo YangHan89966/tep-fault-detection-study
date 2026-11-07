@@ -1,0 +1,15 @@
+name: tep-windows-science
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.15
+  - numpy=2.4.6
+  - pandas=3.0.3
+  - scipy=1.17.1
+  - scikit-learn=1.8.0
+  - matplotlib=3.10.9
+  - joblib=1.5.3
+  - pillow=11.1.0
+
+# This file documents the exact successful scientific runtime.
+# Recreating it may require compatible channel availability or a lockfile generated at release time.

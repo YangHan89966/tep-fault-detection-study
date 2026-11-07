@@ -1,0 +1,44 @@
+{
+  "created_utc": "2026-11-05T02:27:26.778055+00:00",
+  "rep": "3",
+  "learned_on": {
+    "pca_normal": 78,
+    "normal_design": 40,
+    "normal_anchor": 32,
+    "normal_inner": 59,
+    "fault_fit": 100,
+    "fault_select": 75
+  },
+  "model_order": [
+    "M1_ci_moment_signed",
+    "M2_post_moment_signed",
+    "M3_ci_mean_signed",
+    "M4_post_mean_signed"
+  ],
+  "selected_indices": {
+    "native": {
+      "mean": 6,
+      "moment": 12
+    },
+    "snapshot": {
+      "mean": 7,
+      "moment": 10
+    }
+  },
+  "pca_components": {
+    "native": 36,
+    "snapshot": 35
+  },
+  "pca_variance_fraction": {
+    "native": 0.9510689434808698,
+    "snapshot": 0.9514180618159391
+  },
+  "support_rank": {
+    "native": 16,
+    "snapshot": 15
+  },
+  "fixed_B": "covariance over first120 sums/sqrt120 from 40 design runs",
+  "outer_evaluation_inputs_read": false,
+  "wrapper_sha256": "ba880a7e5a7ab8ebe93325df21d5f014a8e6526e883940a5f8dd649549b1410d",
+  "source_binding_sha256": "c5b95ccdd8d61e943f5e054cb2b06816068e2eec1f0882c0132cd06faf287dff"
+}

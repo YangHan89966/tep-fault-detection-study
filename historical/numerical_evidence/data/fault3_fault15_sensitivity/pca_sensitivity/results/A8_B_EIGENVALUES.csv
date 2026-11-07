@@ -1,0 +1,2 @@
+﻿state,metric,minimum_eigenvalue,maximum_eigenvalue,condition_number
+1,PCA500_swap,0.17142663136848266,14.267484331114812,83.22793382346038

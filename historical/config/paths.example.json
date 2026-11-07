@@ -1,0 +1,6 @@
+{
+  "TEP_FaultFree_Training.RData": "data/raw/TEP_FaultFree_Training.RData",
+  "TEP_FaultFree_Testing.RData": "data/raw/TEP_FaultFree_Testing.RData",
+  "TEP_Faulty_Training.RData": "data/raw/TEP_Faulty_Training.RData",
+  "TEP_Faulty_Testing.RData": "data/raw/TEP_Faulty_Testing.RData"
+}

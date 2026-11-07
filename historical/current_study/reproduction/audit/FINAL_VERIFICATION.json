@@ -1,0 +1,40 @@
+{
+  "scope": "AUTHOR_SOURCE_AND_NUMERICAL_CHECKS_NOT_INDEPENDENT_SCIENCE",
+  "utc": "2026-09-06T18:26:51.353492+00:00",
+  "input_hashes": 4,
+  "unchanged_inherited_supporting_files": 156,
+  "v15_docx_unchanged": 2,
+  "fresh_reproduction": {
+    "D2": {
+      "byte_equal_csvs": 5,
+      "equal_npz_arrays": 6,
+      "equal_elements": 3823215
+    },
+    "D4": {
+      "byte_equal_csvs": 3,
+      "equal_npz_arrays": 35,
+      "equal_elements": 1710180
+    }
+  },
+  "D2_integer_metrics_recomputed": 36000,
+  "D2_factorial_identities": 90,
+  "D3_selection_and_aggregate_checks": 1332,
+  "D4_integer_and_interval_checks": 255,
+  "supplementary_CP_display_cells": 68,
+  "unchanged_prior_table_bodies": 32,
+  "tables_checked": 43,
+  "table_cells_matched": 2575,
+  "SI_table_font_uniform": [
+    [
+      "Times New Roman",
+      9.0
+    ]
+  ],
+  "versions": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "python_docx": "1.2.0"
+  },
+  "result": "PASS_AUTHOR_SOURCE_AND_NUMERICAL_CHECKS"
+}

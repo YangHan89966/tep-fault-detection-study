@@ -1,0 +1,346 @@
+[
+  {
+    "document": "Main",
+    "key": "MAIN1",
+    "caption": "Table 1. Three TEP evidence layers, with no pooling across their roles.",
+    "source": "Final scientific specification; v1.4 §§2.5,2.8–2.9",
+    "rows": 3,
+    "columns": 4
+  },
+  {
+    "document": "Main",
+    "key": "MAIN2",
+    "caption": "Table 2. Prespecified new-seed endpoints for the four frozen procedures.",
+    "source": "S24_NEWSEED_MACRO_ENDPOINTS_AND_INTERVALS.csv",
+    "rows": 4,
+    "columns": 4
+  },
+  {
+    "document": "Main",
+    "key": "MAIN3",
+    "caption": "Table 3. Same-axis expression controls on the fixed signed-selected direction.",
+    "source": "S27_READING_PRIMARY_ALL20.csv",
+    "rows": 12,
+    "columns": 5
+  },
+  {
+    "document": "Main",
+    "key": "MAIN4",
+    "caption": "Table 4. Learning-target contrast with squared expression in both candidate pools.",
+    "source": "S29_READING_PRIMARY_SQUARED_ALL20.csv",
+    "rows": 7,
+    "columns": 7
+  },
+  {
+    "document": "Main",
+    "key": "MAIN5",
+    "caption": "Table 5. Fault-9 ordering intervention on the fixed new signed-winning axis.",
+    "source": "S31_PRIMARY_NEW_SIGNED_AXIS_ALL_TRANSFORMS.csv",
+    "rows": 4,
+    "columns": 5
+  },
+  {
+    "document": "Main",
+    "key": "MAIN7",
+    "caption": "Table 6. Crossed Fault-9 path order and normal-limit origin (D2).",
+    "source": "results/D2/FACTORIAL_SUMMARY.csv; filter block=1,family=signed",
+    "rows": 4,
+    "columns": 5
+  },
+  {
+    "document": "Main",
+    "key": "MAIN6",
+    "caption": "Table 7. Fault-18 withdrawal by native record phase in the new-seed assessment.",
+    "source": "S27_POSTHOC_SHUTDOWN_PHASE_OVERLAY.csv",
+    "rows": 4,
+    "columns": 5
+  },
+  {
+    "document": "SI",
+    "key": "SI1",
+    "caption": "Table S1. Endpoint and method dictionary.",
+    "source": "Final specification; S27/S29/S31 definitions",
+    "rows": 8,
+    "columns": 3
+  },
+  {
+    "document": "SI",
+    "key": "SI2",
+    "caption": "Table S2. Five coordinate-wise evidence families and boundary conventions.",
+    "source": "Accepted method_core.py; v1.4 historical definition",
+    "rows": 5,
+    "columns": 4
+  },
+  {
+    "document": "SI",
+    "key": "SI3",
+    "caption": "Table S3. Exact scope of the four new-seed construction procedures.",
+    "source": "Static inspection of accepted method_core.py; digest matched to Final scientific specification",
+    "rows": 4,
+    "columns": 4
+  },
+  {
+    "document": "SI",
+    "key": "SI4",
+    "caption": "Table S4. Frozen new-seed k and h by fault.",
+    "source": "accepted/state/fault_XX/METHOD_STATES.json",
+    "rows": 17,
+    "columns": 5
+  },
+  {
+    "document": "SI",
+    "key": "SI5",
+    "caption": "Table S5. Complete new-seed macro endpoint vector.",
+    "source": "S24_NEWSEED_MACRO_ENDPOINTS_AND_INTERVALS.csv",
+    "rows": 18,
+    "columns": 5
+  },
+  {
+    "document": "SI",
+    "key": "SI6",
+    "caption": "Table S6. Complete new-seed paired contrast vector.",
+    "source": "S25_NEWSEED_PAIRED_CONTRASTS.csv",
+    "rows": 18,
+    "columns": 4
+  },
+  {
+    "document": "SI",
+    "key": "SI7",
+    "caption": "Table S7. Per-fault new-seed primary endpoint: normal run FAR (%).",
+    "source": "S26_NEWSEED_PER_FAULT_ENDPOINTS_AND_INTERVALS.csv",
+    "rows": 17,
+    "columns": 5
+  },
+  {
+    "document": "SI",
+    "key": "SI8",
+    "caption": "Table S8. Per-fault 60-minute detection counts and supplementary binomial intervals.",
+    "source": "results/INTERVALS/PER_FAULT_BINOMIAL_SUPPLEMENT.csv (detection_60)",
+    "rows": 17,
+    "columns": 5
+  },
+  {
+    "document": "SI",
+    "key": "SI9",
+    "caption": "Table S9. Per-fault new-seed primary endpoint: penalized mean delay (min).",
+    "source": "S26_NEWSEED_PER_FAULT_ENDPOINTS_AND_INTERVALS.csv",
+    "rows": 17,
+    "columns": 5
+  },
+  {
+    "document": "SI",
+    "key": "SI10",
+    "caption": "Table S10. Full 20-fault fixed-axis comparison: success (%).",
+    "source": "S27_READING_PRIMARY_ALL20.csv",
+    "rows": 20,
+    "columns": 5
+  },
+  {
+    "document": "SI",
+    "key": "SI11",
+    "caption": "Table S11. Full 20-fault fixed-axis comparison: penalized mean loss (min).",
+    "source": "S27_READING_PRIMARY_ALL20.csv",
+    "rows": 20,
+    "columns": 5
+  },
+  {
+    "document": "SI",
+    "key": "SI12",
+    "caption": "Table S12. Full 20-fault fixed-axis comparison: normal FAR (%).",
+    "source": "S27_READING_PRIMARY_ALL20.csv",
+    "rows": 20,
+    "columns": 5
+  },
+  {
+    "document": "SI",
+    "key": "SI13",
+    "caption": "Table S13. Learning-target comparison across all 20 faults: success (%).",
+    "source": "S29_READING_PRIMARY_SQUARED_ALL20.csv",
+    "rows": 20,
+    "columns": 5
+  },
+  {
+    "document": "SI",
+    "key": "SI14",
+    "caption": "Table S14. Learning-target comparison across all 20 faults: mean loss (min).",
+    "source": "S29_READING_PRIMARY_SQUARED_ALL20.csv",
+    "rows": 20,
+    "columns": 5
+  },
+  {
+    "document": "SI",
+    "key": "SI15",
+    "caption": "Table S15. Learning-target comparison across all 20 faults: normal FAR (%).",
+    "source": "S29_READING_PRIMARY_SQUARED_ALL20.csv",
+    "rows": 20,
+    "columns": 5
+  },
+  {
+    "document": "SI",
+    "key": "SI16",
+    "caption": "Table S16. All 20 learning-target paired differences for squared evidence.",
+    "source": "S29_READING_PRIMARY_SQUARED_ALL20.csv",
+    "rows": 20,
+    "columns": 5
+  },
+  {
+    "document": "SI",
+    "key": "SI17",
+    "caption": "Table S17. Counterexamples retained in the interpretation.",
+    "source": "S27/S29 complete returned results; S30/S31 fixed new signed-winning axis reference, D01 run 179",
+    "rows": 8,
+    "columns": 3
+  },
+  {
+    "document": "SI",
+    "key": "SI18",
+    "caption": "Table S18. Fixed Fault-9 signed-winning direction: normal and fault temporal summaries.",
+    "source": "S31_COVARIANCE_RATIOS_SUMMARY.csv",
+    "rows": 6,
+    "columns": 5
+  },
+  {
+    "document": "SI",
+    "key": "SI19",
+    "caption": "Table S19. Fixed Fault-9 signed-winning axis: original thresholds.",
+    "source": "S31_PRIMARY_NEW_SIGNED_AXIS_ALL_TRANSFORMS.csv",
+    "rows": 12,
+    "columns": 6
+  },
+  {
+    "document": "SI",
+    "key": "SI20",
+    "caption": "Table S20. Fixed Fault-9 signed-winning axis: matched-order normal limits.",
+    "source": "S31_PRIMARY_NEW_SIGNED_AXIS_ALL_TRANSFORMS.csv",
+    "rows": 12,
+    "columns": 6
+  },
+  {
+    "document": "SI",
+    "key": "SI21",
+    "caption": "Table S21. Boundary-state diagnostic using original limits.",
+    "source": "D1_boundary_reset/SUMMARY.csv",
+    "rows": 6,
+    "columns": 6
+  },
+  {
+    "document": "SI",
+    "key": "SI22",
+    "caption": "Table S22. Boundary-state diagnostic using matched-reset normal limits.",
+    "source": "D1_boundary_reset/SUMMARY.csv",
+    "rows": 6,
+    "columns": 6
+  },
+  {
+    "document": "SI",
+    "key": "SI23",
+    "caption": "Table S23. Boundary-reset paired mean-loss changes.",
+    "source": "D1_boundary_reset/PAIRED.csv",
+    "rows": 6,
+    "columns": 6
+  },
+  {
+    "document": "SI",
+    "key": "SI24",
+    "caption": "Table S24. New-seed native record-phase overlay for all shutdown-affected faults.",
+    "source": "S27_POSTHOC_SHUTDOWN_PHASE_OVERLAY.csv",
+    "rows": 16,
+    "columns": 7
+  },
+  {
+    "document": "SI",
+    "key": "SI25",
+    "caption": "Table S25. Historical seven-method results: compact, unranked operating summary.",
+    "source": "v14_table_archive/main/table_003.csv",
+    "rows": 7,
+    "columns": 6
+  },
+  {
+    "document": "SI",
+    "key": "SI26",
+    "caption": "Table S26. Historical family simplification with a reconciled full-panel denominator.",
+    "source": "v14_table_archive/si/table_013.csv;table_017.csv;LEGACY_AGGREGATE_RECONCILIATION.csv",
+    "rows": 4,
+    "columns": 7
+  },
+  {
+    "document": "SI",
+    "key": "SI27",
+    "caption": "Table S27. Legacy-final Fault-18 fixed-coordinate × expression control.",
+    "source": "v14_table_archive/main/table_005.csv",
+    "rows": 4,
+    "columns": 6
+  },
+  {
+    "document": "SI",
+    "key": "SI28",
+    "caption": "Table S28. Legacy-final Fault-3 direction and same-coordinate magnitude controls.",
+    "source": "v14_table_archive/main/table_006.csv",
+    "rows": 5,
+    "columns": 5
+  },
+  {
+    "document": "SI",
+    "key": "SI29",
+    "caption": "Table S29. Other historical analyses and their retained boundaries.",
+    "source": "v1.4 historical results and complete table archive",
+    "rows": 6,
+    "columns": 3
+  },
+  {
+    "document": "SI",
+    "key": "SI30",
+    "caption": "Table S30. Fault-9 I-based fixed extrema: expression comparison (D3).",
+    "source": "results/D3/FIXED_EXTREMA_SUMMARY.csv",
+    "rows": 6,
+    "columns": 5
+  },
+  {
+    "document": "SI",
+    "key": "SI31",
+    "caption": "Table S31. Fault-9 two-extremum selection within each normal metric (D3).",
+    "source": "results/D3/WITHIN_METRIC_SUMMARY.csv",
+    "rows": 12,
+    "columns": 6
+  },
+  {
+    "document": "SI",
+    "key": "SI32",
+    "caption": "Table S32. Point-permutation path × threshold factorial for all three expressions (D2).",
+    "source": "results/D2/FACTORIAL_SUMMARY.csv",
+    "rows": 12,
+    "columns": 6
+  },
+  {
+    "document": "SI",
+    "key": "SI33",
+    "caption": "Table S33. Signed-loss factorial contrasts: no unique percentage attribution (D2).",
+    "source": "results/D2/INTERACTION_SUMMARY.csv",
+    "rows": 6,
+    "columns": 4
+  },
+  {
+    "document": "SI",
+    "key": "SI34",
+    "caption": "Table S34. All fixed Gaussian AR(1) scenarios: success / penalized delay in samples (D4).",
+    "source": "results/D4/ALL_SCENARIOS.csv",
+    "rows": 17,
+    "columns": 6
+  },
+  {
+    "document": "SI",
+    "key": "SI35",
+    "caption": "Table S35. Gaussian-model normal calibration and separate normal evaluation (D4).",
+    "source": "results/D4/NORMAL_EVALUATION.csv",
+    "rows": 9,
+    "columns": 4
+  },
+  {
+    "document": "SI",
+    "key": "SI36",
+    "caption": "Table S36. Nearest methodological precedents and the restricted claims retained here.",
+    "source": "notes/LITERATURE_SOURCE_CHECK.md",
+    "rows": 3,
+    "columns": 3
+  }
+]

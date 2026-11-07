@@ -1,0 +1,17 @@
+﻿candidate_index,pool,source_labels,loss_samples_total,mean_loss_minutes,prefault_alarm_n,clean_n,selected
+0,mean,unweighted_original_merge,59879,2395.16,0,1,False
+1,mean,shrink50_original_merge,59534,2381.36,0,2,False
+2,mean,shrink10_original_merge,56019,2240.76,0,11,False
+3,mean,raw_original_merge,38330,1533.2,0,48,False
+4,mean,unweighted_complementary_merge,60000,2400.0,0,0,False
+5,mean,shrink50_complementary_merge,60000,2400.0,0,0,False
+6,mean,shrink10_complementary_merge,53399,2135.96,0,17,False
+7,mean,raw_complementary_merge,36359,1454.36,0,56,True
+8,moment,unweighted_max,34287,1371.48,0,60,False
+9,moment,shrink50_max,19443,777.72,0,72,False
+10,moment,shrink10_max,13077,523.08,0,75,False
+11,moment,raw_max,10679,427.16,0,75,True
+12,moment,unweighted_min,59849,2393.96,0,1,False
+13,moment,shrink50_min,59778,2391.12,0,2,False
+14,moment,shrink10_min,59039,2361.56,0,4,False
+15,moment,raw_min,59249,2369.96,0,2,False

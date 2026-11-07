@@ -1,0 +1,31 @@
+{
+  "status": "PASS_F15_FROZEN_REPLAY_AND_RISK_TIME_SENSITIVITY",
+  "protocol_id": "TEP_F15_RISK_TIME_POSTFREEZE_v1.0",
+  "scope": "fixed-state post-freeze F15 threshold sensitivity",
+  "python": "3.12.3",
+  "numpy": "2.2.6",
+  "simulation": false,
+  "refit": false,
+  "k_changed": false,
+  "network": false,
+  "software_installed": false,
+  "original_results_replaced": false,
+  "all_26_ranks_retained": true,
+  "raw_archive_mode": false,
+  "real_data_execution_report": true,
+  "threshold_grid_fixed_before_test_read": true,
+  "baseline_status": "PASS_F15_ALL9_ORIGINAL_MASKS_AND_EVENTS",
+  "original_alarm_bits_compared": 4320000,
+  "raw_trajectories_read": 791,
+  "method_rank_rows": 52,
+  "contrast_rows": 260,
+  "input_files_rechecked": 1582,
+  "elapsed_seconds": 98.44472952299999,
+  "publication_redaction": {
+    "removed_fields": [
+      "executable",
+      "new_output_directory"
+    ],
+    "reason": "Host-specific paths omitted; all numerical and status fields retained."
+  }
+}

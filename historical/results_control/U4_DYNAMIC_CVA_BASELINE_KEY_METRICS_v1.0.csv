@@ -1,0 +1,4 @@
+method_key,method_short,n_faults,macro_mean_normal_run_far,macro_mean_run_detection,macro_mean_post_fault_threshold_occupancy,macro_median_delay_min,macro_mean_all_run_penalized_delay_min,macro_mean_detection_within_15_min,macro_mean_detection_within_30_min,macro_mean_detection_within_60_min,macro_mean_detection_within_120_min
+frozen_multievidence_top5_cusum,Proposed Top-5,17,0.0437647058823529,1.0,0.9535488235294116,48.0,67.9115294117647,0.2830588235294117,0.3830588235294118,0.5644705882352942,0.8134117647058823
+cva_rr_q_residual_cusum,CVA-RR Q,17,0.052235294117647,0.987058823529412,0.906709705882353,48.0,216.89505882352944,0.332,0.4534117647058823,0.6007058823529412,0.7188235294117646
+cva_rr_l1_residual_cusum,CVA-RR L1,17,0.0463529411764705,0.9882352941176472,0.9080858823529412,48.0,212.68941176470585,0.3129411764705883,0.4498823529411765,0.5981176470588236,0.7190588235294116

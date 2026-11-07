@@ -1,0 +1,17 @@
+Fault,Monitor,Post-fault sample-level detection (%) [95% interval],Normal sample-level FAR (%),40 h clean detection (%),Normal run-level FAR (%)
+3,"Full-pool monitor: mean-shift pool, Signed","72.98 [71.98, 73.96]",0.34,100.0,6.3
+,"Same direction, Squared (C1 comparator)","3.37 [2.38, 4.49]",0.45,20.5,4.2
+,"Identity-metric restriction, Signed","50.25 [48.00, 52.48]",0.78,97.3,4.9
+,"FDA-CUSUM, Signed","50.45 [48.22, 52.66]",0.76,97.5,5.0
+,Q-CUSUM,"1.50 [0.70, 2.46]",0.72,8.1,4.9
+9,"Full-pool monitor: second-moment pool, Signed","0.91 [0.65, 1.21]",0.42,8.7,5.0
+,"Mean-shift pool, Signed (C2 comparator)","0.98 [0.67, 1.32]",0.73,7.6,6.9
+,"Identity-metric restriction, Signed","0.58 [0.38, 0.80]",0.51,5.8,6.2
+,"FDA-CUSUM, Signed","0.52 [0.28, 0.81]",1.08,4.4,6.1
+,Q-CUSUM,"1.85 [0.99, 2.89]",0.72,12.4,4.9
+15,"Full-pool monitor: second-moment pool, Squared","26.97 [24.16, 29.83]",0.35,72.9,4.2
+,"Mean-shift pool, Squared (C3 comparator)","4.95 [4.06, 5.88]",0.72,21.4,6.4
+,"Identity-metric restriction, Squared","22.65 [19.82, 25.58]",0.82,65.9,5.4
+,"Variance-ratio reference, Squared","22.93 [20.07, 25.88]",0.80,66.3,5.6
+,"FDA-CUSUM, Signed","1.10 [0.53, 1.79]",1.10,7.5,6.6
+,Q-CUSUM,"4.62 [3.00, 6.46]",0.72,17.6,4.9

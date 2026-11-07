@@ -1,0 +1,12 @@
+{
+    "script": "scripts/03_pca_baseline_fault3.py",
+    "pca_cumvar_target": 0.95,
+    "run_level_percentile": 95,
+    "fault_start_sample": 161,
+    "sampling_interval_min": 3,
+    "selected_n_pcs": 36,
+    "cumulative_explained_variance": 0.9581997268001302,
+    "Q_limit": 11.399688441581171,
+    "T2_limit": 77.17348291257984,
+    "representative_run_for_fig1": 252
+}

@@ -1,0 +1,40 @@
+{
+    "script": "scripts/05_local_signed_cusum.py",
+    "fault_id": 3,
+    "fault_start_sample": 161,
+    "sampling_interval_min": 3,
+    "pca_cumvar_target": 0.95,
+    "selected_n_pcs": 36,
+    "cumulative_explained_variance": 0.9581997268001302,
+    "selected_variables": [
+        "xmeas_21",
+        "xmeas_2",
+        "xmv_1",
+        "xmv_10",
+        "xmeas_9"
+    ],
+    "selected_residual_variables": [
+        "res_xmeas_21",
+        "res_xmeas_2",
+        "res_xmv_1",
+        "res_xmv_10",
+        "res_xmeas_9"
+    ],
+    "selected_signs": [
+        -1,
+        -1,
+        -1,
+        1,
+        -1
+    ],
+    "local_signed_residual_standardization": "mean and std estimated from normal_validation_runs_1_250",
+    "cusum_k": 0.05,
+    "cusum_control_limit_source": "normal_validation_runs_1_250",
+    "run_level_percentile": 95,
+    "cusum_control_limit": 26.651487151553276,
+    "normal_evaluation_data": "normal_evaluation_runs_251_500.pkl",
+    "fault3_final_test_data": "fault3_final_test_runs_251_500.pkl",
+    "representative_run_for_fig3": 258,
+    "representative_first_alarm_sample": 257,
+    "representative_alarm_delay_min": 288
+}

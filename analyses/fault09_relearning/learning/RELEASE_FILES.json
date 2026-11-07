@@ -1,0 +1,17 @@
+{
+  "pipeline.py": "ba880a7e5a7ab8ebe93325df21d5f014a8e6526e883940a5f8dd649549b1410d",
+  "README.md": "430bce7403e84cfe076c2328582538f769bd037d4d9190e392dd50865be113db",
+  "QA_HISTORICAL.json": "b5efde5ba9fa30ca30c993db6571bacdca0a23f89cd0993f9b635cf40abfeb17",
+  "QA_SYNTHETIC.json": "adff45718e30fa2dde2bf897dace3a4209e464a5757ae9063c9956bc99b65ff7",
+  "verify_history.py": "a252c7f76909fd90469cba3a56cac3a93ea61ba516f4a11d757b1f29b0aa54e1",
+  "verify_synthetic.py": "39cc1005ddff7c84f090471b768295e283f53471b9a28929e3b628bc4a96b29c",
+  "vendor/common.py": "63dba4e34c7028726317f128cc2e4541f81944485ba8fd434372988a59d1f911",
+  "vendor/existing_data.py": "a00c5c0247ec084e26174a6d3713a6b1e7ba1945a438cd16e412ae1188030324",
+  "vendor/inherited_dim.py": "12f87f95b45573e4a64cf1f006ce034bc8abec6b19208aabacfb242163e0dafd",
+  "vendor/normal_support.py": "546d1d484b073a14ec8666489c175b6d716191a980dc1f49a7e75ef6da5f59d8",
+  "vendor/relearning_core.py": "b4c326591e5e96b4047bb4533e65686a514f2d44c9460bb81c5cf945a7053686",
+  "vendor/standard_core.py": "54988ed7dc133af78a2326fb2b40a9f66f2ea6fc11702460bae220cb9b73d69a",
+  "assets/HISTORICAL_PROTOCOL.json": "264dfb33d9f77e7159a686997768fcca2b042cde6cbb22187a694f46ddf222af",
+  "assets/PCA_BY_VIEW.npz": "851e753ef45fe397e246270fe6634e49c4a4c3980b81f89caf762b8e338eb015",
+  "assets/SOURCE_BINDING.json": "c5b95ccdd8d61e943f5e054cb2b06816068e2eec1f0882c0132cd06faf287dff"
+}

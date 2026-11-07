@@ -1,0 +1,52 @@
+{
+  "status": "PASS_FINAL_GATE_REVIEW",
+  "decision": "Both requested gate followups are closed; scientific construction remains accepted",
+  "no_scientific_scores_read": true,
+  "read_only_frozen_code_review": true,
+  "closed_items": {
+    "evaluation_requires_verified_calibration_lock": {
+      "status": "CLOSED",
+      "evidence": "main calls verify_lock before evaluating, binding study/protocol/code/manifest/analysis-code/parameters; verifies 199 ordered manifest identities, all calibration input hashes, calibration artifact hash, six finite thresholds and equality with the verified calibration artifact, and passing original calibration reference identities"
+    },
+    "cached_evaluation_binds_generation_threshold_lock": {
+      "status": "CLOSED",
+      "evidence": "job checks supplied threshold hash against the existing threshold file before cache access; cached report must match current score/code/protocol hashes and threshold_lock_sha256_at_generation"
+    }
+  },
+  "frozen_source_identity_checks": {
+    "code/run_coupling.py": true,
+    "code/analyze_coupling.py": true,
+    "code/recover_noise.py": true,
+    "code/score_core.py": true,
+    "assets/FIXED_AFFINE_MAPS.npz": true,
+    "reference/FILE_MANIFEST.csv": true,
+    "reference/MANIFEST.csv": true,
+    "reference/THRESHOLDS_LOCK.json": true,
+    "reference/per_run_events.csv": true,
+    "PROTOCOL.json": true,
+    "PROTOCOL_LOCK.json": true,
+    "MANIFEST.csv": true,
+    "checks/FULL48_NOISE_CAPTURE_VALIDATION.json": true
+  },
+  "synthetic_gate_tests": "FINAL_GATE_TESTS.json",
+  "synthetic_gate_test_count": 17,
+  "synthetic_gate_test_status": "PASS_FINAL_GATES_SYNTHETIC",
+  "portable_wrapper": {
+    "file": "run_synthetic_portable.py",
+    "intended_package_location": "audit/run_synthetic_portable.py",
+    "usage": "python audit/run_synthetic_portable.py --root /absolute/path/to/unpacked/package",
+    "method": "Verify frozen test/code/input identities, redirect only ROOT and OUT AST assignments in memory, execute unchanged frozen test without editing it",
+    "relocated_package_test": "PASS",
+    "report": "portable_synthetic_output/PORTABLE_WRAPPER_REVIEW.json",
+    "does_not_overwrite_frozen_report": true
+  },
+  "reviewed_sha256": {
+    "code/run_coupling.py": "c5c14d45ebc617d09f77ce5cb9f458742f78ff41f003d3deda65264dac03c157",
+    "code/analyze_coupling.py": "5fd729057e3712860bb6c8e6e4a93a8f4675ea580f9057059f6387ab221a7615",
+    "CODE_LOCK.json": "cde66c86832bc7253c295cd28022837ec5ea26ed5f2d4ac56b7f889c6657b22b"
+  },
+  "limits": [
+    "Threshold-lock review and tests use synthetic fixtures only; actual calibration and evaluation results were not inspected",
+    "No alteration to any frozen root file or earlier review report"
+  ]
+}

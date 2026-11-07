@@ -1,0 +1,4 @@
+Contrast (same A − B as Table S10),FAR difference (pp),95% marginal interval (pp)
+C1 / F3: same-direction Squared − Signed,+1.20,"[−2.00, 4.40]"
+"C2 / F9: moment − mean, Signed",−1.20,"[−4.80, 2.40]"
+"C3 / F15: moment − mean, Squared",+4.80,"[0.80, 8.80]"

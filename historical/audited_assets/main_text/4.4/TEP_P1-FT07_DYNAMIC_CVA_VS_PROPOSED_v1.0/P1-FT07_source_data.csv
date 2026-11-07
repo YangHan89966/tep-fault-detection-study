@@ -1,0 +1,13 @@
+record_type,fault_id,method_key,method_short,n_faults,normal_far_pct,det15_pct,det30_pct,det60_pct,det120_pct,full_detection_pct,occupancy_pct,macro_median_delay_min,mean_allrun_penalized_delay_min,detected_runs,holm_significant_dynamic_contrasts
+macro,,frozen_multievidence_top5_cusum,Proposed Top-5,17,4.37647058823529,28.30588235294117,38.305882352941175,56.44705882352942,81.34117647058822,100.0,95.35488235294116,48.0,67.9115294117647,,0
+macro,,cva_rr_q_residual_cusum,CVA-RR Q,17,5.2235294117647,33.2,45.34117647058823,60.07058823529412,71.88235294117646,98.7058823529412,90.6709705882353,48.0,216.89505882352944,,0
+macro,,cva_rr_l1_residual_cusum,CVA-RR L1,17,4.63529411764705,31.294117647058826,44.98823529411765,59.81176470588237,71.90588235294116,98.82352941176472,90.80858823529412,48.0,212.68941176470585,,0
+notable_fault,10,frozen_multievidence_top5_cusum,Proposed Top-5,,,0.0,0.0,5.2,46.0,100.0,94.548,,130.848,250,
+notable_fault,10,cva_rr_q_residual_cusum,CVA-RR Q,,,0.0,0.0,0.0,0.0,97.2,49.476000000000006,,1167.528,243,
+notable_fault,10,cva_rr_l1_residual_cusum,CVA-RR L1,,,0.0,0.0,0.0,0.0,97.6,52.569,,1087.212,244,
+notable_fault,16,frozen_multievidence_top5_cusum,Proposed Top-5,,,0.0,0.0,18.8,83.6,100.0,96.327,,88.116,250,
+notable_fault,16,cva_rr_q_residual_cusum,CVA-RR Q,,,0.0,0.0,0.0,0.0,80.80000000000001,30.213,,1613.16,202,
+notable_fault,16,cva_rr_l1_residual_cusum,CVA-RR L1,,,0.0,0.0,0.0,0.0,82.39999999999999,29.859,,1616.616,206,
+notable_fault,18,frozen_multievidence_top5_cusum,Proposed Top-5,,,0.0,0.0,2.8000000000000003,24.4,100.0,61.821000000000005,,175.944,250,
+notable_fault,18,cva_rr_q_residual_cusum,CVA-RR Q,,,0.0,0.0,4.8,29.2,100.0,92.8485,,170.916,250,
+notable_fault,18,cva_rr_l1_residual_cusum,CVA-RR L1,,,0.0,0.0,4.8,29.599999999999998,100.0,92.8125,,172.032,250,

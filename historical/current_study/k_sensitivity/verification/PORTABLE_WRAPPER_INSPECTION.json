@@ -1,0 +1,12 @@
+{
+  "source_and_asset_files_verified": 120,
+  "raw_trajectories_included": false,
+  "runtime_raw_replay_verified": false,
+  "frozen_models_and_input_hash_indexes_included": true,
+  "required_trajectory_counts": {
+    "N_fixed_k": 4750,
+    "N_with_auto_k": 9000,
+    "DV_fixed_k": 1291,
+    "DV_with_auto_k": 1575
+  }
+}

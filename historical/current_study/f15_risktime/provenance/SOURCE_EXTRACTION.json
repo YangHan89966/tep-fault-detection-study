@@ -1,0 +1,76 @@
+{
+  "source_archive_filename": "TEP_F15_RiskTime_v1.0.pyz",
+  "source_archive_sha256": "1c84f15fcea1e061e61e31ceb176914225653f69fdb46d1a5e0f8cd88a5f41e1",
+  "source_runner_sha256": "d9f02d6070145b58ca8d7babed642c751f4ac97ae92bf45cff064318f69eb386",
+  "frozen_core_byte_identical": true,
+  "extracted_functions": [
+    {
+      "function": "putj",
+      "original_member": "runner.py",
+      "original_lines": [
+        27,
+        28
+      ],
+      "sha256_extracted_block": "3c04f0fc081140ad654599dba28d37b23e0d518dd47c36460297672cdd9d9bfb"
+    },
+    {
+      "function": "putcsv",
+      "original_member": "runner.py",
+      "original_lines": [
+        29,
+        34
+      ],
+      "sha256_extracted_block": "061d7f2db105b86f9781682103fc1194948d435ae7633a019982081e6718f6f1"
+    },
+    {
+      "function": "putnpz",
+      "original_member": "runner.py",
+      "original_lines": [
+        35,
+        36
+      ],
+      "sha256_extracted_block": "fff607791c12ee9b983baf8fb921e3166298e8c469010d28b5fd79f0cce8ab2c"
+    },
+    {
+      "function": "cp",
+      "original_member": "runner.py",
+      "original_lines": [
+        122,
+        123
+      ],
+      "sha256_extracted_block": "fd8305b34a587d5f92b50bd350207f69a606b3bd25467003198b15b87bce2479"
+    },
+    {
+      "function": "event_metrics",
+      "original_member": "runner.py",
+      "original_lines": [
+        124,
+        132
+      ],
+      "sha256_extracted_block": "d07b7a81b89fc1cc49b9b61d2d94ad22d6869b6adbeca02efd8cb2dcca852bec"
+    },
+    {
+      "function": "bootstrap_differences",
+      "original_member": "runner.py",
+      "original_lines": [
+        134,
+        142
+      ],
+      "sha256_extracted_block": "dbe7078680787d1722285f16d62508c052c2034781e948d9e58397cb2da57440"
+    },
+    {
+      "function": "sensitivity",
+      "original_member": "runner.py",
+      "original_lines": [
+        144,
+        188
+      ],
+      "sha256_extracted_block": "b3cc47161c9734c3a49bcc471964960ba24ee0371fa4f55f90eff42ff76544ad"
+    }
+  ],
+  "omitted": [
+    "Machine-specific __main__.py launcher",
+    "RawReader, CLI, host paths, execution wrapper and output archive workflow"
+  ],
+  "note": "Numerical function bodies are unchanged. Portable imports and a module docstring have been added; the original runner itself is not redistributed."
+}

@@ -1,0 +1,214 @@
+{
+  "residual_dimension": 16,
+  "effective_dimension": 16,
+  "normal_support_rule": "original normal-only eigenfloor support; authorized v1.1 amendment",
+  "mean_count": 8,
+  "moment_count": 8,
+  "mean_labels": [
+    [
+      "unweighted_original_merge"
+    ],
+    [
+      "shrink50_original_merge"
+    ],
+    [
+      "shrink10_original_merge"
+    ],
+    [
+      "raw_original_merge"
+    ],
+    [
+      "unweighted_complementary_merge"
+    ],
+    [
+      "shrink50_complementary_merge"
+    ],
+    [
+      "shrink10_complementary_merge"
+    ],
+    [
+      "raw_complementary_merge"
+    ]
+  ],
+  "moment_labels": [
+    [
+      "unweighted_max"
+    ],
+    [
+      "shrink50_max"
+    ],
+    [
+      "shrink10_max"
+    ],
+    [
+      "raw_max"
+    ],
+    [
+      "unweighted_min"
+    ],
+    [
+      "shrink50_min"
+    ],
+    [
+      "shrink10_min"
+    ],
+    [
+      "raw_min"
+    ]
+  ],
+  "mean_diagnostics": [
+    {
+      "recipe": "unweighted",
+      "original_relative_sign": 1,
+      "weighted_inner_product": 0.003984084061541401,
+      "ridge_alpha": 0.0001,
+      "rho_original_units": 1.626111570709071e-05,
+      "normal_metric_trace": 2.6017785131345135,
+      "regularized_min_eigenvalue": 0.0013353005169302013,
+      "raw_dimensional_rank": 16,
+      "coordinate_formula_max_relative_error": 9.839770343467485e-15,
+      "RAW_arbitrary_rescaling_relative_error": 0.0,
+      "normalized_gain_guarantee": "NOT_CLAIMED; measured later"
+    },
+    {
+      "recipe": "shrink50",
+      "original_relative_sign": 1,
+      "weighted_inner_product": 0.00138832675427437,
+      "ridge_alpha": 0.0001,
+      "rho_original_units": 3.9664206078971465e-05,
+      "normal_metric_trace": 6.346272972635434,
+      "regularized_min_eigenvalue": 0.001832269357342827,
+      "raw_dimensional_rank": 16,
+      "coordinate_formula_max_relative_error": 7.475754524803031e-15,
+      "RAW_arbitrary_rescaling_relative_error": 0.0,
+      "normalized_gain_guarantee": "NOT_CLAIMED; measured later"
+    },
+    {
+      "recipe": "shrink10",
+      "original_relative_sign": 1,
+      "weighted_inner_product": 0.0019138835366141853,
+      "ridge_alpha": 0.0001,
+      "rho_original_units": 4.41321782403603e-05,
+      "normal_metric_trace": 7.061148518457648,
+      "regularized_min_eigenvalue": 0.000878065144093503,
+      "raw_dimensional_rank": 16,
+      "coordinate_formula_max_relative_error": 6.088387912856927e-14,
+      "RAW_arbitrary_rescaling_relative_error": 0.0,
+      "normalized_gain_guarantee": "NOT_CLAIMED; measured later"
+    },
+    {
+      "recipe": "raw",
+      "original_relative_sign": 1,
+      "weighted_inner_product": 0.0026312668552229586,
+      "ridge_alpha": 0.0001,
+      "rho_original_units": 4.524917128070751e-05,
+      "normal_metric_trace": 7.239867404913202,
+      "regularized_min_eigenvalue": 0.0005960076015331708,
+      "raw_dimensional_rank": 16,
+      "coordinate_formula_max_relative_error": 1.9764130575933056e-14,
+      "RAW_arbitrary_rescaling_relative_error": 5.1005812708639884e-14,
+      "normalized_gain_guarantee": "NOT_CLAIMED; measured later"
+    }
+  ],
+  "moment_diagnostics": [
+    {
+      "recipe": "unweighted",
+      "extreme": "max",
+      "generalized_eigenvalue": 0.11679124061644913,
+      "next_eigenvalue_gap": 0.05127564477810405,
+      "eigengap_relative": 0.439036733469567,
+      "generalized_residual_relative": 1.0978041796636767e-15,
+      "ridge_rho_original": 1.626111570709071e-05,
+      "actual_normal_variance": 1.0000000000000002,
+      "moment_change": 0.1169160232354296,
+      "normal_metric_denominator": 1.0010684244667831
+    },
+    {
+      "recipe": "unweighted",
+      "extreme": "min",
+      "generalized_eigenvalue": -0.05074075703404456,
+      "next_eigenvalue_gap": 0.01789590039734109,
+      "eigengap_relative": 0.1532298167472381,
+      "generalized_residual_relative": 6.138465616972659e-16,
+      "ridge_rho_original": 1.626111570709071e-05,
+      "actual_normal_variance": 1.0,
+      "moment_change": -0.050919521504253024,
+      "normal_metric_denominator": 1.0035230942669713
+    },
+    {
+      "recipe": "shrink50",
+      "extreme": "max",
+      "generalized_eigenvalue": 0.06082791781972016,
+      "next_eigenvalue_gap": 0.024655778695428253,
+      "eigengap_relative": 0.4053365556339157,
+      "generalized_residual_relative": 2.2535851433403495e-16,
+      "ridge_rho_original": 3.9664206078971465e-05,
+      "actual_normal_variance": 1.0,
+      "moment_change": 0.10248993917529688,
+      "normal_metric_denominator": 1.6849161182707801
+    },
+    {
+      "recipe": "shrink50",
+      "extreme": "min",
+      "generalized_eigenvalue": -0.0345070040010163,
+      "next_eigenvalue_gap": 0.01173425827101961,
+      "eigengap_relative": 0.1929090899642041,
+      "generalized_residual_relative": 2.6010589198233863e-16,
+      "ridge_rho_original": 3.9664206078971465e-05,
+      "actual_normal_variance": 1.0000000000000002,
+      "moment_change": -0.04894762429223433,
+      "normal_metric_denominator": 1.418483745815567
+    },
+    {
+      "recipe": "shrink10",
+      "extreme": "max",
+      "generalized_eigenvalue": 0.09219541177405262,
+      "next_eigenvalue_gap": 0.033928375832561614,
+      "eigengap_relative": 0.3680050360392271,
+      "generalized_residual_relative": 1.4689214197241909e-16,
+      "ridge_rho_original": 4.41321782403603e-05,
+      "actual_normal_variance": 1.0,
+      "moment_change": 0.06481515566355561,
+      "normal_metric_denominator": 0.7030193196858976
+    },
+    {
+      "recipe": "shrink10",
+      "extreme": "min",
+      "generalized_eigenvalue": -0.06122001877754687,
+      "next_eigenvalue_gap": 0.021181025328263887,
+      "eigengap_relative": 0.2297405578075096,
+      "generalized_residual_relative": 1.7135131358873674e-16,
+      "ridge_rho_original": 4.41321782403603e-05,
+      "actual_normal_variance": 1.0000000000000004,
+      "moment_change": -0.041900003492259,
+      "normal_metric_denominator": 0.6844167043546598
+    },
+    {
+      "recipe": "raw",
+      "extreme": "max",
+      "generalized_eigenvalue": 0.1281949441811715,
+      "next_eigenvalue_gap": 0.051980492978209766,
+      "eigengap_relative": 0.40548005469504583,
+      "generalized_residual_relative": 1.2150312456119132e-16,
+      "ridge_rho_original": 4.524917128070751e-05,
+      "actual_normal_variance": 0.9999999999999998,
+      "moment_change": 0.04380166950581659,
+      "normal_metric_denominator": 0.34168016364135106
+    },
+    {
+      "recipe": "raw",
+      "extreme": "min",
+      "generalized_eigenvalue": -0.08256582573303237,
+      "next_eigenvalue_gap": 0.031181311577058175,
+      "eigengap_relative": 0.24323355165232716,
+      "generalized_residual_relative": 1.264696227192351e-16,
+      "ridge_rho_original": 4.524917128070751e-05,
+      "actual_normal_variance": 0.9999999999999998,
+      "moment_change": -0.03421765190352833,
+      "normal_metric_denominator": 0.41442874942191515
+    }
+  ],
+  "selection_used": false,
+  "evaluation_used": false,
+  "signed_only": true
+}

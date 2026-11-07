@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "fixture": "synthetic only, 400N/200F, 960 rows, five replicates, four arms; matched normal ties, exact equality at original threshold, early crossing boundaries, no crossing, pre-fault exclusion, and deliberately permuted input run order",
+  "per_run_output_rows_recounted": 12000,
+  "original_paired_contrasts_checked": 14,
+  "paired_draws": 20000,
+  "comparison": "Scalar first crossing per trajectory/arm, separate independently computed resampling frequencies, input-ID permutation, original and descriptive sensitivity all checked. No new scientific trajectories read.",
+  "largest_bootstrap_bound_abs_diff": 8.881784197001252e-16,
+  "matched_threshold_models_with_peak_ties": 20,
+  "pipeline_sha256": "8cd1dc67f24157660ec8447eebeacc4221373f927e6fb57680a0a4df692ec8fd"
+}

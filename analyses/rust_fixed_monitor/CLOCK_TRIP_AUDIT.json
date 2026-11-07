@@ -1,0 +1,73 @@
+{
+  "default_self_check": "c8a26889992f1719",
+  "fault_run_checked": 1,
+  "rows_1based": true,
+  "schedule_requested_sec": 28800,
+  "activation_observed_sec": 28800.000000004162,
+  "clock_unit": "seconds",
+  "preceding_unfaulted_step": {
+    "step": 28800,
+    "stamp_sec": 28799.000000004162,
+    "IDV9": false,
+    "since_onset_sec": 0
+  },
+  "boundary_steps": [
+    {
+      "step": 28801,
+      "stamp_sec": 28800.000000004162,
+      "IDV9": true,
+      "since_onset_sec": 0
+    },
+    {
+      "step": 28802,
+      "stamp_sec": 28801.000000004162,
+      "IDV9": true,
+      "since_onset_sec": 0.9999999999969589
+    },
+    {
+      "step": 28803,
+      "stamp_sec": 28802.00000000416,
+      "IDV9": true,
+      "since_onset_sec": 1.9999999999939178
+    },
+    {
+      "step": 28804,
+      "stamp_sec": 28803.000000004155,
+      "IDV9": true,
+      "since_onset_sec": 2.9999999999908766
+    }
+  ],
+  "record_stamps_sec": {
+    "160": 28799.000000004162,
+    "161": 28979.00000000362,
+    "200": 35998.99999998227,
+    "201": 36178.99999998172,
+    "320": 57598.99999991658,
+    "321": 57778.99999991717,
+    "960": 172798.99999956624
+  },
+  "activation_to_row161_sec": 178.99999999945794,
+  "activation_to_row321_sec": 28978.99999991301,
+  "strict_8h_last_record": 320,
+  "protocol_8h_last_record": 321,
+  "positive_controls": {
+    "0": {
+      "mode": "uncontrolled separate positive control; never enters study results",
+      "trip_ends_the_run": 0,
+      "reported": "tripped",
+      "emitted": 120,
+      "requested": 120,
+      "trip_hours": 3.060000000000384,
+      "trip_cause": "reactor pressure high"
+    },
+    "1": {
+      "mode": "uncontrolled separate positive control; never enters study results",
+      "trip_ends_the_run": 1,
+      "reported": "tripped",
+      "emitted": 61,
+      "requested": 120,
+      "trip_hours": 3.060000000000384,
+      "trip_cause": "reactor pressure high"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "script": "scripts/08_generate_final_tables.py",
+    "purpose": "Generate final tables, figure list, and numeric summary for manuscript writing.",
+    "output_tables": [
+        "results/tables/final_table1_data_split.csv",
+        "results/tables/final_table2_pca_vs_proposed.csv",
+        "results/tables/final_table3_selected_local_residuals.csv",
+        "results/tables/final_table4_ablation.csv",
+        "results/tables/final_table5_direction_ratio_sensitivity.csv",
+        "results/tables/final_table6_cusum_k_sensitivity.csv",
+        "results/tables/final_figure_list_for_manuscript.csv"
+    ],
+    "output_docs": [
+        "docs/final_numeric_summary_for_manuscript.md"
+    ]
+}

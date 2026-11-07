@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "distribution_version": "1.1.0",
+  "graded_coupling_score_files": 799,
+  "graded_coupling_record_files": 799,
+  "source_scientific_files_byte_preserved": 856,
+  "readable_files_scanned": 970,
+  "machine_paths_private_links_or_working_handoff_terms_found": false,
+  "upstream_attribution_and_ai_assistance_disclosures_retained": true,
+  "numerical_verification": "See each module public validation reports; this record verifies release identity and packaging."
+}

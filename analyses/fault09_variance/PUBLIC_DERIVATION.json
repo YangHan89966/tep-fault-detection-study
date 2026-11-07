@@ -1,0 +1,37 @@
+{
+  "release_date": "2026-11-07",
+  "source_archive": "TEP_P1_F9_Recording_Variance_20261103.zip",
+  "source_archive_sha256": "2c7cc5cc2b793fcc10458739426f9e1936d707bfa6f9f71cb098268ce5695240",
+  "changes": [
+    {
+      "path": "TEP_P1_F9_Recording_Variance_20261103/README.txt",
+      "action": "documentation_revised",
+      "original_sha256": "679a5c5f47aa6d7ce5e0f7c8e40b7d2883f0b3fff7c1b0eb382a825df69cf63e",
+      "public_sha256": "4e68ba4546ffe9a2c31af2521f3c174d0a2f1cd6603fde1bee4d90861b791966"
+    },
+    {
+      "path": "TEP_P1_F9_Recording_Variance_20261103/REPORT_ZH.txt",
+      "action": "documentation_revised",
+      "original_sha256": "ad0b9f3796b5af8b54ae8c12a11f3cbeb7f81e1e8a9da488e5173f345c7fbd3f",
+      "public_sha256": "ed99b12a2929c44ec95a41fefe13c6d97d8808a628ab1132858563792917f899"
+    },
+    {
+      "path": "TEP_P1_F9_Recording_Variance_20261103/MANUSCRIPT_PATCH_EN.txt",
+      "action": "editorial_directions_removed_scientific_text_retained_as_analysis_notes",
+      "original_sha256": "e62c5a070a7b3719b1610526ccbaee7f9b40da61d1d3fadac3e20060c2598c75",
+      "public_path": "TEP_P1_F9_Recording_Variance_20261103/ANALYSIS_NOTES_EN.txt",
+      "public_sha256": "42d59d3af5de6860b6525ea37aa94721ac9dbe83284f80975f55df42ae712da9"
+    },
+    {
+      "path": "TEP_P1_F9_Recording_Variance_20261103/TEP_P1_F9_Recording_Variance_Report_20261103.docx",
+      "action": "duplicate_formatted_report_omitted_use_public_REPORT_ZH_txt",
+      "original_sha256": "c68eb06faad13420f213d3980e73d3ab8bb042b3cc8fd930a46b3e958df516f4",
+      "public_path": "TEP_P1_F9_Recording_Variance_20261103/REPORT_ZH.txt"
+    }
+  ],
+  "all_non_document_members_byte_identical": true,
+  "preserved_original_member_count": 822,
+  "original_member_count": 826,
+  "code_lock_verification": null,
+  "original_manifests": "Original manifests are preserved byte-for-byte as historical source records. They describe the original archive. Documentation-only differences and omissions are listed here; use PUBLIC_SHA256SUMS.txt for this public derivative."
+}

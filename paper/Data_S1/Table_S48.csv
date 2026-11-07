@@ -1,0 +1,11 @@
+Monitor,Recording,Pool,Normal alarms,Pre-fault alarms,Clean ≤2 h,Clean ≤8 h,"Clean 40 h [Wilson 95%, %]",Mean loss (min)
+"Panel 2 (primary): 199 normal calibration, 120 normal and 120 Fault 9 evaluation runs",,,,,,,,
+M1,Controller-input,Second-moment,7/120,1,10,85,"119/120 [95.4, 99.9]",401.1
+M2,Post-update,Second-moment,7/120,0,0,4,"38/120 [24.0, 40.4]","2,056.3"
+M3,Controller-input,Mean-shift,10/120,2,2,44,"112/120 [87.4, 96.6]",888.0
+M4,Post-update,Mean-shift,11/120,0,0,0,"16/120 [8.4, 20.6]","2,295.1"
+"Panel 1 (secondary): 59 normal calibration, 60 normal and 75 Fault 9 evaluation runs",,,,,,,,
+M1,Controller-input,Second-moment,3/60,0,5,50,"75/75 [95.1, 100.0]",445.1
+M2,Post-update,Second-moment,2/60,0,0,1,"28/75 [27.3, 48.6]","2,102.1"
+M3,Controller-input,Mean-shift,1/60,0,0,22,"71/75 [87.1, 97.9]","1,066.0"
+M4,Post-update,Mean-shift,1/60,0,0,1,"10/75 [7.4, 22.8]","2,292.2"

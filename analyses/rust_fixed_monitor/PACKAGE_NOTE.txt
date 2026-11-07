@@ -1,0 +1,8 @@
+Public source supplement — 7 November 2026
+
+This is a documentation-only derivative of RUST_EXTERNAL_DRIVER_EVIDENCE.zip.
+Scientific data, code, protocols, frozen locks, input identities and upstream source archives remain byte-identical. Editorial insertion instructions have been removed from reader-facing documents; the associated scientific methods, results and limitations are retained in analysis notes where applicable.
+
+PUBLIC_DERIVATION.json records each changed, renamed or omitted document and its original SHA-256. Original package manifests are retained as historical records and may report documented differences for these explanatory files. PUBLIC_SHA256SUMS.txt lists the current files in this derivative (excluding itself).
+
+Scientific source files may retain historical provenance text and original source paths to preserve locked identities. Third-party source documentation and license notices have not been modified. Historical table numbers in preserved source data are not silently renumbered; use the final submitted Data S1 for current numbering.

@@ -1,0 +1,15 @@
+{
+  "seeds": {
+    "normal": 268829305467646915,
+    "fault": 2178306425384954695
+  },
+  "protocol": {
+    "rates": "two-sided marginal95% Clopper-Pearson conditional on frozen state and independent Bernoulli runs",
+    "contrasts": "20000 paired whole-run percentile bootstrap; moment minus mean at each common calibration rank; common schedule across ranks; distinct schedules for normal and fault roles.",
+    "bootstrap_generator": "NumPy PCG64; seed=first8bytes(SHA256(protocol_id + | + role)), big endian",
+    "confidence_level": 0.95,
+    "simultaneous": false,
+    "refit": false,
+    "degenerate_warning": true
+  }
+}

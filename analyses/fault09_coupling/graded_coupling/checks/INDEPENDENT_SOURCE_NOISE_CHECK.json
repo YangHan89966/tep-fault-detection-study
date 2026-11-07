@@ -1,0 +1,18 @@
+{
+  "status": "PASS_INDEPENDENT_SOURCE_NOISE_INSTRUMENTATION",
+  "software_only": true,
+  "new_scientific_trajectories": 0,
+  "software_simulation_hours": 0.6,
+  "original_run_id": "normal_calibration_001",
+  "normal_full_48h_rng_trace_exact": "b7836b4ff44bbf8fd723b6d5e00b17181c33ca81d05315638cf865267716f5c3",
+  "literal_source_noise_event_cells_exact": 492,
+  "literal_source_noise_values_exact": 492,
+  "all_41_measurements_and_delayed_composition_hold_checked": true,
+  "random_access_matches_original_buffered_provider": true,
+  "negative_checks": {
+    "shutdown_rejected": true,
+    "changed_draw_anchor_rejected": true,
+    "changed_temperature_rejected": true
+  },
+  "seconds": 4.557263857997896
+}

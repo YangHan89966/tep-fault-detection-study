@@ -1,0 +1,10 @@
+{
+  "h": {
+    "CI": 29.3385771171327,
+    "Rust_native": 77.74853362073847
+  },
+  "rank": 57,
+  "n": 59,
+  "model_sha256": "7a20407a0fafa0028931de8d73c32b2ceae9585175e59dadd836777a97efcf66",
+  "protocol_sha256": "94c105db366d373ac95989f0df3c2ca60557cb055b98e425e8460d217cc86b1f"
+}

@@ -1,0 +1,60 @@
+{
+  "script": "scripts/14_repeated_split_robustness.py",
+  "analysis_role": "Split-robustness analysis; does not replace the frozen primary fixed-split final test",
+  "n_repeats": 20,
+  "n_total_normal_runs": 500,
+  "n_total_fault3_runs": 500,
+  "n_development_runs_per_class": 250,
+  "n_evaluation_runs_per_class": 250,
+  "normal_and_fault_splits_independent": true,
+  "pairing_used": false,
+  "screening_window": [
+    161,
+    320
+  ],
+  "bootstrap_replicates_per_repeat": 2000,
+  "base_random_seed": 20260715,
+  "primary_top_k_frozen": 5,
+  "primary_cusum_k_frozen": 0.05,
+  "control_limit_rule": "95th percentile of each repeat's normal-development run maxima",
+  "pca_training_data": "data/processed/normal_train.pkl",
+  "pca_n_components": 36,
+  "pca_cumulative_explained_variance": 0.9581997268001302,
+  "primary_selected_variables": [
+    "xmeas_2",
+    "xmeas_21",
+    "xmv_1",
+    "xmv_8",
+    "xmeas_15"
+  ],
+  "primary_selected_signs": [
+    -1,
+    -1,
+    -1,
+    1,
+    1
+  ],
+  "summary": {
+    "exact_primary_top5_set_recovery_count": 20,
+    "all_250_fault_runs_detected_repeat_count": 20,
+    "median_top5_overlap": 5.0
+  },
+  "output_tables": [
+    "results\\tables\\14_repeated_split_performance.csv",
+    "results\\tables\\14_repeated_split_metric_summary.csv",
+    "results\\tables\\14_repeated_split_selected_variables.csv",
+    "results\\tables\\14_repeated_split_variable_stability.csv",
+    "results\\tables\\14_repeated_split_all_variable_screening.csv",
+    "results\\tables\\14_repeated_split_normal_run_results.csv",
+    "results\\tables\\14_repeated_split_fault3_run_results.csv",
+    "results\\tables\\14_repeated_split_manifest.csv"
+  ],
+  "output_figures": [
+    "results\\figures\\fig14a_repeated_split_performance.png",
+    "results\\figures\\fig14a_repeated_split_performance.pdf",
+    "results\\figures\\fig14b_repeated_split_selection_frequency.png",
+    "results\\figures\\fig14b_repeated_split_selection_frequency.pdf",
+    "results\\figures\\fig14c_repeated_split_top5_overlap.png",
+    "results\\figures\\fig14c_repeated_split_top5_overlap.pdf"
+  ]
+}

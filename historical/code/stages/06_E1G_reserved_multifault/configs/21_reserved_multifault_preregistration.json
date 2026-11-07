@@ -1,0 +1,71 @@
+{
+  "registration_name": "Step 21 reserved multi-fault development audit",
+  "script": "scripts/21_reserved_multifault_development_audit.py",
+  "script_sha256": "3e4bc3df679fe5e829b831b6108123dab7d5eb77edb1ea82b2824c30fa97428d",
+  "reserved_fault_rule": "all TEP fault IDs 1--20 except method-development faults 3, 9, and 15",
+  "reserved_faults": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "excluded_development_faults": {
+    "3": "original signed-residual method-development target",
+    "9": "multi-evidence family-development target",
+    "15": "multi-evidence family-development target"
+  },
+  "fault_selection_uses_outcomes": false,
+  "development_runs": [
+    1,
+    250
+  ],
+  "reserved_final_runs": [
+    251,
+    500
+  ],
+  "screening_samples": [
+    161,
+    320
+  ],
+  "candidate_families": [
+    "signed_level",
+    "absolute_deviation",
+    "squared_deviation",
+    "absolute_increment",
+    "lag1_product"
+  ],
+  "candidate_tests_per_fault": 260,
+  "bootstrap_replicates": 2000,
+  "permutation_replicates": 2000,
+  "primary_feature_gate": "two-sided 95% independent-run bootstrap CI excludes zero AND global BH q<=0.05 across all 260 candidates for that fault",
+  "strict_diagnostic": "studentized max-|t| permutation FWER p<=0.05",
+  "family_eligibility": "at least five primary-gate-stable residuals",
+  "family_choice_rule": "among eligible families maximize the median absolute Hedges g of the selected Top-5; break exact ties by the frozen family priority",
+  "top_k": 5,
+  "orientation_rule": "sign of the development-minus-normal run-mean shift",
+  "normal_reference": "normal training for PCA; normal validation for screening",
+  "performance_evaluated_in_step21": false,
+  "normal_evaluation_loaded": false,
+  "faulty_training_companion_loaded": false,
+  "testing_final_rows_subset_or_analyzed": false,
+  "raw_container_caveat": "pyreadr materializes the complete TEP_Faulty_Testing.RData object, but Step 21 only subsets and analyzes runs 1--250",
+  "planned_frozen_evaluation": "a separate script must verify this Step-21 script/config and then evaluate the frozen per-fault branch on runs 251--500",
+  "dependency_hashes": {
+    "18_faults9_15_prespecified_generalization.py": "d0f7b9b3318c93bfd4f64016d994f2f0aa2806f083df7487af44e62a04e65053",
+    "19_multievidence_development_audit.py": "0a19a1c0210669c201d7cbe42c5824aed2a38cb8a08405c68879cc415a30ee6b"
+  },
+  "registered_at_utc": "2026-08-19T08:00:47.433426+00:00"
+}

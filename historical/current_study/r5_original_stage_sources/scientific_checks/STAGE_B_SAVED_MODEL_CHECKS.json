@@ -1,0 +1,42 @@
+{
+  "status": "PASS_RETURNED_MODEL_LOCK_AND_SAVED_SELECTION_CALIBRATION_CHECKS",
+  "return_sha256": "30c3748e9281404055c2c8d2a1ba6820eb906a090bcfe84fe6e3bd57a03af7fa",
+  "return_bytes": 4165594,
+  "outer_manifest_entries": 204,
+  "rep_manifest_entries": [
+    38,
+    38,
+    38,
+    38,
+    38
+  ],
+  "ledger_events": 14,
+  "event_counts": {
+    "SESSION_START": 1,
+    "INPUTS_VERIFIED": 1,
+    "MODEL_START": 5,
+    "MODEL_LOCKED": 5,
+    "ALL_MODELS_LOCKED": 1,
+    "SESSION_END": 1
+  },
+  "replications": 5,
+  "locked_configurations": 135,
+  "candidate_counts_all_15": {
+    "mean": 8,
+    "moment": 8
+  },
+  "threshold_values_recomputed": 1470,
+  "maximum_axis_actual_variance_error": 1.5543122344752192e-15,
+  "local_reported_scalar_recurrence_comparisons": 1382400,
+  "global_lock_sha256": "c2d16bdb075c269a5ac268121208faa4e6f02707a5be20e8f382b4f596af966f",
+  "test_generated": 0,
+  "test_scored": 0,
+  "runtime_of_readback": {
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "numpy": "2.3.5"
+  },
+  "raw_process_arrays_reread_here": false,
+  "simulator_run_here": false,
+  "learning_repeated_here": false,
+  "scope": "Saved model/selection/calibration arithmetic and archive/chronology consistency. Local raw input checks and scalar recurrence remain reported evidence, not independently repeated here."
+}

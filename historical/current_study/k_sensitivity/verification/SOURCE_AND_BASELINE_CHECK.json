@@ -1,0 +1,47 @@
+{
+  "scope": "Saved sources/assets only; no raw process reads, simulation, fitting or threshold changes.",
+  "exact_source_file_copies": 119,
+  "verbatim_extracted_scientific_class_function_blocks": 26,
+  "N_paired_files_identical_to_valid_return": 17,
+  "DV_k005_packed_alarm_checks": [
+    {
+      "fault": 3,
+      "field": "fault_masks",
+      "equal": true,
+      "bits": 2160000
+    },
+    {
+      "fault": 3,
+      "field": "normal_masks",
+      "equal": true,
+      "bits": 2160000
+    },
+    {
+      "fault": 9,
+      "field": "fault_masks",
+      "equal": true,
+      "bits": 2160000
+    },
+    {
+      "fault": 9,
+      "field": "normal_masks",
+      "equal": true,
+      "bits": 2160000
+    },
+    {
+      "fault": 15,
+      "field": "fault_masks",
+      "equal": true,
+      "bits": 2160000
+    },
+    {
+      "fault": 15,
+      "field": "normal_masks",
+      "equal": true,
+      "bits": 2160000
+    }
+  ],
+  "DV_k005_total_bits_compared": 12960000,
+  "DV_original_threshold_and_method_order_checks": 3,
+  "passed": true
+}

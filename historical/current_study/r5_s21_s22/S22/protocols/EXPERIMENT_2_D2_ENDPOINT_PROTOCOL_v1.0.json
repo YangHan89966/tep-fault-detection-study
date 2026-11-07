@@ -1,0 +1,78 @@
+{
+  "created_utc": "2026-09-13T14:23:14.430375+00:00",
+  "status": "LOCKED_BEFORE_NEW_ANALYSIS_OUTPUTS",
+  "chronology": "The manuscript v1.7.4 and its outcomes had already been inspected when these studies were chosen. This is an author revision study, not external preregistration and not a replacement of N or original DV.",
+  "baseline_manifest_sha256": "ea783e4c26867df8504c5c4d42b9733480af44c2cc648b5aa2693d0917741aaf",
+  "source_code_snapshot_sha256": "dcf623fd9f182bc700442436d3063fece4f418bc5b15a89c5ca176281b36c3cb",
+  "outcome_dependent_extension_or_tuning": false,
+  "failure_policy": "Retain all outcomes. Stop on integrity or numerical failure, preserve evidence, never substitute favorable seeds. Resource interruptions resume the same predefined task.",
+  "study_id": "TEP_V18_D2_ENDPOINT_SENSITIVITY_v1.0",
+  "purpose": "Assess horizon and penalty dependence of the existing path-order x threshold-origin factorial. Do not treat division by horizon as independent evidence of robustness.",
+  "scientific_inputs": {
+    "fault_records": {
+      "path": "current_study/reproduction/results/D2/FAULT_RECORDS.npz",
+      "sha256": "aa0c70d84450d8e2f5f0a1832cefb067b11fc8a895feb60f334a49071f5dcfa5"
+    },
+    "original_contract_sha256": "db6ffae15b72c4cd60a25668be9526f2df95f8c348c733ff469207aa92b52459"
+  },
+  "fixed": {
+    "fault": 9,
+    "splits": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "repetitions_per_block": 20,
+    "blocks": [
+      1,
+      20,
+      80
+    ],
+    "families": [
+      "signed",
+      "absolute",
+      "squared"
+    ],
+    "axis": "original moment-pool Signed-selected axis in each split",
+    "recursion": "two-sided CUSUM; k=0.05; strict >; no onset/first-alarm reset or latching",
+    "pre_points": 160,
+    "post_points": 800,
+    "sample_minutes": 3,
+    "limits": "original saved D2 limits; do not recalibrate shortened horizons",
+    "path_permutations": "original D2 deterministic stream exactly, not original S31 stream"
+  },
+  "endpoints": {
+    "horizon_minutes": [
+      120,
+      480,
+      1200,
+      2400
+    ],
+    "horizon_loss": "first post-fault delay if no pre-alarm and detection by H; otherwise H, all 75 fault runs retained",
+    "clean_success": "no pre-alarm AND post-fault crossing by H, denominator75",
+    "full_horizon_failure_penalties_minutes": [
+      2400,
+      4800,
+      9600
+    ],
+    "penalty_loss": "first delay if clean within original full horizon; otherwise selected penalty P",
+    "decomposition": "mean penalized loss = sum(clean delay)/n + P*failure_rate; interaction follows the same exact linear identity",
+    "normalized_loss": "L/H only for display/comparison of relative magnitude; not a distinct inferential check",
+    "normal_far": "existing 960-point full-normal-episode rate, unchanged across horizon/penalty scoring"
+  },
+  "aggregation": "Average20 permutations within each split, compute all four cells and six factorial contrasts within each split, then report across-ten-split mean, median, min, max and negative/zero/positive counts. No independent-split CI or p-value. Never subtract displayed medians for additive accounting.",
+  "original_parity_checks": [
+    "all stored event records vs original PER_REPETITION.csv",
+    "all original interaction summaries vs INTERACTION_PER_SPLIT/SUMMARY",
+    "complete expected keys:10 splits x3 blocks x20 repetitions x3 families x2 path factors x2 limit factors =7200 rows, each75 events",
+    "where exact S30 numeric inputs available, recurrence replay and equality to original records before revised endpoints"
+  ],
+  "scope": "Existing-record post-outcome sensitivity; no new trajectories, direction fitting, optimization, population guarantee or physical causal attribution."
+}

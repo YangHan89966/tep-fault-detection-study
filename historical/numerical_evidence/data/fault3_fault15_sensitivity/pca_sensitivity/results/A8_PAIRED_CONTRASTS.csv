@@ -1,0 +1,6 @@
+﻿state,metric,contrast,loss_difference_minutes,CI98_333_low,CI98_333_high,difference,CI95_low,CI95_high
+1,PCA500_swap,C2_moment_minus_mean,-127.725,-275.850625,5.876250000000073,,,
+1,PCA500_swap,PCA500_minus_PCA78_loss_minutes,,,,124.675,46.174375,209.77562499999996
+1,PCA500_swap,PCA500_minus_PCA78_clean40_percentage_points,,,,-10.833333333333334,-18.333333333333332,-4.166666666666667
+1,PCA500_swap,PCA500_minus_PCA78_clean8_percentage_points,,,,-0.8333333333333334,-3.3333333333333335,1.6666666666666667
+1,PCA500_swap,PCA500_minus_PCA78_normal_FAR_percentage_points,,,,-3.3333333333333335,-8.333333333333334,0.8333333333333334

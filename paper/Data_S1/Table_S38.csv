@@ -1,0 +1,7 @@
+Quantity,Historical normal 60 runs,New normal 250 runs
+Score variance,0.988891,3.360131
+Sum of diagonal variance terms,14.0813,14.3616
+Sum of cross-covariance terms,−13.0924,−11.0014
+Correlation: XMEAS12 / XMV7,0.99999995,0.00993
+Correlation: XMEAS15 / XMV8,0.99999995,0.02886
+Correlation: XMEAS17 / XMV11,−0.99922,−0.67954
