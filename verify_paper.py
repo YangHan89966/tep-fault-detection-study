@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify V10 paper bytes and compare supplementary tables with Data S1."""
+"""Verify paper bytes and compare supplementary tables with Data S1."""
 from pathlib import Path, PurePosixPath
 import csv
 import hashlib
@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parent
 W = '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}'
 ORIGINALS = {'Manuscript.docx', 'Supplementary_Information.docx', 'Highlights.docx', 'Data_S1.zip'} | {f'Figure_{i}.tif' for i in range(1, 8)}
 DATA = {'Data_S1/README.txt', 'Data_S1/index.csv'} | {f'Data_S1/Table_S{i:02}.csv' for i in range(1, 69)} | {f'Data_S1/Table_D{i:02}.csv' for i in range(1, 16)}
-SOURCE_HASH = '08bdd0275421cfcccdf25eae97e9ddb9175a2ed4988261c63a01b85729563614'
+SOURCE_HASH = '435203d1b55302b1ea03d4ad55905cc75cdeeb453e7bfbb47937100ceb51bb59'
 
 
 def checked_zip(data):
@@ -86,7 +86,7 @@ def verify(root=ROOT):
     base = Path(root)/'paper'
     manifest = json.loads((base/'SOURCE_MANIFEST.json').read_text(encoding='utf-8'))
     source = manifest['source_archive']
-    if manifest['snapshot'] != 'final_v10' or source['sha256'] != SOURCE_HASH or source['size_bytes'] != 14215011:
+    if manifest['snapshot'] != 'final_v11' or source['sha256'] != SOURCE_HASH or source['size_bytes'] != 14235720:
         raise ValueError('Unexpected source snapshot')
     records = manifest['included_files']
     if len(records) != 96 or {r['path'] for r in records} != ORIGINALS | DATA:

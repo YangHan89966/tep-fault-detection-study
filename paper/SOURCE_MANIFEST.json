@@ -1,24 +1,24 @@
 {
-  "snapshot": "final_v10",
+  "snapshot": "final_v11",
   "source_archive": {
-    "name": "Submission_package_final_v10.zip",
-    "size_bytes": 14215011,
-    "sha256": "08bdd0275421cfcccdf25eae97e9ddb9175a2ed4988261c63a01b85729563614"
+    "name": "Submission_package_final_v11.zip",
+    "size_bytes": 14235720,
+    "sha256": "435203d1b55302b1ea03d4ad55905cc75cdeeb453e7bfbb47937100ceb51bb59"
   },
   "included_files": [
     {
       "path": "Manuscript.docx",
-      "size_bytes": 3696208,
-      "sha256": "bb985ff886e70cae81649e16a902b872a66511d0ccb202dd6bfa4ed66f8e0ab6",
-      "git_blob_sha1": "f47a1bd5ae79cd87a2ab84aa307fd31e8ccc657f",
+      "size_bytes": 4242306,
+      "sha256": "a876aaa3b395092d295bd6c545ad3deafdafe9e39282c3f138d84b53c14bf3de",
+      "git_blob_sha1": "c446b3c6d1f738f1b6cc97b2f6b380ea57a9e6e7",
       "source_member": "Submission_package/Manuscript.docx",
       "kind": "original"
     },
     {
       "path": "Supplementary_Information.docx",
-      "size_bytes": 5949908,
-      "sha256": "f1820d55787c08d6cfc572083a4a46b5fc0a10ccec9ba8c9b30a9b53352ffeb4",
-      "git_blob_sha1": "1bd0ca2853ff720fffabc867e67256240610b330",
+      "size_bytes": 7003503,
+      "sha256": "d9a76a5316e68a480f2fd6d57e7d8553b17b4f87c09863a4884d8ccdf03b0786",
+      "git_blob_sha1": "c12e4ea5a14e9f61f4198c349b305a133afd3fcf",
       "source_member": "Submission_package/Supplementary_Information.docx",
       "kind": "original"
     },

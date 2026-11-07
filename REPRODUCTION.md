@@ -41,7 +41,7 @@ python -B supplements/s65_sample_metrics/recompute_r5_sample_metrics.py --out PA
 python -B supplements/s65_sample_metrics/verify_s65_from_counts.py --report PATH_TO_NEW_S65_REPORT.json
 ```
 
-S52 recounts the covariance-estimator comparison from fifteen fitted states. S57 and D14 replay the self-overlap exclusions and recalibration from saved statistics; the component README also gives the separate fixed-recording and supervised-relearning checks. S65 recomputes sample-level alarm occupancy from thirty packed alarm archives and independently verifies the per-run counts. The S52 and S65 source tables match the V10 Data S1 files exactly.
+S52 recounts the covariance-estimator comparison from fifteen fitted states. S57 and D14 replay the self-overlap exclusions and recalibration from saved statistics; the component README also gives the separate fixed-recording and supervised-relearning checks. S65 recomputes sample-level alarm occupancy from thirty packed alarm archives and independently verifies the per-run counts. The S52 and S65 source tables match the Data S1 files exactly.
 
 ## Raw-trajectory reproduction
 
