@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "new_TEP_simulations": false,
+  "new_fitting_or_calibration": false,
+  "shared_ordered_250_fault_and_250_normal_ids_files_hashes_across_states": true,
+  "original_replay_states": 5,
+  "original_replay_methods_per_state": 9,
+  "original_replay_max_threshold_abs_error": 0.0,
+  "endpoint_rows_checked": 30,
+  "max_endpoint_abs_error": 0.0,
+  "paired_point_estimates_checked": 15,
+  "eigen_summaries_checked": 15,
+  "max_eigen_summary_abs_error": 0.0,
+  "selection_integer_loss_minima_checked": 30,
+  "unchanged_non_B_design_fields_across_estimators": true,
+  "candidate_pool_axes_per_family": 8,
+  "outer_n": 259,
+  "outer_rank": 247,
+  "B_matrix_scope": "stored B eigenvalues recomputed; original B compared to saved original; no raw-score B recomputation",
+  "new_bootstrap": {
+    "draws": 20000,
+    "rng": "NumPy PCG64",
+    "seeds": {
+      "fault": 2026100907,
+      "normal": 2026100908
+    },
+    "unit": "one shared physical evaluation run, average five states before resampling",
+    "shared_indices_across_estimators": true,
+    "coverage": 0.95,
+    "quantile_method": "linear",
+    "marginal_post_hoc_conditional_not_familywise": true
+  },
+  "returned_perstate_intervals": {
+    "coverage": 0.9833333333333333,
+    "draws": 20000,
+    "seed": "2026100800 + state",
+    "status": "retained from RETURN, not rerun; do not equate with original confirmatory familywise success"
+  },
+  "numpy_version": "2.3.5",
+  "input_files_hashed": 111
+}

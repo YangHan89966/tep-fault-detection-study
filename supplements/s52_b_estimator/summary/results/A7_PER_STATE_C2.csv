@@ -1,0 +1,16 @@
+﻿state,B_estimator,loss_minutes,clean40_pct,clean8_pct,normal_FAR_pct,returned_A7_perstate_CI98_333_low,returned_A7_perstate_CI98_333_high,interval_status
+1,original,-18.744,-0.8,0.8,-5.6,-91.0206,52.17630000000002,A7_returned_perstate_nominal_98.3333_not_five_state_or_15_comparison_familywise
+1,batch,-164.496,19.6,1.2,-1.6,-254.1366,-79.07939999999996,A7_returned_perstate_nominal_98.3333_not_five_state_or_15_comparison_familywise
+1,HAC,-53.832,10.4,-0.4,-6.4,-133.6891,24.192300000000017,A7_returned_perstate_nominal_98.3333_not_five_state_or_15_comparison_familywise
+2,original,23.364,-2.0,0.0,-0.8,-22.6961,71.08070000000005,A7_returned_perstate_nominal_98.3333_not_five_state_or_15_comparison_familywise
+2,batch,-337.068,31.6,2.8,-0.4,-436.8053,-241.26609999999988,A7_returned_perstate_nominal_98.3333_not_five_state_or_15_comparison_familywise
+2,HAC,-435.648,40.0,4.0,3.2,-539.7405,-335.85919999999993,A7_returned_perstate_nominal_98.3333_not_five_state_or_15_comparison_familywise
+3,original,20.664,-4.4,0.0,3.2,-31.7204,73.53250000000003,A7_returned_perstate_nominal_98.3333_not_five_state_or_15_comparison_familywise
+3,batch,-330.048,28.4,2.4,1.2,-429.6682,-235.5439,A7_returned_perstate_nominal_98.3333_not_five_state_or_15_comparison_familywise
+3,HAC,-395.748,36.8,2.8,2.0,-500.35729999999995,-295.25029999999987,A7_returned_perstate_nominal_98.3333_not_five_state_or_15_comparison_familywise
+4,original,-53.076,4.4,-0.4,-6.4,-110.724,4.032300000000017,A7_returned_perstate_nominal_98.3333_not_five_state_or_15_comparison_familywise
+4,batch,-343.092,30.0,1.6,-2.8,-446.0043,-244.03929999999997,A7_returned_perstate_nominal_98.3333_not_five_state_or_15_comparison_familywise
+4,HAC,-297.9,26.0,1.6,-6.0,-397.91450000000003,-204.94329999999997,A7_returned_perstate_nominal_98.3333_not_five_state_or_15_comparison_familywise
+5,original,-70.068,8.4,0.4,0.4,-143.9403,-1.2915999999999768,A7_returned_perstate_nominal_98.3333_not_five_state_or_15_comparison_familywise
+5,batch,-285.288,26.4,2.4,-2.8,-385.272,-189.35939999999997,A7_returned_perstate_nominal_98.3333_not_five_state_or_15_comparison_familywise
+5,HAC,-497.112,42.8,4.8,-1.2,-608.5815,-385.6358,A7_returned_perstate_nominal_98.3333_not_five_state_or_15_comparison_familywise

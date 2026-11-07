@@ -1,0 +1,6 @@
+﻿state_metric,threshold_max_abs_error,original_fault_loss_clean_and_normal_FAR_vectors
+state1_original,0.0,PASS
+state2_original,0.0,PASS
+state3_original,0.0,PASS
+state4_original,0.0,PASS
+state5_original,0.0,PASS

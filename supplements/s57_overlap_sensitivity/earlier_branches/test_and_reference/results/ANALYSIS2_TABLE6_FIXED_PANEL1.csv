@@ -1,0 +1,7 @@
+scenario,panel,method,recording,fault_n,normal_n,threshold,calibration_n,calibration_rank,fault_clean40_n,fault_clean40_pct,fault_clean8_pct,mean_loss_min,normal_alarm_n,normal_FAR_pct,normal_floor_pct
+original,recording_panel1,Fixed historical monitor,native,75,60,100.90415753762413,59,57,8,10.666666666666668,0.0,2314.2,2,3.3333333333333335,3.3333333333333335
+original,recording_panel1,Fixed historical monitor,controller-input,75,60,29.485632572682125,59,57,72,96.0,38.666666666666664,952.12,4,6.666666666666667,6.666666666666667
+exclude_test_self_overlap,recording_panel1,Fixed historical monitor,native,70,58,100.90415753762413,59,57,7,10.0,0.0,2316.5142857142855,2,3.4482758620689653,3.4482758620689653
+exclude_test_self_overlap,recording_panel1,Fixed historical monitor,controller-input,70,58,29.485632572682125,59,57,67,95.71428571428572,40.0,951.6,4,6.896551724137931,6.896551724137931
+exclude_test_and_calibration_self_overlap,recording_panel1,Fixed historical monitor,native,70,58,111.193772164195,58,57,5,7.142857142857142,0.0,2347.114285714286,2,3.4482758620689653,3.4482758620689653
+exclude_test_and_calibration_self_overlap,recording_panel1,Fixed historical monitor,controller-input,70,58,30.116266831159834,58,57,67,95.71428571428572,38.57142857142858,971.1428571428571,3,5.172413793103448,5.172413793103448

@@ -1,0 +1,13 @@
+estimator,endpoint,mean,CI95_low,CI95_high,manuscript_mean,manuscript_CI95_low,manuscript_CI95_high,CI_matches_manuscript_at_1_decimal
+original,loss,-19.572,-40.8696,1.84103999999998,-19.6,-40.9,1.8,True
+original,clean40,1.12,-0.88,3.04,1.1,-0.9,3.0,True
+original,clean8,0.16,-0.4,0.72,0.2,-0.4,0.7,True
+original,far,-1.84,-3.44,-0.24,-1.8,-3.4,-0.2,True
+batch,loss,-291.9984,-350.45771999999994,-235.29096,-292.0,-350.5,-235.3,True
+batch,clean40,27.2,22.56,31.92,27.2,22.6,31.9,True
+batch,clean8,2.08,0.96,3.36,2.1,1.0,3.4,True
+batch,far,-1.28,-3.52,0.96,-1.3,-3.5,1.0,True
+HAC,loss,-336.048,-395.40989999999994,-278.63652000000013,-336.0,-395.4,-278.6,True
+HAC,clean40,31.2,26.56,35.84,31.2,26.6,35.8,True
+HAC,clean8,2.56,1.2,4.16,2.6,1.2,4.2,True
+HAC,far,-1.68,-3.92,0.64,-1.7,-3.9,0.6,True

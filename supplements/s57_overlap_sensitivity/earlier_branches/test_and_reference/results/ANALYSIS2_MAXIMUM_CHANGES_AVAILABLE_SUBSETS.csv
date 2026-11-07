@@ -1,0 +1,23 @@
+coverage,scenario,metric,maximum_absolute_change,signed_change_min,signed_change_max
+Table4 full monitors only,exclude_test_self_overlap,clean40_pct_mean,0.2543589743589738,-0.14530612244897156,0.2543589743589738
+Table4 full monitors only,exclude_test_self_overlap,clean8_pct_mean,0.6897925311203359,-0.6897925311203359,0.03829059829059833
+Table4 full monitors only,exclude_test_self_overlap,mean_loss_min_mean,3.8184820512819897,-3.8184820512819897,3.217371428571596
+Table4 full monitors only,exclude_test_self_overlap,normal_FAR_pct_mean,0.1401652892561991,-0.12165289256198353,0.1401652892561991
+Table4 full monitors only,exclude_test_and_calibration_self_overlap,clean40_pct_mean,1.2881632653061104,-1.2881632653061104,0.2543589743589738
+Table4 full monitors only,exclude_test_and_calibration_self_overlap,clean8_pct_mean,1.6026556016597553,-1.6026556016597553,0.03829059829059833
+Table4 full monitors only,exclude_test_and_calibration_self_overlap,mean_loss_min_mean,31.581453061224465,-3.3800205128204652,31.581453061224465
+Table4 full monitors only,exclude_test_and_calibration_self_overlap,normal_FAR_pct_mean,0.6036363636363635,-0.6036363636363635,-0.08132231404958556
+Table5 all three contrasts,exclude_test_self_overlap,delta_loss_min,5.378001659751021,-1.9757743589743555,5.378001659751021
+Table5 all three contrasts,exclude_test_self_overlap,delta_clean40_pp,0.682448979591836,-0.682448979591836,0.009626556016597565
+Table5 all three contrasts,exclude_test_self_overlap,delta_clean8_pp,0.8690456431535267,-0.8690456431535267,0.03918367346938778
+Table5 all three contrasts,exclude_test_self_overlap,delta_normal_FAR_pp,0.20297520661157042,-0.20297520661157042,-0.0449586776859503
+Table5 all three contrasts,exclude_test_and_calibration_self_overlap,delta_loss_min,25.35330612244897,-3.350133333333325,25.35330612244897
+Table5 all three contrasts,exclude_test_and_calibration_self_overlap,delta_clean40_pp,1.5804081632653055,-1.5804081632653055,0.20991452991452952
+Table5 all three contrasts,exclude_test_and_calibration_self_overlap,delta_clean8_pp,1.4499585062240676,-1.4499585062240676,0.03829059829059822
+Table5 all three contrasts,exclude_test_and_calibration_self_overlap,delta_normal_FAR_pp,0.7061157024793385,-0.7061157024793385,-0.28231404958677686
+Table6 Panel1 fixed historical only,exclude_test_self_overlap,fault_clean40_pct,0.6666666666666679,-0.6666666666666679,-0.2857142857142776
+Table6 Panel1 fixed historical only,exclude_test_self_overlap,normal_FAR_pct,0.22988505747126364,0.11494252873563182,0.22988505747126364
+Table6 Panel1 fixed historical only,exclude_test_self_overlap,mean_loss_min,2.3142857142856883,-0.5199999999999818,2.3142857142856883
+Table6 Panel1 fixed historical only,exclude_test_and_calibration_self_overlap,fault_clean40_pct,3.5238095238095255,-3.5238095238095255,-0.2857142857142776
+Table6 Panel1 fixed historical only,exclude_test_and_calibration_self_overlap,normal_FAR_pct,1.4942528735632186,-1.4942528735632186,0.11494252873563182
+Table6 Panel1 fixed historical only,exclude_test_and_calibration_self_overlap,mean_loss_min,32.91428571428605,19.022857142857106,32.91428571428605

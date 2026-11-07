@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETE",
+  "saved_scores_replayed": 439,
+  "original_evaluation_records_reproduced": 480,
+  "normal_calibration_original": 199,
+  "normal_calibration_kept": 191,
+  "new_order": 183,
+  "normal_evaluation_kept": 117,
+  "fault_evaluation_kept": 120,
+  "new_simulations": 0,
+  "raw52_not_reloaded": true,
+  "original_run_recalibration_sources": "fixed scores and original per-run case identities",
+  "input_sha256": "6d8b98b5cc3015d08f93e9f6fa26224698745181ac1106c619cbd3f8ba0bc401"
+}

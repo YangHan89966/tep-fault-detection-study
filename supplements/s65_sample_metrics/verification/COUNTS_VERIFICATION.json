@@ -1,0 +1,109 @@
+{
+  "numeric_checks": 5368,
+  "maximum_absolute_difference": 4.440892098500626e-16,
+  "count_rows": 40000,
+  "unique_count_keys": 40000,
+  "state_role_groups": 160,
+  "bootstrap_draws": 20000,
+  "simulation_runs": 0,
+  "alarm_bits_replayed": false,
+  "all_passed": true,
+  "state_rows": 160,
+  "five_state_rows": 32,
+  "contrast_rows": 12,
+  "bootstrap_index_hashes": {
+    "fault_3_original": "839544529fed5eb5aa81b56ca8f9e34918a8d11a9cb668ebb7c95e359f0b715f",
+    "normal_0_original": "0f649f65238a599ea173a05003b1feabfa4a4c1c83cf175dc5d5327d00d34295",
+    "fault_3_exclude_test_self_overlap": "18095dd47557dbb8d2cec51d644171ef19928aab9e7d9c181c1f9245c0cd2793",
+    "normal_0_exclude_test_self_overlap": "6cbfb29bfecb90a896a9ec0021d15b5dd0c78112a7c3d1cc2065b24a7b42cb20",
+    "fault_9_original": "9172d7e55ffdc4cbec0e6f6897dfdaddc3b3c9165d0dcee0e34b031d5d43763d",
+    "fault_9_exclude_test_self_overlap": "63f48b9a001ed2e661407f72d7b34796f4bc0808222742eaac1ba88a50c551b0",
+    "fault_15_original": "e6c73feb1a74902006d9669e86745c696cec2bf4453d46aa4eb223242d673d2c",
+    "fault_15_exclude_test_self_overlap": "332a63add066ea36e438f557158ff459efd3cbbf8e84dc9a69bf44493b9a3641"
+  },
+  "submitted_table_rows_checked": 16,
+  "archived_bootstrap_index_hashes_verified": 8,
+  "submitted_table_checks": [
+    {
+      "fault": 3,
+      "method": "mean_signed__full",
+      "displayed_detection": "72.98 [71.98, 73.96]"
+    },
+    {
+      "fault": 3,
+      "method": "same_mean_signed_axis_squared",
+      "displayed_detection": "3.37 [2.38, 4.49]"
+    },
+    {
+      "fault": 3,
+      "method": "mean_signed__I",
+      "displayed_detection": "50.25 [48.00, 52.48]"
+    },
+    {
+      "fault": 3,
+      "method": "FDA_equal_class_signed_CUSUM",
+      "displayed_detection": "50.45 [48.22, 52.66]"
+    },
+    {
+      "fault": 3,
+      "method": "Q_CUSUM",
+      "displayed_detection": "1.50 [0.70, 2.46]"
+    },
+    {
+      "fault": 9,
+      "method": "moment_signed__full",
+      "displayed_detection": "0.91 [0.65, 1.21]"
+    },
+    {
+      "fault": 9,
+      "method": "mean_pool_signed",
+      "displayed_detection": "0.98 [0.67, 1.32]"
+    },
+    {
+      "fault": 9,
+      "method": "moment_signed__I",
+      "displayed_detection": "0.58 [0.38, 0.80]"
+    },
+    {
+      "fault": 9,
+      "method": "FDA_equal_class_signed_CUSUM",
+      "displayed_detection": "0.52 [0.28, 0.81]"
+    },
+    {
+      "fault": 9,
+      "method": "Q_CUSUM",
+      "displayed_detection": "1.85 [0.99, 2.89]"
+    },
+    {
+      "fault": 15,
+      "method": "moment_squared__full",
+      "displayed_detection": "26.97 [24.16, 29.83]"
+    },
+    {
+      "fault": 15,
+      "method": "mean_pool_squared",
+      "displayed_detection": "4.95 [4.06, 5.88]"
+    },
+    {
+      "fault": 15,
+      "method": "moment_squared__I",
+      "displayed_detection": "22.65 [19.82, 25.58]"
+    },
+    {
+      "fault": 15,
+      "method": "covariance_F15_max_squared_CUSUM",
+      "displayed_detection": "22.93 [20.07, 25.88]"
+    },
+    {
+      "fault": 15,
+      "method": "FDA_equal_class_signed_CUSUM",
+      "displayed_detection": "1.10 [0.53, 1.79]"
+    },
+    {
+      "fault": 15,
+      "method": "Q_CUSUM",
+      "displayed_detection": "4.62 [3.00, 6.46]"
+    }
+  ],
+  "scope": "Archived integer counts to aggregates and confidence intervals; no reconstruction of time-ordered alarm bits."
+}

@@ -1,0 +1,20 @@
+{
+  "status": "COMPLETE",
+  "scientific_data_status": "COMPLETE",
+  "endpoint_rows": 30,
+  "comparison_rows": 15,
+  "original_B_replay_checks": 5,
+  "unique_raw_files_read": 2825,
+  "B_estimators": [
+    "original",
+    "batch",
+    "HAC"
+  ],
+  "new_TEP_simulations": false,
+  "batch_definition": "320 nonoverlapping blocks from 40 existing runs; not 320 independent runs",
+  "HAC_definition": "within-run lag pairs only; max(0,1-lag/120); denominator 40*960",
+  "A8_executed": false,
+  "task": "A7",
+  "exit_code": 0,
+  "original_scientific_source_modified": false
+}

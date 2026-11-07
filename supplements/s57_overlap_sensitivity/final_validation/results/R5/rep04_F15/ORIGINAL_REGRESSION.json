@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "R5:4:15:fault:original9",
+      "n_bits": 2160000,
+      "differing_bits": 0
+    },
+    {
+      "check": "R5:4:15:normal:original9",
+      "n_bits": 2160000,
+      "differing_bits": 0
+    },
+    {
+      "check": "R5:4:15:fault:moment_squared__full",
+      "n_bits": 240000,
+      "differing_bits": 0
+    },
+    {
+      "check": "R5:4:15:normal:moment_squared__full",
+      "n_bits": 240000,
+      "differing_bits": 0
+    },
+    {
+      "check": "R5:4:15:fault:moment_squared__I",
+      "n_bits": 240000,
+      "differing_bits": 0
+    },
+    {
+      "check": "R5:4:15:normal:moment_squared__I",
+      "n_bits": 240000,
+      "differing_bits": 0
+    },
+    {
+      "check": "R5:4:15:fault:Q_CUSUM",
+      "n_bits": 240000,
+      "differing_bits": 0
+    },
+    {
+      "check": "R5:4:15:normal:Q_CUSUM",
+      "n_bits": 240000,
+      "differing_bits": 0
+    },
+    {
+      "check": "R5:4:15:fault:FDA_equal_class_signed_CUSUM",
+      "n_bits": 240000,
+      "differing_bits": 0
+    },
+    {
+      "check": "R5:4:15:normal:FDA_equal_class_signed_CUSUM",
+      "n_bits": 240000,
+      "differing_bits": 0
+    },
+    {
+      "check": "R5:4:15:fault:covariance_F15_max_squared_CUSUM",
+      "n_bits": 240000,
+      "differing_bits": 0
+    },
+    {
+      "check": "R5:4:15:normal:covariance_F15_max_squared_CUSUM",
+      "n_bits": 240000,
+      "differing_bits": 0
+    }
+  ],
+  "calibration_n_kept": 251,
+  "calibration_new_rank": 240
+}

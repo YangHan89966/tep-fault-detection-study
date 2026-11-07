@@ -1,0 +1,107 @@
+{
+  "analysis": "A5 supplementary R5 sample-occupancy extension",
+  "original_A5_historical_D01_Braatz_complete": false,
+  "new_simulations": 0,
+  "model_fits": 0,
+  "new_thresholds": 0,
+  "normal_sample_denominator": 960,
+  "fault_prefault_denominator": 160,
+  "fault_postfault_denominator": 800,
+  "alarm_rule": "actual S_t > h; no alarm latch",
+  "five_state_averaging": "Per physical run before resampling; 250 unique evaluation runs per cohort before exclusions",
+  "uncertainty": "20,000 marginal percentile bootstrap resamples of whole physical runs. Five learned states and original thresholds treated as fixed; not evidence of RNG-stream independence.",
+  "scenarios": [
+    "original",
+    "exclude_test_self_overlap (unchanged calibration and h)"
+  ],
+  "resampling": {
+    "original|fault|F03": {
+      "seed_entropy": [
+        2026100905,
+        1,
+        3,
+        0
+      ],
+      "indices_sha256_le_int32": "839544529fed5eb5aa81b56ca8f9e34918a8d11a9cb668ebb7c95e359f0b715f",
+      "n_physical_runs": 250,
+      "draws": 20000
+    },
+    "original|normal|F00": {
+      "seed_entropy": [
+        2026100905,
+        2,
+        0,
+        0
+      ],
+      "indices_sha256_le_int32": "0f649f65238a599ea173a05003b1feabfa4a4c1c83cf175dc5d5327d00d34295",
+      "n_physical_runs": 250,
+      "draws": 20000
+    },
+    "exclude_test_self_overlap|fault|F03": {
+      "seed_entropy": [
+        2026100905,
+        1,
+        3,
+        1
+      ],
+      "indices_sha256_le_int32": "18095dd47557dbb8d2cec51d644171ef19928aab9e7d9c181c1f9245c0cd2793",
+      "n_physical_runs": 241,
+      "draws": 20000
+    },
+    "exclude_test_self_overlap|normal|F00": {
+      "seed_entropy": [
+        2026100905,
+        2,
+        0,
+        1
+      ],
+      "indices_sha256_le_int32": "6cbfb29bfecb90a896a9ec0021d15b5dd0c78112a7c3d1cc2065b24a7b42cb20",
+      "n_physical_runs": 242,
+      "draws": 20000
+    },
+    "original|fault|F09": {
+      "seed_entropy": [
+        2026100905,
+        1,
+        9,
+        0
+      ],
+      "indices_sha256_le_int32": "9172d7e55ffdc4cbec0e6f6897dfdaddc3b3c9165d0dcee0e34b031d5d43763d",
+      "n_physical_runs": 250,
+      "draws": 20000
+    },
+    "exclude_test_self_overlap|fault|F09": {
+      "seed_entropy": [
+        2026100905,
+        1,
+        9,
+        1
+      ],
+      "indices_sha256_le_int32": "63f48b9a001ed2e661407f72d7b34796f4bc0808222742eaac1ba88a50c551b0",
+      "n_physical_runs": 234,
+      "draws": 20000
+    },
+    "original|fault|F15": {
+      "seed_entropy": [
+        2026100905,
+        1,
+        15,
+        0
+      ],
+      "indices_sha256_le_int32": "e6c73feb1a74902006d9669e86745c696cec2bf4453d46aa4eb223242d673d2c",
+      "n_physical_runs": 250,
+      "draws": 20000
+    },
+    "exclude_test_self_overlap|fault|F15": {
+      "seed_entropy": [
+        2026100905,
+        1,
+        15,
+        1
+      ],
+      "indices_sha256_le_int32": "332a63add066ea36e438f557158ff459efd3cbbf8e84dc9a69bf44493b9a3641",
+      "n_physical_runs": 245,
+      "draws": 20000
+    }
+  }
+}

@@ -1,0 +1,5 @@
+﻿B_estimator_minus_original,method,loss_minutes,clean40_pct,clean8_pct,normal_FAR_pct
+batch,mean_pool_signed,15.5952,-1.36,-0.16,-0.88
+batch,moment_pool_signed,-256.8312,24.72,1.76,-0.32
+HAC,mean_pool_signed,13.380000000000008,-1.44,0.08,-0.24
+HAC,moment_pool_signed,-303.096,28.64,2.48,-0.08

@@ -1,0 +1,163 @@
+{
+  "status": "PASS_WITH_EXPLICIT_REPLAY_SCOPE",
+  "table_value_checks": {
+    "S57": {
+      "checked": 96,
+      "matched": 96
+    },
+    "D14": {
+      "checked": 96,
+      "matched": 96
+    },
+    "source_map": "TABLE_VALUE_SOURCE_MAP.csv"
+  },
+  "final_validation_replay": {
+    "status": "PASS",
+    "scope": "S57 DV/R5 validation and standard-monitor branches only",
+    "new_simulations": 0,
+    "new_fits": 0,
+    "A4_reconstructed_counts": {
+      "DV": {
+        "endpoint_rows": 81,
+        "event_rows": 39348,
+        "units": 3
+      },
+      "R5": {
+        "endpoint_rows": 240,
+        "event_rows": 117170,
+        "units": 15
+      },
+      "standard": {
+        "endpoint_rows": 60,
+        "event_rows": 11050,
+        "units": 2
+      }
+    },
+    "A4_thresholds_recomputed": 127,
+    "A4_event_rows_recovered": 167568,
+    "host_CSVs_reproduced_byte_identically": 28,
+    "exact_CSVs": [
+      "results/DV/CHANGES_FROM_ORIGINAL.csv",
+      "results/DV/STATE_ENDPOINTS.csv",
+      "results/DV/C1_C2_C3_PAIRED_983333.csv",
+      "results/DV/MEAN_ENDPOINTS.csv",
+      "results/DV/rep01_F15/ENDPOINTS.csv",
+      "results/DV/rep01_F03/ENDPOINTS.csv",
+      "results/DV/rep01_F09/ENDPOINTS.csv",
+      "results/R5/CHANGES_FROM_ORIGINAL.csv",
+      "results/R5/STATE_ENDPOINTS.csv",
+      "results/R5/C1_C2_C3_PAIRED_983333.csv",
+      "results/R5/MEAN_ENDPOINTS.csv",
+      "results/R5/rep03_F15/ENDPOINTS.csv",
+      "results/R5/rep04_F09/ENDPOINTS.csv",
+      "results/R5/rep03_F03/ENDPOINTS.csv",
+      "results/R5/rep05_F09/ENDPOINTS.csv",
+      "results/R5/rep05_F03/ENDPOINTS.csv",
+      "results/R5/rep04_F03/ENDPOINTS.csv",
+      "results/R5/rep01_F15/ENDPOINTS.csv",
+      "results/R5/rep01_F03/ENDPOINTS.csv",
+      "results/R5/rep02_F09/ENDPOINTS.csv",
+      "results/R5/rep04_F15/ENDPOINTS.csv",
+      "results/R5/rep03_F09/ENDPOINTS.csv",
+      "results/R5/rep01_F09/ENDPOINTS.csv",
+      "results/R5/rep02_F15/ENDPOINTS.csv",
+      "results/R5/rep02_F03/ENDPOINTS.csv",
+      "results/R5/rep05_F15/ENDPOINTS.csv",
+      "results/standard/S25_primary/ENDPOINTS.csv",
+      "results/standard/D439_supplement/ENDPOINTS.csv"
+    ],
+    "original_raw52_reread_in_this_replay": false,
+    "runtime": {
+      "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+      "numpy": "2.3.5"
+    },
+    "shared_code_sha256": {
+      "a4_core.py": "fdcb27e7172ef8dd1e6cadd1066b5ea82e26fca634291c252d094778828eff64",
+      "historical_core.py": "232b89bc32e666aa8a9784003139e9540188e71631069e9fb5af1abeec112cf4"
+    },
+    "notes": [
+      "Pre-onset maxima and post-onset running maxima preserve first crossing and episode metrics, not sample-level occupancy.",
+      "20,000-draw bootstrap schedule is copied exactly from the verified host code.",
+      "Source-exact re-bootstrap original rows are checks, not replacements for original manuscript confidence intervals.",
+      "Fixed historical and relearned recording-monitor branches are outside this entry point."
+    ]
+  },
+  "additional_branch_csv_checks": [
+    {
+      "branch": "fixed_panel2",
+      "file": "ENDPOINTS.csv",
+      "exists": true,
+      "byte_identical": true,
+      "sha256": "f922133e36ecc39f8aead8e713fad095a010d44e7ce05484d329bc74fba8795e"
+    },
+    {
+      "branch": "fixed_panel2",
+      "file": "EVENTS.csv",
+      "exists": true,
+      "byte_identical": true,
+      "sha256": "e41e22f9057f666b23efcddbd82224af364e1079b9d38a5fdd71d362b56175b6"
+    },
+    {
+      "branch": "fixed_panel2",
+      "file": "PAIRED_RECORDING_COMPARISONS.csv",
+      "exists": true,
+      "byte_identical": true,
+      "sha256": "f11166a38d55a2bed590c4f31435b259fc82cf978bf4ec2ae43506f55eaa6040"
+    },
+    {
+      "branch": "recording_relearning",
+      "file": "RELEARNING_RECALIBRATED_PAIRED_CONTRASTS.csv",
+      "exists": true,
+      "byte_identical": true,
+      "sha256": "8c3e66f614db92fb0f10d0d9b2224754be2bb3b475fbdc97f8b913e5cc3bf26c"
+    },
+    {
+      "branch": "recording_relearning",
+      "file": "RELEARNING_SUPPLEMENTAL_THRESHOLDS.csv",
+      "exists": true,
+      "byte_identical": true,
+      "sha256": "27e1670c288d89a840257c3449bea4b99e8cba94b89427c20295e88405e34ffe"
+    },
+    {
+      "branch": "recording_relearning",
+      "file": "TABLE6_RELEARNING_THREE_SCENARIOS.csv",
+      "exists": true,
+      "byte_identical": true,
+      "sha256": "c0db596ad41fbadf85da108fc01cacfc86eeca635d1caca45e645f8311c5a5ec"
+    },
+    {
+      "branch": "recording_relearning",
+      "file": "SHARED_CASE_IDENTITIES_AND_EXCLUSIONS.csv",
+      "exists": true,
+      "byte_identical": true,
+      "sha256": "9e3ede0275a8f4eb8b286469af52e9b96c57cd3d403d95b8fcaf34bfe884cd0b"
+    },
+    {
+      "branch": "calibration_leave_one_out",
+      "file": "LEAVE_ONE_OUT_BY_CASE_MONITOR.csv",
+      "exists": true,
+      "byte_identical": true,
+      "sha256": "1686b9bddf61e3e75e2ae42cbc1f4db6e08c326e1c4269ed0e11d69dd5fa8803"
+    },
+    {
+      "branch": "calibration_leave_one_out",
+      "file": "DISTINCT_METRIC_FREQUENCIES.csv",
+      "exists": true,
+      "byte_identical": true,
+      "sha256": "37d81626b855de3b135abbdbe2dfdd48aec9da092b779df2bcbf3041e68e7ef1"
+    },
+    {
+      "branch": "calibration_leave_one_out",
+      "file": "SELF_OVERLAP_DELETION_COMPARISON.csv",
+      "exists": true,
+      "byte_identical": true,
+      "sha256": "be68f26d744d4a4861212acb258eede45b1d9e63dd713c74f0c2802d1e528ac6"
+    }
+  ],
+  "byte_identical_CSV_total": 38,
+  "new_simulations": 0,
+  "new_model_fits": 0,
+  "historical_partial_script_replay_executed": false,
+  "historical_partial_script_limitation": "Earlier test-only and partial full-reference scripts are provenance code; their historical alarm-input archive layout is not included or verified available in another deposit by this component. Their saved results are source-mapped and checked, while completed DV/R5/standard branches use the tested final-validation replay route.",
+  "original_reported_intervals": "Original-study confidence intervals are read from their identified original tables. Sensitivity re-bootstrap values do not replace the original-study column."
+}

@@ -1,0 +1,193 @@
+table,row,column,displayed_value,source_file,saved_value_formatted,match
+S57,"Validation 1, C1",Test runs excluded,+1781.3 (1725.0 to 1833.0),final_validation/results/DV/C1_C2_C3_PAIRED_983333.csv,+1781.3 (1725.0 to 1833.0),True
+S57,"Validation 1, C1",Test and calibration runs excluded,+1774.2 (1719.3 to 1824.0),final_validation/results/DV/C1_C2_C3_PAIRED_983333.csv,+1774.2 (1719.3 to 1824.0),True
+S57,"Validation 1, C2",Test runs excluded,+12.5 (−26.6 to 50.6),final_validation/results/DV/C1_C2_C3_PAIRED_983333.csv,+12.5 (-26.6 to 50.6),True
+S57,"Validation 1, C2",Test and calibration runs excluded,+11.8 (−27.6 to 49.2),final_validation/results/DV/C1_C2_C3_PAIRED_983333.csv,+11.8 (-27.6 to 49.2),True
+S57,"Validation 1, C3",Test runs excluded,−956.7 (−1056.2 to −854.3),final_validation/results/DV/C1_C2_C3_PAIRED_983333.csv,-956.7 (-1056.2 to -854.3),True
+S57,"Validation 1, C3",Test and calibration runs excluded,−956.7 (−1058.0 to −855.3),final_validation/results/DV/C1_C2_C3_PAIRED_983333.csv,-956.7 (-1058.0 to -855.3),True
+S57,"Validation 2, C1",Test runs excluded,+1614.2 (1555.9 to 1670.0),final_validation/results/R5/C1_C2_C3_PAIRED_983333.csv,+1614.2 (1555.9 to 1670.0),True
+S57,"Validation 2, C1",Test and calibration runs excluded,+1620.4 (1562.8 to 1674.6),final_validation/results/R5/C1_C2_C3_PAIRED_983333.csv,+1620.4 (1562.8 to 1674.6),True
+S57,"Validation 2, C2",Test runs excluded,−19.8 (−47.9 to 7.9),final_validation/results/R5/C1_C2_C3_PAIRED_983333.csv,-19.8 (-47.9 to 7.9),True
+S57,"Validation 2, C2",Test and calibration runs excluded,−21.7 (−49.1 to 5.1),final_validation/results/R5/C1_C2_C3_PAIRED_983333.csv,-21.7 (-49.1 to 5.1),True
+S57,"Validation 2, C3",Test runs excluded,−613.3 (−697.2 to −531.3),final_validation/results/R5/C1_C2_C3_PAIRED_983333.csv,-613.3 (-697.2 to -531.3),True
+S57,"Validation 2, C3",Test and calibration runs excluded,−580.3 (−663.0 to −497.5),final_validation/results/R5/C1_C2_C3_PAIRED_983333.csv,-580.3 (-663.0 to -497.5),True
+S57,"Validation 1, C1",Original,+1783.1 (1727.4 to 1834.5),earlier_branches/test_and_reference/results/TABLE3_COMPARISON.csv,+1783.1 (1727.4 to 1834.5),True
+S57,"Validation 2, C1",Original,+1624.0 (1566.9 to 1679.5),earlier_branches/test_and_reference/results/TABLE3_COMPARISON.csv,+1624.0 (1566.9 to 1679.5),True
+S57,"Validation 1, C2",Original,+12.2 (−26.0 to 49.3),earlier_branches/test_and_reference/results/TABLE3_COMPARISON.csv,+12.2 (-26.0 to 49.3),True
+S57,"Validation 2, C2",Original,−19.6 (−46.3 to 6.6),earlier_branches/test_and_reference/results/TABLE3_COMPARISON.csv,-19.6 (-46.3 to 6.6),True
+S57,"Validation 1, C3",Original,−948.3 (−1048.1 to −846.4),earlier_branches/test_and_reference/results/TABLE3_COMPARISON.csv,-948.3 (-1048.1 to -846.4),True
+S57,"Validation 2, C3",Original,−615.1 (−696.7 to −534.3),earlier_branches/test_and_reference/results/TABLE3_COMPARISON.csv,-615.1 (-696.7 to -534.3),True
+S57,"Fault 3, minus FDA-CUSUM: Δ loss, min (98.33% interval)",Original,−519.7 (−582.4 to −459.2),earlier_branches/test_and_reference/results/TABLE5_COMPARISON.csv,-519.7 (-582.4 to -459.2),True
+S57,"Fault 3, minus FDA-CUSUM: Δ loss, min (98.33% interval)",Test runs excluded,−514.3 (−578.4 to −451.7),earlier_branches/test_and_reference/results/TABLE5_COMPARISON.csv,-514.3 (-578.4 to -451.7),True
+S57,"Fault 9, minus FDA-CUSUM: Δ loss, min (98.33% interval)",Original,−57.0 (−81.8 to −32.7),earlier_branches/test_and_reference/results/TABLE5_COMPARISON.csv,-57.0 (-81.8 to -32.7),True
+S57,"Fault 9, minus FDA-CUSUM: Δ loss, min (98.33% interval)",Test runs excluded,−59.0 (−86.1 to −33.3),earlier_branches/test_and_reference/results/TABLE5_COMPARISON.csv,-59.0 (-86.1 to -33.3),True
+S57,"Fault 15, minus variance-ratio reference: Δ loss, min (98.33% interval)",Original,−170.3 (−254.5 to −86.9),earlier_branches/test_and_reference/results/TABLE5_COMPARISON.csv,-170.3 (-254.5 to -86.9),True
+S57,"Fault 15, minus variance-ratio reference: Δ 40 h detection, pp (95% interval)",Original,+6.6 (1.4 to 11.7),original_reported_intervals/R5_THREE_PLANNED_CONTRASTS_POST_RETURN.csv,+6.6 (1.4 to 11.7),True
+S57,"Fault 15, minus variance-ratio reference: Δ loss, min (98.33% interval)",Test runs excluded,−166.8 (−249.0 to −83.9),earlier_branches/test_and_reference/results/TABLE5_COMPARISON.csv,-166.8 (-249.0 to -83.9),True
+S57,"Fault 15, minus variance-ratio reference: Δ 40 h detection, pp (95% interval)",Test runs excluded,+5.9 (0.7 to 11.1),earlier_branches/test_and_reference/results/TABLE5_COMPARISON.csv,+5.9 (0.7 to 11.1),True
+S57,"Fault 3, minus FDA-CUSUM: Δ loss, min (98.33% interval)",Test and calibration runs excluded,−516.4 (−580.1 to −454.0),earlier_branches/test_and_reference/results/ANALYSIS2_TABLE5_PAIRED_CONTRASTS.csv,-516.4 (-580.1 to -454.0),True
+S57,"Fault 9, minus FDA-CUSUM: Δ loss, min (98.33% interval)",Test and calibration runs excluded,−60.3 (−86.8 to −34.3),earlier_branches/test_and_reference/results/ANALYSIS2_TABLE5_PAIRED_CONTRASTS.csv,-60.3 (-86.8 to -34.3),True
+S57,"Fault 15, minus variance-ratio reference: Δ loss, min (98.33% interval)",Test and calibration runs excluded,−145.0 (−225.9 to −64.8),earlier_branches/test_and_reference/results/ANALYSIS2_TABLE5_PAIRED_CONTRASTS.csv,-145.0 (-225.9 to -64.8),True
+S57,"Fault 15, minus variance-ratio reference: Δ 40 h detection, pp (95% interval)",Test and calibration runs excluded,+5.0 (−0.2 to 10.1),earlier_branches/test_and_reference/results/ANALYSIS2_TABLE5_PAIRED_CONTRASTS.csv,+5.0 (-0.2 to 10.1),True
+S57,"Panel 1, relearned second-moment pool, controller-input (M1)",Original,75/75; 3/60,earlier_branches/test_and_reference/results/TABLE6_COMPARISON.csv,75/75; 3/60,True
+S57,"Panel 1, relearned second-moment pool, controller-input (M1)",Test runs excluded,70/70; 3/58,earlier_branches/test_and_reference/results/TABLE6_COMPARISON.csv,70/70; 3/58,True
+S57,"Panel 1, relearned second-moment pool, post-update (M2)",Original,28/75; 2/60,earlier_branches/test_and_reference/results/TABLE6_COMPARISON.csv,28/75; 2/60,True
+S57,"Panel 1, relearned second-moment pool, post-update (M2)",Test runs excluded,25/70; 2/58,earlier_branches/test_and_reference/results/TABLE6_COMPARISON.csv,25/70; 2/58,True
+S57,"Panel 1, relearned mean-shift pool, controller-input (M3)",Original,71/75; 1/60,earlier_branches/test_and_reference/results/TABLE6_COMPARISON.csv,71/75; 1/60,True
+S57,"Panel 1, relearned mean-shift pool, controller-input (M3)",Test runs excluded,66/70; 1/58,earlier_branches/test_and_reference/results/TABLE6_COMPARISON.csv,66/70; 1/58,True
+S57,"Panel 1, relearned mean-shift pool, post-update (M4)",Original,10/75; 1/60,earlier_branches/test_and_reference/results/TABLE6_COMPARISON.csv,10/75; 1/60,True
+S57,"Panel 1, relearned mean-shift pool, post-update (M4)",Test runs excluded,10/70; 1/58,earlier_branches/test_and_reference/results/TABLE6_COMPARISON.csv,10/70; 1/58,True
+S57,"Panel 2, relearned second-moment pool, controller-input (M1)",Original,119/120; 7/120,earlier_branches/test_and_reference/results/TABLE6_COMPARISON.csv,119/120; 7/120,True
+S57,"Panel 2, relearned second-moment pool, controller-input (M1)",Test runs excluded,119/120; 7/117,earlier_branches/test_and_reference/results/TABLE6_COMPARISON.csv,119/120; 7/117,True
+S57,"Panel 2, relearned second-moment pool, post-update (M2)",Original,38/120; 7/120,earlier_branches/test_and_reference/results/TABLE6_COMPARISON.csv,38/120; 7/120,True
+S57,"Panel 2, relearned second-moment pool, post-update (M2)",Test runs excluded,38/120; 7/117,earlier_branches/test_and_reference/results/TABLE6_COMPARISON.csv,38/120; 7/117,True
+S57,"Panel 2, relearned mean-shift pool, controller-input (M3)",Original,112/120; 10/120,earlier_branches/test_and_reference/results/TABLE6_COMPARISON.csv,112/120; 10/120,True
+S57,"Panel 2, relearned mean-shift pool, controller-input (M3)",Test runs excluded,112/120; 10/117,earlier_branches/test_and_reference/results/TABLE6_COMPARISON.csv,112/120; 10/117,True
+S57,"Panel 2, relearned mean-shift pool, post-update (M4)",Original,16/120; 11/120,earlier_branches/test_and_reference/results/TABLE6_COMPARISON.csv,16/120; 11/120,True
+S57,"Panel 2, relearned mean-shift pool, post-update (M4)",Test runs excluded,16/120; 11/117,earlier_branches/test_and_reference/results/TABLE6_COMPARISON.csv,16/120; 11/117,True
+S57,"Panel 1, fixed historical monitor, post-update",Original,8/75; 2/60,earlier_branches/test_and_reference/results/TABLE6_COMPARISON.csv,8/75; 2/60,True
+S57,"Panel 1, fixed historical monitor, post-update",Test runs excluded,7/70; 2/58,earlier_branches/test_and_reference/results/TABLE6_COMPARISON.csv,7/70; 2/58,True
+S57,"Panel 1, fixed historical monitor, controller-input",Original,72/75; 4/60,earlier_branches/test_and_reference/results/TABLE6_COMPARISON.csv,72/75; 4/60,True
+S57,"Panel 1, fixed historical monitor, controller-input",Test runs excluded,67/70; 4/58,earlier_branches/test_and_reference/results/TABLE6_COMPARISON.csv,67/70; 4/58,True
+S57,"Panel 2, fixed historical monitor, post-update",Original,23/120; 6/120,earlier_branches/test_and_reference/results/TABLE6_COMPARISON.csv,23/120; 6/120,True
+S57,"Panel 2, fixed historical monitor, post-update",Test runs excluded,23/120; 6/117,earlier_branches/test_and_reference/results/TABLE6_COMPARISON.csv,23/120; 6/117,True
+S57,"Panel 2, fixed historical monitor, controller-input",Original,113/120; 9/120,earlier_branches/test_and_reference/results/TABLE6_COMPARISON.csv,113/120; 9/120,True
+S57,"Panel 2, fixed historical monitor, controller-input",Test runs excluded,113/120; 8/117,earlier_branches/test_and_reference/results/TABLE6_COMPARISON.csv,113/120; 8/117,True
+S57,"Panel 1, fixed historical monitor, post-update",Test and calibration runs excluded,5/70; 2/58,earlier_branches/test_and_reference/results/ANALYSIS2_TABLE6_FIXED_PANEL1.csv,5/70; 2/58,True
+S57,"Panel 1, fixed historical monitor, controller-input",Test and calibration runs excluded,67/70; 3/58,earlier_branches/test_and_reference/results/ANALYSIS2_TABLE6_FIXED_PANEL1.csv,67/70; 3/58,True
+S57,"Panel 1, relearned second-moment pool, controller-input (M1)",Test and calibration runs excluded,70/70; 3/58,earlier_branches/recording_relearning/results/TABLE6_RELEARNING_THREE_SCENARIOS.csv,70/70; 3/58,True
+S57,"Panel 1, relearned second-moment pool, post-update (M2)",Test and calibration runs excluded,12/70; 2/58,earlier_branches/recording_relearning/results/TABLE6_RELEARNING_THREE_SCENARIOS.csv,12/70; 2/58,True
+S57,"Panel 1, relearned mean-shift pool, controller-input (M3)",Test and calibration runs excluded,66/70; 1/58,earlier_branches/recording_relearning/results/TABLE6_RELEARNING_THREE_SCENARIOS.csv,66/70; 1/58,True
+S57,"Panel 1, relearned mean-shift pool, post-update (M4)",Test and calibration runs excluded,6/70; 1/58,earlier_branches/recording_relearning/results/TABLE6_RELEARNING_THREE_SCENARIOS.csv,6/70; 1/58,True
+S57,"Panel 2, relearned second-moment pool, controller-input (M1)",Test and calibration runs excluded,119/120; 7/117,earlier_branches/recording_relearning/results/TABLE6_RELEARNING_THREE_SCENARIOS.csv,119/120; 7/117,True
+S57,"Panel 2, relearned second-moment pool, post-update (M2)",Test and calibration runs excluded,38/120; 7/117,earlier_branches/recording_relearning/results/TABLE6_RELEARNING_THREE_SCENARIOS.csv,38/120; 7/117,True
+S57,"Panel 2, relearned mean-shift pool, controller-input (M3)",Test and calibration runs excluded,110/120; 8/117,earlier_branches/recording_relearning/results/TABLE6_RELEARNING_THREE_SCENARIOS.csv,110/120; 8/117,True
+S57,"Panel 2, relearned mean-shift pool, post-update (M4)",Test and calibration runs excluded,14/120; 9/117,earlier_branches/recording_relearning/results/TABLE6_RELEARNING_THREE_SCENARIOS.csv,14/120; 9/117,True
+S57,"Panel 1, post-update",Original,1–15/75; 1–10/60,final_validation/results/standard/S25_primary/ENDPOINTS.csv,1–15/75; 1–10/60,True
+S57,"Panel 1, controller-input",Original,1–9/75; 0–3/60,final_validation/results/standard/S25_primary/ENDPOINTS.csv,1–9/75; 0–3/60,True
+S57,"Panel 1, post-update",Test runs excluded,1–15/70; 1–10/58,final_validation/results/standard/S25_primary/ENDPOINTS.csv,1–15/70; 1–10/58,True
+S57,"Panel 1, controller-input",Test runs excluded,1–9/70; 0–3/58,final_validation/results/standard/S25_primary/ENDPOINTS.csv,1–9/70; 0–3/58,True
+S57,"Panel 1, post-update",Test and calibration runs excluded,0–10/70; 0–5/58,final_validation/results/standard/S25_primary/ENDPOINTS.csv,0–10/70; 0–5/58,True
+S57,"Panel 1, controller-input",Test and calibration runs excluded,1–7/70; 0–2/58,final_validation/results/standard/S25_primary/ENDPOINTS.csv,1–7/70; 0–2/58,True
+S57,"Panel 2, post-update",Original,3–13/120; 4–7/120,final_validation/results/standard/D439_supplement/ENDPOINTS.csv,3–13/120; 4–7/120,True
+S57,"Panel 2, controller-input",Original,4–26/120; 2–15/120,final_validation/results/standard/D439_supplement/ENDPOINTS.csv,4–26/120; 2–15/120,True
+S57,"Panel 2, post-update",Test runs excluded,3–13/120; 4–7/117,final_validation/results/standard/D439_supplement/ENDPOINTS.csv,3–13/120; 4–7/117,True
+S57,"Panel 2, controller-input",Test runs excluded,4–26/120; 2–15/117,final_validation/results/standard/D439_supplement/ENDPOINTS.csv,4–26/120; 2–15/117,True
+S57,"Panel 2, post-update",Test and calibration runs excluded,3–9/120; 4–5/117,final_validation/results/standard/D439_supplement/ENDPOINTS.csv,3–9/120; 4–5/117,True
+S57,"Panel 2, controller-input",Test and calibration runs excluded,4–23/120; 1–14/117,final_validation/results/standard/D439_supplement/ENDPOINTS.csv,4–23/120; 1–14/117,True
+S57,"Panel 1, relearned second-moment pool (M1 − M2)",Original,+62.7 (52.0 to 73.3),earlier_branches/test_and_reference/results/TABLE6_PAIRED_RECORDING_DIFFERENCES.csv,+62.7 (52.0 to 73.3),True
+S57,"Panel 1, relearned second-moment pool (M1 − M2)",Test runs excluded,+64.3 (52.9 to 75.7),earlier_branches/test_and_reference/results/TABLE6_PAIRED_RECORDING_DIFFERENCES.csv,+64.3 (52.9 to 75.7),True
+S57,"Panel 1, relearned mean-shift pool (M3 − M4)",Original,+81.3 (72.0 to 89.3),earlier_branches/test_and_reference/results/TABLE6_PAIRED_RECORDING_DIFFERENCES.csv,+81.3 (72.0 to 89.3),True
+S57,"Panel 1, relearned mean-shift pool (M3 − M4)",Test runs excluded,+80.0 (70.0 to 88.6),earlier_branches/test_and_reference/results/TABLE6_PAIRED_RECORDING_DIFFERENCES.csv,+80.0 (70.0 to 88.6),True
+S57,"Panel 2, relearned second-moment pool (M1 − M2)",Original,+67.5 (59.2 to 75.8),earlier_branches/test_and_reference/results/TABLE6_PAIRED_RECORDING_DIFFERENCES.csv,+67.5 (59.2 to 75.8),True
+S57,"Panel 2, relearned second-moment pool (M1 − M2)",Test runs excluded,+67.5 (59.2 to 75.8),earlier_branches/test_and_reference/results/TABLE6_PAIRED_RECORDING_DIFFERENCES.csv,+67.5 (59.2 to 75.8),True
+S57,"Panel 2, relearned mean-shift pool (M3 − M4)",Original,+80.0 (72.5 to 87.5),earlier_branches/test_and_reference/results/TABLE6_PAIRED_RECORDING_DIFFERENCES.csv,+80.0 (72.5 to 87.5),True
+S57,"Panel 2, relearned mean-shift pool (M3 − M4)",Test runs excluded,+80.0 (72.5 to 87.5),earlier_branches/test_and_reference/results/TABLE6_PAIRED_RECORDING_DIFFERENCES.csv,+80.0 (72.5 to 87.5),True
+S57,"Panel 1, fixed historical monitor",Original,+85.3 (77.3 to 93.3),earlier_branches/test_and_reference/results/TABLE6_PAIRED_RECORDING_DIFFERENCES.csv,+85.3 (77.3 to 93.3),True
+S57,"Panel 1, fixed historical monitor",Test runs excluded,+85.7 (77.1 to 92.9),earlier_branches/test_and_reference/results/TABLE6_PAIRED_RECORDING_DIFFERENCES.csv,+85.7 (77.1 to 92.9),True
+S57,"Panel 2, fixed historical monitor",Original,+75.0 (67.5 to 82.5),original_reported_intervals/Panel2_PAIRED_CONTRASTS.csv,+75.0 (67.5 to 82.5),True
+S57,"Panel 1, fixed historical monitor",Test and calibration runs excluded,+88.6 (81.4 to 95.7),earlier_branches/test_and_reference/results/ANALYSIS2_TABLE6_FIXED_PANEL1_PAIRED.csv,+88.6 (81.4 to 95.7),True
+S57,"Panel 1, relearned second-moment pool (M1 − M2)",Test and calibration runs excluded,+82.9 (74.3 to 91.4),earlier_branches/recording_relearning/results/RELEARNING_RECALIBRATED_PAIRED_CONTRASTS.csv,+82.9 (74.3 to 91.4),True
+S57,"Panel 1, relearned mean-shift pool (M3 − M4)",Test and calibration runs excluded,+85.7 (77.1 to 92.9),earlier_branches/recording_relearning/results/RELEARNING_RECALIBRATED_PAIRED_CONTRASTS.csv,+85.7 (77.1 to 92.9),True
+S57,"Panel 2, relearned second-moment pool (M1 − M2)",Test and calibration runs excluded,+67.5 (59.2 to 75.8),earlier_branches/recording_relearning/results/RELEARNING_RECALIBRATED_PAIRED_CONTRASTS.csv,+67.5 (59.2 to 75.8),True
+S57,"Panel 2, relearned mean-shift pool (M3 − M4)",Test and calibration runs excluded,+80.0 (72.5 to 87.5),earlier_branches/recording_relearning/results/RELEARNING_RECALIBRATED_PAIRED_CONTRASTS.csv,+80.0 (72.5 to 87.5),True
+S57,"Panel 2, fixed historical monitor, post-update",Test and calibration runs excluded,23/120; 4/117,fixed_panel2/results/A4_fixed_panel2/ENDPOINTS.csv,23/120; 4/117,True
+S57,"Panel 2, fixed historical monitor, controller-input",Test and calibration runs excluded,112/120; 8/117,fixed_panel2/results/A4_fixed_panel2/ENDPOINTS.csv,112/120; 8/117,True
+S57,"Panel 2, fixed historical monitor",Test runs excluded,+75.0 (67.5 to 82.5),fixed_panel2/results/A4_fixed_panel2/PAIRED_RECORDING_COMPARISONS.csv,+75.0 (67.5 to 82.5),True
+S57,"Panel 2, fixed historical monitor",Test and calibration runs excluded,+74.2 (65.8 to 81.7),fixed_panel2/results/A4_fixed_panel2/PAIRED_RECORDING_COMPARISONS.csv,+74.2 (65.8 to 81.7),True
+D14,row 4 FDA_equal_class_signed_CUSUM,Test excluded: 40 h (%),97.5,final_validation/results/R5/MEAN_ENDPOINTS.csv,97.5,True
+D14,row 4 FDA_equal_class_signed_CUSUM,Test excluded: normal FAR (%),5.0,final_validation/results/R5/MEAN_ENDPOINTS.csv,5.0,True
+D14,row 4 FDA_equal_class_signed_CUSUM,Test and calibration excluded: 40 h (%),97.4,final_validation/results/R5/MEAN_ENDPOINTS.csv,97.4,True
+D14,row 4 FDA_equal_class_signed_CUSUM,Test and calibration excluded: normal FAR (%),5.0,final_validation/results/R5/MEAN_ENDPOINTS.csv,5.0,True
+D14,row 4 FDA_equal_class_signed_CUSUM,Original: 40 h (%),97.5,final_validation/results/R5/MEAN_ENDPOINTS.csv,97.5,True
+D14,row 4 FDA_equal_class_signed_CUSUM,Original: normal FAR (%),5.0,final_validation/results/R5/MEAN_ENDPOINTS.csv,5.0,True
+D14,row 5 Q_CUSUM,Test excluded: 40 h (%),8.4,final_validation/results/R5/MEAN_ENDPOINTS.csv,8.4,True
+D14,row 5 Q_CUSUM,Test excluded: normal FAR (%),4.6,final_validation/results/R5/MEAN_ENDPOINTS.csv,4.6,True
+D14,row 5 Q_CUSUM,Test and calibration excluded: 40 h (%),8.2,final_validation/results/R5/MEAN_ENDPOINTS.csv,8.2,True
+D14,row 5 Q_CUSUM,Test and calibration excluded: normal FAR (%),4.6,final_validation/results/R5/MEAN_ENDPOINTS.csv,4.6,True
+D14,row 5 Q_CUSUM,Original: 40 h (%),8.1,final_validation/results/R5/MEAN_ENDPOINTS.csv,8.1,True
+D14,row 5 Q_CUSUM,Original: normal FAR (%),4.9,final_validation/results/R5/MEAN_ENDPOINTS.csv,4.9,True
+D14,row 1 mean_pool_signed,Test excluded: 40 h (%),100.0,final_validation/results/R5/MEAN_ENDPOINTS.csv,100.0,True
+D14,row 1 mean_pool_signed,Test excluded: normal FAR (%),6.2,final_validation/results/R5/MEAN_ENDPOINTS.csv,6.2,True
+D14,row 1 mean_pool_signed,Test and calibration excluded: 40 h (%),100.0,final_validation/results/R5/MEAN_ENDPOINTS.csv,100.0,True
+D14,row 1 mean_pool_signed,Test and calibration excluded: normal FAR (%),6.0,final_validation/results/R5/MEAN_ENDPOINTS.csv,6.0,True
+D14,row 1 mean_pool_signed,Original: 40 h (%),100.0,final_validation/results/R5/MEAN_ENDPOINTS.csv,100.0,True
+D14,row 1 mean_pool_signed,Original: normal FAR (%),6.3,final_validation/results/R5/MEAN_ENDPOINTS.csv,6.3,True
+D14,row 3 mean_signed__I,Test excluded: 40 h (%),97.3,final_validation/results/R5/MEAN_ENDPOINTS.csv,97.3,True
+D14,row 3 mean_signed__I,Test excluded: normal FAR (%),5.0,final_validation/results/R5/MEAN_ENDPOINTS.csv,5.0,True
+D14,row 3 mean_signed__I,Test and calibration excluded: 40 h (%),97.0,final_validation/results/R5/MEAN_ENDPOINTS.csv,97.0,True
+D14,row 3 mean_signed__I,Test and calibration excluded: normal FAR (%),4.8,final_validation/results/R5/MEAN_ENDPOINTS.csv,4.8,True
+D14,row 3 mean_signed__I,Original: 40 h (%),97.3,final_validation/results/R5/MEAN_ENDPOINTS.csv,97.3,True
+D14,row 3 mean_signed__I,Original: normal FAR (%),4.9,final_validation/results/R5/MEAN_ENDPOINTS.csv,4.9,True
+D14,row 2 same_mean_signed_axis_squared,Test excluded: 40 h (%),21.2,final_validation/results/R5/MEAN_ENDPOINTS.csv,21.2,True
+D14,row 2 same_mean_signed_axis_squared,Test excluded: normal FAR (%),4.3,final_validation/results/R5/MEAN_ENDPOINTS.csv,4.3,True
+D14,row 2 same_mean_signed_axis_squared,Test and calibration excluded: 40 h (%),20.2,final_validation/results/R5/MEAN_ENDPOINTS.csv,20.2,True
+D14,row 2 same_mean_signed_axis_squared,Test and calibration excluded: normal FAR (%),4.1,final_validation/results/R5/MEAN_ENDPOINTS.csv,4.1,True
+D14,row 2 same_mean_signed_axis_squared,Original: 40 h (%),20.5,final_validation/results/R5/MEAN_ENDPOINTS.csv,20.5,True
+D14,row 2 same_mean_signed_axis_squared,Original: normal FAR (%),4.2,final_validation/results/R5/MEAN_ENDPOINTS.csv,4.2,True
+D14,row 9 FDA_equal_class_signed_CUSUM,Test excluded: 40 h (%),4.7,final_validation/results/R5/MEAN_ENDPOINTS.csv,4.7,True
+D14,row 9 FDA_equal_class_signed_CUSUM,Test excluded: normal FAR (%),6.2,final_validation/results/R5/MEAN_ENDPOINTS.csv,6.2,True
+D14,row 9 FDA_equal_class_signed_CUSUM,Test and calibration excluded: 40 h (%),4.4,final_validation/results/R5/MEAN_ENDPOINTS.csv,4.4,True
+D14,row 9 FDA_equal_class_signed_CUSUM,Test and calibration excluded: normal FAR (%),6.3,final_validation/results/R5/MEAN_ENDPOINTS.csv,6.3,True
+D14,row 9 FDA_equal_class_signed_CUSUM,Original: 40 h (%),4.4,final_validation/results/R5/MEAN_ENDPOINTS.csv,4.4,True
+D14,row 9 FDA_equal_class_signed_CUSUM,Original: normal FAR (%),6.1,final_validation/results/R5/MEAN_ENDPOINTS.csv,6.1,True
+D14,row 10 Q_CUSUM,Test excluded: 40 h (%),13.2,final_validation/results/R5/MEAN_ENDPOINTS.csv,13.2,True
+D14,row 10 Q_CUSUM,Test excluded: normal FAR (%),4.6,final_validation/results/R5/MEAN_ENDPOINTS.csv,4.6,True
+D14,row 10 Q_CUSUM,Test and calibration excluded: 40 h (%),12.7,final_validation/results/R5/MEAN_ENDPOINTS.csv,12.7,True
+D14,row 10 Q_CUSUM,Test and calibration excluded: normal FAR (%),4.6,final_validation/results/R5/MEAN_ENDPOINTS.csv,4.6,True
+D14,row 10 Q_CUSUM,Original: 40 h (%),12.4,final_validation/results/R5/MEAN_ENDPOINTS.csv,12.4,True
+D14,row 10 Q_CUSUM,Original: normal FAR (%),4.9,final_validation/results/R5/MEAN_ENDPOINTS.csv,4.9,True
+D14,row 7 mean_pool_signed,Test excluded: 40 h (%),8.0,final_validation/results/R5/MEAN_ENDPOINTS.csv,8.0,True
+D14,row 7 mean_pool_signed,Test excluded: normal FAR (%),6.9,final_validation/results/R5/MEAN_ENDPOINTS.csv,6.9,True
+D14,row 7 mean_pool_signed,Test and calibration excluded: 40 h (%),7.9,final_validation/results/R5/MEAN_ENDPOINTS.csv,7.9,True
+D14,row 7 mean_pool_signed,Test and calibration excluded: normal FAR (%),6.4,final_validation/results/R5/MEAN_ENDPOINTS.csv,6.4,True
+D14,row 7 mean_pool_signed,Original: 40 h (%),7.6,final_validation/results/R5/MEAN_ENDPOINTS.csv,7.6,True
+D14,row 7 mean_pool_signed,Original: normal FAR (%),6.9,final_validation/results/R5/MEAN_ENDPOINTS.csv,6.9,True
+D14,row 6 moment_pool_signed,Test excluded: 40 h (%),9.0,final_validation/results/R5/MEAN_ENDPOINTS.csv,9.0,True
+D14,row 6 moment_pool_signed,Test excluded: normal FAR (%),5.0,final_validation/results/R5/MEAN_ENDPOINTS.csv,5.0,True
+D14,row 6 moment_pool_signed,Test and calibration excluded: 40 h (%),9.0,final_validation/results/R5/MEAN_ENDPOINTS.csv,9.0,True
+D14,row 6 moment_pool_signed,Test and calibration excluded: normal FAR (%),5.0,final_validation/results/R5/MEAN_ENDPOINTS.csv,5.0,True
+D14,row 6 moment_pool_signed,Original: 40 h (%),8.7,final_validation/results/R5/MEAN_ENDPOINTS.csv,8.7,True
+D14,row 6 moment_pool_signed,Original: normal FAR (%),5.0,final_validation/results/R5/MEAN_ENDPOINTS.csv,5.0,True
+D14,row 8 moment_signed__I,Test excluded: 40 h (%),6.2,final_validation/results/R5/MEAN_ENDPOINTS.csv,6.2,True
+D14,row 8 moment_signed__I,Test excluded: normal FAR (%),6.1,final_validation/results/R5/MEAN_ENDPOINTS.csv,6.1,True
+D14,row 8 moment_signed__I,Test and calibration excluded: 40 h (%),6.2,final_validation/results/R5/MEAN_ENDPOINTS.csv,6.2,True
+D14,row 8 moment_signed__I,Test and calibration excluded: normal FAR (%),6.2,final_validation/results/R5/MEAN_ENDPOINTS.csv,6.2,True
+D14,row 8 moment_signed__I,Original: 40 h (%),5.8,final_validation/results/R5/MEAN_ENDPOINTS.csv,5.8,True
+D14,row 8 moment_signed__I,Original: normal FAR (%),6.2,final_validation/results/R5/MEAN_ENDPOINTS.csv,6.2,True
+D14,row 15 FDA_equal_class_signed_CUSUM,Test excluded: 40 h (%),7.7,final_validation/results/R5/MEAN_ENDPOINTS.csv,7.7,True
+D14,row 15 FDA_equal_class_signed_CUSUM,Test excluded: normal FAR (%),6.8,final_validation/results/R5/MEAN_ENDPOINTS.csv,6.8,True
+D14,row 15 FDA_equal_class_signed_CUSUM,Test and calibration excluded: 40 h (%),7.6,final_validation/results/R5/MEAN_ENDPOINTS.csv,7.6,True
+D14,row 15 FDA_equal_class_signed_CUSUM,Test and calibration excluded: normal FAR (%),6.6,final_validation/results/R5/MEAN_ENDPOINTS.csv,6.6,True
+D14,row 15 FDA_equal_class_signed_CUSUM,Original: 40 h (%),7.5,final_validation/results/R5/MEAN_ENDPOINTS.csv,7.5,True
+D14,row 15 FDA_equal_class_signed_CUSUM,Original: normal FAR (%),6.6,final_validation/results/R5/MEAN_ENDPOINTS.csv,6.6,True
+D14,row 16 Q_CUSUM,Test excluded: 40 h (%),18.0,final_validation/results/R5/MEAN_ENDPOINTS.csv,18.0,True
+D14,row 16 Q_CUSUM,Test excluded: normal FAR (%),4.6,final_validation/results/R5/MEAN_ENDPOINTS.csv,4.6,True
+D14,row 16 Q_CUSUM,Test and calibration excluded: 40 h (%),17.6,final_validation/results/R5/MEAN_ENDPOINTS.csv,17.6,True
+D14,row 16 Q_CUSUM,Test and calibration excluded: normal FAR (%),4.6,final_validation/results/R5/MEAN_ENDPOINTS.csv,4.6,True
+D14,row 16 Q_CUSUM,Original: 40 h (%),17.6,final_validation/results/R5/MEAN_ENDPOINTS.csv,17.6,True
+D14,row 16 Q_CUSUM,Original: normal FAR (%),4.9,final_validation/results/R5/MEAN_ENDPOINTS.csv,4.9,True
+D14,row 14 covariance_F15_max_squared_CUSUM,Test excluded: 40 h (%),66.9,final_validation/results/R5/MEAN_ENDPOINTS.csv,66.9,True
+D14,row 14 covariance_F15_max_squared_CUSUM,Test excluded: normal FAR (%),5.8,final_validation/results/R5/MEAN_ENDPOINTS.csv,5.8,True
+D14,row 14 covariance_F15_max_squared_CUSUM,Test and calibration excluded: 40 h (%),66.6,final_validation/results/R5/MEAN_ENDPOINTS.csv,66.6,True
+D14,row 14 covariance_F15_max_squared_CUSUM,Test and calibration excluded: normal FAR (%),5.7,final_validation/results/R5/MEAN_ENDPOINTS.csv,5.7,True
+D14,row 14 covariance_F15_max_squared_CUSUM,Original: 40 h (%),66.3,final_validation/results/R5/MEAN_ENDPOINTS.csv,66.3,True
+D14,row 14 covariance_F15_max_squared_CUSUM,Original: normal FAR (%),5.6,final_validation/results/R5/MEAN_ENDPOINTS.csv,5.6,True
+D14,row 12 mean_pool_squared,Test excluded: 40 h (%),21.3,final_validation/results/R5/MEAN_ENDPOINTS.csv,21.3,True
+D14,row 12 mean_pool_squared,Test excluded: normal FAR (%),6.5,final_validation/results/R5/MEAN_ENDPOINTS.csv,6.5,True
+D14,row 12 mean_pool_squared,Test and calibration excluded: 40 h (%),21.6,final_validation/results/R5/MEAN_ENDPOINTS.csv,21.6,True
+D14,row 12 mean_pool_squared,Test and calibration excluded: normal FAR (%),6.7,final_validation/results/R5/MEAN_ENDPOINTS.csv,6.7,True
+D14,row 12 mean_pool_squared,Original: 40 h (%),21.4,final_validation/results/R5/MEAN_ENDPOINTS.csv,21.4,True
+D14,row 12 mean_pool_squared,Original: normal FAR (%),6.4,final_validation/results/R5/MEAN_ENDPOINTS.csv,6.4,True
+D14,row 11 moment_pool_squared,Test excluded: 40 h (%),72.7,final_validation/results/R5/MEAN_ENDPOINTS.csv,72.7,True
+D14,row 11 moment_pool_squared,Test excluded: normal FAR (%),4.4,final_validation/results/R5/MEAN_ENDPOINTS.csv,4.4,True
+D14,row 11 moment_pool_squared,Test and calibration excluded: 40 h (%),71.6,final_validation/results/R5/MEAN_ENDPOINTS.csv,71.6,True
+D14,row 11 moment_pool_squared,Test and calibration excluded: normal FAR (%),3.6,final_validation/results/R5/MEAN_ENDPOINTS.csv,3.6,True
+D14,row 11 moment_pool_squared,Original: 40 h (%),72.9,final_validation/results/R5/MEAN_ENDPOINTS.csv,72.9,True
+D14,row 11 moment_pool_squared,Original: normal FAR (%),4.2,final_validation/results/R5/MEAN_ENDPOINTS.csv,4.2,True
+D14,row 13 moment_squared__I,Test excluded: 40 h (%),66.4,final_validation/results/R5/MEAN_ENDPOINTS.csv,66.4,True
+D14,row 13 moment_squared__I,Test excluded: normal FAR (%),5.6,final_validation/results/R5/MEAN_ENDPOINTS.csv,5.6,True
+D14,row 13 moment_squared__I,Test and calibration excluded: 40 h (%),65.8,final_validation/results/R5/MEAN_ENDPOINTS.csv,65.8,True
+D14,row 13 moment_squared__I,Test and calibration excluded: normal FAR (%),5.5,final_validation/results/R5/MEAN_ENDPOINTS.csv,5.5,True
+D14,row 13 moment_squared__I,Original: 40 h (%),65.9,final_validation/results/R5/MEAN_ENDPOINTS.csv,65.9,True
+D14,row 13 moment_squared__I,Original: normal FAR (%),5.4,final_validation/results/R5/MEAN_ENDPOINTS.csv,5.4,True

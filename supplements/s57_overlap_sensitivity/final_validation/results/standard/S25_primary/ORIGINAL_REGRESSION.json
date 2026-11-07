@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "cases": 135,
+  "original_conditions_verified": 40,
+  "reported_adapted_conditions": 10,
+  "differing_alarm_bits": 0,
+  "new_calibration_rank": 57,
+  "calibration_kept": 58
+}

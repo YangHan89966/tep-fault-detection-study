@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "new_computed_state_rows": 160,
+  "new_computed_five_state_rows": 32,
+  "new_paired_contrast_rows": 12,
+  "per_run_rows": 40000,
+  "original_alarm_bits_unpacked_and_repacked": 120000000,
+  "original_integer_endpoint_and_occupancy_values_checked": 270000,
+  "duplicate_and_archived_Table4_checks": 190,
+  "all_checks_passed": true
+}

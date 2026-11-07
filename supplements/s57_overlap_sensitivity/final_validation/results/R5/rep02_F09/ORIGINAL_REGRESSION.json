@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "R5:2:9:fault:original9",
+      "n_bits": 2160000,
+      "differing_bits": 0
+    },
+    {
+      "check": "R5:2:9:normal:original9",
+      "n_bits": 2160000,
+      "differing_bits": 0
+    },
+    {
+      "check": "R5:2:9:fault:moment_signed__full",
+      "n_bits": 240000,
+      "differing_bits": 0
+    },
+    {
+      "check": "R5:2:9:normal:moment_signed__full",
+      "n_bits": 240000,
+      "differing_bits": 0
+    },
+    {
+      "check": "R5:2:9:fault:moment_signed__I",
+      "n_bits": 240000,
+      "differing_bits": 0
+    },
+    {
+      "check": "R5:2:9:normal:moment_signed__I",
+      "n_bits": 240000,
+      "differing_bits": 0
+    },
+    {
+      "check": "R5:2:9:fault:Q_CUSUM",
+      "n_bits": 240000,
+      "differing_bits": 0
+    },
+    {
+      "check": "R5:2:9:normal:Q_CUSUM",
+      "n_bits": 240000,
+      "differing_bits": 0
+    },
+    {
+      "check": "R5:2:9:fault:FDA_equal_class_signed_CUSUM",
+      "n_bits": 240000,
+      "differing_bits": 0
+    },
+    {
+      "check": "R5:2:9:normal:FDA_equal_class_signed_CUSUM",
+      "n_bits": 240000,
+      "differing_bits": 0
+    }
+  ],
+  "calibration_n_kept": 251,
+  "calibration_new_rank": 240
+}

@@ -1,0 +1,33 @@
+scenario,panel,family,method,fault_n,controller_minus_native_detection_pp,lo_95,hi_95
+original,recording_panel1,standard,PCA_T2,75,4.0,-4.0,12.0
+exclude_test_self_overlap,recording_panel1,standard,PCA_T2,70,4.285714285714286,-4.285714285714286,12.857142857142858
+original,recording_panel1,standard,PCA_SPE,75,0.0,-6.666666666666667,6.666666666666667
+exclude_test_self_overlap,recording_panel1,standard,PCA_SPE,70,0.0,-7.142857142857143,7.142857142857143
+original,recording_panel1,standard,Q_CUSUM,75,-8.0,-17.333333333333332,0.0
+exclude_test_self_overlap,recording_panel1,standard,Q_CUSUM,70,-8.571428571428571,-18.571428571428573,0.0
+original,recording_panel1,standard,DPCA_T2,75,1.3333333333333333,-2.6666666666666665,6.666666666666667
+exclude_test_self_overlap,recording_panel1,standard,DPCA_T2,70,1.4285714285714286,-2.857142857142857,7.142857142857143
+original,recording_panel1,standard,DPCA_SPE,75,0.0,-4.0,4.0
+exclude_test_self_overlap,recording_panel1,standard,DPCA_SPE,70,0.0,-4.285714285714286,4.285714285714286
+original,recording_panel2,standard,PCA_T2,120,-1.6666666666666667,-6.666666666666667,2.5
+exclude_test_self_overlap,recording_panel2,standard,PCA_T2,120,-1.6666666666666667,-6.666666666666667,2.5
+original,recording_panel2,standard,PCA_SPE,120,2.5,-4.166666666666667,9.166666666666666
+exclude_test_self_overlap,recording_panel2,standard,PCA_SPE,120,2.5,-4.166666666666667,9.166666666666666
+original,recording_panel2,standard,Q_CUSUM,120,10.833333333333334,4.166666666666667,18.333333333333332
+exclude_test_self_overlap,recording_panel2,standard,Q_CUSUM,120,10.833333333333334,3.3333333333333335,18.333333333333332
+original,recording_panel2,standard,DPCA_T2,120,1.6666666666666667,-3.3333333333333335,6.666666666666667
+exclude_test_self_overlap,recording_panel2,standard,DPCA_T2,120,1.6666666666666667,-3.3333333333333335,6.666666666666667
+original,recording_panel2,standard,DPCA_SPE,120,0.8333333333333334,-3.3333333333333335,5.0
+exclude_test_self_overlap,recording_panel2,standard,DPCA_SPE,120,0.8333333333333334,-3.3333333333333335,5.0
+original,recording_panel1,relearned,Second-moment relearned,75,62.666666666666664,52.0,73.33333333333333
+exclude_test_self_overlap,recording_panel1,relearned,Second-moment relearned,70,64.28571428571429,52.857142857142854,75.71428571428571
+original,recording_panel1,relearned,Mean-shift relearned,75,81.33333333333333,72.0,89.33333333333333
+exclude_test_self_overlap,recording_panel1,relearned,Mean-shift relearned,70,80.0,70.0,88.57142857142857
+original,recording_panel2,relearned,Second-moment relearned,120,67.5,59.166666666666664,75.83333333333333
+exclude_test_self_overlap,recording_panel2,relearned,Second-moment relearned,120,67.5,59.166666666666664,75.83333333333333
+original,recording_panel2,relearned,Mean-shift relearned,120,80.0,72.5,87.5
+exclude_test_self_overlap,recording_panel2,relearned,Mean-shift relearned,120,80.0,72.5,87.5
+original,recording_panel1,fixed_historical,Fixed historical monitor,75,85.33333333333333,77.33333333333333,93.33333333333333
+exclude_test_self_overlap,recording_panel1,fixed_historical,Fixed historical monitor,70,85.71428571428571,77.14285714285714,92.85714285714286
+original,recording_panel2,fixed_historical,Fixed historical monitor,120,75.0,66.66666666666667,82.5
+exclude_test_self_overlap,recording_panel2,fixed_historical,Fixed historical monitor,120,75.0,66.66666666666667,82.5

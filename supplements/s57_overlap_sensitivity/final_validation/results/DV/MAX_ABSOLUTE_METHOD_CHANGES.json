@@ -1,0 +1,17 @@
+{
+  "scope": "only methods and panels in this output; not every manuscript analysis",
+  "maxima": {
+    "exclude_test": {
+      "loss_min_mean": 9.06358506224069,
+      "clean40_pct_mean": 1.121991701244811,
+      "clean8_pct_mean": 0.25394190871369204,
+      "normal_FAR_pct_mean": 1.6170940170940167
+    },
+    "exclude_test_and_calibration": {
+      "loss_min_mean": 22.283129032257875,
+      "clean40_pct_mean": 2.2548387096774185,
+      "clean8_pct_mean": 3.270967741935479,
+      "normal_FAR_pct_mean": 1.6170940170940167
+    }
+  }
+}

@@ -1,0 +1,848 @@
+{
+  "study_id": "F9_DYNAMIC_FIXED_MODEL_NEW_CALIBRATION_VALIDATION_V1_20261006",
+  "protocol_sha256": "7c26cdb1207b3bcc99357ae7572022b4a0b3335509a301578a516f51b8a151a6",
+  "conditions": [
+    {
+      "view": "native",
+      "method": "Signed_CUSUM_reference"
+    },
+    {
+      "view": "native",
+      "method": "Gaussian_AR0_LLR_ablation"
+    },
+    {
+      "view": "native",
+      "method": "Gaussian_AR2_LLR_candidate"
+    },
+    {
+      "view": "all_fast_input",
+      "method": "Signed_CUSUM_reference"
+    },
+    {
+      "view": "all_fast_input",
+      "method": "Gaussian_AR0_LLR_ablation"
+    },
+    {
+      "view": "all_fast_input",
+      "method": "Gaussian_AR2_LLR_candidate"
+    }
+  ],
+  "thresholds": [
+    97.89824003853383,
+    2.169304246327663,
+    3.2116296084498406,
+    29.651585221148878,
+    5.127905148578248,
+    5.90966538754577
+  ],
+  "n_calibration": 199,
+  "order_1based": 190,
+  "frozen_models_sha256": "d70c648a402ca376574176c4f18ca8dad84424918424a2bc9495c556a7eb6bcd",
+  "calibration_input_manifest": [
+    {
+      "case_id": "normal_calibration_001",
+      "scores_sha256": "8f21595784e8e581b5cc252731a8c17df66126bfedaaf422a335da258eb89f39"
+    },
+    {
+      "case_id": "normal_calibration_002",
+      "scores_sha256": "64d84f2d6792a2ebf0b93cd185a7fba8ff78eb076fb6b32121e464b14ae5d962"
+    },
+    {
+      "case_id": "normal_calibration_003",
+      "scores_sha256": "67cf12983c222cde77165c9ee3880b9eed7a6a582a327ab9ee7e691dd8dee407"
+    },
+    {
+      "case_id": "normal_calibration_004",
+      "scores_sha256": "c5bc6627a9a9e143bf3238746d76fa0d0feaeda8018c7c6f522f71aa62d62d13"
+    },
+    {
+      "case_id": "normal_calibration_005",
+      "scores_sha256": "4c2eb650766050e63e22b1b3dac661b773a3bedd25d0ad666dbf6f9a258df6f9"
+    },
+    {
+      "case_id": "normal_calibration_006",
+      "scores_sha256": "8ee4a7e2a5645f24d556f50deb461f2fa86712f251f42ffd9d9bffec804483c5"
+    },
+    {
+      "case_id": "normal_calibration_007",
+      "scores_sha256": "a9bd1a6a3542118ae7cc9d562f4ffb8e3245e5c684a443e5614298a9fbe19c8f"
+    },
+    {
+      "case_id": "normal_calibration_008",
+      "scores_sha256": "df0e333661d9eb41b6628ba48dd019c3cde4b639ea4cd1b4607d981feb98d1ad"
+    },
+    {
+      "case_id": "normal_calibration_009",
+      "scores_sha256": "81d9a4bcbd069e250602bb6e34708d327b963e807df98808957390d53bebcfd2"
+    },
+    {
+      "case_id": "normal_calibration_010",
+      "scores_sha256": "fee70fdc9e420cca019586c89b47bff4183e3386129eb31bb3bde6000ae40f9c"
+    },
+    {
+      "case_id": "normal_calibration_011",
+      "scores_sha256": "14438dd9b25b88b4a2c0a3ffd5b5cb493cf06bd45bc15a7c77a745db0f49eb11"
+    },
+    {
+      "case_id": "normal_calibration_012",
+      "scores_sha256": "1c995cc2e348fe0568174439198fea9d9c3b3b244443a2dbbc43c891a6db9229"
+    },
+    {
+      "case_id": "normal_calibration_013",
+      "scores_sha256": "060e8b543c725f903aa53f1a4780c55a40486c60400de33cfc6c1ee1f029f8ac"
+    },
+    {
+      "case_id": "normal_calibration_014",
+      "scores_sha256": "1501a3900057309ffc1d5644834fa1f666edb5f4bd64772a142a2380aeba2f04"
+    },
+    {
+      "case_id": "normal_calibration_015",
+      "scores_sha256": "779fc1c62b5fc47d7fc171a776616231e979f07968f81a11320d29b610b13e2c"
+    },
+    {
+      "case_id": "normal_calibration_016",
+      "scores_sha256": "ea6791f2a960a6402daaf4ccb825c4f1a21ea4841ecc3755a872bbe644e01422"
+    },
+    {
+      "case_id": "normal_calibration_017",
+      "scores_sha256": "e3452db9e4e32f476130b4fc3af8778553c507a7f214f9e7fcab3494ffdbd944"
+    },
+    {
+      "case_id": "normal_calibration_018",
+      "scores_sha256": "f96a5c1fc2abd0fa6ac3f1cda752222fc5daa422b3597d97defb3e84b3ef423a"
+    },
+    {
+      "case_id": "normal_calibration_019",
+      "scores_sha256": "eb5b3d942a18b36aa08510edf3a85f6c2045766169b1f81f8c1c3083eab2c686"
+    },
+    {
+      "case_id": "normal_calibration_020",
+      "scores_sha256": "130997e368510dfe1067f14ae295e80f0b7189625b99ebefc1a6c285afe54427"
+    },
+    {
+      "case_id": "normal_calibration_021",
+      "scores_sha256": "3a6bb1f2b72e544624c8ced66dbfff3d0708f119747299bb126fbf1204fd401a"
+    },
+    {
+      "case_id": "normal_calibration_022",
+      "scores_sha256": "cafeccdbfdda07ac11e20cbfc12bc7b58074a8fbc1eee23e43abc7884ddefbeb"
+    },
+    {
+      "case_id": "normal_calibration_023",
+      "scores_sha256": "ade3683c56e3d6c54991f8bccfa50acae23177e810186addda3957df5d62bc04"
+    },
+    {
+      "case_id": "normal_calibration_024",
+      "scores_sha256": "0d6e43878b0b8e3edb4cd64c38455ac6c667635f893bd42f54cf223460235ff5"
+    },
+    {
+      "case_id": "normal_calibration_025",
+      "scores_sha256": "9aaaae249dc2785391c501af1249c9f274000c46584a424cd2bd3aaba806ed84"
+    },
+    {
+      "case_id": "normal_calibration_026",
+      "scores_sha256": "98f8f22689ec30bd874bc378143d879038a25ae21638a8cf949ffa3e2a086a5c"
+    },
+    {
+      "case_id": "normal_calibration_027",
+      "scores_sha256": "f107525f2cd2404607d1224bac3fb276118d7442bf5ca829ece5784d387791f9"
+    },
+    {
+      "case_id": "normal_calibration_028",
+      "scores_sha256": "55852803392e3df85a89f8e1770516d774884466df5c766f07c202d4da7122d9"
+    },
+    {
+      "case_id": "normal_calibration_029",
+      "scores_sha256": "f6d4d495b74513e1f55dd5b23dc60a7d81a4b4e25a224ecad2c0040974dd98d7"
+    },
+    {
+      "case_id": "normal_calibration_030",
+      "scores_sha256": "dde26bf24372f28efb203995d602c8427a162f90e5b4e9a52d39520cd931dfae"
+    },
+    {
+      "case_id": "normal_calibration_031",
+      "scores_sha256": "84be2688a9e1546128d8caf1cf4e996e22a1012b919d3566240e6dddd7d5ec02"
+    },
+    {
+      "case_id": "normal_calibration_032",
+      "scores_sha256": "4cc40be85ec0284c6cbd05055435d4a7265a94edf5f2a0cea1c93b99e7e9ec08"
+    },
+    {
+      "case_id": "normal_calibration_033",
+      "scores_sha256": "cbda6c63cba3d56b87125e96f6c207a0fae63a0faa518acd2fc7de12a38fbe3e"
+    },
+    {
+      "case_id": "normal_calibration_034",
+      "scores_sha256": "fa1da3785f6dcfa21977eb321f9bcd191d3dd9849420eba3b2ee69e8ba9c6414"
+    },
+    {
+      "case_id": "normal_calibration_035",
+      "scores_sha256": "3e1c53864d61a0c6b89ebc7c8caf4c91963a92a3f4a213bd38f83dcbbbd98ab4"
+    },
+    {
+      "case_id": "normal_calibration_036",
+      "scores_sha256": "6e59e54fad00001f2a4c0b7640e1fe4d8c8a9bd64ddf71ecf062544a7c50cbb3"
+    },
+    {
+      "case_id": "normal_calibration_037",
+      "scores_sha256": "2fba60d1c45a0fa2bab1123caee212d84fc3815c8350d70d6687d74a5d70bde5"
+    },
+    {
+      "case_id": "normal_calibration_038",
+      "scores_sha256": "e6e8ca37c20efb4af0e3948596b57f12067b61f99488c7acdb1ffc3334953a02"
+    },
+    {
+      "case_id": "normal_calibration_039",
+      "scores_sha256": "0c1ccff325b40c936085190f2d5e84800df49e77893588eb8c4447a5a5f0eda8"
+    },
+    {
+      "case_id": "normal_calibration_040",
+      "scores_sha256": "8ee32fa822d62e5405264904c23ed4575f7d9721c31571ed43587312000ea6f3"
+    },
+    {
+      "case_id": "normal_calibration_041",
+      "scores_sha256": "2c95f1e105e6ec22597b673bae135e756ddb607509881a0e6baa64b666196cac"
+    },
+    {
+      "case_id": "normal_calibration_042",
+      "scores_sha256": "8375e8bb55057c30151f8208198ccdd0502bd53e65b593222436fb88324fa3b5"
+    },
+    {
+      "case_id": "normal_calibration_043",
+      "scores_sha256": "f931e21dfe681c2e941ac215d88e7be63d3563f36a9886fbcfbed66250c8088f"
+    },
+    {
+      "case_id": "normal_calibration_044",
+      "scores_sha256": "d7605892438815514dbb9cc69bd382bfd15e08c54432d74c6cead0562bfe7116"
+    },
+    {
+      "case_id": "normal_calibration_045",
+      "scores_sha256": "dac4c4637a819daa9e3f10301cbee49c1c2072115b9938df72ad3cacd40e0895"
+    },
+    {
+      "case_id": "normal_calibration_046",
+      "scores_sha256": "4d5c382eb614b26a4b08c83ba0d8b6f4ebba5055f7acc2e27a16fbd851e0e725"
+    },
+    {
+      "case_id": "normal_calibration_047",
+      "scores_sha256": "b3a78f377a380052a4dd1f5c9fbd2b34611fccb7c75745fc156a1f93a4eb736c"
+    },
+    {
+      "case_id": "normal_calibration_048",
+      "scores_sha256": "c8dd9c0ce6ded2c554b3a9c8432d0fa92fc61654a5232abd9dd4db79b0dc0c69"
+    },
+    {
+      "case_id": "normal_calibration_049",
+      "scores_sha256": "8bf9a40c9c0cd5d2f3518cf54bca2d573512d37d6aa439acfec78e0bdca3d109"
+    },
+    {
+      "case_id": "normal_calibration_050",
+      "scores_sha256": "5d042b79a333473ad7079dbffa698e8765b6d74da5700108ae63aedea64ef4cd"
+    },
+    {
+      "case_id": "normal_calibration_051",
+      "scores_sha256": "db8327e2f939e6246bed8c03901a608ebd0fe2a99ee1ad91c0c4fe522197e051"
+    },
+    {
+      "case_id": "normal_calibration_052",
+      "scores_sha256": "92c86b136e3393570b2d48e5ffed97a3a17311bbcba9afbe499338d29b8ee279"
+    },
+    {
+      "case_id": "normal_calibration_053",
+      "scores_sha256": "fb564e6e89d87e8a398e36f7b6a0f2315261383c0f53fc48f61d3299cb79fd28"
+    },
+    {
+      "case_id": "normal_calibration_054",
+      "scores_sha256": "23aac5d8c19246bfb879c84fc89ed8aa6a1b862768558a09f73a90998a8cf79e"
+    },
+    {
+      "case_id": "normal_calibration_055",
+      "scores_sha256": "59df41b74ae9abeee448835f63d8ab2e717efb54c4515d626bb5a70b1562f8dc"
+    },
+    {
+      "case_id": "normal_calibration_056",
+      "scores_sha256": "410198ce68deb27ea7ce7bc30048eaf0514b683cd5615426528563864f599040"
+    },
+    {
+      "case_id": "normal_calibration_057",
+      "scores_sha256": "fd8d603c2fa16bc0bb68dfa9618f97b6333e5fcf4075438a4127086d604c11d8"
+    },
+    {
+      "case_id": "normal_calibration_058",
+      "scores_sha256": "413a528787aec0ef5e4dda962dff66e8203066dd9710badf51af56b07ae52dcf"
+    },
+    {
+      "case_id": "normal_calibration_059",
+      "scores_sha256": "040f0b15af75ffbb140421e83a81b2f2911a42a27f7a83f4c837e4a40e1822a8"
+    },
+    {
+      "case_id": "normal_calibration_060",
+      "scores_sha256": "0a078d12ee0f2686f4efa75f27e3bbdb269a577800c099cc69f4857b7a299949"
+    },
+    {
+      "case_id": "normal_calibration_061",
+      "scores_sha256": "3dc1df600ec6e58a0d40e5d05b75672d7a07c653a1e573c3693e0c5ab60de620"
+    },
+    {
+      "case_id": "normal_calibration_062",
+      "scores_sha256": "c5aafc1501b3db333e2864113cd67d9fa111374311bc34f7692cd896376a531e"
+    },
+    {
+      "case_id": "normal_calibration_063",
+      "scores_sha256": "31243a84e2be2825e05b5bd89274356d82bb1929ca83e23ecaa288eb515c874c"
+    },
+    {
+      "case_id": "normal_calibration_064",
+      "scores_sha256": "73d98787d4e77197dd8a5503b2d275d186b1f309ad149edc51672037c12364e4"
+    },
+    {
+      "case_id": "normal_calibration_065",
+      "scores_sha256": "1faaca81a8e08fd4d286f8f3bb4f4349b4e3414b62bad3ef030fa09c2bb15a0a"
+    },
+    {
+      "case_id": "normal_calibration_066",
+      "scores_sha256": "d05f59ab2651b5dd3c403606af4b980deae5ad26b38d259d599141b00467405c"
+    },
+    {
+      "case_id": "normal_calibration_067",
+      "scores_sha256": "ff6c9381c70698ef65cc1550fe3d259d58494bfc8f11baaa51e388e339d4bdea"
+    },
+    {
+      "case_id": "normal_calibration_068",
+      "scores_sha256": "02a031e91968e56cbd87f523a4e8edf9e4db418ddfa14c70946cb5535760f596"
+    },
+    {
+      "case_id": "normal_calibration_069",
+      "scores_sha256": "ef1f61389ba58995dc1c07911c5952aa52c8268dd7f297bdde7cb694b0b75926"
+    },
+    {
+      "case_id": "normal_calibration_070",
+      "scores_sha256": "ec28a3ec8d0883993a1a833925541945acaeba17620bf563a054f2fd023bc6d0"
+    },
+    {
+      "case_id": "normal_calibration_071",
+      "scores_sha256": "2d43b8c2a00c6061ac010ec7a4649283dc50e36d4009b504a28f0bb9c2a63855"
+    },
+    {
+      "case_id": "normal_calibration_072",
+      "scores_sha256": "b08e700e9df8cb775154a95d8269474d05e2c7d7fa58421212eba7044daa4746"
+    },
+    {
+      "case_id": "normal_calibration_073",
+      "scores_sha256": "6268c2528ea0783155c8d503b4d1ddbc14122e433c5243f227ed41ca78f6e649"
+    },
+    {
+      "case_id": "normal_calibration_074",
+      "scores_sha256": "a14c0f12daa6d9cf7b840d94ecb43e2cd6bb663aafb478a5d5fd7e05373cb51b"
+    },
+    {
+      "case_id": "normal_calibration_075",
+      "scores_sha256": "8f871e26fa2548ac614d6e0defdbae6490769733156286f8854a655d0cc12fd2"
+    },
+    {
+      "case_id": "normal_calibration_076",
+      "scores_sha256": "58a6fc45ca10c8c8223d7b09351000f73a3fdbcc71a0a347e1b4e25d7eb5d7ad"
+    },
+    {
+      "case_id": "normal_calibration_077",
+      "scores_sha256": "7046c8a6a64b9f5ecc9852acf46b62d9870cec812cea87793af58d1154ccf0b0"
+    },
+    {
+      "case_id": "normal_calibration_078",
+      "scores_sha256": "7bd8cdb7a7c724e7ed17d080f64d9efa369e992dc677fcb3320290c90ab736c3"
+    },
+    {
+      "case_id": "normal_calibration_079",
+      "scores_sha256": "1804cff0bbc53a0280554e1916052eb7aaa6ecfa84cb47378c626fd97e5c268d"
+    },
+    {
+      "case_id": "normal_calibration_080",
+      "scores_sha256": "679c4cc4b354037d419e331855c59e655de093b7ecd8b1ac5bf511a0d76131ce"
+    },
+    {
+      "case_id": "normal_calibration_081",
+      "scores_sha256": "1d8ba1b940f5e14e64a8027b4ff29c473c1c0e1a7846b8f651744aa0a3e5ba52"
+    },
+    {
+      "case_id": "normal_calibration_082",
+      "scores_sha256": "635ec2d861f44e8461b9a48bf3d192c34e54eb6e157edd8051934d2cd38dab15"
+    },
+    {
+      "case_id": "normal_calibration_083",
+      "scores_sha256": "046dae61e855bdd9badbc0694ebde538cf2b66c244b4fb407528eb151df8b3c8"
+    },
+    {
+      "case_id": "normal_calibration_084",
+      "scores_sha256": "3eefc5bc4698e918ffb33991fe79c614c83daca29e91027b259f8418039a56dd"
+    },
+    {
+      "case_id": "normal_calibration_085",
+      "scores_sha256": "75f60e81c890b7b707c1fd65cbb3df9665858be5a9782b6840f71036eaf6c3a8"
+    },
+    {
+      "case_id": "normal_calibration_086",
+      "scores_sha256": "6755f9d4e4f46fa54f49d759292683c87eef0f49c5c12d0fe60d7e2ad231b809"
+    },
+    {
+      "case_id": "normal_calibration_087",
+      "scores_sha256": "8b549dda1a9867a15439ad365632170debe535ecfe7f366a706da9e8c27645a7"
+    },
+    {
+      "case_id": "normal_calibration_088",
+      "scores_sha256": "ccf9b843af9d77ee4d34d84e5af76713851c633be8a48d0e10fe8ec45cf59e8a"
+    },
+    {
+      "case_id": "normal_calibration_089",
+      "scores_sha256": "8c76206e42ca51462b94720528ca74e97b538dd70336abeb93469af2a2d6f9bf"
+    },
+    {
+      "case_id": "normal_calibration_090",
+      "scores_sha256": "6e9d1b9317e49f0c06c7c33e4f516c47624589fea7d64c70b11a3e22810ea45f"
+    },
+    {
+      "case_id": "normal_calibration_091",
+      "scores_sha256": "319e8c4141873dd27f11109f00c32e93919b2ee9aca54a8dd1772863e6902bda"
+    },
+    {
+      "case_id": "normal_calibration_092",
+      "scores_sha256": "63915aa8a51c507b583c0997077b1f15b0d3afad67af61005a2102dd36de1f2d"
+    },
+    {
+      "case_id": "normal_calibration_093",
+      "scores_sha256": "2ec70e601b9ea394d012dc2838b87a5dbd6f49dd1d8c134813e1e7c0430ede04"
+    },
+    {
+      "case_id": "normal_calibration_094",
+      "scores_sha256": "22cf2817320c37c1b2df5433e1df4b4fbd50c44c03696907c75dfe37ca813ed9"
+    },
+    {
+      "case_id": "normal_calibration_095",
+      "scores_sha256": "8175d4748477ada61cc34c7281e8f36de9724267d69bf52bc0cfbfee7eff0e78"
+    },
+    {
+      "case_id": "normal_calibration_096",
+      "scores_sha256": "49e88e1c11869cad0666740512b7cba29eb8dac0bd35457ea0a01d9d2986c16c"
+    },
+    {
+      "case_id": "normal_calibration_097",
+      "scores_sha256": "dfcbd39183b4e8ad3472f11e91faf1a9633a5f228ba54794067549d0a1cfdadb"
+    },
+    {
+      "case_id": "normal_calibration_098",
+      "scores_sha256": "139f153b82648748ddaae9251e89a9db2b9749d4facdbc0c381f9f4577ea31a0"
+    },
+    {
+      "case_id": "normal_calibration_099",
+      "scores_sha256": "de97f2d334f0733c2572807817d4663abfe5f5dcf95582cf735f880bcb31539d"
+    },
+    {
+      "case_id": "normal_calibration_100",
+      "scores_sha256": "4570a22232491a80aa9c4dff921d8f42120c12549806d1a268afbcfea28dd4c2"
+    },
+    {
+      "case_id": "normal_calibration_101",
+      "scores_sha256": "57d36c4fa74529bb2b3b816adac593b50bd10fdaaa155a542440a703024f4281"
+    },
+    {
+      "case_id": "normal_calibration_102",
+      "scores_sha256": "c36f3f5d751f658547f80aeebe5449073c433db17279327c43665721279e90b0"
+    },
+    {
+      "case_id": "normal_calibration_103",
+      "scores_sha256": "8298f4a6308c9dc3cec759f4fc3fa29c9917cda207b52a8c5687eeba2caccf25"
+    },
+    {
+      "case_id": "normal_calibration_104",
+      "scores_sha256": "5cfa2a6b17fdc1d14ab61786f6021668cdc86aadf9cb79a99b9403a6f01d1216"
+    },
+    {
+      "case_id": "normal_calibration_105",
+      "scores_sha256": "5ad1a45edda37f8bce29f0542be9b93ea3b61c891d11a5908fd3b351558b30ec"
+    },
+    {
+      "case_id": "normal_calibration_106",
+      "scores_sha256": "6d1616487186fb6a8dfa6f77aadfa000d45916a4e9cccac2a46aaf90c90687db"
+    },
+    {
+      "case_id": "normal_calibration_107",
+      "scores_sha256": "ace18a811b155dd86c030b377af079e227b7760ab9fbe8408ad2e0fe66c5ca4d"
+    },
+    {
+      "case_id": "normal_calibration_108",
+      "scores_sha256": "405df4ef0fa2880d045b45f4c1f2268a3c5954753796ba60701130bc0a3716d0"
+    },
+    {
+      "case_id": "normal_calibration_109",
+      "scores_sha256": "0aa5c199bb56d3ded0554b6570c006008331209e659f82d5400c0c17f5cb46a4"
+    },
+    {
+      "case_id": "normal_calibration_110",
+      "scores_sha256": "66750f23b6a31302674f4de0319223f220ab9b2d7ce00cf31948b18d175dd7de"
+    },
+    {
+      "case_id": "normal_calibration_111",
+      "scores_sha256": "a9ee27a2d8e00aa44374cf3669c2cb2d76b5a4b4defbd6fc10e79a8e62d23983"
+    },
+    {
+      "case_id": "normal_calibration_112",
+      "scores_sha256": "7f334acb797a5f071e3827c2ad011e1ef14448676424d18485875048335e858a"
+    },
+    {
+      "case_id": "normal_calibration_113",
+      "scores_sha256": "686684ff24dbaee2341dee001143d50efca76aad53b013c7dfce3a8ad9e1a0b9"
+    },
+    {
+      "case_id": "normal_calibration_114",
+      "scores_sha256": "5930dbe71a30c1046dbf3719bdbbc97d2329d50f5673f6cd1a287449816ac597"
+    },
+    {
+      "case_id": "normal_calibration_115",
+      "scores_sha256": "e4fdd922456da0745dbed66069ae17127710f71b8e1bcf81ca0b868f08498401"
+    },
+    {
+      "case_id": "normal_calibration_116",
+      "scores_sha256": "5ddd5eba92d80d4a260e34b388817a4cfbfaf184842ee792e951de30760d3f58"
+    },
+    {
+      "case_id": "normal_calibration_117",
+      "scores_sha256": "d9cc51026d28c06a9a67254dcf0c4c0ae79944d62f1a4e1d3e3cdb69b1f7fa52"
+    },
+    {
+      "case_id": "normal_calibration_118",
+      "scores_sha256": "2614e5607f346184dabbb70d216c2adc64a5ef2e523e615fbbbfe259585f1884"
+    },
+    {
+      "case_id": "normal_calibration_119",
+      "scores_sha256": "7785823dcba539d1dc8f361fa749e34a09c1a42f1ff99144e46839e343185fb4"
+    },
+    {
+      "case_id": "normal_calibration_120",
+      "scores_sha256": "e15cf4b5f1b154317bfbd4dae45bd85cc41ddeeeeca7ec2e430c6369e69a0b3a"
+    },
+    {
+      "case_id": "normal_calibration_121",
+      "scores_sha256": "397493d78d6234d624f4b28813aa790ecd4de1aeaea36ff0e37b4c416b50b7a0"
+    },
+    {
+      "case_id": "normal_calibration_122",
+      "scores_sha256": "329d24fa73bbecf3cfb810c7edec8ecb6b0b42d8c2cc233d06b9334dea6818a8"
+    },
+    {
+      "case_id": "normal_calibration_123",
+      "scores_sha256": "3f1fcaaa1199bcaa1c54a61597dd8e28cf7382b7394156996337d47c509a6822"
+    },
+    {
+      "case_id": "normal_calibration_124",
+      "scores_sha256": "885b7c4f98fb743ca9e6b4708893d58eefd46a202f0c09a89ef59caf459b73f0"
+    },
+    {
+      "case_id": "normal_calibration_125",
+      "scores_sha256": "7873e41d0cefcb0052e672496f3e1860eed0fe6c3d3b84839a1e5550a5ba2115"
+    },
+    {
+      "case_id": "normal_calibration_126",
+      "scores_sha256": "da8ed8a9fc58d56c32f474d2f97fff5ff91410a398573be02f26c0c8341ccdde"
+    },
+    {
+      "case_id": "normal_calibration_127",
+      "scores_sha256": "7b71bd147790708ef7a13b0d46a8147aea1b0db143da2d5cd8838688ac07c91c"
+    },
+    {
+      "case_id": "normal_calibration_128",
+      "scores_sha256": "2bcb50ac0c982053c088d545c321b4c1063103392c025e9ecaca5aa849929184"
+    },
+    {
+      "case_id": "normal_calibration_129",
+      "scores_sha256": "be4dfdcad6170576523a4682ad514837b0c1de986308cf8e920a5bbe17995ae4"
+    },
+    {
+      "case_id": "normal_calibration_130",
+      "scores_sha256": "ef00b62fad2c6e771a6c4286f22217d211c37526eb3b490cd609f05f7279c6da"
+    },
+    {
+      "case_id": "normal_calibration_131",
+      "scores_sha256": "1d59ed6d0173cc7dab336fb63e1452e19a0e4664fb089da42bd319ee18fcbc89"
+    },
+    {
+      "case_id": "normal_calibration_132",
+      "scores_sha256": "3a3da7938224beac5e27af7b8173ed6c2bf98a472d68fcdbb47c5e8414da95b2"
+    },
+    {
+      "case_id": "normal_calibration_133",
+      "scores_sha256": "433653f9db735f6efe9d4759362f98f0b7edd4b28a93a381298b64656398f824"
+    },
+    {
+      "case_id": "normal_calibration_134",
+      "scores_sha256": "0c39bd8e38f38dcb03a16426d05c7458d4d3caa2038ec248ba25bfb165ee8500"
+    },
+    {
+      "case_id": "normal_calibration_135",
+      "scores_sha256": "b9aa9d3a11ee9976e345fb983b83b95b2266abf7847565c27c5c7d9b56869d25"
+    },
+    {
+      "case_id": "normal_calibration_136",
+      "scores_sha256": "bed386fbdbe91876ad4d0d68e9795afbcb04fd7bc4b47a9994158b1ae9fc0f56"
+    },
+    {
+      "case_id": "normal_calibration_137",
+      "scores_sha256": "8f85debcb61f670011afdc2b8e80a6b08faeebb7d8f74a9d8806543e3e8ba02a"
+    },
+    {
+      "case_id": "normal_calibration_138",
+      "scores_sha256": "fd0dd92a64bbedd5cd9ace18ba1bda4d30e4060b15297def79386ab67c7e81d4"
+    },
+    {
+      "case_id": "normal_calibration_139",
+      "scores_sha256": "9ec21e565bfc8f941b2e99a10ccc26b32f40ee6f8dd2c224ba915634230a484d"
+    },
+    {
+      "case_id": "normal_calibration_140",
+      "scores_sha256": "8ffdce5bda5b03c771f9f46124bc452d7c150c9570be150596fe2091ec8bbec3"
+    },
+    {
+      "case_id": "normal_calibration_141",
+      "scores_sha256": "dbf087e2c80f8faaa22fb02c55fc48d8046ea4adcee99d420f8d15e39bcb3f32"
+    },
+    {
+      "case_id": "normal_calibration_142",
+      "scores_sha256": "894a5cce5b050ee7512ab7dc817ce2d717ff9a1da226ddcbd51ec72f3cc27223"
+    },
+    {
+      "case_id": "normal_calibration_143",
+      "scores_sha256": "17f640e265d8b27e3646f0b3fbe2965b6ba686721277a0071d679f896dfbd944"
+    },
+    {
+      "case_id": "normal_calibration_144",
+      "scores_sha256": "044d5981d799e33e404dc8529e8ee311cde7fde96be0f85b177d5ad6d0f7aecb"
+    },
+    {
+      "case_id": "normal_calibration_145",
+      "scores_sha256": "79e2d417b050ad6ea8b2642edf4c9df0cc32a7b327d59165cf06698864649cc6"
+    },
+    {
+      "case_id": "normal_calibration_146",
+      "scores_sha256": "b4ed5c781509481150e82c63a347496cffbe0bf586c4bde78947b5e939796abe"
+    },
+    {
+      "case_id": "normal_calibration_147",
+      "scores_sha256": "1d8cb034c3eb11c91b49cb021d7fbee2562fac927c6aba9e56d3cb7058ba0b14"
+    },
+    {
+      "case_id": "normal_calibration_148",
+      "scores_sha256": "28e10c3a3540800c8c2880639647b0279bcba812c5ffe126b708af7d071c94c6"
+    },
+    {
+      "case_id": "normal_calibration_149",
+      "scores_sha256": "e5f4effefd44025f6304011b415d1618be34a0c50b17be0b7383234213907d7e"
+    },
+    {
+      "case_id": "normal_calibration_150",
+      "scores_sha256": "eef9afd6eace7e42fc1474a799fd484ab319c0bdfc4a7eb3b0049cae3e4e0280"
+    },
+    {
+      "case_id": "normal_calibration_151",
+      "scores_sha256": "3eeb6087a2e501efa2bb222ffe24167842a7bf932dea2642736c73ccb508d744"
+    },
+    {
+      "case_id": "normal_calibration_152",
+      "scores_sha256": "2a79a2d95e691d83e22eb41f222d463b6e61719fb26908ed49b4a6d0d10adf5b"
+    },
+    {
+      "case_id": "normal_calibration_153",
+      "scores_sha256": "44e15bbad998f9af410a63e0fcbcab83e77e62b5a253cdfc785bf1cf2238bb61"
+    },
+    {
+      "case_id": "normal_calibration_154",
+      "scores_sha256": "5dbb7e5516b7cd9f7df5db7691ec6ce5eae69096f93c86c5aff4ea8dbc1c1009"
+    },
+    {
+      "case_id": "normal_calibration_155",
+      "scores_sha256": "a85bcaab4c14975f82e77e43c0058ceaba69fbd31ae3c9beffe48765a7066556"
+    },
+    {
+      "case_id": "normal_calibration_156",
+      "scores_sha256": "7ada1b9e61a66169616ea2a623ddc134f27a85b5d825a634847ae8921c07ac64"
+    },
+    {
+      "case_id": "normal_calibration_157",
+      "scores_sha256": "7e646b567389e376d915359000c58d8c05b135ff82bc89db4d2c5437c54fdf1a"
+    },
+    {
+      "case_id": "normal_calibration_158",
+      "scores_sha256": "97d01a508780b158e20fac6c0cf469eb1f7d92c479cf6d0889b0046894f20a03"
+    },
+    {
+      "case_id": "normal_calibration_159",
+      "scores_sha256": "b47e0bbeb46556a4d0b557eb1184f233b37c7e1bf2664421067aa1a386f147ad"
+    },
+    {
+      "case_id": "normal_calibration_160",
+      "scores_sha256": "3efb07b8dee97121b6ad2ae3cbe4616bc1b295038a165961d2a840b5c9d79231"
+    },
+    {
+      "case_id": "normal_calibration_161",
+      "scores_sha256": "8ddc0cc1029538ffba7eeaceebc2130c6391a0b5aa0f3f6f2637f0707947e853"
+    },
+    {
+      "case_id": "normal_calibration_162",
+      "scores_sha256": "bd4580b6669a4df95e3612475a3f8b57af851e12db606cc22e3d5ec8eebbbb08"
+    },
+    {
+      "case_id": "normal_calibration_163",
+      "scores_sha256": "8e2c79d73fb7002faac46bed69fad788d7d9e587bbca0bff246c0be1bd69178f"
+    },
+    {
+      "case_id": "normal_calibration_164",
+      "scores_sha256": "7ddf7c8b79d39cb36835ee0799949e400423b6e86f5169284c9bc08fd5cc625c"
+    },
+    {
+      "case_id": "normal_calibration_165",
+      "scores_sha256": "b158fc1df2359ac42597ccc1ef836243997a23343084d8b8c38cdc37305ba387"
+    },
+    {
+      "case_id": "normal_calibration_166",
+      "scores_sha256": "8c8317b6a5b468e5248a28dff0f3bd1c73661fccfd2c5cab207dc42a4d6d776d"
+    },
+    {
+      "case_id": "normal_calibration_167",
+      "scores_sha256": "4bcd6a1a98a1b917236b176af16ba37757b756cd61438bf11e291fa3e23f6377"
+    },
+    {
+      "case_id": "normal_calibration_168",
+      "scores_sha256": "1b72477abe52d7aedb33d1b4bfac57b47ae8821d197bfa9bbd5e846a327564d9"
+    },
+    {
+      "case_id": "normal_calibration_169",
+      "scores_sha256": "b0c007581e4477dd2443126bc9b2e7d9c6e1a257d75e4d0a12f094e68d2bd5b9"
+    },
+    {
+      "case_id": "normal_calibration_170",
+      "scores_sha256": "aa6b42d486ba16fb2ce65a007def8ac9f1bd6b29ac7f23b11f4e8908162bd7d1"
+    },
+    {
+      "case_id": "normal_calibration_171",
+      "scores_sha256": "4396291783b09e5fe98986e614106c671191fd61a63fe0061ec4e326b7f87d82"
+    },
+    {
+      "case_id": "normal_calibration_172",
+      "scores_sha256": "1c54de7d393eb958a1d3d2b9a70a67d1c5681d415ec486a3594e3b5aff9249db"
+    },
+    {
+      "case_id": "normal_calibration_173",
+      "scores_sha256": "39653b61273ac35acb96d08f7d6b1182908fd7eb2f299f4733e66cbb0a644fe3"
+    },
+    {
+      "case_id": "normal_calibration_174",
+      "scores_sha256": "5653f880f36c30c8ac2bf6de98357d289ea52241896d506196dec38353565518"
+    },
+    {
+      "case_id": "normal_calibration_175",
+      "scores_sha256": "13b4d619c011902558f41fde738628782df2ad4b9f77e92c8b6b79b600a3066e"
+    },
+    {
+      "case_id": "normal_calibration_176",
+      "scores_sha256": "a62c9a7e9bc27047427f7bc198159d64cc7d3e740041033c07771dc50c7c5f30"
+    },
+    {
+      "case_id": "normal_calibration_177",
+      "scores_sha256": "04aaccb5ea86afca64068837b24f571e4b4040fd80833dc3d3303c18a02b5dd8"
+    },
+    {
+      "case_id": "normal_calibration_178",
+      "scores_sha256": "48f9f575cfaaa43a0399f18173af96f969403ef0e6811eb48be38cb7cca365e8"
+    },
+    {
+      "case_id": "normal_calibration_179",
+      "scores_sha256": "231277bf7ef4facdeb9e7c8aabd941bb9a71b69abba34db78daabadce581e3ea"
+    },
+    {
+      "case_id": "normal_calibration_180",
+      "scores_sha256": "8ba255618cb64a2df920441e1616aa7809c4b98666ac8ca848a1f514c820606e"
+    },
+    {
+      "case_id": "normal_calibration_181",
+      "scores_sha256": "0fa82ab39a7fcc15d3391285e3b3e1abd7bcdbd86eb1755c655db3f7ef82f5b1"
+    },
+    {
+      "case_id": "normal_calibration_182",
+      "scores_sha256": "543c9443c3dc159aef3d8c3ac465ce66e52d7930e958da0cc152b060a736579f"
+    },
+    {
+      "case_id": "normal_calibration_183",
+      "scores_sha256": "d6f7021bd718ee0f5de5895484868f88441d5e080a9a64dd3f8c81329aee0fd7"
+    },
+    {
+      "case_id": "normal_calibration_184",
+      "scores_sha256": "6550d05a064079aae61cfbdc2c274883bc0882e3aa9cb91d7d24edcb39a5de4d"
+    },
+    {
+      "case_id": "normal_calibration_185",
+      "scores_sha256": "e0ef017764fbdcd3f2643efdd0b58629be28200f93cf9072492e9d9687608f1c"
+    },
+    {
+      "case_id": "normal_calibration_186",
+      "scores_sha256": "e947da0ab2f19392d0361070670b68ea6e6543a1c11e8d4dbbd38e0397e6f217"
+    },
+    {
+      "case_id": "normal_calibration_187",
+      "scores_sha256": "32e9d6c717c6d9b13e355cf3ed371f22a914b68d2c30ab9041675e4652fe5cf6"
+    },
+    {
+      "case_id": "normal_calibration_188",
+      "scores_sha256": "b607790eb20cfb389f41809b0041fe6eddf8738b9e2f6fc54f78f17b7beb03e0"
+    },
+    {
+      "case_id": "normal_calibration_189",
+      "scores_sha256": "0368466620dbeb27a5a07ad440dd7eed2a3cb1c7e1461b4486a15cd203c63744"
+    },
+    {
+      "case_id": "normal_calibration_190",
+      "scores_sha256": "18ea8a907288c8811b413a40986e9ba0b2f85c95b8c46cddd895b933ade79b63"
+    },
+    {
+      "case_id": "normal_calibration_191",
+      "scores_sha256": "4c5d2644d118f15b8f49e918350cb24d213fb543281b5cfe5e169c285b83a4aa"
+    },
+    {
+      "case_id": "normal_calibration_192",
+      "scores_sha256": "44af8119a333670412dea92231c9117ebadc953dc4a856bef86cdbbef8179b1c"
+    },
+    {
+      "case_id": "normal_calibration_193",
+      "scores_sha256": "7ea557fdd99fa2fd1c28e345ee5633e69ca86854e67e173e3935cb967fd6b42c"
+    },
+    {
+      "case_id": "normal_calibration_194",
+      "scores_sha256": "463a83efea1340827218aa7ba821426b85a29c138530657611fbe7d12fe781c9"
+    },
+    {
+      "case_id": "normal_calibration_195",
+      "scores_sha256": "6b3f5a8052092ceb7ac3cb6bc570f0f3c87f814772b8acf2df891e47558cb20f"
+    },
+    {
+      "case_id": "normal_calibration_196",
+      "scores_sha256": "7ddbc83f481d1f4b14fca87054a668ff58af6592fe36ee20324d267bf2c1cdfc"
+    },
+    {
+      "case_id": "normal_calibration_197",
+      "scores_sha256": "9ee50e18623b2fba193576daef01a5891d4785f6cd8ab9d56de24c4831d36b86"
+    },
+    {
+      "case_id": "normal_calibration_198",
+      "scores_sha256": "627a244357a8ad81513c34cdb24a90bede857c8260322eb39303191ea228a397"
+    },
+    {
+      "case_id": "normal_calibration_199",
+      "scores_sha256": "9f3fa5c7a4c4253ef1b141eeebf5b5929f05d25be451019a31c3425a3e804be0"
+    }
+  ],
+  "calibration_strict_exceedances": [
+    9,
+    9,
+    9,
+    9,
+    9,
+    9
+  ],
+  "locked_utc": "2026-10-06T08:52:49.532609+00:00"
+}

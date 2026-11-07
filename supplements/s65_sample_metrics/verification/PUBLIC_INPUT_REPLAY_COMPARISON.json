@@ -1,0 +1,72 @@
+[
+  {
+    "file": "ANALYSIS_SPEC.json",
+    "public_replay_sha256": "288f544ac2bee5018546d11528d48b0620e48d9f5b393595d0b06117e9730f34",
+    "archived_sha256": "288f544ac2bee5018546d11528d48b0620e48d9f5b393595d0b06117e9730f34",
+    "byte_identical": true,
+    "expected_metadata_difference": false
+  },
+  {
+    "file": "INPUT_SHA256.csv",
+    "public_replay_sha256": "37b2e4a3c380b35cafb8ce1026d84629928a846bbb89c1ab2cee4998c8e28dd4",
+    "archived_sha256": "ba44c8a1c3be33182761853f814c0536c24786c8b9a2c986f756a2ea2d7ca2da",
+    "byte_identical": false,
+    "expected_metadata_difference": true
+  },
+  {
+    "file": "R5_ACTUAL_ALARM_COUNTS_PER_RUN.csv",
+    "public_replay_sha256": "004cfc7336f8b5c7c80a0980dfaac0ec3878ae156eac64a4de1d0e3ad9c28fe0",
+    "archived_sha256": "004cfc7336f8b5c7c80a0980dfaac0ec3878ae156eac64a4de1d0e3ad9c28fe0",
+    "byte_identical": true,
+    "expected_metadata_difference": false
+  },
+  {
+    "file": "R5_ACTUAL_VS_LATCHED_OCCUPANCY_DIAGNOSTIC.csv",
+    "public_replay_sha256": "b35653213eb030d4fe0f9e70213c46ed6963d937f81d3092927b65d96787376a",
+    "archived_sha256": "b35653213eb030d4fe0f9e70213c46ed6963d937f81d3092927b65d96787376a",
+    "byte_identical": true,
+    "expected_metadata_difference": false
+  },
+  {
+    "file": "R5_SAMPLE_AND_RUN_METRICS_BY_STATE.csv",
+    "public_replay_sha256": "9eed0f637b9395474dfb317755cf24d42383b200e8a7c92f21aa3d7418919fa3",
+    "archived_sha256": "9eed0f637b9395474dfb317755cf24d42383b200e8a7c92f21aa3d7418919fa3",
+    "byte_identical": true,
+    "expected_metadata_difference": false
+  },
+  {
+    "file": "R5_SAMPLE_AND_RUN_METRICS_FIVE_STATE.csv",
+    "public_replay_sha256": "e7754c723180d1f23c78acdec914003633706994f5291dc10feefe820f9177ed",
+    "archived_sha256": "e7754c723180d1f23c78acdec914003633706994f5291dc10feefe820f9177ed",
+    "byte_identical": true,
+    "expected_metadata_difference": false
+  },
+  {
+    "file": "R5_SAMPLE_CONTRASTS_PAIRED_95.csv",
+    "public_replay_sha256": "9626e988d6367a94fd23dd2d4cbaa3074e5fd1e932463074778476ae58d47ca1",
+    "archived_sha256": "9626e988d6367a94fd23dd2d4cbaa3074e5fd1e932463074778476ae58d47ca1",
+    "byte_identical": true,
+    "expected_metadata_difference": false
+  },
+  {
+    "file": "R5_SAMPLE_METRICS_COMPACT.csv",
+    "public_replay_sha256": "ad1049710a8505a52881ec8cb7aed1749df977aafc62557d3f8b2c4dbd1d0afa",
+    "archived_sha256": "ad1049710a8505a52881ec8cb7aed1749df977aafc62557d3f8b2c4dbd1d0afa",
+    "byte_identical": true,
+    "expected_metadata_difference": false
+  },
+  {
+    "file": "REAGGREGATION_CHECKS.csv",
+    "public_replay_sha256": "8f1c6bfd75eda057ec1cc26917d0529e025b6906b9a54ac12d5425bcd283d072",
+    "archived_sha256": "8f1c6bfd75eda057ec1cc26917d0529e025b6906b9a54ac12d5425bcd283d072",
+    "byte_identical": true,
+    "expected_metadata_difference": false
+  },
+  {
+    "file": "STATUS.json",
+    "public_replay_sha256": "344c0fd485e04136cb98f90b15b5f26880ed5d68c02b4eafbcd13de93128bfa9",
+    "archived_sha256": "344c0fd485e04136cb98f90b15b5f26880ed5d68c02b4eafbcd13de93128bfa9",
+    "byte_identical": true,
+    "expected_metadata_difference": false
+  }
+]

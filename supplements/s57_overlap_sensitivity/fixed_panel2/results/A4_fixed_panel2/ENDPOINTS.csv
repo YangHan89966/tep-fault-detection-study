@@ -1,0 +1,7 @@
+﻿panel,state,fault,scenario,method,fault_n,normal_n,threshold,clean40_n,clean40_pct,clean8_n,clean8_pct,clean2_pct,loss_min,normal_alarm_n,normal_FAR_pct,normal_floor_pct,prefault_alarm_pct
+recording_panel2_fixed_history,1,9,original,native_Signed,120,120,97.89824003853383,23,19.166666666666668,0,0.0,0.0,2228.475,6,5.0,5.0,0.0
+recording_panel2_fixed_history,1,9,original,controller_input_Signed,120,120,29.651585221148878,113,94.16666666666667,39,32.5,1.6666666666666667,929.75,9,7.5,7.5,0.8333333333333334
+recording_panel2_fixed_history,1,9,exclude_test,native_Signed,120,117,97.89824003853383,23,19.166666666666668,0,0.0,0.0,2228.475,6,5.128205128205128,5.128205128205128,0.0
+recording_panel2_fixed_history,1,9,exclude_test,controller_input_Signed,120,117,29.651585221148878,113,94.16666666666667,39,32.5,1.6666666666666667,929.75,8,6.837606837606838,6.837606837606838,0.8333333333333334
+recording_panel2_fixed_history,1,9,exclude_test_and_calibration,native_Signed,120,117,98.67156716126746,23,19.166666666666668,0,0.0,0.0,2228.875,4,3.418803418803419,3.418803418803419,0.0
+recording_panel2_fixed_history,1,9,exclude_test_and_calibration,controller_input_Signed,120,117,29.88613919527641,112,93.33333333333333,38,31.666666666666664,1.6666666666666667,939.775,8,6.837606837606838,6.837606837606838,0.0
