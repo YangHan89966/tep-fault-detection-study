@@ -1,0 +1,8 @@
+Reference,Training data,Input and representation,Monitoring increment,CUSUM
+PCA-T² CUSUM,57 N,Standardized 52 variables; components through 90% of the variance,Standardized T²,"Upper, k = 0.5"
+PCA-SPE CUSUM,57 N,As PCA-T²; residual of the retained components,Standardized SPE,"Upper, k = 0.5"
+DPCA-T² CUSUM,57 N,Lag-2 design of 156 variables; components through 90% of the variance,Standardized T²,"Upper, k = 0.5"
+DPCA-SPE CUSUM,57 N,As DPCA-T²; residual of the retained components,Standardized SPE,"Upper, k = 0.5"
+RQDA-LLR CUSUM,57 N + 16 F,"All 52 standardized variables; class-specific shrunk covariances, shared cross-validated γ",Static Gaussian log-density ratio,"Upper, k = 0"
+FDA CUSUM,57 N + 16 F,95%-variance residual subspace; one Fisher direction,Standardized signed projection,"Two-sided, k = 0.05"
+Variance-ratio CUSUM,57 N + 16 F,95%-variance residual subspace; one maximum variance-ratio direction,Standardized squared projection,"Two-sided, k = 0.05"

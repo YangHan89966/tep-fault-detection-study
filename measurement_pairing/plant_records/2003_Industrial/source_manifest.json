@@ -1,0 +1,28 @@
+{
+  "analysis_title": "Timing pairing and controller consistency in a published industrial level loop",
+  "analysis_date": "2026-11-14",
+  "timezone": "Asia/Singapore",
+  "record_id": "other-L-paper-horch-2003",
+  "origin": "Published SACAC industrial normal-operation record from an anonymous pulp and paper plant",
+  "repository_url": "https://sacac.org.za/resources/",
+  "repository_publication_doi": "10.1021/acs.iecr.8b06354",
+  "original_reference_doi": "10.1007/978-1-84628-624-7_7",
+  "files": [
+    {
+      "filename": "other-L-paper-horch-2003.csv",
+      "url": "https://sacac.org.za/wp-content/uploads/2023/07/other-L-paper-horch-2003.csv",
+      "size_bytes": 19127,
+      "sha256": "76da7b972818f9116afc27d31c1afb44196d2f66325a7c5aba27be5a8047b2c0"
+    },
+    {
+      "filename": "other-L-paper-horch-2003.txt",
+      "url": "https://sacac.org.za/wp-content/uploads/2023/07/other-L-paper-horch-2003.txt",
+      "size_bytes": 580,
+      "sha256": "af1e5c064f7143822a40333dba4464db5eac40a48ff8a954ad68f021076b7814"
+    }
+  ],
+  "row_count_resolution": "CSV:904; Bauer et al.2019 Table2:904; accompanying TXT:903. Analysis uses all904 CSV rows before declared index restriction.",
+  "data_handling": "Original CSV and TXT remain obtainable from official URLs with fetch_source.py. The distribution contains analysis outputs and code rather than republishing the raw input files.",
+  "evidence_scope": "Exploratory reanalysis following initial screening of one published normal-operation trace. Not a new independently acquired plant trial.",
+  "provenance_limit": "Industrial origin and variable roles are supported by the repository publication. Original historian export settings, compression, filtering, controller configuration and scan ordering were not independently recovered."
+}

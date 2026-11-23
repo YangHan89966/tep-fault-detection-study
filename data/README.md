@@ -10,4 +10,6 @@ The ten CSV files in `source_tables/` preserve the exact numerical source bytes 
 | `f15_exchange` | S68 |
 | `a459` | D15 |
 
-Some source filenames include an earlier proposed table number. Use the mapping above for the final manuscript numbering. These compact tables complement the fuller model and replay inputs under `analyses/` and `historical/`.
+Some source filenames include an earlier proposed table number. Use the mapping above for the historical manuscript numbering. These compact tables complement the fuller model and replay inputs under `analyses/` and `historical/`.
+
+The [SI table crosswalk](../measurement_pairing/tables/SI_table_crosswalk.csv) gives the submission and extended SI numbers for the measurement–controller pairing study.

@@ -1,0 +1,7 @@
+Fault,Comparison (A − B),"Δloss, min","Δ detection within 40 h, pp","Δ detection within 8 h, pp","ΔFAR, pp"
+3,Full-pool monitor − FDA-CUSUM,"−519.7 [−570.1, −470.2]","+2.5 [1.4, 3.8]","+27.8 [23.1, 32.6]","+1.4 [−1.5, 4.2]"
+3,Full-pool monitor − multivariate chart,"−431.1 [−474.8, −387.6]","+1.4 [0.7, 2.3]","+24.2 [19.8, 28.7]","+1.6 [−1.3, 4.4]"
+15,Full-pool monitor − variance-ratio reference,"−170.3 [−238.2, −102.0]","+6.6 [1.4, 11.7]","+1.9 [0.0, 4.0]","−1.4 [−4.2, 1.4]"
+15,Full-pool monitor − multivariate chart,"−734.6 [−812.9, −656.7]","+65.7 [60.8, 70.6]","+2.9 [0.6, 5.4]","−1.3 [−4.0, 1.5]"
+9,Full-pool monitor − FDA-CUSUM,"−57.0 [−77.4, −37.0]","+4.3 [2.1, 6.6]","+0.6 [0.2, 1.0]","−1.0 [−3.4, 1.1]"
+9,Full-pool monitor − multivariate chart,"−4.2 [−35.7, 28.5]","+2.6 [0.2, 4.9]","−0.7 [−1.6, 0.1]","+0.3 [−1.8, 2.4]"

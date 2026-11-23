@@ -1,0 +1,8 @@
+Workflow,Representation construction,Final density training
+IS,"In-sample selection, 57 N and 16 F",57 N and 16 F
+OOF,"Out-of-fold rule, 57 N and 16 F",57 N and 16 F
+H,"Historical numerical representation, fixed",57 N and 16 F
+Rp,"In-sample selection, 57 N and first 12 F",57 N and 16 F
+OOF-12F,"Numerical representation of OOF, not reselected",57 N and first 12 F
+H-12F,Historical numerical representation,57 N and first 12 F
+Rp-12F,"Numerical representation of Rp, not reselected",57 N and first 12 F

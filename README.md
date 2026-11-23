@@ -1,53 +1,45 @@
-# Tennessee Eastman fault-detection study
+# Measurement–controller pairing in closed-loop records changes the detectability of difficult Tennessee Eastman faults
 
-Code, frozen models and saved results for our manuscript *Effects of monitoring statistic, projection direction and measurement–controller pairing on the detectability of Tennessee Eastman Faults 3, 9 and 15* (Han et al., submitted). The raw trajectories and the full archive are on Zenodo: [10.5281/zenodo.22084007](https://doi.org/10.5281/zenodo.22084007).
+A controller output can be stored with the measurement that the controller used or with a later measurement. We recorded the same Tennessee Eastman trajectories both ways and fitted and calibrated each monitor on its own recording. Across five fits on independent random streams, the learned-direction monitor detected 98.2% of 200 Fault 9 runs within 40 h with the controller's measurement and 14.6% with the measurement taken 3 s later. At 8 h the rates were 43.2% and 1.3%. The percentages of 400 normal runs with an alarm in 48 h were 3.65% and 6.25%.
 
-## What the study is about
+## Find a result
 
-Faults 3, 9 and 15 of the Tennessee Eastman process are hard to detect, and many monitoring studies leave them out. We built CUSUM charts on PCA residuals and changed one thing at a time, first the monitoring statistic and then the projection direction, to find out why.
+| Material | Where to start |
+| --- | --- |
+| The six main figures and their numerical inputs | [Figure and analysis guide](measurement_pairing/README.md) |
+| Tables in the submission SI, the extended SI and the original Data S1 | [Table crosswalk](measurement_pairing/tables/SI_table_crosswalk.csv) |
+| Few-label autoregressive monitors (Family B), simulation protocols and rank-95 first alarms | [Family B data and screen replay](measurement_pairing/family_b/README.md) |
+| Pairing in the multiphase pilot plant and the industrial level loop | [Source records and analysis commands](measurement_pairing/plant_records/README.md) |
+| Learned-direction CUSUMs (Family A), independent-stream confirmation and TEP-Rust | [Reproduction guide](REPRODUCTION.md) and [data availability](DATA_AVAILABILITY.md) |
+| Earlier manuscript, seven figures and 83 original CSV tables, 7 November 2026 | [Historical snapshot](paper/README.md) |
 
-For Fault 9, the main obstacle turned out to be how the simulator records its data rather than the monitor. The reference Fortran driver stores each valve output next to the measurement the controller actually used; the tep package stores it next to a measurement taken 3 s later, with fresh noise. With the controller's measurements, relearned monitors detected 98% of Fault 9 runs within 40 h; with the later measurements, 15%.
+## Reproduce the main figures
 
-## Quick start
-
-You need Python 3.12. From the repository root:
+Run these commands from the repository root with Python 3.12.
 
 ```sh
-python unpack.py                # restore the larger files from bundles/ and check their SHA-256
-python verify_repository.py     # check every file byte for byte
-python verify_paper.py          # compare the 68 SI tables with Data S1 (6,110 cells)
-python verify_confirmation.py   # recount the confirmation panel: 1,199 runs, 13,200 event rows
 python -m pip install -r requirements.txt
-python verify_fault09_extensions.py --replay   # Fault 9 relearning (14 contrasts) and the 194-run TEP-Rust comparison
+python measurement_pairing/figures/main.py
 ```
 
-The first four scripts need only the standard library. The replay needs NumPy, and the historical calculations also use SciPy and pandas. `unpack.py` leaves matching files alone and stops if an existing file differs from the expected one.
+The command writes six figures in PDF, PNG and TIFF and a table of plotted values to `replay_output/main/`. The original values for comparison are in [expected_main_values.tsv](measurement_pairing/figures/inputs/expected_main_values.tsv).
 
-## What is where
+## Reproduce the earlier experiments
 
-| Folder | Contents |
-| --- | --- |
-| [paper/](paper/) | The submitted manuscript, Supplementary Information, Highlights, seven figures and Data S1 (83 CSV tables). Run `unpack.py` first to restore the Word and TIFF files. |
-| [data/](data/) | Ten numerical source tables and how they map to the manuscript |
-| [evidence/2026_10_24/](evidence/2026_10_24/) | Confirmation panel on independent random-number streams: code, models, calibration, the 1,199 run identities and 13,200 saved evaluation events |
-| [analyses/](analyses/) | Fault 9 relearning on independent streams, the TEP-Rust comparison, partially shared measurement noise and the recording × B analysis, recording-variance decomposition, detection–false-alarm curves and the Fault 15 XMEAS17 exchange |
-| [historical/](historical/) | Code, fitted states and saved numerical evidence from the earlier studies, and selected direction experiments |
-| [supplements/](supplements/) | Inputs and replay scripts behind Tables S52 (three estimators of the long-run covariance B), S57 and D14 (runs with overlapping random-number streams excluded) and S65 (sample-level alarm rates) |
+```sh
+python unpack.py
+python verify_repository.py
+python verify_paper.py
+python verify_confirmation.py
+python verify_fault09_extensions.py --replay
+```
 
-## Going further
+The first four commands use the Python standard library. They restore and verify the bundled files, check the original 68 SI tables against 6,110 cells in Data S1, and recount 13,200 events from the 1,199-run confirmation panel. The last command also replays the independent Fault 9 relearning and the 194-run TEP-Rust comparison. The full list of checks is in [REPRODUCTION.md](REPRODUCTION.md).
 
-[REPRODUCTION.md](REPRODUCTION.md) lists every check with its command and what it covers, including the detection–false-alarm grids, the noise-sharing replay and the S52, S57 and S65 replays. All of these recalculate results from saved inputs: frozen models, scores and alarm records. Regenerating the trajectories themselves, or rebuilding scores from the raw measurements, needs the raw-data archives on Zenodo; [DATA_AVAILABILITY.md](DATA_AVAILABILITY.md) says which ones.
+## Data citation and licenses
 
-The historical analyses use the extended data set of Rieth et al. (2017), [doi:10.7910/DVN/6C3JR1](https://doi.org/10.7910/DVN/6C3JR1).
+For the original Family A release, cite Han, Y. and Zhang, X. (2026), *Data and code for: Effects of monitoring statistic, projection direction and measurement–controller pairing on the detectability of Tennessee Eastman Faults 3, 9 and 15*, version 1.0.0. [Zenodo](https://doi.org/10.5281/zenodo.22084007).
 
-## Licence
+The crosswalk, later analyses and figure sources are identified by their Git commit. The historical TEP data are from Rieth et al. (2017). [Data set](https://doi.org/10.7910/DVN/6C3JR1).
 
-Code written for this study is released under the MIT License, and data, tables and documentation under CC BY 4.0. Third-party code, including the tep package source and the TEP-Rust module, keeps its own licence and notices. The manuscript, Highlights and figure files in `paper/` are not covered by these licences. Details are in [LICENSE_SCOPE.md](LICENSE_SCOPE.md).
-
-## How to cite
-
-If you use this code or data, please cite the archived record:
-
-Han, Y., Zhang, X., 2026. Data and code for: Effects of monitoring statistic, projection direction and measurement–controller pairing on the detectability of Tennessee Eastman Faults 3, 9 and 15 [dataset]. Zenodo, version 1.0.0. https://doi.org/10.5281/zenodo.22084007
-
-We will add the article reference once it is published.
+Study code uses the MIT License. The archived study data, tables and documentation use CC BY 4.0. Third-party records and software retain their original terms. [License scope](LICENSE_SCOPE.md).

@@ -1,0 +1,7 @@
+Role,Per replicate or panel,Length (records),Total trajectories
+Normal training,57 per replicate,321,"2,052"
+Fault 9 training,16 per replicate,321,576
+Normal calibration,99 per replicate,960,"3,564"
+Normal evaluation,"120, shared",960,120
+Fault 9 evaluation,"120, shared",321,120
+Total,,,"6,432"

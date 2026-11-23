@@ -100,7 +100,8 @@ def verify(root=ROOT):
             check_docx(data)
     entries = checked_zip((base/'Data_S1.zip').read_bytes())
     actual = {p.relative_to(base).as_posix() for p in (base/'Data_S1').rglob('*') if p.is_file()}
-    if set(entries) != DATA or actual != DATA:
+    # README.md is the repository guide to the two current SI editions.
+    if set(entries) != DATA or actual - {'Data_S1/README.md'} != DATA:
         raise ValueError('Data S1 member set mismatch')
     for name, data in entries.items():
         if (base/name).read_bytes() != data:
