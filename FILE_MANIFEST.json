@@ -18,8 +18,8 @@
     },
     {
       "path": "DATA_AVAILABILITY.md",
-      "size_bytes": 1256,
-      "sha256": "1cefb67ba7161d290ac3eb4e9cc2a837f982a152a403188c42e36430e3b33d2b"
+      "size_bytes": 2067,
+      "sha256": "f38113d30389fc37dbb7306e8f55371dc1b241e4a4912b54d625271eeb2fb781"
     },
     {
       "path": "LICENSE",
@@ -33,8 +33,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 3371,
-      "sha256": "8e4f8cecd2ac505d24e89771f33ad72a6613b5aca225308242accc2a368e7c0a"
+      "size_bytes": 3649,
+      "sha256": "26bee66c1dc55b2dbad6e2902e332b7cb32e12d3d1d0b18109e315e4d7454eac"
     },
     {
       "path": "REPRODUCTION.md",

@@ -38,8 +38,10 @@ The first four commands use the Python standard library. They restore and verify
 
 ## Data citation and licenses
 
-For the original Family A release, cite Han, Y. and Zhang, X. (2026), *Data and code for: Effects of monitoring statistic, projection direction and measurement–controller pairing on the detectability of Tennessee Eastman Faults 3, 9 and 15*, version 1.0.0. [Zenodo](https://doi.org/10.5281/zenodo.22084007).
+Han, Y. and Zhang, X. (2026). *Data and code for: Measurement–controller pairing in closed-loop records changes the detectability of difficult Tennessee Eastman faults*. Zenodo, version 2.0.0. [Version DOI](https://doi.org/10.5281/zenodo.24453012).
 
-The crosswalk, later analyses and figure sources are identified by their Git commit. The historical TEP data are from Rieth et al. (2017). [Data set](https://doi.org/10.7910/DVN/6C3JR1).
+This version brings together both monitor families, the two plant-record analyses, the figure sources, the SI table crosswalk and the extended Supplementary Information. The version DOI becomes active when the Zenodo record is published. [Archive contents](DATA_AVAILABILITY.md).
+
+The original Family A materials are also available in the [7 November 2026 release, version 1.0.0](https://doi.org/10.5281/zenodo.22084007). The historical TEP data are from Rieth et al. (2017). [Data set](https://doi.org/10.7910/DVN/6C3JR1).
 
 Study code uses the MIT License. The archived study data, tables and documentation use CC BY 4.0. Third-party records and software retain their original terms. [License scope](LICENSE_SCOPE.md).
