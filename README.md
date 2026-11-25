@@ -22,4 +22,4 @@ python article/figures/draw_figures.py --output redrawn_figures
 
 The command writes six PDFs and a table of plotted values. [Reproduction instructions](REPRODUCTION.md) cover the monitor comparisons and D-feed reconstruction.
 
-The [earlier study materials](https://github.com/YangHan89966/tep-fault-detection-study/tree/study-archive-2026-11-25) preserve the original simulation analyses, source tables and earlier figure numbering. The [7 November data release](https://doi.org/10.5281/zenodo.22084007) provides the original Family A materials.
+The [7 November 2026 Family A data release](https://doi.org/10.5281/zenodo.22084007) provides the original simulation trajectories, fitted monitors and alarm records.

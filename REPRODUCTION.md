@@ -24,6 +24,6 @@ The [analysis guide](article/analyses/README.md) gives commands for recalculatin
 | Endpoints for the comparisons in Table S36 | `monitor_comparisons/representation/report/e2_endpoints.csv` |
 | Detection after reconstructing D-feed flow | `dfeed_reconstruction_monitoring/README.md`, with refitting code in `code/fit_monitor.py` and rates in `results/rates.csv` under that directory |
 
-## Earlier studies
+## Original simulation data
 
-The [earlier repository snapshot](https://github.com/YangHan89966/tep-fault-detection-study/tree/study-archive-2026-11-25) contains the original simulator and supplementary analyses. Follow the instructions and table numbering in that snapshot when reproducing its 7 November materials or its 23 November figures. The latter include a noise-sharing analysis as Figure 5.
+The [7 November 2026 data release](https://doi.org/10.5281/zenodo.22084007) contains the Family A simulation files. For the article figure and table numbering, use the [v1.1.0 release](https://doi.org/10.5281/zenodo.24519585).
