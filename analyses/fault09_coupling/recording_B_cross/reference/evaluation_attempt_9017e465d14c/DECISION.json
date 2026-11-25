@@ -12,18 +12,18 @@
     "scope": "conditional whole-run paired bootstrap; fixed learned state and realized calibration; secondary intervals marginal"
   },
   "predefined_difference_criterion_reached": true,
-  "criterion_wording": "达到预设的监督重学习记录差异判据",
+  "criterion_wording": "The prespecified criterion for a difference between recording conventions after supervised relearning was met.",
   "normal_risk_guard_passed": true,
   "normal_guard_M1_n": 7,
   "normal_guard_M2_n": 7,
   "normal_guard_denominator": 120,
-  "normal_guard_wording": "通过预设样本误报守门线；不证明真实风险<=5%或等风险",
-  "M1_long_horizon_category": "达到预设的50%长期清洁检出门槛",
+  "normal_guard_wording": "The prespecified sample false-alarm criterion was met. The observed rates do not establish a population risk of 5% or less or equal risks across conditions.",
+  "M1_long_horizon_category": "The prespecified 50% long-horizon clean-detection threshold was met.",
   "not_claimed": [
-    "恢复历史性能",
-    "效应为零",
-    "所有方法的必要条件",
-    "C2过去已成功",
+    "recovery of historical performance",
+    "a zero effect",
+    "a necessary condition for all methods",
+    "previous success of C2",
     "fresh independent confirmation"
   ],
   "do_not_expand": true

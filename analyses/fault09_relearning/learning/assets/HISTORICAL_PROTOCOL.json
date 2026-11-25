@@ -1,7 +1,7 @@
 {
   "study_id": "TEP_F9_SUPERVISED_RELEARNING_RANK_CONTINUATION_V1_1_20261007",
   "written_utc": "2026-10-07T03:26:23.125037+00:00",
-  "authorization": "2026-10-07 user explicitly approved the proposed normal-only effective-subspace amendment: 按你的建议来.",
+  "authorization": "The normal-only effective-subspace amendment was approved on 7 October 2026.",
   "new_roles": {},
   "new_trajectory_count": 0,
   "duration_hours": 48.0,
@@ -113,17 +113,17 @@
     "endpoint": "clean_2400",
     "difference_pp_at_least": 20.0,
     "ci95_lower_strictly_positive": true,
-    "pass_wording": "达到预设的监督重学习记录差异判据",
-    "fail_wording": "未达到本次预设判据",
+    "pass_wording": "The prespecified criterion for a recording difference after supervised relearning was met.",
+    "fail_wording": "The prespecified criterion was not met.",
     "risk_guard": "M1 and M2 normal alarms each <=12 of120; failure means descriptive detection contrast only, no acceptable-gain claim",
     "M1_coverage_bins": [
       60,
       30
     ],
     "coverage_wording": [
-      "达到预设的50%长期清洁检出门槛",
-      "长期清洁检出介于25%与50%之间",
-      "长期清洁检出低于25%"
+      "The prespecified 50% long-horizon clean-detection threshold was met.",
+      "Long-horizon clean detection was between 25% and 50%.",
+      "Long-horizon clean detection was below 25%."
     ]
   },
   "analysis": {

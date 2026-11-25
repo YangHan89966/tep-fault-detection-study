@@ -27,6 +27,18 @@
       "original_sha256": "51cd056193daac1c21c408fe00c8a9e299ed3c281011a34a56684a3b1c937118",
       "public_sha256": "b3b3c3566721b8a96905f404aeb48389e241c070c05e3c50c17be510ffb0f33b",
       "change": "Portable public-package paths and explicit publication-metadata integrity verification; numerical audit calculations unchanged."
+    },
+    {
+      "public_path": "reference/evaluation_attempt_9017e465d14c/DECISION.json",
+      "original_sha256": "cdc2957d84d743d8cf9ce617241b9c84be021a79d7eb894bd47a9d54dfaf0a44",
+      "public_sha256": "46d0c879746d50b7ec98c1e421548e904d0ce9019b2fadf6e20816bef3110f7e",
+      "change": "English translation of the decision labels and interpretation limits. All estimates, intervals, counts, and decision flags are unchanged."
+    },
+    {
+      "public_path": "audit/public_integrity.py",
+      "original_sha256": "99a8770691ec8e8ac761e1627624d83593bc86eef162723d7a487fbfed17b153",
+      "public_sha256": "ac2df3db09ba407b74075e044c7a920fdd696203b513fe1321c1cc96eaf53890",
+      "change": "Recognize the translated decision only at its recorded path and check its original and published digests."
     }
   ],
   "omitted_files": [

@@ -284,7 +284,11 @@
         {
           "path": "analyses/fault09_coupling/PUBLIC_FILE_MANIFEST.json",
           "size_bytes": 349583,
-          "sha256": "d8158b868a803d53057bcd69ca7e210e53921a2c5d4960c091dac1cc2c2bb5cd"
+          "sha256": "d8158b868a803d53057bcd69ca7e210e53921a2c5d4960c091dac1cc2c2bb5cd",
+          "distributed_copy": {
+            "size_bytes": 349583,
+            "sha256": "98fbd2f3b71a95e64020c2cdd3f43a2fc2c4384f1e4073cd750288e796754f85"
+          }
         },
         {
           "path": "analyses/fault09_coupling/graded_coupling/MANIFEST.csv",
