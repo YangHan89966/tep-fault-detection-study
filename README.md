@@ -1,8 +1,8 @@
 # Tennessee Eastman fault-detection study, 7 November 2026 archive
 
-This branch preserves the code, fitted models and results for the earlier manuscript *Effects of monitoring statistic, projection direction and measurement–controller pairing on the detectability of Tennessee Eastman Faults 3, 9 and 15*. The [7 November 2026 Zenodo release](https://doi.org/10.5281/zenodo.22084007) includes the raw trajectories.
+This branch preserves the code, fitted models and results from the 7 November 2026 study of monitoring statistics, projection directions and measurement–controller pairing for Tennessee Eastman Faults 3, 9 and 15. The [7 November 2026 Zenodo release](https://doi.org/10.5281/zenodo.22084007) includes the raw trajectories.
 
-For the revised study, *Measurement–controller pairing and fault detection in the Tennessee Eastman process*, see the [main branch](https://github.com/YangHan89966/tep-fault-detection-study/blob/main/README.md).
+For the revised study, *Measurement–controller pairing and fault detection in the Tennessee Eastman process*, see the [main branch](https://github.com/YangHan89966/tep-fault-detection-study/blob/main/README.md) and [Zenodo v1.1.0](https://doi.org/10.5281/zenodo.24519585).
 
 ## What the study is about
 
@@ -17,7 +17,7 @@ You need Python 3.12. From the repository root:
 ```sh
 python unpack.py                # restore the larger files from bundles/ and check their SHA-256
 python verify_repository.py     # check every file byte for byte
-python verify_paper.py          # compare the 68 SI tables with Data S1 (6,110 cells)
+python verify_paper.py          # check Data S1 against the original table ZIP and file checksums
 python verify_confirmation.py   # recount the confirmation panel: 1,199 runs, 13,200 event rows
 python -m pip install -r requirements.txt
 python verify_fault09_extensions.py --replay   # Fault 9 relearning (14 contrasts) and the 194-run TEP-Rust comparison
@@ -29,7 +29,7 @@ The first four scripts need only the standard library. The replay needs NumPy, a
 
 | Folder | Contents |
 | --- | --- |
-| [paper/](paper/) | The archived manuscript, Supplementary Information, Highlights, seven figures and Data S1 (83 CSV tables). Run `unpack.py` first to restore the Word and TIFF files. |
+| [paper/](paper/) | Data S1 with 83 numbered CSV tables, the table index and the original ZIP. |
 | [data/](data/) | Ten numerical source tables and how they map to the manuscript |
 | [evidence/2026_10_24/](evidence/2026_10_24/) | Confirmation panel on independent random-number streams: code, models, calibration, the 1,199 run identities and 13,200 saved evaluation events |
 | [analyses/](analyses/) | Fault 9 relearning on independent streams, the TEP-Rust comparison, partially shared measurement noise and the recording × B analysis, recording-variance decomposition, detection–false-alarm curves and the Fault 15 XMEAS17 exchange |
@@ -44,7 +44,7 @@ The historical analyses use the extended data set of Rieth et al. (2017), [doi:1
 
 ## Licence
 
-Code written for this study is released under the MIT License, and data, tables and documentation under CC BY 4.0. Third-party code, including the tep package source and the TEP-Rust module, keeps its own licence and notices. The manuscript, Highlights and figure files in `paper/` are not covered by these licences. Details are in [LICENSE_SCOPE.md](LICENSE_SCOPE.md).
+Code written for this study is released under the MIT License, and data, tables and documentation under CC BY 4.0. Third-party code, including the tep package source and the TEP-Rust module, keeps its own licence and notices. Details are in [LICENSE_SCOPE.md](LICENSE_SCOPE.md).
 
 ## How to cite
 

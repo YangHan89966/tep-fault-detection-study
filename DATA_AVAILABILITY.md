@@ -1,6 +1,8 @@
 # Data availability
 
-The repository supplies source programs, fitted monitoring states, thresholds, run identities, saved events and scores, numerical tables and the manuscript and supporting documents from the 7 November 2026 release. Larger included files are restored locally with `python unpack.py`.
+The data and code for the article are available in [Zenodo v1.1.0](https://doi.org/10.5281/zenodo.24519585).
+
+The repository supplies source programs, fitted monitoring states, thresholds, run identities, saved events and scores, numerical tables and the original Data S1 archive from the 7 November 2026 release. Larger included files are restored locally with `python unpack.py`.
 
 The 1,199-run confirmation panel includes a run manifest and saved evaluation events. The Fault 9 relearning study includes 2,719 physical run receipts, fitted models and final per-run results. A receipt identifies a run; it does not contain its measurement matrix. The separate Rust comparison includes the saved endpoints for 194 runs.
 

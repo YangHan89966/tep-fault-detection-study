@@ -1,11 +1,11 @@
 # Reproducing the saved results
 
-Run the setup commands in the root README first. The integrity, manuscript-table and confirmation-event checks use only the Python standard library. Numerical replays use NumPy; historical calculations also use SciPy and pandas. Component environment records preserve the original calculation versions.
+Run the setup commands in the root README first. The integrity, Data S1 and confirmation-event checks use only the Python standard library. Numerical replays use NumPy; historical calculations also use SciPy and pandas. Component environment records preserve the original calculation versions.
 
 | Check | Command from repository root | Scope |
 | --- | --- | --- |
 | Distributed files | `python verify_repository.py` | SHA-256 identity of every included file |
-| Manuscript tables | `python verify_paper.py` | 83 Data S1 CSVs; 68 SI tables and 6,110 normalized cells |
+| Historical Data S1 tables | `python verify_paper.py` | 83 numbered CSV tables, index and data description checked against the original ZIP and file checksums |
 | Confirmation events | `python verify_confirmation.py` | 1,199 physical runs; 13,200 event rows across 22 monitoring arms |
 | Fault 9 and Rust | `python verify_fault09_extensions.py --replay` | Final relearning outcomes and 14 contrasts; separate 194-run Rust comparison |
 | Detection–false-alarm grids | `python analyses/detection_far/review/crosscheck_all_grids.py analyses/detection_far` | Independent recalculation from saved calibration/evaluation maxima |

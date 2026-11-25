@@ -1,20 +1,7 @@
-# Archived manuscript and supporting tables, 7 November 2026
+# Data S1, 7 November 2026
 
-This directory preserves the manuscript, Supplementary Information, Highlights, seven figures and Data S1 from the 7 November 2026 release. See the [main branch](https://github.com/YangHan89966/tep-fault-detection-study/blob/main/README.md) for the revised study.
+[Data S1](Data_S1/) contains 83 CSV tables from the [7 November 2026 release](https://doi.org/10.5281/zenodo.22084007). The [index](Data_S1/index.csv) lists supplementary Tables S1–S68 and additional Tables D1–D15. The [original ZIP](Data_S1.zip) contains the same tables, index and data description.
 
-The Word and TIFF files are stored in `bundles/`, so run this from the repository root before opening them:
+Run `python verify_paper.py` from the repository root to compare the extracted files with the ZIP and the [checksums](SOURCE_MANIFEST.json).
 
-```sh
-python unpack.py
-```
-
-- `Manuscript.docx`: the manuscript
-- `Supplementary_Information.docx`: supplementary methods and results
-- `Highlights.docx`: highlights
-- `Figure_1.tif` to `Figure_7.tif`: the figures
-- `Data_S1/`: the 83 CSV tables (S1–S68 and D1–D15) with an index and a readme, also supplied as `Data_S1.zip`
-- `SOURCE_MANIFEST.json`: sizes and SHA-256 checksums of these files
-
-From the repository root, `python verify_paper.py` checks these files and compares all 68 supplementary tables in the Word document with Data S1, 6,110 cells in total.
-
-The full archive, including the raw trajectories, is on Zenodo: https://doi.org/10.5281/zenodo.22084007
+For the article tables and supplementary Tables S1–S42, see the [article table index](https://github.com/YangHan89966/tep-fault-detection-study/blob/main/article/table_index.csv) and [Zenodo v1.1.0](https://doi.org/10.5281/zenodo.24519585).
