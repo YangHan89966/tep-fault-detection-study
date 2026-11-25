@@ -28,10 +28,6 @@ def configure_plot(out):
         matplotlib.use('Agg')
         from matplotlib import font_manager as fm
         info['matplotlib_version'] = matplotlib.__version__
-        windows_font = Path('/mnt/c/Windows/Fonts/times.ttf')
-        if windows_font.is_file():
-            fm.fontManager.addfont(str(windows_font))
-            info['windows_font_registered_read_only'] = str(windows_font)
         try:
             info['resolved_font_path'] = fm.findfont(fm.FontProperties(family='Times New Roman'), fallback_to_default=False)
             info['font_status'] = 'REQUESTED_FONT_AVAILABLE'

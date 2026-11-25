@@ -1,8 +1,5 @@
-Public source supplement — 7 November 2026
+Fault 9 paired relearning
 
-This is a documentation-only derivative of TEP_P1_F9_Independent_Relearning_20261104.zip.
-Scientific data, code, protocols, frozen locks, input identities and upstream source archives remain byte-identical. Editorial insertion instructions have been removed from reader-facing documents; the associated scientific methods, results and limitations are retained in analysis notes where applicable.
+The historical protocol is presented in English. Its amendment date, statistical methods, development cases and scope are preserved. PUBLIC_DERIVATION.json gives the SHA-256 of the historical and English versions. The runner checks the original study code against its recorded checksum and checks the English protocol separately.
 
-PUBLIC_DERIVATION.json records each changed, renamed or omitted document and its original SHA-256. Original package manifests are retained as historical records and may report documented differences for these explanatory files. PUBLIC_SHA256SUMS.txt lists the current files in this derivative (excluding itself).
-
-Scientific source files may retain historical provenance text and original source paths to preserve locked identities. Third-party source documentation and license notices have not been modified. Historical table numbers in preserved source data are not silently renumbered; use the final submitted Data S1 for current numbering.
+Use README.md for the study results and reproduction commands. SHA256SUMS.txt identifies the files in this repository edition. PUBLIC_SHA256SUMS.txt and the historical manifests identify the files distributed in the earlier archive.

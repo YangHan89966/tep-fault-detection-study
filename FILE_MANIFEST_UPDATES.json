@@ -1,0 +1,131 @@
+{
+  "description": "Documentation and portability updates to the historical repository inventory. Apply these entries to FILE_MANIFEST.json when checking this edition.",
+  "removed": [
+    "analyses/detection_far/00_结果与使用说明.txt",
+    "analyses/f15_xmeas17/00_结果说明.txt",
+    "analyses/fault09_relearning/00_运行说明.txt",
+    "analyses/fault09_relearning/EXPERIMENT_CN.txt"
+  ],
+  "files": [
+    {
+      "path": "BUNDLES.json",
+      "size_bytes": 636293,
+      "sha256": "47a7e06b1b3aeba6ca874d45e102a9feecc81d4e84c9a71a8d5fe50cbeed42b4"
+    },
+    {
+      "path": "analyses/detection_far/README.md",
+      "size_bytes": 1965,
+      "sha256": "e62929ab3997cfdad1d5d8e0d008028d84bd665a36bd02764964321d72245fd9"
+    },
+    {
+      "path": "analyses/detection_far/SHA256SUMS.txt",
+      "size_bytes": 5808,
+      "sha256": "65b4482695a8f2d8d6e9349cccd15ed0f02da8e65cb56696fd2649b1cc0e2732"
+    },
+    {
+      "path": "analyses/f15_xmeas17/README.md",
+      "size_bytes": 1822,
+      "sha256": "44e86140b9514b09d0947a0bfb0068fbb8c67e28e531bbc1407c299fb970257f"
+    },
+    {
+      "path": "analyses/f15_xmeas17/SHA256SUMS.txt",
+      "size_bytes": 1583,
+      "sha256": "a45bfb884bb866cda060b9f2b95acda6d8a633d7a3cfcb2692f0f4aa50020eff"
+    },
+    {
+      "path": "analyses/fault09_coupling/PUBLIC_FILE_MANIFEST.json",
+      "size_bytes": 349583,
+      "sha256": "98fbd2f3b71a95e64020c2cdd3f43a2fc2c4384f1e4073cd750288e796754f85"
+    },
+    {
+      "path": "analyses/fault09_coupling/recording_B_cross/PUBLICATION_CHANGES.json",
+      "size_bytes": 4654,
+      "sha256": "9adac50f951f92cbbc91d744120b5e4932c544c87f46af674fa400f06b29fc55"
+    },
+    {
+      "path": "analyses/fault09_coupling/recording_B_cross/PUBLIC_MANIFEST.json",
+      "size_bytes": 15099,
+      "sha256": "919f385cccb5c5e03001045f893e9684cfa2bf85326cb48fa634f1325da63f8b"
+    },
+    {
+      "path": "analyses/fault09_coupling/recording_B_cross/README.md",
+      "size_bytes": 7570,
+      "sha256": "3a6c58fcc53821b35b55f5e7e140a527bcdde88817cf726affddbe22ad67c62d"
+    },
+    {
+      "path": "analyses/fault09_coupling/recording_B_cross/audit/public_integrity.py",
+      "size_bytes": 2086,
+      "sha256": "ac2df3db09ba407b74075e044c7a920fdd696203b513fe1321c1cc96eaf53890"
+    },
+    {
+      "path": "analyses/fault09_coupling/recording_B_cross/reference/evaluation_attempt_9017e465d14c/DECISION.json",
+      "size_bytes": 1253,
+      "sha256": "46d0c879746d50b7ec98c1e421548e904d0ce9019b2fadf6e20816bef3110f7e"
+    },
+    {
+      "path": "analyses/fault09_relearning/PACKAGE_NOTE.txt",
+      "size_bytes": 591,
+      "sha256": "9e74e054dcd5e3195ceccb54c242c6f7c64a2d7219f1bab9e1a9e7ec8be1b253"
+    },
+    {
+      "path": "analyses/fault09_relearning/PUBLIC_DERIVATION.json",
+      "size_bytes": 1070,
+      "sha256": "bc8a539c4fb8a8e8a66202606f44cb14f0b01cc4c4f6b4a17f573c256999ab1e"
+    },
+    {
+      "path": "analyses/fault09_relearning/README.md",
+      "size_bytes": 3505,
+      "sha256": "eda32d7070f825981c911a62905ac014816ea6d2a56ac9d8306423197f11b56c"
+    },
+    {
+      "path": "analyses/fault09_relearning/SHA256SUMS.txt",
+      "size_bytes": 26547,
+      "sha256": "dc3d6c8257d2a7a73352dc1c73ad8c66f16dd799318f802140dfb8ceda4b9fb2"
+    },
+    {
+      "path": "analyses/fault09_relearning/learning/assets/HISTORICAL_PROTOCOL.json",
+      "size_bytes": 8745,
+      "sha256": "75e63e680f208b15ef3f7ab60e3be814581d305cc4b04acc1b1bd7a04c81f06a"
+    },
+    {
+      "path": "analyses/fault09_relearning/run_study.py",
+      "size_bytes": 1320,
+      "sha256": "28931c6e5e88c6257748bc7e6aa013744804d5866d69c8e7318a00d052757cc4"
+    },
+    {
+      "path": "analyses/fault09_relearning/run_study_frozen.py",
+      "size_bytes": 17936,
+      "sha256": "3d612142de61d11c853acc36bb1c8a65eb07b0f114a8a2765c7daf4613efbb9a"
+    },
+    {
+      "path": "supplements/s52_b_estimator/README.md",
+      "size_bytes": 7919,
+      "sha256": "23a5af858ed314dd4de4fe7c181836724bf0793df05bb8893f3b28e551ba2afa"
+    },
+    {
+      "path": "supplements/s52_b_estimator/SHA256SUMS.csv",
+      "size_bytes": 19144,
+      "sha256": "1867d8f3559168605b5e942a2a10fb55a44c60b5500ca029f68195cba60d1fe1"
+    },
+    {
+      "path": "supplements/s52_b_estimator/SOURCE_MAP.csv",
+      "size_bytes": 30186,
+      "sha256": "366ad643c9b3c9f34dffc85a25b410a82b9e35a311fd4531cea77ec0d68c4618"
+    },
+    {
+      "path": "supplements/s52_b_estimator/source/code/run_one_analysis.py",
+      "size_bytes": 13360,
+      "sha256": "71edf24fe0a256821ffce071df43405aa0b5784a44de8ec830b9b19877d3e3bc"
+    },
+    {
+      "path": "unpack.py",
+      "size_bytes": 3386,
+      "sha256": "6743be445bf9ef964fda96539731d1c4af24dcf410bfe7b160b0a14a4a5dbf5f"
+    },
+    {
+      "path": "verify_repository.py",
+      "size_bytes": 1657,
+      "sha256": "3bb2876d0fb65dcfad7e8f3588a7a51df05a0bf39c7cf6348b2b1d1d32a4e8b5"
+    }
+  ]
+}

@@ -50,10 +50,18 @@ def main():
                     data = z.read(name)
                     if len(data) != row['size_bytes'] or digest(data) != row['sha256']:
                         raise ValueError('Bundle member mismatch: ' + name)
-                    if dest.exists():
-                        if not dest.is_file() or digest(dest.read_bytes()) != row['sha256']:
+                    # An edited inventory may be shipped directly with the repository.
+                    # Its archived source above and its distributed copy have separate checksums.
+                    distributed = row.get('distributed_copy')
+                    if dest.is_file():
+                        selected = distributed or row
+                        if dest.stat().st_size != selected['size_bytes'] or digest(dest.read_bytes()) != selected['sha256']:
                             raise ValueError('Existing file differs: ' + name)
                         reused += 1
+                    elif distributed is not None:
+                        raise ValueError('Missing distributed file: ' + name)
+                    elif dest.exists():
+                        raise ValueError('Expected a regular file: ' + name)
                     else:
                         pending.append((dest, data))
                 for dest, data in pending:

@@ -14,7 +14,7 @@ This supplement contains the existing-data analysis for Fault 9 using three temp
 - `table/Table_S52.csv`: the submitted table, retained without numerical changes.
 - `RAW_INPUT_IDENTITY.csv`: the 2,825 distinct raw trajectories required by the manifest, with their canonical identifiers, relative paths, byte counts, SHA-256 hashes, and recorded loader read counts.
 - `ROLE_COUNTS.csv`: run-role counts for each state.
-- `SOURCE_MAP.csv`: archive-relative provenance and checksums of the unchanged supplied files.
+- `SOURCE_MAP.csv`: source archive paths, original file checksums and any changes made for this distribution.
 - `SHA256SUMS.csv`: checksums of all files in this supplement, excluding the checksum file itself.
 
 ## Design and pairing
@@ -47,7 +47,7 @@ The final aggregation source and seeds are included. To rerun that unchanged agg
 python summary/summarize_a7.py --a7-dir results --engine-dir source/engines/A2_A7 --out NEW_SUMMARY_DIRECTORY
 ```
 
-The dispatcher in `source/code/` is retained because the original aggregation records its checksum; it is not executed by the aggregation.
+The aggregation records the checksum of `source/code/run_one_analysis.py`. Font discovery in this copy uses Matplotlib’s installed fonts. The dispatcher reports whether Times New Roman is available. Its original archive checksum is listed in `SOURCE_MAP.csv`, and the checksum of the distributed copy is in `SHA256SUMS.csv`. The aggregation reads the dispatcher file only to calculate its checksum.
 
 ## Re-run the original analysis from archived trajectories
 

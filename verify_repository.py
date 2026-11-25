@@ -7,9 +7,18 @@ ROOT = Path(__file__).resolve().parent
 
 
 def main():
+    # The original inventory and the documentation changes are kept separately
+    # so the archived sources can still be compared with their original digests.
     rows = json.loads((ROOT / 'FILE_MANIFEST.json').read_text(encoding='utf-8'))['files']
-    if len(rows) != len({r['path'] for r in rows}):
+    files = {row['path']: row for row in rows}
+    if len(files) != len(rows):
         raise ValueError('Duplicate manifest paths')
+    changes = json.loads((ROOT / 'FILE_MANIFEST_UPDATES.json').read_text(encoding='utf-8'))
+    for name in changes['removed']:
+        del files[name]
+    for row in changes['files']:
+        files[row['path']] = row
+    rows = files.values()
     missing, changed = [], []
     total = 0
     for row in rows:

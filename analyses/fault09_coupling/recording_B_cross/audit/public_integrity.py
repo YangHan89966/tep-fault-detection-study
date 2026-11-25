@@ -37,5 +37,9 @@ def check_historical_digest(root, path, expected, edited):
         return
     name = Path(path).resolve().relative_to(Path(root).resolve()).as_posix()
     entry = edited.get(name)
-    assert name == "results/INPUT_PREFLIGHT.json", "Unexpected historical digest mismatch: " + name
+    translated_decision = "reference/evaluation_attempt_9017e465d14c/DECISION.json"
+    if name == translated_decision:
+        assert expected == "cdc2957d84d743d8cf9ce617241b9c84be021a79d7eb894bd47a9d54dfaf0a44", name
+    else:
+        assert name == "results/INPUT_PREFLIGHT.json", "Unexpected historical digest mismatch: " + name
     assert entry is not None and entry["original_sha256"] == expected and entry["public_sha256"] == actual, name
