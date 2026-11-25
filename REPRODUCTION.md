@@ -1,50 +1,29 @@
-# Reproducing the saved results
+# Reproducing the article results
 
-The [measurement–controller pairing guide](measurement_pairing/README.md) gives the current figure, few-label and plant analyses. The table identifiers and manuscript checks below use the 7 November 2026 historical snapshot.
+## Figures and tables
 
-Run the setup commands in the root README first. The integrity, manuscript-table and confirmation-event checks use only the Python standard library. Numerical replays use NumPy; historical calculations also use SciPy and pandas. Component environment records preserve the original calculation versions.
-
-| Check | Command from repository root | Scope |
-| --- | --- | --- |
-| Distributed files | `python verify_repository.py` | SHA-256 identity of every included file |
-| Historical manuscript tables | `python verify_paper.py` | 83 Data S1 CSVs; 68 SI tables and 6,110 normalized cells |
-| Confirmation events | `python verify_confirmation.py` | 1,199 physical runs; 13,200 event rows across 22 monitoring arms |
-| Fault 9 and Rust | `python verify_fault09_extensions.py --replay` | Final relearning outcomes and 14 contrasts; separate 194-run Rust comparison |
-| Detection–false-alarm grids | `python analyses/detection_far/review/crosscheck_all_grids.py analyses/detection_far` | Independent recalculation from saved calibration/evaluation maxima |
-
-## Recording and noise coupling
-
-From `analyses/fault09_coupling/`, check all distributed scientific files:
+From the repository root, install the plotting dependencies and generate Figures 1–6.
 
 ```sh
-python verify_distribution.py
+python -m pip install -r article/figures/requirements.txt
+python article/figures/draw_figures.py --output redrawn_figures
 ```
 
-From `analyses/fault09_coupling/graded_coupling/`, reproduce the saved-score calculation in a new directory:
+The [figure guide](article/figures/README.md) identifies the inputs for each panel. Figure 3(c) shows the effect of changing the monitored representation and the results for slow feature analysis. Figure 5 compares the post-update record, the same record with D-feed flow reconstructed, and the controller-input record. Reference PDFs are under `figures/article/` in the supplementary [Zenodo archive](https://doi.org/10.5281/zenodo.24519585).
 
-```sh
-python public_replay.py recalculate --output /path/to/new/graded_replay
-```
+The [table index](article/table_index.csv) gives captions, notes and filenames for Tables 1–4 and S1–S42. Its paths are relative to the `article/` directory. The extended supplement uses a separate numbering system.
 
-The graded-coupling replay compares eight output files and 35 arrays, and independently verifies 3,600 evaluation event rows. For the recording-by-B component, use its `README.md` for the independent result and bootstrap checks. Its stored-score checks cover 1,920 event rows and 84 paired-bootstrap results. Repeated floating-point calculations can differ in the last decimal places; the component reports state their numerical tolerances.
+## Alarm rates and model fitting
 
-## Historical calculations
+The [analysis guide](article/analyses/README.md) gives commands for recalculating monitor results from the archived run-level records. The full analysis sources below are in `Measurement_Pairing_Additional_Experiments.zip` in [Zenodo v1.1.0](https://doi.org/10.5281/zenodo.24519585).
 
-See [historical/REPRODUCTION_GUIDE.md](historical/REPRODUCTION_GUIDE.md) for the dense-validation, sensitivity, risk-time, R5, fixed-score and direction-summary commands. Use new output directories outside the scientific input directories.
+| Analysis | Path in the ZIP |
+| --- | --- |
+| Normal-trained slow feature analysis | `monitor_comparisons/representation/sfa/run.py` and `model.py` in the same directory |
+| Window-statistics XGBoost classifier | `monitor_comparisons/representation/xgb/window_xgb.py` |
+| Endpoints for the comparisons in Table S36 | `monitor_comparisons/representation/report/e2_endpoints.csv` |
+| Detection after reconstructing D-feed flow | `dfeed_reconstruction_monitoring/README.md`, with refitting code in `code/fit_monitor.py` and rates in `results/rates.csv` under that directory |
 
-## Supplementary source analyses
+## Earlier studies
 
-The [supplementary source guide](supplements/README.md) describes the supplied fitted states, saved monitoring statistics and packed alarm arrays for S52, S57, D14 and S65. Run the commands below from the repository root, choosing new output paths outside the repository. These calculations require NumPy.
-
-```sh
-python -B supplements/s52_b_estimator/verification/verify_table_s52.py --out PATH_TO_NEW_S52_OUTPUT
-python -B supplements/s57_overlap_sensitivity/replay_S57_saved.py --out PATH_TO_NEW_S57_OUTPUT
-python -B supplements/s65_sample_metrics/recompute_r5_sample_metrics.py --out PATH_TO_NEW_S65_OUTPUT
-python -B supplements/s65_sample_metrics/verify_s65_from_counts.py --report PATH_TO_NEW_S65_REPORT.json
-```
-
-S52 recounts the covariance-estimator comparison from fifteen fitted states. S57 and D14 replay the self-overlap exclusions and recalibration from saved statistics; the component README also gives the separate fixed-recording and supervised-relearning checks. S65 recomputes sample-level alarm occupancy from thirty packed alarm archives and independently verifies the per-run counts. The S52 and S65 source tables match the Data S1 files exactly.
-
-## Raw-trajectory reproduction
-
-The commands above recalculate results from supplied frozen scientific inputs. Regenerating all process trajectories or rebuilding scores from every original measurement matrix additionally requires the raw-data archives listed in the component documentation. See [DATA_AVAILABILITY.md](DATA_AVAILABILITY.md).
+The [earlier repository snapshot](https://github.com/YangHan89966/tep-fault-detection-study/tree/study-archive-2026-11-25) contains the original simulator and supplementary analyses. Follow the instructions and table numbering in that snapshot when reproducing its 7 November materials or its 23 November figures. The latter include a noise-sharing analysis as Figure 5.

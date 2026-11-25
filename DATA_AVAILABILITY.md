@@ -1,17 +1,14 @@
-# Data availability
+# Data and code
 
-Han, Y. and Zhang, X. (2026). *Data and code for: Measurement–controller pairing and fault detection in the Tennessee Eastman process*. Zenodo. Reserved DOI `10.5281/zenodo.24464457`.
+Han, Y. and Zhang, X. (2026). *Data and code for “Measurement–controller pairing and fault detection in the Tennessee Eastman process”*. Zenodo, version 1.1.0. [10.5281/zenodo.24519585](https://doi.org/10.5281/zenodo.24519585).
 
-The simulation trajectories, fitted monitors and run-level alarms from the earlier Family A study are available in the 7 November 2026 release. The table below links that release and the materials in this repository.
-
-| Materials | Source |
+| File in the Zenodo record | Contents |
 | --- | --- |
-| Family A historical simulation archives, raw trajectories and original Data S1 | [Zenodo, version 1.0.0, 7 November 2026](https://doi.org/10.5281/zenodo.22084007) |
-| Current SI table numbers, including the study timeline and Family B tables | [Repository table crosswalk](measurement_pairing/tables/SI_table_crosswalk.csv) |
-| Family B summary statistics, rank-95 first alarms and protocol summaries | [Family B files](measurement_pairing/family_b/README.md) |
-| Six main figures and numerical plotting sources | [Figure guide](measurement_pairing/README.md) |
-| Pilot and industrial source attribution, download and analysis | [Plant-record guide](measurement_pairing/plant_records/README.md) |
+| `Supplementary_Information_and_Source_Tables.zip` | Submission and extended supplementary information, article Tables 1–4, supplementary Tables S1–S42, and figure PDFs with their plotting code and inputs |
+| `Measurement_Pairing_Additional_Experiments.zip` | Monitor comparisons including slow feature analysis and XGBoost, first alarms, and monitoring after reconstructing D-feed flow |
+| `Fault9_CVA_and_Dfeed_Reconstruction.zip` | Fault 9 canonical variate analysis and the check of D-feed flow reconstruction against recorded measurements |
+| `TEP_Measurement_Pairing.zip` | Family B simulation results and protocols, extended tables and source materials for the plant-record analyses |
 
-The archived Family A confirmation panel identifies 1,199 runs and contains their evaluation events. The independent Fault 9 relearning study identifies 2,719 physical runs and supplies fitted models and per-run results. The separate Rust comparison includes the endpoints for 194 runs. Component manifests identify the raw archives needed to start again from measurement matrices.
+Figure 5 uses the refitted monitoring results in `dfeed_reconstruction_monitoring/` inside `Measurement_Pairing_Additional_Experiments.zip`. The [supplementary table source index](article/experiment_sources.csv) identifies the files behind Tables S35–S42. Some refits require raw trajectory files listed in the corresponding experiment's input index.
 
-The historical process data are from Rieth et al. (2017). [Harvard Dataverse](https://doi.org/10.7910/DVN/6C3JR1).
+The [7 November 2026 Zenodo release](https://doi.org/10.5281/zenodo.22084007) contains the earlier Family A simulated trajectories and analysis materials. The historical Tennessee Eastman data are from [Rieth et al. (2017)](https://doi.org/10.7910/DVN/6C3JR1). The pilot-plant source is documented in the [dataset attribution](article/figures/data/DATA_ATTRIBUTION.txt). The industrial level-loop source is the [SACAC benchmark](https://sacac.org.za/resources/).

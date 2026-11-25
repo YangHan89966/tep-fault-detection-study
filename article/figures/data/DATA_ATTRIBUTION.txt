@@ -1,0 +1,13 @@
+Giovanni Mazzuto (2025). A dataset of tests in a multiphase experimental plant simulating oil and gas transportation system. Version 2. Zenodo.
+https://doi.org/10.5281/zenodo.16978349
+
+Data collectors: Marco Ortenzi, Vincenzo Foti and Filippo Emanuele Ciarapica.
+Data curators: Ilaria Pietrangeli and Maurizio Bevilacqua.
+
+The original Data.zip is distributed as published under Creative Commons Attribution 4.0 International.
+https://creativecommons.org/licenses/by/4.0/
+
+Mazzuto G, Pietrangeli I, Ortenzi M, Foti V, Ciarapica FE and Bevilacqua M (2025). A collection of experimental data from a multiphase plant simulating oil and gas transport. Data in Brief 62, 112038.
+https://doi.org/10.1016/j.dib.2025.112038
+
+The measurement-timing analysis and its derived tables were produced for the present study.

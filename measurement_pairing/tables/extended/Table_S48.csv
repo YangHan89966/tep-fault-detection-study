@@ -1,5 +1,0 @@
-Prediction,Frozen criterion,Observed
-"Fault 9, IS","S01, S12 and S18 each below 60/120","S01 13/120, S12 7/120, S18 14/120"
-"Fault 9, OOF and FT",Every reconstruction at least 108/120,"Minimum 117/120 and 117/120, respectively"
-"Fault 15, FT","At least 98% across 4,320 cells","4,309/4,320 (99.75%)"
-"Faults 3, 9 and 15, NS","At least 90% across 4,320 cells per fault","4,290/4,320, 4,197/4,320, 4,282/4,320, respectively"

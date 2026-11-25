@@ -1,0 +1,7 @@
+Fault,Maps,RMS fault displacement,Normal variance,Displacement per normal SD
+3,"Fixed template, trained on controller-input records",1.000,"0.0080 [0.0074, 0.0087]","11.18 [10.71, 11.64]"
+3,"Fixed template, trained on post-update records",1.000,"1.85 [1.80, 1.89]","0.74 [0.73, 0.75]"
+3,"Family A, monitors of the confirmation panel",1.000,"1.10 [1.05, 1.16]","0.95 [0.93, 0.98]"
+9,"Fixed template, trained on controller-input records",1.000,"0.0163 [0.0150, 0.0178]","7.84 [7.51, 8.16]"
+9,"Fixed template, trained on post-update records",1.000,"1.74 [1.70, 1.78]","0.76 [0.75, 0.77]"
+9,"Family A, monitors of the confirmation panel",1.000,"0.30 [0.28, 0.32]","1.82 [1.76, 1.90]"

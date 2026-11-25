@@ -1,0 +1,7 @@
+fault,group,estimate_pp,lo_pp,hi_pp,source
+3,three_loop_measurements,0.52,-1.66,2.67,SI Table S23 (FT; rank 95; clean detection within 8 h; descriptive 95% crossed-bootstrap interval)
+3,other_19_measurements,90.22,87.13,92.99,SI Table S23
+9,three_loop_measurements,-3.10,-5.30,-1.05,SI Table S23
+9,other_19_measurements,65.02,58.02,71.89,SI Table S23
+15,three_loop_measurements,65.25,59.10,71.20,SI Table S23
+15,other_19_measurements,4.86,2.28,7.52,SI Table S23

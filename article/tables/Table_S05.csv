@@ -1,0 +1,10 @@
+Role,Per replicate or panel,Length (records),Distinct trajectories,Status
+Normal training,"57 per replicate, shared by both faults",321,"2,052",Reused from Stage 1
+Normal calibration,"99 per replicate, shared by both faults",960,"3,564",Reused from Stage 1; thresholds recomputed
+Fault 3 training,16 per replicate,321,576,New
+Fault 15 training,16 per replicate,321,576,New
+Normal evaluation,"120, shared by both faults",960,120,New
+Fault 3 evaluation,"120, shared",321,120,New
+Fault 15 evaluation,"120, shared",321,120,New
+Total new,,,"1,512",
+Total distinct used,,,"7,128","5,616 reused and 1,512 new"

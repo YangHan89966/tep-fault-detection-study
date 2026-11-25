@@ -1,0 +1,6 @@
+Combination,Three measurements,Other 19 measurements,Source identifier
+AA,Controller input,Controller input,Full controller input
+NA,Post update,Controller input,X2
+AN,Controller input,Post update,X1
+NN,Post update,Post update,Full post update (P0 for NS)
+Deletion,Omitted,Post update,"X3, with three XMV columns also omitted"

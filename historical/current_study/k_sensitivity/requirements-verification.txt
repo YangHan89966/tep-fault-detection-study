@@ -1,2 +1,0 @@
-# Version used for this package's saved-outcome verification.
-numpy==2.3.5

@@ -1,6 +1,6 @@
 __pycache__/
 *.pyc
 .venv/
+redrawn_figures/
 replay_output/
-measurement_pairing/plant_records/*/data/
-measurement_pairing/plant_records/*/results/
+results/

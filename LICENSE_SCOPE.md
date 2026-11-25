@@ -1,15 +1,5 @@
-# License scope
+# Licenses and attribution
 
-The [Zenodo record](https://doi.org/10.5281/zenodo.22084007), published on 7 November 2026, states the following licenses for its deposited materials:
+The authors' code is distributed under the [MIT License](LICENSE). Their study-derived data, tables and documentation are distributed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). When reusing the study materials, cite [Han and Zhang, Zenodo v1.1.0](https://doi.org/10.5281/zenodo.24519585).
 
-| Material | License |
-| --- | --- |
-| Study data, tables and documentation | CC BY 4.0 |
-| Code written for the study | MIT License |
-| Third-party software and data | Their original licenses and accompanying notices |
-
-The [root MIT License](LICENSE) covers the authors’ study software, including the analysis and plotting code in measurement_pairing/. These terms also apply to the corresponding archived materials reproduced in this repository. Preserve their copyright, license and attribution notices. The Python `tep` source and the TEP-Rust components retain their own terms.
-
-Data S1 and the authors’ supplementary tables and simulation results in measurement_pairing/ are study data. The Mazzuto v2 data set has its own CC BY 4.0 attribution, and the SACAC record is obtained from its provider. See the [plant sources](measurement_pairing/plant_records/README.md). Manuscript and figure files, and repository-only additions, retain any separately stated terms; this summary does not assign them an additional license.
-
-Some original component documents describe their distribution status before the Zenodo publication. Consult the published record and the notices accompanying each component for its applicable terms.
+Third-party datasets retain their original terms. The [pilot-plant attribution](article/figures/data/DATA_ATTRIBUTION.txt) identifies the authors, version and license of the Mazzuto dataset. The source of the industrial level-loop summary is the [SACAC benchmark](https://sacac.org.za/resources/). The [earlier archive's license notes](https://github.com/YangHan89966/tep-fault-detection-study/blob/study-archive-2026-11-25/LICENSE_SCOPE.md) identify the terms for its simulator sources and historical documents.

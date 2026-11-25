@@ -1,47 +1,25 @@
 # Measurement–controller pairing and fault detection in the Tennessee Eastman process
 
-A controller output can be stored with the measurement that the controller used or with a later measurement. We recorded the same Tennessee Eastman trajectories both ways and fitted and calibrated each monitor on its own recording. Across five fits on independent random streams, the learned-direction monitor detected 98.2% of 200 Fault 9 runs within 40 h with the controller's measurement and 14.6% with the measurement taken 3 s later. At 8 h the rates were 43.2% and 1.3%. The percentages of 400 normal runs with an alarm in 48 h were 3.65% and 6.25%.
+This study compares two records of the same process trajectory. Each valve output is paired either with the measurement used by its controller or with a measurement taken 3 s later. For Fault 9, a CUSUM fitted to directions in the PCA residual subspace detected 98.2% and 14.6% of runs within 40 h under the two pairings, respectively.
 
-## Find a result
+The [article data and code on Zenodo, version 1.1.0](https://doi.org/10.5281/zenodo.24519585) include the supplementary information, analysis scripts and run-level results.
 
-| Material | Where to start |
+| Material | Where to find it |
 | --- | --- |
-| The six main figures and their numerical inputs | [Figure and analysis guide](measurement_pairing/README.md) |
-| Tables in the submission SI, the extended SI and the original Data S1 | [Table crosswalk](measurement_pairing/tables/SI_table_crosswalk.csv) |
-| Few-label autoregressive monitors (Family B), simulation protocols and rank-95 first alarms | [Family B data and screen replay](measurement_pairing/family_b/README.md) |
-| Pairing in the multiphase pilot plant and the industrial level loop | [Source records and analysis commands](measurement_pairing/plant_records/README.md) |
-| Learned-direction CUSUMs (Family A), independent-stream confirmation and TEP-Rust | [Reproduction guide](REPRODUCTION.md) and [data availability](DATA_AVAILABILITY.md) |
-| Earlier manuscript, seven figures and 83 original CSV tables, 7 November 2026 | [Historical snapshot](paper/README.md) |
+| Figures 1–6 | [Plotting script, inputs and instructions](article/figures/README.md) |
+| Figure 3(c), representation and slow feature analysis | [Five 40 h contrasts and their intervals](article/figures/data/representation_and_sfa_contrasts.csv) |
+| Figure 5, detection after D-feed flow reconstruction | [Plotted values](article/figures/data/dfeed_clean_detection.csv) and [Table S42](article/tables/Table_S42.csv) |
+| Slow feature analysis and the XGBoost classifier | [Table S36](article/tables/Table_S36.csv) and [analysis code](article/analyses/README.md) |
+| Article Tables 1–4 and supplementary Tables S1–S42 | [Table captions, notes and CSV filenames](article/table_index.csv) |
+| Fitted monitors, alarm records and simulation trajectories | [Data availability](DATA_AVAILABILITY.md) |
 
-## Reproduce the main figures
-
-Run these commands from the repository root with Python 3.12.
+To redraw all six figures from the repository root, run
 
 ```sh
-python -m pip install -r requirements.txt
-python measurement_pairing/figures/main.py
+python -m pip install -r article/figures/requirements.txt
+python article/figures/draw_figures.py --output redrawn_figures
 ```
 
-The command writes six figures in PDF, PNG and TIFF and a table of plotted values to `replay_output/main/`. The original values for comparison are in [expected_main_values.tsv](measurement_pairing/figures/inputs/expected_main_values.tsv).
+The command writes six PDFs and a table of plotted values. [Reproduction instructions](REPRODUCTION.md) cover the monitor comparisons and D-feed reconstruction.
 
-## Reproduce the earlier experiments
-
-```sh
-python unpack.py
-python verify_repository.py
-python verify_paper.py
-python verify_confirmation.py
-python verify_fault09_extensions.py --replay
-```
-
-The first four commands use the Python standard library. They restore and verify the bundled files, check the original 68 SI tables against 6,110 cells in Data S1, and recount 13,200 events from the 1,199-run confirmation panel. The last command also replays the independent Fault 9 relearning and the 194-run TEP-Rust comparison. The full list of checks is in [REPRODUCTION.md](REPRODUCTION.md).
-
-## Data citation and licenses
-
-Han, Y. and Zhang, X. (2026). *Data and code for: Measurement–controller pairing and fault detection in the Tennessee Eastman process*. Zenodo. Reserved DOI `10.5281/zenodo.24464457`.
-
-For the simulation results, plant records and figure sources in this repository, see the [data availability guide](DATA_AVAILABILITY.md).
-
-The original Family A materials are also available in the [7 November 2026 release, version 1.0.0](https://doi.org/10.5281/zenodo.22084007). The historical TEP data are from Rieth et al. (2017). [Data set](https://doi.org/10.7910/DVN/6C3JR1).
-
-Study code uses the MIT License. The archived study data, tables and documentation use CC BY 4.0. Third-party records and software retain their original terms. [License scope](LICENSE_SCOPE.md).
+The [earlier study materials](https://github.com/YangHan89966/tep-fault-detection-study/tree/study-archive-2026-11-25) preserve the original simulation analyses, historical manuscript and earlier figure numbering. The [7 November data release](https://doi.org/10.5281/zenodo.22084007) provides the original Family A materials.

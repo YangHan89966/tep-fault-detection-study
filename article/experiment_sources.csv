@@ -1,0 +1,13 @@
+Table,Archive,Path inside archive,Analysis
+Table S35,Measurement_Pairing_Additional_Experiments.zip,monitor_comparisons/four_metric_search/stats/paired_endpoints.csv,four-metric search; paired endpoints
+Table S35,Measurement_Pairing_Additional_Experiments.zip,monitor_comparisons/representation/report/e2_endpoints.csv,identity metric; endpoints by recording
+Table S36,Measurement_Pairing_Additional_Experiments.zip,monitor_comparisons/representation/report/e2_endpoints.csv,normal-only slow-feature analysis and window-statistics classifier
+Table S37,Measurement_Pairing_Additional_Experiments.zip,monitor_comparisons/transfer/summary/paired_endpoints.csv,fixed-direction transfer; recalibrated limits
+Table S38,Measurement_Pairing_Additional_Experiments.zip,monitor_comparisons/representation/family_b/estimates_intervals.csv,family B at three PCA variance cutoffs
+Table S39,Measurement_Pairing_Additional_Experiments.zip,monitor_comparisons/matched_false_alarm/tables/matched_points.csv,operating points at matched false-alarm rates
+Table S39,Measurement_Pairing_Additional_Experiments.zip,monitor_comparisons/matched_false_alarm/tables/matched_contrasts.csv,paired recording contrasts at matched rates
+Table S40,Measurement_Pairing_Additional_Experiments.zip,record_precision/detection/summary.csv,measurement rounding and deadband sensitivity
+Table S41,Measurement_Pairing_Additional_Experiments.zip,cva_and_score_directions/results/score_directions/recording_contrasts.csv,paired fault displacement and normal variation
+Table S42,Measurement_Pairing_Additional_Experiments.zip,dfeed_reconstruction_monitoring/results/rates.csv,detection rates for each recording and reconstruction
+Table S42,Measurement_Pairing_Additional_Experiments.zip,dfeed_reconstruction_monitoring/results/paired_differences.csv,paired differences
+Table S42,Measurement_Pairing_Additional_Experiments.zip,dfeed_reconstruction_monitoring/results/recovery_fraction.csv,fraction of the recording difference recovered

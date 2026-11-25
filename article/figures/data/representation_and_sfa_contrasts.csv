@@ -1,0 +1,6 @@
+table,panel,monitor,representation,fault,horizon_h,controller_input_pct,post_update_pct,difference_pp,lower_95_pp,upper_95_pp
+S35,Five-fit panel,Family A four-metric CUSUM,PCA residual,9,40,98.2,14.6,83.6,80.7,86.4
+S35,Five-fit panel,Family A four-metric CUSUM,All 52 variables,9,40,94.4,59.5,34.9,30.5,39.4
+S36,Confirmation panel,Normal-trained SFA,All 52 variables,3,40,5.1,4.3,0.8,-1.2,2.9
+S36,Confirmation panel,Normal-trained SFA,All 52 variables,9,40,6.2,6.3,-0.1,-2.7,2.5
+S36,Confirmation panel,Normal-trained SFA,All 52 variables,15,40,100.0,14.1,85.9,81.2,90.3

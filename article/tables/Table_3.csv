@@ -1,0 +1,7 @@
+Monitor,Fault,"40 h, CI","40 h, PU","8 h, CI","8 h, PU","FAR, CI","FAR, PU"
+"Learned-direction CUSUM, four metrics (family A)",3,100,100,100,51.0,3.75,3.75
+"Learned-direction CUSUM, four metrics (family A)",15,100,82.0,26.5,8.0,3.25,8.00
+"SFA, prespecified chart (normal runs only)",3,5.1,4.3,0.7,0.5,6.20,6.55
+"SFA, prespecified chart (normal runs only)",15,100,14.1,64.2,0.0,6.20,6.55
+Window-statistics XGBoost classifier,3,100,100,100,100,5.00,4.25
+Window-statistics XGBoost classifier,15,71.5,71.0,3.0,4.5,5.75,5.75
