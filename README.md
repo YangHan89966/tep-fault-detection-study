@@ -1,6 +1,8 @@
-# Tennessee Eastman fault-detection study
+# Tennessee Eastman fault-detection study, 7 November 2026 archive
 
-Code, frozen models and saved results for our manuscript *Effects of monitoring statistic, projection direction and measurement–controller pairing on the detectability of Tennessee Eastman Faults 3, 9 and 15* (Han et al., submitted). The raw trajectories and the full archive are on Zenodo: [10.5281/zenodo.22084007](https://doi.org/10.5281/zenodo.22084007).
+This branch preserves the code, fitted models and results for the earlier manuscript *Effects of monitoring statistic, projection direction and measurement–controller pairing on the detectability of Tennessee Eastman Faults 3, 9 and 15*. The [7 November 2026 Zenodo release](https://doi.org/10.5281/zenodo.22084007) includes the raw trajectories.
+
+For the revised study, *Measurement–controller pairing and fault detection in the Tennessee Eastman process*, see the [main branch](https://github.com/YangHan89966/tep-fault-detection-study/blob/main/README.md).
 
 ## What the study is about
 
@@ -27,7 +29,7 @@ The first four scripts need only the standard library. The replay needs NumPy, a
 
 | Folder | Contents |
 | --- | --- |
-| [paper/](paper/) | The submitted manuscript, Supplementary Information, Highlights, seven figures and Data S1 (83 CSV tables). Run `unpack.py` first to restore the Word and TIFF files. |
+| [paper/](paper/) | The archived manuscript, Supplementary Information, Highlights, seven figures and Data S1 (83 CSV tables). Run `unpack.py` first to restore the Word and TIFF files. |
 | [data/](data/) | Ten numerical source tables and how they map to the manuscript |
 | [evidence/2026_10_24/](evidence/2026_10_24/) | Confirmation panel on independent random-number streams: code, models, calibration, the 1,199 run identities and 13,200 saved evaluation events |
 | [analyses/](analyses/) | Fault 9 relearning on independent streams, the TEP-Rust comparison, partially shared measurement noise and the recording × B analysis, recording-variance decomposition, detection–false-alarm curves and the Fault 15 XMEAS17 exchange |
@@ -49,5 +51,3 @@ Code written for this study is released under the MIT License, and data, tables 
 If you use this code or data, please cite the archived record:
 
 Han, Y., Zhang, X., 2026. Data and code for: Effects of monitoring statistic, projection direction and measurement–controller pairing on the detectability of Tennessee Eastman Faults 3, 9 and 15 [dataset]. Zenodo, version 1.0.0. https://doi.org/10.5281/zenodo.22084007
-
-We will add the article reference once it is published.

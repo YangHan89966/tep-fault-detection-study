@@ -18,8 +18,8 @@
     },
     {
       "path": "DATA_AVAILABILITY.md",
-      "size_bytes": 1441,
-      "sha256": "66fec3cbac83ff492047ac8a89e498312ae4a831ed554bf38e1bbfa5d1046b18"
+      "size_bytes": 1479,
+      "sha256": "05c89e0bd61fb4cdfd7676bbdf686d1564d5c1e0071a450e8e25b2b8c3760f8a"
     },
     {
       "path": "LICENSE_SCOPE.md",
@@ -28,8 +28,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 4542,
-      "sha256": "895b90a284400ef6023beafc6b98e764a50522d47809fdbb178fbccfa9a6d13a"
+      "size_bytes": 4712,
+      "sha256": "b3b27002cc1ca9259743ace4ca9c94e03577ba45a9db74cbda2755f2380e3899"
     },
     {
       "path": "REPRODUCTION.md",
@@ -26468,8 +26468,8 @@
     },
     {
       "path": "paper/README.md",
-      "size_bytes": 1009,
-      "sha256": "6944c657a9ece69522f7436d159f0151f9547d68fd045c1b478c84ae41b2579b"
+      "size_bytes": 1108,
+      "sha256": "4352d4eb15ce8191771037a2e2d47eef4789371eb51f8db48353a80f7405c015"
     },
     {
       "path": "paper/SOURCE_MANIFEST.json",
