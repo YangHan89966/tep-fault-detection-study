@@ -1,5 +1,7 @@
 # Reproducing the measurement–controller pairing study
 
+Figure and table numbers on this page refer to the 23 November 2026 version. For the article figures and supplementary Tables S1–S42, see the [article repository](https://github.com/YangHan89966/tep-fault-detection-study/blob/main/README.md).
+
 | Result | Source |
 | --- | --- |
 | Figure 1 | Process and loop diagram in [figures/main.py](figures/main.py) |

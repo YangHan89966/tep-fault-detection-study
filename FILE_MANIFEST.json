@@ -13,13 +13,13 @@
     },
     {
       "path": "BUNDLES.json",
-      "size_bytes": 639100,
-      "sha256": "b60ae7b93520c62a0e1e1dfe1e0f17a69a395fddab28e0e7ffc6b6caf3607d00"
+      "size_bytes": 636125,
+      "sha256": "7ed5329f57518638ba02893b10983c1600febe6c409c66712754f00dd8ca0f21"
     },
     {
       "path": "DATA_AVAILABILITY.md",
-      "size_bytes": 1661,
-      "sha256": "b09e59b10283ef9e85d192d2c6ebedfcfd4cd724dab340c0daf0b9b9f85b62f1"
+      "size_bytes": 1716,
+      "sha256": "3d90da1fd3e89d0247dae1cb81e632e861971f1dd7f43b930f6f667d9a9a4ae5"
     },
     {
       "path": "LICENSE",
@@ -28,18 +28,18 @@
     },
     {
       "path": "LICENSE_SCOPE.md",
-      "size_bytes": 1401,
-      "sha256": "82e0ae4bd510fe37420f4deefb8c6c73e1c2ce7ce2f71d7e5c75ec581c5ed692"
+      "size_bytes": 1310,
+      "sha256": "515467fd71c8535ef33a93f7dbd148312acdb852a38add1b647fe6a91a63757a"
     },
     {
       "path": "README.md",
-      "size_bytes": 3408,
-      "sha256": "0144b273fdffad7854bc4aae86a050d8e652e75b920d81dc09764ccf6ffa4a90"
+      "size_bytes": 3725,
+      "sha256": "4850ba64a3ca5fee52b260b6a3d6f644bc6b97126a3ce88d779209886e0e1ea6"
     },
     {
       "path": "REPRODUCTION.md",
-      "size_bytes": 3912,
-      "sha256": "8bc43280ebbaef0e0c512bc138a16d700d226b61c5bf391cacb3e20fcd4a9de3"
+      "size_bytes": 4069,
+      "sha256": "db1c9c44a7b5b84710779fa2068ed2225b3989dd1e761192058d518311bb835d"
     },
     {
       "path": "analyses/detection_far/00_结果与使用说明.txt",
@@ -15173,8 +15173,8 @@
     },
     {
       "path": "bundles/README.md",
-      "size_bytes": 482,
-      "sha256": "e8a4b787c838e61c0c50436f68adefa8900e95dcefb0a1bbd1a8bda116d3dd70"
+      "size_bytes": 306,
+      "sha256": "bc7f97a0db0b37cb667079096a8eaa5094a121ee23948ccc5c5517701216d433"
     },
     {
       "path": "bundles/assets_01.zip.part001",
@@ -15505,26 +15505,6 @@
       "path": "bundles/assets_08.zip.part026",
       "size_bytes": 2528238,
       "sha256": "64a7a10e5eab6c7dc07ed18f1ac5610ac24267321938dfe22562b45a7eeef9a0"
-    },
-    {
-      "path": "bundles/assets_09.zip.part001",
-      "size_bytes": 4194304,
-      "sha256": "dde48d50cbde8809ddfbad1c38a4bb16b3107b515c4062509166cb57135fb62b"
-    },
-    {
-      "path": "bundles/assets_09.zip.part002",
-      "size_bytes": 4194304,
-      "sha256": "6f5ef94000ded40b4feabacf3c0b4bd1bff57ccab54d68f8fa58969bd8bb569c"
-    },
-    {
-      "path": "bundles/assets_09.zip.part003",
-      "size_bytes": 4194304,
-      "sha256": "fb6f016f878e75a0e159e5edd584337711bf21ec845e37a82dde4fa3fc805841"
-    },
-    {
-      "path": "bundles/assets_09.zip.part004",
-      "size_bytes": 1612453,
-      "sha256": "9b19a14250e84704729ddf10d258a457592dc7b4b36e09a546f721c6ef17c5dc"
     },
     {
       "path": "bundles/assets_10.zip.part001",
@@ -25998,8 +25978,8 @@
     },
     {
       "path": "measurement_pairing/README.md",
-      "size_bytes": 3058,
-      "sha256": "44338dd9b957d4769cf65c15233a929f33e1e19cc845b13dfdde715cba7cc612"
+      "size_bytes": 3304,
+      "sha256": "5fc1a7c2f70ec017906dab1fb16fbad9f88b5980a84e2dd054fd3f4a73209206"
     },
     {
       "path": "measurement_pairing/family_b/README.md",
@@ -26368,8 +26348,8 @@
     },
     {
       "path": "paper/Data_S1/README.md",
-      "size_bytes": 849,
-      "sha256": "44c4a9256db24c2106618c9b734452a2d355a6657756be20e2ee6b403ef3b6be"
+      "size_bytes": 1095,
+      "sha256": "ecf727bf9e7398129250fd3f7bd8f66324859b4020791fe4f822e5f388e74d78"
     },
     {
       "path": "paper/Data_S1/README.txt",
@@ -26797,64 +26777,14 @@
       "sha256": "21d732563c292efc9a8d7eb1aadb3ba87c9a42089399e92f465abdc7f5034eda"
     },
     {
-      "path": "paper/Figure_1.tif",
-      "size_bytes": 1010412,
-      "sha256": "412715b3d877803834863c16237bf79418ca7e7196e2ae7a3c2f509b02b16246"
-    },
-    {
-      "path": "paper/Figure_2.tif",
-      "size_bytes": 1258978,
-      "sha256": "fa8a61aada8d03ca1710ab52485f02d182eb77321259c02b5ceb0a488f97a642"
-    },
-    {
-      "path": "paper/Figure_3.tif",
-      "size_bytes": 779112,
-      "sha256": "cc4e59bab33ae9bad50cfc77aca0369b45e6a5962c2436df207dbddab7f04230"
-    },
-    {
-      "path": "paper/Figure_4.tif",
-      "size_bytes": 778014,
-      "sha256": "94acc84dca0f426a4819f5b65714ea02526493d1a726160e611a7beabd8488e6"
-    },
-    {
-      "path": "paper/Figure_5.tif",
-      "size_bytes": 754296,
-      "sha256": "4bcd6c956917c184265b83e784b0052fc0140096d4db6299a13b882421acff3f"
-    },
-    {
-      "path": "paper/Figure_6.tif",
-      "size_bytes": 1413338,
-      "sha256": "e74dbfb618bf4fd2b8b19fbb982c799f2940eeb2a737d1cdb7dd66e7e701f03f"
-    },
-    {
-      "path": "paper/Figure_7.tif",
-      "size_bytes": 555708,
-      "sha256": "00044b1db7c33117f6e92556f64292cc2088615c88c6ca5d9339d15c59c4805a"
-    },
-    {
-      "path": "paper/Highlights.docx",
-      "size_bytes": 9912,
-      "sha256": "54fb2ea0433df05c1c5483b5d79b38fac6783b3fb90382e5f60f6a945954001f"
-    },
-    {
-      "path": "paper/Manuscript.docx",
-      "size_bytes": 4242306,
-      "sha256": "a876aaa3b395092d295bd6c545ad3deafdafe9e39282c3f138d84b53c14bf3de"
-    },
-    {
       "path": "paper/README.md",
-      "size_bytes": 1358,
-      "sha256": "cd7ec5ff7e67b26728c3bc5f529eae5909e7b601feb4da6a735015c86cb233b7"
+      "size_bytes": 719,
+      "sha256": "68c33202b209ac0f1b6615cde2865853150d287ffbc4b1fb7d2677ed569dcedf"
     },
     {
       "path": "paper/SOURCE_MANIFEST.json",
-      "size_bytes": 31301,
-      "sha256": "dba8da00a0c08719998256f770b6b1a23c6ef1f4aabcb3dfa9065b7b9a156ef5"
-    },
-    {
-      "path": "paper/Supplementary_Information.docx",
-      "size_bytes": 7003503,
-      "sha256": "d9a76a5316e68a480f2fd6d57e7d8553b17b4f87c09863a4884d8ccdf03b0786"
+      "size_bytes": 27889,
+      "sha256": "39d23dc00febb42bca07a2b1e6411d7e5d3b128332a993eebf2e7a7f96a78caf"
     },
     {
       "path": "requirements.txt",
@@ -28993,8 +28923,8 @@
     },
     {
       "path": "verify_paper.py",
-      "size_bytes": 5708,
-      "sha256": "849ed83788ab557a80590d8ffdfe3f800e89223fe3862e29cf4f55891d6e6589"
+      "size_bytes": 3462,
+      "sha256": "d3d82e207602632dc5abf4d57f1d6ea6ed4f2bc2fb11819448861428a2c5552c"
     },
     {
       "path": "verify_repository.py",
