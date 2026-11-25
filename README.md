@@ -1,4 +1,4 @@
-# Measurement–controller pairing in closed-loop records changes the detectability of difficult Tennessee Eastman faults
+# Measurement–controller pairing and fault detection in the Tennessee Eastman process
 
 A controller output can be stored with the measurement that the controller used or with a later measurement. We recorded the same Tennessee Eastman trajectories both ways and fitted and calibrated each monitor on its own recording. Across five fits on independent random streams, the learned-direction monitor detected 98.2% of 200 Fault 9 runs within 40 h with the controller's measurement and 14.6% with the measurement taken 3 s later. At 8 h the rates were 43.2% and 1.3%. The percentages of 400 normal runs with an alarm in 48 h were 3.65% and 6.25%.
 
@@ -38,9 +38,9 @@ The first four commands use the Python standard library. They restore and verify
 
 ## Data citation and licenses
 
-Han, Y. and Zhang, X. (2026). *Data and code for: Measurement–controller pairing in closed-loop records changes the detectability of difficult Tennessee Eastman faults*. Zenodo, version 2.0.0. [Version DOI](https://doi.org/10.5281/zenodo.24453012).
+Han, Y. and Zhang, X. (2026). *Data and code for: Measurement–controller pairing and fault detection in the Tennessee Eastman process*. Zenodo. Reserved DOI `10.5281/zenodo.24464457`.
 
-This version brings together both monitor families, the two plant-record analyses, the figure sources, the SI table crosswalk and the extended Supplementary Information. The version DOI becomes active when the Zenodo record is published. [Archive contents](DATA_AVAILABILITY.md).
+For the simulation results, plant records and figure sources in this repository, see the [data availability guide](DATA_AVAILABILITY.md).
 
 The original Family A materials are also available in the [7 November 2026 release, version 1.0.0](https://doi.org/10.5281/zenodo.22084007). The historical TEP data are from Rieth et al. (2017). [Data set](https://doi.org/10.7910/DVN/6C3JR1).
 

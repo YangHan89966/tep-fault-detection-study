@@ -1,8 +1,8 @@
 # Data availability
 
-For the measurement–controller pairing study, cite the combined data and code archive for Family A and Family B. Han, Y. and Zhang, X. (2026), *Data and code for: Measurement–controller pairing in closed-loop records changes the detectability of difficult Tennessee Eastman faults*, Zenodo, version 2.0.0. [Version DOI](https://doi.org/10.5281/zenodo.24453012).
+Han, Y. and Zhang, X. (2026). *Data and code for: Measurement–controller pairing and fault detection in the Tennessee Eastman process*. Zenodo. Reserved DOI `10.5281/zenodo.24464457`.
 
-The record carries forward the original Family A simulation files. The additional ZIP, `TEP_Measurement_Pairing_Data_and_Code_v2.0.0.zip`, contains the extended Supplementary Information, the SI table crosswalk, Family B results and protocols, the scripts and numerical inputs for the main figures, and the plant-record analyses. Its `README.md` gives reproduction commands and its `MANIFEST.csv` lists individual files and SHA-256 checksums.
+The simulation trajectories, fitted monitors and run-level alarms from the earlier Family A study are available in the 7 November 2026 release. The table below links that release and the materials in this repository.
 
 | Materials | Source |
 | --- | --- |
