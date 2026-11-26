@@ -30,10 +30,27 @@ def read_json(path):
 
 def check_files():
     complete = F9 / "study_complete"
-    code = read_json(F9 / "locks/CODE_LOCK.json")
-    for name, expected in code["files"].items():
-        require(digest(F9 / name) == expected, f"Changed Fault 9 source: {name}")
     final = read_json(complete / "FINAL_COMPLETE.json")
+    code_lock = F9 / "locks/CODE_LOCK.json"
+    require(digest(code_lock) == final["code"], "Changed Fault 9 code lock")
+    locked = read_json(code_lock)["files"]
+
+    # The public edition ships the original runner under a new filename, a
+    # launcher under the original name, and an English edition of the protocol.
+    index = F9 / "SHA256SUMS.txt"
+    require(digest(index) == "dc3d6c8257d2a7a73352dc1c73ad8c66f16dd799318f802140dfb8ceda4b9fb2",
+            "Changed Fault 9 public file inventory")
+    published = {}
+    for line in index.read_text(encoding="utf-8").splitlines():
+        checksum, name = line.split("  ", 1)
+        published[name] = checksum
+
+    expected_files = dict(locked)
+    expected_files["run_study_frozen.py"] = locked["run_study.py"]
+    for name in ("run_study.py", "learning/assets/HISTORICAL_PROTOCOL.json"):
+        expected_files[name] = published[name]
+    for name, expected in expected_files.items():
+        require(digest(F9 / name) == expected, f"Changed Fault 9 source: {name}")
     for name, expected in final["all_outputs"].items():
         require(digest(complete / "outcomes" / name) == expected,
                 f"Changed Fault 9 result: {name}")
@@ -53,7 +70,7 @@ def check_files():
             "Changed Rust fixed score")
     require(digest(RUST / "protocol.json") == limits["protocol_sha256"],
             "Changed Rust protocol")
-    return {"status": "PASS", "locked_code_files": len(code["files"]),
+    return {"status": "PASS", "locked_code_files": len(locked),
             "locked_outcome_files": len(final["all_outputs"]),
             "recorded_run_identities": len(receipts)}
 
